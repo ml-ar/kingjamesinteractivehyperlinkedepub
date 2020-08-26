@@ -25,7 +25,7 @@ position += length(matchArray[0])
 			for (k in notes[i][j])
 			{
 
-				if (!match(cssFile,"id=\"([A-Z]|[0-9])+"i"_"j"\">[[:digit:]]+&#[[:digit:]]+;</span>",matchArray))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+				if (!match(cssFile,"id=\"([A-Z])+"leadingNumber""i"_"j"\">[[:digit:]]+&#[[:digit:]]+;</span>",matchArray))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
 				{
 					print "ERROR: couldn't find " i ":" j " in " cssFile; exit 1 
 				}
@@ -34,7 +34,7 @@ position += length(matchArray[0])
 				cssWriteMe = cssWriteMe"\n"
 
 
-					if (!match(cssFile,"id=\"([A-Z]|[0-9])+"i"_"j, matchArray)) #now we match just the relevant part to properly fill the footnote at the end
+					if (!match(cssFile,"id=\"([A-Z])+"leadingNumber""i"_"j, matchArray)) #now we match just the relevant part to properly fill the footnote at the end
 					{
 						print "ERROR: couldn't find " i ":" j " in " cssFile; exit 1 
 					}
@@ -56,6 +56,7 @@ print cssWriteMe > cssName
 
 BEGIN {
 book = ""
+leadingNumber = ""
 }
 
 {
@@ -71,22 +72,30 @@ book = ""
 		if (book)
 		{
 			writeCSS(bookCSSFile".test", bookCSS)
-                        delete notes;
+				delete notes;
 		}
-                bookCSSFile = ""
-		book = matchArray[0]
+		bookCSSFile = ""
+			book = matchArray[0]
+			if (match(book,/^\s*[[:digit:]]/, matchArray))
+			{
+					leadingNumber = gensub(/^\s*/,"","1",matchArray[0])
+			}
+			else
+			{
+				leadingNumber = ""
+			}
 
-			cmd = "grep '<title>King James Version + Apocrypha "book".*</title>$' *.xhtml"
+		cmd = "grep '<title>King James Version + Apocrypha "book".*</title>$' *.xhtml"
 			while ( ( cmd | getline result ) > 0 ) {
 				match(result,/^[^:]+/,matchArray)
 					bookCSSFile = matchArray[0]
 					break; #only need the first result
 			} 
-print "bookCSSFile = " bookCSSFile "; book = " book
-		if (!bookCSSFile)
-		{
-			print "ERROR: could not find CSS file for " book "; the line is " $0;  exit 1
-		}
+		print "bookCSSFile = " bookCSSFile "; book = " book
+			if (!bookCSSFile)
+			{
+				print "ERROR: could not find CSS file for " book "; the line is " $0;  exit 1
+			}
 
 
 		bookCSS = ""
