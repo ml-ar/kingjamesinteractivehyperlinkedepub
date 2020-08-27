@@ -47,6 +47,39 @@ function lastMatch(stringToCheck, regex, array,  mutilatedString,  pointer,  las
 	return pointer-1;
 }
 
+#takes a ref in the form of lf0610_footnote_nt005 and returns the name of the book the footnote appertains to (by scrubbing the webpage reference)
+function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpageReferenceVariable,  patsplitArray,  toReturn)
+{
+	if (!(refLocationInWebPagereference = index(webpageReferenceVariable,ref)))
+	{
+		print "ERROR: Could not find ref " ref " in the web page reference!"; print ref; exit 4;
+	} 
+
+	curtailedWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refLocationInWebPagereference)
+		patsplit(curtailedWebpageReferenceVariable, patsplitArray, /<div id="[^"]+" class="type-part [^"]+">/)
+		if (!isarray(patsplitArray) || length(patsplitArray) <= 0)
+		{
+			print "ERROR: could not parse the webpage resource for the book title"; exit 5;
+		}
+	toReturn = patsplitArray[length(patsplitArray)];
+	toReturn = gensub(/<div id="[^"]+" class="type-part\s*([^"]+)">/,"\\1","1",toReturn)
+			return toReturn;
+			}
+
+#returns the ref id from the current record
+function getRefFromLine(  ref,  matchArray)
+{
+	match($0, /href="[^"]+"/, matchArray)
+
+		if (!matchArray[0])
+		{
+			print "ERROR: Could not parse the href for " $0; exit 3;
+		}
+
+	ref = gensub(/href="([^"]+)"/,"\\1","1", matchArray[0])
+		ref = gensub(/_ref/,"","1",ref)
+return ref;
+}
 
 BEGIN {
 	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremoved.txt"
@@ -66,32 +99,12 @@ BEGIN {
 }
 
 {
-	match($0, /href="[^"]+"/, matchArray)
-
-		if (!matchArray[0])
-		{
-			print "ERROR: Could not parse the href for " $0; exit 3;
-		}
-
-	ref = gensub(/href="([^"]+)"/,"\\1","1", matchArray[0])
-        ref = gensub(/_ref/,"","1",ref)
-
+ref = getRefFromLine();
 #ref now holds the id in the form of lf0610_footnote_nt005
 
 		if (!book) #this if statement infers the book
 		{
-			if (!(refLocationInWebPagereference = index(webpageReferenceVariable,ref)))
-			{
-				print "ERROR: Could not find ref " ref " in the web page reference!"; print ref; exit 4;
-			} 
-			curtailedWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refLocationInWebPagereference)
-				patsplit(curtailedWebpageReferenceVariable, patsplitArray, /<div id="[^"]+" class="type-part [^"]+">/)
-				if (!isarray(patsplitArray) || length(patsplitArray) <= 0)
-				{
-					print "ERROR: could not parse the webpage resource for the book title"; exit 5;
-				}
-                 book = patsplitArray[length(patsplitArray)];
-                 book = gensub(/<div id="[^"]+" class="type-part\s*([^"]+)">/,"\\1","1",book)
+			book =	inferBookFromRefId(ref)
 		}
 #START WORK HERE: the book has properly been inferred for this note
 
