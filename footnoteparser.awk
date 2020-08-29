@@ -17,7 +17,8 @@
 #4: The program failed to find the href id in the web page refenence
 #5: The program could not find the book title in the web page resource
 #6: The program had a generic xhtml/book processing error
-
+#7: The program could not parse the chapter from the webpage resource
+#8: The program failed to extract the chapter number from the surrounding chapter tags in the webpage resource
 
 #takes a book and returns the name of the XHTML file that it's associated with
 #if it finds nothing, return null
@@ -102,13 +103,36 @@ return toReturn;
 
 #takes a ref in the form of lf0610_footnote_nt005 and returns the chapter for it
 
-#START WORK HERE 1.1
-function getChapterFromRef(ref)
+function getChapterFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable)
 {
+
+if (!(refPoint = index(webpageReferenceVariable, ref)))
+{
+print "ERROR: Could not locate the reference in " webpageReferenceFile; exit 4;
 }
 
-#START WORK HERE 1.2
-#takes a ref in the form of lf0610_footnote_nt005 and returns the verse for it
+tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint) 
+
+patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]\s*<div id="lf0610_div_[[:digit:]]+" class="type-chapter chapter_AV">\s*\n\s*<h2 id="lf0610_label_[[:digit:]]+">[[:digit:]]+<\/h2>/)
+
+if (!isarray(patsplitArray) || length(patsplitArray) <= 0)
+{
+ print "Error parsing chapter. Maybe the regex is broken."; exit 7;
+}
+
+match(patsplitArray[length(patsplitArray)], /([[:digit:]]+)<\/h2>/, matchArray)
+
+if (!isarray(matchArray) || length(matchArray) < 2) #there needs to be at least two in the match array, since we're using parentheses
+{
+ print "Error extracting the digit from the inferred chapter indicia. Maybe the regex is broken."; exit 8;
+}
+
+return (matchArray[1]);
+
+}
+
+#START WORK HERE 1
+#takes a ref in the form of lf0610_footnote_nt005 and returns the verse number for it
 function getVerseFromRef(ref)
 {
 }
@@ -130,39 +154,39 @@ BEGIN {
 }
 
 {
-	ref = getRefFromLine();
+	newBook = ""
+		ref = getRefFromLine();
 #ref now holds the id in the form of lf0610_footnote_nt005
 
-chapter = getChapterFromRef(ref)
-verse = getVerseFromRef(ref)
+	chapter = getChapterFromRef(ref)
+		verse = getVerseFromRef(ref)
 
 
 
 #START WORK HERE 2; have to improve workflow for multiple files
-	if (book && xhtmlFile) #the book and the file have been found from the last record; maybe this note pertains to the same book and same file
-	{
 
-	}
-	else
-	{
-		book =	inferBookFromRefId(ref)
+		newBook = inferBookFromRefId(ref)
+		if (newBook != book)
+		{
+			book = newBook;
+			xhtmlFile = findXhtmlFile(book)
+				xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+				if (!xhtmlFile || !xhtmlVariable || !book)
+				{
+					print "Error parsing book and xhtml for " ref; exit 6
+				}
+
+		}
 
 #now have to find in the appropriate xhtml file for this book
 
-			xhtmlFile = findXhtmlFile(book)
-			xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-			if (!xhtmlFile || !xhtmlVariable || !book)
-			{
-				print "Error parsing book and xhtml for " ref; exit 6
-			}
-	}
 
 
 # the book has properly been inferred for this note
 #xhtmlFile now holds the name of the file where the note pertains
-print book
-print xhtmlFile
-print xhtmlVariable
+	print book
+		print chapter
+		print xhtmlFile
 }
 
 END {
