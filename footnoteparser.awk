@@ -10,7 +10,8 @@
 #takes a footnote reference number (e.g., lf0610_footnote_nt005) and returns the xhtml file in which book appears
 
 
-#ERROR CODES
+#EXIT CODES
+#0: The program exited successfully
 #1: The program failed to find the xhtml file for the verse a footnote referenced
 #2: The program failed to parse the webpage reference file
 #3: The program failed to find the href id for the line in the footnote input file
@@ -19,7 +20,8 @@
 #6: The program had a generic xhtml/book processing error
 #7: The program could not parse the chapter from the webpage resource
 #8: The program failed to extract the chapter number from the surrounding chapter tags in the webpage resource
-
+#9: The program could not parse the verse from the webpage resource
+#10: The program failed to extract the verse number from the surrounding verse tags in the webpage resource
 #takes a book and returns the name of the XHTML file that it's associated with
 #if it finds nothing, return null
 function findXhtmlFile(book,  cmd,  result)
@@ -74,15 +76,15 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 #returns the ref id from the current record
 function getRefFromLine(  ref,  matchArray)
 {
-	match($0, /href="[^"]+"/, matchArray)
+match($0, /href="[^"]+"/, matchArray)
 
-		if (!matchArray[0])
-		{
-			print "ERROR: Could not parse the href for " $0; exit 3;
-		}
+if (!matchArray[0])
+{
+print "ERROR: Could not parse the href for " $0; exit 3;
+}
 
-	ref = gensub(/href="([^"]+)"/,"\\1","1", matchArray[0])
-		ref = gensub(/_ref/,"","1",ref)
+ref = gensub(/href="([^"]+)"/,"\\1","1", matchArray[0])
+ref = gensub(/_ref/,"","1",ref)
 return ref;
 }
 
@@ -90,13 +92,13 @@ return ref;
 #returns the complete text stored in a variable
 function storeTextFileInVariable(fileName,  toReturn,  line)
 {
-toReturn = ""
-	while ((getline line < fileName) > 0)
+	toReturn = ""
+		while ((getline line < fileName) > 0)
 		{
 			toReturn=toReturn "\n" line;
 		}
 
-return toReturn;
+	return toReturn;
 
 }
 
@@ -106,35 +108,58 @@ return toReturn;
 function getChapterFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable)
 {
 
-if (!(refPoint = index(webpageReferenceVariable, ref)))
-{
-print "ERROR: Could not locate the reference in " webpageReferenceFile; exit 4;
-}
+	if (!(refPoint = index(webpageReferenceVariable, ref)))
+	{
+		print "ERROR: Could not locate the reference in " webpageReferenceFile; exit 4;
+	}
 
-tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint) 
+	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint) 
 
-patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]\s*<div id="lf0610_div_[[:digit:]]+" class="type-chapter chapter_AV">\s*\n\s*<h2 id="lf0610_label_[[:digit:]]+">[[:digit:]]+<\/h2>/)
+		patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]\s*<div id="lf0610_div_[[:digit:]]+" class="type-chapter chapter_AV">\s*\n\s*<h2 id="lf0610_label_[[:digit:]]+">[[:digit:]]+<\/h2>/)
 
-if (!isarray(patsplitArray) || length(patsplitArray) <= 0)
-{
- print "Error parsing chapter. Maybe the regex is broken."; exit 7;
-}
+		if (!isarray(patsplitArray) || length(patsplitArray) <= 0)
+		{
+			print "Error parsing chapter. Maybe the regex is broken."; exit 7;
+		}
 
-match(patsplitArray[length(patsplitArray)], /([[:digit:]]+)<\/h2>/, matchArray)
+	match(patsplitArray[length(patsplitArray)], /([[:digit:]]+)<\/h2>/, matchArray)
 
-if (!isarray(matchArray) || length(matchArray) < 2) #there needs to be at least two in the match array, since we're using parentheses
-{
- print "Error extracting the digit from the inferred chapter indicia. Maybe the regex is broken."; exit 8;
-}
+		if (!isarray(matchArray) || length(matchArray) < 2) #there needs to be at least two in the match array, since we're using parentheses
+		{
+			print "Error extracting the digit from the inferred chapter indicia. Maybe the regex is broken."; exit 8;
+		}
 
-return (matchArray[1]);
+	return (matchArray[1]);
 
 }
 
 #START WORK HERE 1
 #takes a ref in the form of lf0610_footnote_nt005 and returns the verse number for it
-function getVerseFromRef(ref)
+function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable)
 {
+	if (!(refPoint = index(webpageReferenceVariable, ref)))
+	{
+		print "ERROR: Could not locate the reference in " webpageReferenceFile; exit 4;
+	}
+
+	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint) 
+
+		patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]<p id="Bible_0610_OldAuth_[[:digit:]]+"><span id="lf0610_label_[[:digit:]]+">([[:digit:]]+)<\/span>/)
+
+		if (!isarray(patsplitArray) || length(patsplitArray) <= 0)
+		{
+			print "Error parsing verse. Maybe the regex is broken."; exit 9;
+		}
+
+
+	match(patsplitArray[length(patsplitArray)], /([[:digit:]]+)<\/span>/, matchArray)
+
+		if (!isarray(matchArray) || length(matchArray) < 2) #there needs to be at least two in the match array, since we're using parentheses
+		{
+			print "Error extracting the digit from the inferred verse indicia. Maybe the regex is broken."; exit 10;
+		}
+
+return (matchArray[1]);
 }
 
 
@@ -185,8 +210,7 @@ BEGIN {
 # the book has properly been inferred for this note
 #xhtmlFile now holds the name of the file where the note pertains
 	print book
-		print chapter
-		print xhtmlFile
+		print chapter ":" verse
 }
 
 END {
