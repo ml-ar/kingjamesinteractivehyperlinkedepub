@@ -22,6 +22,8 @@
 #8: The program failed to extract the chapter number from the surrounding chapter tags in the webpage resource
 #9: The program could not parse the verse from the webpage resource
 #10: The program failed to extract the verse number from the surrounding verse tags in the webpage resource
+#11: The program failed to split the web page resource verse into just its text
+#12: The program could not find an appropriate XHTML for the associated book
 #takes a book and returns the name of the XHTML file that it's associated with
 #if it finds nothing, return null
 function findXhtmlFile(book,  cmd,  result)
@@ -30,7 +32,7 @@ function findXhtmlFile(book,  cmd,  result)
 cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" Original\\ epub/*.xhtml"
  if ((cmd | getline result) <= 0)
  {
-   return ""
+   print "ERROR: Could not find XHTML file for " book; exit 12
  }
  return result;
 }
@@ -133,7 +135,6 @@ function getChapterFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWeb
 
 }
 
-#START WORK HERE 1
 #takes a ref in the form of lf0610_footnote_nt005 and returns the verse number for it
 function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable)
 {
@@ -162,6 +163,47 @@ function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpa
 return (matchArray[1]);
 }
 
+#this function takes a ref in the form of lf0610_footnote_nt005 and returns the text before it of the same verse
+#for example, say the ref pertains to genesis 1:1
+#In the beginning God created the heaven and the earth.
+#If the ref is directly after heaven, then this function returns: "In the beginning God created the heaven"
+function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  sepsArray,  toReturn,  i)
+{
+
+	regex = "[\n]\\s*[^\n]+"ref"[^\n]+\n"
+
+		if (!(match(webpageReferenceVariable, regex, matchArray)))
+		{
+			print "ERROR: Could not find the verse the ref refers to."; exit 4
+		}
+
+	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace`
+		matchArray[0] = gensub(/&#x[[:digit:]]+;\s*/,"","1",matchArray[0]) #getting rid of hex digits
+
+		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)/, sepsArray)
+		toReturn = ""
+
+		if (!(1 in splitArray) || !isarray(splitArray))
+		{
+			print "Error splitting the webpage resource verse to get just the text of the verse."; exit 11;
+		}
+
+	for (i in splitArray)
+	{
+		toReturn = toReturn splitArray[i]
+			if (sepsArray[i] ~ ref) #stop parsing the text if the next is the note; at the end of this is where you need to insert the note
+			{
+				break;
+			}
+	}
+
+
+	toReturn = gensub(/^\s*|\s*$/,"","1",toReturn) #getting rid of leading and trailing whitespace`
+
+		return toReturn;
+
+}
+
 
 BEGIN {
 	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremoved.txt"
@@ -183,9 +225,10 @@ BEGIN {
 		ref = getRefFromLine();
 #ref now holds the id in the form of lf0610_footnote_nt005
 
+verseText = ""
 	chapter = getChapterFromRef(ref)
 		verse = getVerseFromRef(ref)
-
+verseText = getPrecedingVerseTextFromRef(ref)
 
 
 #START WORK HERE 2; have to improve workflow for multiple files
@@ -203,14 +246,21 @@ BEGIN {
 
 		}
 
+
 #now have to find in the appropriate xhtml file for this book
 
 
 
-# the book has properly been inferred for this note
+# the book, chapter, and verse have been properly inferred for this note
 #xhtmlFile now holds the name of the file where the note pertains
 	print book
 		print chapter ":" verse
+print verseText
+
+
+#START WORK HERE; can properly extract book, chapter, verse, and text before each footnote; now figure out how to write the new CSS (look in awkscript.awk for a suggestion)
+
+
 }
 
 END {
