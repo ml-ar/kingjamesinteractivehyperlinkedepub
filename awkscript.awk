@@ -130,7 +130,7 @@ leadingNumber = ""
 
 
 
-#notes anatomy: notes[chapter][verse][text]
+#notes anatomy: notes[chapter][verse][noteNumber]
 		notes[chapter][verse][length(notes[chapter][verse])+1] = strippedLine
 
 }

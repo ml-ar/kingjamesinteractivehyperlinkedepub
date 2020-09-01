@@ -24,6 +24,7 @@
 #10: The program failed to extract the verse number from the surrounding verse tags in the webpage resource
 #11: The program failed to split the web page resource verse into just its text
 #12: The program could not find an appropriate XHTML for the associated book
+#13: The program could not find the proper place for the list of endnotes at the end of the xhtml file
 #takes a book and returns the name of the XHTML file that it's associated with
 #if it finds nothing, return null
 function findXhtmlFile(book,  cmd,  result)
@@ -44,7 +45,7 @@ function lastMatch(stringToCheck, regex, array,  mutilatedString,  pointer,  las
     print "FATAL ERROR: empty regex passed to function lastMatch. This was the string to check: \n" stringToCheck
     exit 1
    }
- 
+
 	mutilatedString = stringToCheck;
 	pointer = 1;
 	while (lastPosition = match(mutilatedString, regex, array))
@@ -62,7 +63,7 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 	if (!(refLocationInWebPagereference = index(webpageReferenceVariable,ref)))
 	{
 		print "ERROR: Could not find ref " ref " in the web page reference!"; print ref; exit 4;
-	} 
+	}
 
 	curtailedWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refLocationInWebPagereference)
 		patsplit(curtailedWebpageReferenceVariable, patsplitArray, /<div id="[^"]+" class="type-part [^"]+">/)
@@ -115,7 +116,7 @@ function getChapterFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWeb
 		print "ERROR: Could not locate the reference in " webpageReferenceFile; exit 4;
 	}
 
-	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint) 
+	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint)
 
 		patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]\s*<div id="lf0610_div_[[:digit:]]+" class="type-chapter chapter_AV">\s*\n\s*<h2 id="lf0610_label_[[:digit:]]+">[[:digit:]]+<\/h2>/)
 
@@ -143,7 +144,7 @@ function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpa
 		print "ERROR: Could not locate the reference in " webpageReferenceFile; exit 4;
 	}
 
-	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint) 
+	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint)
 
 		patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]<p id="Bible_0610_OldAuth_[[:digit:]]+"><span id="lf0610_label_[[:digit:]]+">([[:digit:]]+)<\/span>/)
 
@@ -204,6 +205,26 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 
 }
 
+#this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
+#xhtmlvariable: the full xhtml file of
+#footnotes: an array, with this anatomy: footnotes[(int)chapter][(int)verse][(string)precedingVerseText][(string)symbol] = footnote text
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  cssWriteMe,  restOfCSSWriteMe,  footnoteNumber,  position)
+{
+footnoteNumber = 1
+	if (!(position = match(cssFile,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
+	{
+		print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+	}
+
+cssWriteMe = substr(cssFile, 1, position-1+length(matchArray[0]))
+restOfCSSWriteMe = substr(cssFile, position+length(matchArray[0]))
+
+#START WORK HERE: need to write the file; take guidance from awkscript.awk
+
+
+#Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
+
+}
 
 BEGIN {
 	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremoved.txt"
@@ -221,15 +242,16 @@ BEGIN {
 }
 
 {
-	newBook = ""
+	match($0,/nt005_ref">\s*(.)\s*<\/a>/, matchArray)
+		footnoteSymbol = matchArray[1] #getting footnote symbol, e.g., †, *
+		newBook = ""
 		ref = getRefFromLine();
 #ref now holds the id in the form of lf0610_footnote_nt005
 
 verseText = ""
-	chapter = getChapterFromRef(ref)
-		verse = getVerseFromRef(ref)
+       chapter = getChapterFromRef(ref)
+               verse = getVerseFromRef(ref)
 verseText = getPrecedingVerseTextFromRef(ref)
-
 
 #START WORK HERE 2; have to improve workflow for multiple files
 
@@ -255,13 +277,34 @@ verseText = getPrecedingVerseTextFromRef(ref)
 #xhtmlFile now holds the name of the file where the note pertains
 	print book
 		print chapter ":" verse
-print verseText
+		print verseText
 
+#parsing the marginal note text itself
+		footnoteText = gensub(/(<[^>]+>)+$/,"","1")
+		footnoteText = gensub(/^.+>\s*/,"","1", footnoteText);
+
+#footnotes anatomy:
+#book: plain bible book title
+#chapter: chapter number
+#verse:
+
+
+
+#footnotes anatomy:
+#book (string): plain bible book title
+#chapter (int): chapter number
+#verse (int): the plain verse number
+#footnoteSymbol (string): the symbol associated with the footnote
+#verseText: the text located between the start of the verse and ending at where the footnote symbol is to be (this might be blank, i.e., the footnote is right at the beginning of the line
+#footnoteText (string): The actual footnote text
+# 		It is possible, but not likely, that you have two footnotes with the exact same book, chapter, verse, and verseText (i.e., right next to each other). Make sure you keep that in mind.
+
+		footnotes[book][chapter][verse][verseText][footnoteSymbol] = footnoteText
 
 #START WORK HERE; can properly extract book, chapter, verse, and text before each footnote; now figure out how to write the new CSS (look in awkscript.awk for a suggestion)
 
 
-}
+		}
 
 END {
 exit 0;
