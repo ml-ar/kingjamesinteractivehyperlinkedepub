@@ -25,6 +25,17 @@
 #11: The program failed to split the web page resource verse into just its text
 #12: The program could not find an appropriate XHTML for the associated book
 #13: The program could not find the proper place for the list of endnotes at the end of the xhtml file
+#14: The program failed to find the chapter and verse in the appropriate XHTML
+#15: The leading number finder found two or more leading numbers
+#16: The program failed to find the preceding verse text in the xhtml
+
+
+function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
+function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
+function trim(s) { return rtrim(ltrim(s)); }
+
+
+
 #takes a book and returns the name of the XHTML file that it's associated with
 #if it finds nothing, return null
 function findXhtmlFile(book,  cmd,  result)
@@ -205,40 +216,136 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 
 }
 
-#this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
-#xhtmlvariable: the full xhtml file of
-#footnotes: an array, with this anatomy: footnotes[(int)chapter][(int)verse][(string)precedingVerseText][(string)symbol] = footnote text
-function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  cssWriteMe,  restOfCSSWriteMe,  footnoteNumber,  position)
+#takes a string like <span class="verse" id="MT5_11">11&#160;</span> <span class='wj'> Blessed are ye, when <span class='add'>men</span> shall revile you, and persecute <span class='add'>you</span>, and shall say all manner of evil against you falsely, for my sake.</span>
+
+#and returns just the text
+function getVerseTextFromLine
+
+#if the string begins with a number, simply return the number; if it begins with more than two numbers, throw an error
+function getLeadingNumber(string,  matchArray)
 {
-footnoteNumber = 1
-	if (!(position = match(cssFile,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
+	if (match(string, /^\s*[[:digit:]]{2,}/))
 	{
-		print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+		print "ERROR: " string " has two leading numbers"; exit 15;
 	}
+	else if (match(string, /^\s*([[:digit:]])/, matchArray))
+	{
+		return matchArray[1];
+	}
+	else
+	{
+		return "";
+	}
+}
 
-cssWriteMe = substr(cssFile, 1, position-1+length(matchArray[0]))
-restOfCSSWriteMe = substr(cssFile, position+length(matchArray[0]))
+#returns fullVerseLine, but modified with the footnote symbol in the right place
 
-#START WORK HERE: need to write the file; take guidance from awkscript.awk
+#fullVerseLine: a full line (with newlines at the beginning at end), like: <span class="verse" id="C11_11">11&#160;</span> For it hath been declared unto me of you, my brethren, by them <span class='add'>which are of the house</span> of Chloe, that there are contentions among you. 
+#precedingWords: the verse text before which the footnote symbol is to come
+#footnoteSymbol: the symbol by which to demarcate the prescence of the note
+#footnoteNumber: the number to ascribe to the footnote
 
 
-#Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  splitArray,  sepsArray,  position,  toReturn,  continue,  o)
+{
+	toReturn = ""
+		continue = ""
+#now we split the matched verse into its constituent parts
+		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+		precedingWords = trim(precedingWords)
+		for (o in splitArray)
+		{
+			if (position = index(splitArray[0],precedingWords)) #we found the section in the xhtml where the footnote is to be inserted
+			{
+
+#START WORK HERE 1
+#have to properly insert the footnote into the verse
+#toReturn = toReturn "" splitArray[0] ""
+
+				continue = o;
+				break;
+			}
+			else
+			{
+				toReturn = toReturn "" splitArray[o] "" sepsArray[o]
+			}
+
+			if (o == length(splitArray))
+			{
+				print "ERROR: Could not find " l " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
+			}
+		}
 
 }
 
+
+#this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
+#xhtmlvariable: the full xhtml file of
+#footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  cssWriteMe,  restOfCSSWriteMe,  newVerse,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+{
+	footnoteNumber = 1
+		if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
+		{
+			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+		}
+
+	cssWriteMe = substr(cssFile, 1, endnotesPosition-1+length(matchArray[0]))
+		restOfCSSWriteMe = substr(cssFile, endnotesPosition+length(matchArray[0]))
+
+
+		for (i in footnotes) #book
+		{
+                    leadingNumber = getLeadingNumber(i);
+			for (j in footnotes[i]) #chapter
+			{
+				for (k in footnotes[i][j]) #verse
+				{
+					for (l in footnotes[i][j][k]) #precedingVerseText
+					{
+						for (m in footnotes[i][j][k][l]) #index
+						{
+							for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
+							{
+
+
+#first isolate the line where it takes place
+								if (!(versePosition = match(cssWriteMe,"[\n^]\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+								{
+									print "ERROR: couldn't find " j ":" k " in " xhtmlFile; exit 14 
+								}
+
+
+newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber++)
+#START WORK HERE 2: have to now add the footnote at the end
+
+
+
+							}
+						}
+					}
+				}
+			}
+		}
+
+#Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
+
+							}
+
 BEGIN {
 	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremoved.txt"
-	webpageReferenceVariable = storeTextFileInVariable(webpageReferenceFile)
+		webpageReferenceVariable = storeTextFileInVariable(webpageReferenceFile)
 		if (!webpageReferenceVariable)
-	{
-		print "ERROR parsing the webpage reference file to locate notes! Perhaps you mispelled the file name: " webpageReferenceFile
-		exit 2
-	}
+		{
+			print "ERROR parsing the webpage reference file to locate notes! Perhaps you mispelled the file name: " webpageReferenceFile
+				exit 2
+		}
 
 	book = ""
-        chapter = ""
+		chapter = ""
 		verse = ""
-       xhtmlFile = ""
+		xhtmlFile = ""
+		OFS = ""
 }
 
 {
@@ -253,7 +360,7 @@ verseText = ""
                verse = getVerseFromRef(ref)
 verseText = getPrecedingVerseTextFromRef(ref)
 
-#START WORK HERE 2; have to improve workflow for multiple files
+#START WORK HERE 3; have to improve workflow for multiple files
 
 		newBook = inferBookFromRefId(ref)
 		if (newBook != book)
@@ -297,11 +404,12 @@ verseText = getPrecedingVerseTextFromRef(ref)
 #footnoteSymbol (string): the symbol associated with the footnote
 #verseText: the text located between the start of the verse and ending at where the footnote symbol is to be (this might be blank, i.e., the footnote is right at the beginning of the line
 #footnoteText (string): The actual footnote text
+#the fifth array index is just a counter so that the notes can be inserted in the right order
 # 		It is possible, but not likely, that you have two footnotes with the exact same book, chapter, verse, and verseText (i.e., right next to each other). Make sure you keep that in mind.
 
-		footnotes[book][chapter][verse][verseText][footnoteSymbol] = footnoteText
+		footnotes[book][chapter][verse][verseText][length(footnotes[book][chapter][verse])+1][footnoteSymbol] = footnoteText
 
-#START WORK HERE; can properly extract book, chapter, verse, and text before each footnote; now figure out how to write the new CSS (look in awkscript.awk for a suggestion)
+#can properly extract book, chapter, verse, and text before each footnote; now figure out how to write the new CSS (look in awkscript.awk for a suggestion)
 
 
 		}
