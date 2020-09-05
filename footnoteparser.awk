@@ -29,7 +29,6 @@
 #15: The leading number finder found two or more leading numbers
 #16: The program failed to find the preceding verse text in the xhtml
 
-
 function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
 function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
@@ -219,7 +218,6 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 #takes a string like <span class="verse" id="MT5_11">11&#160;</span> <span class='wj'> Blessed are ye, when <span class='add'>men</span> shall revile you, and persecute <span class='add'>you</span>, and shall say all manner of evil against you falsely, for my sake.</span>
 
 #and returns just the text
-function getVerseTextFromLine
 
 #if the string begins with a number, simply return the number; if it begins with more than two numbers, throw an error
 function getLeadingNumber(string,  matchArray)
@@ -253,6 +251,11 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #now we split the matched verse into its constituent parts
 		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
 		precedingWords = trim(precedingWords)
+
+#START WORK HERE 1:
+#This loop is completely broken. It does not work if the "preceding words" have italic markers in them, e.g:
+#<span class="verse" id="GN1_4">4&#160;</span> And God saw the light, that <span class='add'>it was</span> good: and God divided the light from the darkness.
+
 		for (o in splitArray)
 		{
 			if (position = index(splitArray[o],precedingWords)) #we found the section in the xhtml where the footnote is to be inserted
@@ -282,7 +285,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
 #xhtmlvariable: the full xhtml file of
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
-function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  cssWriteMe,  restOfCSSWriteMe,  newVerse,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 	footnoteNumber = 1
 		if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
@@ -290,10 +293,8 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  cssWriteMe,  restOfCSSWr
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
 		}
 
-	cssWriteMe = substr(cssFile, 1, endnotesPosition-1+length(matchArray[0]))
-		restOfCSSWriteMe = substr(cssFile, endnotesPosition+length(matchArray[0]))
-
-
+	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1+length(matchArray[0]))
+		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition+length(matchArray[0]))
 		for (i in footnotes) #book
 		{
                     leadingNumber = getLeadingNumber(i);
@@ -310,14 +311,29 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  cssWriteMe,  restOfCSSWr
 
 
 #first isolate the line where it takes place
-								if (!(versePosition = match(cssWriteMe,"[\n^]\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+								if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
 								{
-									print "ERROR: couldn't find " j ":" k " in " xhtmlFile; exit 14 
+									print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
 								}
 
 
-newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber++)
-#START WORK HERE 2: have to now add the footnote at the end
+								newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
+
+#now we insert the newVerse where the old verse was
+									xhtmlWriteMe = gensub(matchArray[0], newVerse, "1", xhtmlWriteMe)
+
+
+									if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
+									{
+										print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+									}
+
+
+								matchArray[0] = gensub(/id="/,"","1",matchArray[0])
+									matchArray[0] = gensub(/"/,"","g",matchArray[0])
+
+
+									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnote++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"matchArray[0]"\"><span class=\"notemark\">*</span> "i"."j"</a>\n <span class=\"ft\">"notes[i][j][k]"</span></p></aside>";
 
 
 
@@ -328,6 +344,11 @@ newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber++)
 			}
 		}
 
+
+xhtmlWriteMe = xhtmlWriteMe "\n" restOfCSSWriteMe;
+
+#START WORK HERE 2; test this function
+print xhtmlWriteMe > xhtmlFile ".output"
 #Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
 
 							}
@@ -365,6 +386,10 @@ verseText = getPrecedingVerseTextFromRef(ref)
 		newBook = inferBookFromRefId(ref)
 		if (newBook != book)
 		{
+                       if (book && xhtmlFile && xhtmlVariable) #have to write
+{
+writeCSS(xhtmlFile, xhtmlVariable, footnotes)
+}
 			book = newBook;
 			xhtmlFile = findXhtmlFile(book)
 				xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -372,7 +397,7 @@ verseText = getPrecedingVerseTextFromRef(ref)
 				{
 					print "Error parsing book and xhtml for " ref; exit 6
 				}
-
+delete footnotes;
 		}
 
 
@@ -415,5 +440,6 @@ verseText = getPrecedingVerseTextFromRef(ref)
 		}
 
 END {
+writeCSS(xhtmlFile, xhtmlVariable, footnotes) #do one last write
 exit 0;
 }
