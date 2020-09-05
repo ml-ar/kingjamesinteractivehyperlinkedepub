@@ -246,35 +246,35 @@ function getLeadingNumber(string,  matchArray)
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  splitArray,  sepsArray,  position,  toReturn,  continue,  o)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  splitArray,  sepsArray,  found,  position,  toReturn,  o)
 {
+	found = ""
 	toReturn = ""
-		continue = ""
 #now we split the matched verse into its constituent parts
 		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
 		precedingWords = trim(precedingWords)
 		for (o in splitArray)
 		{
-			if (position = index(splitArray[0],precedingWords)) #we found the section in the xhtml where the footnote is to be inserted
+			if (position = index(splitArray[o],precedingWords)) #we found the section in the xhtml where the footnote is to be inserted
 			{
+				found = "ja"
+					toReturn = toReturn substr(splitArray[o], 1, position-1+length(precedingWords)) ##first chop the verse into everything before
+					toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+					toReturn = toReturn substr(splitArray[o], position+length(precedingWords)) seps[o] #now add the rest of the verse
 
-#START WORK HERE 1
-#have to properly insert the footnote into the verse
-#toReturn = toReturn "" splitArray[0] ""
-
-				continue = o;
-				break;
 			}
 			else
 			{
 				toReturn = toReturn "" splitArray[o] "" sepsArray[o]
 			}
 
-			if (o == length(splitArray))
+			if (o == length(splitArray) && !found)
 			{
 				print "ERROR: Could not find " l " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
 			}
 		}
+
+	return toReturn
 
 }
 
