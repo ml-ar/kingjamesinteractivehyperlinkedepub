@@ -244,43 +244,53 @@ function getLeadingNumber(string,  matchArray)
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  splitArray,  sepsArray,  found,  position,  toReturn,  o)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  sepsArray,  found,  position,  toReturn,  o)
 {
 	found = ""
-	toReturn = ""
+		toReturn = ""
 #now we split the matched verse into its constituent parts
 		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
-		precedingWords = trim(precedingWords)
 
-#START WORK HERE 1:
-#This loop is completely broken. It does not work if the "preceding words" have italic markers in them, e.g:
-#<span class="verse" id="GN1_4">4&#160;</span> And God saw the light, that <span class='add'>it was</span> good: and God divided the light from the darkness.
 
+verseTextOnly = ""
 		for (o in splitArray)
-		{
-			if (position = index(splitArray[o],precedingWords)) #we found the section in the xhtml where the footnote is to be inserted
-			{
-				found = "ja"
-					toReturn = toReturn substr(splitArray[o], 1, position-1+length(precedingWords)) ##first chop the verse into everything before
-					toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
-					toReturn = toReturn substr(splitArray[o], position+length(precedingWords)) seps[o] #now add the rest of the verse
+		{ 
 
-			}
-			else
-			{
-				toReturn = toReturn "" splitArray[o] "" sepsArray[o]
-			}
+			verseTextOnly = verseTextOnly "" splitArray[o]
+				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
+				{
+found = "ja"
 
-			if (o == length(splitArray) && !found)
-			{
-				print "ERROR: Could not find " l " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
-			}
+						if (length(verseTextOnly) == length(precedingWords)) #it's the same length; put it after the seps
+						{
+							toReturn = toReturn "" splitArray[o] "" sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+						}
+						else #the text goes longer than the preceding words; this means that the footnote is somewhere in the middle of this element
+						{
+							toReturn = toReturn substr(splitArray[o], 1, position+length(precedingWords)) ##first chop the verse into everything before
+								toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) seps[o] #now add the rest of the verse
+
+						}
+
+				}
+				else
+				{
+					toReturn = toReturn "" splitArray[o] "" sepsArray[o]
+				}
+
+
 		}
+
+
+	if (!found)
+	{
+		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
+	}
 
 	return toReturn
 
 }
-
 
 #this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
 #xhtmlvariable: the full xhtml file of
@@ -316,13 +326,11 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 									print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
 								}
 
-
 								newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
-
 #now we insert the newVerse where the old verse was
-									xhtmlWriteMe = gensub(matchArray[0], newVerse, "1", xhtmlWriteMe)
 
-
+#START WORK HERE 1: The line following is broken, and I have no idea why. Perhaps instead of using gensub, write a literal gensub function
+									xhtmlWriteMe = gensub(matchArray[0], newVerse, 1, xhtmlWriteMe)
 									if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
 									{
 										print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
@@ -333,7 +341,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 									matchArray[0] = gensub(/"/,"","g",matchArray[0])
 
 
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnote++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"matchArray[0]"\"><span class=\"notemark\">*</span> "i"."j"</a>\n <span class=\"ft\">"notes[i][j][k]"</span></p></aside>";
+									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"matchArray[0]"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
 
 
 
@@ -370,7 +378,7 @@ BEGIN {
 }
 
 {
-	match($0,/nt005_ref">\s*(.)\s*<\/a>/, matchArray)
+	match($0,/nt[[:digit:]]+_ref">\s*(.)\s*<\/a>/, matchArray)
 		footnoteSymbol = matchArray[1] #getting footnote symbol, e.g., †, *
 		newBook = ""
 		ref = getRefFromLine();
@@ -380,7 +388,6 @@ verseText = ""
        chapter = getChapterFromRef(ref)
                verse = getVerseFromRef(ref)
 verseText = getPrecedingVerseTextFromRef(ref)
-
 #START WORK HERE 3; have to improve workflow for multiple files
 
 		newBook = inferBookFromRefId(ref)
