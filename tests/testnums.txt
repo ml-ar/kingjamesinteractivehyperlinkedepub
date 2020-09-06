@@ -1,0 +1,44 @@
+BEGIN {
+
+if ("1" == 1)
+{
+print "1 = 1"
+}
+else
+{
+print "1 does not equal 1"
+}
+
+if ("2" > 1)
+{
+print "\"2"" is greater than 1"
+}
+else
+{
+
+print "\"2"" is not greater than 1"
+}
+
+if ("lol" > 10000000000000000000)
+{
+print "lol is greater than 1000000000000000000000"
+}
+else if ("lol" < 1)
+{
+print "lol is less than 1"
+}
+else if ("lol" >= 1)
+{
+ print "lol is greater than or equal to one"
+}
+else if ("lol"<= 1)
+{
+
+ print "lol is greater than or equal to one"
+}
+else
+{
+print "lol is weird"
+}
+
+}

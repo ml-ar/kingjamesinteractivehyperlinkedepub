@@ -1,0 +1,58 @@
+function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
+{
+
+	toReturn = ""
+		if (!string)
+		{
+			string = $0
+		}
+
+
+
+	mutilatedString = string
+
+		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
+		{
+			number = 1
+		}
+
+
+	if (!(position = index(string, literalPattern)))
+	{
+		return literalPattern;
+	}
+
+
+	if (match(number,/^[Gg]/)) #replace all
+	{
+		while (position = index(mutilatedString, literalPattern))
+		{
+			toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	else if (match(number,/^([[:digit:]]+)/, matchArray))
+	{
+		for (i = 0; i < matchArray[0]; ++i)
+		{
+			position = index(mutilatedString, literalPattern)
+				toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	toReturn = toReturn mutilatedString
+
+		return toReturn;
+
+
+}
+
+BEGIN {
+FS = ","
+}
+
+{
+print literalgensub($2, $3, $4, $1) #Records are like this: string,patternToMatch,ReplacementPattern,NumberOfTimes
+}

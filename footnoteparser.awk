@@ -28,12 +28,67 @@
 #14: The program failed to find the chapter and verse in the appropriate XHTML
 #15: The leading number finder found two or more leading numbers
 #16: The program failed to find the preceding verse text in the xhtml
-
+#17: Bug in literalgensub, it could not iterate the appropriate number of times
 function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
 function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
 
 
+#just like gensub, except it works on literals instead of regexes
+function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
+{
+
+	toReturn = ""
+		if (!string)
+		{
+			string = $0
+		}
+
+
+
+	mutilatedString = string
+
+		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
+		{
+			number = 1
+		}
+
+
+	if (!(position = index(string, literalPattern)))
+	{
+		return string;
+	}
+
+
+	if (match(number,/^[Gg]/)) #replace all
+	{
+		while (position = index(mutilatedString, literalPattern))
+		{
+			toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	else if (match(number,/^([[:digit:]]+)/, matchArray))
+	{
+		for (i = 0; i < matchArray[0]; ++i)
+		{
+			position = index(mutilatedString, literalPattern)
+				toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+       else
+       {
+	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
+       }
+	toReturn = toReturn mutilatedString
+
+		return toReturn;
+
+
+}
 
 #takes a book and returns the name of the XHTML file that it's associated with
 #if it finds nothing, return null
@@ -269,7 +324,7 @@ found = "ja"
 						{
 							toReturn = toReturn substr(splitArray[o], 1, position+length(precedingWords)) ##first chop the verse into everything before
 								toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
-								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) seps[o] #now add the rest of the verse
+								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) sepsArray[o] #now add the rest of the verse
 
 						}
 
@@ -318,6 +373,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 						{
 							for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
 							{
+print "footnote to print: " footnotes[i][j][k][l][m][n]
 
 
 #first isolate the line where it takes place
@@ -328,9 +384,12 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 
 								newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
+print " newVerse is " newVerse "; old verse is " matchArray[0]
 
-#START WORK HERE 1: The line following is broken, and I have no idea why. Perhaps instead of using gensub, write a literal gensub function
-									xhtmlWriteMe = gensub(matchArray[0], newVerse, 1, xhtmlWriteMe)
+
+									xhtmlWriteMe = literalgensub(matchArray[0], newVerse, 1, xhtmlWriteMe)
+print "xhtmlWrite me is: " xhtmlWriteMe
+
 									if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
 									{
 										print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
@@ -352,10 +411,8 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 			}
 		}
 
-
 xhtmlWriteMe = xhtmlWriteMe "\n" restOfCSSWriteMe;
 
-#START WORK HERE 2; test this function
 print xhtmlWriteMe > xhtmlFile ".output"
 #Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
 
@@ -384,19 +441,20 @@ BEGIN {
 		ref = getRefFromLine();
 #ref now holds the id in the form of lf0610_footnote_nt005
 
-verseText = ""
-       chapter = getChapterFromRef(ref)
-               verse = getVerseFromRef(ref)
-verseText = getPrecedingVerseTextFromRef(ref)
-#START WORK HERE 3; have to improve workflow for multiple files
+	verseText = ""
+		chapter = getChapterFromRef(ref)
+		verse = getVerseFromRef(ref)
+		verseText = getPrecedingVerseTextFromRef(ref)
+#START WORK HERE: have to improve workflow for multiple files: I think everything is working though
 
 		newBook = inferBookFromRefId(ref)
 		if (newBook != book)
 		{
-                       if (book && xhtmlFile && xhtmlVariable) #have to write
-{
-writeCSS(xhtmlFile, xhtmlVariable, footnotes)
-}
+			if (book && xhtmlFile && xhtmlVariable) #have to write
+			{
+				print "printing book;"
+					writeCSS(xhtmlFile, xhtmlVariable, footnotes)
+			}
 			book = newBook;
 			xhtmlFile = findXhtmlFile(book)
 				xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -404,7 +462,7 @@ writeCSS(xhtmlFile, xhtmlVariable, footnotes)
 				{
 					print "Error parsing book and xhtml for " ref; exit 6
 				}
-delete footnotes;
+			delete footnotes;
 		}
 
 
@@ -414,13 +472,13 @@ delete footnotes;
 
 # the book, chapter, and verse have been properly inferred for this note
 #xhtmlFile now holds the name of the file where the note pertains
+#parsing the marginal note text itself
+	footnoteText = gensub(/(<[^>]+>)+$/,"","1")
+		footnoteText = gensub(/^.+>\s*/,"","1", footnoteText);
 	print book
 		print chapter ":" verse
 		print verseText
-
-#parsing the marginal note text itself
-		footnoteText = gensub(/(<[^>]+>)+$/,"","1")
-		footnoteText = gensub(/^.+>\s*/,"","1", footnoteText);
+print footnoteText
 
 #footnotes anatomy:
 #book: plain bible book title
@@ -447,6 +505,7 @@ delete footnotes;
 		}
 
 END {
+print "printing book at the end"
 writeCSS(xhtmlFile, xhtmlVariable, footnotes) #do one last write
 exit 0;
 }

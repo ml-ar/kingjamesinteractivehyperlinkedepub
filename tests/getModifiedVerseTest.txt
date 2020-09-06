@@ -1,0 +1,55 @@
+function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
+function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
+function trim(s) { return rtrim(ltrim(s)); }
+
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  sepsArray,  found,  position,  toReturn,  o)
+{
+	found = ""
+		toReturn = ""
+#now we split the matched verse into its constituent parts
+		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+
+
+verseTextOnly = ""
+		for (o in splitArray)
+		{ 
+
+			verseTextOnly = verseTextOnly "" splitArray[o]
+				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
+				{
+found = "ja"
+
+						if (length(verseTextOnly) == length(precedingWords)) #it's the same length; put it after the seps
+						{
+							toReturn = toReturn "" splitArray[o] "" sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+						}
+						else #the text goes longer than the preceding words; this means that the footnote is somewhere in the middle of this element
+						{
+							toReturn = toReturn substr(splitArray[o], 1, position+length(precedingWords)) ##first chop the verse into everything before
+								toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) sepsArray[o] #now add the rest of the verse
+
+						}
+
+				}
+				else
+				{
+					toReturn = toReturn "" splitArray[o] "" sepsArray[o]
+				}
+
+
+		}
+
+
+	if (!found)
+	{
+		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
+	}
+
+	return toReturn
+
+}
+
+{
+print getModifiedVerse($0, "And God called the light Day, and the darkness he called Night. ", "*", 1)
+}
