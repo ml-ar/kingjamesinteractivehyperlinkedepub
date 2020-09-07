@@ -244,9 +244,9 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 		}
 
 	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace`
-		matchArray[0] = gensub(/&#x[[:digit:]]+;\s*/,"","1",matchArray[0]) #getting rid of hex digits
+		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","1",matchArray[0]) #getting rid of hex digits
 
-		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)/, sepsArray)
+		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)/, sepsArray) #the last term is to avoid the already placed footnote symbols in the web resource 
 		toReturn = ""
 
 		if (!(1 in splitArray) || !isarray(splitArray))
@@ -388,7 +388,6 @@ print " newVerse is " newVerse "; old verse is " matchArray[0]
 
 
 									xhtmlWriteMe = literalgensub(matchArray[0], newVerse, 1, xhtmlWriteMe)
-print "xhtmlWrite me is: " xhtmlWriteMe
 
 									if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
 									{

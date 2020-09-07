@@ -1,0 +1,1 @@
+Pristine epub contains the original unmodified epub. I had to modify the contents of the original EPUB because there are typographical errors that break my program (e.g., too many spaces, for example: "every herb  bearing seed" in Genesis). In this folder is the modified epub, but the unmodified versions can be found in pristine epub
