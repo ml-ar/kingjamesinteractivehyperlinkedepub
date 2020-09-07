@@ -2,3 +2,5 @@ lolwuthi,lolwut,hello,1
 lolwutlolwutlolwuthilolwut,lolwut,hello,3
 lolwutlolwutlolwutlolwutlolwutsnthsnthlolwut,lolwut,hello,g
 lolwutlolwutaoenuthasonetulolwutaoenstuhlolwut,lolwut,hello,3
+lolwutlolwutlolwuthi,lolwut,’,g
+And Adam called his wife&#x2019;s name,&#x2019;,’,g

@@ -39,11 +39,6 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 {
 
 	toReturn = ""
-		if (!string)
-		{
-			string = $0
-		}
-
 
 
 	mutilatedString = string
@@ -95,7 +90,7 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 function findXhtmlFile(book,  cmd,  result)
 {
 
-cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" Original\\ epub/*.xhtml"
+cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/*.xhtml"
  if ((cmd | getline result) <= 0)
  {
    print "ERROR: Could not find XHTML file for " book; exit 12
@@ -244,7 +239,8 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 		}
 
 	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace`
-		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","1",matchArray[0]) #getting rid of hex digits
+        matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #first properly change apostrophes
+		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","1",matchArray[0]) #now get rid of all remaining hex digits
 
 		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)/, sepsArray) #the last term is to avoid the already placed footnote symbols in the web resource 
 		toReturn = ""
@@ -264,8 +260,8 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 	}
 
 
-	toReturn = gensub(/^\s*|\s*$/,"","1",toReturn) #getting rid of leading and trailing whitespace`
-
+	toReturn = gensub(/^\s*|\s*$/,"","1",toReturn) #getting rid of leading and trailing whitespace
+        toReturn = literalgensub("&#x2019;","’","g",toReturn)
 		return toReturn;
 
 }
@@ -299,8 +295,10 @@ function getLeadingNumber(string,  matchArray)
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  sepsArray,  found,  position,  toReturn,  o)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  sepsArray,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
+PREVIOUSIGNORECASE = IGNORECASE
+IGNORECASE = 1
 	found = ""
 		toReturn = ""
 #now we split the matched verse into its constituent parts
@@ -340,9 +338,9 @@ found = "ja"
 
 	if (!found)
 	{
-		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
+		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing.\n verseTextOnly = " verseTextOnly "; precedingWords = " precedingWords; exit 16;
 	}
-
+IGNORECASE = PREVIOUSIGNORECASE
 	return toReturn
 
 }
@@ -418,7 +416,7 @@ print xhtmlWriteMe > xhtmlFile ".output"
 							}
 
 BEGIN {
-	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremoved.txt"
+	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremovedmodified.txt"
 		webpageReferenceVariable = storeTextFileInVariable(webpageReferenceFile)
 		if (!webpageReferenceVariable)
 		{
