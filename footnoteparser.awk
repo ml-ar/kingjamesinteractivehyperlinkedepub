@@ -91,7 +91,7 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 function findXhtmlFile(book,  cmd,  result)
 {
 
-cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/epub\\ without\\ footnotes\\ and\\ errant\\ spaces/*.xhtml"
+cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/epubmodified/*.xhtml"
  if ((cmd | getline result) <= 0)
  {
    print "ERROR: Could not find XHTML file for " book; exit 12
