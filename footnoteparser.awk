@@ -29,6 +29,7 @@
 #15: The leading number finder found two or more leading numbers
 #16: The program failed to find the preceding verse text in the xhtml
 #17: Bug in literalgensub, it could not iterate the appropriate number of times
+#18: Could not find the start of verse spans in the xhtml
 function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
 function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
@@ -90,7 +91,7 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 function findXhtmlFile(book,  cmd,  result)
 {
 
-cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/*.xhtml"
+cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/epub\\ without\\ footnotes\\ and\\ errant\\ spaces/*.xhtml"
  if ((cmd | getline result) <= 0)
  {
    print "ERROR: Could not find XHTML file for " book; exit 12
@@ -242,7 +243,7 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
         matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #first properly change apostrophes
 		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","1",matchArray[0]) #now get rid of all remaining hex digits
 
-		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)/, sepsArray) #the last term is to avoid the already placed footnote symbols in the web resource 
+		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)|(\s*<span class="pb">(([^<])|((<span class=[^<]+<\/span>)))+<\/span>)/, sepsArray) #the second to last term is to avoid the already placed footnote symbols in the web resource 
 		toReturn = ""
 
 		if (!(1 in splitArray) || !isarray(splitArray))
@@ -295,24 +296,40 @@ function getLeadingNumber(string,  matchArray)
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  sepsArray,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
-PREVIOUSIGNORECASE = IGNORECASE
-IGNORECASE = 1
-	found = ""
+
+	if (!precedingWords || match(precedingWords,/^\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
+	{
+		if (!match(fullVerseLine, /[\n^](<[^<]+<\/[^>]+>)*(¶\s*)?/, matchArray))
+		{
+			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+		}
+
+		toReturn = matchArray[0] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[2] #now add the footnote symbol (don't forget the paragraph symbol)
+			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
+			return toReturn
+
+
+	}
+
+
+	PREVIOUSIGNORECASE = IGNORECASE
+		IGNORECASE = 1
+		found = ""
 		toReturn = ""
 #now we split the matched verse into its constituent parts
 		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
 
 
-verseTextOnly = ""
+		verseTextOnly = ""
 		for (o in splitArray)
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
-found = "ja"
+					found = "ja"
 
 						if (length(verseTextOnly) == length(precedingWords)) #it's the same length; put it after the seps
 						{
@@ -340,8 +357,8 @@ found = "ja"
 	{
 		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing.\n verseTextOnly = " verseTextOnly "; precedingWords = " precedingWords; exit 16;
 	}
-IGNORECASE = PREVIOUSIGNORECASE
-	return toReturn
+	IGNORECASE = PREVIOUSIGNORECASE
+		return toReturn
 
 }
 
