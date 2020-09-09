@@ -396,7 +396,7 @@ print "footnote to print: " footnotes[i][j][k][l][m][n]
 								{
 									print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
 								}
-
+#START WORK HERE: This is wrong: will not properly insert multiple footnotes in the same verse
 								newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
 print " newVerse is " newVerse "; old verse is " matchArray[0]
@@ -459,7 +459,6 @@ BEGIN {
 		chapter = getChapterFromRef(ref)
 		verse = getVerseFromRef(ref)
 		verseText = getPrecedingVerseTextFromRef(ref)
-#START WORK HERE: have to improve workflow for multiple files: I think everything is working though
 
 		newBook = inferBookFromRefId(ref)
 		if (newBook != book)
