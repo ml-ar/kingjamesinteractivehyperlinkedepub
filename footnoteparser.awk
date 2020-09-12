@@ -301,7 +301,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 	if (!precedingWords || match(precedingWords,/^\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
 	{
-		if (!match(fullVerseLine, /[\n^](<[^<]+<\/[^>]+>)*(¶\s*)?/, matchArray))
+		if (!match(fullVerseLine, /[\n^](<[^<]+<\/[^>]+>)*(¶\s*)?(<a href='#FN[^>]+>[^<]+<[^>]+>)*/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
 		{
 			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
 		}
@@ -319,7 +319,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		found = ""
 		toReturn = ""
 #now we split the matched verse into its constituent parts
-		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
 
 
 		verseTextOnly = ""
@@ -327,6 +327,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
+print verseTextOnly
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
@@ -337,6 +338,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 						}
 						else #the text goes longer than the preceding words; this means that the footnote is somewhere in the middle of this element
 						{
+#START WORK HERE: This else block is wrong! The four notes of Genesis 1:20 parse poorly as a direct result of this faulty logic 
 							toReturn = toReturn substr(splitArray[o], 1, position+length(precedingWords)) ##first chop the verse into everything before
 								toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
 								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) sepsArray[o] #now add the rest of the verse
@@ -365,7 +367,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
 #xhtmlvariable: the full xhtml file of
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
-function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 	footnoteNumber = 1
 		if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
@@ -377,60 +379,66 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition+length(matchArray[0]))
 		for (i in footnotes) #book
 		{
-                    leadingNumber = getLeadingNumber(i);
+			leadingNumber = getLeadingNumber(i);
 			for (j in footnotes[i]) #chapter
 			{
 				for (k in footnotes[i][j]) #verse
 				{
-					for (l in footnotes[i][j][k]) #index
+
+					if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
 					{
-						for (m in footnotes[i][j][k][l]) #verseText
+						print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
+					}
+					oldVerse = matchArray[0];
+					newVerse = oldVerse
+
+						if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
 						{
-							for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
+							print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+						}
+
+
+					matchArray[0] = gensub(/id="/,"","1",matchArray[0])
+						matchArray[0] = gensub(/"/,"","g",matchArray[0])
+verseID = matchArray[0]
+						for (l in footnotes[i][j][k]) #index
+						{
+							for (m in footnotes[i][j][k][l]) #verseText
 							{
-print "footnote to print: " footnotes[i][j][k][l][m][n]
+								for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
+								{
+									print "footnote to print: " footnotes[i][j][k][l][m][n]
 
 
 #first isolate the line where it takes place
-								if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
-								{
-									print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
-								}
-#START WORK HERE: This is wrong: will not properly insert multiple footnotes in the same verse
-								newVerse = getModifiedVerse(matchArray[0], m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
+
+										print " oldVerse is " newVerse ;
+									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
-print " newVerse is " newVerse "; old verse is " matchArray[0]
-
-
-									xhtmlWriteMe = literalgensub(matchArray[0], newVerse, 1, xhtmlWriteMe)
-
-									if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
-									{
-										print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
-									}
-
-
-								matchArray[0] = gensub(/id="/,"","1",matchArray[0])
-									matchArray[0] = gensub(/"/,"","g",matchArray[0])
-
-
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"matchArray[0]"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
+										print " newVerse is " newVerse
 
 
 
+
+										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
+
+
+
+								}
 							}
 						}
-					}
 				}
+
+				xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
 			}
 		}
 
-xhtmlWriteMe = xhtmlWriteMe "\n" restOfCSSWriteMe;
+	xhtmlWriteMe = xhtmlWriteMe "\n" restOfCSSWriteMe;
 
-print xhtmlWriteMe > xhtmlFile ".output"
+	print xhtmlWriteMe > xhtmlFile ".output"
 #Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
 
-							}
+}
 
 BEGIN {
 	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremovedmodified.txt"
