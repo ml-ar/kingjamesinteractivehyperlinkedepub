@@ -382,9 +382,9 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 			{
 				for (k in footnotes[i][j]) #verse
 				{
-					for (l in footnotes[i][j][k]) #precedingVerseText
+					for (l in footnotes[i][j][k]) #index
 					{
-						for (m in footnotes[i][j][k][l]) #index
+						for (m in footnotes[i][j][k][l]) #verseText
 						{
 							for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
 							{
@@ -397,7 +397,7 @@ print "footnote to print: " footnotes[i][j][k][l][m][n]
 									print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
 								}
 #START WORK HERE: This is wrong: will not properly insert multiple footnotes in the same verse
-								newVerse = getModifiedVerse(matchArray[0], l, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
+								newVerse = getModifiedVerse(matchArray[0], m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
 print " newVerse is " newVerse "; old verse is " matchArray[0]
 
@@ -510,7 +510,7 @@ print footnoteText
 #the fifth array index is just a counter so that the notes can be inserted in the right order
 # 		It is possible, but not likely, that you have two footnotes with the exact same book, chapter, verse, and verseText (i.e., right next to each other). Make sure you keep that in mind.
 
-		footnotes[book][chapter][verse][verseText][length(footnotes[book][chapter][verse])+1][footnoteSymbol] = footnoteText
+		footnotes[book][chapter][verse][length(footnotes[book][chapter][verse])+1][verseText][footnoteSymbol] = footnoteText
 
 #can properly extract book, chapter, verse, and text before each footnote; now figure out how to write the new CSS (look in awkscript.awk for a suggestion)
 
