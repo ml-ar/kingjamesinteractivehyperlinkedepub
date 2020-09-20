@@ -2,54 +2,142 @@ function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
 function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  sepsArray,  found,  position,  toReturn,  o)
+#just like gensub, except it works on literals instead of regexes
+function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
 {
-	found = ""
+
+	toReturn = ""
+
+
+	mutilatedString = string
+
+		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
+		{
+			number = 1
+		}
+
+
+	if (!(position = index(string, literalPattern)))
+	{
+		return string;
+	}
+
+
+	if (match(number,/^[Gg]/)) #replace all
+	{
+		while (position = index(mutilatedString, literalPattern))
+		{
+			toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	else if (match(number,/^([[:digit:]]+)/, matchArray))
+	{
+		for (i = 0; i < matchArray[0]; ++i)
+		{
+			position = index(mutilatedString, literalPattern)
+				toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+       else
+       {
+	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
+       }
+	toReturn = toReturn mutilatedString
+
+		return toReturn;
+
+
+}
+
+
+
+
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+{
+
+	if (!precedingWords || match(precedingWords,/^\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
+	{
+		if (!match(fullVerseLine, /[\n^](<[^<]+<\/[^>]+>)*(¶\s*)?(<a href='#FN[^>]+>[^<]+<[^>]+>)*/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+		{
+			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+		}
+
+		toReturn = matchArray[0] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[2] #now add the footnote symbol (don't forget the paragraph symbol)
+			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
+			return toReturn
+
+
+	}
+
+
+	PREVIOUSIGNORECASE = IGNORECASE
+		IGNORECASE = 1
+		found = ""
 		toReturn = ""
 #now we split the matched verse into its constituent parts
-		split(fullVerseLine, splitArray, /(<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
 
 
-verseTextOnly = ""
+		verseTextOnly = ""
 		for (o in splitArray)
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
+print "BEFORE:"
+print "splitArray["o"]=" splitArray[o]";"
+print "sepsArray["o"]=" sepsArray[o]";"
+print "verseTextOnly=" verseTextOnly";"
+print "toReturn=" toReturn ";"
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
-found = "ja"
-
-						if (length(verseTextOnly) == length(precedingWords)) #it's the same length; put it after the seps
+					found = "ja"
+						position += length(precedingWords) + 1
+						severedSepAfter = substr(verseTextOnly, position)
+						if (!(position = index(splitArray[o], severedSepAfter)))
 						{
-							toReturn = toReturn "" splitArray[o] "" sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+							print "ERROR LOL"; exit 19
 						}
-						else #the text goes longer than the preceding words; this means that the footnote is somewhere in the middle of this element
-						{
-							toReturn = toReturn substr(splitArray[o], 1, position+length(precedingWords)) ##first chop the verse into everything before
-								toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
-								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) sepsArray[o] #now add the rest of the verse
-
-						}
-
+					severedSepBefore = substr(splitArray[o], 1, position-1);
+					severedSepBefore = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+						splitArray[o] = severedSepBefore severedSepAfter
 				}
-				else
-				{
-					toReturn = toReturn "" splitArray[o] "" sepsArray[o]
-				}
+			toReturn = toReturn splitArray[o] sepsArray[o]
 
-
+print "AFTER:"
+print "splitArray["o"]=" splitArray[o]";"
+print "sepsArray["o"]=" sepsArray[o]";"
+print "verseTextOnly=" verseTextOnly";"
+print "toReturn=" toReturn ";"
 		}
-
-
 	if (!found)
 	{
-		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing."; exit 16;
+		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing.\n verseTextOnly = " verseTextOnly "; precedingWords = " precedingWords; exit 16;
 	}
-
-	return toReturn
+	IGNORECASE = PREVIOUSIGNORECASE
+		return toReturn
 
 }
 
-{
-print getModifiedVerse($0, "And God called the light Day, and the darkness he called Night. ", "*", 1)
+BEGIN {
+OFS = ""
 }
+
+/abundantly the moving creature that hath life/{
+modifiedVerse = getModifiedVerse($0, "And God said, ", "*", 1)
+print modifiedVerse;
+modifiedVerse = getModifiedVerse(modifiedVerse, "And God said, Let the waters bring forth abundantly the ","∥",2)
+print modifiedVerse;
+modifiedVerse = getModifiedVerse(modifiedVerse, "And God said, Let the waters bring forth abundantly the moving creature that hath ","†",3)
+print modifiedVerse;
+modifiedVerse = getModifiedVerse(modifiedVerse, "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the ","†",4)
+print modifiedVerse
+}
+
+/In the beginning God created the heaven and the earth./ {
+print getModifiedVerse($0, "In the ", "*", 1)
+
+} 

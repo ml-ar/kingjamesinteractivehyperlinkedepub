@@ -296,7 +296,7 @@ function getLeadingNumber(string,  matchArray)
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
 
 	if (!precedingWords || match(precedingWords,/^\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
@@ -327,34 +327,21 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
-print verseTextOnly
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
-
-						if (length(verseTextOnly) == length(precedingWords)) #it's the same length; put it after the seps
+						position += length(precedingWords) + 1
+						severedSepAfter = substr(verseTextOnly, position)
+						if (!(position = index(splitArray[o], severedSepAfter)))
 						{
-							toReturn = toReturn "" splitArray[o] "" sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+							print "ERROR LOL"; exit 19
 						}
-						else #the text goes longer than the preceding words; this means that the footnote is somewhere in the middle of this element
-						{
-#START WORK HERE: This else block is wrong! The four notes of Genesis 1:20 parse poorly as a direct result of this faulty logic 
-							toReturn = toReturn substr(splitArray[o], 1, position+length(precedingWords)) ##first chop the verse into everything before
-								toReturn = toReturn "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
-								toReturn = toReturn substr(splitArray[o], position+1+length(precedingWords)) sepsArray[o] #now add the rest of the verse
-
-						}
-
+					severedSepBefore = substr(splitArray[o], 1, position-1);
+					severedSepBefore = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+						splitArray[o] = severedSepBefore severedSepAfter
 				}
-				else
-				{
-					toReturn = toReturn "" splitArray[o] "" sepsArray[o]
-				}
-
-
+			toReturn = toReturn splitArray[o] sepsArray[o]
 		}
-
-
 	if (!found)
 	{
 		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing.\n verseTextOnly = " verseTextOnly "; precedingWords = " precedingWords; exit 16;
@@ -407,15 +394,12 @@ verseID = matchArray[0]
 							{
 								for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
 								{
-									print "footnote to print: " footnotes[i][j][k][l][m][n]
 
 
 #first isolate the line where it takes place
 
-										print " oldVerse is " newVerse ;
 									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
-										print " newVerse is " newVerse
 
 
 

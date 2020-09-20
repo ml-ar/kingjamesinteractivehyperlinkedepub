@@ -1,1 +1,2 @@
-<span class="verse" id="GN1_5">5&#160;</span> And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day. </div>
+<span class="verse" id="GN1_20">20&#160;</span> And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl <span class='add'>that</span> may fly above the earth in the open firmament of heaven.
+<span class="verse" id="GN1_1">1&#160;</span> In the beginning God created the heaven and the earth.
