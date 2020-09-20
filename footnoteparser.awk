@@ -30,6 +30,7 @@
 #16: The program failed to find the preceding verse text in the xhtml
 #17: Bug in literalgensub, it could not iterate the appropriate number of times
 #18: Could not find the start of verse spans in the xhtml
+#19: Logical error in the getModifiedVerse function regarding splitting up seperators so that the footnote is put in the right place
 function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
 function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
@@ -331,16 +332,23 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 				{
 					found = "ja"
 						position += length(precedingWords) + 1
+if (position <= length(verseTextOnly))
+{
 						severedSepAfter = substr(verseTextOnly, position)
 						if (!(position = index(splitArray[o], severedSepAfter)))
 						{
-							print "ERROR LOL"; exit 19
+							print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
 						}
 					severedSepBefore = substr(splitArray[o], 1, position-1);
-					severedSepBefore = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
-						splitArray[o] = severedSepBefore severedSepAfter
+					splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
+}
+else
+{
+splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+}
 				}
 			toReturn = toReturn splitArray[o] sepsArray[o]
+
 		}
 	if (!found)
 	{
@@ -397,10 +405,8 @@ verseID = matchArray[0]
 
 
 #first isolate the line where it takes place
-
 									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
-
 
 
 
@@ -411,9 +417,9 @@ verseID = matchArray[0]
 								}
 							}
 						}
-				}
 
 				xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
+				}
 			}
 		}
 
@@ -442,6 +448,8 @@ BEGIN {
 
 {
 	match($0,/nt[[:digit:]]+_ref">\s*(.)\s*<\/a>/, matchArray)
+
+#START WORK HERE: ∥ is not properly parsed; it's blank in the output
 		footnoteSymbol = matchArray[1] #getting footnote symbol, e.g., †, *
 		newBook = ""
 		ref = getRefFromLine();

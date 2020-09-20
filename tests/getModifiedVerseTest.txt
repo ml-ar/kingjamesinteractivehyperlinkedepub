@@ -94,16 +94,25 @@ print "verseTextOnly=" verseTextOnly";"
 print "toReturn=" toReturn ";"
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
+print "FOUND :"
 					found = "ja"
 						position += length(precedingWords) + 1
+if (position <= length(verseTextOnly))
+{
 						severedSepAfter = substr(verseTextOnly, position)
+print "severedSepAfter="severedSepAfter
 						if (!(position = index(splitArray[o], severedSepAfter)))
 						{
 							print "ERROR LOL"; exit 19
 						}
 					severedSepBefore = substr(splitArray[o], 1, position-1);
-					severedSepBefore = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
-						splitArray[o] = severedSepBefore severedSepAfter
+print "severedSepBefore="severedSepBefore
+					splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
+}
+else
+{
+splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+}
 				}
 			toReturn = toReturn splitArray[o] sepsArray[o]
 
@@ -125,6 +134,18 @@ print "toReturn=" toReturn ";"
 BEGIN {
 OFS = ""
 }
+
+/and breathed into his nostrils the breath of life/ {
+print "PRINTING: "
+modifiedVerse = getModifiedVerse($0, "And the LORD God formed man ", "*", 1)
+print "MODIFIED VERSE: "
+print modifiedVerse;
+print "PRINTING: "
+modifiedVerse = getModifiedVerse(modifiedVerse, "And the LORD God formed man of the ", "∥", 1)
+print "MODIFIED VERSE: "
+print modifiedVerse;
+}
+
 
 /abundantly the moving creature that hath life/{
 modifiedVerse = getModifiedVerse($0, "And God said, ", "*", 1)

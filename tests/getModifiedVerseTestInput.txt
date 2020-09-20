@@ -1,2 +1,1 @@
-<span class="verse" id="GN1_20">20&#160;</span> And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl <span class='add'>that</span> may fly above the earth in the open firmament of heaven.
-<span class="verse" id="GN1_1">1&#160;</span> In the beginning God created the heaven and the earth.
+<span class="verse" id="GN2_7">7&#160;</span> And the <span class='nd'>LORD</span> God formed man <span class='add'>of</span> the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.
