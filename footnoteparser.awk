@@ -240,7 +240,8 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 			print "ERROR: Could not find the verse the ref refers to."; exit 4
 		}
 
-	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace`
+	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace
+       #START WORK HERE: nt932_ref breaks because of the pilcrow at the beginning of the verse; maybe you need to put a "g" for line 246
         matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #first properly change apostrophes
 		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","1",matchArray[0]) #now get rid of all remaining hex digits
 
@@ -447,9 +448,7 @@ BEGIN {
 }
 
 {
-	match($0,/nt[[:digit:]]+_ref">\s*(.)\s*<\/a>/, matchArray)
-
-#START WORK HERE: ∥ is not properly parsed; it's blank in the output
+match($0,/nt[[:digit:]]+_ref">\s*(\S)+\s*<\/a>/, matchArray)
 		footnoteSymbol = matchArray[1] #getting footnote symbol, e.g., †, *
 		newBook = ""
 		ref = getRefFromLine();
