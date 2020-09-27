@@ -36,6 +36,26 @@ function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
 
 
+#same as the index(string, in) function except returns the LAST occurence of the in in string, tested works
+function lastIndex(stringToCheck, inMe,  mutilatedString,  pointer,  lastPosition)
+{
+   if (!inMe)
+   {
+    print "FATAL ERROR: empty string passed to lastIndex. This was the string to check: \n" stringToCheck
+    exit 1
+   }
+	mutilatedString = stringToCheck;
+	pointer = 1;
+	while (lastPosition = index(mutilatedString, inMe))
+	{
+		mutilatedString = substr(mutilatedString, ++lastPosition)
+			pointer += lastPosition - 1
+
+	}
+	return pointer-1;
+}
+
+
 #just like gensub, except it works on literals instead of regexes
 function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
 {
@@ -335,7 +355,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 if (position <= length(verseTextOnly))
 {
 						severedSepAfter = substr(verseTextOnly, position)
-						if (!(position = index(splitArray[o], severedSepAfter)))
+						if (!(position = lastIndex(splitArray[o], severedSepAfter)))
 						{
 							print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
 						}
