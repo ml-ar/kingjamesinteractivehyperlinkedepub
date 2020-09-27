@@ -324,7 +324,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 
 		verseTextOnly = ""
-		for (o in splitArray)
+		for (o in splitArray) #START WORK HERE: There is an issue with 2348_ref: it chops off the verse
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
