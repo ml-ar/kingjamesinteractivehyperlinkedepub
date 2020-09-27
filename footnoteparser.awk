@@ -241,9 +241,8 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 		}
 
 	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace
-       #START WORK HERE: nt932_ref breaks because of the pilcrow at the beginning of the verse; maybe you need to put a "g" for line 246
         matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #first properly change apostrophes
-		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","1",matchArray[0]) #now get rid of all remaining hex digits
+		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","g",matchArray[0]) #now get rid of all remaining hex digits
 
 		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)|(\s*<span class="pb">(([^<])|((<span class=[^<]+<\/span>)))+<\/span>)/, sepsArray) #the second to last term is to avoid the already placed footnote symbols in the web resource 
 		toReturn = ""
