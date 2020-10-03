@@ -1,0 +1,22 @@
+Icarus, to the saints who minister eBible.org:
+
+Grace, peace, and mercy exceeding be to you from God the father and from our Lord Jesus Christ.
+
+The purpose of this communication is to express my thanks to you for the ministry of this resource. For it was barely a year ago that I, purposing, if nothing else, to see the text that these mad billions raved about (1 Corinthians 14:23), it took me as it were by a divine spark to read the holy texts. Discontented with the eBooks available, I rejoiced when I found yours: in particular, your King James + Apocrypha version, which delightfully contains the marginal notes found in the original 1611 edition.
+
+I would however not puff you up with vain boastings: the excellency of your book notwithstanding, it is somewhat found wanting: in particular, the order of the Apocrypha matches not that of the original 1611 edition; the Old Testament contains only the marginal notes for the alternate translations, that is to say, the original cross-references are missing; while the New Testament and Apocrypha are utterly bereft of the marginal notes.
+
+Just today have I completed a total reading of the scriptures, and I even now plan to read them anew. But before I begin, I should like, lest some Word or other be perverted by a misrendering of the Holy, a version that is made more perfect.
+
+To this end, I have already worked some. Attached, you will find the ad hoc EPUB I have created using yours as a starting point, in which I have added the seven hundred and more New Testament marginal notes (I also removed the special typesetting in which is rendered Christ's words—forgive me, but I found such distracting). It should not be considered a finished work, but only evidence of my purpose. 
+
+I envision new e-Bible: an Old and New Testaments with the marginal notes in their entirety, with an Apocrypha reflecting the order of that of the 1611 edition. (Perhaps one day I may build a bible that preserves the original 1611 spelling.)
+
+I don't foresee travail. I have found a resource that seems easily to be scraped and parsed with basic tools. But what I cannot see is how I would preserve the original footnote symbols (e.g. † and ||); indeed, you can see in the attached EPUB that I slothfully used simple asterisks throughout the New Testament. I'm quite curious as to how you got the original symbols into your EPUB for the Old Testament marginal notes. Surely you did not manually sift through the original edition and enter by hand each in its proper place? If so, your patience and diligence are astounding.
+
+Herein lies another problem: as an EPUB is nothing but a compressed array of text files, it was not grievous to automate the inclusion of the marginal notes. However, I fear that the sources of other formats (for my particular e-reader is woefully blind to the EPUB format, so I perforce performed a conversion therefrom, whose result was crude but acceptable to my meanness) are not equally transparent, so I would, at least for now, work exclusively with EPUB.
+
+I would not begrudge the natural question: why should I offer this goodly act? What mammon and filthy lucre lurk beneath my purposes? Of course, we all have needs to satisfy, and I pray that somehow my acts will lead me somewhat to wherewithal. Nothwithstanding my purpose to you would be, I pray God, charity, which has been wanting in my character my whole life. Though I cannot as of yet unstiffen my neck to dispense with money, perhaps I may be charitable to the Word by garnishing its vessel with time and effort (although I fear that, since I benefited exceedingly from your eBook, my upgrade would not be imputed to me as charity, but your mere wages deserved and earned).
+
+I await your thoughts with dread and zeal.
+
