@@ -309,6 +309,46 @@ function getLeadingNumber(string,  matchArray)
 	}
 }
 
+
+
+function arePrecedingWordsInXHTML(xhtmlVariable, xhtmlFile, book, chapter, verse, precedingWords,  leadingNumber,  fullVerseLine,  versePosition,  matchArray,  splitArray,  PREVIOUSIGNORECASE)
+{
+
+	leadingNumber = getLeadingNumber(book)
+
+		if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""chapter"_"verse"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+		{
+			print "ERROR: couldn't find " chapter ":" verse " in xhtmlFile: " xhtmlFile; exit 14 
+		}
+	fullVerseLine = matchArray[0]
+
+#now we split the matched verse into its constituent parts
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+
+		PREVIOUSIGNORECASE = IGNORECASE
+		IGNORECASE = 1
+		verseTextOnly = ""
+		for (o in splitArray) #START WORK HERE: There is an issue with 2348_ref: it chops off the verse
+		{ 
+
+			verseTextOnly = verseTextOnly "" splitArray[o]
+				if (index(verseTextOnly,precedingWords)) #we found the section in the xhtml where the footnote is to be inserted
+				{
+					IGNORECASE = PREVIOUSIGNORECASE
+						return "ja"
+				}
+
+
+		}
+	IGNORECASE = PREVIOUSIGNORECASE
+		print fullVerseLine;
+	return "";
+}
+
+
+
+
+
 #returns fullVerseLine, but modified with the footnote symbol in the right place
 
 #fullVerseLine: a full line (with newlines at the beginning at end), like: <span class="verse" id="C11_11">11&#160;</span> For it hath been declared unto me of you, my brethren, by them <span class='add'>which are of the house</span> of Chloe, that there are contentions among you. 
@@ -510,6 +550,15 @@ match($0,/nt[[:digit:]]+_ref">\s*(\S)+\s*<\/a>/, matchArray)
 		print chapter ":" verse
 		print verseText
 print footnoteText
+
+
+
+if (!arePrecedingWordsInXHTML(xhtmlVariable, xhtmlFile, book, chapter, verse, verseText))
+{
+print "ERROR: Could not find the text " verseText " in " xhtmlFile; exit 16
+}
+
+
 
 #footnotes anatomy:
 #book: plain bible book title
