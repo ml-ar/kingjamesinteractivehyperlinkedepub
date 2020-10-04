@@ -328,7 +328,7 @@ function arePrecedingWordsInXHTML(xhtmlVariable, xhtmlFile, book, chapter, verse
 		PREVIOUSIGNORECASE = IGNORECASE
 		IGNORECASE = 1
 		verseTextOnly = ""
-		for (o in splitArray) #START WORK HERE: There is an issue with 2348_ref: it chops off the verse
+		for (o in splitArray)
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
@@ -384,7 +384,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 
 		verseTextOnly = ""
-		for (o in splitArray) #START WORK HERE: There is an issue with 2348_ref: it chops off the verse
+		for (o in splitArray)
 		{ 
 
 			verseTextOnly = verseTextOnly "" splitArray[o]
