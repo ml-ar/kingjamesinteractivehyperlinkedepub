@@ -31,6 +31,7 @@
 #17: Bug in literalgensub, it could not iterate the appropriate number of times
 #18: Could not find the start of verse spans in the xhtml
 #19: Logical error in the getModifiedVerse function regarding splitting up seperators so that the footnote is put in the right place
+#20: Could not find the actual footnote text in the list of footnotes
 function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
 function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
 function trim(s) { return rtrim(ltrim(s)); }
@@ -544,8 +545,12 @@ match($0,/nt[[:digit:]]+_ref">\s*(\S)+\s*<\/a>/, matchArray)
 # the book, chapter, and verse have been properly inferred for this note
 #xhtmlFile now holds the name of the file where the note pertains
 #parsing the marginal note text itself
-	footnoteText = gensub(/(<[^>]+>)+$/,"","1")
-		footnoteText = gensub(/^.+>\s*/,"","1", footnoteText);
+        match($0, /p id="Bible[^>]+>(.*)<\/p>/, matchArray)
+        if (!(1 in matchArray) && !matchArray[1])
+        {
+         print "ERROR: couldn't find the footnote text in the original input file of footnotes."; exit 20;
+        }
+        footnoteText = matchArray[1]
 	print book
 		print chapter ":" verse
 		print verseText
