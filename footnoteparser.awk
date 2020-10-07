@@ -113,12 +113,24 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 function findXhtmlFile(book,  cmd,  result)
 {
 
-cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/epubmodified/*.xhtml"
- if ((cmd | getline result) <= 0)
- {
-   print "ERROR: Could not find XHTML file for " book; exit 12
- }
- return result;
+	if (book == "Esther") #need a special parsing for Esther, to not confuse it with Esther Greek
+	{
+		cmd = "grep -l \"<li><a href='index.xhtml'>Esther</a></li>\" denuded\\ epub/epubmodified/*.xhtml"
+	}
+	else if (book == "Esther (Greek)")
+	{
+		cmd = "grep -l \"<li><a href='index.xhtml'>Esther (Greek)</a></li>\" denuded\\ epub/epubmodified/*.xhtml"
+	}
+	else
+	{
+		cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/epubmodified/*.xhtml"
+	} 
+
+	if ((cmd | getline result) <= 0)
+	{
+		print "ERROR: Could not find XHTML file for " book; exit 12
+	}
+	return result;
 }
 
 function lastMatch(stringToCheck, regex, array,  mutilatedString,  pointer,  lastPosition) #minimially tested, seems to be working
