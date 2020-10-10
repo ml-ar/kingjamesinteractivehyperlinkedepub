@@ -232,7 +232,7 @@ function getChapterFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWeb
 }
 
 #takes a ref in the form of lf0610_footnote_nt005 and returns the verse number for it; if it's centered, it's a header, so there's no verse associated; in that case, just returns 0 (which likely signifies a header)
-function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable)
+function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable,  tempVariableLineBefore)
 {
 	if (!(refPoint = index(webpageReferenceVariable, ref)))
 	{
@@ -240,15 +240,13 @@ function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpa
 	}
 
 	tempWebpageReferenceVariable = substr(webpageReferenceVariable, 1, refPoint)
-		patsplit(tempWebpageReferenceVariable, patsplitArray,/[\n^][^$\n]*$/)
+		patsplit(tempWebpageReferenceVariable, patsplitArray,/(\n|^)[^$\n]+($|\n)/)
 		tempWebpageReferenceVariable = patsplitArray[length(patsplitArray)]
-
-
-		patsplit(tempWebpageReferenceVariable, patsplitArray, /[\n^]<p id="Bible_0610_OldAuth_[[:digit:]]+"><span id="lf0610_label_[[:digit:]]+">([[:digit:]]+)<\/span>/)
-
+		tempVariableLineBefore = patsplitArray[length(patsplitArray)-1]
+		patsplit(tempWebpageReferenceVariable, patsplitArray, /(\n|^)<p id="Bible_0610_OldAuth_[[:digit:]]+"><span id="lf0610_label_[[:digit:]]+">([[:digit:]]+)<\/span>/)
 		if (length(patsplitArray) <= 0)
 		{
-			if (match(tempWebpageReferenceVariable,/[\n^]\s*<p class="indent-center"/)) #it doesn't have a verse marker, but it does have a header marker
+			if (match(tempVariableLineBefore,/<div class="cit">/)) #it doesn't have a verse marker, but it does have a header marker
 			{
 				return "0";
 			}
