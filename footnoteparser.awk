@@ -231,7 +231,7 @@ function getChapterFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWeb
 
 }
 
-#takes a ref in the form of lf0610_footnote_nt005 and returns the verse number for it; if it's centered, it's a header, so there's no verse associated; in that case, just returns "header"
+#takes a ref in the form of lf0610_footnote_nt005 and returns the verse number for it; if it's centered, it's a header, so there's no verse associated; in that case, just returns 0 (which likely signifies a header)
 function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpageReferenceVariable)
 {
 	if (!(refPoint = index(webpageReferenceVariable, ref)))
@@ -250,7 +250,7 @@ function getVerseFromRef(ref,  patsplitArray,  matchArray,  refPoint,  tempWebpa
 		{
 			if (match(tempWebpageReferenceVariable,/[\n^]\s*<p class="indent-center"/)) #it doesn't have a verse marker, but it does have a header marker
 			{
-				return "header";
+				return "0";
 			}
 			else
 			{
@@ -339,8 +339,14 @@ function arePrecedingWordsInXHTML(xhtmlVariable, xhtmlFile, book, chapter, verse
 {
 
 	leadingNumber = getLeadingNumber(book)
-
-		if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""chapter"_"verse"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+		if (verse == "0" && book ~ /Psalm/) #special case for Psalms: footnote can be in the header
+		{
+			if (!(versePosition = match(xhtmlVariable,"<div class='psalmlabel' id='PS"chapter"_"verse"'>[[:space:]]*"chapter"[[:space:]]*</div>\n([^\n]*)</div>\n", matchArray))) #first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+			{
+				print "ERROR: couldn't find the header for Psalm " chapter " in xhtmlFile: " xhtmlFile; exit 14 
+			}
+		}
+		else if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""chapter"_"verse"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
 		{
 			print "ERROR: couldn't find " chapter ":" verse " in xhtmlFile: " xhtmlFile; exit 14 
 		}
@@ -416,20 +422,20 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 				{
 					found = "ja"
 						position += length(precedingWords) + 1
-if (position <= length(verseTextOnly))
-{
-						severedSepAfter = substr(verseTextOnly, position)
-						if (!(position = lastIndex(splitArray[o], severedSepAfter)))
+						if (position <= length(verseTextOnly))
 						{
-							print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
+							severedSepAfter = substr(verseTextOnly, position)
+								if (!(position = lastIndex(splitArray[o], severedSepAfter)))
+								{
+									print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
+								}
+							severedSepBefore = substr(splitArray[o], 1, position-1);
+							splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
 						}
-					severedSepBefore = substr(splitArray[o], 1, position-1);
-					splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
-}
-else
-{
-splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
-}
+						else
+						{
+							splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+						}
 				}
 			toReturn = toReturn splitArray[o] sepsArray[o]
 
@@ -464,22 +470,38 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 				for (k in footnotes[i][j]) #verse
 				{
 
-					if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
-					{
-						print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; "\n" xhtmlWriteMe; exit 14 
-					}
-					oldVerse = matchArray[0];
-					newVerse = oldVerse
-
-						if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
+						if (k == "0" && book ~ /Psalm/) #special case for Psalm; footnote can be in the header
 						{
-							print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+							if (!(versePosition = match(xhtmlVariable,"<div class='psalmlabel' id='PS"chapter"_0'>[[:space:]]*"chapter"[[:space:]]*</div>\n([^\n]*)</div>\n", matchArray))) #first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+							{
+								print "ERROR: couldn't find the header for Psalm " chapter " in xhtmlFile: " xhtmlFile; exit 14 
+							}
+						}
+						else if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+						{
+							print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; exit 14 
 						}
 
+					oldVerse = matchArray[0];
+					newVerse = oldVerse
+						if (k == "0" && book ~ /Psalm/) #special case for Psalm; footnote can be in the header
+						{
+							if (!match(xhtmlVariable,"id='([A-Z])+"leadingNumber""j"_0", matchArray)) #if the note is in a psalm header, make the verse 0
+							{
+								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+							}
+						}
+						else
+						{
+							if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
+							{
+								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+							}
+						}
 
-					matchArray[0] = gensub(/id="/,"","1",matchArray[0])
+					matchArray[0] = gensub(/id=['"]/,"","1",matchArray[0])
 						matchArray[0] = gensub(/"/,"","g",matchArray[0])
-verseID = matchArray[0]
+						verseID = matchArray[0]
 						for (l in footnotes[i][j][k]) #index
 						{
 							for (m in footnotes[i][j][k][l]) #verseText
@@ -487,22 +509,19 @@ verseID = matchArray[0]
 								for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
 								{
 
-
 #first isolate the line where it takes place
 									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
 
 
-
 										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
-
 
 
 								}
 							}
 						}
 
-				xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
+					xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
 				}
 			}
 		}
@@ -541,7 +560,6 @@ match($0,/nt[[:digit:]]+_ref">\s*(\S)+\s*<\/a>/, matchArray)
 		chapter = getChapterFromRef(ref)
 		verse = getVerseFromRef(ref)
 		verseText = getPrecedingVerseTextFromRef(ref)
-
 		newBook = inferBookFromRefId(ref)
 		if (newBook != book)
 		{
