@@ -408,21 +408,23 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		found = ""
 		toReturn = ""
 #now we split the matched verse into its constituent parts
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+
+		#START WORK HERE: This is wrong: footnote_nt423 inserts two pilcrows as a result
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)?¶?(<a href='#FN[^>]+>[^<]+<[^>]+>)?\s*)|(¶\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
 
 
 		verseTextOnly = ""
 		for (o in splitArray)
 		{ 
-
 			verseTextOnly = verseTextOnly "" splitArray[o]
+				#verseTextOnly = gensub(/^\s*/,"","1",verseTextOnly) #this is necessary because when you grab the lines from the xhtml, there's usually a space at the beginning after the verse identifier
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
-						position += length(precedingWords) + 1
-						if (position <= length(verseTextOnly))
+						position = length(precedingWords)
+						if (position < length(verseTextOnly))
 						{
-							severedSepAfter = substr(verseTextOnly, position)
+							severedSepAfter = substr(verseTextOnly, position+1)
 								if (!(position = lastIndex(splitArray[o], severedSepAfter)))
 								{
 									print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19

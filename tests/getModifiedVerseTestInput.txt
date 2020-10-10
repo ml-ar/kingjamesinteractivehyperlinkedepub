@@ -1,1 +1,3 @@
+<span class="verse" id="GN31_13">13&#160;</span>I <span class='add'>am</span> the God of Beth-el, where thou anointedst the pillar, <span class='add'>and</span> where thou vowedst a vow unto me: now arise, get thee out from this land, and return unto the land of thy kindred. 
 <span class="verse" id="GN2_7">7&#160;</span> And the <span class='nd'>LORD</span> God formed man <span class='add'>of</span> the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.
+<span class="verse" id="GN46_26">26&#160;</span> All the souls that came with Jacob into Egypt, which came out of his loins, besides Jacob’s sons’ wives, all the souls <span class='add'>were</span> threescore and six;
