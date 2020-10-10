@@ -283,7 +283,9 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 		}
 
 	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace
-        matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #first properly change apostrophes
+        matchArray[0] =  literalgensub("&#xB6;","¶","g",matchArray[0]) #convert html hex to pilcrow
+        matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #convert html apostprohe to smart apostrophes
+        
 		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","g",matchArray[0]) #now get rid of all remaining hex digits
 
 		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)|(\s*<span class="pb">(([^<])|((<span class=[^<]+<\/span>)))+<\/span>)/, sepsArray) #the second to last term is to avoid the already placed footnote symbols in the web resource 
@@ -304,7 +306,7 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 	}
 
 
-	toReturn = gensub(/^\s*|\s*$/,"","1",toReturn) #getting rid of leading and trailing whitespace
+	toReturn = gensub(/(^\s*)|(\s*$)/,"","1",toReturn) #getting rid of leading or trailing whitespace
         toReturn = literalgensub("&#x2019;","’","g",toReturn)
 		return toReturn;
 
@@ -351,7 +353,7 @@ function arePrecedingWordsInXHTML(xhtmlVariable, xhtmlFile, book, chapter, verse
 	fullVerseLine = matchArray[0]
 
 #now we split the matched verse into its constituent parts
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(¶)|(\s*[\n$]\s*)/, sepsArray)
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;\s*)|(\s*[\n$]\s*)/, sepsArray)
 
 		PREVIOUSIGNORECASE = IGNORECASE
 		IGNORECASE = 1
@@ -410,7 +412,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #now we split the matched verse into its constituent parts
 
 		#START WORK HERE: This is wrong: footnote_nt423 inserts two pilcrows as a result
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)?¶?(<a href='#FN[^>]+>[^<]+<[^>]+>)?\s*)|(¶\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
 
 
 		verseTextOnly = ""
