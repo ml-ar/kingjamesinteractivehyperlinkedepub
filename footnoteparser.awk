@@ -285,7 +285,6 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace
         matchArray[0] =  literalgensub("&#xB6;","¶","g",matchArray[0]) #convert html hex to pilcrow
         matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #convert html apostprohe to smart apostrophes
-        
 		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","g",matchArray[0]) #now get rid of all remaining hex digits
 
 		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)|(\s*<span class="pb">(([^<])|((<span class=[^<]+<\/span>)))+<\/span>)/, sepsArray) #the second to last term is to avoid the already placed footnote symbols in the web resource 
@@ -411,7 +410,6 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		toReturn = ""
 #now we split the matched verse into its constituent parts
 
-		#START WORK HERE: This is wrong: footnote_nt423 inserts two pilcrows as a result
 		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
 
 
@@ -419,7 +417,6 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		for (o in splitArray)
 		{ 
 			verseTextOnly = verseTextOnly "" splitArray[o]
-				#verseTextOnly = gensub(/^\s*/,"","1",verseTextOnly) #this is necessary because when you grab the lines from the xhtml, there's usually a space at the beginning after the verse identifier
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
