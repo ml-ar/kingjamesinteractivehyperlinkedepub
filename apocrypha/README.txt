@@ -1,0 +1,5 @@
+To do:
+
+manually add the footnotes as described in curlscript.sh
+
+Change the headers in the apocrypha to match the 1611 edition for: Esther, Sirach, 3 holy children, Susanna, Bel and the Dragon, The Prayer of Manasseh
