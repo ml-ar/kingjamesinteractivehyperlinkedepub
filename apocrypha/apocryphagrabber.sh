@@ -1,11 +1,83 @@
 #!/bin/bash
 
 
-books=('1-esdras' '2-esdras' 'tobit' 'judith' 'esther' 'wisdom-of-solomon' 'sirach' 'baruch' 'song-of-three-youths' 'susanna' 'bel-and-the-dragon' 'prayer-of-manasseh' '1-maccabees' '2-maccabees')
+books=( "1-esdras" "2-esdras" "tobit" "judith" "esther" "wisdom-of-solomon" "sirach" "baruch" "song-of-three-youths" "susanna" "bel-and-the-dragon" "prayer-of-manasseh" "1-maccabees" "2-maccabees" )
+
+for i in "${books[@]}"
+do
+
+if [ ! -d "$i/" ]; then
+mkdir "$i"
+fi;
+
+cd "$i"
+
+
+
+
+#calibrate starting chapter and verses for the books
+if [ "$i" = "esther" ]; #only get esther 10:4 and up
+	then
+	let chapter=10; let verse=4;
+elif [ "$i" = "song-of-three-youths" -o  "$i" = "prayer-of-manasseh" -o "$i" = "bel-and-the-dragon" -o "$i" = "susanna" ] #doesn't have chapters
+	then
+	chapter=; verse=; #setting chapter and verse to empty
+else
+	let chapter=1; let verse=1; #start chapter and verse at 1
+fi
+
+
+#convention for file names is chapter-verse
+
+if [ ! $chapter ] && [ ! $verse ] && [ ! -e "$i"'.txt' ]; #works
+	then
+    curl "https://biblia.com/bible/av1873/$i" > "$i"'.txt'
+else
+	while true; #set up a while loop for grabbing other things
+	do
+	    grep1=; grep2=; #exit codes for grep
+		if [ ! -e "$i $chapter-$verse" ]; then
+		    echo "curling " "$i $chapter:$verse"
+			curl -s "https://biblia.com/bible/av1873/$i/$chapter/$verse" > output.txt
+			grep "<title>Not Found" output.txt;
+			grep1=$?
+			grep "$chapter:$verse" output.txt
+			grep2=$?
+			if [ $grep1 -eq 0 ] && [ $grep2 -ne 0 ]; #couldn't find the verse and chapter 
+			then
+				if [ $verse -eq 1 ]; #break because we've reset the chapter and verse but there's nothing to be found
+				then
+					echo "reached end of $i"
+					break
+				else
+					echo "reached end of chapter $chapter"
+					let chapter=$chapter+1
+					let verse=1
+				fi
+			else
+				cp output.txt "$i $chapter-$verse"
+		        let verse=$verse+1
+			fi
+		else
+			  echo "already have $i $chapter-$verse"
+			  let verse=$verse+1
+		fi
+		
+	
+	done;
+fi
+
+rm *output*
+cd ..
+
+
+done
 
 #important: Esther 10:4 and onward (to 16:24) are apocrypha
 #song-of-three-youths is not divided into chapters and verses
 #neither is prayer-of-manasseh
+
+#Also some footnotes are buried in with the cambridge bible footnotes: for example, there's only one footnote for 1 Esdras 1:1 which is "2 Kin. 23. 21. To ver. 22, 2 Chr. 35. 1–19."
 
 
 #1 Maccabees 7:41: footnote missing in the biblia source!
