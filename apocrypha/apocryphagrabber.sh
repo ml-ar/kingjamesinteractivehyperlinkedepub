@@ -29,9 +29,14 @@ fi
 
 #convention for file names is chapter-verse
 
-if [ ! $chapter ] && [ ! $verse ] && [ ! -e "$i"'.txt' ]; #works
+if [ ! $chapter ] && [ ! $verse ];
 	then
-    curl "https://biblia.com/bible/av1873/$i" > "$i"'.txt'
+	if  [ ! -e "$i"'.txt' ];
+	then
+		curl "https://biblia.com/bible/av1873/$i" > "$i"'.txt'
+	else
+	  echo "already have $i"
+	fi
 else
 	while true; #set up a while loop for grabbing other things
 	do
@@ -69,7 +74,6 @@ fi
 
 rm *output*
 cd ..
-
 
 done
 
