@@ -31,9 +31,9 @@ fi
 
 if [ ! $chapter ] && [ ! $verse ];
 	then
-	if  [ ! -e "$i"'.txt' ];
+	if  [ ! -e "$i"'.html' ];
 	then
-		curl "https://biblia.com/bible/av1873/$i" > "$i"'.txt'
+		curl "https://biblia.com/bible/av1873/$i" > "$i"'.html'
 	else
 	  echo "already have $i"
 	fi
@@ -41,7 +41,7 @@ else
 	while true; #set up a while loop for grabbing other things
 	do
 	    grep1=; grep2=; #exit codes for grep
-		if [ ! -e "$i $chapter-$verse" ]; then
+		if [ ! -e "$i $chapter-$verse.html" ]; then
 		    echo "curling " "$i $chapter:$verse"
 			curl -s "https://biblia.com/bible/av1873/$i/$chapter/$verse" > output.txt
 			grep "<title>Not Found" output.txt;
@@ -60,11 +60,11 @@ else
 					let verse=1
 				fi
 			else
-				cp output.txt "$i $chapter-$verse"
+				cp output.txt "$i $chapter-$verse.html"
 		        let verse=$verse+1
 			fi
 		else
-			  echo "already have $i $chapter-$verse"
+			  echo "already have $i $chapter-$verse.html"
 			  let verse=$verse+1
 		fi
 		
