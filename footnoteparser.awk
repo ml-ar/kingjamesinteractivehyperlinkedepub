@@ -108,31 +108,6 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 
 }
 
-#takes a book and returns the name of the XHTML file that it's associated with
-#if it finds nothing, return null
-function findXhtmlFile(book,  cmd,  result)
-{
-
-	if (book == "Esther") #need a special parsing for Esther, to not confuse it with Esther Greek
-	{
-		cmd = "grep -l \"<li><a href='index.xhtml'>Esther</a></li>\" denuded\\ epub/epubmodified/*.xhtml"
-	}
-	else if (book == "Esther (Greek)")
-	{
-		cmd = "grep -l \"<li><a href='index.xhtml'>Esther (Greek)</a></li>\" denuded\\ epub/epubmodified/*.xhtml"
-	}
-	else
-	{
-		cmd = "grep -l \"<li><a href='index.xhtml'>"book"\" denuded\\ epub/epubmodified/*.xhtml"
-	} 
-
-	if ((cmd | getline result) <= 0)
-	{
-		print "ERROR: Could not find XHTML file for " book; exit 12
-	}
-	return result;
-}
-
 function lastMatch(stringToCheck, regex, array,  mutilatedString,  pointer,  lastPosition) #minimially tested, seems to be working
 {
    if (!regex)
@@ -546,6 +521,95 @@ BEGIN {
 		verse = ""
 		xhtmlFile = ""
 		OFS = ""
+if (!epubPrefix)
+{
+epubPrefix = "./denuded epub/epubmodified/"
+
+}	
+
+	
+		bookFiles["Genesis"] = "GEN.xhtml"
+bookFiles["Exodus"] = "EXO.xhtml"
+bookFiles["Leviticus"] = "LEV.xhtml"
+bookFiles["Numbers"] = "NUM.xhtml"
+bookFiles["Deuteronomy"] = "DEU.xhtml"
+bookFiles["Joshua"] = "JOS.xhtml"
+bookFiles["Judges"] = "JDG.xhtml"
+bookFiles["Ruth"] = "RUT.xhtml"
+bookFiles["1 Samuel"] = "1SA.xhtml"
+bookFiles["2 Samuel"] = "2SA.xhtml"
+bookFiles["1 Kings"] = "1KI.xhtml"
+bookFiles["2 Kings"] = "2KI.xhtml"
+bookFiles["1 Chronicles"] = "1CH.xhtml"
+bookFiles["2 Chronicles"] = "2CH.xhtml"
+bookFiles["Ezra"] = "EZR.xhtml"
+bookFiles["Nehemiah"] = "NEH.xhtml"
+bookFiles["Esther"] = "EST.xhtml"
+bookFiles["Job"] = "JOB.xhtml"
+bookFiles["Psalms"] = "PSA.xhtml"
+bookFiles["Proverbs"] = "PRO.xhtml"
+bookFiles["Ecclesiastes"] = "ECC.xhtml"
+bookFiles["Song of Solomon"] = "SNG.xhtml"
+bookFiles["Isaiah"] = "ISA.xhtml"
+bookFiles["Jeremiah"] = "JER.xhtml"
+bookFiles["Lamentations"] = "LAM.xhtml"
+bookFiles["Ezekiel"] = "EZK.xhtml"
+bookFiles["Daniel"] = "DAN.xhtml"
+bookFiles["Hosea"] = "HOS.xhtml"
+bookFiles["Joel"] = "JOL.xhtml"
+bookFiles["Amos"] = "AMO.xhtml"
+bookFiles["Obadiah"] = "OBA.xhtml"
+bookFiles["Jonah"] = "JON.xhtml"
+bookFiles["Micah"] = "MIC.xhtml"
+bookFiles["Nahum"] = "NAM.xhtml"
+bookFiles["Habakkuk"] = "HAB.xhtml"
+bookFiles["Zephaniah"] = "ZEP.xhtml"
+bookFiles["Haggai"] = "HAG.xhtml"
+bookFiles["Zechariah"] = "ZEC.xhtml"
+bookFiles["Malachi"] = "MAL.xhtml"
+bookFiles["1 Esdras"] = "1ES.xhtml"
+bookFiles["2 Esdras"] = "2ES.xhtml"
+bookFiles["Tobit"] = "TOB.xhtml"
+bookFiles["Judith"] = "JDT.xhtml"
+bookFiles["Esther (Greek)"] = "ESG.xhtml"
+bookFiles["Wisdom of Solomon"] = "WIS.xhtml"
+bookFiles["Sirach"] = "SIR.xhtml"
+bookFiles["Baruch"] = "BAR.xhtml"
+bookFiles["The Song of the Three Holy Children"] = "S3Y.xhtml"
+bookFiles["Susanna"] = "SUS.xhtml"
+bookFiles["Bel and the Dragon"] = "BEL.xhtml"
+bookFiles["Prayer of Manasses"] = "MAN.xhtml"
+bookFiles["1 Maccabees"] = "1MA.xhtml"
+bookFiles["2 Maccabees"] = "2MA.xhtml"
+bookFiles["Matthew"] = "MAT.xhtml"
+bookFiles["Mark"] = "MRK.xhtml"
+bookFiles["Luke"] = "LUK.xhtml"
+bookFiles["John"] = "JHN.xhtml"
+bookFiles["Acts"] = "ACT.xhtml"
+bookFiles["Romans"] = "ROM.xhtml"
+bookFiles["1 Corinthians"] = "1CO.xhtml"
+bookFiles["2 Corinthians"] = "2CO.xhtml"
+bookFiles["Galatians"] = "GAL.xhtml"
+bookFiles["Ephesians"] = "EPH.xhtml"
+bookFiles["Philippians"] = "PHP.xhtml"
+bookFiles["Colossians"] = "COL.xhtml"
+bookFiles["1 Thessalonians"] = "1TH.xhtml"
+bookFiles["2 Thessalonians"] = "2TH.xhtml"
+bookFiles["1 Timothy"] = "1TI.xhtml"
+bookFiles["2 Timothy"] = "2TI.xhtml"
+bookFiles["Titus"] = "TIT.xhtml"
+bookFiles["Philemon"] = "PHM.xhtml"
+bookFiles["Hebrews"] = "HEB.xhtml"
+bookFiles["James"] = "JAS.xhtml"
+bookFiles["1 Peter"] = "1PE.xhtml"
+bookFiles["2 Peter"] = "2PE.xhtml"
+bookFiles["1 John"] = "1JN.xhtml"
+bookFiles["2 John"] = "2JN.xhtml"
+bookFiles["3 John"] = "3JN.xhtml"
+bookFiles["Jude"] = "JUD.xhtml"
+bookFiles["Revelation"] = "REV.xhtml"
+		
+		
 }
 
 {
@@ -568,7 +632,7 @@ match($0,/nt[[:digit:]]+_ref">\s*(\S)+\s*<\/a>/, matchArray)
 					writeCSS(xhtmlFile, xhtmlVariable, footnotes)
 			}
 			book = newBook;
-			xhtmlFile = findXhtmlFile(book)
+			xhtmlFile = epubPrefix bookFiles[book]
 				xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 				if (!xhtmlFile || !xhtmlVariable || !book)
 				{
