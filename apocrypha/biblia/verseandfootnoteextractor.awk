@@ -114,26 +114,24 @@ BEGIN {
 }
 
 {
-	if(!match($0, /<div class="bible-reference-heading">\s*\n\s*<span>\n\s*([^\n]+)\n/ ,matchArray)) #first grab the whole line describing the book (and possibly the chapter)
+	if(!(pointer = match($0, /<div class="bible-reference-heading">\s*\n\s*<span>\n\s*([^\n]+)\n/ ,matchArray))) #first grab the whole line describing the book (and possibly the chapter)
 	{
 		print "Error grabbing the book line."; exit 1
 	}
 
+	verseBlock = substr($0, pointer)
+	if(!match(verseBlock, /data-reference="\s*([^"]+[[:digit:]])\s*"/ ,matchArray)) #first grab the whole line describing the book (and possibly the chapter)
+	{
+		print "Error grabbing the book line."; exit 1
+	}
 
-	book = matchArray[1]; #doesn't actually hold the book yet, just using this as a temp variable
+	book = matchArray[1];
+	match(book,/(^.*)\s*([[:digit:]]+)\s*:\s*([[:digit:]]+)/,matchArray)
+	book = matchArray[1]
+	chapter = matchArray[2];
+	verse = matchArray[3];
 
-	match(book,/\s*([[:digit:]]+)\s*:\s*([[:digit:]]+)/,matchArray)
 
-
-		chapter = matchArray[1]
-		verse = matchArray[2]
-
-		book = gensub("\\s*"chapter":"verse"\\s*","","1",book) #now trimming book
-
-		if ((chapter ~ /^\s*$/) && (verse ~ /^\s*$/))
-		{
-			chapter = 0;
-		}
 	print book;
 	print chapter;
 	print verse;
@@ -142,7 +140,7 @@ BEGIN {
 #get footnotes
 #be careful distinguishing between full books (e.g. bell and the dragon) and those divided up into books and chapters
 
-	if (!(pointer = match($0,/<div class="resourcetext">/)))
+	if (!(pointer = match($0,/<div class="resourcetext">/))) #START WORK HERE 1; this is the wrong part to start, you get all this unnecessary header data, you want to start at the first occurence of ><a data-datatype="bible+kjv" data-reference="book number"
 	{
 		print "Error: could not find the text header in the xhtml."; exit 3
 	}
@@ -150,6 +148,8 @@ BEGIN {
 	verseBlock = substr($0, pointer)
 		verseBlock = gensub(/(s*\n.*$)|(^\s*)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
 
+		
+		
 		split(verseBlock, splitArray, /<[^>]+>/,sepsArray) #split by HTML tags
 
 
