@@ -12,7 +12,8 @@
 #ERROR CODES
 #1: Could not find the line describing the book chapter:verse
 #2: Could not find the text header in the xhtml
-
+#3: Could not find the relevant text of the verse in the XHTML
+#4: Could not extract a chapter number from the identifier line
 
 
 
@@ -120,39 +121,49 @@ BEGIN {
 	}
 
 	verseBlock = substr($0, pointer)
-	if(!match(verseBlock, /data-reference="\s*([^"]+[[:digit:]])\s*"/ ,matchArray)) #first grab the whole line describing the book (and possibly the chapter)
-	{
-		print "Error grabbing the book line."; exit 1
-	}
+		if(!match(verseBlock, /data-reference="\s*([^"]+[[:digit:]])\s*"/ ,matchArray)) #first grab the whole line describing the book (and possibly the chapter)
+		{
+			print "Error grabbing the book line."; exit 1
+		}
 
 	book = matchArray[1];
-	match(book,/(^.*)\s*([[:digit:]]+)\s*:\s*([[:digit:]]+)/,matchArray)
+	if (!match(book,/(^.+)\s+([[:digit:]]+)(\s*:\s*[[:digit:]]+)?\s*$/,matchArray))
+	{
+		print "Error parsing out the book, chapter, and verse."; exit 2
+	}
 	book = matchArray[1]
-	chapter = matchArray[2];
+		chapter = matchArray[2];
 	verse = matchArray[3];
 
+        if (!chapter)
+        {
+            print "Error parsing out the chapter number."; exit 4;
+        }
 
-	print book;
-	print chapter;
-	print verse;
+#book, chapter, and verse now hold the correct parts (verse might be blank)
 
 #to do; get full verse
 #get footnotes
 #be careful distinguishing between full books (e.g. bell and the dragon) and those divided up into books and chapters
 
-	if (!(pointer = match($0,/<div class="resourcetext">/))) #START WORK HERE 1; this is the wrong part to start, you get all this unnecessary header data, you want to start at the first occurence of ><a data-datatype="bible+kjv" data-reference="book number"
+	if (!(pointer = index($0,"<a data-datatype=\"bible+kjv\" data-reference=\""book" 1")))
 	{
 		print "Error: could not find the text header in the xhtml."; exit 3
 	}
 
 	verseBlock = substr($0, pointer)
 		verseBlock = gensub(/(s*\n.*$)|(^\s*)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
+print verseBlock
 
-		
-		
+
 		split(verseBlock, splitArray, /<[^>]+>/,sepsArray) #split by HTML tags
+
+#START WORK HERE: Go through the verse, get all the verse, get all the footnotes, their text
 
 
 }
 
+END {
 
+exit 0
+}
