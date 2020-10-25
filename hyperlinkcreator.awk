@@ -8,11 +8,11 @@
 
 #<span class="ft"><li><a href='PSA.xhtml#PS33_6'>Ps. 33. 6.</a></li> &amp; <li><a href='PSA.xhtml#PS136_5'>136. 5.</a></li> <li><a href='ACT.xhtml#AC14_15'>Acts 14. 15.</a></li> &amp; <li><a href='ACT.xhtml#AC17_24'>Acts 17. 24.</a></li> <li><a href='HEB.xhtml#HB11_3'>Heb. 11. 3.</a></li></span>
 
-#ERROR CODES:
+#EXIT CODES:
 #1: Could not match the end of the line and chapter and verse of the footnote label at the end
 #2: Could not parse out exactly the chapter and verse from the footnote label at the end
 #3: Could not get the current book from the XHTML
-
+#4: The program could not parse the footnote text
 BEGIN {
 
 
@@ -234,17 +234,55 @@ print "Error matching the numbers of the chapter and verse exactly in the epub l
 
 #remember that if it's "ch" it refers to the book in question
 
+#first match the footnote text
+	if (!match($0,/<span class="ft">(.+)<\/span>/, matchArray))
+	{
+		print "Error getting the whole footnote text."; exit 4
+	}
+
+	if (!(1 in matchArray))
+	{
+		print "Error getting the whole footnote text."; exit 4
+	}
+
+	if (matchArray[1] !~ /[[:digit:]]/) #this doesn't match, just print and go to the next line
+	{
+		print $0; next;
+	}
+
+
+#START WORK HERE: matchArray[1] properly holds the footnote text (including <span class='add'>). Now have to parse it down into constituent parts
+#Don't forget that &amp; can be followed by a c (e.g., &amp;c. (maybe the c has a period after it!))
+
+
+
+#make sure that "add" spans are proprely captured and printed 
 
 #Tricky ones:
-#ver. 56. &amp; 59.
-#ch. 12. 3. &amp; 15. 18. &amp; 22. 18.
+#Lev. 26. 26. ch. 4. 16. &amp; 5. 16. #WTF is this?
+#Or, <span class="add">ward,</span> or, <span class="add">ordinance:</span> and so ver. 14. &amp; 16. #you want to make sure ver. 14 and ver.16 have tags
+#Num. 18. 20. Deut. 10 9. &amp; 18 1, 2. Josh. 13. 14, 33. #why is there a comman after the 1?
+#See Num. 28, &amp; 39. Ex. 23. 19. Lev. 19. 23. #make sure you can get the "num" even though there's a "See"
+#Called, Luke 3. 35, <span class="add">Phalec.</span> #want to make sure luke is captured as well
+#Heb. thigh. , Gen.46. 27. deut. 10.22. #heb is the book of hebrews, don't want to match that; fortunately these are probably contained in two different footnotes, so it might not even be a problem
+#ch. 5. 1. &amp; 9. 6. 1 Cor. 11. 7. Eph. 4. 24. Col. 3. 10. #not terribly tricky, but make sure you split right
+#ch. 18. 18. &amp; 22. 18. Acts 3. 25. Gal. 3. 8. #same as above
+#Ps. 33. 6. &amp; 136. 5. Acts 14. 15. &amp; 17. 24. Heb. 11. 3. #again same as the obove
+#ver. 56. &amp; 59. #get verse working
+#ch. 12. 3. &amp; 15. 18. &amp; 22. 18. #get chapter working
 #ch. 16. 14. &amp; 25. 11.
-#footnote_nt10852 (text is simply "jude 9")
+#footnote_nt10852 (text is simply "Jude 9.")
+
 
 
 #print the appropriate line
-next;
+	next;
 }
+
+
+
+
+
 
 {
 print $0;
