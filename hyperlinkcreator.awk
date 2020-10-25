@@ -38,7 +38,7 @@ BEGIN {
 		bookRegex["Esther"] = "(Esth\\.?)"
 		bookRegex["Psalms"] = "(Ps\\.?)"
 		bookRegex["Proverbs"] = "(Prov\\.?)"
-		bookRegex["Ecclesiastes"] "(Eccles\\.?)"
+		bookRegex["Ecclesiastes"] = "(Eccles\\.?)"
 		bookRegex["Job"] = "(Job)"
 		bookRegex["Isaiah"] = "(Is\\.?)|(Isai\\.?)"
 		bookRegex["Jeremiah"] = "(Jer\\.?)"
@@ -182,7 +182,7 @@ BEGIN {
 
 		for (i in bookRegex)
 		{
-			bookRegexCombined = bookRegexCombined "|(" bookRegex[i]
+			bookRegexCombined = bookRegexCombined "|(" bookRegex[i] ")"
 		}
 
 }
@@ -245,7 +245,7 @@ print "Error matching the numbers of the chapter and verse exactly in the epub l
 		print "Error getting the whole footnote text."; exit 4
 	}
 
-	if (matchArray[1] !~ /[[:digit:]]/) #this doesn't match, just print and go to the next line
+	if (matchArray[1] !~ /[[:digit:]]/) #we need digits, so if not , just print and go to the next line
 	{
 		print $0; next;
 	}
@@ -255,13 +255,21 @@ print "Error matching the numbers of the chapter and verse exactly in the epub l
 #Don't forget that &amp; can be followed by a c (e.g., &amp;c. (maybe the c has a period after it!))
 
 
+#split based on: ampersands, spans (obviously),
+
+patsplit(matchArray[1], booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegexes, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
+
+#START WORK HERE: The patsplit seems to split the first Genesis note okay, test the rest
+
+
 
 #make sure that "add" spans are proprely captured and printed 
 
 #Tricky ones:
-#Lev. 26. 26. ch. 4. 16. &amp; 5. 16. #WTF is this?
+#Lev. 26. 26. ch. 4. 16. &amp; 5. 16. #This is: Levit 26:26, Levit 4:16 & Levit 5:16
+#Ex. 7, 8, 9, 10, 12, &amp; 14, chapters. #these are all chapter names
 #Or, <span class="add">ward,</span> or, <span class="add">ordinance:</span> and so ver. 14. &amp; 16. #you want to make sure ver. 14 and ver.16 have tags
-#Num. 18. 20. Deut. 10 9. &amp; 18 1, 2. Josh. 13. 14, 33. #why is there a comman after the 1?
+#Num. 18. 20. Deut. 10 9. &amp; 18 1, 2. Josh. 13. 14, 33. # Num 18:20, Deut 10:9 & Deut 18:1 Deut 18:2, Josh 13:14, Josh 13:33
 #See Num. 28, &amp; 39. Ex. 23. 19. Lev. 19. 23. #make sure you can get the "num" even though there's a "See"
 #Called, Luke 3. 35, <span class="add">Phalec.</span> #want to make sure luke is captured as well
 #Heb. thigh. , Gen.46. 27. deut. 10.22. #heb is the book of hebrews, don't want to match that; fortunately these are probably contained in two different footnotes, so it might not even be a problem
