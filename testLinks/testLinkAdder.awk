@@ -288,15 +288,15 @@ verseRegex = "ver\\.?"
 
 	patsplit($0, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegexes, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
 
-#START WORK HERE: The patsplit seems to split the first Genesis note okay, test the rest
 
 			toPrint = substr($0, 1, index($0, booksAndDigits[1])-1); #grab everything up to the first match
 
-			for (i in booksAndDigits)
+			for (i=1; i<=length(booksAndDigits); ++i)
 			{
+
 			if (booksAndDigits[i] ~ /[[:digit:]]/)
 			{
-			print "Error: booksAndDigits["i"] has a number at the beginning of the loop (full value is [ " booksAndDigits[i] " ]). This shouldn't happen."; exit 5;
+			print "Error: booksAndDigits["i"] has a number at the beginning of the loop (full value is [ " booksAndDigits[i] " ]). This shouldn't happen."; next; exit 5;
 			}
 
 			if (booksAndDigits[i] ~ bookRegex["Hebrews"] && booksAndDigitsSeperators[i] ~ /[A-Za-z]/) #We have Heb., but it isn't a cross reference
@@ -305,27 +305,48 @@ verseRegex = "ver\\.?"
 			}
 			else if (booksAndDigits[i] ~ verseRegex) #all numbers following need to refer to the verse of the current book
 			{
-			toPrint = toPrint booksAndDigits[i]
-			while (i+1 in booksAndDigits)
-			{
-				if (booksAndDigits[i+1] !~ /[[:digit:]]/)
+
+			toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
+				++i
+				while (i in booksAndDigits) #have to add all the numbers
 				{
-					break;
+
+
+					if (booksAndDigits[i] ~ /[[:digit:]]/)
+					{
+						match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
+
+#FOR TESTING ONLY, have to add the proper book
+							toPrint = toPrint "<li><a href='currentBook.xhtml#GNCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i]
+							++i
+					}
+					else
+					{
+                                           break;
+					}
+
 				}
-				++i;
-
-toPrint = toPrint "<li><a href='"".xhtml#PS33_6'>"
-
-			}
 			}
 			else if (booksAndDigits[i] ~ chapterRegex)
 			{
 			}
-			else
+			else #gotta find what book it is
 			{
+				for (j in bookRegexes)
+				{
+					if (booksAndDigits[i] ~ bookRegexes[j])
+					{
+						theBook = j;
+						break;
+					}
+					if (!(j+1) in bookRegexes)
+					{
+						print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
+					}
+				}
 			}
 
 			}
-
+	print toPrint
 
 }
