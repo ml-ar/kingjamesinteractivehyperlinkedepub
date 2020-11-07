@@ -1,14 +1,15 @@
 BEGIN {
 
+	OFS = ""
 
 #bookRegex holds the regexes for the book, which should match the text of a marginal reference.
 
 #Old testament
-	bookRegex["Genesis"] = "(Gen\\.?)"
+		bookRegex["Genesis"] = "(Gen\\.?)"
 		bookRegex["Exodus"] = "(Ex\\.?)"
 		bookRegex["Leviticus"] = "(Lev\\.?)"
 		bookRegex["Numbers"] = "(Num\\.?)"
-		bookRegex["Deuteronomy"] = "(Deut\\.?)"
+		bookRegex["Deuteronomy"] = "([Dd]eut\\.?)"
 		bookRegex["Joshua"] = "(Josh)"
 		bookRegex["Judges"] = "(Judg.)"
 		bookRegex["Ruth"] = "(Ruth)"
@@ -170,8 +171,10 @@ BEGIN {
 			bookRegexCombined = bookRegexCombined "|(" bookRegex[i] ")"
 		}
 
+	bookRegexCombined = "(\\<)" bookRegexCombined
 
-	bookFiles["Genesis"] = "GEN.xhtml"
+
+		bookFiles["Genesis"] = "GEN.xhtml"
 		bookFiles["Exodus"] = "EXO.xhtml"
 		bookFiles["Leviticus"] = "LEV.xhtml"
 		bookFiles["Numbers"] = "NUM.xhtml"
@@ -217,7 +220,7 @@ BEGIN {
 		bookFiles["Esther (Greek)"] = "ESG.xhtml"
 		bookFiles["Wisdom of Solomon"] = "WIS.xhtml"
 		bookFiles["Sirach"] = "SIR.xhtml"
-                bookFiles["Ecclesiasticus"] = bookFiles["Sirach"]
+		bookFiles["Ecclesiasticus"] = bookFiles["Sirach"]
 		bookFiles["Baruch"] = "BAR.xhtml"
 		bookFiles["The Song of the Three Holy Children"] = "S3Y.xhtml"
 		bookFiles["Susanna"] = "SUS.xhtml"
@@ -277,16 +280,79 @@ BEGIN {
 
 
 
-chapterRegex = "ch\\.?"
-verseRegex = "ver\\.?"
+		chapterRegex = "\\<ch\\.?"
+		verseRegex = "\\<ver\\.?"
 
 }
 
+#counts the chapter or verse digits that follow AFTER booksAndDigits[i]
+#for example:
+#if we have Lev. 26. 26. ch. 4. 16. &amp; 5. 16.
+#then we should have:
+#booksAndDigits[1] =  Lev.
+#booksAndDigits[2] =  26.
+#booksAndDigits[3] =  26.
+#booksAndDigits[4] =  ch.
+#booksAndDigits[5] =  4.
+#booksAndDigits[6] =  16.
+#booksAndDigits[7] =  5.
+#booksAndDigits[8] =  16.
+
+#corresponding return values for i:
+#
+#1: 2
+#2: 2
+#3: 1
+#4: 2
+#5: 2
+#6: 1
+#7: 2
+#8: 1
+
+function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigitsCounter)
+{
+	if (booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ /[A-Za-z]/)
+	{
+		followingDigitsCounter = 1
+	}
+	else
+	{
+		followingDigitsCounter = 0
+	}
+
+	if (booksAndDigitsSeperators[i] ~ /[A-Za-z]/)
+	{
+		return followingDigitsCounter
+	}
+
+	for (iAhead = i+1; iAhead<=length(booksAndDigits); ++iAhead)
+	{
+		if (booksAndDigits[iAhead] ~ /[[:digit:]]/ && booksAndDigits[iAhead] !~ /[A-Za-z]/) #the last one is nessary because you don't want to consider the 1 in "1 Cor" to be a digit
+		{
+			++followingDigitsCounter;
+			if (booksAndDigitsSeperators[iAhead] ~ /[A-Za-z]/)
+			{
+				break;
+			}
+
+		}
+		else
+		{
+			break;
+		}
+	}
+	if (followingDigitsCounter == 0)
+	{
+		print "Error: no numbers follow booksAndDigits["i"] == (" booksAndDigits[i]"); This shouldn't happen."; exit 6
+	}
+	
+	return followingDigitsCounter
+}
 
 {
 
 
-	patsplit($0, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegexes, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
+	patsplit($0, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegex, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
 
 
 			toPrint = substr($0, 1, index($0, booksAndDigits[1])-1); #grab everything up to the first match
@@ -294,59 +360,114 @@ verseRegex = "ver\\.?"
 			for (i=1; i<=length(booksAndDigits); ++i)
 			{
 
-			if (booksAndDigits[i] ~ /[[:digit:]]/)
-			{
-			print "Error: booksAndDigits["i"] has a number at the beginning of the loop (full value is [ " booksAndDigits[i] " ]). This shouldn't happen."; next; exit 5;
-			}
-
-			if (booksAndDigits[i] ~ bookRegex["Hebrews"] && booksAndDigitsSeperators[i] ~ /[A-Za-z]/) #We have Heb., but it isn't a cross reference
-			{
 			toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
-			}
-			else if (booksAndDigits[i] ~ verseRegex) #all numbers following need to refer to the verse of the current book
+
+			if (booksAndDigits[i] ~ verseRegex) #all numbers following need to refer to the verse of the current book
+			{
+			++i
+			while (i in booksAndDigits) #have to add all the numbers
 			{
 
-			toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
-				++i
-				while (i in booksAndDigits) #have to add all the numbers
+
+				if (booksAndDigits[i] ~ /[[:digit:]]/)
 				{
-
-
-					if (booksAndDigits[i] ~ /[[:digit:]]/)
-					{
-						match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
+					match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
 
 #FOR TESTING ONLY, have to add the proper book
-							toPrint = toPrint "<li><a href='currentBook.xhtml#GNCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i]
-							++i
+						toPrint = toPrint "<li><a href='currentBook.xhtml#GNCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
+						++i
+				}
+				else
+				{
+					break;
+				}
+
+			}
+			}
+			else if (booksAndDigits[i] ~ chapterRegex) #it's a chapter (ch.) followed by some number of numbers (presumably).
+			{
+				++i
+					while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
+					{
+
+						followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
+#first find how many number groups follow the chapter, should be an even number because each is a chapter and a verse 
+
+
+							if (followingDigitsCounter % 2 == 0) #we are assuming that it's: ch. chapter. verse. chapter. verse etc.
+							{
+
+
+
+#now we actually modify the verse:
+
+								for (j = 1; j <= followingDigitsCounter; j += 2)
+								{
+
+									match(booksAndDigits[i+j-1],/([[:digit:]]+)/,matchArray)
+										chapter = matchArray[1]
+										match(booksAndDigits[i+j],/([[:digit:]]+)/,matchArray)
+										verse = matchArray[1]
+										toPrint = toPrint "<li><a href='currentBook.xhtml#GN"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]  #TEST: For testing only: put in the proper xhtml and everything
+								}
+							}
+							else
+							{
+#START WORK 2.2: Deal with odd numbers
+								print "Error: an odd number of digits follows a chapter marker. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
+							}
+
+				i += followingDigitsCounter;
 					}
+
+			--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
+			}
+	else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
+	{
+		for (j in bookRegex)
+		{
+			if (booksAndDigits[i] ~ bookRegex[j])
+			{
+				theBook = j;
+				break;
+			}
+			if (!(j+1) in bookRegex)
+			{
+				print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
+			}
+		}
+		++i #now lets go to the numbers
+			do
+			{
+
+				followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
+
+
+
+					if (followingDigitsCounter % 2 == 0)
+					{
+						for (j=1; j<=followingDigitsCounter; j+=2)
+						{
+#START WORK HERE 1; parse chapter and verse
+							toPrint = toPrint "<li><a href='currentBook.xhtml#GN"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j] #TEST: For testing only: put in the proper xhtml and everything
+						}
+						i+=followingDigitsCounter
+					} 
 					else
 					{
-                                           break;
-					}
 
-				}
-			}
-			else if (booksAndDigits[i] ~ chapterRegex)
-			{
-			}
-			else #gotta find what book it is
-			{
-				for (j in bookRegexes)
-				{
-					if (booksAndDigits[i] ~ bookRegexes[j])
-					{
-						theBook = j;
-						break;
-					}
-					if (!(j+1) in bookRegexes)
-					{
-						print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
-					}
-				}
-			}
+#START WORK HERE 2.1: deal with odd numbers
+						print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
 
-			}
+					}
+			} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
+			--i #have to substract one because of overshoot
+	}
+
+
+
+
+}
 	print toPrint
 
 }
