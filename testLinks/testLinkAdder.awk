@@ -369,18 +369,18 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 			{
 
 
-				if (booksAndDigits[i] ~ /[[:digit:]]/)
-				{
-					match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
+			if (booksAndDigits[i] ~ /[[:digit:]]/)
+			{
+			match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
 
 #FOR TESTING ONLY, have to add the proper book
-						toPrint = toPrint "<li><a href='currentBook.xhtml#GNCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
-						++i
-				}
-				else
-				{
-					break;
-				}
+				toPrint = toPrint "<li><a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
+				++i
+			}
+			else
+			{
+				break;
+			}
 
 			}
 			}
@@ -408,66 +408,76 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 										chapter = matchArray[1]
 										match(booksAndDigits[i+j],/([[:digit:]]+)/,matchArray)
 										verse = matchArray[1]
-										toPrint = toPrint "<li><a href='currentBook.xhtml#GN"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]  #TEST: For testing only: put in the proper xhtml and everything
+										toPrint = toPrint "<li><a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]  #TEST: For testing only: put in the proper xhtml and everything
 								}
 							}
 							else
 							{
-#START WORK 2.2: Deal with odd numbers
+#START WORK 1.2: Deal with odd numbers
 								print "Error: an odd number of digits follows a chapter marker. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
 							}
 
-				i += followingDigitsCounter;
+						i += followingDigitsCounter;
 					}
 
-			--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
+				--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
 			}
-	else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
-	{
-		for (j in bookRegex)
-		{
-			if (booksAndDigits[i] ~ bookRegex[j])
+			else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
 			{
-				theBook = j;
-				break;
-			}
-			if (!(j+1) in bookRegex)
-			{
-				print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
-			}
-		}
-		++i #now lets go to the numbers
-			do
-			{
-
-				followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
-
-
-
-					if (followingDigitsCounter % 2 == 0)
+				for (j in bookRegex)
+				{
+					if (booksAndDigits[i] ~ bookRegex[j])
 					{
-						for (j=1; j<=followingDigitsCounter; j+=2)
-						{
-#START WORK HERE 1; parse chapter and verse
-							toPrint = toPrint "<li><a href='currentBook.xhtml#GN"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j] #TEST: For testing only: put in the proper xhtml and everything
-						}
-						i+=followingDigitsCounter
-					} 
-					else
-					{
-
-#START WORK HERE 2.1: deal with odd numbers
-						print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
-
+						theBook = j;
+						break;
 					}
-			} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
-			--i #have to substract one because of overshoot
-	}
+					if (!(j+1) in bookRegex)
+					{
+						print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
+					}
+				}
+				++i #now lets go to the numbers
+					do
+					{
+
+						followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
+
+
+
+							if (followingDigitsCounter % 2 == 0)
+							{
+								for (j=1; j<=followingDigitsCounter; j+=2)
+								{
+									if (!((i+j) in booksAndDigits))
+									{
+										print "FATAL ERROR: something is completely broken."; exit 8
+									}
+
+
+									match(booksAndDigits[i+j-1],/([[:digit:]]+)/,matchArray)
+										chapter = matchArray[1]
+										match(booksAndDigits[i+j],/([[:digit:]]+)/,matchArray)
+										verse = matchArray[1]
+
+										toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]
+								}
+								i+=followingDigitsCounter
+							} 
+							else
+							{
+
+#START WORK HERE 1.1: deal with odd numbers
+								print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
+
+							}
+					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
+					--i #have to substract one because of overshoot
+			}
 
 
 
 
-}
+			}
 	print toPrint
 
 }
