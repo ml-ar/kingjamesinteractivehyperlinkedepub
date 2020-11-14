@@ -14,7 +14,7 @@
 
 
 #ERROR CODES
-#1: Could not find the relevant text of the book line in the xhtml
+#1: Could not find the relevant line that has the whole text
 #2: Could not find the text header tag in the xhtml
 #3: Could not extract the footnote symbol after a footnote tag
 
@@ -175,9 +175,10 @@ function getFootnoteText(footnoteNumber)
 }
 
 {
-	if(!(pointer = match($0, /<div class="bible-reference-heading">\s*\n\s*<span>\n\s*([^\n]+)\n/ ,matchArray))) #first grab the whole line describing the book (and possibly the chapter)
+
+	if (!(pointer = index($0,"<a data-datatype=\"bible+kjv\" data-reference=")))
 	{
-		print "Error grabbing the book line."; exit 1
+		print "Error grabbing the text line."; exit 1
 	}
 
 	verseBlock = substr($0, pointer)
@@ -188,35 +189,10 @@ function getFootnoteText(footnoteNumber)
 	}
 
 
-	split(verseBlock, splitArray, /<[^>]+>/,sepsArray) #split by HTML tags
-
-		for (i in splitArray)
-		{
-			if (match(splitArray[i],/^[\t[:space:]]*(.+)[\t]*\n/,matchArray)) #the first non empty element is the book
-			{
-				book = matchArray[1] 
-					break;
-			}
-		}
-
-	if (match(book,/\s*([[:digit:]]+):([[:digit:]]+)\s*$/,matchArray)) #the header likely contains the chapter and verse
-	{
-		chapter = matchArray[1]
-			verse = matchArray[2]
-	}
-
-	book = gensub(matchArray[0],"","1",book)
-
-
-
-
-		if (!(pointer = index($0,"<a data-datatype=\"bible+kjv\" data-reference=")))
-		{
-			print "Error: could not find the text header in the xhtml."; exit 2
-		}
+		
 
 	verseBlock = substr($0, pointer)
-	verseBlock = gensub(/(\s*\n.*$)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
+		verseBlock = gensub(/(\s*\n.*$)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
 
 
 
@@ -238,7 +214,8 @@ function getFootnoteText(footnoteNumber)
 
 		for (i=1; i<=length(splitArray); ++i)
 		{
-
+#START WORK HERE 2:
+#you need to reset "preceding text" after you've recorded a footnote or when there's a book or chapter or verse switch
 			if (i-1 in sepsArray)
 			{
 				if (sepsArray[i-1] ~ /rel="popup"/ && sepsArray[i-1] ~ /href="#footnote[[:digit:]]+"/) #the previous seps is a footnote span, that means the current thing is a footnote symbol
@@ -280,41 +257,44 @@ function getFootnoteText(footnoteNumber)
 				else if (match(sepsArray[i-1], /<a data-datatype="bible\+kjv" data-reference="([^"]+)"/, matchArray))
 				{
 
-					if (match(matchArray[1],/([[:digit:]]+)(:([[:digit:]]+))?\s*$/, matchArray))
+					if (match(matchArray[1],/\s*([[:digit:]]+)(:([[:digit:]]+))?\s*$/, matchArray2))
 					{
-						if (3 in matchArray)
+						if (3 in matchArray2)
 						{
-							verse = matchArray[3]
-								chapter = matchArray[1]
+							verse = matchArray2[3]
+								chapter = matchArray2[1]
 						}
 						else
 						{
-							verse = matchArray[1]
+							verse = matchArray2[1]
 								chapter = 0 
 
 						}
+						book = substr(matchArray[1], 1, index(matchArray[1], matchArray2[0])-1)
 
-						if (verse != "1")
-						{
-							j = i;
-							while (j<=length(splitArray)) #if the verse is greater than one, we expect to find a splitArray element to be just that verse; we have to skip it
+							if (verse != "1") #if the verse is greater than one, we expect to find a splitArray element to be just that verse; we have to skip it
 							{
-								if (splitArray[j] ~ "^\\s*"verse"\\s*$")
+								j = i;
+								while (j<=length(splitArray)) 
 								{
-									i = j;
-									break; #found the index for the verse number
+									if (splitArray[j] ~ "^\\s*"verse"\\s*$")
+									{
+										i = j;
+										break; #found the index for the verse number
+									}
+									++j;
 								}
-								++j;
+								if (j>length(splitArray))
+								{
+									print "FATAL ERROR: found footnote but could not properly get the footnote symbol."; exit 3;
+								}
 							}
-							if (j>length(splitArray))
-							{
-								print "FATAL ERROR: found footnote but could not properly get the footnote symbol."; exit 3;
-							}
-						}
 					}
 					else
 					{
-						verse = 0; #probably a title
+
+						book = matchArray[1]
+							verse = 0; #probably a title
 							chapter = 0;
 					}
 
@@ -351,7 +331,7 @@ function getFootnoteText(footnoteNumber)
 }
 
 END {
-#START WORK HERE 2:
+#START WORK HERE 3:
 #tweak this to your pleasure
 
 for (i in footnotes) #footnoteNumber
