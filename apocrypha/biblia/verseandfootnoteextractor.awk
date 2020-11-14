@@ -1,4 +1,8 @@
-#for an input html, this program outputs the following tab-seperated data:
+#for an input html (e.g., Genesis 1-1.hmtml), this program outputs the following tab-seperated data:
+
+
+#good input file is: 1-esdras 1-4.xhtml
+#also important to test for bel and the dragon and sirach prologue
 
 #book	chapter	verse	full verse text (italics are surrounded thus <i>text</i>)	footnote symbol	footnote text	preceding verse text (italics preserved)
 
@@ -10,13 +14,62 @@
 
 
 #ERROR CODES
-#1: Could not find the line describing the book chapter:verse
-#2: Could not find the text header in the xhtml
-#3: Could not find the relevant text of the verse in the XHTML
-#4: Could not extract a chapter number from the identifier line
+#1: Could not find the relevant text of the book line in the xhtml
+#2: Could not find the text header tag in the xhtml
+#3: Could not extract the footnote symbol after a footnote tag
 
 
 
+#just like gensub, except it works on literals instead of regexes
+function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
+{
+
+	toReturn = ""
+
+
+	mutilatedString = string
+
+		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
+		{
+			number = 1
+		}
+
+
+	if (!(position = index(string, literalPattern)))
+	{
+		return string;
+	}
+
+
+	if (match(number,/^[Gg]/)) #replace all
+	{
+		while (position = index(mutilatedString, literalPattern))
+		{
+			toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	else if (match(number,/^([[:digit:]]+)/, matchArray))
+	{
+		for (i = 0; i < matchArray[0]; ++i)
+		{
+			position = index(mutilatedString, literalPattern)
+				toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+       else
+       {
+	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
+       }
+	toReturn = toReturn mutilatedString
+
+		return toReturn;
+
+
+}
 
 
 
@@ -24,7 +77,7 @@
 
 BEGIN {
 	RS = "^$"
-		OFS = "	"
+		OFS = FS #setting it to tab
 
 
 #a map between book name and xhtml files
@@ -114,6 +167,13 @@ BEGIN {
 
 }
 
+#START WORK HERE 1
+
+#returns simply the text associated with the footnote number, also properly adds xhtml tags for making hyperlinks
+function getFootnoteText(footnoteNumber)
+{
+}
+
 {
 	if(!(pointer = match($0, /<div class="bible-reference-heading">\s*\n\s*<span>\n\s*([^\n]+)\n/ ,matchArray))) #first grab the whole line describing the book (and possibly the chapter)
 	{
@@ -121,49 +181,195 @@ BEGIN {
 	}
 
 	verseBlock = substr($0, pointer)
-		if(!match(verseBlock, /data-reference="\s*([^"]+[[:digit:]])\s*"/ ,matchArray)) #first grab the whole line describing the book (and possibly the chapter)
+
+		if (verseBlock !~ /footnote/) #no footnote data in the current file, nothing to see here;
+	{
+		exit 0;
+	}
+
+
+	split(verseBlock, splitArray, /<[^>]+>/,sepsArray) #split by HTML tags
+
+		for (i in splitArray)
 		{
-			print "Error grabbing the book line."; exit 1
+			if (match(splitArray[i],/^[\t[:space:]]*(.+)[\t]*\n/,matchArray)) #the first non empty element is the book
+			{
+				book = matchArray[1] 
+					break;
+			}
 		}
 
-	book = matchArray[1];
-	if (!match(book,/(^.+)\s+([[:digit:]]+)(\s*:\s*[[:digit:]]+)?\s*$/,matchArray))
+	if (match(book,/\s*([[:digit:]]+):([[:digit:]]+)\s*$/,matchArray)) #the header likely contains the chapter and verse
 	{
-		print "Error parsing out the book, chapter, and verse."; exit 2
+		chapter = matchArray[1]
+			verse = matchArray[2]
 	}
-	book = matchArray[1]
-		chapter = matchArray[2];
-	verse = matchArray[3];
 
-        if (!chapter)
-        {
-            print "Error parsing out the chapter number."; exit 4;
-        }
+	book = gensub(matchArray[0],"","1",book)
 
-#book, chapter, and verse now hold the correct parts (verse might be blank)
 
-#to do; get full verse
-#get footnotes
-#be careful distinguishing between full books (e.g. bell and the dragon) and those divided up into books and chapters
 
-	if (!(pointer = index($0,"<a data-datatype=\"bible+kjv\" data-reference=\""book" 1")))
-	{
-		print "Error: could not find the text header in the xhtml."; exit 3
-	}
+
+		if (!(pointer = index($0,"<a data-datatype=\"bible+kjv\" data-reference=")))
+		{
+			print "Error: could not find the text header in the xhtml."; exit 2
+		}
 
 	verseBlock = substr($0, pointer)
-		verseBlock = gensub(/(s*\n.*$)|(^\s*)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
-print verseBlock
+	verseBlock = gensub(/(\s*\n.*$)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
+
+
+
+
+		print verseBlock
+
+
 
 
 		split(verseBlock, splitArray, /<[^>]+>/,sepsArray) #split by HTML tags
 
-#START WORK HERE: Go through the verse, get all the verse, get all the footnotes, their text
+
+		precedingText = ""
+		numOfFootnotes = 0
+
+#get footnotes
+#be careful distinguishing between full books (e.g. bell and the dragon) and those divided up into books and chapters
+
+
+		for (i=1; i<=length(splitArray); ++i)
+		{
+
+			if (i-1 in sepsArray)
+			{
+				if (sepsArray[i-1] ~ /rel="popup"/ && sepsArray[i-1] ~ /href="#footnote[[:digit:]]+"/) #the previous seps is a footnote span, that means the current thing is a footnote symbol
+				{
+					match(sepsArray[i-1],href="#footnote([[:digit:]]+)", matchArray)
+						footnoteNumber = matchArray[1]
+						j = i
+						while (j<=length(splitArray)) #we have to go through splits till we find the first non empty string; this is the footnote symbol
+						{
+							if (splitArray[j] !~ /^\s*$/ && splitArray[j] && splitArray[j] != "") #these ands might be redundant
+							{
+								i = j
+									break; #found the index for the footnote symbol
+							}
+							++j;
+						}
+
+					if (j > length(splitArray))
+					{
+						print "FATAL ERROR: found footnote but could not properly get the footnote symbol."; exit 3;
+					}
+#WARNING: this could be problem, chapter might be a proper integer while verse is a string
+
+
+#about to make a new entry to the footnotes array, have to trim the data
+					precedingText = gensub(/[  \t]{2,}/," ","g",precedingText) #careful with the non-breaking spaces!
+						precedingText = gensub(/^[\t  ]+/,"","g",precedingText) #this is probably right; you don't expect there to be any spaces to begin the preceding text
+						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
+						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
+
+						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber); 
+
+
+
+
+					continue; #we continue, because we don't want to add the footnote symbol to the preceding text
+				}
+
+				else if (match(sepsArray[i-1], /<a data-datatype="bible\+kjv" data-reference="([^"]+)"/, matchArray))
+				{
+
+					if (match(matchArray[1],/([[:digit:]]+)(:([[:digit:]]+))?\s*$/, matchArray))
+					{
+						if (3 in matchArray)
+						{
+							verse = matchArray[3]
+								chapter = matchArray[1]
+						}
+						else
+						{
+							verse = matchArray[1]
+								chapter = 0 
+
+						}
+
+						if (verse != "1")
+						{
+							j = i;
+							while (j<=length(splitArray)) #if the verse is greater than one, we expect to find a splitArray element to be just that verse; we have to skip it
+							{
+								if (splitArray[j] ~ "^\\s*"verse"\\s*$")
+								{
+									i = j;
+									break; #found the index for the verse number
+								}
+								++j;
+							}
+							if (j>length(splitArray))
+							{
+								print "FATAL ERROR: found footnote but could not properly get the footnote symbol."; exit 3;
+							}
+						}
+					}
+					else
+					{
+						verse = 0; #probably a title
+							chapter = 0;
+					}
+
+
+				}
+
+
+
+			}
+
+			if (verse && splitArray[i] ~ "^\\s*"verse"\\s*$") #this splitArray element is just the verse number; skip it
+			{
+				continue;
+			}
+
+
+			precedingText = precedingText splitArray[i]
+
+		}
+
+
+
+#footnotes array anatomy: footnotes[footnoteNumber][chapter][verse]["precedingWords"]["symbol"] = "actual footnote text"
+#if chapter is 0, it means it's either a chapterless book or it's part of the prologue
+#if chapter is 0 and verse is 0 it means it's a footnote in the title (see bel and the dragon)
+
+
+
+
+
+
 
 
 }
 
 END {
+#START WORK HERE 2:
+#tweak this to your pleasure
+
+for (i in footnotes) #footnoteNumber
+{
+	for (j in footnotes[i]) #chapter
+	{
+		for (k in footnotes[i][j]) #verse
+		{
+			for (l in footnotes[i][j][k]) #precedingWords
+			{
+				for (m in footnotes[i][j][k][l]) #symbol
+				{
+                                print book, j, k, i, l, m, footnotes[i][j][k][l][m]
+				}
+			}
+		}
+	}
+}
 
 exit 0
 }
