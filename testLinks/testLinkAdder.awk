@@ -432,10 +432,10 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 							}
 							else
 							{
-#START WORK 1.2: Deal with odd numbers
-								print "Error: an odd number of digits follows a chapter marker. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
+#START WORK HERE 1.2: Deal with odd numbers greater than 2 following a chapter
+								print "Error: an odd number of digits follows a chapter marker. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: " $0; next #TEST: this should be exit, not next
 							}
-
+#START WORK HERE 1.3: Deal with only one number following a chapter marker: consult the logic below when you encounter just one number after a biblical name, for reference
 						i += followingDigitsCounter;
 					}
 
@@ -445,9 +445,9 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 			{
 
 
-                         theBook = getBookNameFromBookRegex(booksAndDigits[i])
-				
-				++i #now lets go to the numbers
+				theBook = getBookNameFromBookRegex(booksAndDigits[i])
+
+					++i #now lets go to the numbers
 					do
 					{
 
@@ -474,15 +474,25 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 								}
 								i+=followingDigitsCounter
 							} 
-							else
+							else if (followingDigitsCounter > 2)
 							{
 
-#START WORK HERE 1.1: deal with odd numbers
-								print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: \n " $0; next #TEST: this should be exit, not next
+#START WORK HERE 1.1: deal with odd numbers greater than two following a book name
+								print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: " $0; next #TEST: this should be exit, not next
 
 							}
+							else #it's just one number after the biblical name
+							{
+								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
+									chapter = matchArray[1]
+trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
+
+
+									toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_1'>"chapter"</a></li>" trailingAfterChapter booksAndDigitsSeperators[i]
+++i
+							}
 					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
-					--i #have to substract one because of overshoot due to checking the while at the end
+					--i #have to substract one because of overshoot do to the increments of i in the foregoing if statement block
 			}
 
 
