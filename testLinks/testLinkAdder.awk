@@ -442,7 +442,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
 									chapter = matchArray[1]
 									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
-									toPrint = toPrint "<li><a href='CurrentBook.xhtml#CurrentBook"chapter"_1'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change this in the proper program
+									toPrint = toPrint "<li><a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change this in the proper program
 
 									++i
 							}
@@ -497,7 +497,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
 
 
-									toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_1'>"chapter"</a></li>" trailingAfterChapter booksAndDigitsSeperators[i]
+									toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_0'>"chapter"</a></li>" trailingAfterChapter booksAndDigitsSeperators[i]
 									++i
 							}
 					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
