@@ -429,14 +429,23 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 										verse = matchArray[1]
 										toPrint = toPrint "<li><a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]  #TEST: For testing only: put in the proper xhtml and everything
 								}
+
+								i += followingDigitsCounter;
 							}
-							else
+							else if (followingDigitsCounter > 2)
 							{
 #START WORK HERE 1.2: Deal with odd numbers greater than 2 following a chapter
 								print "Error: an odd number of digits follows a chapter marker. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: " $0; next #TEST: this should be exit, not next
 							}
-#START WORK HERE 1.3: Deal with only one number following a chapter marker: consult the logic below when you encounter just one number after a biblical name, for reference
-						i += followingDigitsCounter;
+							else #just one number following a chapter regex
+							{
+								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
+									chapter = matchArray[1]
+									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
+									toPrint = toPrint "<li><a href='CurrentBook.xhtml#CurrentBook"chapter"_1'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change this in the proper program
+
+									++i
+							}
 					}
 
 				--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
@@ -485,11 +494,11 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 							{
 								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
 									chapter = matchArray[1]
-trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
+									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
 
 
 									toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_1'>"chapter"</a></li>" trailingAfterChapter booksAndDigitsSeperators[i]
-++i
+									++i
 							}
 					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
 					--i #have to substract one because of overshoot do to the increments of i in the foregoing if statement block
