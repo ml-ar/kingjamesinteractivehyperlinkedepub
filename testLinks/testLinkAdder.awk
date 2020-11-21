@@ -309,6 +309,25 @@ BEGIN {
 #7: 2
 #8: 1
 
+
+#returns the book name from the array given its regex pattern
+#regex: the pattern to match
+function getBookNameFromBookRegex(regex,  j)
+{
+	for (j in bookRegex)
+	{
+		if (regex ~ bookRegex[j])
+		{
+                    return j;
+		}
+		if (!(j+1) in bookRegex)
+		{
+			print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
+		}
+	}
+}
+
+
 function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigitsCounter)
 {
 	if (booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ /[A-Za-z]/)
@@ -424,18 +443,10 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 			}
 			else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
 			{
-				for (j in bookRegex)
-				{
-					if (booksAndDigits[i] ~ bookRegex[j])
-					{
-						theBook = j;
-						break;
-					}
-					if (!(j+1) in bookRegex)
-					{
-						print "Error finding book for booksAndDigits["i"] = " booksAndDigits[i]; exit 6
-					}
-				}
+
+
+                         theBook = getBookNameFromBookRegex(booksAndDigits[i])
+				
 				++i #now lets go to the numbers
 					do
 					{
@@ -471,7 +482,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 
 							}
 					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
-					--i #have to substract one because of overshoot
+					--i #have to substract one because of overshoot due to checking the while at the end
 			}
 
 
