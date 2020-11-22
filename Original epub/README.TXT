@@ -1,1 +1,1 @@
-Pristine epub contains the original unmodified epub. I had to modify the contents of the original EPUB because there are typographical errors that break my program (e.g., too many spaces, for example: "every herb  bearing seed" in Genesis). In this folder is the modified epub, but the unmodified versions can be found in pristine epub
+eng-kjv.epub (sha256 sum: c46df1ac65a2716ef907ba855a0e6d6ab48161d134e44f716421bbecb06e9659) is the original, unmodified epub.
