@@ -1,7 +1,8 @@
 #!/bin/bash
 
+myPWD=$(pwd)
 
-books=( "1-esdras" "2-esdras" "tobit" "judith" "esther" "wisdom-of-solomon" "sirach" "baruch" "song-of-three-youths" "susanna" "bel-and-the-dragon" "prayer-of-manasseh" "1-maccabees" "2-maccabees" )
+books=( "sirach" "1-esdras" "2-esdras" "tobit" "judith" "esther" "wisdom-of-solomon" "baruch" "song-of-three-youths" "susanna" "bel-and-the-dragon" "prayer-of-manasseh" "1-maccabees" "2-maccabees" )
 
 for i in "${books[@]}"
 do
@@ -11,9 +12,6 @@ mkdir "$i"
 fi;
 
 cd "$i"
-
-
-
 
 #calibrate starting chapter and verses for the books
 if [ "$i" = "esther" ]; #only get esther 10:4 and up
@@ -39,34 +37,46 @@ if [ ! $chapter ] && [ ! $verse ];
 	fi
 else
 	while true; #set up a while loop for grabbing other things
-	do
-	    grep1=; grep2=; #exit codes for grep
-		if [ ! -e "$i $chapter-$verse.html" ]; then
-		    echo "curling " "$i $chapter:$verse"
-			curl -s "https://biblia.com/bible/av1873/$i/$chapter/$verse" > output.txt
-			grep "<title>Not Found" output.txt;
-			grep1=$?
-			grep "$chapter:$verse" output.txt
-			grep2=$?
-			if [ $grep1 -eq 0 ] && [ $grep2 -ne 0 ]; #couldn't find the verse and chapter 
-			then
-				if [ $verse -eq 1 ]; #break because we've reset the chapter and verse but there's nothing to be found
+		do
+			if [ "$i" = "sirach" ] && [ ! -e "sirach.html" ];
 				then
-					echo "reached end of $i"
-					break
+				echo "curling Sirach prologue";
+				curl -s "https://biblia.com/bible/av1873/sirach" > output.html
+				gawk -f "$myPWD/"sirachprologuepruner.awk output.html > sirach.html
+				if [ $? -ne 0 ];
+				then
+				echo "Error getting the Sirach prologue and pruning it."; exit 1
+				fi
+				rm output.html
+				exit 5;
+			fi
+			grep1=; grep2=; #exit codes for grep
+			if [ ! -e "$i $chapter-$verse.html" ]; then
+				echo "curling " "$i $chapter:$verse"
+				curl -s "https://biblia.com/bible/av1873/$i/$chapter/$verse" > output.txt
+				grep "<title>Not Found" output.txt;
+				grep1=$?
+				grep "$chapter:$verse" output.txt
+				grep2=$?
+				if [ $grep1 -eq 0 ] && [ $grep2 -ne 0 ]; #couldn't find the verse and chapter 
+				then
+					if [ $verse -eq 1 ]; #break because we've reset the chapter and verse but there's nothing to be found
+					then
+						echo "reached end of $i"
+						break
+					else
+						echo "reached end of chapter $chapter"
+						let chapter=$chapter+1
+						let verse=1
+					fi
 				else
-					echo "reached end of chapter $chapter"
-					let chapter=$chapter+1
-					let verse=1
+					cp output.txt "$i $chapter-$verse.html"
+					let verse=$verse+1
 				fi
 			else
-				cp output.txt "$i $chapter-$verse.html"
-		        let verse=$verse+1
+				  echo "already have $i $chapter-$verse.html"
+				  let verse=$verse+1
 			fi
-		else
-			  echo "already have $i $chapter-$verse.html"
-			  let verse=$verse+1
-		fi
 		
 	
 	done;
