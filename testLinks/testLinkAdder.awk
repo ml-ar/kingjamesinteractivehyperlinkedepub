@@ -393,7 +393,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 			match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
 
 #FOR TESTING ONLY, have to add the proper book
-				toPrint = toPrint "<li><a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
+				toPrint = toPrint "<a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
 				++i
 			}
 			else
@@ -427,7 +427,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 										chapter = matchArray[1]
 										match(booksAndDigits[i+j],/([[:digit:]]+)/,matchArray)
 										verse = matchArray[1]
-										toPrint = toPrint "<li><a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]  #TEST: For testing only: put in the proper xhtml and everything
+										toPrint = toPrint "<a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a>" booksAndDigitsSeperators[i+j]  #TEST: For testing only: put in the proper xhtml and everything
 								}
 
 								i += followingDigitsCounter;
@@ -442,7 +442,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
 									chapter = matchArray[1]
 									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
-									toPrint = toPrint "<li><a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"booksAndDigits[i]"</a></li>" booksAndDigitsSeperators[i] #TEST: change this in the proper program
+									toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change this in the proper program
 
 									++i
 							}
@@ -479,7 +479,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 										match(booksAndDigits[i+j],/([[:digit:]]+)/,matchArray)
 										verse = matchArray[1]
 
-										toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a></li>" booksAndDigitsSeperators[i+j]
+										toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a>" booksAndDigitsSeperators[i+j]
 								}
 								i+=followingDigitsCounter
 							} 
@@ -497,7 +497,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
 
 
-									toPrint = toPrint "<li><a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_0'>"chapter"</a></li>" trailingAfterChapter booksAndDigitsSeperators[i]
+									toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_0'>"chapter"</a>" trailingAfterChapter booksAndDigitsSeperators[i]
 									++i
 							}
 					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
