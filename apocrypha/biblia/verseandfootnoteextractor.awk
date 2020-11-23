@@ -17,7 +17,7 @@
 #1: Could not find the relevant line that has the whole text
 #2: Could not find the text header tag in the xhtml
 #3: Could not extract the footnote symbol after a footnote tag
-
+#4: The footnote text finding function could not find the footnote text location
 
 
 #just like gensub, except it works on literals instead of regexes
@@ -128,10 +128,31 @@ BEGIN {
 		bookFiles["Wisdom of Solomon"] = "WIS.xhtml"
 		bookFiles["Sirach"] = "SIR.xhtml"
 		bookFiles["Baruch"] = "BAR.xhtml"
+
+#multiple names
+		bookFiles["Letter of Jeremiah"] = bookFiles["Baruch"]
+		bookFiles["The Letter of Jeremiah"] = bookFiles["Baruch"]
+		bookFiles["The Epistle of Jeremy"] = bookFiles["Baruch"]
+		bookFiles["Epistle of Jeremy"] = bookFiles["Baruch"]
+
+#multiple names
 		bookFiles["The Song of the Three Holy Children"] = "S3Y.xhtml"
+		bookFiles["3 Holy Children's Song"] = "S3Y.xhtml"
+		bookFiles["Song of the 3 Holy Children"] = "S3Y.xhtml"
+		bookFiles["Song of the Three Holy Children"] = "S3Y.xhtml"
+		bookFiles["Prayer of Azariah"] = "S3Y.xhtml"
+		bookFiles["The Prayer of Azariah"] = "S3Y.xhtml"
+
 		bookFiles["Susanna"] = "SUS.xhtml"
+#multiple names
 		bookFiles["Bel and the Dragon"] = "BEL.xhtml"
+		bookFiles["The Idol Bel and the Dragon"] = "BEL.xhtml"
+#multiple names
+		bookFiles["The Prayer of Manasses"] = "MAN.xhtml"
 		bookFiles["Prayer of Manasses"] = "MAN.xhtml"
+		bookFiles["The Prayer of Manasseh"] = "MAN.xhtml"
+		bookFiles["Prayer of Manasseh"] = "MAN.xhtml"
+
 		bookFiles["1 Maccabees"] = "1MA.xhtml"
 		bookFiles["2 Maccabees"] = "2MA.xhtml"
 		bookFiles["Matthew"] = "MAT.xhtml"
@@ -163,15 +184,61 @@ BEGIN {
 		bookFiles["Revelation"] = "REV.xhtml"
 
 
+		oneChapterBooks["Obadiah"] = "ja"
+		oneChapterBooks["2 John"] = "ja"
+		oneChapterBooks["3 John"] = "ja"
+		oneChapterBooks["Jude"] = "ja"
+		oneChapterBooks["Philemon"] = "ja"
+		oneChapterBooks["Letter of Jeremiah"] = bookFiles["Baruch"]
+		oneChapterBooks["The Letter of Jeremiah"] = bookFiles["Baruch"]
+		oneChapterBooks["The Epistle of Jeremy"] = bookFiles["Baruch"]
+		oneChapterBooks["Epistle of Jeremy"] = bookFiles["Baruch"]
+
+		oneChapterBooks["3 Holy Children's Song"] = "S3Y.xhtml"
+		oneChapterBooks["Song of the 3 Holy Children"] = "S3Y.xhtml"
+		oneChapterBooks["Song of the Three Holy Children"] = "S3Y.xhtml"
+		oneChapterBooks["Prayer of Azariah"] = "S3Y.xhtml"
+		oneChapterBooks["The Prayer of Azariah"] = "S3Y.xhtml"
+
+		oneChapterBooks["Bel and the Dragon"] = "BEL.xhtml"
+		oneChapterBooks["The Idol Bel and the Dragon"] = "BEL.xhtml"
+
+		oneChapterBooks["The Prayer of Manasses"] = "MAN.xhtml"
+		oneChapterBooks["Prayer of Manasses"] = "MAN.xhtml"
+		oneChapterBooks["The Prayer of Manasseh"] = "MAN.xhtml"
+		oneChapterBooks["Prayer of Manasseh"] = "MAN.xhtml"
+
+#START WORK HERE 1.1: Have to add book tags for biblia abbrevations, as per the html href. (E.g., biblaAbbrev["Jude"] = "Jud", biblaAbbrev["Zechariah"] = "Zec", etc.
 
 
 }
+#function takes a bibliatag and returns the proper EPUB hyperlink begining
+#e.g: bibliatag is something in the form like <a data-reference="Zec1.17" data-datatype="bible+kjv" href="/reference/Zec1.17?resourceName=av1873" class="bibleref"> or <a data-reference="Jud9" data-datatype="bible+kjv" href="/reference/Jud9?resourceName=av1873" class="bibleref">
+#And the function will return: <a href='ZEC.xhtml#ZC1_17'> and <a href='JUD.xhtml#JD1_9'>
 
-#START WORK HERE 1
 
-#returns simply the text associated with the footnote number, also properly adds xhtml tags for making hyperlinks
-function getFootnoteText(footnoteNumber)
+function getProperHyperlinkOpeningBracket(bibliaTag)
 {
+#START WORK HERE 1.2
+}
+
+
+
+#returns simply the text associated with the footnote number, also properly adds html tags for making hyperlinks
+#footnote number: the number of the footnote AS PER THE HTML file under question (e.g. if in the html it's #footnote1, you should pass "1")
+function getFootnoteText(footnoteNumber,  footnoteStart)
+{
+if (!(footnoteStart = index($0,"<td id=\"footnote"footnoteNumber"\">")))
+{
+print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."; exit 4
+}
+
+
+#you'll need to call getProperHyperlinkOpeningBracket
+#the footnote could have more than one part of the text that needs to be properly hyperlinked
+#START WORK HERE 2
+#something like: toReturn = getProperHyperlinkOpeningBracket(properly formatted biblia hyperlink string)
+
 }
 
 {
@@ -189,7 +256,7 @@ function getFootnoteText(footnoteNumber)
 	}
 
 
-		
+
 
 	verseBlock = substr($0, pointer)
 		verseBlock = gensub(/(\s*\n.*$)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
@@ -214,8 +281,6 @@ function getFootnoteText(footnoteNumber)
 
 		for (i=1; i<=length(splitArray); ++i)
 		{
-#START WORK HERE 2:
-#you need to reset "preceding text" after you've recorded a footnote or when there's a book or chapter or verse switch
 			if (i-1 in sepsArray)
 			{
 				if (sepsArray[i-1] ~ /rel="popup"/ && sepsArray[i-1] ~ /href="#footnote[[:digit:]]+"/) #the previous seps is a footnote span, that means the current thing is a footnote symbol
@@ -246,7 +311,7 @@ function getFootnoteText(footnoteNumber)
 						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
 						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
 
-						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber); 
+						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber);
 
 
 
@@ -254,7 +319,7 @@ function getFootnoteText(footnoteNumber)
 					continue; #we continue, because we don't want to add the footnote symbol to the preceding text
 				}
 
-				else if (match(sepsArray[i-1], /<a data-datatype="bible\+kjv" data-reference="([^"]+)"/, matchArray))
+				else if (match(sepsArray[i-1], /<a data-datatype="bible\+kjv" data-reference="([^"]+)"/, matchArray)) #found the beginning marker of a verse block
 				{
 
 					if (match(matchArray[1],/\s*([[:digit:]]+)(:([[:digit:]]+))?\s*$/, matchArray2))
@@ -267,7 +332,7 @@ function getFootnoteText(footnoteNumber)
 						else
 						{
 							verse = matchArray2[1]
-								chapter = 0 
+								chapter = 0
 
 						}
 						book = substr(matchArray[1], 1, index(matchArray[1], matchArray2[0])-1)
@@ -275,7 +340,7 @@ function getFootnoteText(footnoteNumber)
 							if (verse != "1") #if the verse is greater than one, we expect to find a splitArray element to be just that verse; we have to skip it
 							{
 								j = i;
-								while (j<=length(splitArray)) 
+								while (j<=length(splitArray))
 								{
 									if (splitArray[j] ~ "^\\s*"verse"\\s*$")
 									{
@@ -310,9 +375,17 @@ function getFootnoteText(footnoteNumber)
 				continue;
 			}
 
-
-			precedingText = precedingText splitArray[i]
-
+			if (((oldVerse>=0 && oldChapter>=0 && book) && (chapter != oldChapter || verse != oldVerse || book != oldBook)) || sepsArray[i] ~ /<\/p>/) #there was a verse/chapter switch this loop or there's a new paragraph; we need to clear the precedingText variable, tested seems to be working (I had to add the paragraph break check because Sirach prologue won't parse properly if that's the case; this might be problematic in the case that a biblia xhtml splits a verse by a paragraph, but I don't anticipate that will happen)
+			{
+				precedingText = ""
+			}
+			else
+			{
+				precedingText = precedingText splitArray[i]
+			}
+			oldVerse = verse;
+			oldChapter = chapter;
+			oldBook = book;
 		}
 
 
@@ -350,6 +423,9 @@ for (i in footnotes) #footnoteNumber
 		}
 	}
 }
+
+
+#It's important that you, in the next program that inserts the footnotes in their places, you properly insert the footnotes for Sirach Prologue
 
 exit 0
 }
