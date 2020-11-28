@@ -307,7 +307,7 @@ BEGIN {
 
 function getProperHyperlinkOpeningBracket(bibliaTag)
 {
-#START WORK HERE 1.2
+#START WORK HERE 1
 }
 
 
@@ -463,7 +463,7 @@ print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."
 				continue;
 			}
 
-			if (((oldVerse>=0 && oldChapter>=0 && book) && (chapter != oldChapter || verse != oldVerse || book != oldBook)) || sepsArray[i] ~ /<\/p>/) #there was a verse/chapter switch this loop or there's a new paragraph; we need to clear the precedingText variable, tested seems to be working (I had to add the paragraph break check because Sirach prologue won't parse properly if that's the case; this might be problematic in the case that a biblia xhtml splits a verse by a paragraph, but I don't anticipate that will happen)
+			if (((oldVerse>=0 && oldChapter>=0 && book) && (chapter != oldChapter || verse != oldVerse || book != oldBook))) #there was a verse/chapter switch this loop or there's a new paragraph; we need to clear the precedingText variable, tested seems to be working (I had to add the paragraph break check because Sirach prologue won't parse properly if that's the case; this might be problematic in the case that a biblia xhtml splits a verse by a paragraph, but I don't anticipate that will happen)
 			{
 				precedingText = ""
 			}
