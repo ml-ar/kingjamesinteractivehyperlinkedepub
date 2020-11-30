@@ -1,86 +1,54 @@
-#for an input html (e.g., Genesis 1-1.hmtml), this program outputs the following tab-seperated data:
+#each line of the test input should be a biblia tag in the form <a data-reference="Zec1.17" data-datatype="bible+kjv" href="/reference/Zec1.17?resourceName=av1873" class="bibleref"> or something like that
 
-
-#good input file is: 1-esdras 1-4.xhtml
-#also important to test for bel and the dragon and sirach prologue
-
-#book	chapter	verse	full verse text (italics are surrounded thus <i>text</i>)	footnote symbol	footnote text	preceding verse text (italics preserved)
-
-#the last four can be repeated for as many footnotes as necessary
-#if chapter is 0, that means it's just verses
-
-
-
-
-
-#ERROR CODES
-#1: Could not find the relevant line that has the whole text
-#2: Could not find the text header tag in the xhtml
-#3: Could not extract the footnote symbol after a footnote tag
-#4: The footnote text finding function could not find the footnote text location
-
-
-#just like gensub, except it works on literals instead of regexes
-function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
+function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,  linkBookFullName,  linkChapter,  linkVerse,  toReturn)
 {
+#START WORK HERE 1
 
-	toReturn = ""
-
-
-	mutilatedString = string
-
-		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
-		{
-			number = 1
-		}
-
-
-	if (!(position = index(string, literalPattern)))
+	if (!(match(bibliaTag,/^\s*<a data-reference="([^"]+)"[^>]+>*$/, hyperlinkArray)))
 	{
-		return string;
+		print "ERROR: Could not parse " bibliaTag " into a hyperlink tag."; exit 6
 	}
 
+        match(hyperlinkArray[1], ([[:digit:]]?[A-Za-z]+)([[:digit:]]+)\.?([[:digit:]]?), hyperlinkArray)
+	linkBook = hyperlinkArray[1]
 
-	if (match(number,/^[Gg]/)) #replace all
-	{
-		while (position = index(mutilatedString, literalPattern))
+		linkChapter = hyperlinkArray[2]
+
+		if (!(3 in hyperlinkArray) || !hyperlinkArray[3])
 		{
-			toReturn = toReturn substr(mutilatedString, 1, position-1)
-				toReturn = toReturn literalSubstitution
-				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+			linkVerse = 1
 		}
-	}
-	else if (match(number,/^([[:digit:]]+)/, matchArray))
-	{
-		for (i = 0; i < matchArray[0]; ++i)
+		else
 		{
-			position = index(mutilatedString, literalPattern)
-				toReturn = toReturn substr(mutilatedString, 1, position-1)
-				toReturn = toReturn literalSubstitution
-				mutilatedString = substr(mutilatedString, position+length(literalPattern))
-		}
-	}
-       else
-       {
-	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
-       }
-	toReturn = toReturn mutilatedString
+			linkVerse = hyperlinkArray[3]
+		} 
 
-		return toReturn;
+#START WORK HERE: debug, make sure the book and the chapter are grabbed correctly
+if (!(linkBook in bibliaAbbrev))
+{
+print "ERROR: inferred book " linkBook " from " bibliaTag " is not in the bibliaAbbrev array."; exit 7
+}
 
+linkBookFullName = bibliaAbbrev[linkBook]
+
+if (!(linkBookFullName in bookFiles))
+{
+print "ERROR: book " linkBookFullName " is not in the bookFiles array."; exit 8
+}
+
+if (!(linkBookFullName in verseLabels))
+{
+print "ERROR: book " linkBookFullName " is not in the verseLabels array."; exit 8
+}
+
+toReturn = "<a href='"bookFiles[linkBookFullName]"#"verseLabels[linkBookFullName]""linkChapter"_"linkVerse"'>"
+
+return toReturn;
 
 }
 
 
-
-
-
 BEGIN {
-	RS = "^$"
-		OFS = FS #setting it to tab
-
-
-#a map between book name and xhtml files
 		bookFiles["Genesis"] = "GEN.xhtml"
 		bookFiles["Exodus"] = "EXO.xhtml"
 		bookFiles["Leviticus"] = "LEV.xhtml"
@@ -298,8 +266,7 @@ BEGIN {
 		bibliaAbbrev["Jud"] = "Jude"
 		bibliaAbbrev["Re"] = "Revelation"
 
-#two letter verse prefixes in the epub xhtmls
-		verseLabels["Genesis"] = "GN"
+verseLabels["Genesis"] = "GN"
 		verseLabels["Exodus"] = "EX"
 		verseLabels["Leviticus"] = "LV"
 		verseLabels["Numbers"] = "NM"
@@ -378,236 +345,9 @@ BEGIN {
 		verseLabels["Jude"] = "JD"
 		verseLabels["Revelation"] = "RV"
 
-
-
 }
 
-
-#takes some html italics (i.e., <em>...</em> I think) and converts them to <span class='add'>...</span>
-#have to be careful to make sure you account for embedded tags (e.g., <em>...<span>...</span></em>)
-
-#htmltag: the tag to convert
-function convertItalics(htmlTag)
-{
-START WORK HERE 3:
-}
-
-
-
-#function takes a bibliatag and returns the proper EPUB hyperlink begining
-#e.g: bibliatag is something in the form like <a data-reference="Zec1.17" data-datatype="bible+kjv" href="/reference/Zec1.17?resourceName=av1873" class="bibleref"> or <a data-reference="Jud9" data-datatype="bible+kjv" href="/reference/Jud9?resourceName=av1873" class="bibleref">
-#And the function will return: <a href='ZEC.xhtml#ZC1_17'> and <a href='JUD.xhtml#JD1_9'>
-
-
-function getProperHyperlinkOpeningBracket(bibliaTag)
-{
-#START WORK HERE 1: look in apocrypha/biblia/tests for the test function, fix that before adding here
-}
-
-
-
-#returns simply the text associated with the footnote number, also properly adds html tags for making hyperlinks
-#footnote number: the number of the footnote AS PER THE HTML file under question (e.g. if in the html it's #footnote1, you should pass "1")
-function getFootnoteText(footnoteNumber,  footnoteStart)
-{
-if (!(footnoteStart = index($0,"<td id=\"footnote"footnoteNumber"\">")))
-{
-print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."; exit 4
-}
-
-
-#you'll need to call getProperHyperlinkOpeningBracket
-#the footnote could have more than one part of the text that needs to be properly hyperlinked
-#START WORK HERE 2
-#something like: toReturn = getProperHyperlinkOpeningBracket(properly formatted biblia hyperlink string)
-
-}
 
 {
-
-	if (!(pointer = index($0,"<a data-datatype=\"bible+kjv\" data-reference=")))
-	{
-		print "Error grabbing the text line."; exit 1
-	}
-
-	verseBlock = substr($0, pointer)
-
-		if (verseBlock !~ /footnote/) #no footnote data in the current file, nothing to see here;
-	{
-		exit 0;
-	}
-
-
-
-
-	verseBlock = substr($0, pointer)
-		verseBlock = gensub(/(\s*\n.*$)/,"","g",verseBlock) #the relevant part is all on one line, trim everything
-
-
-
-
-		print verseBlock
-
-
-
-
-		split(verseBlock, splitArray, /<[^>]+>/,sepsArray) #split by HTML tags
-
-
-		precedingText = ""
-		numOfFootnotes = 0
-
-#get footnotes
-#be careful distinguishing between full books (e.g. bell and the dragon) and those divided up into books and chapters
-
-
-		for (i=1; i<=length(splitArray); ++i)
-		{
-			if (i-1 in sepsArray)
-			{
-				if (sepsArray[i-1] ~ /rel="popup"/ && sepsArray[i-1] ~ /href="#footnote[[:digit:]]+"/) #the previous seps is a footnote span, that means the current thing is a footnote symbol
-				{
-					match(sepsArray[i-1],href="#footnote([[:digit:]]+)", matchArray)
-						footnoteNumber = matchArray[1]
-						j = i
-						while (j<=length(splitArray)) #we have to go through splits till we find the first non empty string; this is the footnote symbol
-						{
-							if (splitArray[j] !~ /^\s*$/ && splitArray[j] && splitArray[j] != "") #these ands might be redundant
-							{
-								i = j
-									break; #found the index for the footnote symbol
-							}
-							++j;
-						}
-
-					if (j > length(splitArray))
-					{
-						print "FATAL ERROR: found footnote but could not properly get the footnote symbol."; exit 3;
-					}
-#WARNING: this could be problem, chapter might be a proper integer while verse is a string
-
-
-#about to make a new entry to the footnotes array, have to trim the data
-					precedingText = gensub(/[  \t]{2,}/," ","g",precedingText) #careful with the non-breaking spaces!
-						precedingText = gensub(/^[\t  ]+/,"","g",precedingText) #this is probably right; you don't expect there to be any spaces to begin the preceding text
-						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
-						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
-#START WORK HERE 4: Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array
-						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber);
-
-
-
-
-					continue; #we continue, because we don't want to add the footnote symbol to the preceding text
-				}
-
-				else if (match(sepsArray[i-1], /<a data-datatype="bible\+kjv" data-reference="([^"]+)"/, matchArray)) #found the beginning marker of a verse block
-				{
-
-					if (match(matchArray[1],/\s*([[:digit:]]+)(:([[:digit:]]+))?\s*$/, matchArray2))
-					{
-						if (3 in matchArray2)
-						{
-							verse = matchArray2[3]
-								chapter = matchArray2[1]
-						}
-						else
-						{
-							verse = matchArray2[1]
-								chapter = 0
-
-						}
-						book = substr(matchArray[1], 1, index(matchArray[1], matchArray2[0])-1)
-
-							if (verse != "1") #if the verse is greater than one, we expect to find a splitArray element to be just that verse; we have to skip it
-							{
-								j = i;
-								while (j<=length(splitArray))
-								{
-									if (splitArray[j] ~ "^\\s*"verse"\\s*$")
-									{
-										i = j;
-										break; #found the index for the verse number
-									}
-									++j;
-								}
-								if (j>length(splitArray))
-								{
-									print "FATAL ERROR: found footnote but could not properly get the footnote symbol."; exit 3;
-								}
-							}
-					}
-					else
-					{
-
-						book = matchArray[1]
-							verse = 0; #probably a title
-							chapter = 0;
-					}
-
-
-				}
-
-
-
-			}
-
-			if (verse && splitArray[i] ~ "^\\s*"verse"\\s*$") #this splitArray element is just the verse number; skip it
-			{
-				continue;
-			}
-
-			if (((oldVerse>=0 && oldChapter>=0 && book) && (chapter != oldChapter || verse != oldVerse || book != oldBook))) #there was a verse/chapter switch this loop or there's a new paragraph; we need to clear the precedingText variable, tested seems to be working (I had to add the paragraph break check because Sirach prologue won't parse properly if that's the case; this might be problematic in the case that a biblia xhtml splits a verse by a paragraph, but I don't anticipate that will happen)
-			{
-				precedingText = ""
-			}
-			else
-			{
-				precedingText = precedingText splitArray[i]
-			}
-			oldVerse = verse;
-			oldChapter = chapter;
-			oldBook = book;
-		}
-
-
-
-#footnotes array anatomy: footnotes[footnoteNumber][chapter][verse]["precedingWords"]["symbol"] = "actual footnote text"
-#if chapter is 0, it means it's either a chapterless book or it's part of the prologue
-#if chapter is 0 and verse is 0 it means it's a footnote in the title (see bel and the dragon)
-
-
-
-
-
-
-
-
-}
-
-END {
-#START WORK HERE 5:
-#tweak this to your pleasure
-
-for (i in footnotes) #footnoteNumber
-{
-	for (j in footnotes[i]) #chapter
-	{
-		for (k in footnotes[i][j]) #verse
-		{
-			for (l in footnotes[i][j][k]) #precedingWords
-			{
-				for (m in footnotes[i][j][k][l]) #symbol
-				{
-                                print book, j, k, i, l, m, footnotes[i][j][k][l][m]
-				}
-			}
-		}
-	}
-}
-
-
-#It's important that you, in the next program that inserts the footnotes in their places, you properly insert the footnotes for Sirach Prologue
-
-exit 0
+print getProperHyperlinkOpeningBracket($0)
 }
