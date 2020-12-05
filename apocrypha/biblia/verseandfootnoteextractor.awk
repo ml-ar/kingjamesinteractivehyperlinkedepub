@@ -160,7 +160,7 @@ BEGIN {
 		bookFiles["The Prayer of Manasses"] = "MAN.xhtml"
 		bookFiles["Prayer of Manasses"] = bookFiles["The Prayer of Manasses"]
 		bookFiles["The Prayer of Manasseh"] = bookFiles["The Prayer of Manasses"]
-		bookFiles["Prayer of Manasseh"]= bookFiles["Prayer of Manasses"]
+		bookFiles["Prayer of Manasseh"]= bookFiles["The Prayer of Manasses"]
 
 		bookFiles["1 Maccabees"] = "1MA.xhtml"
 		bookFiles["2 Maccabees"] = "2MA.xhtml"
@@ -388,7 +388,7 @@ BEGIN {
 		verseLabels["The Prayer of Manasses"] = "PN"
 		verseLabels["Prayer of Manasses"] = verseLabels["The Prayer of Manasses"]
 		verseLabels["The Prayer of Manasseh"] = verseLabels["The Prayer of Manasses"]
-		verseLabels["Prayer of Manasseh"]= verseLabels["Prayer of Manasses"]
+		verseLabels["Prayer of Manasseh"]= verseLabels["The Prayer of Manasses"]
 
 
 		verseLabels["1 Maccabees"] = "M1"
