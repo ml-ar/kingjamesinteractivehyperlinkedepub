@@ -145,12 +145,36 @@ BEGIN {
 		verseLabels["Judith"] = "JT"
 		verseLabels["Esther (Greek)"] = "EG"
 		verseLabels["Rest of Esther"] = verseLabels["Esther (Greek)"]
-		verseLabels["Wisdom"] = "WS"
+
+
+		verseLabels["The Wisdom of Solomon"] = "WS"
+		verseLabels["Wisdom of Solomon"] = verseLabels["The Wisdom of Solomon"]
+
+
 		verseLabels["Sirach"] = "SR"
-		verseLabels["Baruch"] = "BR"
 		verseLabels["Ecclesiasticus"] = verseLabels["Sirach"] #sirach and ecclesiasticus is the same
+		verseLabels["Baruch"] = "BR"
+
+		verseLabels["The Song of the Three Holy Children"] = "PA"
+		verseLabels["The Prayer of Azariah"] = verseLabels["The Song of the Three Holy Children"]
+		verseLabels["Prayer of Azariah"] = verseLabels["The Song of the Three Holy Children"]
+
+		verseLabels["Susanna"] = "SN"
+
+		verseLabels["Bel and the Dragon"] = "BL"
+		verseLabels["The Idol Bel and the Dragon"] = verseLabels["Bel and the Dragon"] 
+
+
+		verseLabels["The Prayer of Manasses"] = "PN"
+		verseLabels["Prayer of Manasses"] = verseLabels["The Prayer of Manasses"]
+		verseLabels["The Prayer of Manasseh"] = verseLabels["The Prayer of Manasses"]
+		verseLabels["Prayer of Manasseh"]= verseLabels["The Prayer of Manasses"]
+
+
 		verseLabels["1 Maccabees"] = "M1"
 		verseLabels["2 Maccabees"] = "M2"
+
+
 
 #New Testament
 		verseLabels["Matthew"] = "MT"
@@ -185,8 +209,9 @@ BEGIN {
 			bookRegexCombined = bookRegexCombined "|(" bookRegex[i] ")"
 		}
 
+	bookRegexCombined = "(\\<)" bookRegexCombined
 
-	bookFiles["Genesis"] = "GEN.xhtml"
+		bookFiles["Genesis"] = "GEN.xhtml"
 		bookFiles["Exodus"] = "EXO.xhtml"
 		bookFiles["Leviticus"] = "LEV.xhtml"
 		bookFiles["Numbers"] = "NUM.xhtml"
@@ -225,33 +250,45 @@ BEGIN {
 		bookFiles["Haggai"] = "HAG.xhtml"
 		bookFiles["Zechariah"] = "ZEC.xhtml"
 		bookFiles["Malachi"] = "MAL.xhtml"
+
+#Apocrypha
+
 		bookFiles["1 Esdras"] = "1ES.xhtml"
 		bookFiles["2 Esdras"] = "2ES.xhtml"
 		bookFiles["Tobit"] = "TOB.xhtml"
 		bookFiles["Judith"] = "JDT.xhtml"
 		bookFiles["Esther (Greek)"] = "ESG.xhtml"
-		bookFiles["Wisdom of Solomon"] = "WIS.xhtml"
+
+		bookFiles["The Wisdom of Solomon"] = "WIS.xhtml"
+		bookFiles["Wisdom of Solomon"] = bookFiles["The Wisdom of Solomon"] 
+		bookFiles["Wisdom"] = bookFiles["The Wisdom of Solomon"]
+
 		bookFiles["Sirach"] = "SIR.xhtml"
-                bookFiles["Ecclesiasticus"] = bookFiles["Sirach"]
+		bookFiles["Ecclesiasticus"] = bookFiles["Sirach"]
+
 		bookFiles["Baruch"] = "BAR.xhtml"
+
 		bookFiles["The Song of the Three Holy Children"] = "S3Y.xhtml"
+		bookFiles["The Prayer of Azariah"] = bookFiles["The Song of the Three Holy Children"]
+		bookFiles["Prayer of Azariah"] = bookFiles["The Song of the Three Holy Children"]
+
+
+
 		bookFiles["Susanna"] = "SUS.xhtml"
-		bookFiles["Bel and the Dragon"] = "BEL.xhtml"
+
+		bookFiles["The Idol Bel and the Dragon"] = "BEL.xhtml"
+		bookFiles["Bel and the Dragon"] = bookFiles["The Idol Bel and the Dragon"]
+
 		bookFiles["Prayer of Manasses"] = "MAN.xhtml"
+		bookFiles["Prayer of Manasses"] = bookFiles["The Prayer of Manasses"]
+		bookFiles["The Prayer of Manasseh"] = bookFiles["The Prayer of Manasses"]
+		bookFiles["Prayer of Manasseh"]= bookFiles["The Prayer of Manasses"]
+
 		bookFiles["1 Maccabees"] = "1MA.xhtml"
 		bookFiles["2 Maccabees"] = "2MA.xhtml"
-		bookFiles["Matthew"] = "MAT.xhtml"
-		bookFiles["Mark"] = "MRK.xhtml"
-		bookFiles["Luke"] = "LUK.xhtml"
-		bookFiles["John"] = "JHN.xhtml"
-		bookFiles["Acts"] = "ACT.xhtml"
-		bookFiles["Baruch"] = "BAR.xhtml"
-		bookFiles["The Song of the Three Holy Children"] = "S3Y.xhtml"
-		bookFiles["Susanna"] = "SUS.xhtml"
-		bookFiles["Bel and the Dragon"] = "BEL.xhtml"
-		bookFiles["Prayer of Manasses"] = "MAN.xhtml"
-		bookFiles["1 Maccabees"] = "1MA.xhtml"
-		bookFiles["2 Maccabees"] = "2MA.xhtml"
+
+
+#NewTestament
 		bookFiles["Matthew"] = "MAT.xhtml"
 		bookFiles["Mark"] = "MRK.xhtml"
 		bookFiles["Luke"] = "LUK.xhtml"
