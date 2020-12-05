@@ -120,41 +120,53 @@ BEGIN {
 		bookFiles["Haggai"] = "HAG.xhtml"
 		bookFiles["Zechariah"] = "ZEC.xhtml"
 		bookFiles["Malachi"] = "MAL.xhtml"
+
+#Apocrypha
+
 		bookFiles["1 Esdras"] = "1ES.xhtml"
 		bookFiles["2 Esdras"] = "2ES.xhtml"
 		bookFiles["Tobit"] = "TOB.xhtml"
 		bookFiles["Judith"] = "JDT.xhtml"
 		bookFiles["Esther (Greek)"] = "ESG.xhtml"
-		bookFiles["Wisdom of Solomon"] = "WIS.xhtml"
-		bookFiles["Sirach"] = "SIR.xhtml"
-		bookFiles["Baruch"] = "BAR.xhtml"
 
-#multiple names
+		bookFiles["The Wisdom of Solomon"] = "WIS.xhtml"
+		bookFiles["Wisdom of Solomon"] = bookFiles["The Wisdom of Solomon"]
+		bookFiles["Wisdom"] = bookFiles["The Wisdom of Solomon"]
+
+		bookFiles["Sirach"] = "SIR.xhtml"
+		bookFiles["Ecclesiasticus"] = bookFiles["Sirach"]
+
+		bookFiles["Baruch"] = "BAR.xhtml"
 		bookFiles["Letter of Jeremiah"] = bookFiles["Baruch"]
 		bookFiles["The Letter of Jeremiah"] = bookFiles["Baruch"]
 		bookFiles["The Epistle of Jeremy"] = bookFiles["Baruch"]
 		bookFiles["Epistle of Jeremy"] = bookFiles["Baruch"]
 
-#multiple names
+
 		bookFiles["The Song of the Three Holy Children"] = "S3Y.xhtml"
-		bookFiles["3 Holy Children's Song"] = "S3Y.xhtml"
-		bookFiles["Song of the 3 Holy Children"] = "S3Y.xhtml"
-		bookFiles["Song of the Three Holy Children"] = "S3Y.xhtml"
-		bookFiles["Prayer of Azariah"] = "S3Y.xhtml"
-		bookFiles["The Prayer of Azariah"] = "S3Y.xhtml"
+		bookFiles["3 Holy Children's Song"] = bookFiles["The Song of the Three Holy Children"]
+		bookFiles["Song of the 3 Holy Children"] = bookFiles["The Song of the Three Holy Children"]
+		bookFiles["Song of the Three Holy Children"] = bookFiles["The Song of the Three Holy Children"]
+		bookFiles["The Prayer of Azariah"] = bookFiles["The Song of the Three Holy Children"]
+		bookFiles["Prayer of Azariah"] = bookFiles["The Song of the Three Holy Children"]
+
+
 
 		bookFiles["Susanna"] = "SUS.xhtml"
-#multiple names
-		bookFiles["Bel and the Dragon"] = "BEL.xhtml"
+
 		bookFiles["The Idol Bel and the Dragon"] = "BEL.xhtml"
-#multiple names
+		bookFiles["Bel and the Dragon"] = bookFiles["The Idol Bel and the Dragon"]
+
 		bookFiles["The Prayer of Manasses"] = "MAN.xhtml"
-		bookFiles["Prayer of Manasses"] = "MAN.xhtml"
-		bookFiles["The Prayer of Manasseh"] = "MAN.xhtml"
-		bookFiles["Prayer of Manasseh"] = "MAN.xhtml"
+		bookFiles["Prayer of Manasses"] = bookFiles["The Prayer of Manasses"]
+		bookFiles["The Prayer of Manasseh"] = bookFiles["The Prayer of Manasses"]
+		bookFiles["Prayer of Manasseh"]= bookFiles["Prayer of Manasses"]
 
 		bookFiles["1 Maccabees"] = "1MA.xhtml"
 		bookFiles["2 Maccabees"] = "2MA.xhtml"
+
+
+#NewTestament
 		bookFiles["Matthew"] = "MAT.xhtml"
 		bookFiles["Mark"] = "MRK.xhtml"
 		bookFiles["Luke"] = "LUK.xhtml"
@@ -194,19 +206,22 @@ BEGIN {
 		oneChapterBooks["The Epistle of Jeremy"] = bookFiles["Baruch"]
 		oneChapterBooks["Epistle of Jeremy"] = bookFiles["Baruch"]
 
-		oneChapterBooks["3 Holy Children's Song"] = "S3Y.xhtml"
-		oneChapterBooks["Song of the 3 Holy Children"] = "S3Y.xhtml"
-		oneChapterBooks["Song of the Three Holy Children"] = "S3Y.xhtml"
-		oneChapterBooks["Prayer of Azariah"] = "S3Y.xhtml"
-		oneChapterBooks["The Prayer of Azariah"] = "S3Y.xhtml"
+
+		oneChapterBooks["The Song of the Three Holy Children"] = "S3Y.xhtml"
+		oneChapterBooks["3 Holy Children's Song"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of the 3 Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of the Three Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["The Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+
 
 		oneChapterBooks["Bel and the Dragon"] = "BEL.xhtml"
 		oneChapterBooks["The Idol Bel and the Dragon"] = "BEL.xhtml"
 
 		oneChapterBooks["The Prayer of Manasses"] = "MAN.xhtml"
-		oneChapterBooks["Prayer of Manasses"] = "MAN.xhtml"
-		oneChapterBooks["The Prayer of Manasseh"] = "MAN.xhtml"
-		oneChapterBooks["Prayer of Manasseh"] = "MAN.xhtml"
+		oneChapterBooks["Prayer of Manasses"] = oneChapterBooks["The Prayer of Manasses"]
+		oneChapterBooks["The Prayer of Manasseh"] = oneChapterBooks["The Prayer of Manasses"]
+		oneChapterBooks["Prayer of Manasseh"] = oneChapterBooks["The Prayer of Manasses"]
 
 #All linked footnotes have a href like "#href="/reference/Eze28.13?resourceName=av1873". So for "Ezekiel" bibliaAbbrev["Eze"] would be "Ezekiel". The abbreviation is the element (for fast lookup)
 
@@ -345,13 +360,41 @@ BEGIN {
 		verseLabels["Judith"] = "JT"
 		verseLabels["Esther (Greek)"] = "EG"
 		verseLabels["Rest of Esther"] = verseLabels["Esther (Greek)"]
-		verseLabels["Wisdom"] = "WS"
-                verseLabels["Susanna]" = "SN"
+
+
+		verseLabels["The Wisdom of Solomon"] = "WS"
+		verseLabels["Wisdom of Solomon"] = verseLabels["The Wisdom of Solomon"]
+		verseLabels["Wisdom"] = verseLabels["The Wisdom of Solomon"]
+
+
 		verseLabels["Sirach"] = "SR"
-		verseLabels["Baruch"] = "BR"
 		verseLabels["Ecclesiasticus"] = verseLabels["Sirach"] #sirach and ecclesiasticus is the same
+		verseLabels["Baruch"] = "BR"
+
+
+		verseLabels["The Song of the Three Holy Children"] = "PA"
+		verseLabels["3 Holy Children's Song"] = verseLabels["The Song of the Three Holy Children"]
+		verseLabels["Song of the 3 Holy Children"] = verseLabels["The Song of the Three Holy Children"]
+		verseLabels["Song of the Three Holy Children"] = verseLabels["The Song of the Three Holy Children"]
+		verseLabels["The Prayer of Azariah"] = verseLabels["The Song of the Three Holy Children"]
+		verseLabels["Prayer of Azariah"] = verseLabels["The Song of the Three Holy Children"]
+
+		verseLabels["Susanna"] = "SN"
+
+		verseLabels["Bel and the Dragon"] = "BL"
+		verseLabels["The Idol Bel and the Dragon"] = verseLabels["Bel and the Dragon"]
+
+
+		verseLabels["The Prayer of Manasses"] = "PN"
+		verseLabels["Prayer of Manasses"] = verseLabels["The Prayer of Manasses"]
+		verseLabels["The Prayer of Manasseh"] = verseLabels["The Prayer of Manasses"]
+		verseLabels["Prayer of Manasseh"]= verseLabels["Prayer of Manasses"]
+
+
 		verseLabels["1 Maccabees"] = "M1"
 		verseLabels["2 Maccabees"] = "M2"
+
+
 
 #New Testament
 		verseLabels["Matthew"] = "MT"
@@ -378,6 +421,7 @@ BEGIN {
 		verseLabels["1 John"] = "J1"
 		verseLabels["Jude"] = "JD"
 		verseLabels["Revelation"] = "RV"
+
 
 
 
@@ -420,7 +464,7 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
 		else
 		{
 			linkVerse = hyperlinkArray[4]
-		} 
+		}
 
 	if (!(linkBook in bibliaAbbrev))
 	{
