@@ -9,18 +9,18 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
 		print "ERROR: Could not parse " bibliaTag " into a hyperlink tag."; exit 6
 	}
 
-        match(hyperlinkArray[1], ([[:digit:]]?[A-Za-z]+)([[:digit:]]+)\.?([[:digit:]]?), hyperlinkArray)
+        match(hyperlinkArray[1], /([[:digit:]]?[A-Za-z]+)([[:digit:]]+)(\.([[:digit:]]+))?/, hyperlinkArray)
 	linkBook = hyperlinkArray[1]
 
 		linkChapter = hyperlinkArray[2]
 
-		if (!(3 in hyperlinkArray) || !hyperlinkArray[3])
+		if (!(4 in hyperlinkArray) || !hyperlinkArray[4]) #4 is the index for the inner parenthesis in the right most of the regex in the most recent match
 		{
-			linkVerse = 1
+			linkVerse = 0
 		}
 		else
 		{
-			linkVerse = hyperlinkArray[3]
+			linkVerse = hyperlinkArray[4]
 		} 
 
 #START WORK HERE: debug, make sure the book and the chapter are grabbed correctly

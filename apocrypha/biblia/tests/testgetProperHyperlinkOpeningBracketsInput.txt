@@ -1,1 +1,3 @@
 <a data-reference="Zec1.17" data-datatype="bible+kjv" href="/reference/Zec1.17?resourceName=av1873" class="bibleref">
+<a data-reference="Ge43.16" data-datatype="bible+kjv" href="/reference/Ge43.16?resourceName=av1873" class="bibleref">
+<a data-reference="Sus13" data-datatype="bible+kjv" href="/reference/Sus13?resourceName=av1873" class="bibleref">

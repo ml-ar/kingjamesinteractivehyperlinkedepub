@@ -346,6 +346,7 @@ BEGIN {
 		verseLabels["Esther (Greek)"] = "EG"
 		verseLabels["Rest of Esther"] = verseLabels["Esther (Greek)"]
 		verseLabels["Wisdom"] = "WS"
+                verseLabels["Susanna]" = "SN"
 		verseLabels["Sirach"] = "SR"
 		verseLabels["Baruch"] = "BR"
 		verseLabels["Ecclesiasticus"] = verseLabels["Sirach"] #sirach and ecclesiasticus is the same
@@ -389,7 +390,7 @@ BEGIN {
 #htmltag: the tag to convert
 function convertItalics(htmlTag)
 {
-START WORK HERE 3:
+#START WORK HERE 1:
 }
 
 
@@ -399,9 +400,49 @@ START WORK HERE 3:
 #And the function will return: <a href='ZEC.xhtml#ZC1_17'> and <a href='JUD.xhtml#JD1_9'>
 
 
-function getProperHyperlinkOpeningBracket(bibliaTag)
+function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,  linkBookFullName,  linkChapter,  linkVerse,  toReturn)
 {
-#START WORK HERE 1: look in apocrypha/biblia/tests for the test function, fix that before adding here
+
+	if (!(match(bibliaTag,/^\s*<a data-reference="([^"]+)"[^>]+>*$/, hyperlinkArray)))
+	{
+		print "ERROR: Could not parse " bibliaTag " into a hyperlink tag."; exit 6
+	}
+
+	match(hyperlinkArray[1], /([[:digit:]]?[A-Za-z]+)([[:digit:]]+)(\.([[:digit:]]+))?/, hyperlinkArray)
+		linkBook = hyperlinkArray[1]
+
+		linkChapter = hyperlinkArray[2]
+
+		if (!(4 in hyperlinkArray) || !hyperlinkArray[4]) #4 is the index for the inner parenthesis in the right most of the regex in the most recent match
+		{
+			linkVerse = 0
+		}
+		else
+		{
+			linkVerse = hyperlinkArray[4]
+		} 
+
+	if (!(linkBook in bibliaAbbrev))
+	{
+		print "ERROR: inferred book " linkBook " from " bibliaTag " is not in the bibliaAbbrev array."; exit 7
+	}
+
+	linkBookFullName = bibliaAbbrev[linkBook]
+
+		if (!(linkBookFullName in bookFiles))
+		{
+			print "ERROR: book " linkBookFullName " is not in the bookFiles array."; exit 8
+		}
+
+	if (!(linkBookFullName in verseLabels))
+	{
+		print "ERROR: book " linkBookFullName " is not in the verseLabels array."; exit 8
+	}
+
+	toReturn = "<a href='"bookFiles[linkBookFullName]"#"verseLabels[linkBookFullName]""linkChapter"_"linkVerse"'>"
+
+		return toReturn;
+
 }
 
 
@@ -492,7 +533,7 @@ print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."
 						precedingText = gensub(/^[\t  ]+/,"","g",precedingText) #this is probably right; you don't expect there to be any spaces to begin the preceding text
 						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
 						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
-#START WORK HERE 4: Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array
+#START WORK HERE 3: Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array
 						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber);
 
 
@@ -586,7 +627,7 @@ print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."
 }
 
 END {
-#START WORK HERE 5:
+#START WORK HERE 4:
 #tweak this to your pleasure
 
 for (i in footnotes) #footnoteNumber
