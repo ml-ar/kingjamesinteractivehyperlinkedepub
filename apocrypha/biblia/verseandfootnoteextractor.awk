@@ -428,10 +428,7 @@ BEGIN {
 }
 
 
-#takes some html italics (i.e., <em>...</em> I think) and converts them to <span class='add'>...</span>
-#have to be careful to make sure you account for embedded tags (e.g., <em>...<span>...</span></em>)
-
-#htmltag: the tag to convert
+#swaps all <em> html tags (which signify italics) to the proper 'add' tag for italics in the epub
 function convertItalics(htmlTag)
 {
 #START WORK HERE 1:
@@ -578,7 +575,7 @@ print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."
 						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
 						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
 #START WORK HERE 3: Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array
-						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber);
+						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = convertItalics(getFootnoteText(footnoteNumber));
 
 
 
