@@ -429,9 +429,11 @@ BEGIN {
 
 
 #swaps all <em> html tags (which signify italics) to the proper 'add' tag for italics in the epub
-function convertItalics(htmlTag)
+function convertItalics(htmlTag) #NOT TESTED
 {
-#START WORK HERE 1:
+htmlTag = gensub(/<em>/,"<span class='add'>","g",htmlTag)
+htmlTag = gensub(/<\/em>/,"</span>","g",htmlTag)
+return htmlTag;
 }
 
 
@@ -490,18 +492,76 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
 
 #returns simply the text associated with the footnote number, also properly adds html tags for making hyperlinks
 #footnote number: the number of the footnote AS PER THE HTML file under question (e.g. if in the html it's #footnote1, you should pass "1")
-function getFootnoteText(footnoteNumber,  footnoteStart)
+function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  footnotesSepsArray,  toReturn,  innerTDs,  innerA,  innerItalics,  k)
 {
-if (!(footnoteStart = index($0,"<td id=\"footnote"footnoteNumber"\">")))
-{
-print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."; exit 4
-}
+	if (!(footnoteStart = index($0,"<td id=\"footnote"footnoteNumber"\">")))
+	{
+		print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."; exit 4
+	}
+
+	footnoteMenu = substr($0, footnoteStart) #getting the footnote section
+		footnoteMenu = gensub(/\s*\n.*$/,"","g",footnoteMenu); #chopping off everything after the newline
 
 
-#you'll need to call getProperHyperlinkOpeningBracket
+		split(footnoteMenu, footnotesSplitArray, /<[^>]+>/, footnotesSepsArray)
+		innerTDs = 0 #used for marking off how many tags we see; if we see any opening tags, we have to track them so we can add the tags appropriately to what needs to be returned
+		innerA = 0
+		toReturn = ""
+		for (k in footnotesSplitArray)
+		{
+			toReturn = toReturn footnotesSplitArray[k]
+				if (footnotesSepsArray[k] ~ /<td\s+/) #we expect the first thing to be a <td; we don't add them to the string, but we track them because we need to know when to break
+				{
+					++innerTDs
+				}
+				else if (footnotesSepsArray[k] ~ /<\/td>/)
+				{
+					--innerTDs
+						if (innerTDs == 0) #we've reached the end of the footnote block for this footnote number
+						{
+							break;
+						}
+				}
+				else if (footnotesSepsArray[k] ~ /<a data-reference=/) #this is a footnote link marker; need to track it
+				{
+					++innerA
+						toReturn = toReturn footnotesSepsArray[k]
+				}
+				else if (footnotesSepsArray[k] ~ /<\/a>/ && innerA > 0)
+				{
+					--innerA
+						toReturn = toReturn footnotesSepsArray[k]
+
+				}
+				else if (footnotesSepsArray[k] ~ /<em>/) #this is an italic marker; need to track it
+				{
+					++innerItalics
+						toReturn = toReturn footnotesSepsArray[k]
+				}
+				else if (footnotesSepsArray[k] ~ /<\/em>/ && innerItalics > 0)
+				{
+					--innerItalics
+						toReturn = toReturn footnotesSepsArray[k]
+
+				}
+		}
+
+
+#the above is working: can properly get italic markers and the html cross reference tags
+
+
+#START WORK HERE 1
+#At this point in the code, the variable toReturn looks something like this:
+#<a data-reference=\"2Ch36.4\" data-datatype=\"bible+kjv\" href=\"/reference/2Ch36.4?resourceName=av1873\" class=\"bibleref\">2 Chr. 36. 4</a>, <a data-reference=\"2Ch36.5\" data-datatype=\"bible+kjv\" href=\"/reference/2Ch36.5?resourceName=av1873\" class=\"bibleref\">5</a>. <em>Jehoiakim</em>, or, <em>Eliakim</em>.  "
+
+
+#you'll need to convert all those tags into proper epub tags
+
 #the footnote could have more than one part of the text that needs to be properly hyperlinked
-#START WORK HERE 2
 #something like: toReturn = getProperHyperlinkOpeningBracket(properly formatted biblia hyperlink string)
+#BUT REMEMBER THAT getProperHyperlinkOpeningBracket() ONLY WORKS ON INDIVIDUAL TAGS RIGHT NOW
+
+return convertItalics(gensub(/\s*$/,"","1",toReturn));
 
 }
 
@@ -574,8 +634,8 @@ print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."
 						precedingText = gensub(/^[\t  ]+/,"","g",precedingText) #this is probably right; you don't expect there to be any spaces to begin the preceding text
 						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
 						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
-#START WORK HERE 3: Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array
-						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = convertItalics(getFootnoteText(footnoteNumber));
+#START WORK HERE 2: (Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array); if getFootnoteText() is set up properly there's nothing left to do here
+						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber);
 
 
 
@@ -668,7 +728,7 @@ print "ERROR: Could not find #footnote"footnoteNumber ". This shouldn't happen."
 }
 
 END {
-#START WORK HERE 4:
+#START WORK HERE 3:
 #tweak this to your pleasure
 
 for (i in footnotes) #footnoteNumber
