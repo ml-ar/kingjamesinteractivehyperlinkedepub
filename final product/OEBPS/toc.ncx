@@ -264,87 +264,87 @@
     </navPoint>
     <navPoint id="navPoint43" playOrder="43">
       <navLabel>
+        <text>1 Esdras</text>
+      </navLabel>
+      <content src="1ES.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint44" playOrder="44">
+      <navLabel>
+        <text>2 Esdras</text>
+      </navLabel>
+      <content src="2ES.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint45" playOrder="45">
+      <navLabel>
         <text>Tobit</text>
       </navLabel>
       <content src="TOB.xhtml" />
     </navPoint>
-    <navPoint id="navPoint44" playOrder="44">
+    <navPoint id="navPoint46" playOrder="46">
       <navLabel>
         <text>Judith</text>
       </navLabel>
       <content src="JDT.xhtml" />
     </navPoint>
-    <navPoint id="navPoint45" playOrder="45">
+    <navPoint id="navPoint47" playOrder="47">
       <navLabel>
         <text>The Rest of the Chapters of The Book of Esther Which are Found Neither in the Hebrew, nor in the Chaldee</text>
       </navLabel>
       <content src="ESG.xhtml" />
     </navPoint>
-    <navPoint id="navPoint46" playOrder="46">
+    <navPoint id="navPoint48" playOrder="48">
       <navLabel>
         <text>The Wisdom of Solomon</text>
       </navLabel>
       <content src="WIS.xhtml" />
     </navPoint>
-    <navPoint id="navPoint47" playOrder="47">
+    <navPoint id="navPoint49" playOrder="49">
       <navLabel>
         <text>The Wisdom of Jesus the Son of Sirach, or Ecclesiasticus</text>
       </navLabel>
       <content src="SIR.xhtml" />
     </navPoint>
-    <navPoint id="navPoint48" playOrder="48">
+    <navPoint id="navPoint50" playOrder="50">
       <navLabel>
         <text>Baruch</text>
       </navLabel>
       <content src="BAR.xhtml" />
     </navPoint>
-    <navPoint id="navPoint49" playOrder="49">
+    <navPoint id="navPoint51" playOrder="51">
       <navLabel>
         <text>The Song of The Three Holy Children</text>
       </navLabel>
       <content src="S3Y.xhtml" />
     </navPoint>
-    <navPoint id="navPoint50" playOrder="50">
+    <navPoint id="navPoint52" playOrder="52">
       <navLabel>
         <text>The History of Susanna</text>
       </navLabel>
       <content src="SUS.xhtml" />
     </navPoint>
-    <navPoint id="navPoint51" playOrder="51">
+    <navPoint id="navPoint53" playOrder="53">
       <navLabel>
         <text>The History of the Destruction of Bel and the Dragon</text>
       </navLabel>
       <content src="BEL.xhtml" />
     </navPoint>
-    <navPoint id="navPoint52" playOrder="52">
-      <navLabel>
-        <text>The First Book of the Maccabees</text>
-      </navLabel>
-      <content src="1MA.xhtml" />
-    </navPoint>
-    <navPoint id="navPoint53" playOrder="53">
-      <navLabel>
-        <text>The Second Book of the Maccabees</text>
-      </navLabel>
-      <content src="2MA.xhtml" />
-    </navPoint>
     <navPoint id="navPoint54" playOrder="54">
-      <navLabel>
-        <text>1 Esdras</text>
-      </navLabel>
-      <content src="1ES.xhtml" />
-    </navPoint>
-    <navPoint id="navPoint55" playOrder="55">
       <navLabel>
         <text>The Prayer of Manasseh King of Judah When He was Held Captive in Babylon</text>
       </navLabel>
       <content src="MAN.xhtml" />
     </navPoint>
+    <navPoint id="navPoint55" playOrder="55">
+      <navLabel>
+        <text>The First Book of the Maccabees</text>
+      </navLabel>
+      <content src="1MA.xhtml" />
+    </navPoint>
     <navPoint id="navPoint56" playOrder="56">
       <navLabel>
-        <text>2 Esdras</text>
+        <text>The Second Book of the Maccabees</text>
       </navLabel>
-      <content src="2ES.xhtml" />
+      <content src="2MA.xhtml" />
     </navPoint>
     <navPoint id="navPoint57" playOrder="57">
       <navLabel>
