@@ -77,7 +77,7 @@ function literalgensub(literalPattern, literalSubstitution, number, string,  toR
 
 BEGIN {
 	RS = "^$"
-		OFS = FS #setting it to tab
+		OFS = "\t" #setting it to tab
 
 
 #a map between book name and xhtml files
@@ -317,10 +317,10 @@ BEGIN {
 		verseLabels["Genesis"] = "GN"
 		verseLabels["Exodus"] = "EX"
 		verseLabels["Leviticus"] = "LV"
-		verseLabels["Numbers"] = "NM"
+		verseLabels["Numbers"] = "NU"
 		verseLabels["Deuteronomy"] = "DT"
 		verseLabels["Joshua"] = "JS"
-		verseLabels["Judges"] = "JD"
+		verseLabels["Judges"] = "JG"
 		verseLabels["Ruth"] = "RT"
 		verseLabels["1 Samuel"] = "S1"
 		verseLabels["2 Samuel"] = "S2"
@@ -331,10 +331,11 @@ BEGIN {
 		verseLabels["Ezra"] = "ER"
 		verseLabels["Nehemiah"] = "NH"
 		verseLabels["Esther"] = "ET"
+		verseLabels["Job"] = "JB"
 		verseLabels["Psalms"] = "PS"
 		verseLabels["Proverbs"] = "PR"
 		verseLabels["Ecclesiastes"] = "EC"
-		verseLabels["Job"] = "JB"
+		verseLabels["Song of Solomon"] = "SS"
 		verseLabels["Isaiah"] = "IS"
 		verseLabels["Jeremiah"] = "JR"
 		verseLabels["Lamentations"] = "LM"
@@ -413,12 +414,15 @@ BEGIN {
 		verseLabels["2 Thessalonians"] = "H2"
 		verseLabels["1 Timothy"] = "T1"
 		verseLabels["2 Timothy"] = "T2"
+                verseLabels["Titus"] = "TT"
 		verseLabels["Philemon"] = "PM"
 		verseLabels["Hebrews"] = "HB"
 		verseLabels["James"] = "JM"
 		verseLabels["1 Peter"] = "P1"
 		verseLabels["2 Peter"] = "P2"
-		verseLabels["1 John"] = "J1"
+		verseLabels["1 John"] = "1JN"
+		verseLabels["2 John"] = "2JN"
+                verseLabels["3 John"] = "3JN"
 		verseLabels["Jude"] = "JD"
 		verseLabels["Revelation"] = "RV"
 

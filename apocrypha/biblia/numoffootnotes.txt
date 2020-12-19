@@ -1,0 +1,29 @@
+1-esdras footnotes: 
+504
+1-maccabees footnotes: 
+1358
+2-esdras footnotes: 
+870
+2-maccabees footnotes: 
+942
+baruch footnotes: 
+316
+bel-and-the-dragon footnotes: 
+38
+esther footnotes: 
+125
+judith footnotes: 
+481
+prayer-of-manasseh footnotes: 
+28
+sirach footnotes: 
+1805
+song-of-three-youths footnotes: 
+89
+susanna footnotes: 
+64
+tobit footnotes: 
+339
+wisdom-of-solomon footnotes: 
+699
+Total: 7658
