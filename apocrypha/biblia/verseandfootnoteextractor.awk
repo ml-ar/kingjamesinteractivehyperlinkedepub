@@ -492,7 +492,7 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
 
 #returns simply the text associated with the footnote number, also properly adds html tags for making hyperlinks
 #footnote number: the number of the footnote AS PER THE HTML file under question (e.g. if in the html it's #footnote1, you should pass "1")
-function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  footnotesSepsArray,  toReturn,  innerTDs,  innerA,  innerItalics,  k)
+function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  footnotesSepsArray,  toReturn,  innerTDs,  innerA,  innerItalics,  k,  t)
 {
 	if (!(footnoteStart = index($0,"<td id=\"footnote"footnoteNumber"\">")))
 	{
@@ -550,18 +550,21 @@ function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  
 #the above is working: can properly get italic markers and the html cross reference tags
 
 
-#START WORK HERE 1
-#At this point in the code, the variable toReturn looks something like this:
-#<a data-reference=\"2Ch36.4\" data-datatype=\"bible+kjv\" href=\"/reference/2Ch36.4?resourceName=av1873\" class=\"bibleref\">2 Chr. 36. 4</a>, <a data-reference=\"2Ch36.5\" data-datatype=\"bible+kjv\" href=\"/reference/2Ch36.5?resourceName=av1873\" class=\"bibleref\">5</a>. <em>Jehoiakim</em>, or, <em>Eliakim</em>.  "
+	patsplit(toReturn, footnotesSplitArray,/<a data-reference[^>]+>/, footnotesSepsArray)
+
+		toReturn = footnotesSepsArray[0] #there might be something in the Seps array before the first patsplit (if there's anything in the footnotesSplitArray at all)
+
+		for (t in footnotesSplitArray) #swapping out each data-reference tag with proper epub tags
+		{
+			toReturn = toReturn getProperHyperlinkOpeningBracket(footnotesSplitArray[t]) footnotesSepsArray[t]
+		}
 
 
-#you'll need to convert all those tags into proper epub tags
 
-#the footnote could have more than one part of the text that needs to be properly hyperlinked
-#something like: toReturn = getProperHyperlinkOpeningBracket(properly formatted biblia hyperlink string)
-#BUT REMEMBER THAT getProperHyperlinkOpeningBracket() ONLY WORKS ON INDIVIDUAL TAGS RIGHT NOW
+#the above loops and patsplits are minimially tested, seems to be working
 
-return convertItalics(gensub(/\s*$/,"","1",toReturn));
+
+	return convertItalics(gensub(/\s*$/,"","1",toReturn)); #convert to italics and delete trailing spaces
 
 }
 
@@ -588,7 +591,6 @@ return convertItalics(gensub(/\s*$/,"","1",toReturn));
 
 
 
-		print verseBlock
 
 
 
@@ -634,7 +636,6 @@ return convertItalics(gensub(/\s*$/,"","1",toReturn));
 						precedingText = gensub(/^[\t  ]+/,"","g",precedingText) #this is probably right; you don't expect there to be any spaces to begin the preceding text
 						precedingText = gensub(/[\t\n]+$/,"","g",precedingText) #this might be problematic, haven't tested
 						footnoteSymbol = gensub(/\s*/,"","g",splitArray[i])
-#START WORK HERE 2: (Make sure the footnote text is properly formatted with hyperlinks and italics before adding it to the array); if getFootnoteText() is set up properly there's nothing left to do here
 						footnotes[++numOfFootnotes][chapter][verse][precedingText][footnoteSymbol] = getFootnoteText(footnoteNumber);
 
 
@@ -728,7 +729,6 @@ return convertItalics(gensub(/\s*$/,"","1",toReturn));
 }
 
 END {
-#START WORK HERE 3:
 #tweak this to your pleasure
 
 for (i in footnotes) #footnoteNumber
