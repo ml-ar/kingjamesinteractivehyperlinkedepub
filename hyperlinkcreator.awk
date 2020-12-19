@@ -418,7 +418,7 @@ currentVerse = matchArray[2]
 	}
 
 
-#START WORK HERE: matchArray[1] properly holds the footnote text (including <span class='add'>). Now have to parse it down into constituent parts
+#matchArray[1] properly holds the footnote text (including <span class='add'>). Now have to parse it down into constituent parts
 #Don't forget that &amp; can be followed by a c (e.g., &amp;c. (maybe the c has a period after it!))
 
 
@@ -426,7 +426,8 @@ currentVerse = matchArray[2]
 
 patsplit(matchArray[1], booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegexes, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
 
-#START WORK HERE: The patsplit seems to split the first Genesis note okay, test the rest
+#START WORK HERE: The patsplit seems to split the first Genesis note okay, test the rest; from here, add the code developed in testLinkAdder.awk (the new code should follow the identical " patsplit(matchArray[1], booksAndDigits ... " found in the test
+
 #important to note that you have to print the whole line from the beginning up to booksAndDigits[1], because booksAndDigits[1] can be somewhere in the middle of split string
 
 #also look at line 285: deut is lowercase!!!
