@@ -473,7 +473,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 
 #now we actually modify the verse:
 
-								for (j = 1; j <= followingDigitsCounter; j += 2)
+								for (j = 1; j <= followingDigitsCounter; j += 2) #START WORK HERE 1.2: WRONG! For example, ch. 5. 2, 3, 4. parses as CurrentBook 5:2 and CurrentBook 3:4. This is wrong!
 								{
 
 									match(booksAndDigits[i+j-1],/([[:digit:]]+)/,matchArray)
@@ -487,7 +487,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 							}
 							else if (followingDigitsCounter > 2)
 							{
-#START WORK HERE 1.2: Deal with odd numbers greater than 2 following a chapter
+#START WORK HERE 2.2: Deal with odd numbers greater than 2 following a chapter
 								print "Error: an odd number of digits follows a chapter marker. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: " $0; next #TEST: this should be exit, not next
 							}
 							else #just one number following a chapter regex
@@ -517,7 +517,8 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 
 
 
-							if (followingDigitsCounter % 2 == 0)
+							if (followingDigitsCounter % 2 == 0) #START WORK HERE 1.1: #WRONG! For example, take the note Rev. 1 13, 14, 15: it will think this is Revelation 1:13 and Revelation 14:15!
+#use grep -P '<p id=[^>]+>[^<]+(\d+[,.]?\s+){3,}[^<]+</p>' footnotefile to find all tricky notes! 
 							{
 								for (j=1; j<=followingDigitsCounter; j+=2)
 								{
@@ -539,7 +540,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 							else if (followingDigitsCounter > 2)
 							{
 
-#START WORK HERE 1.1: deal with odd numbers greater than two following a book name
+#START WORK HERE 2.1: deal with odd numbers greater than two following a book name
 								print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: " $0; next #TEST: this should be exit, not next
 
 							}
@@ -561,6 +562,6 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 
 
 			}
-	print toPrint
+	print "\n" toPrint
 
 }
