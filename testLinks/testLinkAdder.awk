@@ -333,7 +333,7 @@ verseLabels["Genesis"] = "GN"
 
 
 
-		chapterRegex = "\\<ch\\.?"
+		chapterRegex = "\\<ch(apt)?\\.?" #there are two notes that are chapt, so you need what's in the parenthesis
 		verseRegex = "\\<ver\\.?"
 
 }
@@ -421,7 +421,23 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 	return followingDigitsCounter
 }
 
+
+#Special cases come first
+/Ex\.\s+7,\s+8,\s+9,\s+/ { #Ex. 7, 8, 9, 10, 12, &c 14, chapters.
+
+toReturn = gensub(/\s+7,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#7_0'>7</a>, ", "1")
+toReturn = gensub(/\s+8,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#8_0'>8</a>, ", "1", toReturn)
+toReturn = gensub(/\s+9,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#9_0'>9</a>, ", "1", toReturn)
+toReturn = gensub(/\s+10,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#10_0'>10</a>, ", "1", toReturn)
+toReturn = gensub(/\s+12,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#12_0'>12</a>, ", "1", toReturn)
+toReturn = gensub(/\s+14,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#14_0'>14</a>, ", "1", toReturn)
+print toReturn;
+next;
+}
+
+
 {
+toReturn = ""
 
 
 	patsplit($0, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegex, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
