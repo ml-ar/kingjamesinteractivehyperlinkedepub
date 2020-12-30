@@ -85,7 +85,7 @@ BEGIN {
 #Verse labels refer to the letters before the verse numbers in the href, e.g., GEN1_1, verselabel is GEN
 
 #Old Testament
-verseLabels["Genesis"] = "GN"
+		verseLabels["Genesis"] = "GN"
 		verseLabels["Exodus"] = "EX"
 		verseLabels["Leviticus"] = "LV"
 		verseLabels["Numbers"] = "NU"
@@ -185,7 +185,7 @@ verseLabels["Genesis"] = "GN"
 		verseLabels["2 Thessalonians"] = "H2"
 		verseLabels["1 Timothy"] = "T1"
 		verseLabels["2 Timothy"] = "T2"
-        verseLabels["Titus"] = "TT"
+		verseLabels["Titus"] = "TT"
 		verseLabels["Philemon"] = "PM"
 		verseLabels["Hebrews"] = "HB"
 		verseLabels["James"] = "JM"
@@ -193,7 +193,7 @@ verseLabels["Genesis"] = "GN"
 		verseLabels["2 Peter"] = "P2"
 		verseLabels["1 John"] = "1JN"
 		verseLabels["2 John"] = "2JN"
-        verseLabels["3 John"] = "3JN"
+		verseLabels["3 John"] = "3JN"
 		verseLabels["Jude"] = "JD"
 		verseLabels["Revelation"] = "RV"
 
@@ -323,7 +323,32 @@ verseLabels["Genesis"] = "GN"
 
 
 
+		oneChapterBooks["Obadiah"] = "ja"
+		oneChapterBooks["2 John"] = "ja"
+		oneChapterBooks["3 John"] = "ja"
+		oneChapterBooks["Jude"] = "ja"
+		oneChapterBooks["Philemon"] = "ja"
+		oneChapterBooks["Letter of Jeremiah"] = bookFiles["Baruch"]
+		oneChapterBooks["The Letter of Jeremiah"] = bookFiles["Baruch"]
+		oneChapterBooks["The Epistle of Jeremy"] = bookFiles["Baruch"]
+		oneChapterBooks["Epistle of Jeremy"] = bookFiles["Baruch"]
 
+
+		oneChapterBooks["The Song of the Three Holy Children"] = "S3Y.xhtml"
+		oneChapterBooks["3 Holy Children's Song"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of the 3 Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of the Three Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["The Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+
+
+		oneChapterBooks["Bel and the Dragon"] = "BEL.xhtml"
+		oneChapterBooks["The Idol Bel and the Dragon"] = "BEL.xhtml"
+
+		oneChapterBooks["The Prayer of Manasses"] = "MAN.xhtml"
+		oneChapterBooks["Prayer of Manasses"] = oneChapterBooks["The Prayer of Manasses"]
+		oneChapterBooks["The Prayer of Manasseh"] = oneChapterBooks["The Prayer of Manasses"]
+		oneChapterBooks["Prayer of Manasseh"] = oneChapterBooks["The Prayer of Manasses"]
 
 
 
