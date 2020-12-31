@@ -550,7 +550,7 @@ toReturn = ""
 			}
 			else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
 			{
-#START WORK HERE 3: You need to properly account for 1-chapter books
+#START WORK HERE 3: You need to properly account for 1-chapter books; also, don't forget Esther 10:4 and up is the Greek (apocrypha) Esther
 
 				theBook = getBookNameFromBookRegex(booksAndDigits[i])
 
