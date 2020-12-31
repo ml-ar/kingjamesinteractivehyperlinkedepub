@@ -462,151 +462,137 @@ next;
 
 
 {
-toReturn = ""
+	toReturn = ""
 
 
-	patsplit($0, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegex, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
+		patsplit($0, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegex, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
 
 
-			toPrint = substr($0, 1, index($0, booksAndDigits[1])-1); #grab everything up to the first match
+				toPrint = substr($0, 1, index($0, booksAndDigits[1])-1); #grab everything up to the first match
 
-			for (i=1; i<=length(booksAndDigits); ++i)
-			{
+				for (i=1; i<=length(booksAndDigits); ++i)
+				{
 
-			toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
+				toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
 
-			if (booksAndDigits[i] ~ verseRegex) #all numbers following need to refer to the verse of the current book
-			{
-			++i
-			while (i in booksAndDigits) #have to add all the numbers
-			{
+				if (booksAndDigits[i] ~ verseRegex) #all numbers following need to refer to the verse of the current book
+				{
+				++i
+				while (i in booksAndDigits) #have to add all the numbers
+				{
 
 
-			if (booksAndDigits[i] ~ /[[:digit:]]/)
-			{
-			match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
+				if (booksAndDigits[i] ~ /[[:digit:]]/)
+				{
+				match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
 
 #FOR TESTING ONLY, have to add the proper book
-				toPrint = toPrint "<a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
-				++i
-			}
-			else
-			{
-				break;
-			}
+					toPrint = toPrint "<a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
+					++i
+				}
+				else
+				{
+					break;
+				}
 
-			}
-			}
-			else if (booksAndDigits[i] ~ chapterRegex) #it's a chapter (ch.) followed by some number of numbers (presumably).
-			{
-				++i
-					while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
-					{
+				}
+				}
+				else if (booksAndDigits[i] ~ chapterRegex) #it's a chapter (ch.) followed by some number of numbers (presumably).
+				{
+					++i
+						while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
+						{
 
-						followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
+							followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
 
-							match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
-							chapter = matchArray[1]
-							if (followingDigitsCounter<=0)
-							{
-								print "FATAL ERROR: No numbers proceed the symbol " booksAndDigits[i] " in " $0; exit 1
-							}
-							else if (followingDigitsCounter == 1) #just one number following the chapter designation
-							{
+								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
+								chapter = matchArray[1]
+								if (followingDigitsCounter<=0)
+								{
+									print "FATAL ERROR: No numbers proceed the symbol " booksAndDigits[i] " in " $0; exit 1
+								}
+								else if (followingDigitsCounter == 1) #just one number following the chapter designation
+								{
 
-								trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
-									toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"chapter"</a>" trailingAfterChapter booksAndDigitsSeperators[i] #TEST: change this in the proper program
+									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
+										toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"chapter"</a>" trailingAfterChapter booksAndDigitsSeperators[i] #TEST: change this in the proper program
 
-									++i
+										++i
 
-							}
-							else if (followingDigitsCounter == 2) #first number is the chapter, the next is a verse
-							{
-								match(booksAndDigits[i+1],/([[:digit:]]+)/,matchArray)
-									verse = matchArray[1]
-									trailingAfterVerse = substr(booksAndDigits[i+1], length(verse)+1)
-									toPrint = toPrint "<a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i]""booksAndDigitsSeperators[i]""verse"</a>" trailingAfterVerse booksAndDigitsSeperators[i+1]  #TEST: For testing only: put in the proper xhtml and everything
-									i += 2
+								}
+								else if (followingDigitsCounter == 2) #first number is the chapter, the next is a verse
+								{
+									match(booksAndDigits[i+1],/([[:digit:]]+)/,matchArray)
+										verse = matchArray[1]
+										trailingAfterVerse = substr(booksAndDigits[i+1], length(verse)+1)
+										toPrint = toPrint "<a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i]""booksAndDigitsSeperators[i]""verse"</a>" trailingAfterVerse booksAndDigitsSeperators[i+1]  #TEST: For testing only: put in the proper xhtml and everything
+										i += 2
 
 
-							}
-							else #the first number is the chapter, the rest are verses
-							{
+								}
+								else #the first number is the chapter, the rest are verses
+								{
 
-								toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
-									for (j = i+1; j < i + followingDigitsCounter; ++j)
-									{
-										match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
-											verse = matchArray[1]
-											trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
-											toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j] #TEST: change this in the proper program
-									}
-								i += followingDigitsCounter
-							}
+									toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
+										for (j = i+1; j < i + followingDigitsCounter; ++j)
+										{
+											match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
+												verse = matchArray[1]
+												trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
+												toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j] #TEST: change this in the proper program
+										}
+									i += followingDigitsCounter
+								}
 
-					}
+						}
 
-				--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
-			}
-			else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
-			{
+					--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
+				}
+				else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
+				{
 #START WORK HERE 3: You need to properly account for 1-chapter books; also, don't forget Esther 10:4 and up is the Greek (apocrypha) Esther
 
-				theBook = getBookNameFromBookRegex(booksAndDigits[i])
+					theBook = getBookNameFromBookRegex(booksAndDigits[i])
 
-					++i #now lets go to the numbers
-					do
-					{
-
-						followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
+						++i #now lets go to the numbers
+						do
+						{
 
 
-
-							if (followingDigitsCounter % 2 == 0) #START WORK HERE 1: #WRONG! For example, take the note Rev. 1 13, 14, 15: it will think this is Revelation 1:13 and Revelation 14:15!
-#use grep -P '<p id=[^>]+>[^<]+(\d+[,.]?\s+){3,}[^<]+</p>' footnotefile to find all tricky notes! 
-							{
-								for (j=1; j<=followingDigitsCounter; j+=2)
+							followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
+#START WORK HERE 1: Fill in the for loop with appropriate values
+#make sure Rev. 1 13, 14, 15 is not parsed as Revelation 1:13 and Revelation 14:15!
+								if (followingDigitsCounter <= 0)
 								{
-									if (!((i+j) in booksAndDigits))
-									{
-										print "FATAL ERROR: something is completely broken."; exit 8
-									}
-
-
-									match(booksAndDigits[i+j-1],/([[:digit:]]+)/,matchArray)
-										chapter = matchArray[1]
-										match(booksAndDigits[i+j],/([[:digit:]]+)/,matchArray)
-										verse = matchArray[1]
-
-										toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_"verse"'>"booksAndDigits[i+j-1]""booksAndDigitsSeperators[i+j-1]""booksAndDigits[i+j]"</a>" booksAndDigitsSeperators[i+j]
+									print "FATAL ERROR: No numbers proceed the symbol " booksAndDigits[i] " in " $0; exit 1
 								}
-								i+=followingDigitsCounter
-							} 
-							else if (followingDigitsCounter > 2)
-							{
-
-#START WORK HERE 2: deal with odd numbers greater than two following a book name
-								print "Error: an odd number of digits follows a book name. Perhaps this is one chapter and the rest of the numbers are digits. You may wish to anticipate this case and plan accordingly instead of throwing an error like now. The line in question is: " $0; next #TEST: this should be exit, not next
-
-							}
-							else #it's just one number after the biblical name
-							{
-								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
-									chapter = matchArray[1]
-									trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
-
-
-									toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_0'>"chapter"</a>" trailingAfterChapter booksAndDigitsSeperators[i]
-									++i
-							}
-					} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
-					--i #have to substract one because of overshoot do to the increments of i in the foregoing if statement block
-			}
+								else if (theBook in oneChapterBooks) #every number points to a verse (START WORK HERE 1.1)
+								{
+								}
+								else if (followingDigitsCounter > 2) #first number is a chapter, the rest are verses in that chapter (START WORK HERE 1.2)
+								{
+								}
+								else if (followingDigitsCounter == 2) #first number is a chapter, the rest is a verse (START WORK HERE 1.3)
+								{
+								}
+								else #just one number follows the book (START WORK HERE 1.4)
+								{
+								}
 
 
 
+						} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
+						--i #have to substract one because of overshoot do to the increments of i in the foregoing if statement block
+				}
+				else
+				{
+					print "Unexpected case for booksAndDigits["i"] = " booksAndDigits[i] "."; exit 2
+				}
 
-			}
+
+
+
+				}
 	print "\n" toPrint
 
 }
