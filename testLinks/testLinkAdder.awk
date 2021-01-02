@@ -442,7 +442,7 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 	{
 		print "Error: no numbers follow booksAndDigits["i"] == (" booksAndDigits[i]"); This shouldn't happen."; exit 6
 	}
-	
+
 	return followingDigitsCounter
 }
 
@@ -484,7 +484,7 @@ next;
 
 				if (booksAndDigits[i] ~ /[[:digit:]]/)
 				{
-				match(booksAndDigits[i],/([[:digit:]]+)/,matchArray) 
+				match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
 
 #FOR TESTING ONLY, have to add the proper book
 					toPrint = toPrint "<a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
@@ -554,7 +554,15 @@ next;
 
 					theBook = getBookNameFromBookRegex(booksAndDigits[i])
 
-						++i #now lets go to the numbers
+						if (!(theBook in verseLabels))
+						{
+							print "ERROR: could not find " theBook " in the verseLabels array."; exit 2
+						}
+					if (!(theBook in bookFiles))
+					{
+						print "ERROR: could not find " theBook " in the bookFiles array."; exit 3
+					}
+					++i #now lets go to the numbers
 						do
 						{
 
@@ -568,6 +576,7 @@ next;
 								}
 								else if (theBook in oneChapterBooks) #every number points to a verse (START WORK HERE 1.1)
 								{
+
 								}
 								else if (followingDigitsCounter > 2) #first number is a chapter, the rest are verses in that chapter (START WORK HERE 1.2)
 								{
