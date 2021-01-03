@@ -450,12 +450,12 @@ function getNumberOfDigitsProceedingInBooksAndDigits(i,  iAhead,  followingDigit
 #Special cases come first
 /Ex\.\s+7,\s+8,\s+9,\s+/ { #Ex. 7, 8, 9, 10, 12, &c 14, chapters.
 
-toReturn = gensub(/\s+7,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#7_0'>7</a>, ", "1")
-toReturn = gensub(/\s+8,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#8_0'>8</a>, ", "1", toReturn)
-toReturn = gensub(/\s+9,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#9_0'>9</a>, ", "1", toReturn)
-toReturn = gensub(/\s+10,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#10_0'>10</a>, ", "1", toReturn)
-toReturn = gensub(/\s+12,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#12_0'>12</a>, ", "1", toReturn)
-toReturn = gensub(/\s+14,\s+/, " <a href='"bookFiles["Exodus"]".xhtml#14_0'>14</a>, ", "1", toReturn)
+toReturn = gensub(/\s+7,\s+/, " <a href='"bookFiles["Exodus"]"#7_0'>7</a>, ", "1")
+toReturn = gensub(/\s+8,\s+/, " <a href='"bookFiles["Exodus"]"#8_0'>8</a>, ", "1", toReturn)
+toReturn = gensub(/\s+9,\s+/, " <a href='"bookFiles["Exodus"]"#9_0'>9</a>, ", "1", toReturn)
+toReturn = gensub(/\s+10,\s+/, " <a href='"bookFiles["Exodus"]"#10_0'>10</a>, ", "1", toReturn)
+toReturn = gensub(/\s+12,\s+/, " <a href='"bookFiles["Exodus"]"#12_0'>12</a>, ", "1", toReturn)
+toReturn = gensub(/\s+14,\s+/, " <a href='"bookFiles["Exodus"]"#14_0'>14</a>, ", "1", toReturn)
 print toReturn;
 next;
 }
@@ -550,7 +550,7 @@ next;
 				}
 				else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
 				{
-#START WORK HERE 3: You need to properly account for 1-chapter books; also, don't forget Esther 10:4 and up is the Greek (apocrypha) Esther
+#START WORK HERE 1: You need to properly account for 1-chapter books; also, don't forget Esther 10:4 and up is the Greek (apocrypha) Esther
 
 					theBook = getBookNameFromBookRegex(booksAndDigits[i])
 
@@ -574,17 +574,25 @@ next;
 								{
 									print "FATAL ERROR: No numbers proceed the symbol " booksAndDigits[i] " in " $0; exit 1
 								}
-								else if (theBook in oneChapterBooks) #every number points to a verse (START WORK HERE 1.1)
+								else if (theBook in oneChapterBooks) #every number points to a verse 
 								{
+										for (j = i; j < i + followingDigitsCounter; ++j)
+										{
+											match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
+												verse = matchArray[1]
+												trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
+												toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]"1_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j] 
+										}
+									i += followingDigitsCounter
 
 								}
-								else if (followingDigitsCounter > 2) #first number is a chapter, the rest are verses in that chapter (START WORK HERE 1.2)
+								else if (followingDigitsCounter > 2) #first number is a chapter, the rest are verses in that chapter (START WORK HERE 1.1)
 								{
 								}
-								else if (followingDigitsCounter == 2) #first number is a chapter, the rest is a verse (START WORK HERE 1.3)
+								else if (followingDigitsCounter == 2) #first number is a chapter, the rest is a verse (START WORK HERE 1.2)
 								{
 								}
-								else #just one number follows the book (START WORK HERE 1.4)
+								else #just one number follows the book (START WORK HERE 1.3)
 								{
 								}
 
