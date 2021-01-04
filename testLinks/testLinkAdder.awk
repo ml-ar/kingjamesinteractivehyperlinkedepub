@@ -550,7 +550,6 @@ next;
 				}
 				else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /[A-Za-z]/)) #gotta find what book it is
 				{
-#START WORK HERE 1: You need to properly account for 1-chapter books; also, don't forget Esther 10:4 and up is the Greek (apocrypha) Esther
 
 					theBook = getBookNameFromBookRegex(booksAndDigits[i])
 
@@ -568,31 +567,63 @@ next;
 
 
 							followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
-#START WORK HERE 1: Fill in the for loop with appropriate values
+#START WORK HERE 1: Fill in if statements with appropriate values
 #make sure Rev. 1 13, 14, 15 is not parsed as Revelation 1:13 and Revelation 14:15!
 								if (followingDigitsCounter <= 0)
 								{
 									print "FATAL ERROR: No numbers proceed the symbol " booksAndDigits[i] " in " $0; exit 1
 								}
-								else if (theBook in oneChapterBooks) #every number points to a verse 
+								else if (theBook in oneChapterBooks) #every number points to a verse
 								{
-										for (j = i; j < i + followingDigitsCounter; ++j)
-										{
-											match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
-												verse = matchArray[1]
-												trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
-												toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]"1_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j] 
-										}
+									for (j = i; j < i + followingDigitsCounter; ++j)
+									{
+										match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
+											verse = matchArray[1]
+											trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
+											toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]"1_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j]
+									}
 									i += followingDigitsCounter
 
 								}
-								else if (followingDigitsCounter > 2) #first number is a chapter, the rest are verses in that chapter (START WORK HERE 1.1)
+								else if (followingDigitsCounter > 2) #first number is a chapter, the rest are verses in that chapter
+								{
+									toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
+
+										match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
+										chapter = matchArray[1]
+
+										for (j = i+1; j < i + followingDigitsCounter; ++j)
+										{
+											match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
+												verse = matchArray[1]
+												if (theBook ~ /Esther/)
+												{
+													if (chapter > 10)
+													{
+														theBook = "Esther (Greek)"
+													}
+													else if (chapter == 10 && verse > 3)
+													{
+														theBook = "Esther (Greek)"
+													}
+													else
+													{
+														theBook = "Esther"
+													}
+
+												}
+											trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
+												toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j]
+
+
+										}
+
+									i += followingDigitsCounter
+								}
+								else if (followingDigitsCounter == 2) #first number is a chapter, the rest is a verse (START WORK HERE 1.1), DON'T FORGET ESTHER SPECIAL CASE
 								{
 								}
-								else if (followingDigitsCounter == 2) #first number is a chapter, the rest is a verse (START WORK HERE 1.2)
-								{
-								}
-								else #just one number follows the book (START WORK HERE 1.3)
+								else #just one number follows the book (START WORK HERE 1.2) DON'T FORGET ESTHER SPECIAL CASE
 								{
 								}
 
