@@ -11,7 +11,7 @@ BEGIN {
 		bookRegex["Numbers"] = "(Num\\.?)"
 		bookRegex["Deuteronomy"] = "(Deut\\.?)"
 		bookRegex["Joshua"] = "(Josh)"
-		bookRegex["Judges"] = "(Judg.)"
+		bookRegex["Judges"] = "(Judg\\.?)"
 		bookRegex["Ruth"] = "(Ruth)"
 		bookRegex["1 Samuel"] = "(1 Sam\\.?)"
 		bookRegex["2 Samuel"] = "(2 Sam\\.?)"
@@ -567,7 +567,6 @@ next;
 
 
 							followingDigitsCounter = getNumberOfDigitsProceedingInBooksAndDigits(i)
-#START WORK HERE 1: Fill in if statements with appropriate values
 								if (followingDigitsCounter <= 0)
 								{
 									print "FATAL ERROR: No numbers proceed the symbol " booksAndDigits[i] " in " $0; exit 1
@@ -595,13 +594,16 @@ next;
 										{
 											match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
 												verse = matchArray[1]
-												if (chapter > 10 || (chapter == 10 && verse > 3))
+												if (theBook ~ /Esther/)
 												{
-													theBook = "Esther (Greek)"
-												}
-												else
-												{
-													theBook = "Esther"
+													if (chapter > 10 || (chapter == 10 && verse > 3))
+													{
+														theBook = "Esther (Greek)"
+													}
+													else
+													{
+														theBook = "Esther"
+													}
 												}
 											trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
 												toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""chapter"_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j]
@@ -612,7 +614,7 @@ next;
 								}
 								else if (followingDigitsCounter == 2) #first number is a chapter, the rest is a verse 
 								{
-										match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
+									match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
 										chapter = matchArray[1]
 										match(booksAndDigits[i+1],/([[:digit:]]+)/,matchArray)
 										verse = matchArray[1]
@@ -637,8 +639,36 @@ next;
 										i+=2; #moving the pointer to the right place
 
 								}
-								else #just one number follows the book (START WORK HERE 1.1) DON'T FORGET ESTHER SPECIAL CASE; also, don't forget 1-chapter books
+								else #just one number follows the book
 								{
+
+									match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
+
+										number = matchArray[1]
+
+										if (theBook ~ /Esther/)
+										{
+											if (number > 10)
+											{
+												theBook = "Esther (Greek)"
+											}
+											else
+											{
+												theBook = "Esther"
+											}
+
+										}
+
+									if (theBook in oneChapterBooks)
+									{
+										toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]"1_"number"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i]
+
+									}
+									else
+									{
+										toPrint = toPrint "<a href='"bookFiles[theBook]"#"verseLabels[theBook]""number"_0'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i]
+									}
+									++i
 								}
 
 
@@ -646,15 +676,12 @@ next;
 						} while (i in booksAndDigits && booksAndDigits[i] ~ /[[:digit:]]/ && booksAndDigits[i] !~ bookRegexCombined)
 						--i #have to substract one because of overshoot do to the increments of i in the foregoing if statement block
 				}
-				else
-				{
-					print "Unexpected case for booksAndDigits["i"] = " booksAndDigits[i] "."; exit 2
-				}
+				
 
 
 
 
 				}
-	print "\n" toPrint
+	print toPrint
 
 }
