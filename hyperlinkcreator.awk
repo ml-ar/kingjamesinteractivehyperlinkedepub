@@ -600,7 +600,14 @@ next;
 		print "Error getting the whole footnote text."; exit 4
 	}
 
-	if (matchArray[1] !~ /[[:digit:]]/) #we need digits, so if not , just print and go to the next line
+	originalFootnoteText = matchArray[1]
+
+#special cases
+	if (originalFootnoteText !~ /[[:digit:]]/) #we need digits, so if not , just print and go to the next line
+	{
+		print $0; next;
+	}
+	if (originalFootnoteText ~ /^\[1611/) 
 	{
 		print $0; next;
 	}
@@ -609,7 +616,9 @@ next;
 #matchArray[1] properly holds the footnote text (including <span class='add'>). Now have to parse it down into constituent parts
 #Don't forget that &amp; can be followed by a c (e.g., &amp;c. (maybe the c has a period after it!))
 
-	originalFootnoteText = matchArray[1]
+
+
+
 
 #split based on: ampersands, spans (obviously),
 
@@ -619,17 +628,14 @@ next;
 
 		patsplit(originalFootnoteText, booksAndDigits, bookRegexCombined"|([[:digit:]]+(\\s*[,.])?)|(\\<ch(ap[^i])?\\.?\\W)|(\\<ver\\.?\\W)", booksAndDigitsSeperators) #fields are bookRegex, digits, "chap" "ch" or "ch\." (the \W is anything that is not a word character is the word boundary
 
-				toPrint = substr($0, 1, index($0, booksAndDigits[1])-1); #grab everything up to the first match
+				toPrint = ""
 
 				for (i=1; i<=length(booksAndDigits); ++i)
 				{
 
 					toPrint = toPrint booksAndDigits[i] booksAndDigitsSeperators[i]
-					if (toPrint ~ /\[1611 /) #put special cases here
-					{
-						continue;
-					}
-					else if (toPrint ~ /&#x$/)
+					
+					if (toPrint ~ /&#x$/)
 					{
 						toPrint = toPrint booksAndDigits [++i] booksAndDigitsSeperators[i];
 						continue
