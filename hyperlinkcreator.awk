@@ -648,8 +648,8 @@ next;
 							if (booksAndDigits[i] ~ /[[:digit:]]/)
 							{
 								match(booksAndDigits[i],/([[:digit:]]+)/,matchArray)
-		#FOR TESTING ONLY, have to add the proper book
-									toPrint = toPrint "<a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program
+		#FOR TESTING ONLY, have to add the proper book START WORK HERE 1
+									toPrint = toPrint "<a href='currentBook.xhtml#CurrentBookCurrentChapter_"matchArray[1]"'>"booksAndDigits[i]"</a>" booksAndDigitsSeperators[i] #TEST: change the CurrentChapter to the actual current chapter variable in the proper program START WORK HERE 2
 									++i
 							}
 							else
@@ -677,7 +677,7 @@ next;
 									{
 
 										trailingAfterChapter = substr(booksAndDigits[i], length(chapter)+1)
-											toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"chapter"</a>" trailingAfterChapter booksAndDigitsSeperators[i] #TEST: change this in the proper program
+											toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_0'>"chapter"</a>" trailingAfterChapter booksAndDigitsSeperators[i] #TEST: change this in the proper program START WORK HERE 3
 
 											++i
 
@@ -687,7 +687,7 @@ next;
 										match(booksAndDigits[i+1],/([[:digit:]]+)/,matchArray)
 											verse = matchArray[1]
 											trailingAfterVerse = substr(booksAndDigits[i+1], length(verse)+1)
-											toPrint = toPrint "<a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i]""booksAndDigitsSeperators[i]""verse"</a>" trailingAfterVerse booksAndDigitsSeperators[i+1]  #TEST: For testing only: put in the proper xhtml and everything
+											toPrint = toPrint "<a href='currentBook.xhtml#CurrentBook"chapter"_"verse"'>"booksAndDigits[i]""booksAndDigitsSeperators[i]""verse"</a>" trailingAfterVerse booksAndDigitsSeperators[i+1]  #TEST: For testing only: put in the proper xhtml and everything START WORK HERE 4
 											i += 2
 
 
@@ -701,7 +701,7 @@ next;
 												match(booksAndDigits[j],/([[:digit:]]+)/,matchArray)
 													verse = matchArray[1]
 													trailingAfterVerse = substr(booksAndDigits[j], length(verse)+1)
-													toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j] #TEST: change this in the proper program
+													toPrint = toPrint "<a href='CurrentBook.xhtml#CurrentBook"chapter"_"verse"'>"verse"</a>" trailingAfterVerse booksAndDigitsSeperators[j] #TEST: change this in the proper program START WORK HERE 5
 											}
 										i += followingDigitsCounter
 									}
