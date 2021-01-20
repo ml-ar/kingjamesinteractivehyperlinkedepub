@@ -366,12 +366,12 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 	if (!precedingWords || match(precedingWords,/^\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
 	{
-		if (!match(fullVerseLine, /[\n^](<[^<]+<\/[^>]+>)*(¶\s*)?(<a href='#FN[^>]+>[^<]+<[^>]+>)*/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+		if (!match(fullVerseLine, /([\n^])(<[^<]+<\/[^>]+>)*(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
 		{
 			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
 		}
 
-		toReturn = matchArray[0] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[2] #now add the footnote symbol (don't forget the paragraph symbol)
+		toReturn = matchArray[1] matchArray[2] matchArray[3] matchArray[4] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
 			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
 			return toReturn
 
