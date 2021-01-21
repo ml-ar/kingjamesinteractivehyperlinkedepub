@@ -5,5 +5,5 @@
 }
 
 {
-print gensub(/\s*(<a href='#FN[[:digit:]]+' epub:type='noteref' class='noteref'>[^<]+<\/a>\s*)+\s*/,"","1")
+print gensub(/(<a href='#FN[[:digit:]]+' epub:type='noteref' class='noteref'>[^<]+<\/a>\s*)/,"","g")
 }
