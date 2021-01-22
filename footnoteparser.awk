@@ -508,7 +508,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 }
 
 BEGIN {
-	webpageReferenceFile = "Old Testament HTML/oldtestamentendnotesremovedmodified.txt"
+	webpageReferenceFile = "Old Testament HTML/completemarkupendnotesremovedmodified.txt"
 	webpageReferenceVariable = storeTextFileInVariable(webpageReferenceFile)
 	if (!webpageReferenceVariable)
 	{
