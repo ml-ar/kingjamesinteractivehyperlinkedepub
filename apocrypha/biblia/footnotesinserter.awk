@@ -98,6 +98,7 @@ BEGIN {
 		verseLabels["Song of the 3 Holy Children"] = verseLabels["The Song of the Three Holy Children"]
 		verseLabels["Song of the Three Holy Children"] = verseLabels["The Song of the Three Holy Children"]
 		verseLabels["The Prayer of Azariah"] = verseLabels["The Song of the Three Holy Children"]
+		verseLabels["Song of Three Youths"] =  verseLabels["The Song of the Three Holy Children"]
 		verseLabels["Prayer of Azariah"] = verseLabels["The Song of the Three Holy Children"]
 
 		verseLabels["Susanna"] = "SN"
@@ -133,6 +134,34 @@ precedingText = $5
 footnoteSymbol = $6
 footnoteText = $7
 
+footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] = footnoteText
 
+
+}
+
+END {
+
+	for (i in footnotes) #book
+	{
+		for (j in footnotes[i]) #chapter
+		{
+			for (k in footnotes[i][j]) #verse
+			{
+				for (l in footnotes[i][j][k]) #footnote number
+				{
+					for (m in footnotes[i][j][k][l]) #preceding text
+					{
+						for (n in footnotes[i][j][k][l][m]) #footnotesymbol
+						{
+								#START WORK HERE 1: insert the thing into its right place; will have to load the xhtml into memory and search it
+						}
+					}
+				}
+			}
+		}
+#START WORK HERE: write the book at the end; but be careful to include "sirach prologue" with sirach
+	}
+
+#don't forget how to deal with Sirach Prologue and when chapter or verse is 0 
 
 }
