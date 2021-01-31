@@ -1,0 +1,1 @@
+This folder will be where the final epub contents will be placed when they're done. To repackage this as an epub, simply rename the folder from "final product" to something .epub. 

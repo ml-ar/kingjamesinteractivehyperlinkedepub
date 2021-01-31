@@ -388,7 +388,7 @@
 <div id="lf0610_footnote_nt392" class="type-footnote note"><a id="lf0610_label_1544" href="#lf0610_footnote_nt392_ref">* </a><p id="Bible_0610_OldAuth_23819">Ps. 105. 17. Wisd. 10. 13. Acts 7. 9.</p></div>
 <div id="lf0610_footnote_nt393" class="type-footnote note"><a id="lf0610_label_1550" href="#lf0610_footnote_nt393_ref">* </a><p id="Bible_0610_OldAuth_23820">ch. 44. 28</p></div>
 <div id="lf0610_footnote_nt394" class="type-footnote note"><a id="lf0610_label_1554" href="#lf0610_footnote_nt394_ref">‡ </a><p id="Bible_0610_OldAuth_23821">[1611 Medanites]</p></div>
-<div id="lf0610_footnote_nt395" class="type-footnote note"><a id="lf0610_label_1555" href="#lf0610_footnote_nt395_ref">† </a><p id="Bible_0610_OldAuth_23822">Heb. eunuch But the word doth signify not only cunuchs, but also chamberlains, courtiers, and officers.</p></div>
+<div id="lf0610_footnote_nt395" class="type-footnote note"><a id="lf0610_label_1555" href="#lf0610_footnote_nt395_ref">† </a><p id="Bible_0610_OldAuth_23822">Heb. eunuch But the word doth signify not only eunuchs, but also chamberlains, courtiers, and officers.</p></div>
 <div id="lf0610_footnote_nt396" class="type-footnote note"><a id="lf0610_label_1556" href="#lf0610_footnote_nt396_ref">† </a><p id="Bible_0610_OldAuth_23823">Heb. chief of the slaughtermen, or, executioners.</p></div>
 <div id="lf0610_footnote_nt397" class="type-footnote note"><a id="lf0610_label_1557" href="#lf0610_footnote_nt397_ref">‎∥ </a><p id="Bible_0610_OldAuth_23824">Or, chief marshal.</p></div>
 <div id="lf0610_footnote_nt398" class="type-footnote note"><a id="lf0610_label_1561" href="#lf0610_footnote_nt398_ref">* </a><p id="Bible_0610_OldAuth_23825">1 Chr. 2. 8.</p> </div>
@@ -3638,7 +3638,7 @@
 <div id="lf0610_footnote_nt3642" class="type-footnote note"><a id="lf0610_label_13682" href="#lf0610_footnote_nt3642_ref">† </a><p id="Bible_0610_OldAuth_27069">Heb we shall find punishment.</p></div>
 <div id="lf0610_footnote_nt3643" class="type-footnote note"><a id="lf0610_label_13687" href="#lf0610_footnote_nt3643_ref">† </a><p id="Bible_0610_OldAuth_27070">Heb. in it.</p></div>
 <div id="lf0610_footnote_nt3644" class="type-footnote note"><a id="lf0610_label_13697" href="#lf0610_footnote_nt3644_ref">* </a><p id="Bible_0610_OldAuth_27071">ch 4. 35.</p></div>
-<div id="lf0610_footnote_nt3645" class="type-footnote note"><a id="lf0610_label_13703" href="#lf0610_footnote_nt3645_ref">‎∥ </a><p id="Bible_0610_OldAuth_27072">Or, cunuch.</p></div>
+<div id="lf0610_footnote_nt3645" class="type-footnote note"><a id="lf0610_label_13703" href="#lf0610_footnote_nt3645_ref">‎∥ </a><p id="Bible_0610_OldAuth_27072">Or, eunuch.</p></div>
 <div id="lf0610_footnote_nt3646" class="type-footnote note"><a id="lf0610_label_13707" href="#lf0610_footnote_nt3646_ref">† </a><p id="Bible_0610_OldAuth_27073">Heb. in his hand.</p></div>
 <div id="lf0610_footnote_nt3647" class="type-footnote note"><a id="lf0610_label_13710" href="#lf0610_footnote_nt3647_ref">† </a><p id="Bible_0610_OldAuth_27074">Heb. and set it.</p></div>
 <div id="lf0610_footnote_nt3648" class="type-footnote note"><a id="lf0610_label_13716" href="#lf0610_footnote_nt3648_ref">* </a><p id="Bible_0610_OldAuth_27075">2 Chr. 21 4.</p></div>
@@ -4324,7 +4324,7 @@
 <div id="lf0610_footnote_nt4328" class="type-footnote note"><a id="lf0610_label_15838" href="#lf0610_footnote_nt4328_ref">‎∥ </a><p id="Bible_0610_OldAuth_27755">Or, secretary.</p></div>
 <div id="lf0610_footnote_nt4329" class="type-footnote note"><a id="lf0610_label_15839" href="#lf0610_footnote_nt4329_ref">‎∥ </a><p id="Bible_0610_OldAuth_27756">Or, Hachmonite.</p></div>
 <div id="lf0610_footnote_nt4330" class="type-footnote note"><a id="lf0610_label_15844" href="#lf0610_footnote_nt4330_ref">‎∥ </a><p id="Bible_0610_OldAuth_27757">Or, cattle.</p></div>
-<div id="lf0610_footnote_nt4331" class="type-footnote note"><a id="lf0610_label_15845" href="#lf0610_footnote_nt4331_ref">‎∥ </a><p id="Bible_0610_OldAuth_27758">Or, cunuchs.</p></div>
+<div id="lf0610_footnote_nt4331" class="type-footnote note"><a id="lf0610_label_15845" href="#lf0610_footnote_nt4331_ref">‎∥ </a><p id="Bible_0610_OldAuth_27758">Or, eunuchs.</p></div>
 <div id="lf0610_footnote_nt4332" class="type-footnote note"><a id="lf0610_label_15848" href="#lf0610_footnote_nt4332_ref">* </a><p id="Bible_0610_OldAuth_27759">2 Sam. 7. 5, 13. 1 Kings 5. 5. ch. 22. 8.</p></div>
 <div id="lf0610_footnote_nt4333" class="type-footnote note"><a id="lf0610_label_15849" href="#lf0610_footnote_nt4333_ref">† </a><p id="Bible_0610_OldAuth_27760">Heb. bloods.</p></div>
 <div id="lf0610_footnote_nt4334" class="type-footnote note"><a id="lf0610_label_15851" href="#lf0610_footnote_nt4334_ref">* </a><p id="Bible_0610_OldAuth_27761">Gen. 49. 8. 1 Sam. 16. 13. Ps. 78. 68.</p></div>
