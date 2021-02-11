@@ -3,6 +3,8 @@
 #Book	Chapter	Verse	Footnote number for that verse	Preceding text	footnote symbol	footnote text
 
 BEGIN {
+
+folderPrefix = "../../denuded epub/OEBPS/"
 	FS = "\t"
 
 
@@ -119,6 +121,270 @@ BEGIN {
 
 }
 
+
+#same as the index(string, in) function except returns the LAST occurence of the in in string, tested works
+function lastIndex(stringToCheck, inMe,  mutilatedString,  pointer,  lastPosition)
+{
+   if (!inMe)
+   {
+    print "FATAL ERROR: empty string passed to lastIndex. This was the string to check: \n" stringToCheck
+    exit 1
+   }
+	mutilatedString = stringToCheck;
+	pointer = 1;
+	while (lastPosition = index(mutilatedString, inMe))
+	{
+		mutilatedString = substr(mutilatedString, ++lastPosition)
+			pointer += lastPosition - 1
+
+	}
+	return pointer-1;
+}
+
+
+#just like gensub, except it works on literals instead of regexes
+function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
+{
+
+	toReturn = ""
+
+
+	mutilatedString = string
+
+		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
+		{
+			number = 1
+		}
+
+
+	if (!(position = index(string, literalPattern)))
+	{
+		return string;
+	}
+
+
+	if (match(number,/^[Gg]/)) #replace all
+	{
+		while (position = index(mutilatedString, literalPattern))
+		{
+			toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	else if (match(number,/^([[:digit:]]+)/, matchArray))
+	{
+		for (i = 0; i < matchArray[0]; ++i)
+		{
+			position = index(mutilatedString, literalPattern)
+				toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+       else
+       {
+	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
+       }
+	toReturn = toReturn mutilatedString
+
+		return toReturn;
+
+
+}
+
+
+#filename: the file to read
+#returns the complete text stored in a variable
+function storeTextFileInVariable(fileName,  toReturn,  line)
+{
+	toReturn = ""
+		while ((getline line < fileName) > 0)
+		{
+			toReturn=toReturn "\n" line;
+		}
+
+	return toReturn;
+
+}
+
+
+#takes a string like <span class="verse" id="MT5_11">11&#160;</span> <span class='wj'> Blessed are ye, when <span class='add'>men</span> shall revile you, and persecute <span class='add'>you</span>, and shall say all manner of evil against you falsely, for my sake.</span>
+
+#and returns just the text
+
+#if the string begins with a number, simply return the number; if it begins with more than two numbers, throw an error
+function getLeadingNumber(string,  matchArray)
+{
+	if (match(string, /^\s*[[:digit:]]{2,}/))
+	{
+		print "ERROR: " string " has two leading numbers"; exit 15;
+	}
+	else if (match(string, /^\s*([[:digit:]])/, matchArray))
+	{
+		return matchArray[1];
+	}
+	else
+	{
+		return "";
+	}
+}
+
+
+#returns fullVerseLine, but modified with the footnote symbol in the right place
+
+#fullVerseLine: a full line (with newlines at the beginning at end), like: <span class="verse" id="C11_11">11&#160;</span> For it hath been declared unto me of you, my brethren, by them <span class='add'>which are of the house</span> of Chloe, that there are contentions among you. 
+#precedingWords: the verse text before which the footnote symbol is to come
+#footnoteSymbol: the symbol by which to demarcate the prescence of the note
+#footnoteNumber: the number to ascribe to the footnote
+
+
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+{
+
+	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
+	{
+		if (!match(fullVerseLine, /([\n^])((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+		{
+			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+		}
+
+		toReturn = matchArray[1] matchArray[2] matchArray[4] matchArray[5] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
+			return toReturn
+
+
+	}
+
+
+	PREVIOUSIGNORECASE = IGNORECASE
+		IGNORECASE = 1
+		found = ""
+		toReturn = ""
+#now we split the matched verse into its constituent parts
+
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
+
+
+		verseTextOnly = ""
+		for (o in splitArray)
+		{ 
+			verseTextOnly = verseTextOnly "" splitArray[o]
+				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
+				{
+					found = "ja"
+						position = length(precedingWords)
+						if (position < length(verseTextOnly))
+						{
+							severedSepAfter = substr(verseTextOnly, position+1)
+								if (!(position = lastIndex(splitArray[o], severedSepAfter)))
+								{
+									print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
+								}
+							severedSepBefore = substr(splitArray[o], 1, position-1);
+							splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
+						}
+						else
+						{
+							splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+						}
+				}
+			toReturn = toReturn splitArray[o] sepsArray[o]
+
+		}
+	if (!found)
+	{
+		print "ERROR: Could not find " precedingWords " in (" fullVerseLine "). There is likely an issue with the regex or string parsing.\n verseTextOnly = " verseTextOnly "; precedingWords = " precedingWords; exit 16;
+	}
+	IGNORECASE = PREVIOUSIGNORECASE
+		return toReturn
+
+}
+
+#this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
+#xhtmlvariable: the full xhtml file of
+#footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+{
+#START WORK HERE 2: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha
+	footnoteNumber = 1
+		if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
+		{
+			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+		}
+
+	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1+length(matchArray[0]))
+		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition+length(matchArray[0]))
+		for (i in footnotes) #book
+		{
+			leadingNumber = getLeadingNumber(i);
+			for (j in footnotes[i]) #chapter
+			{
+				for (k in footnotes[i][j]) #verse
+				{
+
+					        if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+						{
+							print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; exit 14 
+						}
+
+					oldVerse = matchArray[0];
+					newVerse = oldVerse
+						if (k == "0" && book ~ /Psalm/) #special case for Psalm; footnote can be in the header
+						{
+							if (!match(xhtmlVariable,"id='([A-Z])+"leadingNumber""j"_0", matchArray)) #if the note is in a psalm header, make the verse 0
+							{
+								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+							}
+						}
+						else
+						{
+							if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
+							{
+								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+							}
+						}
+
+					matchArray[0] = gensub(/id=['"]/,"","1",matchArray[0])
+						matchArray[0] = gensub(/"/,"","g",matchArray[0])
+						verseID = matchArray[0]
+						for (l in footnotes[i][j][k]) #index
+						{
+							for (m in footnotes[i][j][k][l]) #verseText
+							{
+								for (n in footnotes[i][j][k][l][m]) #footnoteSymbol
+								{
+
+#first isolate the line where it takes place
+									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
+#now we insert the newVerse where the old verse was
+
+
+										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
+
+
+								}
+							}
+						}
+
+					xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
+				}
+			}
+		}
+
+	xhtmlWriteMe = xhtmlWriteMe "\n" restOfCSSWriteMe;
+
+	print xhtmlWriteMe > xhtmlFile ".output"
+#Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
+
+}
+
+
+
+
+
+
+
 {
 
 if (!$1 || (!$2 && $2 != 0) || (!$3 && $3 != 0) || !$4 || !$6 || !$7)
@@ -141,27 +407,47 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 
 END {
 
-	for (i in footnotes) #book
+#SPECIAL CASE: DO Sirach first
+	for (j in footnotes["Sirach"]) #chapter
 	{
-		for (j in footnotes[i]) #chapter
+		for (k in footnotes["Sirach"][j]) #verse
 		{
-			for (k in footnotes[i][j]) #verse
+			for (l in footnotes["Sirach"][j][k]) #footnote number
 			{
-				for (l in footnotes[i][j][k]) #footnote number
+				for (m in footnotes["Sirach"][j][k][l]) #preceding text
 				{
-					for (m in footnotes[i][j][k][l]) #preceding text
+					for (n in footnotes["Sirach"][j][k][l][m]) #footnotesymbol
 					{
-						for (n in footnotes[i][j][k][l][m]) #footnotesymbol
-						{
-								#START WORK HERE 1: insert the thing into its right place; will have to load the xhtml into memory and search it
-						}
+						newFootnoteArray["Sirach"][j][k][l][m][n] = footnotes["Sirach"][j][k][l][m][n]
 					}
 				}
 			}
 		}
-#START WORK HERE: write the book at the end; but be careful to include "sirach prologue" with sirach
 	}
 
-#don't forget how to deal with Sirach Prologue and when chapter or verse is 0 
+	for (j in footnotes["Sirach Prologue"]) #chapter
+	{
+		for (k in footnotes["Sirach Prologue"][j]) #verse
+		{
+			for (l in footnotes["Sirach Prologue"][j][k]) #footnote number
+			{
+				for (m in footnotes["Sirach Prologue"][j][k][l]) #preceding text
+				{
+					for (n in footnotes["Sirach Prologue"][j][k][l][m]) #footnotesymbol
+					{
+						newFootnoteArray["Sirach Prologue"][j][k][l][m][n] = footnotes["Sirach Prologue"][j][k][l][m][n]
+					}
+				}
+			}
+		}
+	}
+
+	xhtmlFile = folderPrefix bookFiles["Sirach"]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+#START WORK HERE 1: Make sure that "Sirach Prologue" comes before "Sirach" so that they both get written at once and that the footnotes are properly enumerated in the resulting.xhtml
+		writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
+
+START WORK HERE 3: Now write the rest of the books
+
 
 }
