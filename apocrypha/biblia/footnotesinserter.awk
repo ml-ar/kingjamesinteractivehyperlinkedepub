@@ -301,6 +301,32 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 }
 
+#same as write CSS but the special case for Sirach
+
+function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  i,  j,  k,  l,  m)
+{
+	if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
+	{
+		print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+	}
+	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1+length(matchArray[0]))
+		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition+length(matchArray[0]))
+
+
+#START WORK HERE 1: Insert Sirach notes
+		for (i in footnotes["Sirach Prologue"])
+		{
+			sirachPrologueHeading = "A Prologue made by an uncertain Author. "
+		}
+
+	for (i in footnotes["Sirach"])
+	{
+		sirachPrologueHeading = "The Prologue of the Wisdom of Jesus the Son of Sirach. "
+	}
+
+}
+
+
 #this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
 #xhtmlvariable: the full xhtml file of
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
@@ -444,10 +470,12 @@ END {
 
 	xhtmlFile = folderPrefix bookFiles["Sirach"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-#START WORK HERE 1: Make sure that "Sirach Prologue" comes before "Sirach" so that they both get written at once and that the footnotes are properly enumerated in the resulting.xhtml
-		writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
+writeSirach(xhtmlFile, xhtmlVariable, newFootnoteArray)
 
-START WORK HERE 3: Now write the rest of the books
+
+#START WORK HERE 3: Now do the rest of the books, then call write CSS
+	#	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
+
 
 
 }
