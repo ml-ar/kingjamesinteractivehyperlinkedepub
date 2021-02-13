@@ -2,6 +2,9 @@
 
 #Book	Chapter	Verse	Footnote number for that verse	Preceding text	footnote symbol	footnote text
 
+#EXIT CODES
+#1: Problem finding the preceding text in the Sirach prologue
+
 BEGIN {
 
 folderPrefix = "../../denuded epub/OEBPS/"
@@ -303,7 +306,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 #same as write CSS but the special case for Sirach
 
-function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  i,  j,  k,  l,  m)
+function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  i,  j,  k,  l,  m)
 {
 	if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
 	{
@@ -313,16 +316,39 @@ function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  endnotesPosition,  ma
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition+length(matchArray[0]))
 
 
-#START WORK HERE 1: Insert Sirach notes
-		for (i in footnotes["Sirach Prologue"])
+footnoteNumber = 1
+		sirachPrologueHeading = "A Prologue made by an uncertain Author. "
+		for (j in footnotes["Sirach Prologue"]) #chapter
 		{
-			sirachPrologueHeading = "A Prologue made by an uncertain Author. "
+			for (k in footnotes["Sirach Prologue"][j]) #verse
+			{
+				for (l in footnotes["Sirach Prologue"][j][k]) #footnote number
+				{
+					for (m in footnotes["Sirach Prologue"][j][k][l]) #preceding text
+					{
+						for (n in footnotes["Sirach Prologue"][j][k][l][m]) #footnoteSymbol
+						{
+							if(!(precedingVerseTextStart = index(xhtmlVariable, m))) #maybe you first have to remove the prologue heading before finding it
+							{
+								m = substr(m, length(sirachPrologueHeading)+1)
+									if (!(precedingVerseTextStart = index(xhtmlVariable, m)))
+									{
+										print "ERROR: Could not find the text " m " in the Sirach prologue."; exit 1
+
+#START WORK HERE 1: Insert Sirach Prologue notes, don't forget to add notes at the end
+									}
+							}
+						}
+					}
+				}
+			}
 		}
 
-	for (i in footnotes["Sirach"])
-	{
-		sirachPrologueHeading = "The Prologue of the Wisdom of Jesus the Son of Sirach. "
-	}
+	sirachPrologueHeading = "The Prologue of the Wisdom of Jesus the Son of Sirach. "
+		for (i in footnotes["Sirach"])
+		{
+#START WORK HERE 2: Insert Sirach notes, don't forget to add notes at the end
+		}
 
 }
 
@@ -332,7 +358,7 @@ function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  endnotesPosition,  ma
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
-#START WORK HERE 2: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha
+#START WORK HERE 3: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 	footnoteNumber = 1
 		if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
 		{
@@ -434,22 +460,6 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 END {
 
 #SPECIAL CASE: DO Sirach first
-	for (j in footnotes["Sirach"]) #chapter
-	{
-		for (k in footnotes["Sirach"][j]) #verse
-		{
-			for (l in footnotes["Sirach"][j][k]) #footnote number
-			{
-				for (m in footnotes["Sirach"][j][k][l]) #preceding text
-				{
-					for (n in footnotes["Sirach"][j][k][l][m]) #footnotesymbol
-					{
-						newFootnoteArray["Sirach"][j][k][l][m][n] = footnotes["Sirach"][j][k][l][m][n]
-					}
-				}
-			}
-		}
-	}
 
 	for (j in footnotes["Sirach Prologue"]) #chapter
 	{
@@ -468,13 +478,33 @@ END {
 		}
 	}
 
+
+	for (j in footnotes["Sirach"]) #chapter
+	{
+		for (k in footnotes["Sirach"][j]) #verse
+		{
+			for (l in footnotes["Sirach"][j][k]) #footnote number
+			{
+				for (m in footnotes["Sirach"][j][k][l]) #preceding text
+				{
+					for (n in footnotes["Sirach"][j][k][l][m]) #footnotesymbol
+					{
+						newFootnoteArray["Sirach"][j][k][l][m][n] = footnotes["Sirach"][j][k][l][m][n]
+					}
+				}
+			}
+		}
+	}
+
+
+
 	xhtmlFile = folderPrefix bookFiles["Sirach"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-writeSirach(xhtmlFile, xhtmlVariable, newFootnoteArray)
+		writeSirach(xhtmlFile, xhtmlVariable, newFootnoteArray)
 
 
-#START WORK HERE 3: Now do the rest of the books, then call write CSS
-	#	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
+#START WORK HERE 4: Now do the rest of the books, then call write CSS
+#	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
 
 
 
