@@ -385,7 +385,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		toReturn = ""
 #now we split the matched verse into its constituent parts
 
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)|(<div class='psalmlabel'[^>]+>[^<]+<[^>]+>)/, sepsArray) #the last term in the parenthesis is a special case for a note that appears in a psalm title
 
 
 		verseTextOnly = ""

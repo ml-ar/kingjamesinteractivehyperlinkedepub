@@ -1,1 +1,3 @@
 This branch is for verifying the validity of the notes in notesonlyfromhtml[ampersandspreservedspansmodified]; feed the file into footnoteparser.awk, check for verification errors, fix them where appropriate (spelling errors) and then add the appropriate xhtml book files when done
+
+This branch's version of footnoteparser.awk is authoritative.
