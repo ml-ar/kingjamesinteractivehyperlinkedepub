@@ -306,7 +306,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 #same as write CSS but the special case for Sirach
 
-function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m)
+function writeSirach(xhtmlFile, xhtmlVariable, footnotes,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m)
 {
 	if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
 	{
@@ -317,9 +317,21 @@ function writeSirach(xhtmlFile, xhtmlvariable, footnotes,  precedingVerseTextSta
 
 
 footnoteNumber = 1
-		sirachPrologueHeading = "A Prologue made by an uncertain Author. "
 		for (j in footnotes["Sirach Prologue"]) #chapter
 		{
+			if (j == 1)
+			{
+
+				sirachPrologueHeading = "A Prologue made by an uncertain Author. "
+			}
+			else if (j == 2)
+			{
+				sirachPrologueHeading = "The Prologue of the Wisdom of Jesus, the Son of Sirach. "
+			}
+			else
+			{
+				print "ERROR: Found chapter " j " in Sirach Prologue. Sirach Prologue has only chapters 1 and 2."; exit 3
+			}
 			for (k in footnotes["Sirach Prologue"][j]) #verse
 			{
 				for (l in footnotes["Sirach Prologue"][j][k]) #footnote number
@@ -359,7 +371,6 @@ footnoteNumber = 1
 			}
 		}
 
-	sirachPrologueHeading = "The Prologue of the Wisdom of Jesus the Son of Sirach. "
 		for (i in footnotes["Sirach"])
 		{
 #START WORK HERE 1: Insert Sirach notes, don't forget to add notes at the end
