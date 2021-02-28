@@ -429,13 +429,13 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 	footnoteNumber = 1
-		if (!(endnotesPosition = match(xhtmlVariable,"</div><div class=\"footnote\">\\s*\\n\\s*<hr />\\s*\\n", matchArray)))
+		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
 		}
 
-	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1+length(matchArray[0]))
-		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition+length(matchArray[0]))
+		xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1) "\n"
+		restOfCSSWriteMe = trim(substr(xhtmlVariable, endnotesPosition))
 		for (i in footnotes) #book
 		{
 			leadingNumber = getLeadingNumber(i);
@@ -500,7 +500,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 			}
 		}
 
-	xhtmlWriteMe = xhtmlWriteMe "\n" restOfCSSWriteMe;
+	xhtmlWriteMe = xhtmlWriteMe restOfCSSWriteMe;
 
 	print xhtmlWriteMe > xhtmlFile ".output"
 #Remember that it's possible, but not likely, that two footnote symbols are right next to each other in a verse; keep that in mind
@@ -508,6 +508,9 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 }
 
 BEGIN {
+
+	xhtmlEndRegex = "\\s*\n<hr />\\s*\n\\s*</div>\\s*\n</div></body></html>(\\s*|\n)*$"
+
 	webpageReferenceFile = "Old Testament HTML/completemarkupendnotesremovedmodified.txt"
 	webpageReferenceVariable = storeTextFileInVariable(webpageReferenceFile)
 	if (!webpageReferenceVariable)
