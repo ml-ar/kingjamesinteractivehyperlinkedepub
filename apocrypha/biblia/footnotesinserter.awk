@@ -425,17 +425,23 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 
 }
 
-function writeSirach(xhtmlFile, xhtmlVariable, footnotes,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m,  adhocFootnotes)
+function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m,  adhocFootnotes)
 {
-	if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
-	{
-		print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
-	}
+
+
+	xhtmlFile = folderPrefix bookFiles["Sirach"]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+
+
+		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
+		{
+			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+		}
 	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
 
 
-footnoteNumber = 1
+		footnoteNumber = 1
 		for (j in footnotes["Sirach Prologue"]) #chapter
 		{
 			if (j == 1)
@@ -490,14 +496,14 @@ footnoteNumber = 1
 			}
 		}
 
-xhtmlWriteMe = xhtmlWriteMe restOfCSSWriteMe;
+	xhtmlWriteMe = xhtmlWriteMe restOfCSSWriteMe;
 
-copySingleBookFootnotesArray("Sirach", adhocFootnotes)
+	copySingleBookFootnotesArray("Sirach", adhocFootnotes)
 
-writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes, footnoteNumber)
+		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes, footnoteNumber)
 
-delete footnotes["Sirach"]
-delete footnotes["Sirach Prologue"]
+		delete footnotes["Sirach"]
+		delete footnotes["Sirach Prologue"]
 
 }
 
@@ -527,48 +533,8 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 
 END {
 
-#SPECIAL CASE: DO Sirach first
-
-	for (j in footnotes["Sirach Prologue"]) #chapter
-	{
-		for (k in footnotes["Sirach Prologue"][j]) #verse
-		{
-			for (l in footnotes["Sirach Prologue"][j][k]) #footnote number
-			{
-				for (m in footnotes["Sirach Prologue"][j][k][l]) #preceding text
-				{
-					for (n in footnotes["Sirach Prologue"][j][k][l][m]) #footnotesymbol
-					{
-						newFootnoteArray["Sirach Prologue"][j][k][l][m][n] = footnotes["Sirach Prologue"][j][k][l][m][n]
-					}
-				}
-			}
-		}
-	}
-
-
-	for (j in footnotes["Sirach"]) #chapter
-	{
-		for (k in footnotes["Sirach"][j]) #verse
-		{
-			for (l in footnotes["Sirach"][j][k]) #footnote number
-			{
-				for (m in footnotes["Sirach"][j][k][l]) #preceding text
-				{
-					for (n in footnotes["Sirach"][j][k][l][m]) #footnotesymbol
-					{
-						newFootnoteArray["Sirach"][j][k][l][m][n] = footnotes["Sirach"][j][k][l][m][n]
-					}
-				}
-			}
-		}
-	}
-
-
-
-	xhtmlFile = folderPrefix bookFiles["Sirach"]
-		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-		writeSirach(xhtmlFile, xhtmlVariable, newFootnoteArray)
+#Do special cases first
+		writeSirach()
 
 #START WORK HERE 1: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
