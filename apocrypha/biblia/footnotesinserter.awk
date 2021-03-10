@@ -127,6 +127,53 @@ xhtmlEndRegex = "</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 
 }
 
+
+#returns the number of footnotes inserted
+#xhtmlVariable: the xhtmlVariable to insert
+#returns an array: insert0and0Results["xhtmlVariable"] = modified xhtml variable (after inserting the notes); insert0and0Results["numAdded"] = number of footnotes added
+function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAfter,  insert0and0Results,  i,  j,  k,  matchPoint,  matchArray)
+{
+	insert0and0Results["xhtmlVariable"] = xhtmlVariable
+		insert0and0Results["xhtmlVariable"] = 0 
+		if (!(book in footnotes))
+		{
+			print "ERROR: could not find " book " in the footnotes array."; exit 5
+		}
+
+	if (!(0 in footnotes[book]))
+	{
+		return insert0and0Results
+	}
+
+	if (!(0 in footnotes[book][0]))
+	{
+		return insert0and0Results
+	}
+
+	for (i in footnotes[book][0][0]) #footnotenumber
+	{
+		for (j in footnotes[book][0][0][i]) #precedingText
+		{
+			for (k in footnotes[book][0][0][i][j]) #footnoteSymbol
+			{
+				if (j ~ /^\s*$/) #the footnote pertains to the title because the preceding text is empty
+				{
+					if (!(matchPoint = match(xhtmlVariable, /<div class='mt'>/, matchArray)))
+					{
+						print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
+					}
+xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1)
+#START WORK HERE 1.1: Add the footnote symbol
+xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
+#START WORK HERE 1.2
+				}
+			}
+		}
+	}
+
+
+}
+
 #creates an adhoc array of size one, the only index is a SINGLE book (this is to parse the footnotes array so it'll work properly with writeCSS
 
 
@@ -425,6 +472,44 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 
 }
 
+#writing Bel and the Dragon special cases
+function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  footnoteNumber,  i)
+{
+	xhtmlFile = folderPrefix bookFiles["Bel and the Dragon"]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+
+
+		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
+		{
+			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+		}
+	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
+		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
+
+
+		footnoteNumber = 1
+       insert0and0(xhtmlVariable, "Bel and the Dragon")
+#START WORK HERE 2: Write the rest of the notes
+
+}
+
+function writeManasseh()
+{
+	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+
+
+		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
+		{
+			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+		}
+insert0and0(xhtmlVariable, "Prayer of Manasseh")
+#START WORK HERE 3: Write the rest of the notes
+
+
+}
+
+#writing Sirach special cases
 function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m,  adhocFootnotes)
 {
 
@@ -534,9 +619,11 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 END {
 
 #Do special cases first
+writeManasseh()
+                writeBel()
 		writeSirach()
 
-#START WORK HERE 1: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
+#START WORK HERE 4: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
 
 #	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
