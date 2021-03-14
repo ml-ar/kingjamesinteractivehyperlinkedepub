@@ -1,0 +1,4 @@
+Prayer of Manasseh	0	0	1		*	<a href='2CH.xhtml#R233_12'>2 Chr. 33. 12–19</a>.
+Prayer of Manasseh	0	7	8	for thou art the most high Lord, of 	d	So <a href='SIR.xhtml#SR2_11'>Ecclus. 2. 11</a>. See <a href='PSA.xhtml#PS86_15'>Ps. 86. 15</a>.
+Prayer of Manasseh	0	7	9	for thou art the most high Lord, of 	e	<a href='JOL.xhtml#JL2_13'>Joel 2. 13</a>.
+Prayer of Manasseh	0	7	10	for thou art the most high Lord, of 	f	<a href='JOL.xhtml#JL2_13'>Joel 2. 13</a>.

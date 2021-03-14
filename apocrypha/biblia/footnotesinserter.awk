@@ -182,7 +182,7 @@ function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAf
 					}
 					else # the preceding text is not empty
 					{
-#START WORK HERE 1
+#START WORK HERE 2
 					}
 				}
 			}
@@ -414,6 +414,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 			verseTextOnly = verseTextOnly "" splitArray[o]
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
+#START WORK HERE 1: This is broken when two notes are right next to each other: they'll be placed in reverse order: feed this program into testfootnotes for a test
 					found = "ja"
 						position = length(precedingWords)
 						if (position < length(verseTextOnly))
@@ -539,7 +540,7 @@ match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)
 
 
 
-#START WORK HERE 2: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
+#START WORK HERE 4: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
 	copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
 
@@ -564,7 +565,6 @@ match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)
 
 
 
-#START WORK HERE 1:  there seems to be an error copying the array elements and deleting them, writeCSS breaks (although it seems like the logic above works okay, do some more testing
 
 	copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
 change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
@@ -687,7 +687,7 @@ writeManasseh()
                 writeBel()
 		writeSirach()
 
-#START WORK HERE 4: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
+#START WORK HERE 5: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
 
 #	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
