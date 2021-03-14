@@ -178,11 +178,11 @@ function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAf
 						xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1) "<a href='#FN"++footnotesAdded"' id='00"footnotesAdded"' epub:type='noteref' class='noteref'>"k"</a>"
 							xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
 							xhtmlVariable = xhtmlVariableBefore xhtmlVariableAfter
-							newFootnoteSection = newFootnoteSection "<aside epub:type='footnote' id=\"FN"footnotesAdded"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"footnotesAdded"\"><span class=\"notemark\">"k"</span> "0"."0"</a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
+							newFootnoteSection = newFootnoteSection "<aside epub:type='footnote' id=\"FN"footnotesAdded"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"footnotesAdded"\"><span class=\"notemark\">"k"</span></a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
 					}
 					else # the preceding text is not empty
 					{
-#START WORK HERE 2
+#START WORK HERE 1
 					}
 				}
 			}
@@ -381,7 +381,7 @@ function getLeadingNumber(string,  matchArray)
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  toAppend,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
 
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
@@ -405,16 +405,16 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		toReturn = ""
 #now we split the matched verse into its constituent parts
 
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|((<a href='#FN[^>]+>[^<]+<[^>]+>)+)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
 
 
 		verseTextOnly = ""
 		for (o in splitArray)
 		{ 
 			verseTextOnly = verseTextOnly "" splitArray[o]
+				toAppend = ""
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
-#START WORK HERE 1: This is broken when two notes are right next to each other: they'll be placed in reverse order: feed this program into testfootnotes for a test
 					found = "ja"
 						position = length(precedingWords)
 						if (position < length(verseTextOnly))
@@ -425,15 +425,28 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 									print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
 								}
 							severedSepBefore = substr(splitArray[o], 1, position-1);
-							splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
+							toAppend = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter sepsArray[o]
 						}
 						else
 						{
-							splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+							if (sepsArray[o] ~ /<a href='#FN/) #this is necessary because you might have footnotes directly after, make sure to put them in the right order
+							{
+								toAppend = splitArray[o] sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+							}
+							else
+							{
+								toAppend = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" sepsArray[o]
+							}
 						}
 				}
-			toReturn = toReturn splitArray[o] sepsArray[o]
-
+			if (toAppend != "") #if we have already have footnotes pertaining to the same text
+			{
+				toReturn = toReturn toAppend
+			}
+			else
+			{
+				toReturn = toReturn splitArray[o] sepsArray[o]
+			}
 		}
 	if (!found)
 	{
@@ -453,7 +466,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
-#START WORK HERE 3: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
+#START WORK HERE 2: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
@@ -540,7 +553,7 @@ match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)
 
 
 
-#START WORK HERE 4: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
+#START WORK HERE 3: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
 	copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
 
@@ -551,26 +564,20 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatc
 {
 	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-       xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
+		xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
 		}
 
-lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
+	lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
 
-match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
+		match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
-
-
-
-
-	copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
-change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
-writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
-
-exit 5;
+		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
+		change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
 
 }
 
@@ -620,6 +627,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 								{
 
 									oldVerse = substr(m, length(sirachPrologueHeading)+1)
+#START WORK HERE 1: This breaks when trying to assemble multiple notes in the prologue: because if you insert a note, you can no longer use "index" to put it in the right place
 										if (!(precedingVerseTextStart = index(xhtmlVariable, oldVerse)))
 										{
 											print "ERROR: Could not find the text " m " in the Sirach prologue."; exit 1
@@ -632,12 +640,12 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 
 								if (j == 1)
 								{
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span> Sirach Prologue 1</a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
+									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 								}
 								else
 								{
 
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span> Sirach Prologue 2</a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
+									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 								}
 						}
 					}
@@ -683,11 +691,12 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 END {
 
 #Do special cases first
+
+		writeSirach()
 writeManasseh()
                 writeBel()
-		writeSirach()
 
-#START WORK HERE 5: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
+#START WORK HERE 4: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
 
 #	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
