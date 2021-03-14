@@ -452,7 +452,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes, footnoteNumber,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
-#START WORK HERE 2: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
+#START WORK HERE 3: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
 if (!footnoteNumber || footnoteNumber <= 0)
 {
@@ -557,10 +557,11 @@ else
 footnotesAdded = 0
 }
 
+
+#START WORK HERE 2: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
 	copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"], ++footnotesAdded) 
 
-#START WORK HERE 2: Write the rest of the notes
 
 }
 
@@ -588,11 +589,13 @@ else
 footnotesAdded = 0
 }
 
+
+#START WORK HERE 1:  there seems to be an error copying the array elements and deleting them, writeCSS breaks (although it seems like the logic above works okay, do some more testing
+
 	copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
 change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
 writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes, ++footnotesAdded) 
 
-#START WORK HERE 3: Write the rest of the notes
 
 
 }
