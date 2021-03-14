@@ -127,28 +127,41 @@ xhtmlEndRegex = "</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 
 }
 
+#same as match except returns the position of the last match
+function lastMatch(stringToCheck, regex,  mutilatedString,  pointer,  lastPosition) #minimially tested, seems to be working
+{
+   if (!regex)
+   {
+    print "FATAL ERROR: empty regex passed to function lastMatch. This was the string to check: \n" stringToCheck
+    exit 1
+   }
+	mutilatedString = stringToCheck;
+	pointer = 1;
+	while (lastPosition = match(mutilatedString, regex))
+	{
+		mutilatedString = substr(mutilatedString, ++lastPosition)
+			pointer += lastPosition - 1
+
+	}
+	return pointer-1;
+}
 
 #returns the number of footnotes inserted
 #xhtmlVariable: the xhtmlVariable to insert
-#returns an array: insert0and0Results["xhtmlVariable"] = modified xhtml variable (after inserting the notes); insert0and0Results["numAdded"] = number of footnotes added
-function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAfter,  insert0and0Results,  i,  j,  k,  matchPoint,  matchArray)
+#returns appropriately modified xhtmlVariable
+function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAfter,  footnotesAdded,  oldFootnoteSection,  newFootnoteSection,  i,  j,  k,  matchPoint,  matchArray)
 {
-	insert0and0Results["xhtmlVariable"] = xhtmlVariable
-		insert0and0Results["xhtmlVariable"] = 0 
+
+footnotesAdded = 0;
 		if (!(book in footnotes))
 		{
 			print "ERROR: could not find " book " in the footnotes array."; exit 5
 		}
 
-	if (!(0 in footnotes[book]))
-	{
-		return insert0and0Results
-	}
+        match(xhtmlVariable, /<div class="footnote">(\s|\n)*<hr\s*\/>(\s|\n)*.*$/, matchArray)
+        oldFootnoteSection = matchArray[0]
+        newFootnoteSection = "<div class=\"footnote\">\n<hr />\n"
 
-	if (!(0 in footnotes[book][0]))
-	{
-		return insert0and0Results
-	}
 
 	for (i in footnotes[book][0][0]) #footnotenumber
 	{
@@ -162,15 +175,21 @@ function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAf
 					{
 						print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
 					}
-xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1)
-#START WORK HERE 1.1: Add the footnote symbol
-xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
-#START WORK HERE 1.2
+					xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1) "<a href='#FN"++footnotesAdded"' id='00"footnotesAdded"' epub:type='noteref' class='noteref'>"k"</a>"
+						xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
+						xhtmlVariable = xhtmlVariableBefore xhtmlVariableAfter
+newFootnoteSection = newFootnoteSection "<aside epub:type='footnote' id=\"FN"footnotesAdded"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"footnotesAdded"\"><span class=\"notemark\">"k"</span> "0"."0"</a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
 				}
 			}
 		}
 	}
 
+delete footnotes[book][0][0]
+
+ newFootnoteSection = newFootnoteSection "<hr />\n</div>\n</div></body></html>" #closing up the section
+
+xhtmlVariable = literalgensub(oldFootnoteSection, newFootnoteSection, 1, xhtmlVariable)
+return xhtmlVariable
 
 }
 
@@ -181,7 +200,7 @@ xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
 #adhocFootnotes: the array to copy to
 function copySingleBookFootnotesArray(book, adhocFootnotes, j, k)
 {
-
+delete adhocFootnotes;
 if (!(book in footnotes))
 {
 print "ERROR: could not find the book " book "in the footnotes array!"; exit 5
@@ -225,6 +244,43 @@ function lastIndex(stringToCheck, inMe,  mutilatedString,  pointer,  lastPositio
 
 	}
 	return pointer-1;
+}
+
+
+#takes all the chapter footnotes indices for book that are 0 and moves them to the 1 index, then deletes the 1 index
+function change0Chapterto1(footnotesArray, book,  i)
+{
+
+	if (!(book in footnotesArray))
+	{
+		print "Error in function change0Chapterto1(): wrong book passed"; exit 8;
+	}
+
+
+#footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
+
+	for (i in footnotesArray[book][0]) #verse
+	{
+		for (j in footnotesArray[book][0]) #precedingVerseText
+		{
+			for (k in footnotesArray[book][0][j]) #index
+			{
+				for (l in footnotesArray[book][0][j][k]) #chapter
+				{
+					footnotesArray[book][1][i][j][k][l] = footnotesArray[book][0][i][j][k][l]
+						delete footnotesArray[book][0][i][j][k][l]
+				}
+				delete footnotesArray[book][0][i][j][k]
+			}
+
+			delete footnotesArray[book][0][i][j]
+
+		}
+		delete footnotesArray[book][0][i]
+	}
+
+	delete footnotesArray[book][0]
+
 }
 
 
@@ -398,7 +454,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes, footnoteNumber,  xhtmlWri
 {
 #START WORK HERE 2: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
-if (!footnoteNumber)
+if (!footnoteNumber || footnoteNumber <= 0)
 {
 	footnoteNumber = 1
 }
@@ -473,37 +529,69 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 }
 
 #writing Bel and the Dragon special cases
-function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  footnoteNumber,  i)
+function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  lastMatchPosition,  footnotesAdded,  i,  adhocFootnotes)
 {
 	xhtmlFile = folderPrefix bookFiles["Bel and the Dragon"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 
 
+
+
+       xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon")
+
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
 		}
-	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
-		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
 
+lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
 
-		footnoteNumber = 1
-       insert0and0(xhtmlVariable, "Bel and the Dragon")
+match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
+
+if ((1 in matchArray))
+{
+footnotesAdded = matchArray[1]
+}
+else
+{
+footnotesAdded = 0
+}
+
+	copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
+writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"], ++footnotesAdded) 
+
 #START WORK HERE 2: Write the rest of the notes
 
 }
 
-function writeManasseh()
+function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatchPosition,  matchArray,  footnotesAdded,  adhocFootnotes)
 {
 	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-
+       xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
 		}
-insert0and0(xhtmlVariable, "Prayer of Manasseh")
+
+lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
+
+match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
+
+if ((1 in matchArray))
+{
+footnotesAdded = matchArray[1]
+}
+else
+{
+footnotesAdded = 0
+}
+
+	copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
+change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
+writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes, ++footnotesAdded) 
+
 #START WORK HERE 3: Write the rest of the notes
 
 

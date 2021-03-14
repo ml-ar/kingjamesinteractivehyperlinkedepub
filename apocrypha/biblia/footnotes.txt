@@ -6554,7 +6554,7 @@ Song of Three Youths	0	66	86	O Ananias, Azarias, and Misael, bless ye the Lord: 
 Song of Three Youths	0	67	87		n	So <a href='1MA.xhtml#M14_24'>1 Macc. 4. 24</a>. See <a href='PSA.xhtml#PS136_1'>Ps. 136. 1</a>.
 Song of Three Youths	0	68	88	O all ye that worship the Lord, 	o	<a href='PSA.xhtml#PS136_2'>Ps. 136. 2</a>.
 Song of Three Youths	0	68	89	O all ye that worship the Lord, bless the God of gods, Praise him, and give him thanks: 	o	<a href='PSA.xhtml#PS136_2'>Ps. 136. 2</a>.
-Susanna	0	0	1	The History of Susanna. set apart from the beginning of Daniel, because it is not in Hebrew, as neither the narration of 	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
+Susanna	0	0	1	Set apart from the beginning of Daniel, because it is not in the Hebrew, as neither the Narration of	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
 Susanna	0	1	2	There dwelt a man in Babylon, called 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
 Susanna	0	2	3	and he took a wife, whose name was 	b	Comp. <a href='LUK.xhtml#LK8_3'>Luke 8. 3</a>.
 Susanna	0	2	4	and he took a wife, whose name was Susanna, the daughter of 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
