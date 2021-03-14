@@ -361,7 +361,7 @@ function arePrecedingWordsInXHTML(xhtmlVariable, xhtmlFile, book, chapter, verse
 #footnoteNumber: the number to ascribe to the footnote
 
 
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  toAppend,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
 
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
@@ -385,13 +385,14 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		toReturn = ""
 #now we split the matched verse into its constituent parts
 
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|(<a href='#FN[^>]+>[^<]+<[^>]+>)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)|(<div class='psalmlabel'[^>]+>[^<]+<[^>]+>)/, sepsArray) #the last term in the parenthesis is a special case for a note that appears in a psalm title
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|((<a href='#FN[^>]+>[^<]+<[^>]+>)+)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
 
 
 		verseTextOnly = ""
 		for (o in splitArray)
 		{ 
 			verseTextOnly = verseTextOnly "" splitArray[o]
+				toAppend = ""
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
@@ -404,15 +405,28 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 									print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
 								}
 							severedSepBefore = substr(splitArray[o], 1, position-1);
-							splitArray[o] = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter
+							toAppend = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter sepsArray[o]
 						}
 						else
 						{
-							splitArray[o] = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+							if (sepsArray[o] ~ /<a href='#FN/) #this is necessary because you might have footnotes directly after, make sure to put them in the right order
+							{
+								toAppend = splitArray[o] sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+							}
+							else
+							{
+								toAppend = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" sepsArray[o]
+							}
 						}
 				}
-			toReturn = toReturn splitArray[o] sepsArray[o]
-
+			if (toAppend != "") #if we have already have footnotes pertaining to the same text
+			{
+				toReturn = toReturn toAppend
+			}
+			else
+			{
+				toReturn = toReturn splitArray[o] sepsArray[o]
+			}
 		}
 	if (!found)
 	{
