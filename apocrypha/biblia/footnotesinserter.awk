@@ -8,7 +8,7 @@
 BEGIN {
 
 folderPrefix = "../../denuded epub/OEBPS/"
-xhtmlEndRegex = "</div>\\s*\n</div></body></html>(\\s*|\n)*$"
+xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 
 
 	FS = "\t"
@@ -152,44 +152,48 @@ function lastMatch(stringToCheck, regex,  mutilatedString,  pointer,  lastPositi
 function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAfter,  footnotesAdded,  oldFootnoteSection,  newFootnoteSection,  i,  j,  k,  matchPoint,  matchArray)
 {
 
-footnotesAdded = 0;
-		if (!(book in footnotes))
-		{
-			print "ERROR: could not find " book " in the footnotes array."; exit 5
-		}
-
-        match(xhtmlVariable, /<div class="footnote">(\s|\n)*<hr\s*\/>(\s|\n)*.*$/, matchArray)
-        oldFootnoteSection = matchArray[0]
-        newFootnoteSection = "<div class=\"footnote\">\n<hr />\n"
-
-
-	for (i in footnotes[book][0][0]) #footnotenumber
+	footnotesAdded = 0;
+	if (!(book in footnotes))
 	{
-		for (j in footnotes[book][0][0][i]) #precedingText
+		print "ERROR: could not find " book " in the footnotes array."; exit 5
+	}
+
+	match(xhtmlVariable, /<div class="footnote">(\s|\n)*<hr\s*\/>(\s|\n)*.*$/, matchArray)
+		oldFootnoteSection = matchArray[0]
+		newFootnoteSection = "<div class=\"footnote\">\n<hr />\n"
+
+
+		for (i in footnotes[book][0][0]) #footnotenumber
 		{
-			for (k in footnotes[book][0][0][i][j]) #footnoteSymbol
+			for (j in footnotes[book][0][0][i]) #precedingText
 			{
-				if (j ~ /^\s*$/) #the footnote pertains to the title because the preceding text is empty
+				for (k in footnotes[book][0][0][i][j]) #footnoteSymbol
 				{
-					if (!(matchPoint = match(xhtmlVariable, /<div class='mt'>/, matchArray)))
+					if (j ~ /^\s*$/) #the footnote pertains to the title because the preceding text is empty
 					{
-						print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
+						if (!(matchPoint = match(xhtmlVariable, /<div class='mt'>/, matchArray)))
+						{
+							print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
+						}
+						xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1) "<a href='#FN"++footnotesAdded"' id='00"footnotesAdded"' epub:type='noteref' class='noteref'>"k"</a>"
+							xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
+							xhtmlVariable = xhtmlVariableBefore xhtmlVariableAfter
+							newFootnoteSection = newFootnoteSection "<aside epub:type='footnote' id=\"FN"footnotesAdded"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"footnotesAdded"\"><span class=\"notemark\">"k"</span> "0"."0"</a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
 					}
-					xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1) "<a href='#FN"++footnotesAdded"' id='00"footnotesAdded"' epub:type='noteref' class='noteref'>"k"</a>"
-						xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
-						xhtmlVariable = xhtmlVariableBefore xhtmlVariableAfter
-newFootnoteSection = newFootnoteSection "<aside epub:type='footnote' id=\"FN"footnotesAdded"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"footnotesAdded"\"><span class=\"notemark\">"k"</span> "0"."0"</a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
+					else # the preceding text is not empty
+					{
+#START WORK HERE 1
+					}
 				}
 			}
 		}
-	}
 
-delete footnotes[book][0][0]
+	delete footnotes[book][0][0]
 
- newFootnoteSection = newFootnoteSection "<hr />\n</div>\n</div></body></html>" #closing up the section
+		newFootnoteSection = newFootnoteSection "<hr />\n</div>\n</div></body></html>" #closing up the section
 
-xhtmlVariable = literalgensub(oldFootnoteSection, newFootnoteSection, 1, xhtmlVariable)
-return xhtmlVariable
+		xhtmlVariable = literalgensub(oldFootnoteSection, newFootnoteSection, 1, xhtmlVariable)
+		return xhtmlVariable
 
 }
 
@@ -198,7 +202,7 @@ return xhtmlVariable
 
 #book: a book title
 #adhocFootnotes: the array to copy to
-function copySingleBookFootnotesArray(book, adhocFootnotes, j, k)
+function copySingleBookFootnotesArray(book, adhocFootnotes,  j,  k,  l,  m,  n)
 {
 delete adhocFootnotes;
 if (!(book in footnotes))
@@ -248,7 +252,7 @@ function lastIndex(stringToCheck, inMe,  mutilatedString,  pointer,  lastPositio
 
 
 #takes all the chapter footnotes indices for book that are 0 and moves them to the 1 index, then deletes the 1 index
-function change0Chapterto1(footnotesArray, book,  i)
+function change0Chapterto1(footnotesArray, book,  i,  j,  k,  l)
 {
 
 	if (!(book in footnotesArray))
@@ -261,22 +265,18 @@ function change0Chapterto1(footnotesArray, book,  i)
 
 	for (i in footnotesArray[book][0]) #verse
 	{
-		for (j in footnotesArray[book][0]) #precedingVerseText
+		for (j in footnotesArray[book][0][i]) #precedingVerseText
 		{
-			for (k in footnotesArray[book][0][j]) #index
+			for (k in footnotesArray[book][0][i][j]) #index
 			{
-				for (l in footnotesArray[book][0][j][k]) #chapter
+				for (l in footnotesArray[book][0][i][j][k]) #chapter
 				{
 					footnotesArray[book][1][i][j][k][l] = footnotesArray[book][0][i][j][k][l]
-						delete footnotesArray[book][0][i][j][k][l]
 				}
-				delete footnotesArray[book][0][i][j][k]
 			}
 
-			delete footnotesArray[book][0][i][j]
 
 		}
-		delete footnotesArray[book][0][i]
 	}
 
 	delete footnotesArray[book][0]
@@ -448,16 +448,13 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 #this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
 #xhtmlvariable: the full xhtml file of
-#footnotes: an array, with this anatomy: footnotes[book][chapter][verse][precedingVerseText][index][footnoteSymbol] = actualFootnoteText
+#footnotes: an array, with this anatomy: footnotes[book][chapter][verse][index][precedingVerseText][footnoteSymbol] = actualFootnoteText
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
-function writeCSS(xhtmlFile, xhtmlVariable, footnotes, footnoteNumber,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 #START WORK HERE 3: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
-if (!footnoteNumber || footnoteNumber <= 0)
-{
-	footnoteNumber = 1
-}
+
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
@@ -479,20 +476,11 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 
 					oldVerse = matchArray[0];
 					newVerse = oldVerse
-						if (k == "0" && book ~ /Psalm/) #special case for Psalm; footnote can be in the header
-						{
-							if (!match(xhtmlVariable,"id='([A-Z])+"leadingNumber""j"_0", matchArray)) #if the note is in a psalm header, make the verse 0
-							{
-								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
-							}
-						}
-						else
-						{
+						
 							if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
 							{
 								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
 							}
-						}
 
 					matchArray[0] = gensub(/id=['"]/,"","1",matchArray[0])
 						matchArray[0] = gensub(/"/,"","g",matchArray[0])
@@ -505,11 +493,11 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 								{
 
 #first isolate the line where it takes place
-									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
+									newVerse = getModifiedVerse(newVerse, m, n, l) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
 
 
-										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
+										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
 
 
 								}
@@ -529,7 +517,7 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 }
 
 #writing Bel and the Dragon special cases
-function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  lastMatchPosition,  footnotesAdded,  i,  adhocFootnotes)
+function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  lastMatchPosition,  i,  adhocFootnotes)
 {
 	xhtmlFile = folderPrefix bookFiles["Bel and the Dragon"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -548,24 +536,17 @@ lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\""
 
 match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
-if ((1 in matchArray))
-{
-footnotesAdded = matchArray[1]
-}
-else
-{
-footnotesAdded = 0
-}
+
 
 
 #START WORK HERE 2: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
 	copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
-writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"], ++footnotesAdded) 
+writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
 
 
 }
 
-function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatchPosition,  matchArray,  footnotesAdded,  adhocFootnotes)
+function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatchPosition,  matchArray,  adhocFootnotes)
 {
 	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -580,23 +561,16 @@ lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\""
 
 match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
-if ((1 in matchArray))
-{
-footnotesAdded = matchArray[1]
-}
-else
-{
-footnotesAdded = 0
-}
+
 
 
 #START WORK HERE 1:  there seems to be an error copying the array elements and deleting them, writeCSS breaks (although it seems like the logic above works okay, do some more testing
 
 	copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
 change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
-writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes, ++footnotesAdded) 
+writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
 
-
+exit 5;
 
 }
 
@@ -617,7 +591,6 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
 
 
-		footnoteNumber = 1
 		for (j in footnotes["Sirach Prologue"]) #chapter
 		{
 			if (j == 1)
@@ -654,17 +627,17 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 
 
 								}
-							newVerse = oldVerse "<a href='#FN"footnoteNumber"' id='sirachprologuenote"footnoteNumber"' epub:type='noteref' class='noteref'>" n "</a>"
+							newVerse = oldVerse "<a href='#FN"l"' id='sirachprologuenote"l"' epub:type='noteref' class='noteref'>" n "</a>"
 								xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
 
 								if (j == 1)
 								{
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"footnoteNumber++"\"><span class=\"notemark\">"n"</span> Sirach Prologue 1</a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
+									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span> Sirach Prologue 1</a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 								}
 								else
 								{
 
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"footnoteNumber++"\"><span class=\"notemark\">"n"</span> Sirach Prologue 2</a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
+									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span> Sirach Prologue 2</a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 								}
 						}
 					}
@@ -676,7 +649,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 
 	copySingleBookFootnotesArray("Sirach", adhocFootnotes)
 
-		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes, footnoteNumber)
+		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes)
 
 		delete footnotes["Sirach"]
 		delete footnotes["Sirach Prologue"]
