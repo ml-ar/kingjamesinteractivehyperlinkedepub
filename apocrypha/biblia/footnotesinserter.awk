@@ -127,6 +127,84 @@ xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 
 }
 
+#just like gensub, except it works on literals instead of regexes
+function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
+{
+
+	toReturn = ""
+
+
+	mutilatedString = string
+
+		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
+		{
+			number = 1
+		}
+
+
+	if (!(position = index(string, literalPattern)))
+	{
+		return string;
+	}
+
+
+	if (match(number,/^[Gg]/)) #replace all
+	{
+		while (position = index(mutilatedString, literalPattern))
+		{
+			toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+	else if (match(number,/^([[:digit:]]+)/, matchArray))
+	{
+		for (i = 0; i < matchArray[0]; ++i)
+		{
+			position = index(mutilatedString, literalPattern)
+				toReturn = toReturn substr(mutilatedString, 1, position-1)
+				toReturn = toReturn literalSubstitution
+				mutilatedString = substr(mutilatedString, position+length(literalPattern))
+		}
+	}
+       else
+       {
+	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
+       }
+	toReturn = toReturn mutilatedString
+
+		return toReturn;
+
+
+}
+
+#Apocrypha footnotes end like this:
+#<div class="footnote">
+#<hr />
+#</div>
+#</div></body></html>
+#ugly! this function fixes them
+#xhtmlVariable: contains a whole xhtml variable
+function fixEndingHorizontalRules(xhtmlVariable,  oldFootnoteSection,  newFootnoteSection,  matchArray)
+{
+
+
+	if (!match(xhtmlVariable, /<div class="footnote">(\s|\n)*<hr\s*\/>(\s|\n)*.*$/, matchArray)) #nothing to do
+	{
+		return xhtmlVariable; 
+	}
+
+	oldFootnoteSection = matchArray[0]
+		newFootnoteSection = "<div class=\"footnote\">\n<hr />\n"
+
+		newFootnoteSection = newFootnoteSection "<hr />\n</div>\n</div></body></html>" #closing up the section
+
+		xhtmlVariable = literalgensub(oldFootnoteSection, newFootnoteSection, 1, xhtmlVariable)
+
+return xhtmlVariable;
+
+}
+
 #same as match except returns the position of the last match
 function lastMatch(stringToCheck, regex,  mutilatedString,  pointer,  lastPosition) #minimially tested, seems to be working
 {
@@ -146,53 +224,61 @@ function lastMatch(stringToCheck, regex,  mutilatedString,  pointer,  lastPositi
 	return pointer-1;
 }
 
-#returns the number of footnotes inserted
-#xhtmlVariable: the xhtmlVariable to insert
-#returns appropriately modified xhtmlVariable
-function insert0and0(xhtmlVariable, book,  xhtmlVariableBefore,  xhtmlVariableAfter,  footnotesAdded,  oldFootnoteSection,  newFootnoteSection,  i,  j,  k,  matchPoint,  matchArray)
+#adds the "<aside epud:type='footnote'>\n"<span class <ft>" at the end of the xhtmlVariable (an xhtml file) in the appropriate place
+#xhtmlVariable: the full text of the xhtmlfile to modify
+#the tag to add
+#returns the modified xhtml variable
+function addFootnoteTagsAtBottom(xhtmlVariable, tagToAdd,  matchArray)
 {
 
-	footnotesAdded = 0;
+	if (!match(xhtmlVariable, /<hr \/>\s*\n\s*<\/div>\s*\n<\/div><\/body><\/html>$/, matchArray))
+	{
+		print "Error finding the footnotes section at the end of the xhtmlVariable."; exit 7;
+	}
+
+		xhtmlVariable = literalgensub(matchArray[0], tagtoAdd matchArray[0], 1, xhtmlVariable)
+
+		return xhtmlVariable;
+
+}
+
+
+#returns the new xhtmlVariable
+#xhtmlVariable: the xhtmlVariable to insert
+#returns appropriately modified xhtmlVariable
+function insert0and0(xhtmlVariable, book,  modifiedVerse,  newFootnoteSection,  i,  j,  k,  matchArray)
+{
+
 	if (!(book in footnotes))
 	{
 		print "ERROR: could not find " book " in the footnotes array."; exit 5
 	}
 
-	match(xhtmlVariable, /<div class="footnote">(\s|\n)*<hr\s*\/>(\s|\n)*.*$/, matchArray)
-		oldFootnoteSection = matchArray[0]
-		newFootnoteSection = "<div class=\"footnote\">\n<hr />\n"
 
 
-		for (i in footnotes[book][0][0]) #footnotenumber
+	for (i in footnotes[book][0][0]) #footnotenumber
+	{
+		for (j in footnotes[book][0][0][i]) #precedingText
 		{
-			for (j in footnotes[book][0][0][i]) #precedingText
+			for (k in footnotes[book][0][0][i][j]) #footnoteSymbol
 			{
-				for (k in footnotes[book][0][0][i][j]) #footnoteSymbol
+
+				if (!match(xhtmlVariable, /<div class='mt'>/, matchArray))
 				{
-					if (j ~ /^\s*$/) #the footnote pertains to the title because the preceding text is empty
-					{
-						if (!(matchPoint = match(xhtmlVariable, /<div class='mt'>/, matchArray)))
-						{
-							print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
-						}
-						xhtmlVariableBefore = substr(xhtmlVariable, 1, matchPoint + length(matchArray[0])-1) "<a href='#FN"++footnotesAdded"' id='00"footnotesAdded"' epub:type='noteref' class='noteref'>"k"</a>"
-							xhtmlVariableAfter = substr(xhtmlVariable, matchPoint + length(matchArray[0]))
-							xhtmlVariable = xhtmlVariableBefore xhtmlVariableAfter
-							newFootnoteSection = newFootnoteSection "<aside epub:type='footnote' id=\"FN"footnotesAdded"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"footnotesAdded"\"><span class=\"notemark\">"k"</span></a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
-					}
-					else # the preceding text is not empty
-					{
-#START WORK HERE 1
-					}
+					print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
 				}
+
+				modifiedVerse = getModifiedVerse(matchArray[0], j, k, i, "00"i)
+					xhtmlVariable = literalgensub(matchArray[0], modifiedVerse, 1, xhtmlVariable)
+					newFootnoteSection = "<aside epub:type='footnote' id=\"FN"i"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"i"\"><span class=\"notemark\">"k"</span></a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
+
+					xhtmlVariable = addFootnoteTagsAtBottom(xhtmlVariable, newFootnoteSection)
 			}
 		}
+	}
 
 	delete footnotes[book][0][0]
 
-		newFootnoteSection = newFootnoteSection "<hr />\n</div>\n</div></body></html>" #closing up the section
-
-		xhtmlVariable = literalgensub(oldFootnoteSection, newFootnoteSection, 1, xhtmlVariable)
 		return xhtmlVariable
 
 }
@@ -284,58 +370,6 @@ function change0Chapterto1(footnotesArray, book,  i,  j,  k,  l)
 }
 
 
-#just like gensub, except it works on literals instead of regexes
-function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
-{
-
-	toReturn = ""
-
-
-	mutilatedString = string
-
-		if (!match(number,/^[Gg]/) && !match(number,/^[[:digit:]]+/))
-		{
-			number = 1
-		}
-
-
-	if (!(position = index(string, literalPattern)))
-	{
-		return string;
-	}
-
-
-	if (match(number,/^[Gg]/)) #replace all
-	{
-		while (position = index(mutilatedString, literalPattern))
-		{
-			toReturn = toReturn substr(mutilatedString, 1, position-1)
-				toReturn = toReturn literalSubstitution
-				mutilatedString = substr(mutilatedString, position+length(literalPattern))
-		}
-	}
-	else if (match(number,/^([[:digit:]]+)/, matchArray))
-	{
-		for (i = 0; i < matchArray[0]; ++i)
-		{
-			position = index(mutilatedString, literalPattern)
-				toReturn = toReturn substr(mutilatedString, 1, position-1)
-				toReturn = toReturn literalSubstitution
-				mutilatedString = substr(mutilatedString, position+length(literalPattern))
-		}
-	}
-       else
-       {
-	       print "ERROR: literalgensub bug, could not find the number of iterations."; exit 17;
-       }
-	toReturn = toReturn mutilatedString
-
-		return toReturn;
-
-
-}
-
-
 #filename: the file to read
 #returns the complete text stored in a variable
 function storeTextFileInVariable(fileName,  toReturn,  line)
@@ -379,17 +413,30 @@ function getLeadingNumber(string,  matchArray)
 #precedingWords: the verse text before which the footnote symbol is to come
 #footnoteSymbol: the symbol by which to demarcate the prescence of the note
 #footnoteNumber: the number to ascribe to the footnote
+#id: optional, specify the id for the footnote, useful if the footnote does not belong to any verse in particular and you want to link to it directly
 
-
-function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber,  toAppend,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
+function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber, id,  toAppend,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
+	if (id)
+	{
+		id = "'"id"'"
+	}
 
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
 	{
+
+		if (match(fullVerseLine, /^(<div class='mt'>)((<a href='#FN[^>]+>[^<]+<[^>]+>)*)(.*$)/, matchArray)) #it's a title 
+		{
+			toReturn = matchArray[1] matchArray[2] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[4];
+			return toReturn
+		}      
+
+
 		if (!match(fullVerseLine, /([\n^])((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
 		{
 			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
 		}
+
 
 		toReturn = matchArray[1] matchArray[2] matchArray[4] matchArray[5] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
 			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
@@ -425,17 +472,17 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 									print "ERROR: could not find the severed part of the seperator in the original seperator when getting the modified verse. This shouldn't happen!"; exit 19
 								}
 							severedSepBefore = substr(splitArray[o], 1, position-1);
-							toAppend = severedSepBefore "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter sepsArray[o]
+							toAppend = severedSepBefore "<a href='#FN"footnoteNumber"' "id" epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" severedSepAfter sepsArray[o]
 						}
 						else
 						{
 							if (sepsArray[o] ~ /<a href='#FN/) #this is necessary because you might have footnotes directly after, make sure to put them in the right order
 							{
-								toAppend = splitArray[o] sepsArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
+								toAppend = splitArray[o] sepsArray[o] "<a href='#FN"footnoteNumber"' "id" epub:type='noteref' class='noteref'>"footnoteSymbol"</a>"
 							}
 							else
 							{
-								toAppend = splitArray[o] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" sepsArray[o]
+								toAppend = splitArray[o] "<a href='#FN"footnoteNumber"' "id" epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" sepsArray[o]
 							}
 						}
 				}
@@ -536,26 +583,26 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 	xhtmlFile = folderPrefix bookFiles["Bel and the Dragon"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 
+		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
 
-
-       xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon")
+		xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon")
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
 		}
 
-lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
+	lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
 
-match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
+		match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
 
 
 
 #START WORK HERE 3: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
-	copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
-writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
+		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
+		writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
 
 
 }
@@ -564,6 +611,10 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatc
 {
 	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+
+
+
 		xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
@@ -588,7 +639,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 
 	xhtmlFile = folderPrefix bookFiles["Sirach"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-
+xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
@@ -635,7 +686,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  foo
 
 
 								}
-							newVerse = oldVerse "<a href='#FN"l"' id='sirachprologuenote"l"' epub:type='noteref' class='noteref'>" n "</a>"
+							newVerse = oldVerse "<a href='#FN"l"' id=\"sirachprologuenote"l"\" epub:type='noteref' class='noteref'>" n "</a>"
 								xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
 
 								if (j == 1)
@@ -692,8 +743,8 @@ END {
 
 #Do special cases first
 
-		writeSirach()
 writeManasseh()
+		writeSirach()
                 writeBel()
 
 #START WORK HERE 4: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
