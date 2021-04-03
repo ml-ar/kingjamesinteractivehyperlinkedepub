@@ -514,6 +514,7 @@ function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  
 		for (k in footnotesSplitArray)
 		{
 			toReturn = toReturn footnotesSplitArray[k]
+#START WORK HERE 1: Sirach 3:13 footnote text does not properly parse, because there's a f superscript that's ignored
 				if (footnotesSepsArray[k] ~ /<td\s+/) #we expect the first thing to be a <td; we don't add them to the string, but we track them because we need to know when to break
 				{
 					++innerTDs

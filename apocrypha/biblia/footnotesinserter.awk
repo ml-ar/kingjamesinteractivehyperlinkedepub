@@ -236,7 +236,7 @@ function addFootnoteTagsAtBottom(xhtmlVariable, tagToAdd,  matchArray)
 		print "Error finding the footnotes section at the end of the xhtmlVariable."; exit 7;
 	}
 
-		xhtmlVariable = literalgensub(matchArray[0], tagtoAdd matchArray[0], 1, xhtmlVariable)
+		xhtmlVariable = literalgensub(matchArray[0], tagToAdd matchArray[0], 1, xhtmlVariable)
 
 		return xhtmlVariable;
 
@@ -419,7 +419,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 {
 	if (id)
 	{
-		id = "'"id"'"
+		id = "id=\""id"\" "
 	}
 
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
@@ -427,7 +427,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 		if (match(fullVerseLine, /^(<div class='mt'>)((<a href='#FN[^>]+>[^<]+<[^>]+>)*)(.*$)/, matchArray)) #it's a title 
 		{
-			toReturn = matchArray[1] matchArray[2] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[4];
+			toReturn = matchArray[1] matchArray[2] "<a href='#FN"footnoteNumber"' " id "epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[4];
 			return toReturn
 		}      
 
@@ -513,7 +513,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
-#START WORK HERE 2: This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
+#START WORK HERE 2 (Maybe? Or maybe it works, check): This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
@@ -600,7 +600,7 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 
 
 
-#START WORK HERE 3: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh
+#START WORK HERE 1: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh, test Bel; in the current revision, the testFootnotes should already be set up to test this
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
 
@@ -633,13 +633,13 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatc
 }
 
 #writing Sirach special cases
-function writeSirach(  xhtmlFile,  xhtmlVariable,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m,  adhocFootnotes)
+function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  xhtmlVariableTrimmedAfter,  newLineAtBeginningOfVerse,  newLineAtEndOfVerse,  precedingText,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m,  adhocFootnotes)
 {
 
 
 	xhtmlFile = folderPrefix bookFiles["Sirach"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
@@ -673,41 +673,61 @@ xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 						for (n in footnotes["Sirach Prologue"][j][k][l][m]) #footnoteSymbol
 						{
 
-							oldVerse = m
-								if(!(precedingVerseTextStart = index(xhtmlVariable, m))) #maybe you first have to remove the prologue heading before finding it
+							precedingText = m
+								if(!(precedingVerseTextStart = index(xhtmlWriteMe, precedingText))) #maybe you first have to remove the prologue heading before finding it
 								{
 
-									oldVerse = substr(m, length(sirachPrologueHeading)+1)
-#START WORK HERE 1: This breaks when trying to assemble multiple notes in the prologue: because if you insert a note, you can no longer use "index" to put it in the right place
-										if (!(precedingVerseTextStart = index(xhtmlVariable, oldVerse)))
+									precedingText = substr(m, length(sirachPrologueHeading)+1)
+
+										if (j == 1) 
 										{
-											print "ERROR: Could not find the text " m " in the Sirach prologue."; exit 1
+											sirachPrologueStart = "This Jesus was the son of Sirach"
 										}
+										else if (j == 2)
+										{
+											sirachPrologueStart = "Whereas many and great things have been delivered unto us by the law and the prophets"
+										}
+										else
+										{
+											print "ERROR: something other than 1 or 2 for Sirach prologue!"; exit 18
+										}
+									if (!(precedingVerseTextStart = index(xhtmlWriteMe, sirachPrologueStart))) #the idea by doing this is to just find the line where the prologue is
+									{
+										print "ERROR: Could not find the text " sirachPrologueStart " in the Sirach prologue."; exit 1
+									}
 
 
 								}
-							newVerse = oldVerse "<a href='#FN"l"' id=\"sirachprologuenote"l"\" epub:type='noteref' class='noteref'>" n "</a>"
+
+#parsing the prologue block to pass to getModifiedVerse
+							xhtmlWriteMeTrimmedBefore = substr(xhtmlWriteMe, 1, precedingVerseTextStart-1)
+								newLineAtBeginningOfVerse = lastMatch(xhtmlWriteMeTrimmedBefore,"\n")
+								xhtmlWriteMeTrimmedAfter = substr(xhtmlWriteMe, newLineAtBeginningOfVerse+1)
+
+								if (!(precedingVerseTextStart = match(xhtmlWriteMeTrimmedAfter,/\n/)))
+								{
+									print "ERROR: could not find a new line after chopping Sirach verses."; exit 2
+								}
+#with this line, oldVerse now holds the prologue line, ready to pass to getModifiedVerse now
+							oldVerse = substr(xhtmlWriteMe, newLineAtBeginningOfVerse + 1, precedingVerseTextStart)
+								newVerse = getModifiedVerse(oldVerse, precedingText, n, l, "sirachprologuenote"l)
+
+
 								xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
 
-								if (j == 1)
-								{
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
-								}
-								else
-								{
-
-									xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
-								}
+								xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 						}
 					}
 				}
 			}
 		}
 
-	xhtmlWriteMe = xhtmlWriteMe restOfCSSWriteMe;
 
+	xhtmlWriteMe = xhtmlWriteMe restOfCSSWriteMe;
 	copySingleBookFootnotesArray("Sirach", adhocFootnotes)
 
+
+#START WORK HERE 1: Make sure the normal Sirach notes write okay
 		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes)
 
 		delete footnotes["Sirach"]
@@ -743,11 +763,11 @@ END {
 
 #Do special cases first
 
-writeManasseh()
+	writeBel()
 		writeSirach()
-                writeBel()
+		writeManasseh()
 
-#START WORK HERE 4: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
+#START WORK HERE 3: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
 
 #	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
