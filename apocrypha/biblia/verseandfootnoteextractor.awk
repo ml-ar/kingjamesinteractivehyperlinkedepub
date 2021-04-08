@@ -496,7 +496,7 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
 
 #returns simply the text associated with the footnote number, also properly adds html tags for making hyperlinks
 #footnote number: the number of the footnote AS PER THE HTML file under question (e.g. if in the html it's #footnote1, you should pass "1")
-function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  footnotesSepsArray,  toReturn,  innerTDs,  innerA,  innerItalics,  k,  t)
+function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  footnotesSepsArray,  toReturn,  innerTDs,  innerA,  innerItalics,  innerSpans,  k,  t)
 {
 	if (!(footnoteStart = index($0,"<td id=\"footnote"footnoteNumber"\">")))
 	{
@@ -549,6 +549,16 @@ function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  
 						toReturn = toReturn footnotesSepsArray[k]
 
 				}
+				else if (footnotesSepsArray[k] ~ /<span style="vertical-align:super/)
+				{
+					++innerSpans;
+					toReturn = toReturn footnotesSepsArray[k]
+				}
+				else if (footnotesSepsArray[k] ~ /<\/span>/ && innerSpans > 0)
+				{
+					--innerSpans
+						toReturn = toReturn footnotesSepsArray[k]
+				}
 		}
 
 
@@ -564,6 +574,14 @@ function getFootnoteText(footnoteNumber,  footnoteStart,  footnotesSplitArray,  
 			toReturn = toReturn getProperHyperlinkOpeningBracket(footnotesSplitArray[t]) footnotesSepsArray[t]
 		}
 
+
+	patsplit(toReturn, footnotesSplitArray,/<span style="vertical-align:super[^>]+>/, footnotesSepsArray) #now we are changing the vertical-align spans into notemark spans so that in the epub they'll be properly rendered as a superscript
+		toReturn = footnotesSepsArray[0] #there might be something in the Seps array before the first patsplit (if there's anything in the footnotesSplitArray at all)
+
+		for (t in footnotesSplitArray) #swapping out each data-reference tag with proper epub tags
+		{
+			toReturn = toReturn "<span class=\"notemark\">" footnotesSepsArray[t]
+		}
 
 
 #the above loops and patsplits are minimially tested, seems to be working
