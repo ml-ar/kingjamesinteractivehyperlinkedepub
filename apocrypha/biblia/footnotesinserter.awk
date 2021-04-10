@@ -205,6 +205,8 @@ return xhtmlVariable;
 
 }
 
+
+
 #same as match except returns the position of the last match
 function lastMatch(stringToCheck, regex,  mutilatedString,  pointer,  lastPosition) #minimially tested, seems to be working
 {
@@ -245,14 +247,22 @@ function addFootnoteTagsAtBottom(xhtmlVariable, tagToAdd,  matchArray)
 
 #returns the new xhtmlVariable
 #xhtmlVariable: the xhtmlVariable to insert
+#line header: a regex to describe the span that demarcates the beginning of the line (since we can rely on the usual chapter_verse designation thing); if left blank, defaults to <div class='mt'>
 #returns appropriately modified xhtmlVariable
-function insert0and0(xhtmlVariable, book,  modifiedVerse,  newFootnoteSection,  i,  j,  k,  matchArray)
+function insert0and0(xhtmlVariable, book,  lineHeader,  modifiedVerse,  newFootnoteSection,  i,  j,  k,  matchArray)
 {
 
-	if (!(book in footnotes))
+	if (!lineHeader)
 	{
-		print "ERROR: could not find " book " in the footnotes array."; exit 5
+		lineHeader =  "<div class='mt'>"
 	}
+
+	lineHeader = lineHeader "[^\n]+\n"
+
+		if (!(book in footnotes))
+		{
+			print "ERROR: could not find " book " in the footnotes array."; exit 5
+		}
 
 
 
@@ -263,11 +273,10 @@ function insert0and0(xhtmlVariable, book,  modifiedVerse,  newFootnoteSection,  
 			for (k in footnotes[book][0][0][i][j]) #footnoteSymbol
 			{
 
-				if (!match(xhtmlVariable, /<div class='mt'>/, matchArray))
+				if (!match(xhtmlVariable, lineHeader, matchArray))
 				{
 					print "ERROR: couldn't find the title header for the book when inserting a footnote in the header."; exit 6;
 				}
-
 				modifiedVerse = getModifiedVerse(matchArray[0], j, k, i, "00"i)
 					xhtmlVariable = literalgensub(matchArray[0], modifiedVerse, 1, xhtmlVariable)
 					newFootnoteSection = "<aside epub:type='footnote' id=\"FN"i"\"><p class=\"f\"><a class=\"notebackref\" href=\"#00"i"\"><span class=\"notemark\">"k"</span></a>\n <span class=\"ft\">"footnotes[book][0][0][i][j][k]"</span></p></aside>\n"
@@ -385,27 +394,6 @@ function storeTextFileInVariable(fileName,  toReturn,  line)
 }
 
 
-#takes a string like <span class="verse" id="MT5_11">11&#160;</span> <span class='wj'> Blessed are ye, when <span class='add'>men</span> shall revile you, and persecute <span class='add'>you</span>, and shall say all manner of evil against you falsely, for my sake.</span>
-
-#and returns just the text
-
-#if the string begins with a number, simply return the number; if it begins with more than two numbers, throw an error
-function getLeadingNumber(string,  matchArray)
-{
-	if (match(string, /^\s*[[:digit:]]{2,}/))
-	{
-		print "ERROR: " string " has two leading numbers"; exit 15;
-	}
-	else if (match(string, /^\s*([[:digit:]])/, matchArray))
-	{
-		return matchArray[1];
-	}
-	else
-	{
-		return "";
-	}
-}
-
 
 #returns fullVerseLine, but modified with the footnote symbol in the right place
 
@@ -432,7 +420,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		}      
 
 
-		if (!match(fullVerseLine, /([\n^])((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+		if (!match(fullVerseLine, /([\n^]+)((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
 		{
 			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
 		}
@@ -511,7 +499,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #xhtmlvariable: the full xhtml file of
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][index][precedingVerseText][footnoteSymbol] = actualFootnoteText
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
-function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  chapter,  verseID,  endnotesPosition,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 #START WORK HERE 2 (Maybe? Or maybe it works, check): This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
@@ -524,24 +512,33 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
 		for (i in footnotes) #book
 		{
-			leadingNumber = getLeadingNumber(i);
 			for (j in footnotes[i]) #chapter
 			{
+
+				if (book in oneChapterBooks) #this is needed so that the verse_chapter prefix works out
+				{
+					chapter = 1;
+				}
+				else
+				{
+					chapter = j
+				}
 				for (k in footnotes[i][j]) #verse
 				{
 
-					        if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
-						{
-							print "ERROR: couldn't find " j ":" k " in xhtmlFile: " xhtmlFile; exit 14 
-						}
+
+					if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\""verseLabels[i]""chapter"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+					{
+						print "ERROR: couldn't find " chapter ":" k " in xhtmlFile: " xhtmlFile; exit 14 
+					}
 
 					oldVerse = matchArray[0];
 					newVerse = oldVerse
-						
-							if (!match(xhtmlVariable,"id=\"([A-Z])+"leadingNumber""j"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
-							{
-								print "ERROR: couldn't find " j ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
-							}
+
+						if (!match(xhtmlVariable,"id=\""verseLabels[i]""chapter"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
+						{
+							print "ERROR: couldn't find " chapter ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+						}
 
 					matchArray[0] = gensub(/id=['"]/,"","1",matchArray[0])
 						matchArray[0] = gensub(/"/,"","g",matchArray[0])
@@ -558,7 +555,7 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 #now we insert the newVerse where the old verse was
 
 
-										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "j"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
+										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "chapter"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
 
 
 								}
@@ -586,7 +583,7 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
 
-		xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon")
+		xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon","<div class='is'>")
 
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
@@ -597,12 +594,8 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 
 		match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
-
-
-
-#START WORK HERE 1: Write the rest of the notes: but there's probably an error in the two functions that follow, same as in Manasseh, test Bel; in the current revision, the testFootnotes should already be set up to test this
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, footnotes["Bel and the Dragon"]) 
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
 
 
 }
@@ -627,7 +620,6 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatc
 		match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
 		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
-		change0Chapterto1(adhocFootnotes, "Prayer of Manasseh")
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
 
 }
@@ -727,7 +719,6 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  
 	copySingleBookFootnotesArray("Sirach", adhocFootnotes)
 
 
-#START WORK HERE 1: Make sure the normal Sirach notes write okay
 		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes)
 
 		delete footnotes["Sirach"]
@@ -764,10 +755,10 @@ END {
 #Do special cases first
 
 	writeBel()
-		writeSirach()
-		writeManasseh()
+	#	writeSirach()
+	#	writeManasseh()
 
-#START WORK HERE 3: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
+#START WORK HERE 1: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
 
 #	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
