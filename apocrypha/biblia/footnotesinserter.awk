@@ -591,6 +591,7 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
 
+#START WORK HERE 0.3: delete from the footnotes array
 
 }
 
@@ -607,8 +608,7 @@ function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modifi
 
 		copySingleBookFootnotesArray("Susanna", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
-
-		exit 5
+#START WORK HERE 0.2: delete from the footnotes array
 
 
 }
@@ -626,6 +626,7 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 
 		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
+#START WORK HERE 0.1: delete manasseh from the footnotes array
 
 }
 
