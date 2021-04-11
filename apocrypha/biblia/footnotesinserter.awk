@@ -74,6 +74,7 @@ xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 		oneChapterBooks["The Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
 
+	        oneChapterBooks["Susanna"] = "SUS.xhtml"
 
 		oneChapterBooks["Bel and the Dragon"] = "BEL.xhtml"
 		oneChapterBooks["The Idol Bel and the Dragon"] = "BEL.xhtml"
@@ -126,6 +127,7 @@ xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 
 
 }
+
 
 #just like gensub, except it works on literals instead of regexes
 function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
@@ -582,17 +584,9 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
-
 		xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon","<div class='is'>")
 
-		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
-		{
-			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
-		}
 
-	lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
-
-		match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
@@ -600,7 +594,26 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 
 }
 
-function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatchPosition,  matchArray,  adhocFootnotes)
+
+function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case 
+{
+		xhtmlFile = folderPrefix bookFiles["Susanna"]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+
+
+
+		xhtmlVariable = insert0and0(xhtmlVariable, "Susanna", "<div class='is'>")
+
+		copySingleBookFootnotesArray("Susanna", adhocFootnotes)
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
+
+		exit 5
+
+
+}
+
+function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 {
 	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -610,14 +623,6 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  lastMatc
 
 		xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
 
-		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
-		{
-			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
-		}
-
-	lastMatchPosition = lastMatch(xhtmlVariable, "<aside epub:type='footnote' id=\"")
-
-		match(substr(xhtmlVariable, lastMatchPosition), /id="[^[:digit:]]+([[:digit:]]+)"/, matchArray)
 
 		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
@@ -753,10 +758,10 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 END {
 
 #Do special cases first
-
-	writeBel()
+        # writeSusanna()
+	#writeBel()
 	#	writeSirach()
-	#	writeManasseh()
+		writeManasseh()
 
 #START WORK HERE 1: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
