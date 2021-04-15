@@ -1,3 +1,2 @@
-Susanna	0	0	1	Set apart from the beginning of Daniel, because it is not in Hebrew, as neither the Narration of 	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
-Susanna	0	1	2	There dwelt a man in Babylon, called 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
-Susanna	0	2	3	and he took a wife, whose name was 	b	Comp. <a href='LUK.xhtml#LK8_3'>Luke 8. 3</a>.
+Song of Three Youths	0	2	1	Then 	a	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a> (Gk.). <a href='S3Y.xhtml#PA26_0'>ver. 26</a>, <a href='S3Y.xhtml#PA66_0'>66</a>.
+Song of Three Youths	0	2	2	Then Azarias stood up, and prayed on this manner; and 	b	<a href='2ES.xhtml#E29_28'>2 Esdr. 9. 28</a>. &amp; <a href='2ES.xhtml#E214_41'>14. 41</a>. See <a href='MAT.xhtml#MT5_2'>Matt. 5. 2</a>.

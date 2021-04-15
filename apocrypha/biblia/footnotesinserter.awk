@@ -40,7 +40,7 @@ xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 		bookFiles["Song of the Three Holy Children"] = bookFiles["The Song of the Three Holy Children"]
 		bookFiles["The Prayer of Azariah"] = bookFiles["The Song of the Three Holy Children"]
 		bookFiles["Prayer of Azariah"] = bookFiles["The Song of the Three Holy Children"]
-
+		bookFiles["Song of Three Youths"] = bookFiles["The Song of the Three Holy Children"]
 
 
 		bookFiles["Susanna"] = "SUS.xhtml"
@@ -73,6 +73,8 @@ xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 		oneChapterBooks["Song of the Three Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["The Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of Three Youths"] = oneChapterBooks["The Song of the Three Holy Children"]
+
 
 	        oneChapterBooks["Susanna"] = "SUS.xhtml"
 
@@ -590,15 +592,14 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
-
-#START WORK HERE 0.3: delete from the footnotes array
+		delete footnotes["Bel and the Dragon"]
 
 }
 
 
 function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case 
 {
-		xhtmlFile = folderPrefix bookFiles["Susanna"]
+	xhtmlFile = folderPrefix bookFiles["Susanna"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
@@ -608,8 +609,7 @@ function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modifi
 
 		copySingleBookFootnotesArray("Susanna", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
-#START WORK HERE 0.2: delete from the footnotes array
-
+		delete footnotes["Susanna"]
 
 }
 
@@ -626,7 +626,19 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 
 		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
-#START WORK HERE 0.1: delete manasseh from the footnotes array
+		delete footnotes["Prayer of Manasseh"]
+}
+
+function writeS3Y(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
+{
+	xhtmlFile = folderPrefix bookFiles["Song of Three Youths"]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+
+		copySingleBookFootnotesArray("Song of Three Youths", adhocFootnotes)
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+
+		delete footnotes["Song of Three Youths"]
 
 }
 
@@ -759,10 +771,11 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 END {
 
 #Do special cases first
+         writeS3Y()
         # writeSusanna()
 	#writeBel()
 	#	writeSirach()
-		writeManasseh()
+	#	writeManasseh()
 
 #START WORK HERE 1: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
 
