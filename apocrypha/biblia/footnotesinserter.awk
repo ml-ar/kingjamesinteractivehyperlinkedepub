@@ -519,7 +519,7 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 			for (j in footnotes[i]) #chapter
 			{
 
-				if (book in oneChapterBooks) #this is needed so that the verse_chapter prefix works out
+				if (i in oneChapterBooks) #this is needed so that the verse_chapter prefix works out
 				{
 					chapter = 1;
 				}

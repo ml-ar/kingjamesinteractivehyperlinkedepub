@@ -6488,16 +6488,16 @@ Song of Three Youths	0	15	20	Neither is there at this time prince, 	p	See <a hre
 Song of Three Youths	0	15	21	Neither is there at this time prince, or prophet, or leader, or burnt offering, or sacrifice, or oblation, or incense, or 	q	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9</a>. <a href='2CH.xhtml#R236_19'>2 Chr. 36. 19</a>.
 Song of Three Youths	0	16	22	Nevertheless in 	r	See <a href='PSA.xhtml#PS51_17'>Ps. 51. 17</a>. Comp. <a href='BAR.xhtml#BR2_18'>Baruch 2. 18</a>.
 Song of Three Youths	0	17	23		s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
-Song of Three Youths	0	17	24	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so 	s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
-Song of Three Youths	0	17	25	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may 	t	<a href='DEU.xhtml#DT1_36'>Deut. 1. 36</a> marg.
-Song of Three Youths	0	17	26	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may wholly go after thee: for 	u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
+Song of Three Youths	0	17	24	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so 	s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
+Song of Three Youths	0	17	25	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may 	t	<a href='DEU.xhtml#DT1_36'>Deut. 1. 36</a> marg.
+Song of Three Youths	0	17	26	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may wholly go after thee: for 	u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
 Song of Three Youths	0	19	27		u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
 Song of Three Youths	0	19	28	Put us not to shame: but 	x	<a href='PSA.xhtml#PS119_124'>Ps. 119. 124</a>.
 Song of Three Youths	0	19	29	Put us not to shame: but deal with us after thy 	y	See <a href='WIS.xhtml#WS2_19'>Wisd. 2. 19</a>.
 Song of Three Youths	0	20	30	Deliver us also according to thy marvellous works, and 	z	<a href='PSA.xhtml#PS115_1'>Ps. 115. 1</a>.
 Song of Three Youths	0	21	31	and let them be confounded 	*	Or, <span class='add'>by</span> thy <span class='add'>power and might</span>.
 Song of Three Youths	0	22	32	and 	a	<a href='PSA.xhtml#PS59_13'>Ps. 59. 13</a>. <a href='2MA.xhtml#M21_27'>2 Macc. 1. 27</a>.
-Song of Three Youths	0	22	33	and let them know that thou art Lord, the only God, and glorious over 	b	See <a href='EST.xhtml#ET13_2'>Esther 13. 2</a>.
+Song of Three Youths	0	22	33	And let them know that thou art God, the only God, and glorious over 	b	See <a href='EST.xhtml#ET13_2'>Esther 13. 2</a>.
 Song of Three Youths	0	23	34	And the king’s servants, that put them in, ceased not to make the oven hot with 	*	Or, <span class='add'>nap</span>[<span class='add'>h</span>]<span class='add'>tha</span>, which is a certain kind of fat and chalky clay. <span class='add'>Plin. lib</span>. 2. <span class='add'>c</span>[<span class='add'>ap</span>]. 105.
 Song of Three Youths	0	23	35	And the king’s servants, that put them in, ceased not to make the oven hot with rosin, pitch, 	c	<a href='ISA.xhtml#IS1_31'>Isai. 1. 31</a> (Gk.).
 Song of Three Youths	0	24	36	so that 	d	Comp. <a href='DAN.xhtml#DN3_22'>Dan. 3. 22</a>.
