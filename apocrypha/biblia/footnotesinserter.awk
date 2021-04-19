@@ -500,7 +500,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 
 #this function writes to css to the file with the name xhtmlFile (but adds .output to the end of this)
-#xhtmlvariable: the full xhtml file of
+#xhtmlVariable: the full xhtml file of
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][index][precedingVerseText][footnoteSymbol] = actualFootnoteText
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  chapter,  verseID,  endnotesPosition,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
@@ -771,16 +771,21 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 END {
 
 #Do special cases first
+
+	writeBel()
+         writeSusanna()
          writeS3Y()
-        # writeSusanna()
-	#writeBel()
-	#	writeSirach()
-	#	writeManasseh()
+		writeSirach()
+		writeManasseh()
 
-#START WORK HERE 1: write special cases for the one-chapter books and the tricky ones like prayer of manasseh: trick is to do special case first (usually title or prologue footnotes) and then call writeCSS for the rest of the ones found in normal verses
+for (x in footnotes) #for every book
+{
+                xhtmlFile = folderPrefix bookFiles[x]
+		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+               writeCSS(xhtmlFile, xhtmlVariable, footnotes[x])
+}
 
-
-#	writeCSS(xhtmlFile, xhtmlVariable, newFootnoteArray)
 
 
 
