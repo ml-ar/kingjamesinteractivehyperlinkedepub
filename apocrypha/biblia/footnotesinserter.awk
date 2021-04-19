@@ -684,7 +684,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  
 						{
 
 							precedingText = m
-								if(!(precedingVerseTextStart = index(xhtmlWriteMe, precedingText))) #maybe you first have to remove the prologue heading before finding it
+								if(!(precedingVerseTextStart = index(xhtmlWriteMe, precedingText))) #maybe you first have to remove the prologue heading before finding it 
 								{
 
 									precedingText = substr(m, length(sirachPrologueHeading)+1)
@@ -701,7 +701,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  
 										{
 											print "ERROR: something other than 1 or 2 for Sirach prologue!"; exit 18
 										}
-									if (!(precedingVerseTextStart = index(xhtmlWriteMe, sirachPrologueStart))) #the idea by doing this is to just find the line where the prologue is
+									if (!(precedingVerseTextStart = index(xhtmlWriteMe, sirachPrologueStart))) #the idea by doing this is to just find the line where the prologue is: START WORK HERE 1: This breaks when footnotes have already been inserted into the prologue; check out insert0and0 for guidance: you'll want to find the appropriate header first and then pass to getModifiedVerse to properly insert the footnotes
 									{
 										print "ERROR: Could not find the text " sirachPrologueStart " in the Sirach prologue."; exit 1
 									}
@@ -770,21 +770,22 @@ footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] =
 
 END {
 
-#Do special cases first
+	#Do special cases first
 
+	writeSirach()
+
+	writeS3Y()
 	writeBel()
-         writeSusanna()
-         writeS3Y()
-		writeSirach()
-		writeManasseh()
+	writeSusanna()
+	writeManasseh()
 
-for (x in footnotes) #for every book
-{
-                xhtmlFile = folderPrefix bookFiles[x]
+	for (x in footnotes) #for every book
+	{
+		xhtmlFile = folderPrefix bookFiles[x]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
-               writeCSS(xhtmlFile, xhtmlVariable, footnotes[x])
-}
+		writeCSS(xhtmlFile, xhtmlVariable, footnotes[x])
+	}
 
 
 
