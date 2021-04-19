@@ -213,7 +213,10 @@ BEGIN {
 		oneChapterBooks["Song of the Three Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["The Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of Three Youths"] = oneChapterBooks["The Song of the Three Holy Children"]
 
+
+		oneChapterBooks["Susanna"] = "SUS.xhtml"
 
 		oneChapterBooks["Bel and the Dragon"] = "BEL.xhtml"
 		oneChapterBooks["The Idol Bel and the Dragon"] = "BEL.xhtml"
@@ -414,7 +417,7 @@ BEGIN {
 		verseLabels["2 Thessalonians"] = "H2"
 		verseLabels["1 Timothy"] = "T1"
 		verseLabels["2 Timothy"] = "T2"
-                verseLabels["Titus"] = "TT"
+		verseLabels["Titus"] = "TT"
 		verseLabels["Philemon"] = "PM"
 		verseLabels["Hebrews"] = "HB"
 		verseLabels["James"] = "JM"
@@ -422,7 +425,7 @@ BEGIN {
 		verseLabels["2 Peter"] = "P2"
 		verseLabels["1 John"] = "1JN"
 		verseLabels["2 John"] = "2JN"
-                verseLabels["3 John"] = "3JN"
+		verseLabels["3 John"] = "3JN"
 		verseLabels["Jude"] = "JD"
 		verseLabels["Revelation"] = "RV"
 
@@ -484,6 +487,12 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
 	if (!(linkBookFullName in verseLabels))
 	{
 		print "ERROR: book " linkBookFullName " is not in the verseLabels array."; exit 8
+	}
+
+        if (linkBookFullName in oneChapterBooks) #one chapter books have only one digit after the book name, so it's actually a verse label
+	{
+           linkVerse = linkChapter
+           linkChapter = 1
 	}
 
 	toReturn = "<a href='"bookFiles[linkBookFullName]"#"verseLabels[linkBookFullName]""linkChapter"_"linkVerse"'>"

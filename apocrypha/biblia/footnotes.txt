@@ -14,7 +14,7 @@
 1 Esdras	1	20	1	And 	k	<a href='2KI.xhtml#K223_22'>2 Kin. 23. 22</a>, <a href='2KI.xhtml#K223_23'>23</a>.
 1 Esdras	1	23	1		l	<a href='2KI.xhtml#K223_24'>2 Kin. 23. 24–28</a>.
 1 Esdras	1	24	1		l	<a href='2KI.xhtml#K223_24'>2 Kin. 23. 24–28</a>.
-1 Esdras	1	24	2	As for the things that came to pass in his time, they were written in former times, concerning those that sinned, and 	*	Or, <span class='add'>were ungodly</span>. <a href='1ES.xhtml#E11_49'>ver. 49</a>. <a href='2PE.xhtml#P22_6'>2 Pet. 2. 6</a>. <a href='JUD.xhtml#JD15_0'>Jude 15</a> in the Gk.
+1 Esdras	1	24	2	As for the things that came to pass in his time, they were written in former times, concerning those that sinned, and 	*	Or, <span class='add'>were ungodly</span>. <a href='1ES.xhtml#E11_49'>ver. 49</a>. <a href='2PE.xhtml#P22_6'>2 Pet. 2. 6</a>. <a href='JUD.xhtml#JD1_15'>Jude 15</a> in the Gk.
 1 Esdras	1	24	3	As for the things that came to pass in his time, they were written in former times, concerning those that sinned, and did wickedly against the Lord above all people and kingdoms, and how they grieved him 	*	Or, <span class='add'>sensibly</span>.
 1 Esdras	1	25	1		m	<a href='2KI.xhtml#K223_29'>2 Kin. 23. 29</a>, <a href='2KI.xhtml#K223_30'>30</a>. To <a href='1ES.xhtml#E11_33'>ver. 33</a>, <a href='2CH.xhtml#R235_20'>2 Chr. 35. 20–27</a>.
 1 Esdras	1	26	1		*	About B.C. 610.
@@ -677,7 +677,7 @@
 1 Maccabees	10	62	1	Yea more than that, the king commanded to take off his garments, and 	c	<a href='DAN.xhtml#DN5_29'>Dan. 5. 29</a> (Gk.). <a href='1MA.xhtml#M110_20'>ver. 20</a>. See <a href='EST.xhtml#ET8_15'>Esther 8. 15</a>.
 1 Maccabees	10	63	1	Also he made him sit by himself, and said unto his princes, 	d	Comp. <a href='GEN.xhtml#GN41_43'>Gen. 41. 43</a>. <a href='EST.xhtml#ET6_9'>Esther 6. 9</a>.
 1 Maccabees	10	63	2	Also he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man 	b	<a href='1MA.xhtml#M110_63'>ver. 63</a> <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a> in the Gk. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>. So <a href='1MA.xhtml#M110_64'>ver. 64</a>.
-1 Maccabees	10	63	3	Also he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man complain against him of any matter, and that no man 	e	<a href='S3Y.xhtml#PA27_0'>Song 27</a>. <a href='1MA.xhtml#M110_35'>ver. 35</a> (Gk.). <a href='1MA.xhtml#M112_14'>ch. 12. 14</a> (Gk.). <a href='ACT.xhtml#AC15_19'>Acts 15. 19</a>.
+1 Maccabees	10	63	3	Also he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man complain against him of any matter, and that no man 	e	<a href='S3Y.xhtml#PA1_27'>Song 27</a>. <a href='1MA.xhtml#M110_35'>ver. 35</a> (Gk.). <a href='1MA.xhtml#M112_14'>ch. 12. 14</a> (Gk.). <a href='ACT.xhtml#AC15_19'>Acts 15. 19</a>.
 1 Maccabees	10	64	1	Now when his 	b	<a href='1MA.xhtml#M110_63'>ver. 63</a> <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a> in the Gk. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>. So <a href='1MA.xhtml#M110_64'>ver. 64</a>.
 1 Maccabees	10	65	1	So the king honoured him, and 	f	See <a href='1MA.xhtml#M110_20'>ver. 20</a>.
 1 Maccabees	10	65	2	So the king honoured him, and wrote him amongst his chief friends, and made him a 	g	<a href='GEN.xhtml#GN36_40'>Gen. 36. 40–43</a>. <a href='1CH.xhtml#R11_51'>1 Chr. 1. 51–54</a> (Engl.).
@@ -720,7 +720,7 @@
 1 Maccabees	10	9	2	Whereupon they of the tower delivered their 	g	See <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>.
 1 Maccabees	11	1	1		*	About B.C. 146.
 1 Maccabees	11	1	2	And 	a	<a href='1MA.xhtml#M110_51'>ch. 10. 51–58</a>. See <a href='EST.xhtml#ET11_1'>Esther 11. 1</a>.
-1 Maccabees	11	1	3	And the king of Egypt gathered together a great host, 	b	See <a href='S3Y.xhtml#PA13_0'>Song 13</a>.
+1 Maccabees	11	1	3	And the king of Egypt gathered together a great host, 	b	See <a href='S3Y.xhtml#PA1_13'>Song 13</a>.
 1 Maccabees	11	12	1	Wherefore he took his daughter from him, and gave her to Demetrius, and 	m	So <a href='DAN.xhtml#DN3_19'>Dan. 3. 19</a> (Gk.). Comp. <a href='GEN.xhtml#GN31_2'>Gen. 31. 2</a>, <a href='GEN.xhtml#GN31_5'>5</a>.
 1 Maccabees	11	13	1	Then Ptolemee entered into 	n	<a href='1MA.xhtml#M111_44'>ver. 44</a>, <a href='1MA.xhtml#M111_56'>56</a>. See <a href='1MA.xhtml#M13_37'>ch. 3. 37</a>.
 1 Maccabees	11	13	2	Then Ptolemee entered into Antioch, where he set two crowns upon his head, the crown of 	nn	See <a href='1MA.xhtml#M18_6'>ch. 8. 6</a>.
@@ -1151,10 +1151,10 @@
 1 Maccabees	2	14	1	Then Mattathias and his sons 	r	<a href='1MA.xhtml#M13_47'>ch. 3. 47</a>. &amp; <a href='1MA.xhtml#M111_71'>11. 71</a>. See <a href='GEN.xhtml#GN44_13'>Gen. 44. 13</a>.
 1 Maccabees	2	14	2	Then Mattathias and his sons rent their clothes, and 	r	<a href='1MA.xhtml#M13_47'>ch. 3. 47</a>. &amp; <a href='1MA.xhtml#M111_71'>11. 71</a>. See <a href='GEN.xhtml#GN44_13'>Gen. 44. 13</a>.
 1 Maccabees	2	14	3	Then Mattathias and his sons rent their clothes, and 	s	See <a href='1KI.xhtml#K120_31'>1 Kin. 20. 31</a>.
-1 Maccabees	2	15	1	In the mean while 	t	<a href='1MA.xhtml#M12_17'>ver. 17</a>. Gk. as <a href='SUS.xhtml#SN33_0'>Susanna 33</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a>.
+1 Maccabees	2	15	1	In the mean while 	t	<a href='1MA.xhtml#M12_17'>ver. 17</a>. Gk. as <a href='SUS.xhtml#SN1_33'>Susanna 33</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a>.
 1 Maccabees	2	15	2	In the mean while the king’s officers, such as compelled the people to 	u	<a href='ACT.xhtml#AC21_21'>Acts 21. 21</a>. <a href='2TH.xhtml#H22_3'>2 Thess. 2. 3</a> in the Gk. So <a href='1MA.xhtml#M12_19'>ver. 19</a>.
 1 Maccabees	2	15	3	In the mean while the king’s officers, such as compelled the people to revolt, came into the city 	c	<a href='1MA.xhtml#M12_15'>ver. 15</a>, <a href='1MA.xhtml#M12_23'>23</a>, <a href='1MA.xhtml#M12_70'>70</a>. <a href='1MA.xhtml#M19_19'>ch. 9. 19</a>. &amp; <a href='1MA.xhtml#M113_25'>13. 25</a>, <a href='1MA.xhtml#M113_30'>30</a>. &amp; <a href='1MA.xhtml#M116_4'>16. 4</a>. <a href='2MA.xhtml#M213_14'>2 Macc. 13. 14</a>.
-1 Maccabees	2	17	1	Then answered 	t	<a href='1MA.xhtml#M12_17'>ver. 17</a>. Gk. as <a href='SUS.xhtml#SN33_0'>Susanna 33</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a>.
+1 Maccabees	2	17	1	Then answered 	t	<a href='1MA.xhtml#M12_17'>ver. 17</a>. Gk. as <a href='SUS.xhtml#SN1_33'>Susanna 33</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a>.
 1 Maccabees	2	17	2	Then answered the king’s officers, and said to Mattathias on this wise, Thou art a ruler, and an honourable and great man in this city, and 	v	So <a href='1MA.xhtml#M12_43'>ver. 43</a> (Gk.). Comp. <a href='PSA.xhtml#PS127_5'>Ps. 127. 5</a>.
 1 Maccabees	2	18	1	now therefore come thou first, and fulfil the king’s commandment, like 	w	<a href='1MA.xhtml#M11_41'>ch. 1. 41</a>, <a href='1MA.xhtml#M11_42'>42</a>.
 1 Maccabees	2	18	2	now therefore come thou first, and fulfil the king’s commandment, like as all the heathen have done, yea, and the men of Juda also, and such as remain at Jerusalem: so shalt thou and thine house be in the number of the king’s friends, and thou and thy children shall be honoured with silver and gold, and many 	x	<a href='1ES.xhtml#E19_51'>1 Esdr. 9. 51</a>, <a href='1ES.xhtml#E19_54'>54</a>. <a href='2MA.xhtml#M23_2'>2 Macc. 3. 2</a> in the Gk.
@@ -1221,7 +1221,7 @@
 1 Maccabees	2	57	2	David for being merciful 	l	<a href='2SA.xhtml#S27_16'>2 Sam. 7. 16</a>.
 1 Maccabees	2	58	1		m	See <a href='2KI.xhtml#K22_11'>2 Kin. 2. 11</a>.
 1 Maccabees	2	58	2	Elias 	n	<a href='1MA.xhtml#M12_54'>ver. 54</a>.
-1 Maccabees	2	59	1		o	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a>. &amp; <a href='DAN.xhtml#DN3_16'>3. 16–18</a>, <a href='DAN.xhtml#DN3_26'>26</a>. <a href='S3Y.xhtml#PA66_0'>Song 66</a>.
+1 Maccabees	2	59	1		o	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a>. &amp; <a href='DAN.xhtml#DN3_16'>3. 16–18</a>, <a href='DAN.xhtml#DN3_26'>26</a>. <a href='S3Y.xhtml#PA1_66'>Song 66</a>.
 1 Maccabees	2	60	1		p	<a href='DAN.xhtml#DN6_22'>Dan. 6. 22</a>.
 1 Maccabees	2	60	2	Daniel for his 	q	<a href='1MA.xhtml#M12_37'>ver. 37</a>.
 1 Maccabees	2	62	1		r	Comp. <a href='ISA.xhtml#IS51_12'>Isai. 51. 12</a>.
@@ -1238,7 +1238,7 @@
 1 Maccabees	2	66	3	As for Judas Maccabeus, he hath been mighty and strong, even from his youth up: let him be your captain, and 	*	Or, <span class='add'>fight ye the battle of the people</span>.
 1 Maccabees	2	67	1	Take also unto you all 	c	<a href='ROM.xhtml#RM2_13'>Rom. 2. 13</a>. <a href='JAS.xhtml#JM4_11'>James 4. 11</a> in the Gk.
 1 Maccabees	2	69	1	So 	d	<a href='GEN.xhtml#GN49_28'>Gen. 49. 28</a>.
-1 Maccabees	2	69	2	So he blessed them, and 	e	<a href='BEL.xhtml#BL1_0'>Bel and Drag. 1</a>. So <a href='1MA.xhtml#M114_30'>ch. 14. 30</a>. See <a href='JDT.xhtml#JT16_22'>Judith 16. 22</a>.
+1 Maccabees	2	69	2	So he blessed them, and 	e	<a href='BEL.xhtml#BL1_1'>Bel and Drag. 1</a>. So <a href='1MA.xhtml#M114_30'>ch. 14. 30</a>. See <a href='JDT.xhtml#JT16_22'>Judith 16. 22</a>.
 1 Maccabees	2	7	1	he said, Woe is me, wherefore was I born to see this 	g	See <a href='WIS.xhtml#WS3_3'>Wisd. 3. 3</a>.
 1 Maccabees	2	7	2	he said, Woe is me, wherefore was I born to see this misery of my people, and of 	h	<a href='SNG.xhtml#SS5_0'>Song 5</a>. <a href='1MA.xhtml#M110_31'>ch. 10. 31</a>. See <a href='NEH.xhtml#NH11_1'>Neh. 11. 1</a>. &amp; <a href='2MA.xhtml#M21_12'>2 Macc. 1. 12</a>.
 1 Maccabees	2	70	1	And he died in 	*	B.C. 166.
@@ -1380,7 +1380,7 @@
 1 Maccabees	4	23	2	Then Judas returned to spoil 	c	See <a href='1MA.xhtml#M15_45'>ch. 5. 45</a>.
 1 Maccabees	4	23	3	Then Judas returned to spoil the tents, where they got much gold, and silver, and 	s	<a href='SIR.xhtml#SR45_10'>Ecclus. 45. 10</a>.
 1 Maccabees	4	24	1	After this they went home, and 	r	Comp. <a href='2MA.xhtml#M28_27'>2 Macc. 8. 27</a>.
-1 Maccabees	4	24	2	After this they went home, and sung a song of thanksgiving, and praised the Lord in heaven: 	t	<a href='PSA.xhtml#PS136_1'>Ps. 136. 1</a>. So <a href='S3Y.xhtml#PA67_0'>Song 67</a>.
+1 Maccabees	4	24	2	After this they went home, and sung a song of thanksgiving, and praised the Lord in heaven: 	t	<a href='PSA.xhtml#PS136_1'>Ps. 136. 1</a>. So <a href='S3Y.xhtml#PA1_67'>Song 67</a>.
 1 Maccabees	4	24	3	After this they went home, and sung a song of thanksgiving, and praised the Lord in heaven: because 	*	[Or, <span class='add'>he</span>]. See <a href='PSA.xhtml#PS106_1'>Ps. 106. 1</a>.
 1 Maccabees	4	26	1	Now all the strangers that had escaped came and told 	u	<a href='1MA.xhtml#M13_38'>ch. 3. 38</a>.
 1 Maccabees	4	27	1	who, when he heard thereof, 	v	See <a href='ACT.xhtml#AC2_6'>Acts 2. 6</a>.
@@ -1805,14 +1805,14 @@
 1 Maccabees	9	39	3	where they lift up their eyes, and looked, and behold, there was much ado and great carriage: and the bridegroom came forth, and his friends and brethren, to meet them with drums, and 	*	Or, <span class='add'>musicians</span>.
 1 Maccabees	9	39	4	where they lift up their eyes, and looked, and behold, there was much ado and great carriage: and the bridegroom came forth, and his friends and brethren, to meet them with drums, and 	f	<a href='1ES.xhtml#E14_63'>1 Esdr. 4. 63</a>. &amp; <a href='1ES.xhtml#E15_2'>5. 2</a>, <a href='1ES.xhtml#E15_59'>59</a>. <a href='1MA.xhtml#M19_41'>ver. 41</a> (Gk.).
 1 Maccabees	9	4	1	from whence they removed, and went to 	*	Or, <span class='add'>Berretho</span>, Jos[eph].
-1 Maccabees	9	40	1	Then 	g	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+1 Maccabees	9	40	1	Then 	g	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 1 Maccabees	9	40	2	Then Jonathan and they that were with him rose up against them from 	h	<a href='1MA.xhtml#M111_68'>ch. 11. 68</a>, <a href='1MA.xhtml#M111_69'>69</a>. So <a href='1MA.xhtml#M11_36'>ch. 1. 36</a>.
 1 Maccabees	9	40	3	Then Jonathan and they that were with him rose up against them from the place where they lay in ambush, and made a slaughter of them in such sort, as 	i	See <a href='1MA.xhtml#M11_18'>ch. 1. 18</a>.
 1 Maccabees	9	41	1	Thus was the marriage turned into mourning, and the noise of their 	f	<a href='1ES.xhtml#E14_63'>1 Esdr. 4. 63</a>. &amp; <a href='1ES.xhtml#E15_2'>5. 2</a>, <a href='1ES.xhtml#E15_59'>59</a>. <a href='1MA.xhtml#M19_41'>ver. 41</a> (Gk.).
 1 Maccabees	9	42	1	So when they had avenged fully the blood of their brother, they turned again to 	k	<a href='1MA.xhtml#M19_45'>ver. 45</a>. See <a href='JOS.xhtml#JS3_15'>Josh. 3. 15</a>.
 1 Maccabees	9	43	1	Now when Bacchides heard hereof, 	l	<a href='1MA.xhtml#M19_34'>ver. 34</a>.
 1 Maccabees	9	44	1	Then Jonathan said to his company, 	ll	Comp. <a href='1MA.xhtml#M12_41'>ch. 2. 41</a>.
-1 Maccabees	9	44	2	Then Jonathan said to his company, Let us go up now and fight for our lives, for it standeth not with us to day, as 	m	<a href='SUS.xhtml#SN15_0'>Susanna 15</a> marg.
+1 Maccabees	9	44	2	Then Jonathan said to his company, Let us go up now and fight for our lives, for it standeth not with us to day, as 	m	<a href='SUS.xhtml#SN1_15'>Susanna 15</a> marg.
 1 Maccabees	9	45	1	for behold, the battle is before us and behind us, and the water of Jordan on this side and that side, 	k	<a href='1MA.xhtml#M19_45'>ver. 45</a>. See <a href='JOS.xhtml#JS3_15'>Josh. 3. 15</a>.
 1 Maccabees	9	46	1	Wherefore 	n	See <a href='1MA.xhtml#M13_60'>ch. 3. 60</a>.
 1 Maccabees	9	49	1	So there were slain of Bacchides’ side that day about 	*	<span class='add'>two thousand men</span>. Joseph. Ant[iq.] lib. 13. cap. 1.
@@ -2073,7 +2073,7 @@
 2 Esdras	13	28	3	and that he held neither sword, nor any instrument of war, but that the rushing in of him destroyed the whole multitude 	o	<a href='2ES.xhtml#E213_5'>ver. 5</a>, <a href='2ES.xhtml#E213_8'>8</a>.
 2 Esdras	13	29	1	Behold, the days come, when the most High will begin 	p	<a href='LUK.xhtml#LK21_28'>Luke 21. 28</a>.
 2 Esdras	13	3	1	And I beheld, and lo, that man waxed strong with the 	*	<span class='add'>clouds</span>.
-2 Esdras	13	3	2	And I beheld, and lo, that man waxed strong with the 	b	So <a href='2ES.xhtml#E26_3'>ch. 6. 3</a>. <a href='JUD.xhtml#JD14_0'>Jude 14</a>.
+2 Esdras	13	3	2	And I beheld, and lo, that man waxed strong with the 	b	So <a href='2ES.xhtml#E26_3'>ch. 6. 3</a>. <a href='JUD.xhtml#JD1_14'>Jude 14</a>.
 2 Esdras	13	30	1	And he shall come to 	q	Lat. as <a href='2ES.xhtml#E212_3'>ch. 12. 3</a>.
 2 Esdras	13	31	1	And one shall undertake to fight against another, one city against another, one place against another, 	r	<a href='MAT.xhtml#MT24_7'>Matt. 24. 7</a>. <a href='MRK.xhtml#MK13_8'>Mark 13. 8</a>. <a href='LUK.xhtml#LK21_10'>Luke 21. 10</a>.
 2 Esdras	13	31	2	And one shall undertake to fight against another, one city against another, one place against another, one people against another, and 	r	<a href='MAT.xhtml#MT24_7'>Matt. 24. 7</a>. <a href='MRK.xhtml#MK13_8'>Mark 13. 8</a>. <a href='LUK.xhtml#LK21_10'>Luke 21. 10</a>.
@@ -2150,7 +2150,7 @@
 2 Esdras	15	14	1		k	<a href='REV.xhtml#RV8_13'>Rev. 8. 13</a>. &amp; <a href='REV.xhtml#RV12_12'>12. 12</a>.
 2 Esdras	15	15	1	For the sword and their destruction draweth nigh, and 	l	So <a href='ISA.xhtml#IS19_2'>Isai. 19. 2</a>.
 2 Esdras	15	19	1	A man shall have no pity upon his neighbour, but shall destroy their houses with the sword, and spoil their goods, 	m	<a href='2ES.xhtml#E215_13'>ver. 13</a>.
-2 Esdras	15	2	1	and cause them to be written in 	b	<a href='2JN.xhtml#2JN12_0'>2 John 12</a>. So <a href='TOB.xhtml#TB7_14'>Tobit 7. 14</a> (Lat.).
+2 Esdras	15	2	1	and cause them to be written in 	b	<a href='2JN.xhtml#2JN1_12'>2 John 12</a>. So <a href='TOB.xhtml#TB7_14'>Tobit 7. 14</a> (Lat.).
 2 Esdras	15	2	2	and cause them to be written in paper: for 	c	See <a href='REV.xhtml#RV22_6'>Rev. 22. 6</a>.
 2 Esdras	15	20	1	Behold, saith God, I will call together all the kings of the earth to reverence me, which are from the rising of the sun, from the south, from the east, and 	n	<a href='DEU.xhtml#DT11_24'>Deut. 11. 24</a>. <a href='JOS.xhtml#JS1_4'>Josh. 1. 4</a>. See <a href='JDT.xhtml#JT1_7'>Judith 1. 7</a>.
 2 Esdras	15	21	1	Like as they do yet this day unto 	nn	<a href='2ES.xhtml#E215_53'>ver. 53</a>, <a href='2ES.xhtml#E215_56'>56</a>.
@@ -2221,8 +2221,8 @@
 2 Esdras	16	26	1	The grapes shall ripen, and who shall 	s	See <a href='JOB.xhtml#JB24_11'>Job 24. 11</a>.
 2 Esdras	16	28	1	For of a city there shall be 	t	Comp. <a href='AMO.xhtml#AM5_3'>Amos 5. 3</a>.
 2 Esdras	16	28	2	For of a city there shall be ten left, and two of the field, which shall hide themselves in the thick groves, and 	u	<a href='ISA.xhtml#IS2_21'>Isai. 2. 21</a>.
-2 Esdras	16	29	1		x	<a href='ISA.xhtml#IS17_6'>Isai. 17. 6</a>. &amp; <a href='ISA.xhtml#IS24_13'>24. 13</a>. So <a href='OBA.xhtml#OB5_0'>Obad. 5</a>.
-2 Esdras	16	30	1		x	<a href='ISA.xhtml#IS17_6'>Isai. 17. 6</a>. &amp; <a href='ISA.xhtml#IS24_13'>24. 13</a>. So <a href='OBA.xhtml#OB5_0'>Obad. 5</a>.
+2 Esdras	16	29	1		x	<a href='ISA.xhtml#IS17_6'>Isai. 17. 6</a>. &amp; <a href='ISA.xhtml#IS24_13'>24. 13</a>. So <a href='OBA.xhtml#OB1_5'>Obad. 5</a>.
+2 Esdras	16	30	1		x	<a href='ISA.xhtml#IS17_6'>Isai. 17. 6</a>. &amp; <a href='ISA.xhtml#IS24_13'>24. 13</a>. So <a href='OBA.xhtml#OB1_5'>Obad. 5</a>.
 2 Esdras	16	31	1	even so in those days there shall be 	y	<a href='AMO.xhtml#AM1_3'>Amos 1. 3</a>, <a href='AMO.xhtml#AM1_6'>6</a>, <a href='AMO.xhtml#AM1_9'>9</a>, <a href='AMO.xhtml#AM1_11'>11</a>.
 2 Esdras	16	33	1		z	Comp. <a href='PSA.xhtml#PS78_63'>Ps. 78. 63</a>.
 2 Esdras	16	35	1	Hear now these things, and understand them, 	a	See <a href='PSA.xhtml#PS113_1'>Ps. 113. 1</a>.
@@ -2429,7 +2429,7 @@
 2 Esdras	4	35	2	Did not the souls also of the righteous ask question of these things in their 	u	<a href='2ES.xhtml#E24_41'>ver. 41</a>. <a href='2ES.xhtml#E25_9'>ch. 5. 9</a>, <a href='2ES.xhtml#E25_37'>37</a> (Lat.). &amp; <a href='2ES.xhtml#E27_32'>7. 32</a> (Lat.).
 2 Esdras	4	35	3	Did not the souls also of the righteous ask question of these things in their chambers, saying, 	t	<a href='REV.xhtml#RV6_9'>Rev. 6. 9</a>, <a href='REV.xhtml#RV6_10'>10</a>.
 2 Esdras	4	36	1	And unto these things 	*	[Or,] <span class='add'>Jeremiel</span>. See <a href='2ES.xhtml#E24_1'>ver. 1</a>.
-2 Esdras	4	36	2	And unto these things Uriel the 	v	<a href='1TH.xhtml#H14_16'>1 Thess. 4. 16</a>. <a href='JUD.xhtml#JD9_0'>Jude 9</a>.
+2 Esdras	4	36	2	And unto these things Uriel the 	v	<a href='1TH.xhtml#H14_16'>1 Thess. 4. 16</a>. <a href='JUD.xhtml#JD1_9'>Jude 9</a>.
 2 Esdras	4	36	3	And unto these things Uriel the archangel gave them answer, and said, 	w	See <a href='2ES.xhtml#E22_41'>ch. 2. 41</a>.
 2 Esdras	4	38	1	Then answered I and said, 	ww	See <a href='2ES.xhtml#E25_23'>ch. 5. 23</a>.
 2 Esdras	4	41	1	Then said I, No, Lord, that can she not. And he said unto me, In the grave the 	u	<a href='2ES.xhtml#E24_41'>ver. 41</a>. <a href='2ES.xhtml#E25_9'>ch. 5. 9</a>, <a href='2ES.xhtml#E25_37'>37</a> (Lat.). &amp; <a href='2ES.xhtml#E27_32'>7. 32</a> (Lat.).
@@ -2763,11 +2763,11 @@
 2 Maccabees	1	26	1	receive the sacrifice for thy whole people Israel, and preserve 	d	<a href='2MA.xhtml#M214_15'>ch. 14. 15</a>.
 2 Maccabees	1	27	1	Gather 	e	See <a href='JHN.xhtml#JN7_35'>John 7. 35</a>.
 2 Maccabees	1	27	2	Gather those together that are scattered from us, 	f	<a href='PSA.xhtml#PS106_47'>Ps. 106. 47</a>.
-2 Maccabees	1	27	3	Gather those together that are scattered from us, deliver them that serve among the heathen, look upon them that are despised and abhorred, and 	g	See <a href='S3Y.xhtml#PA22_0'>Song 22</a>.
+2 Maccabees	1	27	3	Gather those together that are scattered from us, deliver them that serve among the heathen, look upon them that are despised and abhorred, and 	g	See <a href='S3Y.xhtml#PA1_22'>Song 22</a>.
 2 Maccabees	1	29	1	Plant thy people again in thy 	h	<a href='2MA.xhtml#M22_18'>ch. 2. 18</a>. &amp; <a href='2MA.xhtml#M28_17'>8. 17</a>.
 2 Maccabees	1	29	2	Plant thy people again in thy holy place 	i	<a href='DEU.xhtml#DT30_3'>Deut. 30. 3–8</a>. So <a href='2MA.xhtml#M22_18'>ch. 2. 18</a>.
 2 Maccabees	1	33	1	So when this matter was known, it was told the king of 	k	See <a href='2MA.xhtml#M21_13'>ver. 13</a>.
-2 Maccabees	1	33	2	So when this matter was known, it was told the king of Persia, that in the place, where the priests that were led away had hid the fire, there appeared water, and that 	*	Or, <span class='add'>Neemias his company</span>. <a href='2MA.xhtml#M21_36'>ver. 36</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	1	33	2	So when this matter was known, it was told the king of Persia, that in the place, where the priests that were led away had hid the fire, there appeared water, and that 	*	Or, <span class='add'>Neemias his company</span>. <a href='2MA.xhtml#M21_36'>ver. 36</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	1	35	1	And the king took many 	l	<a href='2MA.xhtml#M23_6'>ch. 3. 6</a>. &amp; <a href='2MA.xhtml#M24_28'>4. 28</a> in the Gk. See <a href='SIR.xhtml#SR27_1'>Ecclus. 27. 1</a> marg.
 2 Maccabees	1	4	1	and 	b	See <a href='ACT.xhtml#AC16_14'>Acts 16. 14</a>.
 2 Maccabees	1	5	1	and hear your prayers, and 	c	<a href='1MA.xhtml#M113_50'>1 Macc. 13. 50</a>. <a href='2MA.xhtml#M27_33'>ch. 7. 33</a>. <a href='ACT.xhtml#AC7_26'>Acts 7. 26</a> (Engl.). Comp. <a href='ROM.xhtml#RM5_11'>Rom. 5. 11</a> (Engl.).
@@ -2809,7 +2809,7 @@
 2 Maccabees	10	19	1	Maccabeus left 	f	See <a href='2MA.xhtml#M28_22'>ch. 8. 22</a>.
 2 Maccabees	10	19	2	Maccabeus left Simon and 	f	See <a href='2MA.xhtml#M28_22'>ch. 8. 22</a>.
 2 Maccabees	10	2	1	but the altars which the heathen had built in the open street, and also 	b	<a href='1MA.xhtml#M11_47'>1 Macc. 1. 47</a> (Gk.). <a href='2MA.xhtml#M211_3'>ch. 11. 3</a>. See <a href='AMO.xhtml#AM7_13'>Amos 7. 13</a> (Engl.).
-2 Maccabees	10	20	1	Now 	*	Or, <span class='add'>Simon</span>. So <a href='2MA.xhtml#M210_25'>ver. 25</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	10	20	1	Now 	*	Or, <span class='add'>Simon</span>. So <a href='2MA.xhtml#M210_25'>ver. 25</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	10	20	2	Now they that were with Simon, being led with covetousness, were 	g	See <a href='2MA.xhtml#M24_45'>ch. 4. 45</a>.
 2 Maccabees	10	20	3	Now they that were with Simon, being led with covetousness, were persuaded for money, (through certain of those that were in the castle,) and took seventy thousand 	h	See <a href='2MA.xhtml#M24_19'>ch. 4. 19</a>.
 2 Maccabees	10	22	1	So he slew those that were found traitors, and immediately took 	i	<a href='2MA.xhtml#M210_18'>ver. 18</a>.
@@ -2818,7 +2818,7 @@
 2 Maccabees	10	24	2	Now Timotheus, 	l	See <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
 2 Maccabees	10	24	3	Now Timotheus, whom the Jews had overcome before, 	m	<a href='1MA.xhtml#M15_6'>1 Macc. 5. 6</a>, <a href='1MA.xhtml#M15_7'>7</a>?
 2 Maccabees	10	24	4	Now Timotheus, whom the Jews had overcome before, when he had gathered a great multitude of foreign forces, and horses out of 	n	See <a href='1MA.xhtml#M18_6'>1 Macc. 8. 6</a>.
-2 Maccabees	10	25	1	But when he drew near, 	*	Or, <span class='add'>Maccabeus, and they that were with him</span>. <a href='2MA.xhtml#M210_16'>ver. 16</a>, <a href='2MA.xhtml#M210_33'>33</a>, <a href='2MA.xhtml#M210_35'>35</a>. <a href='2MA.xhtml#M211_6'>ch. 11. 6</a>. So <a href='2MA.xhtml#M210_20'>ver. 20</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	10	25	1	But when he drew near, 	*	Or, <span class='add'>Maccabeus, and they that were with him</span>. <a href='2MA.xhtml#M210_16'>ver. 16</a>, <a href='2MA.xhtml#M210_33'>33</a>, <a href='2MA.xhtml#M210_35'>35</a>. <a href='2MA.xhtml#M211_6'>ch. 11. 6</a>. So <a href='2MA.xhtml#M210_20'>ver. 20</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	10	25	2	But when he drew near, they that were with Maccabeus turned themselves to pray unto God, and 	o	<a href='1MA.xhtml#M111_71'>1 Macc. 11. 71</a>. So <a href='2MA.xhtml#M214_15'>ch. 14. 15</a>. See <a href='1MA.xhtml#M13_47'>1 Macc. 3. 47</a>.
 2 Maccabees	10	25	3	But when he drew near, they that were with Maccabeus turned themselves to pray unto God, and sprinkled earth upon their heads, and 	p	<a href='2MA.xhtml#M23_19'>ch. 3. 19</a>. See <a href='1KI.xhtml#K120_31'>1 Kin. 20. 31</a>.
 2 Maccabees	10	26	1	and fell down at the foot of the altar, and besought him to be merciful to them, and 	q	Cited from <a href='EXO.xhtml#EX23_22'>Exod. 23. 22</a>. So <a href='DEU.xhtml#DT28_7'>Deut. 28. 7</a>.
@@ -2916,13 +2916,13 @@
 2 Maccabees	12	1	2	When these covenants were made, Lysias went unto the king, and 	b	Comp. <a href='2MA.xhtml#M211_29'>ch. 11. 29</a>, <a href='2MA.xhtml#M211_30'>30</a>.
 2 Maccabees	12	10	1	Now when they were gone from thence nine furlongs in their journey toward 	c	<a href='2MA.xhtml#M212_10'>ver. 10</a>, <a href='2MA.xhtml#M212_18'>18–21</a>, <a href='2MA.xhtml#M212_24'>24</a>. <a href='1MA.xhtml#M15_6'>1 Macc. 5. 6</a>, <a href='1MA.xhtml#M15_11'>11</a>, <a href='1MA.xhtml#M15_37'>37</a>. Comp. <a href='2MA.xhtml#M210_37'>ch. 10. 37</a>.
 2 Maccabees	12	10	2	Now when they were gone from thence nine furlongs in their journey toward Timotheus, no fewer than five thousand men on foot and five hundred horsemen of the 	k	See <a href='1MA.xhtml#M15_39'>1 Macc. 5. 39</a>.
-2 Maccabees	12	11	1	Whereupon there was a very sore battle; but 	l	<a href='2MA.xhtml#M212_14'>ver. 14</a>, <a href='2MA.xhtml#M212_15'>15</a> (Gk.). See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	12	11	1	Whereupon there was a very sore battle; but 	l	<a href='2MA.xhtml#M212_14'>ver. 14</a>, <a href='2MA.xhtml#M212_15'>15</a> (Gk.). See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	12	11	2	Whereupon there was a very sore battle; but Judas’ side 	ll	See <a href='2MA.xhtml#M213_13'>ch. 13. 13</a>.
 2 Maccabees	12	11	3	Whereupon there was a very sore battle; but Judas’ side by the help of God got the victory; so that the Nomades of Arabia, being overcome, besought Judas 	m	See <a href='2MA.xhtml#M211_26'>ch. 11. 26</a>.
 2 Maccabees	12	12	1	Then Judas, thinking indeed that they would be profitable in many things, granted them peace: whereupon they shook hands, and so they 	*	Or, <span class='add'>went from place to place, with their families and cattle</span>.
 2 Maccabees	12	13	1	He went also about to make a bridge to a certain strong city, which was fenced about with walls, and inhabited by people of divers countries; and the name of it was 	n	Comp. <a href='1MA.xhtml#M15_26'>1 Macc. 5. 26</a>, <a href='1MA.xhtml#M15_36'>36</a>?
-2 Maccabees	12	14	1	But they that were within it put such trust in the strength of the walls and provision of victuals, that they behaved themselves rudely toward 	l	<a href='2MA.xhtml#M212_14'>ver. 14</a>, <a href='2MA.xhtml#M212_15'>15</a> (Gk.). See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
-2 Maccabees	12	15	1	Wherefore 	l	<a href='2MA.xhtml#M212_14'>ver. 14</a>, <a href='2MA.xhtml#M212_15'>15</a> (Gk.). See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	12	14	1	But they that were within it put such trust in the strength of the walls and provision of victuals, that they behaved themselves rudely toward 	l	<a href='2MA.xhtml#M212_14'>ver. 14</a>, <a href='2MA.xhtml#M212_15'>15</a> (Gk.). See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
+2 Maccabees	12	15	1	Wherefore 	l	<a href='2MA.xhtml#M212_14'>ver. 14</a>, <a href='2MA.xhtml#M212_15'>15</a> (Gk.). See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	12	15	2	Wherefore Judas with his company, calling upon the great 	o	<a href='2MA.xhtml#M212_28'>ver. 28</a> (Gk.). See <a href='2MA.xhtml#M23_24'>ch. 3. 24</a>.
 2 Maccabees	12	15	3	Wherefore Judas with his company, calling upon the great Lord of the world, who without any rams or engines of war 	p	<a href='JOS.xhtml#JS6_20'>Josh. 6. 20</a>. <a href='HEB.xhtml#HB11_30'>Heb. 11. 30</a>.
 2 Maccabees	12	15	4	Wherefore Judas with his company, calling upon the great Lord of the world, who without any rams or engines of war did cast down 	q	See <a href='1MA.xhtml#M19_50'>1 Macc. 9. 50</a>.
@@ -2948,7 +2948,7 @@
 2 Maccabees	12	22	2	But when Judas his first band came in sight, the enemies, being smitten with fear and terror through 	z	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>. Comp. <a href='1MA.xhtml#M15_43'>1 Macc. 5. 43</a>.
 2 Maccabees	12	22	3	But when Judas his first band came in sight, the enemies, being smitten with fear and terror through the appearing of him that seeth all things, fled amain, one running this way, another that way, so as that they were often hurt of 	a	See <a href='JHN.xhtml#JN1_11'>John 1. 11</a>.
 2 Maccabees	12	23	1	Judas also was very earnest in pursuing them, killing those 	b	<a href='2MA.xhtml#M213_4'>ch. 13. 4</a>. &amp; <a href='2MA.xhtml#M214_42'>14. 42</a> (Gk.). So <a href='2MA.xhtml#M28_34'>ch. 8. 34</a>. &amp; <a href='2MA.xhtml#M215_3'>15. 3</a> in the Gk.
-2 Maccabees	12	24	1	Moreover Timotheus himself fell into the hands of 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	12	24	1	Moreover Timotheus himself fell into the hands of 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	12	26	1		d	See <a href='1MA.xhtml#M15_36'>1 Macc. 5. 36</a>.
 2 Maccabees	12	26	2	Then Maccabeus marched forth to Carnion, and 	e	Comp. <a href='1MA.xhtml#M15_43'>1 Macc. 5. 43</a>, <a href='1MA.xhtml#M15_44'>44</a>.
 2 Maccabees	12	26	3	Then Maccabeus marched forth to Carnion, and to the temple of 	*	That is, <span class='add'>Venus</span>.
@@ -2970,16 +2970,16 @@
 2 Maccabees	12	35	1	At which time Dositheus, one of Bacenor’s company, who was on horseback, and a strong man, was still upon 	o	See <a href='1MA.xhtml#M13_38'>1 Macc. 3. 38</a>.
 2 Maccabees	12	35	2	At which time Dositheus, one of Bacenor’s company, who was on horseback, and a strong man, was still upon Gorgias, and taking hold of his coat drew him by force; and when he would have taken that cursed man alive, a horseman of Thracia coming upon him 	*	[Or], <span class='add'>put by</span> his <span class='add'>arm:</span> [or,]<span class='add'>wounded</span> him in <span class='add'>the shoulder:</span> or, <span class='add'>stroke</span> him in <span class='add'>the shoulder</span>.
 2 Maccabees	12	35	3	At which time Dositheus, one of Bacenor’s company, who was on horseback, and a strong man, was still upon Gorgias, and taking hold of his coat drew him by force; and when he would have taken that cursed man alive, a horseman of Thracia coming upon him smote off his shoulder, so that Gorgias fled unto 	s	See <a href='2CH.xhtml#R211_8'>2 Chr. 11. 8</a>.
-2 Maccabees	12	36	1	Now when 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	12	36	1	Now when 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	12	36	2	Now when they that were with 	*	[Or, <span class='add'>Esdrin</span>].
 2 Maccabees	12	37	1	And with that he began 	t	<a href='2MA.xhtml#M27_8'>ch. 7. 8</a>, <a href='2MA.xhtml#M27_21'>21</a>, <a href='2MA.xhtml#M27_27'>27</a>. &amp; <a href='2MA.xhtml#M215_29'>15. 29</a>.
 2 Maccabees	12	37	2	And with that he began in his own language, and sung 	tt	<a href='2MA.xhtml#M210_7'>ch. 10. 7</a>, <a href='2MA.xhtml#M210_38'>38</a>.
-2 Maccabees	12	37	3	And with that he began in his own language, and sung psalms with a loud voice, and rushing unawares upon 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	12	37	3	And with that he began in his own language, and sung psalms with a loud voice, and rushing unawares upon 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	12	38	1	So Judas gathered his host, and came into the city of 	u	<a href='GEN.xhtml#GN38_1'>Gen. 38. 1</a> (Gk.). See <a href='1SA.xhtml#S122_1'>1 Sam. 22. 1</a>?
 2 Maccabees	12	39	1	And upon 	v	<a href='LUK.xhtml#LK13_33'>Luke 13. 33</a>. <a href='ACT.xhtml#AC20_15'>Acts 20. 15</a> (Gk.). So <a href='ACT.xhtml#AC21_26'>Acts 21. 26</a> (Gk.).
 2 Maccabees	12	39	2	And upon the day following, 	*	Or, <span class='add'>at such time, &amp;c.</span> Comp. <a href='2MA.xhtml#M212_38'>ver. 38</a>.
 2 Maccabees	12	39	3	And upon the day following, as the 	vv	See <a href='1MA.xhtml#M113_37'>1 Macc. 13. 37</a>.
-2 Maccabees	12	39	4	And upon the day following, as the use had been, 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	12	39	4	And upon the day following, as the use had been, 	c	<a href='2MA.xhtml#M212_19'>ver. 19</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	12	39	5	And upon the day following, as the use had been, Judas and his company came to take up 	r	<a href='2MA.xhtml#M212_39'>ver. 39</a>, <a href='2MA.xhtml#M212_40'>40</a>.
 2 Maccabees	12	40	1	Now under the coats of 	r	<a href='2MA.xhtml#M212_39'>ver. 39</a>, <a href='2MA.xhtml#M212_40'>40</a>.
 2 Maccabees	12	40	2	Now under the coats of every one that was slain they found things consecrated to the idols of 	w	Comp. <a href='2MA.xhtml#M212_9'>ver. 9</a>, <a href='2MA.xhtml#M212_32'>32</a> [marg.], <a href='2MA.xhtml#M212_37'>37</a>.
@@ -2999,7 +2999,7 @@
 2 Maccabees	12	9	1	he came upon the 	i	<a href='2MA.xhtml#M212_9'>ver. 9</a>, <a href='2MA.xhtml#M212_40'>40</a>. See <a href='1MA.xhtml#M14_15'>1 Macc. 4. 15</a>.
 2 Maccabees	12	9	2	he came upon the Jamnites also by night, and set fire on the haven and the 	j	<a href='1MA.xhtml#M11_17'>1 Macc. 1. 17</a>. <a href='2MA.xhtml#M214_1'>ch. 14. 1</a>.
 2 Maccabees	13	1	1	In 	*	About B.C. 163. Comp. <a href='1MA.xhtml#M16_20'>1 Macc. 6. 20</a>.
-2 Maccabees	13	1	2	In the hundred forty and ninth year it was told 	a	<a href='2MA.xhtml#M213_22'>ver. 22</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	13	1	2	In the hundred forty and ninth year it was told 	a	<a href='2MA.xhtml#M213_22'>ver. 22</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	13	1	3	In the hundred forty and ninth year it was told Judas, that 	b	<a href='1MA.xhtml#M16_28'>1 Macc. 6. 28</a>. See <a href='2MA.xhtml#M210_10'>ch. 10. 10</a>.
 2 Maccabees	13	11	1	and that he would not suffer the people, that 	*	Or, <span class='add'>had had a little respite</span>.
 2 Maccabees	13	11	2	and that he would not suffer the people, that had even now been but a little 	k	<a href='EXO.xhtml#EX23_12'>Ex. 23. 12</a>. <a href='2TI.xhtml#T21_16'>2 Tim. 1. 16</a>.
@@ -3022,7 +3022,7 @@
 2 Maccabees	13	22	1		v	<a href='1MA.xhtml#M16_49'>1 Macc. 6. 49</a>. See <a href='1MA.xhtml#M16_58'>1 Macc. 6. 58</a> marg. So <a href='2MA.xhtml#M214_19'>ch. 14. 19</a>.
 2 Maccabees	13	22	2	The king treated with them in 	t	<a href='2MA.xhtml#M213_22'>ver. 22</a>. See <a href='1MA.xhtml#M14_29'>1 Macc. 4. 29</a>.
 2 Maccabees	13	22	3	The king treated with them in Bethsura the second time, 	v	<a href='1MA.xhtml#M16_49'>1 Macc. 6. 49</a>. See <a href='1MA.xhtml#M16_58'>1 Macc. 6. 58</a> marg. So <a href='2MA.xhtml#M214_19'>ch. 14. 19</a>.
-2 Maccabees	13	22	4	The king treated with them in Bethsura the second time, gave his hand, took theirs, departed, fought with 	a	<a href='2MA.xhtml#M213_22'>ver. 22</a>. See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	13	22	4	The king treated with them in Bethsura the second time, gave his hand, took theirs, departed, fought with 	a	<a href='2MA.xhtml#M213_22'>ver. 22</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	13	23	1		w	<a href='1MA.xhtml#M16_55'>1 Macc. 6. 55</a>.
 2 Maccabees	13	23	2	heard that Philip, who was left over the affairs in 	x	<a href='2MA.xhtml#M213_26'>ver. 26</a>. See <a href='1MA.xhtml#M13_37'>1 Macc. 3. 37</a>.
 2 Maccabees	13	23	3	heard that Philip, who was left over the affairs in Antioch, 	*	Or, <span class='add'>rebelled</span>. Comp. <a href='1MA.xhtml#M16_56'>1 Macc. 6. 56</a>.
@@ -3046,7 +3046,7 @@
 2 Maccabees	13	6	1	And whosoever was condemned of 	i	Comp. <a href='2MA.xhtml#M24_39'>ch. 4. 39</a>.
 2 Maccabees	13	7	1	Such a death it happened that wicked man to die, not having so much as burial in the earth; 	j	<a href='2MA.xhtml#M29_6'>ch. 9. 6</a>.
 2 Maccabees	14	1	1		a	Comp. <a href='2MA.xhtml#M213_1'>ch. 13. 1</a>.
-2 Maccabees	14	1	2	After three years was 	b	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	14	1	2	After three years was 	b	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	14	1	3	After three years was Judas informed, that 	c	<a href='2MA.xhtml#M214_26'>ver. 26</a>. <a href='1MA.xhtml#M17_1'>1 Macc 7. 1</a>.
 2 Maccabees	14	1	4	After three years was Judas informed, that Demetrius the son of 	d	See <a href='2MA.xhtml#M23_3'>ch. 3. 3</a>.
 2 Maccabees	14	1	5	After three years was Judas informed, that Demetrius the son of Seleucus, having entered by the haven of 	c	<a href='2MA.xhtml#M214_26'>ver. 26</a>. <a href='1MA.xhtml#M17_1'>1 Macc 7. 1</a>.
@@ -3062,7 +3062,7 @@
 2 Maccabees	14	15	3	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had stablished his people for ever, and who always helpeth 	w	<a href='2MA.xhtml#M21_26'>ch. 1. 26</a>.
 2 Maccabees	14	15	4	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had stablished his people for ever, and who always helpeth his portion with 	x	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>.
 2 Maccabees	14	17	1	Now 	y	See <a href='2MA.xhtml#M28_22'>ch. 8. 22</a>.
-2 Maccabees	14	18	1	Nevertheless Nicanor, hearing of the manliness of 	b	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	14	18	1	Nevertheless Nicanor, hearing of the manliness of 	b	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	14	19	1	Wherefore he sent Posidonius, and Theodotus, and Mattathias, to 	z	So <a href='2MA.xhtml#M213_22'>ch. 13. 22</a>. See <a href='1MA.xhtml#M16_58'>1 Macc. 6. 58</a> marg.
 2 Maccabees	14	2	1		f	<a href='1MA.xhtml#M17_2'>1 Macc. 7. 2–4</a>.
 2 Maccabees	14	2	2	had taken the country, and killed 	g	See <a href='2MA.xhtml#M210_10'>ch. 10. 10</a>.
@@ -3116,7 +3116,7 @@
 2 Maccabees	14	6	2	Those of the Jews that be called Asideans, whose captain is Judas Maccabeus, 	p	<a href='2MA.xhtml#M210_14'>ch. 10. 14</a>, <a href='2MA.xhtml#M210_15'>15</a>.
 2 Maccabees	14	7	1	Therefore I, being deprived of 	q	So <a href='1MA.xhtml#M17_14'>1 Macc. 7. 14</a>.
 2 Maccabees	15	1	1		a	Comp. <a href='1MA.xhtml#M17_39'>1 Macc. 7. 39</a>.
-2 Maccabees	15	1	2	But Nicanor, hearing that 	b	<a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	15	1	2	But Nicanor, hearing that 	b	<a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	15	1	3	But Nicanor, hearing that Judas and his company were in the 	c	See <a href='2MA.xhtml#M210_14'>ch. 10. 14</a>.
 2 Maccabees	15	1	4	But Nicanor, hearing that Judas and his company were in the strong places about 	d	See <a href='1MA.xhtml#M13_10'>1 Macc. 3. 10</a>.
 2 Maccabees	15	1	5	But Nicanor, hearing that Judas and his company were in the strong places about Samaria, resolved 	e	Comp. <a href='1MA.xhtml#M12_41'>1 Macc. 2. 41</a>.
@@ -3137,8 +3137,8 @@
 2 Maccabees	15	23	1	wherefore now also, O 	b	See <a href='2MA.xhtml#M23_24'>ch. 3. 24</a>.
 2 Maccabees	15	23	2	wherefore now also, O Lord of heaven, send 	c	See <a href='2MA.xhtml#M211_6'>ch. 11. 6</a>.
 2 Maccabees	15	24	1	and through the might of thine arm let those be stricken with terror, that come against 	d	See <a href='DEU.xhtml#DT7_6'>Deut. 7. 6</a>.
-2 Maccabees	15	25	1	Then 	e	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
-2 Maccabees	15	26	1	But 	e	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	15	25	1	Then 	e	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
+2 Maccabees	15	26	1	But 	e	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	15	27	1	So that 	f	Comp. <a href='PSA.xhtml#PS149_6'>Ps. 149. 6</a>.
 2 Maccabees	15	27	2	So that fighting with their hands, and praying unto God with their hearts, they slew no less than thirty and five thousand men: for through 	g	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>.
 2 Maccabees	15	28	1	Now when the 	h	<a href='2MA.xhtml#M215_5'>ver. 5</a> (Gk.).
@@ -3339,7 +3339,7 @@
 2 Maccabees	4	40	1	Whereupon the common people rising, and being filled with rage, Lysimachus armed about three thousand men, and began first to offer violence; one 	*	Or, <span class='add'>Tyrannus</span>.
 2 Maccabees	4	40	2	Whereupon the common people rising, and being filled with rage, Lysimachus armed about three thousand men, and began first to offer violence; one 	c	See <a href='EZK.xhtml#EK47_16'>Ezek. 47. 16</a>?
 2 Maccabees	4	41	1	They then seeing the 	cc	<a href='2MA.xhtml#M25_5'>ch. 5. 5</a> (Gk.).
-2 Maccabees	4	41	2	They then seeing the attempt of Lysimachus, some of them caught stones, some clubs, others taking handfuls of dust, that was next at hand, cast them all together upon 	d	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>.
+2 Maccabees	4	41	2	They then seeing the attempt of Lysimachus, some of them caught stones, some clubs, others taking handfuls of dust, that was next at hand, cast them all together upon 	d	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	4	42	1	Thus many of them they wounded, and some they stroke to the ground, and all of them they forced to flee: but as for the 	e	<a href='ACT.xhtml#AC19_37'>Acts 19. 37</a> (Gk. &amp; Engl.).
 2 Maccabees	4	42	2	Thus many of them they wounded, and some they stroke to the ground, and all of them they forced to flee: but as for the church robber himself, him they killed besides the 	f	See <a href='2MA.xhtml#M23_6'>ch. 3. 6</a>.
 2 Maccabees	4	44	1	Now when the king came to 	g	<a href='2MA.xhtml#M24_17'>ver. 17</a>.
@@ -3420,7 +3420,7 @@
 2 Maccabees	5	7	1	Howbeit, for all this he obtained not the principality, but at the last received shame for the reward of his treason, and 	j	See <a href='2MA.xhtml#M24_26'>ch. 4. 26</a>.
 2 Maccabees	5	8	1	In the end therefore he had an unhappy return, being accused before 	k	Comp. <a href='2CO.xhtml#C211_32'>2 Cor. 11. 32</a>.
 2 Maccabees	5	8	2	In the end therefore he had an unhappy return, being accused before Aretas the king of the 	l	See <a href='1MA.xhtml#M15_39'>1 Macc. 5. 39</a>.
-2 Maccabees	5	8	3	In the end therefore he had an unhappy return, being accused before Aretas the king of the Arabians, fleeing from city to city, pursued of all men, hated as 	m	<a href='S3Y.xhtml#PA9_0'>Song 9</a>.
+2 Maccabees	5	8	3	In the end therefore he had an unhappy return, being accused before Aretas the king of the Arabians, fleeing from city to city, pursued of all men, hated as 	m	<a href='S3Y.xhtml#PA1_9'>Song 9</a>.
 2 Maccabees	5	8	4	In the end therefore he had an unhappy return, being accused before Aretas the king of the Arabians, fleeing from city to city, pursued of all men, hated as a forsaker of the laws, and being had in abomination as an 	*	Or, <span class='add'>executioner</span>. <a href='2MA.xhtml#M27_29'>ch. 7. 29</a> (Gk.).
 2 Maccabees	5	8	5	In the end therefore he had an unhappy return, being accused before Aretas the king of the Arabians, fleeing from city to city, pursued of all men, hated as a forsaker of the laws, and being had in abomination as an open enemy of his country and countrymen, he was 	n	See <a href='2MA.xhtml#M21_12'>ch 1. 12</a>.
 2 Maccabees	5	9	1	Thus he that had driven many out of their country perished in a strange land, retiring to the 	o	See <a href='1MA.xhtml#M112_2'>1 Macc. 12. 2</a>.
@@ -3466,7 +3466,7 @@
 2 Maccabees	6	28	2	and leave a notable example to such as be young to die willingly and courageously for the honourable and holy laws. And when he had said these words, immediately he went to 	e	<a href='2MA.xhtml#M26_28'>ver. 28</a>. So <a href='HEB.xhtml#HB11_35'>Heb. 11. 35</a>.
 2 Maccabees	6	29	1	they that led him changing 	p	<a href='2MA.xhtml#M26_21'>ver. 21</a>, <a href='2MA.xhtml#M26_22'>22</a>.
 2 Maccabees	6	29	2	they that led him changing the good will they bare him a little before into hatred, because the foresaid speeches proceeded, as they thought, from 	*	Or, <span class="notemark">q</span> <span class='add'>madness</span>, or, <span class='add'>pride</span>.
-2 Maccabees	6	30	1	But when he was ready to die with stripes, he 	r	See <a href='SUS.xhtml#SN22_0'>Susanna 22</a>.
+2 Maccabees	6	30	1	But when he was ready to die with stripes, he 	r	See <a href='SUS.xhtml#SN1_22'>Susanna 22</a>.
 2 Maccabees	6	31	1	And thus this man died, leaving his death for an 	o	So <a href='2MA.xhtml#M26_31'>ver. 31</a>.
 2 Maccabees	6	4	1	for the temple was filled with 	e	<a href='EPH.xhtml#EP5_18'>Eph. 5. 18</a> (Gk.). <a href='TIT.xhtml#TT1_6'>Tit. 1. 6</a>. <a href='1PE.xhtml#P14_4'>1 Pet. 4. 4</a>. So <a href='LUK.xhtml#LK15_13'>Luke 15. 13</a>.
 2 Maccabees	6	4	2	for the temple was filled with riot and 	f	See <a href='WIS.xhtml#WS14_23'>Wisd. 14. 23</a>.
@@ -3622,7 +3622,7 @@
 2 Maccabees	9	1	2	About that time 	a	<a href='2MA.xhtml#M28_25'>ch. 8. 25</a> (Gk.).
 2 Maccabees	9	1	3	About that time came Antiochus 	*	Or, <span class='add'>disorderly</span>.
 2 Maccabees	9	1	4	About that time came Antiochus with dishonour 	b	Comp. <a href='1MA.xhtml#M16_1'>1 Macc. 6. 1</a>, <a href='1MA.xhtml#M16_3'>3–5</a>.
-2 Maccabees	9	10	1	And the man, that thought a little afore 	s	So <a href='ISA.xhtml#IS14_13'>Isai. 14. 13</a>. <a href='OBA.xhtml#OB4_0'>Obad. 4</a>. Comp. <a href='DAN.xhtml#DN8_10'>Dan. 8. 10</a>.
+2 Maccabees	9	10	1	And the man, that thought a little afore 	s	So <a href='ISA.xhtml#IS14_13'>Isai. 14. 13</a>. <a href='OBA.xhtml#OB1_4'>Obad. 4</a>. Comp. <a href='DAN.xhtml#DN8_10'>Dan. 8. 10</a>.
 2 Maccabees	9	11	1		t	Comp. <a href='1MA.xhtml#M16_9'>1 Macc. 6. 9–13</a>.
 2 Maccabees	9	11	2	Here therefore, being plagued, he began to leave off his great pride, and to come to the knowledge of himself by the 	u	See <a href='MRK.xhtml#MK5_29'>Mark 5. 29</a>.
 2 Maccabees	9	11	3	Here therefore, being plagued, he began to leave off his great pride, and to come to the knowledge of himself by the scourge of God, his pain increasing every 	w	<a href='LUK.xhtml#LK4_5'>Luke 4. 5</a>.
@@ -3659,7 +3659,7 @@
 2 Maccabees	9	3	1	Now 	d	Comp. <a href='1MA.xhtml#M16_5'>1 Macc. 6. 5</a>.
 2 Maccabees	9	3	2	Now when he came to 	e	See <a href='TOB.xhtml#TB3_7'>Tobit 3. 7</a>.
 2 Maccabees	9	3	3	Now when he came to Ecbatana, news was brought him what had happened unto 	f	See <a href='1MA.xhtml#M13_38'>1 Macc. 3. 38</a>.
-2 Maccabees	9	3	4	Now when he came to Ecbatana, news was brought him what had happened unto Nicanor and 	g	See <a href='S3Y.xhtml#PA26_0'>Song 26</a>. &amp; <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
+2 Maccabees	9	3	4	Now when he came to Ecbatana, news was brought him what had happened unto Nicanor and 	g	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>. &amp; <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
 2 Maccabees	9	4	1	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his 	h	<a href='2CH.xhtml#R218_33'>2 Chr. 18. 33</a> (Engl.).
 2 Maccabees	9	4	2	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariot man to drive 	i	See <a href='1TH.xhtml#H11_3'>1 Thess. 1. 3</a>.
 2 Maccabees	9	4	3	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariot man to drive without ceasing, and to dispatch the journey, the judgment of 	j	See <a href='1MA.xhtml#M13_60'>1 Macc. 3. 60</a>.
@@ -3711,7 +3711,7 @@ Baruch	1	4	1	and in the hearing of the nobles, and of the kings’ sons, and in 
 Baruch	1	5	1	Whereupon they wept, fasted, 	*	Or, <span class='add'>and vowed vows</span>.
 Baruch	1	6	1	They made also a collection of money 	g	Comp. <a href='1CO.xhtml#C116_2'>1 Cor. 16. 2</a>. <a href='2CO.xhtml#C28_3'>2 Cor. 8. 3</a>. See <a href='ROM.xhtml#RM15_26'>Rom. 15. 26</a>.
 Baruch	1	7	1	and they sent it to Jerusalem unto 	*	Or, <span class='add'>Joacim</span>.
-Baruch	1	7	2	and they sent it to Jerusalem unto Joachim the high priest, the son of 	h	<a href='1CH.xhtml#R16_13'>1 Chr. 6. 13</a> (Gk.). <a href='SUS.xhtml#SN2_0'>Susanna 2</a>?
+Baruch	1	7	2	and they sent it to Jerusalem unto Joachim the high priest, the son of 	h	<a href='1CH.xhtml#R16_13'>1 Chr. 6. 13</a> (Gk.). <a href='SUS.xhtml#SN1_2'>Susanna 2</a>?
 Baruch	1	7	3	and they sent it to Jerusalem unto Joachim the high priest, the son of Chelcias, son of 	i	So <a href='1CH.xhtml#R16_12'>1 Chr. 6. 12</a>, <a href='1CH.xhtml#R16_13'>13</a>.
 Baruch	1	8	1	at the same time when he received 	k	<a href='2KI.xhtml#K224_13'>2 Kin. 24. 13</a>. <a href='2CH.xhtml#R236_10'>2 Chr. 36. 10</a>.
 Baruch	1	8	2	at the same time when he received the vessels of the house of the Lord, that were carried out of the temple, to return them into the land of Juda, the tenth day of the month 	l	<a href='EST.xhtml#ET8_9'>Esther 8. 9</a>.
@@ -3730,7 +3730,7 @@ Baruch	2	11	3	And now, O Lord God of Israel, that hast brought thy people out of
 Baruch	2	12	1	O Lord our God, 	m	<a href='DAN.xhtml#DN9_15'>Dan. 9. 15</a>.
 Baruch	2	12	2	O Lord our God, 	p	See <a href='PSA.xhtml#PS106_6'>Ps. 106. 6</a>.
 Baruch	2	13	1		q	So <a href='DAN.xhtml#DN9_16'>Dan. 9. 16</a>.
-Baruch	2	13	2	Let thy wrath turn from us: 	r	<a href='JER.xhtml#JR42_2'>Jer. 42. 2</a>. So <a href='DEU.xhtml#DT28_62'>Deut. 28. 62</a>. <a href='S3Y.xhtml#PA14_0'>Song 14</a>.
+Baruch	2	13	2	Let thy wrath turn from us: 	r	<a href='JER.xhtml#JR42_2'>Jer. 42. 2</a>. So <a href='DEU.xhtml#DT28_62'>Deut. 28. 62</a>. <a href='S3Y.xhtml#PA1_14'>Song 14</a>.
 Baruch	2	14	1		s	<a href='DAN.xhtml#DN9_17'>Dan. 9. 17</a>.
 Baruch	2	14	2	Hear our prayers, O Lord, and our petitions, and deliver us for thine own sake, and 	t	So <a href='BAR.xhtml#BR1_12'>ch. 1. 12</a>. See <a href='PSA.xhtml#PS106_46'>Ps. 106. 46</a>.
 Baruch	2	15	1		u	<a href='2KI.xhtml#K219_19'>2 Kin. 19. 19</a>. <a href='ISA.xhtml#IS37_20'>Isai. 37. 20</a>.
@@ -3740,8 +3740,8 @@ Baruch	2	16	1	O Lord, 	y	<a href='DEU.xhtml#DT26_15'>Deut. 26. 15</a>. So <a hre
 Baruch	2	16	2	O Lord, look down from thy holy house, and consider us: 	z	<a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>.
 Baruch	2	17	1	Open thine eyes, and behold; 	a	See <a href='PSA.xhtml#PS6_5'>Ps. 6. 5</a>. So <a href='SIR.xhtml#SR17_27'>Ecclus. 17. 27</a>, <a href='SIR.xhtml#SR17_28'>28</a>.
 Baruch	2	17	2	Open thine eyes, and behold; for the dead that are in the graves, whose 	*	Gr. <span class='add'>spirit</span>, or, <span class='add'>life</span>.
-Baruch	2	18	1	but 	b	So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='S3Y.xhtml#PA16_0'>Song 16</a>.
-Baruch	2	19	1		b	So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='S3Y.xhtml#PA16_0'>Song 16</a>.
+Baruch	2	18	1	but 	b	So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='S3Y.xhtml#PA1_16'>Song 16</a>.
+Baruch	2	19	1		b	So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='S3Y.xhtml#PA1_16'>Song 16</a>.
 Baruch	2	2	1	to bring upon us great plagues, such as never happened under the whole heaven, as it came to pass in Jerusalem, 	a	<a href='DAN.xhtml#DN9_12'>Dan. 9. 12</a>, <a href='DAN.xhtml#DN9_13'>13</a>.
 Baruch	2	20	1	For thou hast sent out thy wrath and indignation upon us, 	c	Comp. <a href='DAN.xhtml#DN9_6'>Dan. 9. 6</a>.
 Baruch	2	23	1		e	See <a href='JER.xhtml#JR7_34'>Jer. 7. 34</a>.
@@ -3795,7 +3795,7 @@ Baruch	3	17	2	They that had their pastime with the fowls of the air, And they th
 Baruch	3	19	1	They 	s	So <a href='2MA.xhtml#M25_13'>2 Macc. 5. 13</a> (Gk.).
 Baruch	3	19	2	They are vanished and 	k	Supplied from <a href='BAR.xhtml#BR3_19'>ver. 19</a>.
 Baruch	3	20	1	Young men have seen light, and dwelt upon the earth: But 	t	<a href='BAR.xhtml#BR3_27'>ver. 27</a>, <a href='BAR.xhtml#BR3_36'>36</a>.
-Baruch	3	22	1	It hath not been heard of in Chanaan, 	u	<a href='JER.xhtml#JR49_7'>Jer. 49. 7</a>. So <a href='OBA.xhtml#OB8_0'>Obad. 8</a>, <a href='OBA.xhtml#OB9_0'>9</a>.
+Baruch	3	22	1	It hath not been heard of in Chanaan, 	u	<a href='JER.xhtml#JR49_7'>Jer. 49. 7</a>. So <a href='OBA.xhtml#OB1_8'>Obad. 8</a>, <a href='OBA.xhtml#OB1_9'>9</a>.
 Baruch	3	22	2	It hath not been heard of in Chanaan, Neither hath it been seen in 	v	See <a href='1CH.xhtml#R11_45'>1 Chr. 1. 45</a>.
 Baruch	3	23	1	The 	w	See <a href='1CH.xhtml#R15_10'>1 Chr. 5. 10</a>. Comp. <a href='1KI.xhtml#K14_30'>1 Kin. 4. 30</a>.
 Baruch	3	23	2	The Agarenes that seek wisdom upon earth, The merchants of 	x	<a href='GEN.xhtml#GN37_36'>Gen. 37. 36</a>?
@@ -3845,7 +3845,7 @@ Baruch	4	23	2	For I sent you out with mourning and weeping: But God will give yo
 Baruch	4	24	1	Like as now 	d	<a href='BAR.xhtml#BR4_14'>ver. 14</a>, <a href='BAR.xhtml#BR4_24'>24</a> (Gk.).
 Baruch	4	24	2	Like as now the neighbours of Sion have seen your captivity: So shall they see shortly your salvation from our God, Which shall come upon you with great glory, And 	a	<a href='SIR.xhtml#SR25_11'>Ecclus. 25. 11</a>. So <a href='BAR.xhtml#BR4_24'>ver. 24</a>. <a href='BAR.xhtml#BR5_3'>ch. 5. 3</a>, <a href='BAR.xhtml#BR5_9'>9</a>.
 Baruch	4	24	3	Like as now the neighbours of Sion have seen your captivity: So shall they see shortly your salvation from our God, Which shall come upon you with great glory, And brightness of 	o	<a href='BAR.xhtml#BR4_10'>ver. 10</a>, <a href='BAR.xhtml#BR4_14'>14</a>, <a href='BAR.xhtml#BR4_20'>20</a>, <a href='BAR.xhtml#BR4_22'>22</a>, <a href='BAR.xhtml#BR4_24'>24</a>. <a href='BAR.xhtml#BR5_2'>ch. 5. 2</a>. So <a href='BAR.xhtml#BR4_8'>ver. 8</a>.
-Baruch	4	26	1		*	Or, <span class='add'>My darlings</span>. <a href='SUS.xhtml#SN31_0'>Susanna 31</a>.
+Baruch	4	26	1		*	Or, <span class='add'>My darlings</span>. <a href='SUS.xhtml#SN1_31'>Susanna 31</a>.
 Baruch	4	27	1	Be of good comfort, O my children, and cry unto God: For you shall be remembered of him 	k	<a href='BAR.xhtml#BR4_29'>ver. 29</a>.
 Baruch	4	28	1	For as it was your mind 	kk	<a href='SIR.xhtml#SR51_13'>Ecclus. 51. 13</a> marg.
 Baruch	4	28	2	For as it was your mind to go astray from God: So, being returned, seek him 	l	See <a href='JOB.xhtml#JB19_3'>Job 19. 3</a>.
@@ -3890,7 +3890,7 @@ Baruch	6	16	3	Whereby they are known not to be gods: 	o	Comp. <a href='BAR.xhtml
 Baruch	6	17	1	For like as a vessel that a man useth is nothing worth when it is broken; even so it is with their gods: when they be set up in the temple, their eyes be 	l	<a href='BAR.xhtml#BR6_17'>ver. 17</a>.
 Baruch	6	18	1	And as 	p	Comp. <a href='JER.xhtml#JR37_16'>Jer. 37. 16</a>. &amp; <a href='JER.xhtml#JR38_6'>38. 6</a>.
 Baruch	6	18	2	And as the 	*	Or, <span class='add'>courts</span>. <a href='1MA.xhtml#M111_46'>1 Macc. 11. 46</a>. See <a href='REV.xhtml#RV11_2'>Rev. 11. 2</a>.
-Baruch	6	18	3	And as the doors are made sure on every side upon him that offendeth the king, as being 	q	<a href='SUS.xhtml#SN45_0'>Susanna 45</a>. <a href='ACT.xhtml#AC12_19'>Acts 12. 19</a> in the Gk.
+Baruch	6	18	3	And as the doors are made sure on every side upon him that offendeth the king, as being 	q	<a href='SUS.xhtml#SN1_45'>Susanna 45</a>. <a href='ACT.xhtml#AC12_19'>Acts 12. 19</a> in the Gk.
 Baruch	6	18	4	And as the doors are made sure on every side upon him that offendeth the king, as being committed to suffer death: even so the priests make fast their temples with doors, with locks, and bars, lest their gods be spoiled with 	m	<a href='BAR.xhtml#BR6_18'>ver. 18</a>, <a href='BAR.xhtml#BR6_57'>57</a> (Gk.). <a href='SIR.xhtml#SR36_26'>Ecclus. 36. 26</a>. <a href='JHN.xhtml#JN18_40'>John 18. 40</a> (Gk.).
 Baruch	6	2	1	Because of the sins which ye have committed before God, 	a	<a href='2KI.xhtml#K224_12'>2 Kin. 24. 12–16</a>. &amp; <a href='2KI.xhtml#K225_11'>25. 11</a>. <a href='2CH.xhtml#R236_10'>2 Chr. 36. 10</a>, <a href='2CH.xhtml#R236_20'>20</a>. <a href='JER.xhtml#JR25_9'>Jer. 25. 9</a>.
 Baruch	6	20	1	They are 	qq	<a href='BAR.xhtml#BR6_55'>ver. 55</a>.
@@ -3909,7 +3909,7 @@ Baruch	6	27	3	They also that serve them are ashamed: for if they fall to the gro
 Baruch	6	27	4	They also that serve them are ashamed: for if they fall to the ground at any time, they cannot rise up again of themselves: neither, if one set them upright, can they move of themselves: neither, if they be bowed down, can they make themselves straight: but they 	v	<a href='BAR.xhtml#BR6_30'>ver. 30</a>.
 Baruch	6	27	5	They also that serve them are ashamed: for if they fall to the ground at any time, they cannot rise up again of themselves: neither, if one set them upright, can they move of themselves: neither, if they be bowed down, can they make themselves straight: but they set 	*	Or, <span class='add'>offerings</span>. <a href='LUK.xhtml#LK21_4'>Luke 21. 4</a>.
 Baruch	6	27	6	They also that serve them are ashamed: for if they fall to the ground at any time, they cannot rise up again of themselves: neither, if one set them upright, can they move of themselves: neither, if they be bowed down, can they make themselves straight: but they set gifts before them, 	w	Comp. <a href='BAR.xhtml#BR6_32'>ver. 32</a>, <a href='BAR.xhtml#BR6_71'>71</a>. Or see <a href='JER.xhtml#JR18_15'>Jer. 18. 15</a>?
-Baruch	6	28	1	As for the things that are sacrificed unto them, 	x	<a href='BEL.xhtml#BL13_0'>Bel and Drag. 13</a>.
+Baruch	6	28	1	As for the things that are sacrificed unto them, 	x	<a href='BEL.xhtml#BL1_13'>Bel and Drag. 13</a>.
 Baruch	6	28	2	As for the things that are sacrificed unto them, their priests sell and 	*	Or, <span class='add'>spend</span>.
 Baruch	6	28	3	As for the things that are sacrificed unto them, their priests sell and 	y	<a href='1CO.xhtml#C17_31'>1 Cor. 7. 31</a>. &amp; <a href='1CO.xhtml#C19_18'>9. 18</a>.
 Baruch	6	28	4	As for the things that are sacrificed unto them, their priests sell and abuse; 	z	Comp. <a href='BAR.xhtml#BR6_33'>ver. 33</a>.
@@ -3936,7 +3936,7 @@ Baruch	6	4	3	Now shall ye see in Babylon gods of silver, and of gold, and of woo
 Baruch	6	40	1		m	So <a href='BAR.xhtml#BR6_44'>ver. 44</a>, <a href='BAR.xhtml#BR6_56'>56</a>, <a href='BAR.xhtml#BR6_64'>64</a> (Gk.). Comp. <a href='BAR.xhtml#BR6_16'>ver. 16</a>, <a href='BAR.xhtml#BR6_49'>49</a>, <a href='BAR.xhtml#BR6_52'>52</a>.
 Baruch	6	41	1		n	Comp. <a href='WIS.xhtml#WS13_18'>Wisd. 13. 18</a>.
 Baruch	6	41	2	Who if they shall see one dumb that cannot speak, they 	*	Or, <span class='add'>bid</span> him <span class='add'>call upon Bel</span>.
-Baruch	6	41	3	Who if they shall see one dumb that cannot speak, they bring him, and intreat 	o	<a href='BEL.xhtml#BL3_0'>Bel and Drag. 3</a>, &amp;c. See <a href='ISA.xhtml#IS46_1'>Isai. 46. 1</a>.
+Baruch	6	41	3	Who if they shall see one dumb that cannot speak, they bring him, and intreat 	o	<a href='BEL.xhtml#BL1_3'>Bel and Drag. 3</a>, &amp;c. See <a href='ISA.xhtml#IS46_1'>Isai. 46. 1</a>.
 Baruch	6	42	1	Yet they cannot understand this themselves, and leave them: for they have no 	*	Or, <span class='add'>sense</span>. See <a href='PHP.xhtml#PP1_9'>Phil. 1. 9</a>.
 Baruch	6	43	1		p	Comp. <a href='LEV.xhtml#LV19_29'>Lev. 19. 29</a>.
 Baruch	6	43	2	The women also with cords about them, sitting in the ways, burn 	q	Comp. <a href='JER.xhtml#JR7_18'>Jer. 7. 18</a>.
@@ -3997,28 +3997,28 @@ Bel and the Dragon	0	3	6	Now the Babylonians had an idol, called 	c	<a href='BAR
 Bel and the Dragon	0	3	7	Now the Babylonians had an idol, called Bel, and 	d	Comp. <a href='JER.xhtml#JR51_44'>Jer. 51. 44</a>.
 Bel and the Dragon	0	3	8	Now the Babylonians had an idol, called Bel, and there were spent upon him every day twelve great measures of fine flour, and forty sheep, and six 	e	<a href='1ES.xhtml#E18_20'>1 Esdr. 8. 20</a> (Gk.). See <a href='JHN.xhtml#JN2_6'>John 2. 6</a>.
 Bel and the Dragon	0	5	9	Who answered and said, Because I may not worship idols made with hands, but 	f	See <a href='EST.xhtml#ET16_16'>Esther 16. 16</a>.
-Bel and the Dragon	0	7	10	Then Daniel 	l	<a href='BEL.xhtml#BL7_0'>ver. 7</a> (Gk.).
+Bel and the Dragon	0	7	10	Then Daniel 	l	<a href='BEL.xhtml#BL1_7'>ver. 7</a> (Gk.).
 Bel and the Dragon	0	7	11	Then Daniel smiled, and said, O king, be not deceived: for this is but clay within, and brass without, and 	g	<a href='SIR.xhtml#SR30_19'>Ecclus. 30. 19</a>.
-Bel and the Dragon	0	8	12	So the king was wroth, and called for his priests, and said unto them, If ye tell me not who this is that devoureth 	h	<a href='BEL.xhtml#BL3_0'>ver. 3</a>.
+Bel and the Dragon	0	8	12	So the king was wroth, and called for his priests, and said unto them, If ye tell me not who this is that devoureth 	h	<a href='BEL.xhtml#BL1_3'>ver. 3</a>.
 Bel and the Dragon	0	9	13	But if ye can certify me that Bel devoureth them, then Daniel shall die: for he hath 	i	Comp. Gk. of <a href='MRK.xhtml#MK3_29'>Mark 3. 29</a>. <a href='LUK.xhtml#LK12_10'>Luke 12. 10</a>.
 Bel and the Dragon	0	11	14	So Bel’s priests said, Lo, we go out: but thou, O king, set on the meat, and make ready the wine, and shut the door fast, and 	j	See <a href='DAN.xhtml#DN6_17'>Dan. 6. 17</a>.
 Bel and the Dragon	0	13	15	And they little regarded it: for under the table they had made a privy entrance, whereby they entered in continually, and 	k	<a href='BAR.xhtml#BR6_28'>Baruch 6. 28</a>.
 Bel and the Dragon	0	14	16	So when they were gone forth, the king set meats before Bel. Now Daniel had commanded his servants to bring ashes, and those they strewed throughout all the temple in the presence of the king alone: then went they out, and shut the door, and 	j	See <a href='DAN.xhtml#DN6_17'>Dan. 6. 17</a>.
 Bel and the Dragon	0	15	17	Now in the night came the priests with their wives and children, (as they were wont to do,) and 	k	<a href='BAR.xhtml#BR6_28'>Baruch 6. 28</a>.
-Bel and the Dragon	0	19	18	Then 	l	<a href='BEL.xhtml#BL7_0'>ver. 7</a> (Gk.).
-Bel and the Dragon	0	21	19	and took the priests with their wives and children, who shewed him 	m	<a href='BEL.xhtml#BL13_0'>ver. 13</a>.
+Bel and the Dragon	0	19	18	Then 	l	<a href='BEL.xhtml#BL1_7'>ver. 7</a> (Gk.).
+Bel and the Dragon	0	21	19	and took the priests with their wives and children, who shewed him 	m	<a href='BEL.xhtml#BL1_13'>ver. 13</a>.
 Bel and the Dragon	0	23	20		*	Some add this title, <span class='add'>Of the dragon</span>.
-Bel and the Dragon	0	24	21	And the king said unto Daniel, Wilt thou also say 	n	<a href='BEL.xhtml#BL7_0'>ver. 7</a>
+Bel and the Dragon	0	24	21	And the king said unto Daniel, Wilt thou also say 	n	<a href='BEL.xhtml#BL1_7'>ver. 7</a>
 Bel and the Dragon	0	25	22	Then said Daniel unto the king, 	o	So <a href='DEU.xhtml#DT6_13'>Deut. 6. 13</a>.
 Bel and the Dragon	0	25	23	Then said Daniel unto the king, I will worship the Lord my God: for he is 	f	See <a href='EST.xhtml#ET16_16'>Esther 16. 16</a>.
 Bel and the Dragon	0	27	24	Then Daniel took pitch, and fat, and hair, and did seethe them together, and made lumps thereof: this he put in the dragon’s mouth, and so the dragon burst in sunder: and Daniel said, 	*	Or, <span class='add'>Behold</span> <span class="notemark">p</span> <span class='add'>what you worship</span>.
 Bel and the Dragon	0	27	25	Then Daniel took pitch, and fat, and hair, and did seethe them together, and made lumps thereof: this he put in the dragon’s mouth, and so the dragon burst in sunder: and Daniel said, Lo, these are 	p	See <a href='2TH.xhtml#H22_4'>2 Thess. 2. 4</a>.
-Bel and the Dragon	0	28	26	When they of Babylon heard that, they took great indignation, and conspired against the king, saying, The king is become a Jew, and 	q	<a href='BEL.xhtml#BL22_0'>ver. 22</a>.
-Bel and the Dragon	0	28	27	When they of Babylon heard that, they took great indignation, and conspired against the king, saying, The king is become a Jew, and he hath destroyed Bel, he hath slain the dragon, and 	q	<a href='BEL.xhtml#BL22_0'>ver. 22</a>.
+Bel and the Dragon	0	28	26	When they of Babylon heard that, they took great indignation, and conspired against the king, saying, The king is become a Jew, and 	q	<a href='BEL.xhtml#BL1_22'>ver. 22</a>.
+Bel and the Dragon	0	28	27	When they of Babylon heard that, they took great indignation, and conspired against the king, saying, The king is become a Jew, and he hath destroyed Bel, he hath slain the dragon, and 	q	<a href='BEL.xhtml#BL1_22'>ver. 22</a>.
 Bel and the Dragon	0	31	28		r	Comp. <a href='DAN.xhtml#DN6_16'>Dan. 6. 16</a>.
 Bel and the Dragon	0	32	29	And in the den there were seven lions, and they had given them every day 	*	Or, <span class='add'>two slaves</span>. See <a href='REV.xhtml#RV18_13'>Rev. 18. 13</a>.
 Bel and the Dragon	0	33	30	Now there was in Jewry a prophet, called 	s	Not as <a href='HAB.xhtml#HK1_1'>Hab. 1. 1</a>.
-Bel and the Dragon	0	33	31	Now there was in Jewry a prophet, called Habacuc, who had 	*	Or, <span class='add'>sod</span>. Gk. as <a href='BEL.xhtml#BL27_0'>ver. 27</a>.
+Bel and the Dragon	0	33	31	Now there was in Jewry a prophet, called Habacuc, who had 	*	Or, <span class='add'>sod</span>. Gk. as <a href='BEL.xhtml#BL1_27'>ver. 27</a>.
 Bel and the Dragon	0	36	32	Then the angel of the Lord 	t	<a href='EZK.xhtml#EK8_3'>Ezek. 8. 3</a>.
 Bel and the Dragon	0	36	33	Then the angel of the Lord took him by the crown, and 	u	See <a href='1KI.xhtml#K118_12'>1 Kin. 18. 12</a>.
 Bel and the Dragon	0	37	34	And Habacuc cried, saying, O Daniel, Daniel, 	v	Comp. <a href='1KI.xhtml#K117_4'>1 Kin. 17. 4</a>.
@@ -4065,13 +4065,13 @@ Esther	13	17	1	Hear my prayer, and be merciful unto thine inheritance: 	q	So <a 
 Esther	13	17	2	Hear my prayer, and be merciful unto thine inheritance: turn our sorrow into joy, that we may live, O Lord, and praise thy name: and 	*	Or, <span class='add'>shut</span>, or, <span class='add'>stop not</span>.
 Esther	13	17	3	Hear my prayer, and be merciful unto thine inheritance: turn our sorrow into joy, that we may live, O Lord, and praise thy name: and 	r	<a href='EST.xhtml#ET14_9'>ch. 14. 9</a>.
 Esther	13	18	1	All Israel in like manner cried 	*	Gr. <span class='add'>mightily</span>.
-Esther	13	2	1	After that I became lord over many nations, and had dominion over the whole 	c	<a href='EST.xhtml#ET13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA22_0'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
+Esther	13	2	1	After that I became lord over many nations, and had dominion over the whole 	c	<a href='EST.xhtml#ET13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA1_22'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
 Esther	13	2	2	After that I became lord over many nations, and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself alway with equity and mildness, I purposed to settle 	cc	<a href='EST.xhtml#ET16_3'>ch. 16. 3</a>.
 Esther	13	2	3	After that I became lord over many nations, and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself alway with equity and mildness, I purposed to settle my subjects continually in a quiet life, and making my kingdom 	*	Or, <span class='add'>mild.</span> <a href='1TI.xhtml#T12_2'>1 Tim. 2. 2</a> (Gk.).
 Esther	13	3	1	Now when I asked my counsellers how this might be brought to pass, Aman, that excelled in wisdom among us, and was 	d	<a href='ACT.xhtml#AC2_22'>Acts 2. 22</a>.
 Esther	13	3	2	Now when I asked my counsellers how this might be brought to pass, Aman, that excelled in wisdom among us, and was approved for his constant good will and stedfast fidelity, and 	e	So <a href='EST.xhtml#ET13_6'>ver. 6</a>. See <a href='EST.xhtml#ET10_3'>ch. 10. 3</a>.
 Esther	13	4	1		f	<a href='EST.xhtml#ET3_8'>ch. 3. 8</a>.
-Esther	13	4	2	declared unto us, that in all nations throughout 	c	<a href='EST.xhtml#ET13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA22_0'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
+Esther	13	4	2	declared unto us, that in all nations throughout 	c	<a href='EST.xhtml#ET13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA1_22'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
 Esther	13	4	3	declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably 	g	<a href='EST.xhtml#ET16_16'>ch. 16. 16</a> (Gk.).
 Esther	13	4	4	declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably intended by us, cannot 	*	Or, <span class='add'>be settled</span>.
 Esther	13	6	1	therefore have we commanded, that all they that are signified in writing unto you by Aman, who is ordained over the affairs, and is 	*	Or, <span class='add'>second from us</span>. So <a href='JDT.xhtml#JT2_4'>Judith 2. 4</a>. <a href='EST.xhtml#ET13_3'>ver. 3</a>. <a href='EST.xhtml#ET16_11'>ch. 16. 11</a>.
@@ -4135,7 +4135,7 @@ Esther	16	11	1	had so far forth obtained the favour that we shew toward every na
 Esther	16	11	2	had so far forth obtained the favour that we shew toward every nation, as that he was called our father, and was continually honoured of all men, as 	i	See <a href='EST.xhtml#ET13_6'>ch. 13. 6</a>.
 Esther	16	12	1	But he, not bearing his 	j	<a href='EST.xhtml#ET14_16'>ch. 14. 16</a> (Gk.).
 Esther	16	16	1	and that they be children of 	k	See <a href='1ES.xhtml#E16_31'>1 Esdr. 6. 31</a>.
-Esther	16	16	2	and that they be children of the most high and most mighty 	l	<a href='BEL.xhtml#BL5_0'>Bel and Drag. 5</a>, <a href='BEL.xhtml#BL24_0'>24</a>. So <a href='2MA.xhtml#M27_33'>2 Macc. 7. 33</a>. &amp; <a href='2MA.xhtml#M215_4'>15. 4</a>. See <a href='PSA.xhtml#PS42_2'>Ps. 42. 2</a>.
+Esther	16	16	2	and that they be children of the most high and most mighty 	l	<a href='BEL.xhtml#BL1_5'>Bel and Drag. 5</a>, <a href='BEL.xhtml#BL1_24'>24</a>. So <a href='2MA.xhtml#M27_33'>2 Macc. 7. 33</a>. &amp; <a href='2MA.xhtml#M215_4'>15. 4</a>. See <a href='PSA.xhtml#PS42_2'>Ps. 42. 2</a>.
 Esther	16	16	3	and that they be children of the most high and most mighty living God, who hath 	*	Or, <span class='add'>prospered</span>. <a href='EST.xhtml#ET13_4'>ch. 13. 4</a> (Gk.).
 Esther	16	17	1	Wherefore ye shall do well not to put in execution the letters sent unto you by Aman the son of 	g	Gk. as <a href='EST.xhtml#ET12_6'>ch. 12. 6</a>. Comp. <a href='EST.xhtml#ET3_1'>ch. 3. 1</a>.
 Esther	16	18	1	For he, that was the worker of these things, 	m	<a href='EST.xhtml#ET7_10'>ch. 7. 10</a>.
@@ -4339,7 +4339,7 @@ Judith	16	15	1	For 	z	Comp. <a href='2SA.xhtml#S222_8'>2 Sam. 22. 8</a>, <a href
 Judith	16	15	2	For the mountains shall be moved from their foundations with the waters, The rocks 	a	See <a href='PSA.xhtml#PS68_2'>Ps. 68. 2</a>.
 Judith	16	16	1	For all sacrifice is too little for 	b	<a href='EPH.xhtml#EP5_2'>Eph. 5. 2</a>. <a href='PHP.xhtml#PP4_18'>Phil. 4. 18</a> in the Gk. So <a href='SIR.xhtml#SR45_16'>Ecclus. 45. 16</a>. See <a href='GEN.xhtml#GN8_21'>Gen. 8. 21</a> marg.
 Judith	16	17	1	Woe to the nations that rise up against my kindred! The Lord 	i	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
-Judith	16	17	2	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them 	c	<a href='EST.xhtml#ET10_11'>Esther 10. 11</a>. <a href='MAT.xhtml#MT10_15'>Matt. 10. 15</a>. &amp; <a href='MAT.xhtml#MT11_22'>11. 22</a>, <a href='MAT.xhtml#MT11_24'>24</a>. &amp; <a href='MAT.xhtml#MT12_36'>12. 36</a>. <a href='MRK.xhtml#MK6_11'>Mark 6. 11</a>. <a href='2PE.xhtml#P22_9'>2 Pet. 2. 9</a>. &amp; <a href='2PE.xhtml#P23_7'>3. 7</a>. <a href='1JN.xhtml#1JN4_17'>1 John 4. 17</a>. So <a href='JUD.xhtml#JD6_0'>Jude 6</a>.
+Judith	16	17	2	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them 	c	<a href='EST.xhtml#ET10_11'>Esther 10. 11</a>. <a href='MAT.xhtml#MT10_15'>Matt. 10. 15</a>. &amp; <a href='MAT.xhtml#MT11_22'>11. 22</a>, <a href='MAT.xhtml#MT11_24'>24</a>. &amp; <a href='MAT.xhtml#MT12_36'>12. 36</a>. <a href='MRK.xhtml#MK6_11'>Mark 6. 11</a>. <a href='2PE.xhtml#P22_9'>2 Pet. 2. 9</a>. &amp; <a href='2PE.xhtml#P23_7'>3. 7</a>. <a href='1JN.xhtml#1JN4_17'>1 John 4. 17</a>. So <a href='JUD.xhtml#JD1_6'>Jude 6</a>.
 Judith	16	17	3	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them in the day of judgment, In putting fire and 	d	Comp. <a href='JOB.xhtml#JB14_22'>Job 14. 22</a>. <a href='ISA.xhtml#IS66_24'>Isai. 66. 24</a>.
 Judith	16	19	1	Judith also dedicated all the 	e	See <a href='JDT.xhtml#JT15_11'>ch. 15. 11</a>.
 Judith	16	19	2	Judith also dedicated all the stuff of Olofernes, which the people had given her, and gave the 	f	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
@@ -4349,7 +4349,7 @@ Judith	16	2	2	And Judith said, Begin unto my God with timbrels, Sing unto my Lor
 Judith	16	2	3	And Judith said, Begin unto my God with timbrels, Sing unto my Lord with cymbals: Tune unto him a 	*	Or, <span class='add'>psalm and praise</span>.
 Judith	16	20	1	So the people continued feasting in Jerusalem 	h	<a href='JDT.xhtml#JT4_13'>ch. 4. 13</a>.
 Judith	16	22	1	And many desired her, but none knew her all the days of her life, after that 	i	<a href='JDT.xhtml#JT8_2'>ch. 8. 2</a>.
-Judith	16	22	2	And many desired her, but none knew her all the days of her life, after that Manasses her husband was dead, and 	k	See <a href='GEN.xhtml#GN25_8'>Gen. 25. 8</a>. See <a href='BEL.xhtml#BL1_0'>Bel &amp;amp; Drag. 1</a>. <a href='1MA.xhtml#M12_69'>1 Macc. 2. 69</a>.
+Judith	16	22	2	And many desired her, but none knew her all the days of her life, after that Manasses her husband was dead, and 	k	See <a href='GEN.xhtml#GN25_8'>Gen. 25. 8</a>. See <a href='BEL.xhtml#BL1_1'>Bel &amp;amp; Drag. 1</a>. <a href='1MA.xhtml#M12_69'>1 Macc. 2. 69</a>.
 Judith	16	23	1	But she increased more and more in honour, and waxed old in her husband’s house, being 	l	Comp. <a href='TOB.xhtml#TB14_11'>Tobit 14. 11</a>, <a href='TOB.xhtml#TB14_14'>14</a>.
 Judith	16	23	2	But she increased more and more in honour, and waxed old in her husband’s house, being an hundred and five years old, and made 	m	See <a href='JDT.xhtml#JT8_33'>ch. 8. 33</a>.
 Judith	16	23	3	But she increased more and more in honour, and waxed old in her husband’s house, being an hundred and five years old, and made her maid free; so she died in Bethulia: and they buried her in the 	*	Or, <span class='add'>sepulchre</span>.
@@ -4642,8 +4642,8 @@ Prayer of Manasseh	0	6	7	but thy merciful promise is unmeasurable and 	c	<a href
 Prayer of Manasseh	0	7	8	for thou art the most high Lord, of 	d	So <a href='SIR.xhtml#SR2_11'>Ecclus. 2. 11</a>. See <a href='PSA.xhtml#PS86_15'>Ps. 86. 15</a>.
 Prayer of Manasseh	0	7	9	for thou art the most high Lord, of 	e	<a href='JOL.xhtml#JL2_13'>Joel 2. 13</a>.
 Prayer of Manasseh	0	7	10	for thou art the most high Lord, of great compassion, longsuffering, very merciful, 	e	<a href='JOL.xhtml#JL2_13'>Joel 2. 13</a>.
-Prayer of Manasseh	0	7	11	for thou art the most high Lord, of great compassion, longsuffering, very merciful, and repentest of the evils of men. Thou, O Lord, according to thy great goodness hast promised repentance and forgiveness to them that have sinned against thee: and of thine infinite mercies hast appointed 	f	<a href='2CO.xhtml#C27_10'>2 Cor. 7. 10</a> (Lat.).
-Prayer of Manasseh	0	7	12	for thou art the most high Lord, of great compassion, longsuffering, very merciful, and repentest of the evils of men. Thou, O Lord, according to thy great goodness hast promised repentance and forgiveness to them that have sinned against thee: and of thine infinite mercies hast appointed repentance unto sinners, 	f	<a href='2CO.xhtml#C27_10'>2 Cor. 7. 10</a> (Lat.).
+Prayer of Manasseh	0	7	11	for thou art the most high Lord, of great compassion, longsuffering, very merciful, and repentest of the evils of men: Thou, O Lord, according to thy great goodness hast promised repentance and forgiveness to them that have sinned against thee: and of thine infinite mercies hast appointed 	f	<a href='2CO.xhtml#C27_10'>2 Cor. 7. 10</a> (Lat.).
+Prayer of Manasseh	0	7	12	for thou art the most high Lord, of great compassion, longsuffering, very merciful, and repentest of the evils of men: Thou, O Lord, according to thy great goodness hast promised repentance and forgiveness to them that have sinned against thee: and of thine infinite mercies hast appointed repentance unto sinners, 	f	<a href='2CO.xhtml#C27_10'>2 Cor. 7. 10</a> (Lat.).
 Prayer of Manasseh	0	8	13	Thou therefore, O Lord, that art the God of the 	g	l. 3 (Lat.).
 Prayer of Manasseh	0	8	14	Thou therefore, O Lord, that art the God of the just, hast not appointed repentance to the 	g	1. 3 (Lat.).
 Prayer of Manasseh	0	8	15	Thou therefore, O Lord, that art the God of the just, hast not appointed repentance to the just, as to Abraham, and Isaac, and Jacob, 	h	Comp. <a href='LUK.xhtml#LK15_7'>Luke 15. 7</a>.
@@ -4658,7 +4658,7 @@ Prayer of Manasseh	0	10	23	I am bowed down with many iron bands, that I cannot l
 Prayer of Manasseh	0	13	24	wherefore, I humbly beseech thee, forgive me, O Lord, forgive me, and destroy me not with mine iniquities. 	o	So <a href='EZR.xhtml#ER9_14'>Ezra 9. 14</a>.
 Prayer of Manasseh	0	13	25	wherefore, I humbly beseech thee, forgive me, O Lord, forgive me, and destroy me not with mine iniquities. Be not angry with me for ever, by reserving evil for me; neither condemn me 	p	Comp. <a href='PSA.xhtml#PS88_6'>Ps. 88. 6</a>.
 Prayer of Manasseh	0	14	26	and 	q	So <a href='ROM.xhtml#RM9_23'>Rom. 9. 23</a>.
-Prayer of Manasseh	0	15	27	Therefore I will praise thee for ever all the days of my life: for 	r	So <a href='S3Y.xhtml#PA39_0'>Song 39</a>.
+Prayer of Manasseh	0	15	27	Therefore I will praise thee for ever all the days of my life: for 	r	So <a href='S3Y.xhtml#PA1_39'>Song 39</a>.
 Prayer of Manasseh	0	15	28	Therefore I will praise thee for ever all the days of my life: for all the powers of the heavens do praise thee, and 	s	<a href='1ES.xhtml#E14_59'>1 Esdr. 4. 59</a>. <a href='MAT.xhtml#MT6_13'>Matt. 6. 13</a>.
 Sirach	1	1	1		*	Before CHRIST about 200.
 Sirach	1	1	2		a	<a href='1KI.xhtml#K13_9'>1 Kin. 3. 9</a>. &amp; <a href='1KI.xhtml#K14_29'>4. 29</a>. See <a href='JAS.xhtml#JM1_5'>Jam. 1. 5</a>.
@@ -4780,7 +4780,7 @@ Sirach	12	4	2	Give to the godly man, 	d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. S
 Sirach	12	4	3	Give to the godly man, 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
 Sirach	12	5	1	Do well unto him that is lowly, but 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
 Sirach	12	5	2	Do well unto him that is lowly, but give not to the ungodly: Hold back thy bread, and give it not unto him, lest he overmaster thee thereby: For else 	f	<a href='SIR.xhtml#SR11_34'>ch. 11. 34</a>.
-Sirach	12	6	1	For the most High hateth sinners, And will repay vengeance unto the ungodly, And 	g	Comp. <a href='JUD.xhtml#JD6_0'>Jude 6</a>.
+Sirach	12	6	1	For the most High hateth sinners, And will repay vengeance unto the ungodly, And 	g	Comp. <a href='JUD.xhtml#JD1_6'>Jude 6</a>.
 Sirach	12	7	1		d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
 Sirach	12	7	2	Give unto the good, 	d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
 Sirach	12	7	3	Give unto the good, 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
@@ -4809,7 +4809,7 @@ Sirach	13	8	2	Beware that thou be not deceived, And brought down in thy 	e	See <
 Sirach	14	1	1		a	<a href='SIR.xhtml#SR25_8'>ch. 25. 8</a>.
 Sirach	14	1	2	Blessed is the man that hath not 	a	<a href='SIR.xhtml#SR25_8'>ch. 25. 8</a>.
 Sirach	14	1	3	Blessed is the man that hath not 	b	<a href='SIR.xhtml#SR19_16'>ch. 19. 16</a>. See <a href='JAS.xhtml#JM3_2'>Jam. 3. 2</a>.
-Sirach	14	1	4	Blessed is the man that hath not slipt with his mouth, And is not 	c	<a href='SIR.xhtml#SR12_12'>ch. 12. 12</a>. &amp; <a href='SIR.xhtml#SR20_21'>20. 21</a> marg. <a href='SUS.xhtml#SN10_0'>Susanna 10</a> (Gk.). <a href='ACT.xhtml#AC2_37'>Acts 2. 37</a>.
+Sirach	14	1	4	Blessed is the man that hath not slipt with his mouth, And is not 	c	<a href='SIR.xhtml#SR12_12'>ch. 12. 12</a>. &amp; <a href='SIR.xhtml#SR20_21'>20. 21</a> marg. <a href='SUS.xhtml#SN1_10'>Susanna 10</a> (Gk.). <a href='ACT.xhtml#AC2_37'>Acts 2. 37</a>.
 Sirach	14	1	5	Blessed is the man that hath not slipt with his mouth, And is not pricked with the 	*	Or, <span class='add'>sorrow</span>.
 Sirach	14	10	1		h	<a href='PRO.xhtml#PR23_6'>Prov. 23. 6</a>, <a href='PRO.xhtml#PR23_7'>7</a>. <a href='SIR.xhtml#SR31_13'>ch. 31. 13</a>. See <a href='MAT.xhtml#MT6_23'>Matt. 6. 23</a>.
 Sirach	14	10	2	A wicked eye 	i	See <a href='TOB.xhtml#TB4_7'>Tobit 4. 7</a>.
@@ -4919,7 +4919,7 @@ Sirach	17	23	2	Afterward he will rise up and reward them, And 	a	So <a href='PRO
 Sirach	17	24	1	But 	b	So <a href='ACT.xhtml#AC3_19'>Acts 3. 19</a>.
 Sirach	17	25	1		c	<a href='JER.xhtml#JR3_12'>Jer. 3. 12</a>.
 Sirach	17	25	2	Return unto the Lord, and forsake thy sins, Make thy prayer before his face, and 	*	Or, <span class='add'>lessen</span> thy <span class="notemark">d</span> <span class='add'>offence</span>.
-Sirach	17	25	3	Return unto the Lord, and forsake thy sins, Make thy prayer before his face, and 	e	Comp. <a href='MAN.xhtml#PN1_0'>Prayer of Manasses</a>.
+Sirach	17	25	3	Return unto the Lord, and forsake thy sins, Make thy prayer before his face, and 	e	Comp. <a href='MAN.xhtml#PN1_1'>Prayer of Manasses</a>.
 Sirach	17	26	1	Turn again to the most High, and turn away from iniquity: For he will lead thee out of darkness into the 	*	Or, <span class='add'>illumination</span>. <a href='SIR.xhtml#SR25_11'>ch. 25. 11</a>.
 Sirach	17	27	1		f	See <a href='PSA.xhtml#PS6_5'>Ps. 6. 5</a>. So <a href='BAR.xhtml#BR2_17'>Baruch 2. 17</a>.
 Sirach	17	28	1	Thanksgiving perisheth from the dead, as from one that is not: 	g	<a href='ISA.xhtml#IS38_19'>Isai. 38. 19</a>.
@@ -5005,7 +5005,7 @@ Sirach	19	9	2	For he heard and observed thee, And when time cometh he will 	*	Or
 Sirach	2	1	1	My son, 	a	Comp. <a href='MAT.xhtml#MT4_1'>Matt. 4. 1</a>. <a href='2TI.xhtml#T23_12'>2 Tim. 3. 12</a>. <a href='1PE.xhtml#P14_12'>1 Pet. 4. 12</a>.
 Sirach	2	10	1		l	Comp. <a href='PSA.xhtml#PS37_25'>Ps. 37. 25</a>.
 Sirach	2	10	2	Look at the generations of old, and see; Did ever any trust in the Lord, and was confounded? Or did any abide in his fear, and was forsaken? Or 	m	<a href='PSA.xhtml#PS30_2'>Ps. 30. 2</a>. &amp; <a href='PSA.xhtml#PS145_18'>145. 18</a>.
-Sirach	2	11	1	For 	n	<a href='MAN.xhtml#PN1_0'>Prayer of Manasses</a>. See <a href='PSA.xhtml#PS86_15'>Ps. 86. 15</a>.
+Sirach	2	11	1	For 	n	<a href='MAN.xhtml#PN1_1'>Prayer of Manasses</a>. See <a href='PSA.xhtml#PS86_15'>Ps. 86. 15</a>.
 Sirach	2	11	2	For the Lord is full of compassion and mercy, Longsuffering, and very pitiful, and 	o	See <a href='PSA.xhtml#PS130_4'>Ps. 130. 4</a>.
 Sirach	2	12	1	Woe be to 	p	<a href='SIR.xhtml#SR22_18'>ch. 22. 18</a>. So <a href='REV.xhtml#RV21_8'>Rev. 21. 8</a>. See <a href='WIS.xhtml#WS9_14'>Wisd. 9. 14</a>.
 Sirach	2	12	2	Woe be to fearful hearts, and 	q	<a href='SIR.xhtml#SR25_23'>ch. 25. 23</a>. <a href='HEB.xhtml#HB12_12'>Heb. 12. 12</a> in the Gk.
@@ -5216,7 +5216,7 @@ Sirach	24	27	1	He maketh the doctrine of knowledge appear as the light, And as 	
 Sirach	24	3	1	I came out of the mouth of the most High, And covered the earth as 	*	Or, <span class='add'>a mist</span>. <a href='WIS.xhtml#WS2_4'>Wisd. 2. 4</a>. <a href='SIR.xhtml#SR43_22'>ch. 43. 22</a>.
 Sirach	24	30	1	I also came out as a 	*	Or, <span class='add'>drain</span>, or, <span class='add'>ditch</span>. <a href='SIR.xhtml#SR24_31'>ver. 31</a>.
 Sirach	24	30	2	I also came out as a brook from a river, And 	j	Gk. as <a href='2KI.xhtml#K218_17'>2 Kin. 18. 17</a>. &amp; <a href='2KI.xhtml#K220_20'>20. 20</a>. Comp. <a href='EZK.xhtml#EK31_4'>Ezek. 31. 4</a>.
-Sirach	24	30	3	I also came out as a brook from a river, And as a conduit into a 	k	<a href='GEN.xhtml#GN2_8'>Gen. 2. 8</a>. <a href='SUS.xhtml#SN4_0'>Susanna 4</a> (Gk.), <a href='SUS.xhtml#SN7_0'>7</a>, <a href='SUS.xhtml#SN15_0'>15</a>, <a href='SUS.xhtml#SN17_0'>17</a>, <a href='SUS.xhtml#SN18_0'>18</a>, &amp;c. See <a href='LUK.xhtml#LK23_43'>Luke 23. 43</a>. Gk. not as <a href='SIR.xhtml#SR24_31'>ver. 31</a>.
+Sirach	24	30	3	I also came out as a brook from a river, And as a conduit into a 	k	<a href='GEN.xhtml#GN2_8'>Gen. 2. 8</a>. <a href='SUS.xhtml#SN1_4'>Susanna 4</a> (Gk.), <a href='SUS.xhtml#SN1_7'>7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a>, &amp;c. See <a href='LUK.xhtml#LK23_43'>Luke 23. 43</a>. Gk. not as <a href='SIR.xhtml#SR24_31'>ver. 31</a>.
 Sirach	24	33	1	I will yet pour out 	l	<a href='ROM.xhtml#RM12_6'>Rom. 12. 6</a>, <a href='ROM.xhtml#RM12_7'>7</a> (Gk.).
 Sirach	24	33	2	I will yet pour out doctrine as 	l	<a href='ROM.xhtml#RM12_6'>Rom. 12. 6</a>, <a href='ROM.xhtml#RM12_7'>7</a> (Gk.).
 Sirach	24	34	1	Behold 	m	<a href='SIR.xhtml#SR33_17'>ch. 33. 17</a>.
@@ -5417,7 +5417,7 @@ Sirach	3	30	1	Water will quench a flaming fire; And 	s	So <a href='PSA.xhtml#PS4
 Sirach	3	31	1	And he that requiteth good turns is mindful of that which may come hereafter; And 	t	Comp. <a href='LUK.xhtml#LK16_9'>Luke 16. 9</a>.
 Sirach	3	4	1	And he that honoureth his mother is as one that 	b	<a href='1TI.xhtml#T16_19'>1 Tim. 6. 19</a> (Gk.).
 Sirach	3	6	1	He that honoureth his father 	a	<a href='SIR.xhtml#SR3_8'>ver. 8</a>. <a href='SIR.xhtml#SR7_27'>ch. 7. 27</a>. See <a href='EXO.xhtml#EX20_12'>Exod. 20. 12</a>.
-Sirach	3	6	2	He that honoureth his father shall have a long life; And he that is obedient unto the Lord shall 	c	<a href='MAT.xhtml#MT11_28'>Matt. 11. 28</a>. <a href='1CO.xhtml#C116_18'>1 Cor. 16. 18</a>. <a href='2CO.xhtml#C27_13'>2 Cor. 7. 13</a>. <a href='PHM.xhtml#PM7_0'>Philem. 7</a>, <a href='PHM.xhtml#PM20_0'>20</a>. So <a href='ROM.xhtml#RM15_32'>Rom. 15. 32</a> in the Gk.
+Sirach	3	6	2	He that honoureth his father shall have a long life; And he that is obedient unto the Lord shall 	c	<a href='MAT.xhtml#MT11_28'>Matt. 11. 28</a>. <a href='1CO.xhtml#C116_18'>1 Cor. 16. 18</a>. <a href='2CO.xhtml#C27_13'>2 Cor. 7. 13</a>. <a href='PHM.xhtml#PM1_7'>Philem. 7</a>, <a href='PHM.xhtml#PM1_20'>20</a>. So <a href='ROM.xhtml#RM15_32'>Rom. 15. 32</a> in the Gk.
 Sirach	3	8	1		a	<a href='SIR.xhtml#SR3_8'>ver. 8</a>. <a href='SIR.xhtml#SR7_27'>ch. 7. 27</a>. See <a href='EXO.xhtml#EX20_12'>Exod. 20. 12</a>.
 Sirach	3	9	1	For 	d	<a href='GEN.xhtml#GN27_27'>Gen. 27. 27–29</a>. &amp; <a href='GEN.xhtml#GN49_2'>49. 2</a>, &amp;c. Comp. <a href='DEU.xhtml#DT33_1'>Deut. 33. 1</a>.
 Sirach	30	1	1		*	Of children.
@@ -5429,11 +5429,11 @@ Sirach	30	12	1		g	See <a href='SIR.xhtml#SR7_23'>ch. 7. 23</a>.
 Sirach	30	13	1	Chastise thy son, and 	h	<a href='SIR.xhtml#SR33_25'>ch. 33. 25</a>.
 Sirach	30	14	1		*	Of health.
 Sirach	30	18	1	Delicates poured upon a mouth shut up Are as 	i	See <a href='TOB.xhtml#TB4_17'>Tobit 4. 17</a>.
-Sirach	30	19	1		k	<a href='BEL.xhtml#BL7_0'>Bel and Dragon 7</a>.
+Sirach	30	19	1		k	<a href='BEL.xhtml#BL1_7'>Bel and Dragon 7</a>.
 Sirach	30	19	2	What good doth the 	l	<a href='LEV.xhtml#LV4_10'>Lev. 4. 10</a>, &amp;c. <a href='SIR.xhtml#SR45_16'>ch. 45. 16</a> in the Gk.
 Sirach	30	19	3	What good doth the offering unto an idol? For neither can it eat 	m	<a href='PSA.xhtml#PS115_6'>Ps. 115. 6</a>.
 Sirach	30	19	4	What good doth the offering unto an idol? For neither can it eat nor smell: So is he that is 	*	Or, <span class='add'>afflicted</span>.
-Sirach	30	2	1	He that chastiseth his son shall have 	*	Or, <span class='add'>good by him</span>. <a href='PHM.xhtml#PM20_0'>Philem. 20</a>.
+Sirach	30	2	1	He that chastiseth his son shall have 	*	Or, <span class='add'>good by him</span>. <a href='PHM.xhtml#PM1_20'>Philem. 20</a>.
 Sirach	30	2	2	He that chastiseth his son shall have joy in him, And shall rejoice of him among his 	*	Or, <span class='add'>kinsfolk</span>.
 Sirach	30	20	1	He seeth with his eyes and groaneth, 	n	<a href='SIR.xhtml#SR20_4'>ch. 20. 4</a>.
 Sirach	30	21	1		o	See <a href='PRO.xhtml#PR12_25'>Prov. 12. 25</a>.
@@ -5555,7 +5555,7 @@ Sirach	34	19	2	The most High is not pleased with the offerings of the wicked; 	p
 Sirach	34	2	1	Whoso 	*	Or, <span class='add'>hath his mind upon</span>. <a href='SIR.xhtml#SR34_15'>ver. 15</a> (Gk.). See <a href='SIR.xhtml#SR5_1'>ch. 5. 1</a>.
 Sirach	34	20	1		q	Comp. <a href='2SA.xhtml#S212_3'>2 Sam. 12. 3</a>, <a href='2SA.xhtml#S212_4'>4</a>. <a href='SIR.xhtml#SR35_12'>ch. 35. 12</a>.
 Sirach	34	22	1	He that taketh away his neighbour’s living slayeth him; And 	r	See <a href='LEV.xhtml#LV19_13'>Lev. 19. 13</a>. &amp; <a href='SIR.xhtml#SR7_20'>ch. 7. 20</a>.
-Sirach	34	24	1	When one prayeth, and another curseth, Whose voice will the 	s	<a href='BAR.xhtml#BR6_6'>Baruch 6. 6</a>. <a href='S3Y.xhtml#PA14_0'>Song 14</a>. <a href='SUS.xhtml#SN5_0'>Susanna 5</a>. <a href='LUK.xhtml#LK2_29'>Luke 2. 29</a>. <a href='ACT.xhtml#AC4_24'>Acts 4. 24</a> in the Gk. So <a href='SIR.xhtml#SR36_1'>ch. 36. 1</a>.
+Sirach	34	24	1	When one prayeth, and another curseth, Whose voice will the 	s	<a href='BAR.xhtml#BR6_6'>Baruch 6. 6</a>. <a href='S3Y.xhtml#PA1_14'>Song 14</a>. <a href='SUS.xhtml#SN1_5'>Susanna 5</a>. <a href='LUK.xhtml#LK2_29'>Luke 2. 29</a>. <a href='ACT.xhtml#AC4_24'>Acts 4. 24</a> in the Gk. So <a href='SIR.xhtml#SR36_1'>ch. 36. 1</a>.
 Sirach	34	25	1		t	See <a href='NUM.xhtml#NU19_11'>Numb. 19. 11</a>, <a href='NUM.xhtml#NU19_12'>12</a>.
 Sirach	34	26	1	So is it with a man 	u	<a href='ISA.xhtml#IS58_3'>Isai. 58. 3</a>.
 Sirach	34	26	2	So is it with a man that fasteth for his sins, And 	x	See <a href='MAT.xhtml#MT12_45'>Matt. 12. 45</a>.
@@ -5927,7 +5927,7 @@ Sirach	42	7	2	Deliver all things in number and weight; And put all in writing th
 Sirach	42	8	1		i	Supplied from <a href='SIR.xhtml#SR42_1'>ver. 1</a>
 Sirach	42	8	2	Be not ashamed to 	*	Or, <span class='add'>rebuke</span>. <a href='SIR.xhtml#SR42_5'>ver. 5</a> (Gk.).
 Sirach	42	8	3	Be not ashamed to inform the unwise and foolish, And 	k	<a href='SIR.xhtml#SR41_2'>ch. 41. 2</a> (Gk.).
-Sirach	42	8	4	Be not ashamed to inform the unwise and foolish, And the extreme aged 	*	Or, <span class='add'>that is accused of fornication</span>. Comp. <a href='SUS.xhtml#SN61_0'>Susanna 61</a>, <a href='SUS.xhtml#SN62_0'>62</a>.
+Sirach	42	8	4	Be not ashamed to inform the unwise and foolish, And the extreme aged 	*	Or, <span class='add'>that is accused of fornication</span>. Comp. <a href='SUS.xhtml#SN1_61'>Susanna 61</a>, <a href='SUS.xhtml#SN1_62'>62</a>.
 Sirach	42	9	1		l	So <a href='SIR.xhtml#SR7_24'>ch. 7. 24</a>, <a href='SIR.xhtml#SR7_25'>25</a>.
 Sirach	42	9	2	The father waketh for the daughter, when no man knoweth; And the care for her taketh away sleep: When she is young, lest she 	m	So <a href='1CO.xhtml#C17_36'>1 Cor. 7. 36</a>.
 Sirach	43	10	1	At the commandment of the Holy One they will stand in their order, And never faint 	h	<a href='BAR.xhtml#BR3_34'>Baruch 3. 34</a>.
@@ -5999,7 +5999,7 @@ Sirach	44	9	1	And some there be, which have no memorial; 	d	Comp. <a href='GEN.x
 Sirach	44	9	2	And some there be, which have no memorial; Who are perished, 	e	<a href='WIS.xhtml#WS2_2'>Wisd. 2. 2</a>. <a href='SIR.xhtml#SR38_11'>ch. 38. 11</a>. (Gk.).
 Sirach	45	1	1	And he brought 	a	<a href='SIR.xhtml#SR47_22'>ch. 47. 22</a>.
 Sirach	45	1	2	And he brought out of him a merciful man, Which 	aa	See <a href='SIR.xhtml#SR41_24'>ch. 41. 24</a>. So <a href='EXO.xhtml#EX11_3'>Ex. 11. 3</a>.
-Sirach	45	1	3	And he brought out of him a merciful man, Which found favour in the sight of all flesh, Even Moses, 	b	So <a href='SIR.xhtml#SR46_13'>ch. 46. 13</a>. <a href='BAR.xhtml#BR3_34'>Baruch 3. 36</a>. <a href='S3Y.xhtml#PA12_0'>Song 12</a>.
+Sirach	45	1	3	And he brought out of him a merciful man, Which found favour in the sight of all flesh, Even Moses, 	b	So <a href='SIR.xhtml#SR46_13'>ch. 46. 13</a>. <a href='BAR.xhtml#BR3_34'>Baruch 3. 36</a>. <a href='S3Y.xhtml#PA1_12'>Song 12</a>.
 Sirach	45	1	4	And he brought out of him a merciful man, Which found favour in the sight of all flesh, Even Moses, beloved of God and men, 	bb	<a href='SIR.xhtml#SR46_11'>ch. 46. 11</a>. &amp; <a href='SIR.xhtml#SR49_10'>49. 10</a>. <a href='1MA.xhtml#M13_7'>1 Macc. 3. 7</a>. See <a href='PRO.xhtml#PR10_7'>Prov. 10. 7</a>.
 Sirach	45	10	1		q	So <a href='1MA.xhtml#M13_49'>1 Macc. 3. 49</a>. See <a href='WIS.xhtml#WS18_24'>Wisd. 18. 24</a>.
 Sirach	45	10	2	With a holy garment, with gold, and 	r	<a href='1MA.xhtml#M14_23'>1 Macc. 4. 23</a>. See <a href='SIR.xhtml#SR40_4'>ch. 40. 4</a>.
@@ -6386,7 +6386,7 @@ Sirach	7	25	1	Marry thy daughter, and so shalt thou have performed a weighty mat
 Sirach	7	26	1	Hast thou a wife after thy mind? forsake her not: But give not thyself over to a 	*	Or, <span class='add'>hateful</span>.
 Sirach	7	27	1		e	See <a href='SIR.xhtml#SR3_2'>ch. 3. 2</a>.
 Sirach	7	27	2	Honour thy father with thy whole heart, And 	f	<a href='TOB.xhtml#TB4_3'>Tobit 4. 3</a>.
-Sirach	7	29	1	Fear the Lord with all thy soul, And 	g	<a href='JUD.xhtml#JD16_0'>Jude 16</a> (Gk.).
+Sirach	7	29	1	Fear the Lord with all thy soul, And 	g	<a href='JUD.xhtml#JD1_16'>Jude 16</a> (Gk.).
 Sirach	7	3	1	My son, 	b	See <a href='PRO.xhtml#PR22_8'>Prov. 22. 8</a>.
 Sirach	7	3	2	My son, sow not upon the furrows of unrighteousness, And thou shalt not reap them 	c	<a href='SIR.xhtml#SR20_12'>ch. 20. 12</a>. &amp; <a href='SIR.xhtml#SR35_11'>35. 11</a>. &amp; <a href='SIR.xhtml#SR40_8'>40. 8</a>. See <a href='PSA.xhtml#PS79_12'>Ps. 79. 12</a>.
 Sirach	7	30	1		h	See <a href='DEU.xhtml#DT6_5'>Deut. 6. 5</a>.
@@ -6465,9 +6465,9 @@ Sirach Prologue	2	1	15	The Prologue of the Wisdom of Jesus, the Son of Sirach. W
 Sirach Prologue	2	1	16	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them; and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. 	*	About B.C. 133.
 Sirach Prologue	2	1	17	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them; and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. For in the eight and thirtieth year coming into Egypt, when Euergetes was king, and continuing there some time, I found a 	*	Or, <span class='add'>help of learning</span>.
 Sirach Prologue	2	1	18	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them; and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. For in the eight and thirtieth year coming into Egypt, when Euergetes was king, and continuing there some time, I found a book of no small learning: therefore I thought it most necessary for me to bestow some diligence and travail to interpret it; using great watchfulness and skill in that space to bring the book to an end, and set it forth for them also, which 	c	<a href='ACT.xhtml#AC13_17'>Acts 13. 17</a> (Gk.).
-Song of Three Youths	0	2	1	Then 	a	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a> (Gk.). <a href='S3Y.xhtml#PA26_0'>ver. 26</a>, <a href='S3Y.xhtml#PA66_0'>66</a>.
+Song of Three Youths	0	2	1	Then 	a	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a> (Gk.). <a href='S3Y.xhtml#PA1_26'>ver. 26</a>, <a href='S3Y.xhtml#PA1_66'>66</a>.
 Song of Three Youths	0	2	2	Then Azarias stood up, and prayed on this manner; and 	b	<a href='2ES.xhtml#E29_28'>2 Esdr. 9. 28</a>. &amp; <a href='2ES.xhtml#E214_41'>14. 41</a>. See <a href='MAT.xhtml#MT5_2'>Matt. 5. 2</a>.
-Song of Three Youths	0	3	3		bb	<a href='S3Y.xhtml#PA29_0'>ver. 29</a>, <a href='S3Y.xhtml#PA30_0'>30</a>.
+Song of Three Youths	0	3	3		bb	<a href='S3Y.xhtml#PA1_29'>ver. 29</a>, <a href='S3Y.xhtml#PA1_30'>30</a>.
 Song of Three Youths	0	4	4	for 	c	<a href='DAN.xhtml#DN9_14'>Dan. 9. 14</a>. See <a href='EZR.xhtml#ER9_15'>Ezra 9. 15</a>.
 Song of Three Youths	0	4	5	for thou art righteous in all the things that thou hast done to us: yea, true are all thy works, 	d	<a href='PSA.xhtml#PS25_10'>Ps. 25. 10</a>.
 Song of Three Youths	0	4	6	for thou art righteous in all the things that thou hast done to us: yea, true are all thy works, thy ways are right, and 	d	<a href='PSA.xhtml#PS25_10'>Ps. 25. 10</a>.
@@ -6488,16 +6488,16 @@ Song of Three Youths	0	15	20	Neither is there at this time prince, 	p	See <a hre
 Song of Three Youths	0	15	21	Neither is there at this time prince, or prophet, or leader, or burnt offering, or sacrifice, or oblation, or incense, or 	q	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9</a>. <a href='2CH.xhtml#R236_19'>2 Chr. 36. 19</a>.
 Song of Three Youths	0	16	22	Nevertheless in 	r	See <a href='PSA.xhtml#PS51_17'>Ps. 51. 17</a>. Comp. <a href='BAR.xhtml#BR2_18'>Baruch 2. 18</a>.
 Song of Three Youths	0	17	23		s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
-Song of Three Youths	0	17	24	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so 	s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
-Song of Three Youths	0	17	25	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may 	t	<a href='DEU.xhtml#DT1_36'>Deut. 1. 36</a> marg.
-Song of Three Youths	0	17	26	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may wholly go after thee: for 	u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
+Song of Three Youths	0	17	24	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so 	s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
+Song of Three Youths	0	17	25	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may 	t	<a href='DEU.xhtml#DT1_36'>Deut. 1. 36</a> marg.
+Song of Three Youths	0	17	26	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may wholly go after thee: for 	u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
 Song of Three Youths	0	19	27		u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
 Song of Three Youths	0	19	28	Put us not to shame: but 	x	<a href='PSA.xhtml#PS119_124'>Ps. 119. 124</a>.
 Song of Three Youths	0	19	29	Put us not to shame: but deal with us after thy 	y	See <a href='WIS.xhtml#WS2_19'>Wisd. 2. 19</a>.
 Song of Three Youths	0	20	30	Deliver us also according to thy marvellous works, and 	z	<a href='PSA.xhtml#PS115_1'>Ps. 115. 1</a>.
 Song of Three Youths	0	21	31	and let them be confounded 	*	Or, <span class='add'>by</span> thy <span class='add'>power and might</span>.
 Song of Three Youths	0	22	32	and 	a	<a href='PSA.xhtml#PS59_13'>Ps. 59. 13</a>. <a href='2MA.xhtml#M21_27'>2 Macc. 1. 27</a>.
-Song of Three Youths	0	22	33	And let them know that thou art God, the only God, and glorious over 	b	See <a href='EST.xhtml#ET13_2'>Esther 13. 2</a>.
+Song of Three Youths	0	22	33	and let them know that thou art Lord, the only God, and glorious over 	b	See <a href='EST.xhtml#ET13_2'>Esther 13. 2</a>.
 Song of Three Youths	0	23	34	And the king’s servants, that put them in, ceased not to make the oven hot with 	*	Or, <span class='add'>nap</span>[<span class='add'>h</span>]<span class='add'>tha</span>, which is a certain kind of fat and chalky clay. <span class='add'>Plin. lib</span>. 2. <span class='add'>c</span>[<span class='add'>ap</span>]. 105.
 Song of Three Youths	0	23	35	And the king’s servants, that put them in, ceased not to make the oven hot with rosin, pitch, 	c	<a href='ISA.xhtml#IS1_31'>Isai. 1. 31</a> (Gk.).
 Song of Three Youths	0	24	36	so that 	d	Comp. <a href='DAN.xhtml#DN3_22'>Dan. 3. 22</a>.
@@ -6510,29 +6510,29 @@ Song of Three Youths	0	27	42	and made the midst of the furnace as it had been a 
 Song of Three Youths	0	27	43	and made the midst of the furnace as it had been a moist whistling wind, so that the fire touched them not at all, 	e	Comp. <a href='DAN.xhtml#DN3_25'>Dan. 3. 25</a>.
 Song of Three Youths	0	27	44	and made the midst of the furnace as it had been a moist whistling wind, so that the fire touched them not at all, neither hurt nor 	i	See <a href='1MA.xhtml#M110_63'>1 Macc. 10. 63</a>.
 Song of Three Youths	0	28	45	Then the three, 	k	<a href='ROM.xhtml#RM15_6'>Rom. 15. 6</a>.
-Song of Three Youths	0	29	46		l	<a href='S3Y.xhtml#PA3_0'>ver. 3</a>.
-Song of Three Youths	0	30	47	And 	l	<a href='S3Y.xhtml#PA3_0'>ver. 3</a>.
+Song of Three Youths	0	29	46		l	<a href='S3Y.xhtml#PA1_3'>ver. 3</a>.
+Song of Three Youths	0	30	47	And 	l	<a href='S3Y.xhtml#PA1_3'>ver. 3</a>.
 Song of Three Youths	0	31	48	Blessed art thou 	m	Comp. <a href='ISA.xhtml#IS6_1'>Isai. 6. 1</a>.
 Song of Three Youths	0	32	49	Blessed art thou 	n	<a href='PSA.xhtml#PS77_16'>Ps. 77. 16</a>. &amp; <a href='PSA.xhtml#PS139_9'>139. 9</a>, <a href='PSA.xhtml#PS139_10'>10</a>.
 Song of Three Youths	0	32	50	Blessed art thou that beholdest the depths, And 	o	<a href='PSA.xhtml#PS80_1'>Ps. 80. 1</a>. &amp; <a href='PSA.xhtml#PS99_1'>99. 1</a> in the Gk.
 Song of Three Youths	0	34	51	Blessed art thou 	p	So <a href='PSA.xhtml#PS150_1'>Ps. 150. 1</a>.
 Song of Three Youths	0	35	52		q	<a href='PSA.xhtml#PS103_22'>Ps. 103. 22</a>. So <a href='PSA.xhtml#PS145_10'>Ps. 145. 10</a>.
-Song of Three Youths	0	35	53	O all ye works of the Lord, bless ye the Lord: Praise and 	*	Or, <span class='add'>highly exalt:</span> and so in the rest. [So <a href='S3Y.xhtml#PA29_0'>ver. 29</a>, <a href='S3Y.xhtml#PA30_0'>30</a>, <a href='S3Y.xhtml#PA32_0'>32</a>, <a href='S3Y.xhtml#PA33_0'>33</a>.]
+Song of Three Youths	0	35	53	O all ye works of the Lord, bless ye the Lord: Praise and 	*	Or, <span class='add'>highly exalt:</span> and so in the rest. [So <a href='S3Y.xhtml#PA1_29'>ver. 29</a>, <a href='S3Y.xhtml#PA1_30'>30</a>, <a href='S3Y.xhtml#PA1_32'>32</a>, <a href='S3Y.xhtml#PA1_33'>33</a>.]
 Song of Three Youths	0	36	54	O ye 	r	<a href='PSA.xhtml#PS148_4'>Ps. 148. 4</a>.
 Song of Three Youths	0	37	55	O ye 	s	<a href='PSA.xhtml#PS148_2'>Ps. 148. 2</a>.
 Song of Three Youths	0	38	56	O all ye 	r	<a href='PSA.xhtml#PS148_4'>Ps. 148. 4</a>.
-Song of Three Youths	0	39	57	O all ye 	t	So <a href='MAN.xhtml#PN15_0'>Prayer of Manasses 1. 60</a>. See <a href='ROM.xhtml#RM8_38'>Rom. 8. 38</a>.
+Song of Three Youths	0	39	57	O all ye 	t	So <a href='MAN.xhtml#PN1_15'>Prayer of Manasses 1. 60</a>. See <a href='ROM.xhtml#RM8_38'>Rom. 8. 38</a>.
 Song of Three Youths	0	40	58	O ye 	u	<a href='PSA.xhtml#PS148_3'>Ps. 148. 3</a>.
 Song of Three Youths	0	41	59	O ye 	u	<a href='PSA.xhtml#PS148_3'>Ps. 148. 3</a>.
-Song of Three Youths	0	42	60	O every shower and 	w	<a href='S3Y.xhtml#PA46_0'>ver. 46</a>.
+Song of Three Youths	0	42	60	O every shower and 	w	<a href='S3Y.xhtml#PA1_46'>ver. 46</a>.
 Song of Three Youths	0	43	61	O all ye 	x	<a href='PSA.xhtml#PS148_8'>Ps. 148. 8</a>.
 Song of Three Youths	0	44	62	O ye 	x	<a href='PSA.xhtml#PS148_8'>Ps. 148. 8</a>.
-Song of Three Youths	0	45	63	O ye 	y	<a href='S3Y.xhtml#PA49_0'>ver. 49</a> (Gk.).
+Song of Three Youths	0	45	63	O ye 	y	<a href='S3Y.xhtml#PA1_49'>ver. 49</a> (Gk.).
 Song of Three Youths	0	45	64	O ye winter and 	z	See <a href='JAS.xhtml#JM1_11'>James 1. 11</a>.
-Song of Three Youths	0	46	65	O ye 	w	<a href='S3Y.xhtml#PA46_0'>ver. 46</a>.
-Song of Three Youths	0	46	66	O ye dews and 	a	Comp. <a href='S3Y.xhtml#PA50_0'>ver. 50</a>.
-Song of Three Youths	0	49	67	O ye ice and 	b	<a href='S3Y.xhtml#PA45_0'>ver. 45</a> (Gk.). <a href='PSA.xhtml#PS147_17'>Ps. 147. 17</a>.
-Song of Three Youths	0	50	68	O ye frost and 	a	Comp. <a href='S3Y.xhtml#PA50_0'>ver. 50</a>.
+Song of Three Youths	0	46	65	O ye 	w	<a href='S3Y.xhtml#PA1_46'>ver. 46</a>.
+Song of Three Youths	0	46	66	O ye dews and 	a	Comp. <a href='S3Y.xhtml#PA1_50'>ver. 50</a>.
+Song of Three Youths	0	49	67	O ye ice and 	b	<a href='S3Y.xhtml#PA1_45'>ver. 45</a> (Gk.). <a href='PSA.xhtml#PS147_17'>Ps. 147. 17</a>.
+Song of Three Youths	0	50	68	O ye frost and 	a	Comp. <a href='S3Y.xhtml#PA1_50'>ver. 50</a>.
 Song of Three Youths	0	50	69	O ye frost and 	x	<a href='PSA.xhtml#PS148_8'>Ps. 148. 8</a>.
 Song of Three Youths	0	53	70	O ye 	c	<a href='PSA.xhtml#PS148_9'>Ps. 148. 9</a>.
 Song of Three Youths	0	54	71	O 	c	<a href='PSA.xhtml#PS148_9'>Ps. 148. 9</a>.
@@ -6547,77 +6547,77 @@ Song of Three Youths	0	65	79	O ye 	*	Or, <span class='add'>saints</span>. See <a
 Song of Three Youths	0	65	80	O ye holy and 	i	So <a href='MAT.xhtml#MT5_3'>Matt. 5. 3</a>.
 Song of Three Youths	0	66	81	O 	k	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a> (Gk.). <a href='1MA.xhtml#M12_59'>1 Macc. 2. 59</a>.
 Song of Three Youths	0	66	82	O Ananias, 	k	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a> (Gk.). <a href='1MA.xhtml#M12_59'>1 Macc. 2. 59</a>.
-Song of Three Youths	0	66	83	O Ananias, 	l	<a href='S3Y.xhtml#PA2_0'>ver. 2</a>, <a href='S3Y.xhtml#PA26_0'>26</a>.
+Song of Three Youths	0	66	83	O Ananias, 	l	<a href='S3Y.xhtml#PA1_2'>ver. 2</a>, <a href='S3Y.xhtml#PA1_26'>26</a>.
 Song of Three Youths	0	66	84	O Ananias, Azarias, and 	k	<a href='DAN.xhtml#DN1_6'>Dan. 1. 6</a>, <a href='DAN.xhtml#DN1_7'>7</a> (Gk.). <a href='1MA.xhtml#M12_59'>1 Macc. 2. 59</a>.
 Song of Three Youths	0	66	85	O Ananias, Azarias, and Misael, bless ye the Lord: Praise and exalt him above all for ever: For 	m	See <a href='PSA.xhtml#PS56_13'>Ps. 56. 13</a>.
 Song of Three Youths	0	66	86	O Ananias, Azarias, and Misael, bless ye the Lord: Praise and exalt him above all for ever: For he hath delivered us from 	*	Or, [<span class='add'>the</span>] <span class='add'>grave</span>. <a href='2MA.xhtml#M26_23'>2 Macc. 6. 23</a>. See <a href='1CO.xhtml#C115_55'>1 Cor 15. 55</a>.
 Song of Three Youths	0	67	87		n	So <a href='1MA.xhtml#M14_24'>1 Macc. 4. 24</a>. See <a href='PSA.xhtml#PS136_1'>Ps. 136. 1</a>.
 Song of Three Youths	0	68	88	O all ye that worship the Lord, 	o	<a href='PSA.xhtml#PS136_2'>Ps. 136. 2</a>.
 Song of Three Youths	0	68	89	O all ye that worship the Lord, bless the God of gods, Praise him, and give him thanks: 	o	<a href='PSA.xhtml#PS136_2'>Ps. 136. 2</a>.
-Susanna	0	0	1	Set apart from the beginning of Daniel, because it is not in Hebrew, as neither the Narration of 	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
-Susanna	0	1	2	There dwelt a man in Babylon, called 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
+Susanna	0	0	1	The History of Susanna. set apart from the beginning of Daniel, because it is not in Hebrew, as neither the narration of 	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
+Susanna	0	1	2	There dwelt a man in Babylon, called 	a	<a href='SUS.xhtml#SN1_29'>ver. 29</a>, <a href='SUS.xhtml#SN1_63'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
 Susanna	0	2	3	and he took a wife, whose name was 	b	Comp. <a href='LUK.xhtml#LK8_3'>Luke 8. 3</a>.
-Susanna	0	2	4	and he took a wife, whose name was Susanna, the daughter of 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
-Susanna	0	2	5	and he took a wife, whose name was Susanna, the daughter of Chelcias, a very 	x	<a href='SUS.xhtml#SN2_0'>ver. 2</a> (Gk.).
+Susanna	0	2	4	and he took a wife, whose name was Susanna, the daughter of 	a	<a href='SUS.xhtml#SN1_29'>ver. 29</a>, <a href='SUS.xhtml#SN1_63'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
+Susanna	0	2	5	and he took a wife, whose name was Susanna, the daughter of Chelcias, a very 	x	<a href='SUS.xhtml#SN1_2'>ver. 2</a> (Gk.).
 Susanna	0	3	6	Her parents also were 	c	<a href='LUK.xhtml#LK1_6'>Luke 1. 6</a>.
 Susanna	0	4	7	Now Joacim was 	d	Comp. <a href='TOB.xhtml#TB1_13'>Tobit 1. 13</a>, <a href='TOB.xhtml#TB1_14'>14</a>, <a href='TOB.xhtml#TB1_22'>22</a>.
-Susanna	0	4	8	Now Joacim was a great rich man, and had a 	e	<a href='SUS.xhtml#SN7_0'>ver. 7</a>, <a href='SUS.xhtml#SN15_0'>15</a>, <a href='SUS.xhtml#SN17_0'>17</a>, <a href='SUS.xhtml#SN18_0'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
+Susanna	0	4	8	Now Joacim was a great rich man, and had a 	e	<a href='SUS.xhtml#SN1_7'>ver. 7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
 Susanna	0	5	9		f	Comp. <a href='EST.xhtml#ET3_8'>Esth. 3. 8</a>.
-Susanna	0	5	10	The same year were appointed two of the 	g	<a href='SUS.xhtml#SN41_0'>ver. 41</a>, <a href='SUS.xhtml#SN50_0'>50</a> (Gk.). See <a href='JDT.xhtml#JT6_16'>Judith 6. 16</a>.
+Susanna	0	5	10	The same year were appointed two of the 	g	<a href='SUS.xhtml#SN1_41'>ver. 41</a>, <a href='SUS.xhtml#SN1_50'>50</a> (Gk.). See <a href='JDT.xhtml#JT6_16'>Judith 6. 16</a>.
 Susanna	0	5	11	The same year were appointed two of the ancients of the people to be judges, such as the 	h	See <a href='SIR.xhtml#SR34_24'>Ecclus. 34. 24</a>.
 Susanna	0	5	12	The same year were appointed two of the ancients of the people to be judges, such as the Lord spake of, 	i	Comp. <a href='JER.xhtml#JR29_22'>Jer. 29. 22</a>,<a href='JER.xhtml#JR29_23'>23</a>.
 Susanna	0	5	13	The same year were appointed two of the ancients of the people to be judges, such as the Lord spake of, that wickedness came from Babylon from ancient judges, who 	j	<a href='MRK.xhtml#MK10_42'>Mark 10. 42</a> (Gk.).
-Susanna	0	6	14	These 	k	See <a href='ACT.xhtml#AC2_42'>Acts 2. 42</a> (Gk.). So <a href='SUS.xhtml#SN28_0'>ver. 28</a>.
-Susanna	0	7	15	Now when the people departed away 	l	<a href='GEN.xhtml#GN43_16'>Gen. 43. 16</a>. <a href='SUS.xhtml#SN13_0'>ver. 13</a>.
-Susanna	0	7	16	Now when the people departed away at noon, Susanna went into her husband’s 	e	<a href='SUS.xhtml#SN7_0'>ver. 7</a>, <a href='SUS.xhtml#SN15_0'>15</a>, <a href='SUS.xhtml#SN17_0'>17</a>, <a href='SUS.xhtml#SN18_0'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
-Susanna	0	9	17	And 	m	So <a href='NUM.xhtml#NU15_39'>Num. 15. 39</a> (Gk.). <a href='SUS.xhtml#SN56_0'>ver. 56</a>.
+Susanna	0	6	14	These 	k	See <a href='ACT.xhtml#AC2_42'>Acts 2. 42</a> (Gk.). So <a href='SUS.xhtml#SN1_28'>ver. 28</a>.
+Susanna	0	7	15	Now when the people departed away 	l	<a href='GEN.xhtml#GN43_16'>Gen. 43. 16</a>. <a href='SUS.xhtml#SN1_13'>ver. 13</a>.
+Susanna	0	7	16	Now when the people departed away at noon, Susanna went into her husband’s 	e	<a href='SUS.xhtml#SN1_7'>ver. 7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
+Susanna	0	9	17	And 	m	So <a href='NUM.xhtml#NU15_39'>Num. 15. 39</a> (Gk.). <a href='SUS.xhtml#SN1_56'>ver. 56</a>.
 Susanna	0	10	18	And albeit they both were 	n	See <a href='SIR.xhtml#SR14_1'>Ecclus. 14. 1</a>.
-Susanna	0	13	19	And the one said to the other, Let us now go home: 	l	<a href='GEN.xhtml#GN43_16'>Gen. 43. 16</a>. <a href='SUS.xhtml#SN13_0'>ver. 13</a>.
+Susanna	0	13	19	And the one said to the other, Let us now go home: 	l	<a href='GEN.xhtml#GN43_16'>Gen. 43. 16</a>. <a href='SUS.xhtml#SN1_13'>ver. 13</a>.
 Susanna	0	15	20	And it fell out, as they watched a 	o	See <a href='LUK.xhtml#LK9_62'>Luke 9. 62</a>.
 Susanna	0	15	21	And it fell out, as they watched a fit time, she went in 	*	Gr. <span class='add'>as yesterday and the day before</span>. <a href='1MA.xhtml#M19_44'>1 Macc. 9. 44</a>. See <a href='GEN.xhtml#GN31_2'>Gen. 31. 2</a> marg.
-Susanna	0	15	22	And it fell out, as they watched a fit time, she went in as before with two maids only, and she was desirous to wash herself in the 	e	<a href='SUS.xhtml#SN7_0'>ver. 7</a>, <a href='SUS.xhtml#SN15_0'>15</a>, <a href='SUS.xhtml#SN17_0'>17</a>, <a href='SUS.xhtml#SN18_0'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
-Susanna	0	17	23	Then she said to her maids, Bring me oil and washing balls, and shut the 	e	<a href='SUS.xhtml#SN7_0'>ver. 7</a>, <a href='SUS.xhtml#SN15_0'>15</a>, <a href='SUS.xhtml#SN17_0'>17</a>, <a href='SUS.xhtml#SN18_0'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
-Susanna	0	18	24	And they did as she bade them, and shut the 	e	<a href='SUS.xhtml#SN7_0'>ver. 7</a>, <a href='SUS.xhtml#SN15_0'>15</a>, <a href='SUS.xhtml#SN17_0'>17</a>, <a href='SUS.xhtml#SN18_0'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
-Susanna	0	18	25	And they did as she bade them, and shut the garden doors, and went out themselves at 	*	Or, <span class='add'>side doors</span>. <a href='SUS.xhtml#SN26_0'>ver. 26</a>.
+Susanna	0	15	22	And it fell out, as they watched a fit time, she went in as before with two maids only, and she was desirous to wash herself in the 	e	<a href='SUS.xhtml#SN1_7'>ver. 7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
+Susanna	0	17	23	Then she said to her maids, Bring me oil and washing balls, and shut the 	e	<a href='SUS.xhtml#SN1_7'>ver. 7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
+Susanna	0	18	24	And they did as she bade them, and shut the 	e	<a href='SUS.xhtml#SN1_7'>ver. 7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
+Susanna	0	18	25	And they did as she bade them, and shut the garden doors, and went out themselves at 	*	Or, <span class='add'>side doors</span>. <a href='SUS.xhtml#SN1_26'>ver. 26</a>.
 Susanna	0	22	26	Then Susanna 	p	<a href='2MA.xhtml#M26_30'>2 Macc. 6. 30</a>. <a href='MRK.xhtml#MK8_12'>Mark 8. 12</a> in the Gk.
-Susanna	0	22	27	Then Susanna sighed, and said, I am straitened on every side: for if I do this thing, 	q	<a href='SUS.xhtml#SN28_0'>ver. 28</a>, <a href='SUS.xhtml#SN41_0'>41</a>, <a href='SUS.xhtml#SN45_0'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
-Susanna	0	26	28	So when the servants of the house heard the cry in the garden, they rushed in at the 	r	<a href='SUS.xhtml#SN18_0'>ver. 18</a> marg.
-Susanna	0	28	29	And it came to pass the next day, 	s	So <a href='SUS.xhtml#SN6_0'>ver. 6</a>.
+Susanna	0	22	27	Then Susanna sighed, and said, I am straited on every side: for if I do this thing, 	q	<a href='SUS.xhtml#SN1_28'>ver. 28</a>, <a href='SUS.xhtml#SN1_41'>41</a>, <a href='SUS.xhtml#SN1_45'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
+Susanna	0	26	28	So when the servants of the house heard the cry in the garden, they rushed in at a 	r	<a href='SUS.xhtml#SN1_18'>ver. 18</a> marg.
+Susanna	0	28	29	And it came to pass the next day, 	s	So <a href='SUS.xhtml#SN1_6'>ver. 6</a>.
 Susanna	0	28	30	And it came to pass the next day, when the people were assembled to her husband Joacim, the two elders came also full of mischievous 	t	<a href='HEB.xhtml#HB4_12'>Heb. 4. 12</a>. <a href='1PE.xhtml#P14_1'>1 Pet. 4. 1</a> in the Gk.
-Susanna	0	28	31	And it came to pass the next day, when the people were assembled to her husband Joacim, the two elders came also full of mischievous imagination against Susanna 	q	<a href='SUS.xhtml#SN28_0'>ver. 28</a>, <a href='SUS.xhtml#SN41_0'>41</a>, <a href='SUS.xhtml#SN45_0'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
-Susanna	0	29	32	And said before the people, Send for Susanna, the daughter of 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
-Susanna	0	29	33	And said before the people, Send for Susanna, the daughter of Chelcias, 	a	<a href='SUS.xhtml#SN29_0'>ver. 29</a>, <a href='SUS.xhtml#SN63_0'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
+Susanna	0	28	31	And it came to pass the next day, when the people were assembled to her husband Joacim, the two elders came also full of mischievous imagination against Susanna 	q	<a href='SUS.xhtml#SN1_28'>ver. 28</a>, <a href='SUS.xhtml#SN1_41'>41</a>, <a href='SUS.xhtml#SN1_45'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
+Susanna	0	29	32	And said before the people, Send for Susanna, the daughter of 	a	<a href='SUS.xhtml#SN1_29'>ver. 29</a>, <a href='SUS.xhtml#SN1_63'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
+Susanna	0	29	33	And said before the people, Send for Susanna, the daughter of Chelcias, 	a	<a href='SUS.xhtml#SN1_29'>ver. 29</a>, <a href='SUS.xhtml#SN1_63'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
 Susanna	0	31	34	Now Susanna was a very 	u	<a href='BAR.xhtml#BR4_26'>Baruch 4. 26</a>.
-Susanna	0	31	35	Now Susanna was a very delicate woman, and 	x	<a href='SUS.xhtml#SN2_0'>ver. 2</a> (Gk.).
+Susanna	0	31	35	Now Susanna was a very delicate woman, and 	x	<a href='SUS.xhtml#SN1_2'>ver. 2</a> (Gk.).
 Susanna	0	32	36	And these wicked men commanded to uncover her face, (	y	<a href='GEN.xhtml#GN24_65'>Gen. 24. 65</a> or <a href='2SA.xhtml#S215_30'>2 Sam. 15. 30</a>. &amp; <a href='2SA.xhtml#S219_4'>19. 4</a>.
-Susanna	0	33	37	Therefore 	z	<a href='1MA.xhtml#M12_15'>1 Macc. 2. 15</a>, <a href='1MA.xhtml#M12_17'>17</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a> in the Gk. Comp. <a href='SUS.xhtml#SN30_0'>ver. 30</a>.
+Susanna	0	33	37	Therefore 	z	<a href='1MA.xhtml#M12_15'>1 Macc. 2. 15</a>, <a href='1MA.xhtml#M12_17'>17</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a> in the Gk. Comp. <a href='SUS.xhtml#SN1_30'>ver. 30</a>.
 Susanna	0	34	38	Then the two elders stood up in the midst of the people, and 	a	<a href='LEV.xhtml#LV24_14'>Lev. 24. 14</a>.
-Susanna	0	41	39	Then the assembly believed them as those that were 	b	<a href='SUS.xhtml#SN5_0'>ver. 5</a> (Gk.).
-Susanna	0	41	40	Then the assembly believed them as those that were the elders and judges of the people: so 	c	<a href='SUS.xhtml#SN22_0'>ver. 22</a>.
+Susanna	0	41	39	Then the assembly believed them, as those that were 	b	<a href='SUS.xhtml#SN1_5'>ver. 5</a> (Gk.).
+Susanna	0	41	40	Then the assembly believed them, as those that were the elders and judges of the people: so 	c	<a href='SUS.xhtml#SN1_22'>ver. 22</a>.
 Susanna	0	42	41	Then Susanna cried out with a loud voice, and said, O everlasting God, 	d	See <a href='ACT.xhtml#AC1_24'>Acts 1. 24</a>.
 Susanna	0	42	42	Then Susanna cried out with a loud voice, and said, O everlasting God, that knowest the secrets, and 	e	So <a href='PSA.xhtml#PS139_1'>Ps. 139. 1–4</a>.
 Susanna	0	45	43	Therefore 	f	See <a href='BAR.xhtml#BR6_18'>Baruch 6. 18</a>.
-Susanna	0	45	44	Therefore when she was led 	c	<a href='SUS.xhtml#SN22_0'>ver. 22</a>.
+Susanna	0	45	44	Therefore when she was led 	c	<a href='SUS.xhtml#SN1_22'>ver. 22</a>.
 Susanna	0	45	45	Therefore when she was led to be put to death, 	g	<a href='2CH.xhtml#R236_22'>2 Chr. 36. 22</a>. <a href='HAG.xhtml#HG1_14'>Hagg. 1. 14</a> in the Gk.
 Susanna	0	46	46	who cried with a loud voice, 	h	<a href='MAT.xhtml#MT27_24'>Matt. 27. 24</a> (Gk.).
-Susanna	0	48	47	So he standing in the midst of them said, Are ye such fools, ye sons of Israel, that without examination or knowledge of the truth ye have condemned 	n	Comp. <a href='SUS.xhtml#SN48_0'>ver. 48</a>.
-Susanna	0	50	48	Wherefore all the people turned again in haste, and 	b	<a href='SUS.xhtml#SN5_0'>ver. 5</a> (Gk.).
+Susanna	0	48	47	So he standing in the midst of them, said, Are ye such fools, ye sons of Israel, that without examination or knowledge of the truth ye have condemned 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
+Susanna	0	50	48	Wherefore all the people turned again in haste, and 	b	<a href='SUS.xhtml#SN1_5'>ver. 5</a> (Gk.).
 Susanna	0	50	49	Wherefore all the people turned again in haste, and the elders said unto him, Come, 	i	Comp. <a href='LUK.xhtml#LK2_46'>Luke 2. 46</a>.
-Susanna	0	53	50	For thou hast pronounced false judgment and hast condemned the innocent and hast let the guilty go free; albeit the Lord saith, 	j	Cited from <a href='EXO.xhtml#EX23_7'>Exod. 23. 7</a>.
+Susanna	0	53	50	for thou hast pronounced false judgment, and hast condemned the innocent, and hast let the guilty go free; albeit the Lord saith, 	j	Cited from <a href='EXO.xhtml#EX23_7'>Exod. 23. 7</a>.
 Susanna	0	54	51	Now then, if thou hast seen her, tell me, Under what tree sawest thou them companying together? Who answered, Under a 	*	Gr. <span class='add'>lentisk tree</span>.
-Susanna	0	55	52	And Daniel said, Very well; thou hast lied against thine own head; for even now the angel of God hath received the sentence of God to 	k	So <a href='SUS.xhtml#SN59_0'>ver. 59</a>. <a href='MAT.xhtml#MT24_51'>Matt. 24. 51</a>. <a href='LUK.xhtml#LK12_46'>Luke 12. 46</a>. Comp. <a href='JER.xhtml#JR1_11'>Jer. 1. 11</a>, <a href='JER.xhtml#JR1_12'>12</a>. <a href='DAN.xhtml#DN5_25'>Dan. 5. 25–28</a>.
+Susanna	0	55	52	And Daniel said, Very well; thou hast lied against thine own head; for even now the angel of God hath received the sentence of God to 	k	So <a href='SUS.xhtml#SN1_59'>ver. 59</a>. <a href='MAT.xhtml#MT24_51'>Matt. 24. 51</a>. <a href='LUK.xhtml#LK12_46'>Luke 12. 46</a>. Comp. <a href='JER.xhtml#JR1_11'>Jer. 1. 11</a>, <a href='JER.xhtml#JR1_12'>12</a>. <a href='DAN.xhtml#DN5_25'>Dan. 5. 25–28</a>.
 Susanna	0	56	53	So he put him aside, and commanded to bring the other, and said unto him, O thou seed of 	l	<a href='EZK.xhtml#EK16_3'>Ezek. 16. 3</a>. <a href='HOS.xhtml#HS12_7'>Hos. 12. 7</a> marg.
-Susanna	0	56	54	So he put him aside, and commanded to bring the other, and said unto him, O thou seed of Chanaan, and not of Juda, beauty hath deceived thee, and lust hath 	m	So <a href='SUS.xhtml#SN9_0'>ver. 9</a>.
-Susanna	0	57	55	Thus have ye dealt with 	n	Comp. <a href='SUS.xhtml#SN48_0'>ver. 48</a>.
-Susanna	0	57	56	Thus have ye dealt with the daughters of Israel, and they for fear companied with you: but 	n	Comp. <a href='SUS.xhtml#SN48_0'>ver. 48</a>.
-Susanna	0	58	57	Now therefore tell me, Under what tree didst thou take them companying together? Who answered, Under an 	*	Or, <span class='add'>kind of oak</span>.
-Susanna	0	59	58	Then said Daniel unto him, Well; thou hast also lied against thine own head: for the angel of God waiteth with the sword to 	k	So <a href='SUS.xhtml#SN59_0'>ver. 59</a>. <a href='MAT.xhtml#MT24_51'>Matt. 24. 51</a>. <a href='LUK.xhtml#LK12_46'>Luke 12. 46</a>. Comp. <a href='JER.xhtml#JR1_11'>Jer. 1. 11</a>, <a href='JER.xhtml#JR1_12'>12</a>. <a href='DAN.xhtml#DN5_25'>Dan. 5. 25–28</a>.
+Susanna	0	56	54	So he put him aside, and commanded to bring the other, and said unto him, O thou seed of Canaan, and not of Juda, beauty hath deceived thee, and lust hath 	m	So <a href='SUS.xhtml#SN1_9'>ver. 9</a>.
+Susanna	0	57	55	Thus have ye dealt with 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
+Susanna	0	57	56	Thus have ye dealt with the daughters of Israel, and they for fear companied with you: but 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
+Susanna	0	58	57	Now therefore tell me, Under what tree didst thou take them companying together? Who answered, Under a 	*	Or, <span class='add'>kind of oak</span>.
+Susanna	0	59	58	Then said Daniel unto him, Well; thou hast also lied against thine own head: for the angel of God waiteth with the sword to 	k	So <a href='SUS.xhtml#SN1_59'>ver. 59</a>. <a href='MAT.xhtml#MT24_51'>Matt. 24. 51</a>. <a href='LUK.xhtml#LK12_46'>Luke 12. 46</a>. Comp. <a href='JER.xhtml#JR1_11'>Jer. 1. 11</a>, <a href='JER.xhtml#JR1_12'>12</a>. <a href='DAN.xhtml#DN5_25'>Dan. 5. 25–28</a>.
 Susanna	0	59	59	Then said Daniel unto him, Well; thou hast also lied against thine own head: for the angel of God waiteth with the sword to 	o	<a href='HEB.xhtml#HB11_37'>Heb. 11 37</a> (Gk.).
-Susanna	0	60	60	With that all 	p	<a href='SUS.xhtml#SN41_0'>ver. 41</a>.
-Susanna	0	60	61	With that all the assembly cried out with a loud voice, and praised God, who saveth 	q	So <a href='SUS.xhtml#SN35_0'>ver. 35</a>.
-Susanna	0	61	62	And they arose against the two elders, for 	r	<a href='SIR.xhtml#SR42_8'>Ecclus. 42. 8</a> marg.
+Susanna	0	60	60	With that all 	p	<a href='SUS.xhtml#SN1_41'>ver. 41</a>.
+Susanna	0	60	61	With that all the assembly cried out with a loud voice, and praised God, who saveth 	q	So <a href='SUS.xhtml#SN1_35'>ver. 35</a>.
+Susanna	0	61	62	And they arose against the two elders, (for 	r	<a href='SIR.xhtml#SR42_8'>Ecclus. 42. 8</a> marg.
 Susanna	0	62	63	and 	s	<a href='DEU.xhtml#DT19_16'>Deut. 19. 16–19</a>. So <a href='PRO.xhtml#PR19_5'>Prov. 19. 5</a>.
-Susanna	0	63	64	Therefore 	t	<a href='SUS.xhtml#SN2_0'>ver. 2</a>, <a href='SUS.xhtml#SN29_0'>29</a>.
+Susanna	0	63	64	Therefore 	t	<a href='SUS.xhtml#SN1_2'>ver. 2</a>, <a href='SUS.xhtml#SN1_29'>29</a>.
 Tobit	1	1	1	The book of the 	*	Or, <span class='add'>acts</span>.
 Tobit	1	10	1	And when 	a	<a href='2KI.xhtml#K217_3'>2 Kin. 17. 3</a>, <a href='2KI.xhtml#K217_23'>23</a>. &amp; <a href='2KI.xhtml#K218_9'>18. 9</a>. <a href='TOB.xhtml#TB1_10'>ver. 10</a>.
 Tobit	1	10	2	And when we were carried away captives to Nineve, all my brethren and those that were of my kindred 	n	See <a href='ACT.xhtml#AC10_14'>Acts 10. 14</a>. Comp. <a href='GEN.xhtml#GN43_32'>Gen. 43. 32</a>. <a href='ACT.xhtml#AC15_20'>Acts 15. 20</a>.
@@ -7002,14 +7002,14 @@ Wisdom of Solomon	10	14	2	and left him not in bonds, till she brought him the sc
 Wisdom of Solomon	10	14	3	and left him not in bonds, till she brought him the sceptre of the kingdom, and 	c	Construction as <a href='MAT.xhtml#MT10_1'>Matt. 10. 1</a>.
 Wisdom of Solomon	10	14	4	and left him not in bonds, till she brought him the sceptre of the kingdom, and power against those that oppressed him: as for 	d	<a href='GEN.xhtml#GN39_17'>Gen. 39. 17</a>.
 Wisdom of Solomon	10	15	1		e	<a href='EXO.xhtml#EX1_12'>Ex. 1. 12</a>. &amp; <a href='EXO.xhtml#EX12_42'>12. 42</a>.
-Wisdom of Solomon	10	15	2	She delivered the 	*	Or, <span class='add'>holy</span>. <a href='WIS.xhtml#WS10_17'>ver. 17</a>. <a href='WIS.xhtml#WS5_19'>ch. 5. 19</a>. &amp; <a href='WIS.xhtml#WS6_10'>6. 10</a>. &amp; <a href='WIS.xhtml#WS14_30'>14. 30</a>. <a href='S3Y.xhtml#PA65_0'>Song 65</a> (text).
+Wisdom of Solomon	10	15	2	She delivered the 	*	Or, <span class='add'>holy</span>. <a href='WIS.xhtml#WS10_17'>ver. 17</a>. <a href='WIS.xhtml#WS5_19'>ch. 5. 19</a>. &amp; <a href='WIS.xhtml#WS6_10'>6. 10</a>. &amp; <a href='WIS.xhtml#WS14_30'>14. 30</a>. <a href='S3Y.xhtml#PA1_65'>Song 65</a> (text).
 Wisdom of Solomon	10	15	3	She delivered the righteous people and 	f	<a href='WIS.xhtml#WS10_5'>ver. 5</a>.
 Wisdom of Solomon	10	16	1		g	<a href='EXO.xhtml#EX3_10'>Ex. 3. 10</a>. &amp; <a href='EXO.xhtml#EX4_12'>4. 12</a>.
 Wisdom of Solomon	10	16	2	She entered into the soul of 	h	<a href='EXO.xhtml#EX14_31'>Ex. 14. 31</a>. <a href='PSA.xhtml#PS105_26'>Ps. 105. 26</a>. See <a href='HEB.xhtml#HB3_5'>Heb. 3. 5</a>.
 Wisdom of Solomon	10	16	3	She entered into the soul of the servant of the Lord, and 	i	<a href='EXO.xhtml#EX5_1'>Ex. 5. 1</a>. &amp; <a href='EXO.xhtml#EX7_10'>7. 10</a>. &amp; <a href='WIS.xhtml#WS8_0'>ch. 8</a>–<a href='WIS.xhtml#WS13_0'>ch. 13</a>. <a href='PSA.xhtml#PS105_27'>Ps. 105. 27–36</a>.
 Wisdom of Solomon	10	16	4	She entered into the soul of the servant of the Lord, and withstood dreadful kings 	i	<a href='EXO.xhtml#EX5_1'>Ex. 5. 1</a>. &amp; <a href='EXO.xhtml#EX7_10'>7. 10</a>. &amp; <a href='WIS.xhtml#WS8_0'>ch. 8</a>–<a href='WIS.xhtml#WS13_0'>ch. 13</a>. <a href='PSA.xhtml#PS105_27'>Ps. 105. 27–36</a>.
 Wisdom of Solomon	10	17	1		j	<a href='EXO.xhtml#EX12_35'>Ex. 12. 35</a>.
-Wisdom of Solomon	10	17	2	rendered to the 	*	Or, <span class='add'>holy</span>. <a href='WIS.xhtml#WS10_17'>ver. 17</a>. <a href='WIS.xhtml#WS5_19'>ch. 5. 19</a>. &amp; <a href='WIS.xhtml#WS6_10'>6. 10</a>. &amp; <a href='WIS.xhtml#WS14_30'>14. 30</a>. <a href='S3Y.xhtml#PA65_0'>Song 65</a> (text).
+Wisdom of Solomon	10	17	2	rendered to the 	*	Or, <span class='add'>holy</span>. <a href='WIS.xhtml#WS10_17'>ver. 17</a>. <a href='WIS.xhtml#WS5_19'>ch. 5. 19</a>. &amp; <a href='WIS.xhtml#WS6_10'>6. 10</a>. &amp; <a href='WIS.xhtml#WS14_30'>14. 30</a>. <a href='S3Y.xhtml#PA1_65'>Song 65</a> (text).
 Wisdom of Solomon	10	17	3	rendered to the righteous a reward of their labours, guided them in a marvellous way, and was unto them for 	k	<a href='PSA.xhtml#PS105_39'>Ps. 105. 39</a>. See <a href='SIR.xhtml#SR14_27'>Ecclus. 14. 27</a>.
 Wisdom of Solomon	10	17	4	rendered to the righteous a reward of their labours, guided them in a marvellous way, and was unto them for a cover by day, and 	l	<a href='PSA.xhtml#PS78_14'>Ps. 78. 14</a>.
 Wisdom of Solomon	10	17	5	rendered to the righteous a reward of their labours, guided them in a marvellous way, and was unto them for a cover by day, and a 	*	Or, <span class='add'>flame</span>. <a href='WIS.xhtml#WS16_18'>ch. 16. 18</a>.
@@ -7271,7 +7271,7 @@ Wisdom of Solomon	17	16	1	So then whosoever there fell down was 	n	<a href='2CO.
 Wisdom of Solomon	17	17	1		o	So <a href='WIS.xhtml#WS19_17'>ch. 19. 17</a>.
 Wisdom of Solomon	17	17	2	For whether he were husbandman, or shepherd, or a labourer in the 	*	Or, <span class='add'>desert</span>.
 Wisdom of Solomon	17	18	1		p	Comp. <a href='LEV.xhtml#LV26_36'>Lev. 26. 36</a>. <a href='PSA.xhtml#PS53_5'>Ps. 53. 5</a>.
-Wisdom of Solomon	17	18	2	Whether it were a 	pp	So <a href='S3Y.xhtml#PA27_0'>Song 27</a>.
+Wisdom of Solomon	17	18	2	Whether it were a 	pp	So <a href='S3Y.xhtml#PA1_27'>Song 27</a>.
 Wisdom of Solomon	17	19	1	or a 	*	Or, <span class='add'>hideous</span>.
 Wisdom of Solomon	17	19	2	or a 	q	Gk. the same.
 Wisdom of Solomon	17	19	3	or a terrible sound of stones cast down, or a running that could not be seen of skipping beasts, or a roaring voice of most 	q	Gk. the same.
@@ -7279,7 +7279,7 @@ Wisdom of Solomon	17	2	1	For when unrighteous men thought to oppress the holy na
 Wisdom of Solomon	17	2	2	For when unrighteous men thought to oppress the holy nation; they being shut up 	*	Or, <span class='add'>under</span> their <span class='add'>roofs</span>.
 Wisdom of Solomon	17	2	3	For when unrighteous men thought to oppress the holy nation; they being shut up in their houses, the prisoners of darkness, and fettered with the bonds of a long night, lay there 	*	Or, <span class='add'>fugitives</span>. <a href='WIS.xhtml#WS19_3'>ch. 19. 3</a>.
 Wisdom of Solomon	17	20	1		o	So <a href='WIS.xhtml#WS19_17'>ch. 19. 17</a>.
-Wisdom of Solomon	17	21	1	over them only was spread a heavy night, an image of that 	r	<a href='2PE.xhtml#P22_17'>2 Pet. 2. 17</a>. <a href='JUD.xhtml#JD13_0'>Jude 13</a>. See <a href='MAT.xhtml#MT8_12'>Matt. 8. 12</a>.
+Wisdom of Solomon	17	21	1	over them only was spread a heavy night, an image of that 	r	<a href='2PE.xhtml#P22_17'>2 Pet. 2. 17</a>. <a href='JUD.xhtml#JD1_13'>Jude 13</a>. See <a href='MAT.xhtml#MT8_12'>Matt. 8. 12</a>.
 Wisdom of Solomon	17	3	1	For while they supposed to lie hid in their secret sins, they were scattered 	*	Or, in.
 Wisdom of Solomon	17	3	2	For while they supposed to lie hid in their secret sins, they were scattered under a dark veil of forgetfulness, being horribly astonished, and troubled with strange 	*	Or, <span class='add'>sights</span>.
 Wisdom of Solomon	17	6	1	Only there appeared unto them a fire kindled of itself, very dreadful: for being much terrified, 	i	<a href='WIS.xhtml#WS19_6'>ch. 19. 6</a>.
@@ -7398,9 +7398,9 @@ Wisdom of Solomon	2	17	1	Let us see if his words be true: and let us prove what 
 Wisdom of Solomon	2	18	1	For 	x	<a href='PSA.xhtml#PS22_8'>Ps. 22. 8</a>, <a href='PSA.xhtml#PS22_9'>9</a>.
 Wisdom of Solomon	2	18	2	For if the just man be 	u	Comp. <a href='MAT.xhtml#MT27_43'>Matt. 27. 43</a>.
 Wisdom of Solomon	2	19	1		y	Comp. <a href='JER.xhtml#JR11_19'>Jer. 11. 19</a>. &amp; <a href='JER.xhtml#JR18_18'>18. 18</a>.
-Wisdom of Solomon	2	19	2	Let us examine him with despitefulness and torture, that we may know his 	z	<a href='WIS.xhtml#WS12_18'>ch. 12. 18</a>. <a href='BAR.xhtml#BR2_27'>Baruch 2. 27</a>. <a href='S3Y.xhtml#PA19_0'>Song 19</a> in the Gk. See <a href='ACT.xhtml#AC24_4'>Acts 24. 4</a>.
+Wisdom of Solomon	2	19	2	Let us examine him with despitefulness and torture, that we may know his 	z	<a href='WIS.xhtml#WS12_18'>ch. 12. 18</a>. <a href='BAR.xhtml#BR2_27'>Baruch 2. 27</a>. <a href='S3Y.xhtml#PA1_19'>Song 19</a> in the Gk. See <a href='ACT.xhtml#AC24_4'>Acts 24. 4</a>.
 Wisdom of Solomon	2	19	3	Let us examine him with despitefulness and torture, that we may know his meekness, and prove his 	a	So <a href='2TI.xhtml#T22_24'>2 Tim. 2. 24</a> marg.
-Wisdom of Solomon	2	2	1	For we are born at all adventure: and 	e	<a href='OBA.xhtml#OB16_0'>Obad. 16</a>. <a href='SIR.xhtml#SR44_9'>Ecclus. 44. 9</a>. So <a href='JOB.xhtml#JB10_19'>Job 10. 19</a>.
+Wisdom of Solomon	2	2	1	For we are born at all adventure: and 	e	<a href='OBA.xhtml#OB1_16'>Obad. 16</a>. <a href='SIR.xhtml#SR44_9'>Ecclus. 44. 9</a>. So <a href='JOB.xhtml#JB10_19'>Job 10. 19</a>.
 Wisdom of Solomon	2	2	2	For we are born at all adventure: and we shall be hereafter as though we had never been: for the breath in our nostrils is as 	f	<a href='PSA.xhtml#PS102_3'>Ps. 102. 3</a>. Comp. <a href='WIS.xhtml#WS5_14'>ch. 5. 14</a>.
 Wisdom of Solomon	2	20	1	Let us condemn him with a shameful death: for 	b	Comp. <a href='GEN.xhtml#GN37_20'>Gen. 37. 20</a>.
 Wisdom of Solomon	2	20	2	Let us condemn him with a shameful death: for by his own saying he shall be 	c	Gk. as <a href='WIS.xhtml#WS3_7'>ch. 3. 7</a>, <a href='WIS.xhtml#WS3_9'>9</a>, <a href='WIS.xhtml#WS3_13'>13</a>. &amp; <a href='WIS.xhtml#WS4_15'>4. 15</a>. &amp; <a href='WIS.xhtml#WS14_11'>14. 11</a>. &amp; <a href='WIS.xhtml#WS19_15'>19. 15</a>. <a href='SIR.xhtml#SR18_20'>Ecclus. 18. 20</a>. &amp; <a href='SIR.xhtml#SR23_24'>23. 24</a>. &amp; <a href='SIR.xhtml#SR34_6'>34. 6</a>. <a href='LUK.xhtml#LK19_44'>Luke 19. 44</a>. <a href='1PE.xhtml#P12_12'>1 Pet. 2. 12</a>.
@@ -7606,7 +7606,7 @@ Wisdom of Solomon	8	14	2	I shall set the people in order, and 	p	<a href='1KI.xh
 Wisdom of Solomon	8	15	1	Horrible tyrants shall be afraid, when they do but hear of me; I shall 	*	Or, <span class='add'>appear</span>.
 Wisdom of Solomon	8	15	2	Horrible tyrants shall be afraid, when they do but hear of me; I shall be found good among the multitude, and 	q	So <a href='WIS.xhtml#WS8_7'>ver. 7</a> (Gk.).
 Wisdom of Solomon	8	16	1		*	Or, <span class='add'>Being entered into mine house</span>.
-Wisdom of Solomon	8	16	2	After I am come into mine house, I will repose myself with her: for her conversation hath no bitterness; and 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL2_0'>Bel and Drag. 2</a> marg.
+Wisdom of Solomon	8	16	2	After I am come into mine house, I will repose myself with her: for her conversation hath no bitterness; and 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL1_2'>Bel and Drag. 2</a> marg.
 Wisdom of Solomon	8	17	1	Now when I considered these things in myself, and 	r	Comp. <a href='PRO.xhtml#PR7_3'>Prov. 7. 3</a>.
 Wisdom of Solomon	8	17	2	Now when I considered these things in myself, and pondered them in mine heart, how that to be allied unto wisdom 	o	<a href='WIS.xhtml#WS8_17'>ver. 17</a>.
 Wisdom of Solomon	8	18	1	and great pleasure it is to have her friendship; and in the works of her hands are infinite riches; and in the exercise of conference with her, prudence; and in talking with her, a 	*	Or, <span class='add'>fame</span>.
@@ -7617,7 +7617,7 @@ Wisdom of Solomon	8	20	1	Yea rather, being good, 	s	Comp. <a href='JHN.xhtml#JN9
 Wisdom of Solomon	8	21	1	Nevertheless, when I perceived that I could not otherwise 	t	<a href='SIR.xhtml#SR6_27'>Ecclus. 6. 27</a> (Gk.).
 Wisdom of Solomon	8	21	2	Nevertheless, when I perceived that I could not otherwise obtain her, except God gave her me; and that was a point of wisdom also to know whose gift she was; I 	*	Or, <span class='add'>went</span>.
 Wisdom of Solomon	8	21	3	Nevertheless, when I perceived that I could not otherwise obtain her, except God gave her me; and that was a point of wisdom also to know whose gift she was; I 	u	ch 16. 28. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>.
-Wisdom of Solomon	8	3	1	In that she is 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL2_0'>Bel and Drag. 2</a> marg.
+Wisdom of Solomon	8	3	1	In that she is 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL1_2'>Bel and Drag. 2</a> marg.
 Wisdom of Solomon	8	4	1	For she is 	*	Or, <span class='add'>teacher</span>.
 Wisdom of Solomon	8	4	2	For she is privy to the mysteries of the knowledge of God, and a 	*	Or, <span class='add'>chooser</span>.
 Wisdom of Solomon	8	5	1	If riches be a possession to be desired in this life; 	c	<a href='WIS.xhtml#WS7_8'>ch. 7. 8</a>, <a href='WIS.xhtml#WS7_9'>9</a>. <a href='PRO.xhtml#PR8_18'>Prov. 8. 18</a>.
@@ -7627,7 +7627,7 @@ Wisdom of Solomon	8	7	1	And if a man love righteousness, her labours are virtues
 Wisdom of Solomon	8	8	1	If a man desire much experience, she knoweth things of old, and conjectureth aright what is to come: she knoweth the subtilties of speeches, and can expound 	f	See <a href='PRO.xhtml#PR1_6'>Prov. 1. 6</a>.
 Wisdom of Solomon	8	8	2	If a man desire much experience, she knoweth things of old, and conjectureth aright what is to come: she knoweth the subtilties of speeches, and can expound dark sentences: she foreseeth signs and wonders, and the 	g	See <a href='WIS.xhtml#WS2_17'>ch. 2. 17</a>.
 Wisdom of Solomon	8	9	1	Therefore I purposed 	h	<a href='WIS.xhtml#WS8_2'>ver. 2</a> marg.
-Wisdom of Solomon	8	9	2	Therefore I purposed to take her to me 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL2_0'>Bel and Drag. 2</a> marg.
+Wisdom of Solomon	8	9	2	Therefore I purposed to take her to me 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL1_2'>Bel and Drag. 2</a> marg.
 Wisdom of Solomon	8	9	3	Therefore I purposed to take her to me to live with me, knowing that she 	*	Gr. <span class='add'>will</span>.
 Wisdom of Solomon	9	1	1	O God of my fathers, and Lord of mercy, 	a	<a href='GEN.xhtml#GN1_3'>Gen. 1. 3</a>, <a href='GEN.xhtml#GN1_6'>6</a>, <a href='GEN.xhtml#GN1_9'>9</a>, &amp;c. <a href='PSA.xhtml#PS33_9'>Ps. 33. 9</a>. <a href='JHN.xhtml#JN1_3'>John 1. 3</a>.
 Wisdom of Solomon	9	10	1	O send her out of thy 	p	<a href='PSA.xhtml#PS20_6'>Ps. 20. 6</a>.
