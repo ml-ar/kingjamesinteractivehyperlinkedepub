@@ -195,7 +195,7 @@ function fixEndingHorizontalRules(xhtmlVariable,  oldFootnoteSection,  newFootno
 
 	if (!match(xhtmlVariable, /<div class="footnote">(\s|\n)*<hr\s*\/>(\s|\n)*.*$/, matchArray)) #nothing to do
 	{
-		return xhtmlVariable; 
+		return xhtmlVariable;
 	}
 
 	oldFootnoteSection = matchArray[0]
@@ -401,7 +401,7 @@ function storeTextFileInVariable(fileName,  toReturn,  line)
 
 #returns fullVerseLine, but modified with the footnote symbol in the right place
 
-#fullVerseLine: a full line (with newlines at the beginning at end), like: <span class="verse" id="C11_11">11&#160;</span> For it hath been declared unto me of you, my brethren, by them <span class='add'>which are of the house</span> of Chloe, that there are contentions among you. 
+#fullVerseLine: a full line (with newlines at the beginning at end), like: <span class="verse" id="C11_11">11&#160;</span> For it hath been declared unto me of you, my brethren, by them <span class='add'>which are of the house</span> of Chloe, that there are contentions among you.
 #precedingWords: the verse text before which the footnote symbol is to come
 #footnoteSymbol: the symbol by which to demarcate the prescence of the note
 #footnoteNumber: the number to ascribe to the footnote
@@ -417,16 +417,16 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
 	{
 
-		if (match(fullVerseLine, /^(<div class='mt'>)((<a href='#FN[^>]+>[^<]+<[^>]+>)*)(.*$)/, matchArray)) #it's a title 
+		if (match(fullVerseLine, /^(<div class='mt'>)((<a href='#FN[^>]+>[^<]+<[^>]+>)*)(.*$)/, matchArray)) #it's a title
 		{
 			toReturn = matchArray[1] matchArray[2] "<a href='#FN"footnoteNumber"' " id "epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[4];
 			return toReturn
-		}      
+		}
 
 
 		if (!match(fullVerseLine, /([\n^]+)((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
 		{
-			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18
 		}
 
 
@@ -449,7 +449,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 		verseTextOnly = ""
 		for (o in splitArray)
-		{ 
+		{
 			verseTextOnly = verseTextOnly "" splitArray[o]
 				toAppend = ""
 				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
@@ -533,7 +533,7 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 
 					if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\""verseLabels[i]""chapter"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
 					{
-						print "ERROR: couldn't find " chapter ":" k " in xhtmlFile: " xhtmlFile; exit 14 
+						print "ERROR: couldn't find " chapter ":" k " in xhtmlFile: " xhtmlFile; exit 14
 					}
 
 					oldVerse = matchArray[0];
@@ -541,7 +541,7 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 
 						if (!match(xhtmlVariable,"id=\""verseLabels[i]""chapter"_"k, matchArray)) # we match just the relevant part to properly fill the footnote at the end
 						{
-							print "ERROR: couldn't find " chapter ":" k " in xhtmlVariable: " xhtmlVariable; exit 14 
+							print "ERROR: couldn't find " chapter ":" k " in xhtmlVariable: " xhtmlVariable; exit 14
 						}
 
 					matchArray[0] = gensub(/id=['"]/,"","1",matchArray[0])
@@ -591,13 +591,13 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 
 
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
 		delete footnotes["Bel and the Dragon"]
 
 }
 
 
-function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case 
+function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case
 {
 	xhtmlFile = folderPrefix bookFiles["Susanna"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -608,7 +608,7 @@ function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modifi
 		xhtmlVariable = insert0and0(xhtmlVariable, "Susanna", "<div class='is'>")
 
 		copySingleBookFootnotesArray("Susanna", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
 		delete footnotes["Susanna"]
 
 }
@@ -625,7 +625,7 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 
 
 		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes) 
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
 		delete footnotes["Prayer of Manasseh"]
 }
 
@@ -643,7 +643,7 @@ function writeS3Y(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 }
 
 #writing Sirach special cases
-function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  xhtmlVariableTrimmedAfter,  newLineAtBeginningOfVerse,  newLineAtEndOfVerse,  precedingText,  precedingVerseTextStart,  footnoteNumber,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  sirachPrologueHeading,  oldVerse,  newVerse,  i,  j,  k,  l,  m,  adhocFootnotes)
+function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  originalPrologueHeadingLine,  modifiedPrologueHeadingLine,  originalPrologueLine,  modifiedPrologueLine,  sirachPrologueHeading,  j,  k,  l,  m,  adhocFootnotes)
 {
 
 
@@ -665,10 +665,35 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  
 			{
 
 				sirachPrologueHeading = "A Prologue made by an uncertain Author. "
+					if (!(match(xhtmlWriteMe,/<div class='s'>A Prologue made by an uncertain Author[^\n]+/,matchArray)))
+					{
+						print "ERROR: Could not find the line with the sirach prologue heading: " sirachPrologueHeading; exit 13
+					}
+				originalPrologueHeadingLine = matchArray[0]
+					modifiedPrologueHeadingLine = matchArray[0]
+					if (!(match(xhtmlWriteMe,/<div class='p'>This Jesus was the son of Sirach[^\n]+/,matchArray)))
+					{
+						print "ERROR: Could not find the line with the sirach prologue line starting with: This Jesus was the son of Sirach"; exit 13;
+					}
+				originalPrologueLine = matchArray[0]
+					modifiedPrologueLine = matchArray[0]
 			}
 			else if (j == 2)
 			{
 				sirachPrologueHeading = "The Prologue of the Wisdom of Jesus, the Son of Sirach. "
+					if (!(match(xhtmlWriteMe,/<div class='s'>The Prologue of the Wisdom of Jesus the Son of Sirach[^\n]+/,matchArray)))
+					{
+						print "ERROR: Could not find the line with the sirach prologue heading: " sirachPrologueHeading; exit 13
+					}
+				originalPrologueHeadingLine = matchArray[0]
+					modifiedPrologueHeadingLine = matchArray[0]
+					if (!(match(xhtmlWriteMe,/<div class='p'>Whereas many and great things have been delivered unto us by the law and the prophets[^\n]+/,matchArray)))
+					{
+						print "ERROR: Could not find the line with the sirach prologue line starting with: This Jesus was the son of Sirach"; exit 13;
+					}
+
+				originalPrologueLine = matchArray[0]
+					modifiedPrologueLine = matchArray[0]
 			}
 			else
 			{
@@ -683,53 +708,23 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  xhtmlVariableTrimmedBefore,  
 						for (n in footnotes["Sirach Prologue"][j][k][l][m]) #footnoteSymbol
 						{
 
-							precedingText = m
-								if(!(precedingVerseTextStart = index(xhtmlWriteMe, precedingText))) #maybe you first have to remove the prologue heading before finding it 
-								{
-
-									precedingText = substr(m, length(sirachPrologueHeading)+1)
-
-										if (j == 1) 
-										{
-											sirachPrologueStart = "This Jesus was the son of Sirach"
-										}
-										else if (j == 2)
-										{
-											sirachPrologueStart = "Whereas many and great things have been delivered unto us by the law and the prophets"
-										}
-										else
-										{
-											print "ERROR: something other than 1 or 2 for Sirach prologue!"; exit 18
-										}
-									if (!(precedingVerseTextStart = index(xhtmlWriteMe, sirachPrologueStart))) #the idea by doing this is to just find the line where the prologue is: START WORK HERE 1: This breaks when footnotes have already been inserted into the prologue; check out insert0and0 for guidance: you'll want to find the appropriate header first and then pass to getModifiedVerse to properly insert the footnotes
-									{
-										print "ERROR: Could not find the text " sirachPrologueStart " in the Sirach prologue."; exit 1
-									}
+							if (length(m) <= length(sirachPrologueHeading)) #the note belongs in the prologue heading
+							{
+								modifiedPrologueHeadingLine = getModifiedVerse(modifiedPrologueHeadingLine, m, n, l, "sirachprologuenote"l)
+							}
+							else #it belongs in the prologue text itself; assuming that the preceding text is prepended with the "sirachPrologueHeading"
+							{
+								modifiedPrologueLine = getModifiedVerse(modifiedPrologueLine, substr(m, length(sirachPrologueHeading) + 1), n, l, "sirachprologuenote"l) #modifying the preceding text to get rid of the prologue heading at the beginning; AGAIN ASSUMES THAT ALL PRECEDING TEXT FOR THE SIRACH PROLOGUE IS PREFACED WITH THE "sirachPrologueHeading"
+							}
 
 
-								}
-
-#parsing the prologue block to pass to getModifiedVerse
-							xhtmlWriteMeTrimmedBefore = substr(xhtmlWriteMe, 1, precedingVerseTextStart-1)
-								newLineAtBeginningOfVerse = lastMatch(xhtmlWriteMeTrimmedBefore,"\n")
-								xhtmlWriteMeTrimmedAfter = substr(xhtmlWriteMe, newLineAtBeginningOfVerse+1)
-
-								if (!(precedingVerseTextStart = match(xhtmlWriteMeTrimmedAfter,/\n/)))
-								{
-									print "ERROR: could not find a new line after chopping Sirach verses."; exit 2
-								}
-#with this line, oldVerse now holds the prologue line, ready to pass to getModifiedVerse now
-							oldVerse = substr(xhtmlWriteMe, newLineAtBeginningOfVerse + 1, precedingVerseTextStart)
-								newVerse = getModifiedVerse(oldVerse, precedingText, n, l, "sirachprologuenote"l)
-
-
-								xhtmlWriteMe = literalgensub(oldVerse, newVerse, 1, xhtmlWriteMe)
-
-								xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
+							xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 						}
 					}
 				}
 			}
+			xhtmlWriteMe = literalgensub(originalPrologueHeadingLine, modifiedPrologueHeadingLine, 1, xhtmlWriteMe) only
+				xhtmlWriteMe = literalgensub(originalPrologueLine, modifiedPrologueLine, 1, xhtmlWriteMe)
 		}
 
 
@@ -754,7 +749,7 @@ if (!$1 || (!$2 && $2 != 0) || (!$3 && $3 != 0) || !$4 || !$6 || !$7)
 {
 print "ERROR: badly formated line: \n " $0; exit 1
 
-}	
+}
 book = $1
 chapter = $2
 verse = $3
@@ -774,18 +769,18 @@ END {
 
 	writeSirach()
 
-	writeS3Y()
-	writeBel()
-	writeSusanna()
-	writeManasseh()
-
-	for (x in footnotes) #for every book
-	{
-		xhtmlFile = folderPrefix bookFiles[x]
-		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
-		writeCSS(xhtmlFile, xhtmlVariable, footnotes[x])
-	}
+	#writeS3Y()
+	#writeBel()
+	#writeSusanna()
+	#writeManasseh()
+#START WORK HERE 1: Feed footnotes.txt into this file and start troubleshooting
+	#for (x in footnotes) #for every book
+	#{
+	#	xhtmlFile = folderPrefix bookFiles[x]
+	#	xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+	#	xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+	#	writeCSS(xhtmlFile, xhtmlVariable, footnotes[x])
+	#}
 
 
 
