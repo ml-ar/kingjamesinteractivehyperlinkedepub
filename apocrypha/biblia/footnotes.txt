@@ -4753,7 +4753,7 @@ Sirach	11	6	1		f	<a href='1SA.xhtml#S115_28'>1 Sam. 15. 28</a>. <a href='EST.xht
 Sirach	11	7	1		g	So <a href='DEU.xhtml#DT13_14'>Deut. 13. 14</a>. &amp; <a href='DEU.xhtml#DT17_6'>17. 6</a>, <a href='DEU.xhtml#DT17_7'>7</a>.
 Sirach	11	8	1		h	See <a href='PRO.xhtml#PR18_13'>Prov. 18. 13</a>.
 Sirach	11	9	1	Strive not in a matter that concerneth thee not; And sit not 	*	Or, <span class='add'>in the judgment of sinners</span>. Comp. <a href='PSA.xhtml#PS1_1'>Ps. 1. 1</a>.
-Sirach	12	1	1	When thou wilt do good, 	a	Comp. <a href='MAT.xhtml#MT7_6'>Matt. 7. 6</a>.
+Sirach	12	1	1	When thou wilt do good 	a	Comp. <a href='MAT.xhtml#MT7_6'>Matt. 7. 6</a>.
 Sirach	12	10	1	Never trust thine enemy: For like as 	*	Or, <span class='add'>brass</span>.
 Sirach	12	11	1		h	So <a href='PSA.xhtml#PS10_10'>Ps. 10. 10</a>.
 Sirach	12	11	2	Though he humble himself, and go 	i	<a href='SIR.xhtml#SR19_26'>ch. 19. 26</a>, <a href='SIR.xhtml#SR19_27'>27</a> (Gk.).
@@ -4792,10 +4792,10 @@ Sirach	13	11	3	Affect not to be made equal unto him in talk, 	*	Or, <span class=
 Sirach	13	17	1		h	Comp. <a href='2CO.xhtml#C26_14'>2 Cor. 6. 14</a>.
 Sirach	13	17	2	What fellowship hath the wolf with the lamb? 	i	So <a href='PRO.xhtml#PR29_27'>Prov. 29. 27</a>.
 Sirach	13	19	1	As 	k	See <a href='JOB.xhtml#JB6_5'>Job 6. 5</a>.
-Sirach	13	19	2	As the wild ass is the lions’ prey in the wilderness: So 	l	<a href='AMO.xhtml#AM8_4'>Amos 8. 4</a>. See <a href='PSA.xhtml#PS14_4'>Ps. 14. 4</a>.
+Sirach	13	19	2	As the wild ass is the lion’s prey in the wilderness: so 	l	<a href='AMO.xhtml#AM8_4'>Amos 8. 4</a>. See <a href='PSA.xhtml#PS14_4'>Ps. 14. 4</a>.
 Sirach	13	2	1	Burden not thyself above thy power while thou livest; And have no fellowship with one that is mightier and richer than thyself: For how agree the kettle and the earthen pot together? 	*	Gr. <span class='add'>This shall smite against</span> it, <span class='add'>and be broken</span>.
-Sirach	13	22	1	When a rich man is fallen, he hath many helpers: He speaketh things not to be spoken, and yet men justify him: The poor man slipt, and yet they rebuked him too; 	m	So <a href='ECC.xhtml#EC9_15'>Eccles. 9. 15</a>, <a href='ECC.xhtml#EC9_16'>16</a>. <a href='SIR.xhtml#SR26_28'>ch. 26. 28</a>.
-Sirach	13	22	2	When a rich man is fallen, he hath many helpers: He speaketh things not to be spoken, and yet men justify him: The poor man slipt, and yet they rebuked him too; He spake wisely, and 	n	<a href='SIR.xhtml#SR19_17'>ch. 19. 17</a>. &amp; <a href='SIR.xhtml#SR38_12'>38. 12</a> in the Gk.
+Sirach	13	22	1	When a rich man is fallen, he hath many helpers: he speaketh things not to be spoken, and yet men justify him: the poor man slipped, and yet they rebuked him too; 	m	So <a href='ECC.xhtml#EC9_15'>Eccles. 9. 15</a>, <a href='ECC.xhtml#EC9_16'>16</a>. <a href='SIR.xhtml#SR26_28'>ch. 26. 28</a>.
+Sirach	13	22	2	When a rich man is fallen, he hath many helpers: he speaketh things not to be spoken, and yet men justify him: the poor man slipped, and yet they rebuked him too; He spake wisely, and 	n	<a href='SIR.xhtml#SR19_17'>ch. 19. 17</a>. &amp; <a href='SIR.xhtml#SR38_12'>38. 12</a> in the Gk.
 Sirach	13	23	1	When a rich man speaketh, 	o	<a href='JOB.xhtml#JB29_9'>Job 29. 9</a>.
 Sirach	13	25	1	The heart of a man 	p	<a href='SIR.xhtml#SR12_18'>ch. 12. 18</a>.
 Sirach	13	25	2	The heart of a man changeth his countenance, whether it be for good or evil: And 	q	See <a href='PRO.xhtml#PR15_13'>Prov. 15. 13</a>.
@@ -4803,9 +4803,9 @@ Sirach	13	26	1	A cheerful countenance is a token of a heart that is in prosperit
 Sirach	13	3	1		b	So <a href='PRO.xhtml#PR18_23'>Prov. 18. 23</a>.
 Sirach	13	5	1	If thou have any thing, he will live with thee: Yea, he will 	c	Gk. as <a href='SIR.xhtml#SR13_7'>ver. 7</a>.
 Sirach	13	7	1	And he will shame thee by his meats, Until he have 	c	Gk. as <a href='SIR.xhtml#SR13_7'>ver. 7</a>.
-Sirach	13	7	2	And he will shame thee by his meats, Until he have drawn thee dry twice or thrice, And at the last he will laugh thee to scorn: Afterward, when he seeth thee, he will forsake thee, And 	d	See <a href='SIR.xhtml#SR12_18'>ch. 12. 18</a>.
-Sirach	13	8	1	Beware that thou be not deceived, And brought down 	*	Or, <span class='add'>by thy simplicity</span>.
-Sirach	13	8	2	Beware that thou be not deceived, And brought down in thy 	e	See <a href='1ES.xhtml#E13_20'>1 Esdr. 3. 20</a> (Engl.).
+Sirach	13	7	2	And he will shame thee by his meats, until he have drawn thee dry twice or thrice, and at the last he will laugh thee to scorn afterward, when he seeth thee, he will forsake thee, and 	d	See <a href='SIR.xhtml#SR12_18'>ch. 12. 18</a>.
+Sirach	13	8	1	Beware that thou be not deceived and brought down 	*	Or, <span class='add'>by thy simplicity</span>.
+Sirach	13	8	2	Beware that thou be not deceived and brought down in thy 	e	See <a href='1ES.xhtml#E13_20'>1 Esdr. 3. 20</a> (Engl.).
 Sirach	14	1	1		a	<a href='SIR.xhtml#SR25_8'>ch. 25. 8</a>.
 Sirach	14	1	2	Blessed is the man that hath not 	a	<a href='SIR.xhtml#SR25_8'>ch. 25. 8</a>.
 Sirach	14	1	3	Blessed is the man that hath not 	b	<a href='SIR.xhtml#SR19_16'>ch. 19. 16</a>. See <a href='JAS.xhtml#JM3_2'>Jam. 3. 2</a>.
