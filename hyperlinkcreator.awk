@@ -355,7 +355,10 @@ BEGIN {
 		oneChapterBooks["Song of the Three Holy Children"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["The Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
 		oneChapterBooks["Prayer of Azariah"] = oneChapterBooks["The Song of the Three Holy Children"]
+		oneChapterBooks["Song of Three Youths"] = oneChapterBooks["The Song of the Three Holy Children"]
 
+
+	    oneChapterBooks["Susanna"] = "SUS.xhtml"
 
 		oneChapterBooks["Bel and the Dragon"] = "BEL.xhtml"
 		oneChapterBooks["The Idol Bel and the Dragon"] = "BEL.xhtml"
@@ -364,6 +367,7 @@ BEGIN {
 		oneChapterBooks["Prayer of Manasses"] = oneChapterBooks["The Prayer of Manasses"]
 		oneChapterBooks["The Prayer of Manasseh"] = oneChapterBooks["The Prayer of Manasses"]
 		oneChapterBooks["Prayer of Manasseh"] = oneChapterBooks["The Prayer of Manasses"]
+
 
 
 
