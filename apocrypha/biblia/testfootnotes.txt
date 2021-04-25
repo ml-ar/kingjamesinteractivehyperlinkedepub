@@ -17,3 +17,144 @@ Sirach Prologue	2	1	15	The Prologue of the Wisdom of Jesus, the Son of Sirach. W
 Sirach Prologue	2	1	16	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. 	*	About B.C. 133.
 Sirach Prologue	2	1	17	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. For in the eight and thirtieth year coming into Egypt, when Euergetes was king, and continuing there some time, I found a 	*	Or, <span class='add'>help of learning</span>.
 Sirach Prologue	2	1	18	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. For in the eight and thirtieth year coming into Egypt, when Euergetes was king, and continuing there some time, I found a book of no small learning: therefore I thought it most necessary for me to bestow some diligence and travail to interpret it; using great watchfulness and skill in that space to bring the book to an end, and set it forth for them also, which 	c	<a href='ACT.xhtml#AC13_17'>Acts 13. 17</a> (Gk.).
+Sirach	1	1	1		*	Before CHRIST about 200.
+Sirach	1	1	2		a	<a href='1KI.xhtml#K13_9'>1 Kin. 3. 9</a>. &amp; <a href='1KI.xhtml#K14_29'>4. 29</a>. See <a href='JAS.xhtml#JM1_5'>Jam. 1. 5</a>.
+Sirach	1	1	3	All wisdom cometh from the Lord, And 	c	See <a href='JHN.xhtml#JN1_1'>John 1. 1</a>.
+Sirach	1	11	1	The fear of the Lord is honour, and glory, And 	g	<a href='SIR.xhtml#SR6_31'>ch. 6. 31</a>. &amp; <a href='SIR.xhtml#SR15_6'>15. 6</a> in the Gk. So <a href='1TH.xhtml#H12_19'>1 Thess. 2. 19</a>.
+Sirach	1	13	1	Whoso feareth the Lord, it shall go well with him 	h	<a href='SIR.xhtml#SR2_3'>ch. 2. 3</a> (Gk.). &amp; <a href='SIR.xhtml#SR3_26'>3. 26</a>. &amp; <a href='SIR.xhtml#SR6_28'>6. 28</a>. &amp; <a href='SIR.xhtml#SR12_12'>12. 12</a>. &amp; <a href='SIR.xhtml#SR14_7'>14. 7</a>. &amp; <a href='SIR.xhtml#SR30_1'>30. 1</a>, <a href='SIR.xhtml#SR30_10'>10</a> (Gk.). &amp; <a href='SIR.xhtml#SR31_22'>31. 22</a>. So <a href='PSA.xhtml#PS37_37'>Ps. 37. 37</a>.
+Sirach	1	13	2	Whoso feareth the Lord, it shall go well with him at the last, And he 	*	Or, <span class='add'>shall be blessed</span>.
+Sirach	1	14	1		i	See <a href='PRO.xhtml#PR1_7'>Prov. 1. 7</a>.
+Sirach	1	15	1		j	So <a href='PRO.xhtml#PR8_23'>Prov. 8. 23</a>.
+Sirach	1	15	2	She hath built an everlasting foundation with men, And she shall 	k	<a href='2CH.xhtml#R220_20'>2 Chr. 20. 20</a> (Gk.).
+Sirach	1	16	1		i	See <a href='PRO.xhtml#PR1_7'>Prov. 1. 7</a>.
+Sirach	1	17	1		l	So <a href='PSA.xhtml#PS112_3'>Ps. 112. 3</a>.
+Sirach	1	19	1	Wisdom 	m	See <a href='SIR.xhtml#SR50_27'>ch. 50. 27</a>.
+Sirach	1	2	1		b	So <a href='SIR.xhtml#SR18_10'>ch. 18. 10</a>.
+Sirach	1	20	1		e	See <a href='WIS.xhtml#WS9_13'>Wisd. 9. 13</a>. <a href='SIR.xhtml#SR1_20'>ver. 20</a>. So <a href='WIS.xhtml#WS3_15'>Wisd. 3. 15</a>. Comp. <a href='WIS.xhtml#WS15_3'>Wisd. 15. 3</a>.
+Sirach	1	20	2	The root of wisdom is to fear the Lord, And the branches thereof are 	n	<a href='PRO.xhtml#PR3_2'>Prov. 3. 2</a>, <a href='PRO.xhtml#PR3_16'>16</a>.
+Sirach	1	22	1	A furious man cannot 	*	Or, <span class='add'>escape punishment</span>. See <a href='SIR.xhtml#SR23_11'>ch. 23. 11</a>.
+Sirach	1	23	1		o	<a href='PSA.xhtml#PS37_7'>Ps. 37. 7–9</a>. So <a href='SIR.xhtml#SR2_7'>ch. 2. 7</a>.
+Sirach	1	24	1	He will hide his words for a time, And the lips of 	p	<a href='SIR.xhtml#SR39_9'>ch. 39. 9</a>.
+Sirach	1	25	1		q	See <a href='PRO.xhtml#PR1_6'>Prov. 1. 6</a>.
+Sirach	1	26	1	If thou desire wisdom, 	r	So <a href='MAT.xhtml#MT19_17'>Matt. 19. 17</a>.
+Sirach	1	26	2	If thou desire wisdom, keep the commandments, And 	s	See <a href='JAS.xhtml#JM1_5'>James 1. 5</a>.
+Sirach	1	28	1		*	Or, <span class='add'>Be not disobedient to</span>. <a href='SIR.xhtml#SR2_15'>ch. 2. 15</a>. <a href='ROM.xhtml#RM2_8'>Rom. 2. 8</a> in the Gk.
+Sirach	1	28	2	Distrust not the fear of the Lord when thou art poor: And come not unto him 	t	See <a href='JAS.xhtml#JM1_6'>James 1. 6</a>, <a href='JAS.xhtml#JM1_8'>8</a>.
+Sirach	1	29	1	Be not an hypocrite in the sight of men, and 	u	So <a href='SIR.xhtml#SR4_29'>ch. 4. 29</a>. &amp; <a href='SIR.xhtml#SR5_13'>5. 13</a>. See <a href='JAS.xhtml#JM1_19'>James 1. 19</a>.
+Sirach	1	30	1		x	See <a href='MAT.xhtml#MT23_12'>Matt. 23. 12</a>.
+Sirach	1	30	2	Exalt not thyself, lest thou fall, And bring dishonour upon thy soul, And so God discover thy secrets, And cast thee down 	y	<a href='PRO.xhtml#PR5_14'>Prov. 5. 14</a>. So <a href='PRO.xhtml#PR26_26'>Prov. 26. 26</a>.
+Sirach	1	30	3	Exalt not thyself, lest thou fall, And bring dishonour upon thy soul, And so God discover thy secrets, And cast thee down in the midst of the congregation, Because thou camest not in truth to the fear of the Lord, But thy heart is 	z	So <a href='ACT.xhtml#AC13_10'>Acts 13. 10</a>.
+Sirach	1	4	1		c	See <a href='JHN.xhtml#JN1_1'>John 1. 1</a>.
+Sirach	1	5	1	The word of God most high is 	d	<a href='BAR.xhtml#BR3_12'>Baruch 3. 12</a>. So <a href='2ES.xhtml#E214_47'>2 Esdr. 14. 47</a>.
+Sirach	1	6	1	To whom hath 	e	See <a href='WIS.xhtml#WS9_13'>Wisd. 9. 13</a>. <a href='SIR.xhtml#SR1_20'>ver. 20</a>. So <a href='WIS.xhtml#WS3_15'>Wisd. 3. 15</a>. Comp. <a href='WIS.xhtml#WS15_3'>Wisd. 15. 3</a>.
+Sirach	1	9	1	He created her, and saw her, and 	f	Comp. <a href='WIS.xhtml#WS11_20'>Wisd. 11. 20</a>.
+Sirach	10	10	1	The physician cutteth off a long disease; And 	h	So <a href='1MA.xhtml#M12_62'>1 Macc. 2. 62</a>, <a href='1MA.xhtml#M12_63'>63</a>. <a href='2MA.xhtml#M29_11'>2 Macc. 9. 11</a>, <a href='2MA.xhtml#M29_12'>12</a>.
+Sirach	10	11	1	For when a man is dead, He shall inherit creeping things, beasts, and 	h	So <a href='1MA.xhtml#M12_62'>1 Macc. 2. 62</a>, <a href='1MA.xhtml#M12_63'>63</a>. <a href='2MA.xhtml#M29_11'>2 Macc. 9. 11</a>, <a href='2MA.xhtml#M29_12'>12</a>.
+Sirach	10	11	2	For when a man is dead, He shall inherit creeping things, beasts, and 	i	<a href='ISA.xhtml#IS14_11'>Isai. 14. 11</a>.
+Sirach	10	13	1	For pride is the beginning of sin, And he that hath it shall 	j	See <a href='SIR.xhtml#SR50_27'>ch. 50. 27</a>.
+Sirach	10	13	2	For pride is the beginning of sin, And he that hath it shall pour out abomination: And therefore the Lord brought upon them strange 	k	See <a href='SIR.xhtml#SR2_2'>ch. 2. 2</a>.
+Sirach	10	14	1		l	See <a href='1SA.xhtml#S12_8'>1 Sam. 2. 8</a>.
+Sirach	10	17	1	He took some of them away, and destroyed them, And 	m	So <a href='PSA.xhtml#PS9_6'>Ps. 9. 6</a>.
+Sirach	10	18	1	Pride was not 	n	Comp. <a href='SIR.xhtml#SR11_16'>ch. 11. 16</a> (Gk.).
+Sirach	10	18	2	Pride was not made for men, Nor furious anger for 	o	See <a href='JOB.xhtml#JB14_1'>Job 14. 1</a>.
+Sirach	10	19	1	They that fear the Lord are a sure seed, And they that love him an honourable plant: They that regard not the law are a dishonourable seed; They that transgress the commandments are a 	*	Or, <span class='add'>unstable generation</span>.
+Sirach	10	2	1		a	<a href='PRO.xhtml#PR29_12'>Prov. 29. 12</a>.
+Sirach	10	21	1	The fear of the Lord goeth before the obtaining of 	*	Or, <span class='add'>principality</span>. <a href='EPH.xhtml#EP1_21'>Ephes. 1. 21</a>.
+Sirach	10	22	1	Whether he be rich, noble, or poor, 	p	Comp. <a href='JER.xhtml#JR9_23'>Jer. 9. 23</a>.
+Sirach	10	23	1	It is not meet to despise the poor man 	q	<a href='ACT.xhtml#AC13_7'>Acts 13. 7</a> (Gk.).
+Sirach	10	23	2	It is not meet to despise the poor man that hath understanding; Neither 	r	<a href='ACT.xhtml#AC22_22'>Acts 22. 22</a> (Gk.).
+Sirach	10	25	1		s	<a href='PRO.xhtml#PR17_2'>Prov. 17. 2</a>.
+Sirach	10	25	2	Unto the servant that is wise shall they that are free do service: And 	t	<a href='PRO.xhtml#PR15_5'>Prov. 15. 5</a>. Comp. <a href='2SA.xhtml#S212_13'>2 Sam. 12. 13</a>.
+Sirach	10	27	1		u	<a href='PRO.xhtml#PR12_9'>Prov. 12. 9</a>.
+Sirach	10	28	1	My son, 	x	So <a href='MAT.xhtml#MT16_26'>Matt. 16. 26</a>. <a href='MRK.xhtml#MK8_37'>Mark 8. 37</a>.
+Sirach	10	30	1		u	<a href='PRO.xhtml#PR12_9'>Prov. 12. 9</a>.
+Sirach	10	4	1		b	See <a href='PSA.xhtml#PS75_7'>Ps. 75. 7</a>. So <a href='SIR.xhtml#SR10_8'>ver. 8</a>.
+Sirach	10	5	1	In the hand of God is the 	c	<a href='1ES.xhtml#E18_6'>1 Esdr. 8. 6</a> marg.
+Sirach	10	5	2	In the hand of God is the prosperity of man: And upon the 	*	Or, <span class='add'>face</span>. Comp. <a href='EXO.xhtml#EX34_33'>Ex. 34. 33</a>.
+Sirach	10	5	3	In the hand of God is the prosperity of man: And upon the person of 	d	<a href='SIR.xhtml#SR38_24'>ch. 38. 24</a> (Gk.). <a href='1CO.xhtml#C11_20'>1 Cor. 1. 20</a>.
+Sirach	10	6	1		e	<a href='LEV.xhtml#LV19_17'>Lev. 19. 17</a>. <a href='MAT.xhtml#MT18_21'>Matt. 18. 21</a>.
+Sirach	10	8	1	Because of unrighteous dealings, injuries, and riches got by deceit, 	b	See <a href='PSA.xhtml#PS75_7'>Ps. 75. 7</a>. So <a href='SIR.xhtml#SR10_8'>ver. 8</a>.
+Sirach	10	9	1	Why is 	f	See <a href='SIR.xhtml#SR17_32'>ch. 17. 32</a>.
+Sirach	10	9	2	Why is earth and ashes proud? There is not a more wicked thing than a covetous man: For such an one setteth his own soul to sale; Because while he liveth 	g	Comp. <a href='1JN.xhtml#1JN3_17'>1 John 3. 17</a>.
+Sirach	11	1	1	Wisdom lifteth up the head 	*	Or, <span class='add'>of the lowly</span>. <a href='SIR.xhtml#SR3_20'>ch. 3. 20</a>. &amp; <a href='SIR.xhtml#SR10_15'>10. 15</a>. &amp; <a href='SIR.xhtml#SR12_5'>12. 5</a>.
+Sirach	11	1	2	Wisdom lifteth up the head of him that is of low degree, And 	a	<a href='GEN.xhtml#GN41_40'>Gen. 41. 40</a>. <a href='DAN.xhtml#DN6_3'>Dan. 6. 3</a>. <a href='SIR.xhtml#SR39_4'>ch. 39. 4</a>.
+Sirach	11	10	1	My son, meddle not with many matters: For if thou meddle much, thou shalt not be innocent; And if thou 	i	<a href='PHP.xhtml#PP3_12'>Phil. 3. 12</a>.
+Sirach	11	10	2	My son, meddle not with many matters: For if thou meddle much, thou shalt not be innocent; And if thou follow after, thou shalt not 	i	<a href='PHP.xhtml#PP3_12'>Phil. 3. 12</a>.
+Sirach	11	10	3	My son, meddle not with many matters: For if thou meddle much, thou shalt not be innocent; And if thou follow after, thou shalt not obtain, Neither shalt thou 	*	Or, <span class='add'>escape</span> hurt.
+Sirach	11	11	1		k	<a href='PRO.xhtml#PR10_3'>Prov. 10. 3</a>. <a href='MAT.xhtml#MT19_22'>Matt. 19. 22</a>. <a href='1TI.xhtml#T16_9'>1 Tim. 6. 9</a>.
+Sirach	11	12	1	Again, there is another that is slow, and hath need of help, Wanting 	l	See <a href='SIR.xhtml#SR9_2'>ch. 9. 2</a>.
+Sirach	11	12	2	Again, there is another that is slow, and hath need of help, Wanting ability, and full of poverty; 	m	<a href='JOB.xhtml#JB42_10'>Job 42. 10</a>. <a href='PRO.xhtml#PR10_22'>Prov. 10. 22</a>.
+Sirach	11	14	1		n	So <a href='1SA.xhtml#S12_7'>1 Sam. 2. 7</a>. <a href='JOB.xhtml#JB1_21'>Job 1. 21</a>. &amp; <a href='JOB.xhtml#JB2_10'>2. 10</a>. <a href='SIR.xhtml#SR7_11'>ch. 7. 11</a>.
+Sirach	11	15	1		o	<a href='EZK.xhtml#EK28_4'>Ezek. 28. 4</a>.
+Sirach	11	16	1	Error and darkness 	p	Comp. <a href='SIR.xhtml#SR10_18'>ch. 10. 18</a> (Gk.).
+Sirach	11	19	1		q	See <a href='SIR.xhtml#SR31_3'>ch. 31. 3</a>. Comp. <a href='SIR.xhtml#SR11_24'>ver. 24</a>.
+Sirach	11	19	2	Whereas he saith, I have found rest, And now will eat 	q	See <a href='SIR.xhtml#SR31_3'>ch. 31. 3</a>. Comp. <a href='SIR.xhtml#SR11_24'>ver. 24</a>.
+Sirach	11	19	3	Whereas he saith, I have found rest, And now will eat continually of my goods; And yet he knoweth not what time shall 	*	Or, <span class='add'>pass</span>.
+Sirach	11	19	4	Whereas he saith, I have found rest, And now will eat continually of my goods; And yet he knoweth not what time shall come upon him, And that 	r	<a href='PSA.xhtml#PS49_10'>Ps. 49. 10</a>. <a href='SIR.xhtml#SR14_4'>ch. 14. 4</a>, <a href='SIR.xhtml#SR14_15'>15</a>. See <a href='PSA.xhtml#PS39_6'>Ps. 39. 6</a>.
+Sirach	11	20	1		s	<a href='2KI.xhtml#K223_3'>2 Kin. 23. 3</a> (Gk.). So <a href='MAT.xhtml#MT10_22'>Matt. 10. 22</a>.
+Sirach	11	21	1		t	<a href='ECC.xhtml#EC5_8'>Eccles. 5. 8</a>.
+Sirach	11	22	1	The blessing of the Lord is 	*	Or, <span class='add'>for a reward</span>.
+Sirach	11	23	1	Say not, 	u	See <a href='MAL.xhtml#ML3_14'>Mal. 3. 14</a>. Comp. <a href='JOB.xhtml#JB2_9'>Job 2. 9</a>. <a href='TOB.xhtml#TB2_14'>Tobit 2. 14</a>.
+Sirach	11	24	1	Again, 	q	See <a href='SIR.xhtml#SR31_3'>ch. 31. 3</a>. Comp. <a href='SIR.xhtml#SR11_24'>ver. 24</a>.
+Sirach	11	25	1		v	Comp. <a href='SIR.xhtml#SR18_25'>ch. 18. 25</a>.
+Sirach	11	26	1	For it is an easy thing unto the Lord 	w	<a href='SIR.xhtml#SR18_24'>ch. 18. 24</a> (Gk.).
+Sirach	11	28	1		x	See <a href='SIR.xhtml#SR37_24'>ch. 37. 24</a>.
+Sirach	11	3	1	The bee is little among such as fly; But her fruit is 	b	<a href='SIR.xhtml#SR29_21'>ch. 29. 21</a>. &amp; <a href='SIR.xhtml#SR39_26'>39. 26</a> (Gk.).
+Sirach	11	32	1	Of a spark of fire 	y	<a href='JHN.xhtml#JN18_18'>John 18. 18</a>. &amp; <a href='JHN.xhtml#JN21_9'>21. 9</a> in the Greek.
+Sirach	11	34	1	Receive a stranger into thine house, and he will disturb thee, And turn thee out of 	z	See <a href='JHN.xhtml#JN16_32'>John 16. 32</a> marg.
+Sirach	11	4	1		c	<a href='ACT.xhtml#AC12_21'>Acts 12. 21</a>.
+Sirach	11	4	2	Boast not of thy clothing and raiment, And exalt not thyself in the day of honour: For 	d	<a href='PSA.xhtml#PS139_14'>Ps. 139. 14</a>.
+Sirach	11	5	1	Many 	*	Gr. <span class='add'>tyrants</span>. See <a href='WIS.xhtml#WS14_16'>Wisd. 14. 16</a>.
+Sirach	11	5	2	Many kings have 	e	See <a href='JOB.xhtml#JB2_8'>Job 2. 8</a>. Comp. <a href='EZR.xhtml#ER9_3'>Ezra 9. 3</a>.
+Sirach	11	6	1		f	<a href='1SA.xhtml#S115_28'>1 Sam. 15. 28</a>. <a href='EST.xhtml#ET7_10'>Esth. 7. 10</a>.
+Sirach	11	7	1		g	So <a href='DEU.xhtml#DT13_14'>Deut. 13. 14</a>. &amp; <a href='DEU.xhtml#DT17_6'>17. 6</a>, <a href='DEU.xhtml#DT17_7'>7</a>.
+Sirach	11	8	1		h	See <a href='PRO.xhtml#PR18_13'>Prov. 18. 13</a>.
+Sirach	11	9	1	Strive not in a matter that concerneth thee not; And sit not 	*	Or, <span class='add'>in the judgment of sinners</span>. Comp. <a href='PSA.xhtml#PS1_1'>Ps. 1. 1</a>.
+Sirach	12	1	1	When thou wilt do good 	a	Comp. <a href='MAT.xhtml#MT7_6'>Matt. 7. 6</a>.
+Sirach	12	10	1	Never trust thine enemy: For like as 	*	Or, <span class='add'>brass</span>.
+Sirach	12	11	1		h	So <a href='PSA.xhtml#PS10_10'>Ps. 10. 10</a>.
+Sirach	12	11	2	Though he humble himself, and go 	i	<a href='SIR.xhtml#SR19_26'>ch. 19. 26</a>, <a href='SIR.xhtml#SR19_27'>27</a> (Gk.).
+Sirach	12	11	3	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst 	j	<a href='BAR.xhtml#BR6_24'>Baruch 6. 24</a>.
+Sirach	12	11	4	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst wiped a 	k	<a href='WIS.xhtml#WS7_26'>Wisd. 7. 26</a>. <a href='1CO.xhtml#C113_12'>1 Cor. 13. 12</a> in the Gk.
+Sirach	12	11	5	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst wiped a lookingglass, And thou shalt know that 	j	<a href='BAR.xhtml#BR6_24'>Baruch 6. 24</a>.
+Sirach	12	11	6	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst wiped a lookingglass, And thou shalt know that 	l	Comp. <a href='JAS.xhtml#JM5_3'>James 5. 3</a> (Gk.).
+Sirach	12	12	1	Set him not by thee, Lest, when he hath overthrown thee, he stand up in thy place; Neither let him sit at thy right hand, Lest he seek to take thy seat, And thou 	ll	See <a href='SIR.xhtml#SR1_13'>ch. 1. 13</a>.
+Sirach	12	12	2	Set him not by thee, Lest, when he hath overthrown thee, he stand up in thy place; Neither let him sit at thy right hand, Lest he seek to take thy seat, And thou at the last remember my words, And 	m	See <a href='SIR.xhtml#SR14_1'>ch. 14. 1</a>.
+Sirach	12	13	1	Who will pity 	n	So <a href='PSA.xhtml#PS58_5'>Ps. 58. 5</a>. See <a href='ECC.xhtml#EC10_11'>Eccles. 10. 11</a>.
+Sirach	12	14	1	So one that goeth to a sinner, And is 	*	Or, <span class='add'>mingled</span>.
+Sirach	12	15	1	For a while he will abide with thee, But if thou begin to fall, he will not 	o	See <a href='SIR.xhtml#SR2_2'>ch. 2. 2</a>.
+Sirach	12	16	1		p	<a href='PRO.xhtml#PR26_24'>Prov. 26. 24</a>, <a href='PRO.xhtml#PR26_25'>25</a>. See <a href='PSA.xhtml#PS28_3'>Ps. 28. 3</a>.
+Sirach	12	16	2	An enemy speaketh sweetly with his lips, But in his heart 	q	Comp. <a href='JER.xhtml#JR41_6'>Jer. 41. 6</a>, <a href='JER.xhtml#JR41_7'>7</a>.
+Sirach	12	16	3	An enemy speaketh sweetly with his lips, But in his heart he imagineth how to throw thee into a pit: 	q	Comp. <a href='JER.xhtml#JR41_6'>Jer. 41. 6</a>, <a href='JER.xhtml#JR41_7'>7</a>.
+Sirach	12	17	1	If adversity come upon thee, thou shalt find him there first; And though he pretend to help thee, yet shall he 	*	Or, <span class='add'>supplant</span>. Comp. <a href='PSA.xhtml#PS41_9'>Ps. 41. 9</a>.
+Sirach	12	18	1	He will 	r	<a href='SIR.xhtml#SR13_7'>ch. 13. 7</a>. See <a href='JOB.xhtml#JB16_4'>Job 16. 4</a>.
+Sirach	12	18	2	He will shake his head, and 	s	See <a href='JOB.xhtml#JB27_23'>Job 27. 23</a>.
+Sirach	12	18	3	He will shake his head, and clap his hands, And whisper much, and 	t	<a href='SIR.xhtml#SR13_25'>ch. 13. 25</a>.
+Sirach	12	2	1	Do good to the godly man, and thou shalt find a recompence; And 	b	So <a href='LUK.xhtml#LK6_35'>Luke 6. 35</a>.
+Sirach	12	3	1	There can no good come to him that is always occupied in evil, Nor 	c	See <a href='TOB.xhtml#TB4_7'>Tobit 4. 7</a>.
+Sirach	12	4	1		d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
+Sirach	12	4	2	Give to the godly man, 	d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
+Sirach	12	4	3	Give to the godly man, 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
+Sirach	12	5	1	Do well unto him that is lowly, but 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
+Sirach	12	5	2	Do well unto him that is lowly, but give not to the ungodly: Hold back thy bread, and give it not unto him, lest he overmaster thee thereby: For else 	f	<a href='SIR.xhtml#SR11_34'>ch. 11. 34</a>.
+Sirach	12	6	1	For the most High hateth sinners, And will repay vengeance unto the ungodly, And 	g	Comp. <a href='JUD.xhtml#JD1_6'>Jude 6</a>.
+Sirach	12	7	1		d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
+Sirach	12	7	2	Give unto the good, 	d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
+Sirach	12	7	3	Give unto the good, 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
+Sirach	13	1	1	He that toucheth pitch shall be defiled therewith; And 	a	Comp. <a href='DEU.xhtml#DT7_2'>Deut. 7. 2</a>.
+Sirach	13	10	1		f	Comp. <a href='PRO.xhtml#PR25_17'>Prov. 25. 17</a>.
+Sirach	13	11	1		*	Or, <span class='add'>Forbear not</span>.
+Sirach	13	11	2		g	See <a href='SIR.xhtml#SR5_1'>ch. 5. 1</a>.
+Sirach	13	11	3	Affect not to be made equal unto him in talk, 	*	Or, <span class='add'>But</span>.
+Sirach	13	17	1		h	Comp. <a href='2CO.xhtml#C26_14'>2 Cor. 6. 14</a>.
+Sirach	13	17	2	What fellowship hath the wolf with the lamb? 	i	So <a href='PRO.xhtml#PR29_27'>Prov. 29. 27</a>.
+Sirach	13	19	1	As 	k	See <a href='JOB.xhtml#JB6_5'>Job 6. 5</a>.
+Sirach	13	19	2	As the wild ass is the lion’s prey in the wilderness: so 	l	<a href='AMO.xhtml#AM8_4'>Amos 8. 4</a>. See <a href='PSA.xhtml#PS14_4'>Ps. 14. 4</a>.
+Sirach	13	2	1	Burden not thyself above thy power while thou livest; And have no fellowship with one that is mightier and richer than thyself: For how agree the kettle and the earthen pot together? 	*	Gr. <span class='add'>This shall smite against</span> it, <span class='add'>and be broken</span>.
+Sirach	13	22	1	When a rich man is fallen, he hath many helpers: he speaketh things not to be spoken, and yet men justify him: the poor man slipped, and yet they rebuked him too; 	m	So <a href='ECC.xhtml#EC9_15'>Eccles. 9. 15</a>, <a href='ECC.xhtml#EC9_16'>16</a>. <a href='SIR.xhtml#SR26_28'>ch. 26. 28</a>.
+Sirach	13	22	2	When a rich man is fallen, he hath many helpers: he speaketh things not to be spoken, and yet men justify him: the poor man slipped, and yet they rebuked him too; He spake wisely, and 	n	<a href='SIR.xhtml#SR19_17'>ch. 19. 17</a>. &amp; <a href='SIR.xhtml#SR38_12'>38. 12</a> in the Gk.
+Sirach	13	23	1	When a rich man speaketh, 	o	<a href='JOB.xhtml#JB29_9'>Job 29. 9</a>.
+Sirach	13	25	1	The heart of a man 	p	<a href='SIR.xhtml#SR12_18'>ch. 12. 18</a>.
+Sirach	13	25	2	The heart of a man changeth his countenance, whether it be for good or evil: And 	q	See <a href='PRO.xhtml#PR15_13'>Prov. 15. 13</a>.
+Sirach	13	26	1	A cheerful countenance is a token of a heart that is in prosperity; And the finding out of parables is 	r	<a href='ECC.xhtml#EC12_12'>Eccles. 12. 12</a>.
+Sirach	13	3	1		b	So <a href='PRO.xhtml#PR18_23'>Prov. 18. 23</a>.

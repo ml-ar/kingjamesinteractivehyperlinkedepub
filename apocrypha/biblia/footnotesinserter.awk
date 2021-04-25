@@ -503,16 +503,21 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 #xhtmlVariable: the full xhtml file of
 #footnotes: an array, with this anatomy: footnotes[book][chapter][verse][index][precedingVerseText][footnoteSymbol] = actualFootnoteText
 #footnotenumber: pass this argument if the footnotes to add start greater than 1 (e.g., you already did some work on the xhtmlVariable)
-function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  chapter,  verseID,  endnotesPosition,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
+function writeCSS(xhtmlFile, xhtmlVariable, footnotes, footnoteNumber,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  chapter,  verseID,  endnotesPosition,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 #START WORK HERE 2 (Maybe? Or maybe it works, check): This may not be correct for the apocrypha, since you lifted this algorithm from footnoteparser.awk; make sure it's correct for the apocrypha, make sure this works with regular notes, especially the one chapter books
 
+	if (!footnoteNumber) #no footnote passed; start on the first footnote
+	{
+		footnoteNumber = 1
+	}
 
-		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
-		{
-			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
-		}
-xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
+
+	if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
+	{
+		print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
+	}
+	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
 		for (i in footnotes) #book
 		{
@@ -555,11 +560,11 @@ xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 								{
 
 #first isolate the line where it takes place
-									newVerse = getModifiedVerse(newVerse, m, n, l) #gets the verse (i.e., the line) with the footnote added in the right place
+									newVerse = getModifiedVerse(newVerse, m, n, footnoteNumber) #gets the verse (i.e., the line) with the footnote added in the right place
 #now we insert the newVerse where the old verse was
 
 
-										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "chapter"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
+										xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#"verseID"\"><span class=\"notemark\">"n"</span> "chapter"."k"</a>\n <span class=\"ft\">"footnotes[i][j][k][l][m][n]"</span></p></aside>\n";
 
 
 								}
@@ -643,11 +648,11 @@ function writeS3Y(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 }
 
 #writing Sirach special cases
-function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  originalPrologueHeadingLine,  modifiedPrologueHeadingLine,  originalPrologueLine,  modifiedPrologueLine,  sirachPrologueHeading,  j,  k,  l,  m,  adhocFootnotes)
+function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  footnoteNumber,  matchArray,  xhtmlWriteMe,  restOfCSSWriteMe,  originalPrologueHeadingLine,  modifiedPrologueHeadingLine,  originalPrologueLine,  modifiedPrologueLine,  sirachPrologueHeading,  j,  k,  l,  m,  adhocFootnotes)
 {
+	footnoteNumber = 1
 
-
-	xhtmlFile = folderPrefix bookFiles["Sirach"]
+		xhtmlFile = folderPrefix bookFiles["Sirach"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
@@ -710,15 +715,14 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  matchArray
 
 							if (length(m) <= length(sirachPrologueHeading)) #the note belongs in the prologue heading
 							{
-								modifiedPrologueHeadingLine = getModifiedVerse(modifiedPrologueHeadingLine, m, n, l, "sirachprologuenote"l)
+								modifiedPrologueHeadingLine = getModifiedVerse(modifiedPrologueHeadingLine, m, n, footnoteNumber, "sirachprologuenote"footnoteNumber)
 							}
 							else #it belongs in the prologue text itself; assuming that the preceding text is prepended with the "sirachPrologueHeading"
 							{
-								modifiedPrologueLine = getModifiedVerse(modifiedPrologueLine, substr(m, length(sirachPrologueHeading) + 1), n, l, "sirachprologuenote"l) #modifying the preceding text to get rid of the prologue heading at the beginning; AGAIN ASSUMES THAT ALL PRECEDING TEXT FOR THE SIRACH PROLOGUE IS PREFACED WITH THE "sirachPrologueHeading"
+								modifiedPrologueLine = getModifiedVerse(modifiedPrologueLine, substr(m, length(sirachPrologueHeading) + 1), n, footnoteNumber, "sirachprologuenote"footnoteNumber) #modifying the preceding text to get rid of the prologue heading at the beginning; AGAIN ASSUMES THAT ALL PRECEDING TEXT FOR THE SIRACH PROLOGUE IS PREFACED WITH THE "sirachPrologueHeading"
 							}
 
-
-							xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"l"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
+							xhtmlWriteMe = xhtmlWriteMe "<aside epub:type='footnote' id=\"FN"footnoteNumber++"\"><p class=\"f\"><a class=\"notebackref\" href=\"#sirachprologuenote"l"\"><span class=\"notemark\">"n"</span></a>\n <span class=\"ft\">"footnotes["Sirach Prologue"][j][k][l][m][n]"</span></p></aside>\n";
 						}
 					}
 				}
@@ -732,7 +736,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  matchArray
 	copySingleBookFootnotesArray("Sirach", adhocFootnotes)
 
 
-		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes)
+		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes, footnoteNumber)
 
 		delete footnotes["Sirach"]
 		delete footnotes["Sirach Prologue"]
