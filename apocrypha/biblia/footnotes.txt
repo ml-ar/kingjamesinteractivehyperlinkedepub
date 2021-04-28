@@ -5036,9 +5036,9 @@ Sirach	20	1	3	There is a reproof that is not comely: Again, 	e	<a href='SIR.xhtm
 Sirach	20	11	1		k	See <a href='MAT.xhtml#MT23_12'>Matt. 23. 12</a>.
 Sirach	20	12	1	There is that buyeth much for a little, And repayeth it 	l	See <a href='SIR.xhtml#SR7_3'>ch. 7. 3</a>.
 Sirach	20	13	1		m	<a href='SIR.xhtml#SR6_5'>ch. 6. 5</a>.
-Sirach	20	13	2	A wise man by his words maketh himself beloved: But the 	*	Or, <span class='add'>pleasant conceits</span>.
-Sirach	20	13	3	A wise man by his words maketh himself beloved: But the 	n	<a href='SIR.xhtml#SR21_16'>ch. 21. 16</a>.
-Sirach	20	13	4	A wise man by his words maketh himself beloved: But the graces of fools shall be 	*	[Or,] <span class='add'>lost</span>, or, <span class='add'>spilt</span>. <a href='PSA.xhtml#PS22_14'>Ps. 22. 14</a>. <a href='LAM.xhtml#LM2_11'>Lam. 2. 11</a> in the Gk.
+Sirach	20	13	2	A wise man by his words maketh him beloved: but the 	*	Or, <span class='add'>pleasant conceits</span>.
+Sirach	20	13	3	A wise man by his words maketh him beloved: but the 	n	<a href='SIR.xhtml#SR21_16'>ch. 21. 16</a>.
+Sirach	20	13	4	A wise man by his words maketh him beloved: but the graces of fools shall be 	*	[Or,] <span class='add'>lost</span>, or, <span class='add'>spilt</span>. <a href='PSA.xhtml#PS22_14'>Ps. 22. 14</a>. <a href='LAM.xhtml#LM2_11'>Lam. 2. 11</a> in the Gk.
 Sirach	20	14	1	The gift of a fool shall do thee no good when thou hast it; Neither yet of the envious 	o	So <a href='1PE.xhtml#P15_2'>1 Pet. 5. 2</a>.
 Sirach	20	14	2	The gift of a fool shall do thee no good when thou hast it; Neither yet of the envious for his necessity: 	*	Gr. <span class='add'>For his eyes</span> are <span class='add'>many for one to receive</span>.
 Sirach	20	15	1	He giveth little, and 	p	<a href='SIR.xhtml#SR18_18'>ch. 18. 18</a>. &amp; <a href='SIR.xhtml#SR41_22'>41. 22</a>.
@@ -5126,7 +5126,7 @@ Sirach	22	15	2	Sand, and salt, and a mass of iron, is 	l	So <a href='SIR.xhtml#S
 Sirach	22	16	1	As timber girt and bound together in a building cannot be loosed with shaking: So 	m	So <a href='PSA.xhtml#PS112_6'>Ps. 112. 6</a>, <a href='PSA.xhtml#PS112_7'>7</a>.
 Sirach	22	17	1	A heart settled upon a thought of understanding Is as 	n	See <a href='EZK.xhtml#EK13_10'>Ezek. 13. 10</a>.
 Sirach	22	17	2	A heart settled upon a thought of understanding Is as a fair plaistering 	*	Or, <span class='add'>of a polished wall</span>.
-Sirach	22	18	1	Pales set on a high place will never stand against the wind: So 	nn	See <a href='SIR.xhtml#SR2_12'>ch. 2. 12</a>.
+Sirach	22	18	1	Pales set on an high place will never stand against the wind: so 	nn	See <a href='SIR.xhtml#SR2_12'>ch. 2. 12</a>.
 Sirach	22	20	1	Whoso casteth a stone at the birds 	o	<a href='DEU.xhtml#DT28_26'>Deut. 28. 26</a>. <a href='JER.xhtml#JR7_33'>Jer. 7. 33</a>. <a href='ZEC.xhtml#ZC1_21'>Zech. 1. 21</a> (English).
 Sirach	22	20	2	Whoso casteth a stone at the birds frayeth them away: And 	p	So <a href='SIR.xhtml#SR41_22'>ch. 41. 22</a>.
 Sirach	22	22	1	If thou hast opened thy mouth against thy friend, fear not; For there may be a reconciliation: Except for upbraiding, or pride, or 	q	<a href='SIR.xhtml#SR27_16'>ch. 27. 16</a>, <a href='SIR.xhtml#SR27_17'>17</a>, <a href='SIR.xhtml#SR27_21'>21</a>. &amp; <a href='SIR.xhtml#SR41_23'>41. 23</a> in the Gk. So <a href='PRO.xhtml#PR11_13'>Prov. 11. 13</a>.
@@ -5185,9 +5185,9 @@ Sirach	24	13	3	I was exalted like a cedar in Libanus, And as a cypress tree upon
 Sirach	24	14	1	I was exalted like 	l	<a href='SIR.xhtml#SR50_12'>ch. 50. 12</a>. See <a href='PSA.xhtml#PS92_12'>Ps. 92. 12</a>.
 Sirach	24	14	2	I was exalted like a palm tree in 	*	Or, <span class='add'>Cades</span>. <a href='1MA.xhtml#M111_63'>1 Macc. 11. 63</a>, <a href='1MA.xhtml#M111_73'>73</a>?
 Sirach	24	14	3	I was exalted like a palm tree in 	m	See <a href='JOS.xhtml#JS15_62'>Josh. 15. 62</a>. &amp; <a href='1SA.xhtml#S123_29'>1 Sam. 23. 29</a>.
-Sirach	24	14	4	I was exalted like a palm tree in Engaddi, And as a 	n	<a href='SNG.xhtml#SS2_1'>Cant. 2. 1</a>. <a href='ISA.xhtml#IS35_1'>Isai. 35. 1</a>. <a href='SIR.xhtml#SR39_13'>ch. 39. 13</a>. &amp; <a href='SIR.xhtml#SR50_8'>50. 8</a>.
-Sirach	24	14	5	I was exalted like a palm tree in Engaddi, And as a rose plant in Jericho, As a fair 	j	<a href='SIR.xhtml#SR50_10'>ch. 50. 10</a>. Comp. <a href='ISA.xhtml#IS44_14'>Isai. 44. 14</a> (English).
-Sirach	24	14	6	I was exalted like a palm tree in Engaddi, And as a rose plant in Jericho, As a fair olive tree in a pleasant field, And grew up as a plane tree 	*	Or, <span class='add'>in the water</span>.
+Sirach	24	14	4	I was exalted like a palm tree in En-gaddi, and as a 	n	<a href='SNG.xhtml#SS2_1'>Cant. 2. 1</a>. <a href='ISA.xhtml#IS35_1'>Isai. 35. 1</a>. <a href='SIR.xhtml#SR39_13'>ch. 39. 13</a>. &amp; <a href='SIR.xhtml#SR50_8'>50. 8</a>.
+Sirach	24	14	5	I was exalted like a palm tree in En-gaddi, and as a rose plant in Jericho, As a fair 	j	<a href='SIR.xhtml#SR50_10'>ch. 50. 10</a>. Comp. <a href='ISA.xhtml#IS44_14'>Isai. 44. 14</a> (English).
+Sirach	24	14	6	I was exalted like a palm tree in En-gaddi, and as a rose plant in Jericho, As a fair olive tree in a pleasant field, And grew up as a plane tree 	*	Or, <span class='add'>in the water</span>.
 Sirach	24	15	1	I gave a sweet smell like 	o	<a href='EXO.xhtml#EX30_23'>Ex. 30. 23</a>. <a href='PRO.xhtml#PR7_17'>Prov. 7. 17</a>. <a href='SNG.xhtml#SS4_14'>Cant. 4. 14</a>. <a href='REV.xhtml#RV18_13'>Rev. 18. 13</a>.
 Sirach	24	15	2	I gave a sweet smell like cinnamon and aspalathus, And I yielded a pleasant odour like the best 	p	See <a href='JHN.xhtml#JN19_39'>John 19. 39</a>.
 Sirach	24	15	3	I gave a sweet smell like cinnamon and aspalathus, And I yielded a pleasant odour like the best myrrh, As 	q	<a href='EXO.xhtml#EX30_34'>Ex. 30. 34</a>.
