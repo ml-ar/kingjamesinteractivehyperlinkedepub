@@ -409,10 +409,12 @@ function storeTextFileInVariable(fileName,  toReturn,  line)
 
 function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnoteNumber, id,  toAppend,  verseTextOnly,  splitArray,  matchArray,  sepsArray,  severedSepBefore,  severedSepAfter,  found,  position,  toReturn,  o,  PREVIOUSIGNORECASE)
 {
-	if (id)
-	{
-		id = "id=\""id"\" "
-	}
+	PREVIOUSIGNORECASE = IGNORECASE
+		IGNORECASE = 1
+		if (id)
+		{
+			id = "id=\""id"\" "
+		}
 
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
 	{
@@ -420,7 +422,8 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		if (match(fullVerseLine, /^(<div class='mt'>)((<a href='#FN[^>]+>[^<]+<[^>]+>)*)(.*$)/, matchArray)) #it's a title
 		{
 			toReturn = matchArray[1] matchArray[2] "<a href='#FN"footnoteNumber"' " id "epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[4];
-			return toReturn
+			IGNORECASE = PREVIOUSIGNORECASE
+				return toReturn
 		}
 
 
@@ -432,6 +435,8 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 		toReturn = matchArray[1] matchArray[2] matchArray[4] matchArray[5] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
 			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
+
+			IGNORECASE = PREVIOUSIGNORECASE
 			return toReturn
 
 
@@ -452,7 +457,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		{
 			verseTextOnly = verseTextOnly "" splitArray[o]
 				toAppend = ""
-				if (position = index(verseTextOnly,precedingWords) && !found) #we found the section in the xhtml where the footnote is to be inserted
+				if (position = index(tolower(verseTextOnly),tolower(precedingWords)) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
 						position = length(precedingWords)
