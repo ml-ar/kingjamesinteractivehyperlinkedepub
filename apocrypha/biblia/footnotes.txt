@@ -5312,7 +5312,7 @@ Sirach	27	14	1		r	See <a href='SIR.xhtml#SR23_9'>ch. 23. 9</a>.
 Sirach	27	16	1		s	See <a href='SIR.xhtml#SR22_22'>ch. 22. 22</a>.
 Sirach	27	17	1	Love thy friend, and be faithful unto him: But 	s	See <a href='SIR.xhtml#SR22_22'>ch. 22. 22</a>.
 Sirach	27	17	2	Love thy friend, and be faithful unto him: But if thou 	t	See <a href='MAT.xhtml#MT26_73'>Matt. 26. 73</a> (Engl.).
-Sirach	27	17	3	Love thy friend, and be faithful unto him: But if thou bewrayest his secrets, 	u	So <a href='SIR.xhtml#SR27_20'>ver. 20</a>.
+Sirach	27	17	3	Love thy friend, and be faithful unto him: but if thou betrayest his secrets, 	u	So <a href='SIR.xhtml#SR27_20'>ver. 20</a>.
 Sirach	27	19	1		x	Comp. <a href='PSA.xhtml#PS124_7'>Ps. 124. 7</a>.
 Sirach	27	2	1	As a 	c	See <a href='SIR.xhtml#SR14_24'>ch. 14. 24</a>.
 Sirach	27	2	2	As a nail sticketh fast between the joinings of the stones; So 	d	See <a href='SIR.xhtml#SR26_29'>ch. 26. 29</a>.
@@ -5430,9 +5430,9 @@ Sirach	30	13	1	Chastise thy son, and 	h	<a href='SIR.xhtml#SR33_25'>ch. 33. 25</
 Sirach	30	14	1		*	Of health.
 Sirach	30	18	1	Delicates poured upon a mouth shut up Are as 	i	See <a href='TOB.xhtml#TB4_17'>Tobit 4. 17</a>.
 Sirach	30	19	1		k	<a href='BEL.xhtml#BL1_7'>Bel and Dragon 7</a>.
-Sirach	30	19	2	What good doth the 	l	<a href='LEV.xhtml#LV4_10'>Lev. 4. 10</a>, &amp;c. <a href='SIR.xhtml#SR45_16'>ch. 45. 16</a> in the Gk.
-Sirach	30	19	3	What good doth the offering unto an idol? For neither can it eat 	m	<a href='PSA.xhtml#PS115_6'>Ps. 115. 6</a>.
-Sirach	30	19	4	What good doth the offering unto an idol? For neither can it eat nor smell: So is he that is 	*	Or, <span class='add'>afflicted</span>.
+Sirach	30	19	2	What good doeth the 	l	<a href='LEV.xhtml#LV4_10'>Lev. 4. 10</a>, &amp;c. <a href='SIR.xhtml#SR45_16'>ch. 45. 16</a> in the Gk.
+Sirach	30	19	3	What good doeth the offering unto an idol? For neither can it eat 	m	<a href='PSA.xhtml#PS115_6'>Ps. 115. 6</a>.
+Sirach	30	19	4	What good doeth the offering unto an idol? For neither can it eat nor smell: So is he that is 	*	Or, <span class='add'>afflicted</span>.
 Sirach	30	2	1	He that chastiseth his son shall have 	*	Or, <span class='add'>good by him</span>. <a href='PHM.xhtml#PM1_20'>Philem. 20</a>.
 Sirach	30	2	2	He that chastiseth his son shall have joy in him, And shall rejoice of him among his 	*	Or, <span class='add'>kinsfolk</span>.
 Sirach	30	20	1	He seeth with his eyes and groaneth, 	n	<a href='SIR.xhtml#SR20_4'>ch. 20. 4</a>.
@@ -5513,17 +5513,17 @@ Sirach	33	1	1		a	<a href='PRO.xhtml#PR12_21'>Prov. 12. 21</a>. See <a href='1PE.
 Sirach	33	1	2	There shall no evil happen unto him that feareth the Lord; But 	b	See <a href='2PE.xhtml#P22_9'>2 Pet. 2. 9</a>.
 Sirach	33	10	1	And all men are from the ground, And 	g	<a href='GEN.xhtml#GN1_27'>Gen. 1. 27</a>. &amp; <a href='GEN.xhtml#GN2_7'>2. 7</a>.
 Sirach	33	11	1	In much knowledge the Lord hath divided them, And 	e	Gk. as <a href='SIR.xhtml#SR33_11'>ver. 11</a>. <a href='SIR.xhtml#SR36_6'>ch. 36. 6</a>. &amp; <a href='SIR.xhtml#SR38_27'>38. 27</a>. &amp; <a href='SIR.xhtml#SR40_5'>40. 5</a>.
-Sirach	33	12	1	Some of them hath he blessed and exalted, And some of them hath he sanctified, and set near himself: But some of them hath he cursed and brought low, And turned out of their 	*	Or, <span class='add'>standings</span>.
+Sirach	33	12	1	Some of them hath he blessed and exalted and some of them he sanctified, and set near himself: but some of them hath he cursed and brought low, and turned out of their 	*	Or, <span class='add'>standings</span>.
 Sirach	33	13	1		h	See <a href='ROM.xhtml#RM9_20'>Rom. 9. 20</a>, <a href='ROM.xhtml#RM9_21'>21</a>.
 Sirach	33	15	1	So look upon all the works of the most High; And there are 	i	<a href='SIR.xhtml#SR42_24'>ch. 42. 24</a>.
 Sirach	33	16	1	I awaked up 	k	Comp. <a href='1CO.xhtml#C115_8'>1 Cor. 15. 8</a>.
 Sirach	33	16	2	I awaked up last of all, 	l	<a href='2ES.xhtml#E212_42'>2 Esdr. 12. 42</a>.
 Sirach	33	16	3	I awaked up last of all, As one that 	*	Or, <span class='add'>gleaneth</span>. <a href='ISA.xhtml#IS24_13'>Isai. 24. 13</a> (Gk.).
-Sirach	33	16	4	I awaked up last of all, As one that gathereth after the grapegatherers: By the blessing of the Lord I profited, And filled my 	m	See <a href='ISA.xhtml#IS5_2'>Isai. 5. 2</a>.
+Sirach	33	16	4	I awaked up last of all, as one that gathereth after the grapegatherers: by the blessing of the Lord I profited, and tred my 	m	See <a href='ISA.xhtml#IS5_2'>Isai. 5. 2</a>.
 Sirach	33	17	1	Consider 	n	<a href='SIR.xhtml#SR24_34'>ch. 24. 34</a>.
 Sirach	33	19	1	Give not 	o	<a href='SIR.xhtml#SR32_22'>ch. 32. 22</a>.
 Sirach	33	2	1	A wise man hateth not the law; But 	c	<a href='SIR.xhtml#SR32_15'>ch. 32. 15</a>. See <a href='LUK.xhtml#LK20_20'>Luke 20. 20</a>.
-Sirach	33	2	2	A wise man hateth not the law; But he that is a hypocrite therein is 	d	Comp. <a href='SIR.xhtml#SR33_5'>ver. 5</a>. <a href='ISA.xhtml#IS57_20'>Isai 57. 20</a>.
+Sirach	33	2	2	A wise man hateth not the law; But he that is an hypocrite therein is 	d	Comp. <a href='SIR.xhtml#SR33_5'>ver. 5</a>. <a href='ISA.xhtml#IS57_20'>Isai 57. 20</a>.
 Sirach	33	20	1	As long as thou livest and hast breath in thee, 	*	Or, <span class='add'>Sell not</span>.
 Sirach	33	21	1	For better it is that thy children should seek to thee, Than that thou shouldest 	*	Or, <span class='add'>look to their hands</span>.
 Sirach	33	24	1		*	Of servants.
@@ -5587,10 +5587,10 @@ Sirach	35	15	2	Do not the tears run down the widow’s cheeks? And is not 	u	See
 Sirach	35	17	1	The prayer of the humble pierceth the clouds: And till it come nigh, he will not be comforted; And 	v	Comp. <a href='GEN.xhtml#GN32_26'>Gen. 32. 26</a>. <a href='LUK.xhtml#LK18_7'>Luke 18. 7</a>.
 Sirach	35	18	1	For 	w	<a href='2PE.xhtml#P23_9'>2 Pet. 3. 9</a>.
 Sirach	35	18	2	For the Lord will not be slack, Neither will the Mighty 	x	See <a href='SIR.xhtml#SR18_11'>ch. 18. 11</a>.
-Sirach	35	18	3	For the Lord will not be slack, Neither will the Mighty be patient towards them, Till he have smitten in sunder the loins of the unmerciful, And repaid vengeance to the heathen; Till he have taken away the multitude of the 	*	Or. <span class='add'>cruel oppressors</span>. See <a href='1TI.xhtml#T11_13'>1 Tim. 1. 13</a>.
+Sirach	35	18	3	For the Lord will not be slack, Neither will the Mighty be patient toward them, Till he have smitten in sunder the loins of the unmerciful, And repayed vengeance to the heathen; Till he have taken away the multitude of the 	*	Or. <span class='add'>cruel oppressors</span>. See <a href='1TI.xhtml#T11_13'>1 Tim. 1. 13</a>.
 Sirach	35	19	1	Till he have 	y	<a href='MAT.xhtml#MT16_27'>Matt. 16. 27</a> (Gk.). See <a href='ROM.xhtml#RM2_6'>Rom. 2. 6</a>.
-Sirach	35	2	1	He that requiteth a good turn 	d	<a href='LEV.xhtml#LV2_1'>Lev. 2. 1</a>. <a href='SIR.xhtml#SR38_11'>ch. 38. 11</a>.
-Sirach	35	2	2	He that requiteth a good turn offereth fine flour; And he that giveth alms 	e	<a href='2CH.xhtml#R229_31'>2 Chr. 29. 31</a>. &amp; <a href='2CH.xhtml#R233_16'>33. 16</a> in the Gk. <a href='1MA.xhtml#M14_56'>1 Macc. 4. 56</a>.
+Sirach	35	2	1	He that requiteth a goodturn 	d	<a href='LEV.xhtml#LV2_1'>Lev. 2. 1</a>. <a href='SIR.xhtml#SR38_11'>ch. 38. 11</a>.
+Sirach	35	2	2	He that requiteth a goodturn offereth fine flour; And he that giveth alms 	e	<a href='2CH.xhtml#R229_31'>2 Chr. 29. 31</a>. &amp; <a href='2CH.xhtml#R233_16'>33. 16</a> in the Gk. <a href='1MA.xhtml#M14_56'>1 Macc. 4. 56</a>.
 Sirach	35	20	1	Mercy is 	*	Gr. <span class='add'>fair</span>. <a href='SIR.xhtml#SR20_1'>ch. 20. 1</a> marg.
 Sirach	35	20	2	Mercy is seasonable in the time of affliction, As 	z	See <a href='PSA.xhtml#PS72_6'>Ps. 72. 6</a>.
 Sirach	35	4	1		f	See <a href='EXO.xhtml#EX23_15'>Exod. 23. 15</a>.
