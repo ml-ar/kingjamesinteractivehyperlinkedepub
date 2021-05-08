@@ -5646,9 +5646,9 @@ Sirach	36	8	2	Make the time short, remember the 	*	Gr. <span class='add'>oath</s
 Sirach	36	9	1	Let 	h	Comp. <a href='ISA.xhtml#IS24_18'>Isai. 24. 18</a>. <a href='JER.xhtml#JR48_44'>Jer. 48. 44</a>.
 Sirach	37	11	1	Neither consult with 	d	<a href='SIR.xhtml#SR26_6'>ch. 26. 6</a>.
 Sirach	37	11	2	Neither consult with a woman touching her of whom she is jealous; Neither with a coward in matters of war; Nor 	e	See <a href='SIR.xhtml#SR26_29'>ch. 26. 29</a>.
-Sirach	37	11	3	Neither consult with a woman touching her of whom she is jealous; Neither with a coward in matters of war; Nor with a merchant concerning exchange; Nor with a buyer of selling; Nor with an envious man of thankfulness; Nor with an unmerciful man touching kindness; Nor with the slothful for any work; Nor with a hireling for a year, of finishing work; Nor with an idle servant of much business: 	f	See <a href='SIR.xhtml#SR5_1'>ch. 5. 1</a>.
-Sirach	37	12	1	But be continually with a godly man, Whom thou knowest to keep the commandments of the Lord, Whose mind is 	g	<a href='SIR.xhtml#SR36_23'>ch. 36. 23</a>, <a href='SIR.xhtml#SR36_24'>24</a> (Gk.).
-Sirach	37	12	2	But be continually with a godly man, Whom thou knowest to keep the commandments of the Lord, Whose mind is according to thy mind, And 	h	See <a href='SIR.xhtml#SR7_34'>ch. 7. 34</a>.
+Sirach	37	11	3	Neither consult with a woman touching her of whom she is jealous; neither with a coward in matters of war; nor with a merchant concerning exchange; nor with a buyer of selling; nor with an envious man of thankfulness; nor with an unmerciful man touching kindness; nor with the slothful for any work; nor with an hireling for a year of finishing work; nor with an idle servant of much business: 	f	See <a href='SIR.xhtml#SR5_1'>ch. 5. 1</a>.
+Sirach	37	12	1	But be continually with a godly man, whom thou knowest to keep the commandments of the Lord, whose, mind is 	g	<a href='SIR.xhtml#SR36_23'>ch. 36. 23</a>, <a href='SIR.xhtml#SR36_24'>24</a> (Gk.).
+Sirach	37	12	2	But be continually with a godly man, whom thou knowest to keep the commandments of the Lord, whose, mind is according to thy mind, And 	h	See <a href='SIR.xhtml#SR7_34'>ch. 7. 34</a>.
 Sirach	37	14	1	For a man’s mind is sometime wont to tell him more Than 	i	See <a href='PRO.xhtml#PR6_16'>Prov. 6. 16</a>.
 Sirach	37	14	2	For a man’s mind is sometime wont to tell him more Than seven 	k	Comp. <a href='2SA.xhtml#S218_24'>2 Sam. 18. 24</a>.
 Sirach	37	18	1		l	See <a href='SIR.xhtml#SR23_16'>ch. 23. 16</a>.
@@ -5670,8 +5670,8 @@ Sirach	37	30	3	For excess of meats bringeth sickness, And 	x	<a href='SIR.xhtml#
 Sirach	37	4	1		a	So <a href='SIR.xhtml#SR6_10'>ch. 6. 10</a>.
 Sirach	37	5	1	There is a companion, which helpeth his friend for the belly, And taketh up the buckler 	*	Or, <span class='add'>in presence of the enemy</span>.
 Sirach	37	6	1	Forget not thy friend in thy mind, And be not unmindful of him 	b	Comp. <a href='SIR.xhtml#SR3_13'>ch. 3. 13</a> marg.
-Sirach	37	8	1	Beware of a counseller, And know before 	*	Or, <span class='add'>what use</span> there is <span class='add'>of him</span>.
-Sirach	37	8	2	Beware of a counseller, And know before what need he hath; (For he will counsel for himself) Lest he 	c	See <a href='JOL.xhtml#JL3_3'>Joel 3. 3</a>.
+Sirach	37	8	1	Beware of a counsellor, and know before 	*	Or, <span class='add'>what use</span> there is <span class='add'>of him</span>.
+Sirach	37	8	2	Beware of a counsellor, and know before what need he hath; for he will counsel for himself; lest he 	c	See <a href='JOL.xhtml#JL3_3'>Joel 3. 3</a>.
 Sirach	38	1	1	Honour a physician with the 	a	See <a href='ACT.xhtml#AC28_10'>Acts 28. 10</a>.
 Sirach	38	1	2	Honour a physician with the honour due unto him for the 	l	See <a href='SIR.xhtml#SR23_16'>ch. 23. 16</a>.
 Sirach	38	1	3	Honour a physician with the honour due unto him for the uses which you may have of him: 	b	<a href='SIR.xhtml#SR38_12'>ver. 12</a>.
