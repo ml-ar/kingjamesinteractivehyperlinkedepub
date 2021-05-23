@@ -5888,7 +5888,7 @@ Sirach	41	23	1	Or 	o	<a href='1JN.xhtml#1JN2_28'>1 John 2. 28</a> (Gk.).
 Sirach	41	23	2	Or of 	x	So <a href='SIR.xhtml#SR19_7'>ch. 19. 7</a>, <a href='SIR.xhtml#SR19_14'>14</a> (Gk.).
 Sirach	41	23	3	Or of iterating and speaking again that which thou hast heard; And 	o	<a href='1JN.xhtml#1JN2_28'>1 John 2. 28</a> (Gk.).
 Sirach	41	23	4	Or of iterating and speaking again that which thou hast heard; And of 	y	See <a href='SIR.xhtml#SR22_22'>ch. 22. 22</a>.
-Sirach	41	24	1	So shalt thou be truly shamefast, And 	z	So <a href='SIR.xhtml#SR3_18'>ch. 3. 18</a>. &amp; <a href='SIR.xhtml#SR45_1'>45. 1</a>.
+Sirach	41	24	1	So shalt thou be truly shamefaced and 	z	So <a href='SIR.xhtml#SR3_18'>ch. 3. 18</a>. &amp; <a href='SIR.xhtml#SR45_1'>45. 1</a>.
 Sirach	41	6	1		d	See <a href='PSA.xhtml#PS21_10'>Ps. 21. 10</a>.
 Sirach	41	7	1	The children will complain of an ungodly father, 	e	Comp. <a href='WIS.xhtml#WS4_6'>Wisd. 4. 6</a>.
 Sirach	42	1	1		a	<a href='SIR.xhtml#SR4_21'>ch. 4. 21</a>. &amp; <a href='SIR.xhtml#SR20_22'>20. 22</a>.
@@ -5899,12 +5899,12 @@ Sirach	42	12	1	Behold not every body’s beauty, And 	p	So <a href='SIR.xhtml#SR
 Sirach	42	13	1	For from garments cometh a moth, And 	q	So <a href='SIR.xhtml#SR25_24'>ch. 25. 24</a>. See <a href='GEN.xhtml#GN3_6'>Gen. 3. 6</a>.
 Sirach	42	14	1	Better is the 	*	Or, <span class='add'>wickedness</span>. <a href='SIR.xhtml#SR25_17'>ch. 25. 17</a>. <a href='SIR.xhtml#SR42_13'>ver. 13</a>.
 Sirach	42	14	2	Better is the churlishness of a man than a 	r	Comp. <a href='PRO.xhtml#PR7_21'>Prov. 7. 21</a>?
-Sirach	42	15	1	I will now remember the works of the Lord, And declare the things that I have seen; 	s	<a href='2ES.xhtml#E26_38'>2 Esdr. 6. 38</a>.
+Sirach	42	15	1	I will now remember the works of the Lord, and declare the things that I have seen: 	s	<a href='2ES.xhtml#E26_38'>2 Esdr. 6. 38</a>.
 Sirach	42	17	1		t	<a href='SIR.xhtml#SR18_4'>ch. 18. 4</a>. So <a href='SIR.xhtml#SR43_27'>ch. 43. 27</a>, <a href='SIR.xhtml#SR43_28'>28</a>.
 Sirach	42	17	2	The Lord hath not given power to the saints to declare all his marvellous works, Which the 	u	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
 Sirach	42	18	1	He seeketh out the deep, and the heart, And considereth their 	v	See <a href='SIR.xhtml#SR21_12'>ch. 21. 12</a> marg.
-Sirach	42	18	2	He seeketh out the deep, and the heart, And considereth their crafty devices; For 	*	Or, <span class='add'>the Highest</span>. <a href='SIR.xhtml#SR42_2'>ver. 2</a>.
-Sirach	42	18	3	He seeketh out the deep, and the heart, And considereth their crafty devices; For the Lord knoweth all that may be known, And he beholdeth 	w	<a href='SIR.xhtml#SR43_6'>ch. 43. 6</a>.
+Sirach	42	18	2	He seeketh out the deep, and the heart, and considereth their crafty devices: for 	*	Or, <span class='add'>the Highest</span>. <a href='SIR.xhtml#SR42_2'>ver. 2</a>.
+Sirach	42	18	3	He seeketh out the deep, and the heart, and considereth their crafty devices: for the Lord knoweth all that may be known, And he beholdeth 	w	<a href='SIR.xhtml#SR43_6'>ch. 43. 6</a>.
 Sirach	42	19	1		x	So <a href='ISA.xhtml#IS46_10'>Isai. 46. 10</a>.
 Sirach	42	2	1		c	Comp. <a href='SIR.xhtml#SR41_19'>ch. 41. 19</a>.
 Sirach	42	20	1		y	<a href='JOB.xhtml#JB42_2'>Job 42. 2</a>. So <a href='ISA.xhtml#IS29_15'>Isai. 29. 15</a>.
@@ -5944,10 +5944,10 @@ Sirach	43	17	2	The noise of the thunder maketh the earth 	*	Or, <span class='add
 Sirach	43	17	3	The noise of the thunder maketh the earth to tremble: So doth the northern storm and the whirlwind: 	m	So <a href='PSA.xhtml#PS147_16'>Ps. 147. 16</a>.
 Sirach	43	17	4	The noise of the thunder maketh the earth to tremble: So doth the northern storm and the whirlwind: As birds flying he scattereth the snow, And the falling down thereof is as the lighting of 	s	See <a href='WIS.xhtml#WS16_9'>Wisd. 16. 9</a>. Comp. <a href='PSA.xhtml#PS105_34'>Ps. 105. 34</a> (Gk.).
 Sirach	43	19	1		m	So <a href='PSA.xhtml#PS147_16'>Ps. 147. 16</a>.
-Sirach	43	19	2	The hoar frost also as salt he poureth on the earth, And being congealed, 	*	Or, <span class='add'>it is</span> as <span class='add'>the point of sharp stakes</span>.
+Sirach	43	19	2	The hoarfrost also as salt he poureth on the earth, and being congealed, 	*	Or, <span class='add'>it is</span> as <span class='add'>the point of sharp stakes</span>.
 Sirach	43	2	1	The sun when it appeareth, declaring at his rising A marvellous 	*	Or, <span class='add'>vessel</span>. <a href='SIR.xhtml#SR43_8'>ver. 8</a>. See <a href='SIR.xhtml#SR45_8'>ch. 45. 8</a>.
 Sirach	43	20	1	When the cold north wind bloweth, And the water is congealed into ice, It abideth upon every 	t	<a href='GEN.xhtml#GN1_9'>Gen. 1. 9</a> (Gk.).
-Sirach	43	22	1	A present remedy of all is a mist coming speedily: A dew coming 	*	Or, <span class='add'>upon the heat</span>.
+Sirach	43	22	1	A present remedy of all is a mist coming speedily, a dew coming 	*	Or, <span class='add'>upon the heat</span>.
 Sirach	43	24	1		u	<a href='PSA.xhtml#PS107_23'>Ps. 107. 23–27</a>.
 Sirach	43	24	2	They that 	v	<a href='1MA.xhtml#M113_29'>1 Macc. 13. 29</a>.
 Sirach	43	25	1		w	<a href='PSA.xhtml#PS104_25'>Ps. 104. 25</a>, <a href='PSA.xhtml#PS104_26'>26</a>.
@@ -6002,11 +6002,11 @@ Sirach	45	1	2	And he brought out of him a merciful man, Which 	aa	See <a href='S
 Sirach	45	1	3	And he brought out of him a merciful man, Which found favour in the sight of all flesh, Even Moses, 	b	So <a href='SIR.xhtml#SR46_13'>ch. 46. 13</a>. <a href='BAR.xhtml#BR3_34'>Baruch 3. 36</a>. <a href='S3Y.xhtml#PA1_12'>Song 12</a>.
 Sirach	45	1	4	And he brought out of him a merciful man, Which found favour in the sight of all flesh, Even Moses, beloved of God and men, 	bb	<a href='SIR.xhtml#SR46_11'>ch. 46. 11</a>. &amp; <a href='SIR.xhtml#SR49_10'>49. 10</a>. <a href='1MA.xhtml#M13_7'>1 Macc. 3. 7</a>. See <a href='PRO.xhtml#PR10_7'>Prov. 10. 7</a>.
 Sirach	45	10	1		q	So <a href='1MA.xhtml#M13_49'>1 Macc. 3. 49</a>. See <a href='WIS.xhtml#WS18_24'>Wisd. 18. 24</a>.
-Sirach	45	10	2	With a holy garment, with gold, and 	r	<a href='1MA.xhtml#M14_23'>1 Macc. 4. 23</a>. See <a href='SIR.xhtml#SR40_4'>ch. 40. 4</a>.
-Sirach	45	10	3	With a holy garment, with gold, and blue silk, And 	r	<a href='1MA.xhtml#M14_23'>1 Macc. 4. 23</a>. See <a href='SIR.xhtml#SR40_4'>ch. 40. 4</a>.
-Sirach	45	10	4	With a holy garment, with gold, and blue silk, And 	s	<a href='EXO.xhtml#EX28_15'>Ex. 28. 15</a>, <a href='EXO.xhtml#EX28_30'>30</a>.
-Sirach	45	10	5	With a holy garment, with gold, and blue silk, And purple, the work of the embroiderer, 	s	<a href='EXO.xhtml#EX28_15'>Ex. 28. 15</a>, <a href='EXO.xhtml#EX28_30'>30</a>.
-Sirach	45	10	6	With a holy garment, with gold, and blue silk, And purple, the work of the embroiderer, With a breastplate of judgment, and 	t	See <a href='SIR.xhtml#SR33_3'>ch. 33. 3</a> marg.
+Sirach	45	10	2	With an holy garment, with gold, and 	r	<a href='1MA.xhtml#M14_23'>1 Macc. 4. 23</a>. See <a href='SIR.xhtml#SR40_4'>ch. 40. 4</a>.
+Sirach	45	10	3	With an holy garment, with gold, and blue silk, And 	r	<a href='1MA.xhtml#M14_23'>1 Macc. 4. 23</a>. See <a href='SIR.xhtml#SR40_4'>ch. 40. 4</a>.
+Sirach	45	10	4	With an holy garment, with gold, and blue silk, And 	s	<a href='EXO.xhtml#EX28_15'>Ex. 28. 15</a>, <a href='EXO.xhtml#EX28_30'>30</a>.
+Sirach	45	10	5	With an holy garment, with gold, and blue silk, And purple, the work of the embroiderer, 	s	<a href='EXO.xhtml#EX28_15'>Ex. 28. 15</a>, <a href='EXO.xhtml#EX28_30'>30</a>.
+Sirach	45	10	6	With an holy garment, with gold, and blue silk, And purple, the work of the embroiderer, With a breastplate of judgment, and 	t	See <a href='SIR.xhtml#SR33_3'>ch. 33. 3</a> marg.
 Sirach	45	11	1	With 	s	<a href='EXO.xhtml#EX28_15'>Ex. 28. 15</a>, <a href='EXO.xhtml#EX28_30'>30</a>.
 Sirach	45	11	2	With twisted scarlet, the work of the cunning workman, 	u	<a href='EXO.xhtml#EX28_17'>Ex. 28. 17–21</a>.
 Sirach	45	12	1		q	So <a href='1MA.xhtml#M13_49'>1 Macc. 3. 49</a>. See <a href='WIS.xhtml#WS18_24'>Wisd. 18. 24</a>.
@@ -6033,7 +6033,7 @@ Sirach	45	22	1		q	See <a href='NUM.xhtml#NU18_20'>Num. 18. 20</a>.
 Sirach	45	22	2	Howbeit in the land of the people 	qq	See <a href='SIR.xhtml#SR44_21'>ch. 44. 21</a>.
 Sirach	45	22	3	Howbeit in the land of the people he had no inheritance, Neither had he any portion among the people: 	q	See <a href='NUM.xhtml#NU18_20'>Num. 18. 20</a>.
 Sirach	45	23	1		r	<a href='NUM.xhtml#NU25_11'>Num. 25. 11–13</a>. <a href='1MA.xhtml#M12_54'>1 Macc. 2. 54</a>.
-Sirach	45	23	2	The third in glory is Phinees the son of Eleazar, Because he had zeal in the fear of the Lord, And stood up with good courage of heart 	s	<a href='NUM.xhtml#NU25_4'>Num. 25. 4–9</a>.
+Sirach	45	23	2	The third in glory is Phinees the son of Eleazar, because he had zeal in the fear of the Lord, and stood up with good courage of heart:	s	<a href='NUM.xhtml#NU25_4'>Num. 25. 4–9</a>.
 Sirach	45	24	1	Therefore was there 	r	<a href='NUM.xhtml#NU25_11'>Num. 25. 11–13</a>. <a href='1MA.xhtml#M12_54'>1 Macc. 2. 54</a>.
 Sirach	45	24	2	Therefore was there a covenant of peace made with him, That he should be the chief of the sanctuary and of his people, And that he and his posterity 	r	<a href='NUM.xhtml#NU25_11'>Num. 25. 11–13</a>. <a href='1MA.xhtml#M12_54'>1 Macc. 2. 54</a>.
 Sirach	45	25	1		t	<a href='2SA.xhtml#S27_12'>2 Sam. 7. 12–16</a>.
@@ -6047,9 +6047,9 @@ Sirach	45	4	2	He sanctified him in his faithfulness and 	g	<a href='NUM.xhtml#NU
 Sirach	45	5	1	He made him to hear his voice, And 	h	<a href='EXO.xhtml#EX24_18'>Ex. 24. 18</a>.
 Sirach	45	5	2	He made him to hear his voice, And brought him into the dark cloud, And 	e	<a href='EXO.xhtml#EX19_3'>Ex. 19. 3</a>, <a href='EXO.xhtml#EX19_7'>7</a>. <a href='DEU.xhtml#DT6_1'>Deut. 6. 1</a>, <a href='DEU.xhtml#DT6_2'>2</a>.
 Sirach	45	6	1	He exalted 	i	<a href='EXO.xhtml#EX4_14'>Ex. 4. 14</a>, <a href='EXO.xhtml#EX4_28'>28</a>.
-Sirach	45	6	2	He exalted Aaron, a holy man like unto him, Even his brother, 	j	<a href='EXO.xhtml#EX6_16'>Ex. 6. 16</a>, <a href='EXO.xhtml#EX6_20'>20</a>.
-Sirach	45	7	1	An everlasting covenant he made with him, And 	k	<a href='EXO.xhtml#EX28_1'>Ex. 28. 1</a>, <a href='EXO.xhtml#EX28_2'>2</a>.
-Sirach	45	7	2	An everlasting covenant he made with him, And gave him the priesthood among the people; 	*	Gr. <span class='add'>he blessed</span>.
+Sirach	45	6	2	He exalted Aaron, an holy man like unto him, even his brother, 	j	<a href='EXO.xhtml#EX6_16'>Ex. 6. 16</a>, <a href='EXO.xhtml#EX6_20'>20</a>.
+Sirach	45	7	1	An everlasting covenant he made with him and 	k	<a href='EXO.xhtml#EX28_1'>Ex. 28. 1</a>, <a href='EXO.xhtml#EX28_2'>2</a>.
+Sirach	45	7	2	An everlasting covenant he made with him and gave him the priesthood among the people; 	*	Gr. <span class='add'>he blessed</span>.
 Sirach	45	8	1	He put upon him perfect glory; And strengthened him with 	l	<a href='SIR.xhtml#SR45_12'>ver. 12</a>. See <a href='SIR.xhtml#SR9_2'>ch. 9. 2</a>.
 Sirach	45	8	2	He put upon him perfect glory; And strengthened him with rich 	*	Gr. <span class='add'>vessels</span>, or, <span class='add'>instruments</span>. <a href='SIR.xhtml#SR43_2'>ch. 43. 2</a>, <a href='SIR.xhtml#SR43_8'>8</a>. <a href='DEU.xhtml#DT22_5'>Deut. 22. 5</a> (Heb. &amp; Gk.). See <a href='2CO.xhtml#C24_7'>2 Cor. 4. 7</a>.
 Sirach	45	8	3	He put upon him perfect glory; And strengthened him with rich garments, With 	m	<a href='EXO.xhtml#EX28_42'>Ex. 28. 42</a>.
