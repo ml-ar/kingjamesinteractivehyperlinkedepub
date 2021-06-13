@@ -495,6 +495,11 @@ function getProperHyperlinkOpeningBracket(bibliaTag,  hyperlinkArray,  linkBook,
            linkChapter = 1
 	}
 
+	if (linkBookFullName ~ /Esther/ && (linkChapter>10 || (linkChapter == 10 && linkVerse > 3)))
+	{
+	linkBookFullName = "Esther (Greek)"
+	}
+	
 	toReturn = "<a href='"bookFiles[linkBookFullName]"#"verseLabels[linkBookFullName]""linkChapter"_"linkVerse"'>"
 
 		return toReturn;
