@@ -3993,18 +3993,18 @@ Bel and the Dragon	0	1	2	And king 	a	Comp. <a href='DAN.xhtml#DN5_31'>Dan. 5. 31
 Bel and the Dragon	0	1	3	And king Astyages 	b	<a href='1MA.xhtml#M12_69'>1 Macc. 2. 69</a>. So <a href='JDT.xhtml#JT16_22'>Judith 16. 22</a>. <a href='1MA.xhtml#M114_30'>1 Macc. 14. 30</a>.
 Bel and the Dragon	0	1	4	And king Astyages was gathered to his fathers, and 	a	Comp. <a href='DAN.xhtml#DN5_31'>Dan. 5. 31</a>. &amp; <a href='DAN.xhtml#DN6_28'>6. 28</a>. &amp; <a href='DAN.xhtml#DN9_1'>9. 1</a>. &amp; <a href='DAN.xhtml#DN10_1'>10. 1</a>.
 Bel and the Dragon	0	2	5	And Daniel 	*	Or, <span class='add'>lived with the king</span>. So <a href='WIS.xhtml#WS8_3'>Wisd. 8. 3</a>, <a href='WIS.xhtml#WS8_9'>9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. <a href='2MA.xhtml#M214_25'>2 Macc. 14. 25</a> marg.
-Bel and the Dragon	0	3	6	Now the Babylonians had an idol, called 	c	<a href='BAR.xhtml#BR6_41'>Baruch 6. 41</a>. See <a href='ISA.xhtml#IS46_1'>Isai. 46. 1</a>.
-Bel and the Dragon	0	3	7	Now the Babylonians had an idol, called Bel, and 	d	Comp. <a href='JER.xhtml#JR51_44'>Jer. 51. 44</a>.
-Bel and the Dragon	0	3	8	Now the Babylonians had an idol, called Bel, and there were spent upon him every day twelve great measures of fine flour, and forty sheep, and six 	e	<a href='1ES.xhtml#E18_20'>1 Esdr. 8. 20</a> (Gk.). See <a href='JHN.xhtml#JN2_6'>John 2. 6</a>.
+Bel and the Dragon	0	3	6	Now the Babylons had an idol, called 	c	<a href='BAR.xhtml#BR6_41'>Baruch 6. 41</a>. See <a href='ISA.xhtml#IS46_1'>Isai. 46. 1</a>.
+Bel and the Dragon	0	3	7	Now the Babylons had an idol, called Bel, and 	d	Comp. <a href='JER.xhtml#JR51_44'>Jer. 51. 44</a>.
+Bel and the Dragon	0	3	8	Now the Babylons had an idol, called Bel, and there were spent upon him every day twelve great measures of fine flour, and forty sheep, and six 	e	<a href='1ES.xhtml#E18_20'>1 Esdr. 8. 20</a> (Gk.). See <a href='JHN.xhtml#JN2_6'>John 2. 6</a>.
 Bel and the Dragon	0	5	9	Who answered and said, Because I may not worship idols made with hands, but 	f	See <a href='EST.xhtml#ET16_16'>Esther 16. 16</a>.
 Bel and the Dragon	0	7	10	Then Daniel 	l	<a href='BEL.xhtml#BL1_7'>ver. 7</a> (Gk.).
 Bel and the Dragon	0	7	11	Then Daniel smiled, and said, O king, be not deceived: for this is but clay within, and brass without, and 	g	<a href='SIR.xhtml#SR30_19'>Ecclus. 30. 19</a>.
 Bel and the Dragon	0	8	12	So the king was wroth, and called for his priests, and said unto them, If ye tell me not who this is that devoureth 	h	<a href='BEL.xhtml#BL1_3'>ver. 3</a>.
 Bel and the Dragon	0	9	13	But if ye can certify me that Bel devoureth them, then Daniel shall die: for he hath 	i	Comp. Gk. of <a href='MRK.xhtml#MK3_29'>Mark 3. 29</a>. <a href='LUK.xhtml#LK12_10'>Luke 12. 10</a>.
-Bel and the Dragon	0	11	14	So Bel’s priests said, Lo, we go out: but thou, O king, set on the meat, and make ready the wine, and shut the door fast, and 	j	See <a href='DAN.xhtml#DN6_17'>Dan. 6. 17</a>.
+Bel and the Dragon	0	11	14	So Bel’s priests said, Lo, we go out: but thou, O king, set on the meat, and make ready the wine, and shut the door fast and 	j	See <a href='DAN.xhtml#DN6_17'>Dan. 6. 17</a>.
 Bel and the Dragon	0	13	15	And they little regarded it: for under the table they had made a privy entrance, whereby they entered in continually, and 	k	<a href='BAR.xhtml#BR6_28'>Baruch 6. 28</a>.
 Bel and the Dragon	0	14	16	So when they were gone forth, the king set meats before Bel. Now Daniel had commanded his servants to bring ashes, and those they strewed throughout all the temple in the presence of the king alone: then went they out, and shut the door, and 	j	See <a href='DAN.xhtml#DN6_17'>Dan. 6. 17</a>.
-Bel and the Dragon	0	15	17	Now in the night came the priests with their wives and children, (as they were wont to do,) and 	k	<a href='BAR.xhtml#BR6_28'>Baruch 6. 28</a>.
+Bel and the Dragon	0	15	17	Now in the night came the priests with their wives and children, as they were wont to do, and 	k	<a href='BAR.xhtml#BR6_28'>Baruch 6. 28</a>.
 Bel and the Dragon	0	19	18	Then 	l	<a href='BEL.xhtml#BL1_7'>ver. 7</a> (Gk.).
 Bel and the Dragon	0	21	19	and took the priests with their wives and children, who shewed him 	m	<a href='BEL.xhtml#BL1_13'>ver. 13</a>.
 Bel and the Dragon	0	23	20		*	Some add this title, <span class='add'>Of the dragon</span>.
@@ -4018,10 +4018,10 @@ Bel and the Dragon	0	28	27	When they of Babylon heard that, they took great indi
 Bel and the Dragon	0	31	28		r	Comp. <a href='DAN.xhtml#DN6_16'>Dan. 6. 16</a>.
 Bel and the Dragon	0	32	29	And in the den there were seven lions, and they had given them every day 	*	Or, <span class='add'>two slaves</span>. See <a href='REV.xhtml#RV18_13'>Rev. 18. 13</a>.
 Bel and the Dragon	0	33	30	Now there was in Jewry a prophet, called 	s	Not as <a href='HAB.xhtml#HK1_1'>Hab. 1. 1</a>.
-Bel and the Dragon	0	33	31	Now there was in Jewry a prophet, called Habacuc, who had 	*	Or, <span class='add'>sod</span>. Gk. as <a href='BEL.xhtml#BL1_27'>ver. 27</a>.
+Bel and the Dragon	0	33	31	Now there was in Jewry a prophet, called Habbacuc, who had 	*	Or, <span class='add'>sod</span>. Gk. as <a href='BEL.xhtml#BL1_27'>ver. 27</a>.
 Bel and the Dragon	0	36	32	Then the angel of the Lord 	t	<a href='EZK.xhtml#EK8_3'>Ezek. 8. 3</a>.
 Bel and the Dragon	0	36	33	Then the angel of the Lord took him by the crown, and 	u	See <a href='1KI.xhtml#K118_12'>1 Kin. 18. 12</a>.
-Bel and the Dragon	0	37	34	And Habacuc cried, saying, O Daniel, Daniel, 	v	Comp. <a href='1KI.xhtml#K117_4'>1 Kin. 17. 4</a>.
+Bel and the Dragon	0	37	34	And Habbacuc cried, saying, O Daniel, Daniel, 	v	Comp. <a href='1KI.xhtml#K117_4'>1 Kin. 17. 4</a>.
 Bel and the Dragon	0	40	35	Upon the seventh day 	w	Comp. <a href='DAN.xhtml#DN6_19'>Dan. 6. 19</a>.
 Bel and the Dragon	0	41	36	Then cried the king with a loud voice, saying, Great art thou, O Lord 	x	<a href='DAN.xhtml#DN6_26'>Dan. 6. 26</a>. So <a href='DAN.xhtml#DN3_28'>Dan. 3. 28</a>, <a href='DAN.xhtml#DN3_29'>29</a>.
 Bel and the Dragon	0	42	37	And 	y	Comp. <a href='JER.xhtml#JR37_16'>Jer. 37. 16</a>, <a href='JER.xhtml#JR37_17'>17</a>.
@@ -6488,16 +6488,16 @@ Song of Three Youths	0	15	20	Neither is there at this time prince, 	p	See <a hre
 Song of Three Youths	0	15	21	Neither is there at this time prince, or prophet, or leader, or burnt offering, or sacrifice, or oblation, or incense, or 	q	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9</a>. <a href='2CH.xhtml#R236_19'>2 Chr. 36. 19</a>.
 Song of Three Youths	0	16	22	Nevertheless in 	r	See <a href='PSA.xhtml#PS51_17'>Ps. 51. 17</a>. Comp. <a href='BAR.xhtml#BR2_18'>Baruch 2. 18</a>.
 Song of Three Youths	0	17	23		s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
-Song of Three Youths	0	17	24	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so 	s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
-Song of Three Youths	0	17	25	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may 	t	<a href='DEU.xhtml#DT1_36'>Deut. 1. 36</a> marg.
-Song of Three Youths	0	17	26	Like as in the burnt offering of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may wholly go after thee: for 	u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
+Song of Three Youths	0	17	24	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so 	s	So <a href='PSA.xhtml#PS51_16'>Ps. 51. 16</a>, <a href='PSA.xhtml#PS51_17'>17</a>.
+Song of Three Youths	0	17	25	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may 	t	<a href='DEU.xhtml#DT1_36'>Deut. 1. 36</a> marg.
+Song of Three Youths	0	17	26	Like as in the burnt offerings of rams and bullocks, and like as in ten thousands of fat lambs: so let our sacrifice be in thy sight this day, and grant that we may wholly go after thee: for 	u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
 Song of Three Youths	0	19	27		u	See <a href='PSA.xhtml#PS25_2'>Ps. 25. 2</a>.
 Song of Three Youths	0	19	28	Put us not to shame: but 	x	<a href='PSA.xhtml#PS119_124'>Ps. 119. 124</a>.
 Song of Three Youths	0	19	29	Put us not to shame: but deal with us after thy 	y	See <a href='WIS.xhtml#WS2_19'>Wisd. 2. 19</a>.
 Song of Three Youths	0	20	30	Deliver us also according to thy marvellous works, and 	z	<a href='PSA.xhtml#PS115_1'>Ps. 115. 1</a>.
 Song of Three Youths	0	21	31	and let them be confounded 	*	Or, <span class='add'>by</span> thy <span class='add'>power and might</span>.
 Song of Three Youths	0	22	32	and 	a	<a href='PSA.xhtml#PS59_13'>Ps. 59. 13</a>. <a href='2MA.xhtml#M21_27'>2 Macc. 1. 27</a>.
-Song of Three Youths	0	22	33	and let them know that thou art Lord, the only God, and glorious over 	b	See <a href='EST.xhtml#ET13_2'>Esther 13. 2</a>.
+Song of Three Youths	0	22	33	And let them know that thou art God, the only God, and glorious over 	b	See <a href='EST.xhtml#ET13_2'>Esther 13. 2</a>.
 Song of Three Youths	0	23	34	And the king’s servants, that put them in, ceased not to make the oven hot with 	*	Or, <span class='add'>nap</span>[<span class='add'>h</span>]<span class='add'>tha</span>, which is a certain kind of fat and chalky clay. <span class='add'>Plin. lib</span>. 2. <span class='add'>c</span>[<span class='add'>ap</span>]. 105.
 Song of Three Youths	0	23	35	And the king’s servants, that put them in, ceased not to make the oven hot with rosin, pitch, 	c	<a href='ISA.xhtml#IS1_31'>Isai. 1. 31</a> (Gk.).
 Song of Three Youths	0	24	36	so that 	d	Comp. <a href='DAN.xhtml#DN3_22'>Dan. 3. 22</a>.

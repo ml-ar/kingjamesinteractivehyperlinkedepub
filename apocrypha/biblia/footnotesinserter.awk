@@ -776,12 +776,12 @@ END {
 
 	#Do special cases first
 
-	writeSirach()
+	#writeSirach()
 
 	#writeS3Y()
 	#writeBel()
-	#writeSusanna()
-	#writeManasseh()
+	writeSusanna()
+	writeManasseh()
 #START WORK HERE 1: Feed footnotes.txt into this file and start troubleshooting
 	#for (x in footnotes) #for every book
 	#{
