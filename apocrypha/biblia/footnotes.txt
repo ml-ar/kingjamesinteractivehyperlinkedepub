@@ -6554,7 +6554,7 @@ Song of Three Youths	0	66	86	O Ananias, Azarias, and Misael, bless ye the Lord: 
 Song of Three Youths	0	67	87		n	So <a href='1MA.xhtml#M14_24'>1 Macc. 4. 24</a>. See <a href='PSA.xhtml#PS136_1'>Ps. 136. 1</a>.
 Song of Three Youths	0	68	88	O all ye that worship the Lord, 	o	<a href='PSA.xhtml#PS136_2'>Ps. 136. 2</a>.
 Song of Three Youths	0	68	89	O all ye that worship the Lord, bless the God of gods, Praise him, and give him thanks: 	o	<a href='PSA.xhtml#PS136_2'>Ps. 136. 2</a>.
-Susanna	0	0	1	The History of Susanna. set apart from the beginning of Daniel, because it is not in Hebrew, as neither the narration of 	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
+Susanna	0	0	1	set apart from the beginning of Daniel, because it is not in Hebrew, as neither the narration of 	*	Gr. <span class='add'>Bel’s Dragon</span>. Bel and Drag., title.
 Susanna	0	1	2	There dwelt a man in Babylon, called 	a	<a href='SUS.xhtml#SN1_29'>ver. 29</a>, <a href='SUS.xhtml#SN1_63'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
 Susanna	0	2	3	and he took a wife, whose name was 	b	Comp. <a href='LUK.xhtml#LK8_3'>Luke 8. 3</a>.
 Susanna	0	2	4	and he took a wife, whose name was Susanna, the daughter of 	a	<a href='SUS.xhtml#SN1_29'>ver. 29</a>, <a href='SUS.xhtml#SN1_63'>63</a>. Comp. <a href='BAR.xhtml#BR1_7'>Baruch 1. 7</a>?
@@ -6580,8 +6580,8 @@ Susanna	0	17	23	Then she said to her maids, Bring me oil and washing balls, and 
 Susanna	0	18	24	And they did as she bade them, and shut the 	e	<a href='SUS.xhtml#SN1_7'>ver. 7</a>, <a href='SUS.xhtml#SN1_15'>15</a>, <a href='SUS.xhtml#SN1_17'>17</a>, <a href='SUS.xhtml#SN1_18'>18</a> (Gk.). See <a href='SIR.xhtml#SR24_30'>Ecclus. 24. 30</a>.
 Susanna	0	18	25	And they did as she bade them, and shut the garden doors, and went out themselves at 	*	Or, <span class='add'>side doors</span>. <a href='SUS.xhtml#SN1_26'>ver. 26</a>.
 Susanna	0	22	26	Then Susanna 	p	<a href='2MA.xhtml#M26_30'>2 Macc. 6. 30</a>. <a href='MRK.xhtml#MK8_12'>Mark 8. 12</a> in the Gk.
-Susanna	0	22	27	Then Susanna sighed, and said, I am straited on every side: for if I do this thing, 	q	<a href='SUS.xhtml#SN1_28'>ver. 28</a>, <a href='SUS.xhtml#SN1_41'>41</a>, <a href='SUS.xhtml#SN1_45'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
-Susanna	0	26	28	So when the servants of the house heard the cry in the garden, they rushed in at a 	r	<a href='SUS.xhtml#SN1_18'>ver. 18</a> marg.
+Susanna	0	22	27	Then Susanna sighed, and said, I am straitened on every side: for if I do this thing, 	q	<a href='SUS.xhtml#SN1_28'>ver. 28</a>, <a href='SUS.xhtml#SN1_41'>41</a>, <a href='SUS.xhtml#SN1_45'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
+Susanna	0	26	28	So when the servants of the house heard the cry in the garden, they rushed in at the 	r	<a href='SUS.xhtml#SN1_18'>ver. 18</a> marg.
 Susanna	0	28	29	And it came to pass the next day, 	s	So <a href='SUS.xhtml#SN1_6'>ver. 6</a>.
 Susanna	0	28	30	And it came to pass the next day, when the people were assembled to her husband Joacim, the two elders came also full of mischievous 	t	<a href='HEB.xhtml#HB4_12'>Heb. 4. 12</a>. <a href='1PE.xhtml#P14_1'>1 Pet. 4. 1</a> in the Gk.
 Susanna	0	28	31	And it came to pass the next day, when the people were assembled to her husband Joacim, the two elders came also full of mischievous imagination against Susanna 	q	<a href='SUS.xhtml#SN1_28'>ver. 28</a>, <a href='SUS.xhtml#SN1_41'>41</a>, <a href='SUS.xhtml#SN1_45'>45</a>. See <a href='LEV.xhtml#LV20_10'>Lev. 20. 10</a>.
@@ -6592,30 +6592,30 @@ Susanna	0	31	35	Now Susanna was a very delicate woman, and 	x	<a href='SUS.xhtml
 Susanna	0	32	36	And these wicked men commanded to uncover her face, (	y	<a href='GEN.xhtml#GN24_65'>Gen. 24. 65</a> or <a href='2SA.xhtml#S215_30'>2 Sam. 15. 30</a>. &amp; <a href='2SA.xhtml#S219_4'>19. 4</a>.
 Susanna	0	33	37	Therefore 	z	<a href='1MA.xhtml#M12_15'>1 Macc. 2. 15</a>, <a href='1MA.xhtml#M12_17'>17</a>. <a href='MRK.xhtml#MK3_21'>Mark 3. 21</a> in the Gk. Comp. <a href='SUS.xhtml#SN1_30'>ver. 30</a>.
 Susanna	0	34	38	Then the two elders stood up in the midst of the people, and 	a	<a href='LEV.xhtml#LV24_14'>Lev. 24. 14</a>.
-Susanna	0	41	39	Then the assembly believed them, as those that were 	b	<a href='SUS.xhtml#SN1_5'>ver. 5</a> (Gk.).
-Susanna	0	41	40	Then the assembly believed them, as those that were the elders and judges of the people: so 	c	<a href='SUS.xhtml#SN1_22'>ver. 22</a>.
+Susanna	0	41	39	Then the assembly believed them as those that were 	b	<a href='SUS.xhtml#SN1_5'>ver. 5</a> (Gk.).
+Susanna	0	41	40	Then the assembly believed them as those that were the elders and judges of the people: so 	c	<a href='SUS.xhtml#SN1_22'>ver. 22</a>.
 Susanna	0	42	41	Then Susanna cried out with a loud voice, and said, O everlasting God, 	d	See <a href='ACT.xhtml#AC1_24'>Acts 1. 24</a>.
 Susanna	0	42	42	Then Susanna cried out with a loud voice, and said, O everlasting God, that knowest the secrets, and 	e	So <a href='PSA.xhtml#PS139_1'>Ps. 139. 1–4</a>.
 Susanna	0	45	43	Therefore 	f	See <a href='BAR.xhtml#BR6_18'>Baruch 6. 18</a>.
 Susanna	0	45	44	Therefore when she was led 	c	<a href='SUS.xhtml#SN1_22'>ver. 22</a>.
 Susanna	0	45	45	Therefore when she was led to be put to death, 	g	<a href='2CH.xhtml#R236_22'>2 Chr. 36. 22</a>. <a href='HAG.xhtml#HG1_14'>Hagg. 1. 14</a> in the Gk.
 Susanna	0	46	46	who cried with a loud voice, 	h	<a href='MAT.xhtml#MT27_24'>Matt. 27. 24</a> (Gk.).
-Susanna	0	48	47	So he standing in the midst of them, said, Are ye such fools, ye sons of Israel, that without examination or knowledge of the truth ye have condemned 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
+Susanna	0	48	47	So he standing in the midst of them said, Are ye such fools, ye sons of Israel, that without examination or knowledge of the truth ye have condemned 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
 Susanna	0	50	48	Wherefore all the people turned again in haste, and 	b	<a href='SUS.xhtml#SN1_5'>ver. 5</a> (Gk.).
 Susanna	0	50	49	Wherefore all the people turned again in haste, and the elders said unto him, Come, 	i	Comp. <a href='LUK.xhtml#LK2_46'>Luke 2. 46</a>.
-Susanna	0	53	50	for thou hast pronounced false judgment, and hast condemned the innocent, and hast let the guilty go free; albeit the Lord saith, 	j	Cited from <a href='EXO.xhtml#EX23_7'>Exod. 23. 7</a>.
+Susanna	0	53	50	For thou hast pronounced false judgment and hast condemned the innocent and hast let the guilty go free; albeit the Lord saith, 	j	Cited from <a href='EXO.xhtml#EX23_7'>Exod. 23. 7</a>.
 Susanna	0	54	51	Now then, if thou hast seen her, tell me, Under what tree sawest thou them companying together? Who answered, Under a 	*	Gr. <span class='add'>lentisk tree</span>.
 Susanna	0	55	52	And Daniel said, Very well; thou hast lied against thine own head; for even now the angel of God hath received the sentence of God to 	k	So <a href='SUS.xhtml#SN1_59'>ver. 59</a>. <a href='MAT.xhtml#MT24_51'>Matt. 24. 51</a>. <a href='LUK.xhtml#LK12_46'>Luke 12. 46</a>. Comp. <a href='JER.xhtml#JR1_11'>Jer. 1. 11</a>, <a href='JER.xhtml#JR1_12'>12</a>. <a href='DAN.xhtml#DN5_25'>Dan. 5. 25–28</a>.
 Susanna	0	56	53	So he put him aside, and commanded to bring the other, and said unto him, O thou seed of 	l	<a href='EZK.xhtml#EK16_3'>Ezek. 16. 3</a>. <a href='HOS.xhtml#HS12_7'>Hos. 12. 7</a> marg.
-Susanna	0	56	54	So he put him aside, and commanded to bring the other, and said unto him, O thou seed of Canaan, and not of Juda, beauty hath deceived thee, and lust hath 	m	So <a href='SUS.xhtml#SN1_9'>ver. 9</a>.
+Susanna	0	56	54	So he put him aside, and commanded to bring the other, and said unto him, O thou seed of Chanaan, and not of Juda, beauty hath deceived thee, and lust hath 	m	So <a href='SUS.xhtml#SN1_9'>ver. 9</a>.
 Susanna	0	57	55	Thus have ye dealt with 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
 Susanna	0	57	56	Thus have ye dealt with the daughters of Israel, and they for fear companied with you: but 	n	Comp. <a href='SUS.xhtml#SN1_48'>ver. 48</a>.
-Susanna	0	58	57	Now therefore tell me, Under what tree didst thou take them companying together? Who answered, Under a 	*	Or, <span class='add'>kind of oak</span>.
+Susanna	0	58	57	Now therefore tell me, Under what tree didst thou take them companying together? Who answered, Under an 	*	Or, <span class='add'>kind of oak</span>.
 Susanna	0	59	58	Then said Daniel unto him, Well; thou hast also lied against thine own head: for the angel of God waiteth with the sword to 	k	So <a href='SUS.xhtml#SN1_59'>ver. 59</a>. <a href='MAT.xhtml#MT24_51'>Matt. 24. 51</a>. <a href='LUK.xhtml#LK12_46'>Luke 12. 46</a>. Comp. <a href='JER.xhtml#JR1_11'>Jer. 1. 11</a>, <a href='JER.xhtml#JR1_12'>12</a>. <a href='DAN.xhtml#DN5_25'>Dan. 5. 25–28</a>.
 Susanna	0	59	59	Then said Daniel unto him, Well; thou hast also lied against thine own head: for the angel of God waiteth with the sword to 	o	<a href='HEB.xhtml#HB11_37'>Heb. 11 37</a> (Gk.).
 Susanna	0	60	60	With that all 	p	<a href='SUS.xhtml#SN1_41'>ver. 41</a>.
 Susanna	0	60	61	With that all the assembly cried out with a loud voice, and praised God, who saveth 	q	So <a href='SUS.xhtml#SN1_35'>ver. 35</a>.
-Susanna	0	61	62	And they arose against the two elders, (for 	r	<a href='SIR.xhtml#SR42_8'>Ecclus. 42. 8</a> marg.
+Susanna	0	61	62	And they arose against the two elders, for 	r	<a href='SIR.xhtml#SR42_8'>Ecclus. 42. 8</a> marg.
 Susanna	0	62	63	and 	s	<a href='DEU.xhtml#DT19_16'>Deut. 19. 16–19</a>. So <a href='PRO.xhtml#PR19_5'>Prov. 19. 5</a>.
 Susanna	0	63	64	Therefore 	t	<a href='SUS.xhtml#SN1_2'>ver. 2</a>, <a href='SUS.xhtml#SN1_29'>29</a>.
 Tobit	1	1	1	The book of the 	*	Or, <span class='add'>acts</span>.
