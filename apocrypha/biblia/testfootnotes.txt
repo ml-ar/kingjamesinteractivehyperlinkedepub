@@ -1,160 +1,504 @@
-Sirach	9	9	1	Sit not at all with 	j	<a href='SIR.xhtml#SR26_22'>ch. 26. 22</a>. &amp; <a href='SIR.xhtml#SR41_21'>41. 21</a>. <a href='ROM.xhtml#RM7_2'>Rom. 7. 2</a> in the Gk.
-Sirach Prologue	1	1	1	A Prologue made by an uncertain Author. 	*	Some refer this Prologue to Athanasius, because it is found in his <span class='add'>Synopsis</span>.
-Sirach Prologue	1	1	2	A Prologue made by an uncertain Author. This Jesus was the son of Sirach, and grandchild to Jesus of the same name with him: This man therefore lived in the latter times, after the people had been led away captive, and called home again, and almost after all the prophets. Now his grandfather Jesus, as he himself witnesseth, was a man of great diligence and wisdom among the Hebrews, who did not only gather the grave and short sentences of wise men, that had been before him, but himself also uttered some of his own, full of much understanding and wisdom. When as therefore the first Jesus died, leaving this book almost 	*	Or, <span class='add'>collected</span>.
-Sirach Prologue	1	1	3	A Prologue made by an uncertain Author. This Jesus was the son of Sirach, and grandchild to Jesus of the same name with him: This man therefore lived in the latter times, after the people had been led away captive, and called home again, and almost after all the prophets. Now his grandfather Jesus, as he himself witnesseth, was a man of great diligence and wisdom among the Hebrews, who did not only gather the grave and short sentences of wise men, that had been before him, but himself also uttered some of his own, full of much understanding and wisdom. When as therefore the first Jesus died, leaving this book almost perfected, Sirach his son receiving it after him left it to his own son Jesus, who, having gotten it into his hands, compiled it all orderly into one volume, and called it Wisdom, intituling it both by his own name, his father’s name, and his grandfather’s; alluring the hearer by the very name of Wisdom to have a greater love to the study of this book. It containeth therefore wise sayings, 	a	See <a href='PRO.xhtml#PR1_6'>Prov. 1. 6</a>.
-Sirach Prologue	1	1	4	A Prologue made by an uncertain Author. This Jesus was the son of Sirach, and grandchild to Jesus of the same name with him: This man therefore lived in the latter times, after the people had been led away captive, and called home again, and almost after all the prophets. Now his grandfather Jesus, as he himself witnesseth, was a man of great diligence and wisdom among the Hebrews, who did not only gather the grave and short sentences of wise men, that had been before him, but himself also uttered some of his own, full of much understanding and wisdom. When as therefore the first Jesus died, leaving this book almost perfected, Sirach his son receiving it after him left it to his own son Jesus, who, having gotten it into his hands, compiled it all orderly into one volume, and called it Wisdom, intituling it both by his own name, his father’s name, and his grandfather’s; alluring the hearer by the very name of Wisdom to have a greater love to the study of this book. It containeth therefore wise sayings, dark sentences, and parables, and 	b	<a href='SIR.xhtml#SR44_1'>ch. 44. 1</a>–<a href='SIR.xhtml#SR50_24'>50. 24</a>.
-Sirach Prologue	1	1	5	A Prologue made by an uncertain Author. This Jesus was the son of Sirach, and grandchild to Jesus of the same name with him: This man therefore lived in the latter times, after the people had been led away captive, and called home again, and almost after all the prophets. Now his grandfather Jesus, as he himself witnesseth, was a man of great diligence and wisdom among the Hebrews, who did not only gather the grave and short sentences of wise men, that had been before him, but himself also uttered some of his own, full of much understanding and wisdom. When as therefore the first Jesus died, leaving this book almost perfected, Sirach his son receiving it after him left it to his own son Jesus, who, having gotten it into his hands, compiled it all orderly into one volume, and called it Wisdom, intituling it both by his own name, his father’s name, and his grandfather’s; alluring the hearer by the very name of Wisdom to have a greater love to the study of this book. It containeth therefore wise sayings, dark sentences, and parables, and certain particular ancient godly stories of men 	c	<a href='HEB.xhtml#HB11_5'>Heb. 11. 5</a>.
-Sirach Prologue	1	1	6	A Prologue made by an uncertain Author. This Jesus was the son of Sirach, and grandchild to Jesus of the same name with him: This man therefore lived in the latter times, after the people had been led away captive, and called home again, and almost after all the prophets. Now his grandfather Jesus, as he himself witnesseth, was a man of great diligence and wisdom among the Hebrews, who did not only gather the grave and short sentences of wise men, that had been before him, but himself also uttered some of his own, full of much understanding and wisdom. When as therefore the first Jesus died, leaving this book almost perfected, Sirach his son receiving it after him left it to his own son Jesus, who, having gotten it into his hands, compiled it all orderly into one volume, and called it Wisdom, intituling it both by his own name, his father’s name, and his grandfather’s; alluring the hearer by the very name of Wisdom to have a greater love to the study of this book. It containeth therefore wise sayings, dark sentences, and parables, and certain particular ancient godly stories of men that pleased God; also 	d	<a href='SIR.xhtml#SR51_1'>ch. 51. 1</a>–
-Sirach Prologue	1	1	7	A Prologue made by an uncertain Author. This Jesus was the son of Sirach, and grandchild to Jesus of the same name with him: This man therefore lived in the latter times, after the people had been led away captive, and called home again, and almost after all the prophets. Now his grandfather Jesus, as he himself witnesseth, was a man of great diligence and wisdom among the Hebrews, who did not only gather the grave and short sentences of wise men, that had been before him, but himself also uttered some of his own, full of much understanding and wisdom. When as therefore the first Jesus died, leaving this book almost perfected, Sirach his son receiving it after him left it to his own son Jesus, who, having gotten it into his hands, compiled it all orderly into one volume, and called it Wisdom, intituling it both by his own name, his father’s name, and his grandfather’s; alluring the hearer by the very name of Wisdom to have a greater love to the study of this book. It containeth therefore wise sayings, dark sentences, and parables, and certain particular ancient godly stories of men that pleased God; also his prayer and 	e	<a href='SIR.xhtml#SR51_13'>ch. 51. 13–30</a>.
-Sirach Prologue	2	1	8	The Prologue of the Wisdom of 	*	<a href='SIR.xhtml#SR50_27'>ch. 50. 27</a>.
-Sirach Prologue	2	1	9	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by 	a	<a href='LUK.xhtml#LK24_44'>Luke 24. 44</a>.
-Sirach Prologue	2	1	10	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are 	*	Or, <span class='add'>of another nation</span>.
-Sirach Prologue	2	1	11	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of 	a	<a href='LUK.xhtml#LK24_44'>Luke 24. 44</a>.
-Sirach Prologue	2	1	12	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in 	b	See <a href='ACT.xhtml#AC21_40'>Acts 21. 40</a>.
-Sirach Prologue	2	1	13	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but 	a	<a href='LUK.xhtml#LK24_44'>Luke 24. 44</a>.
-Sirach Prologue	2	1	14	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the 	*	Gr. <span class='add'>prophecics</span>. <a href='SIR.xhtml#SR36_15'>ch. 36. 15</a> marg. <a href='1TI.xhtml#T11_18'>1 Tim. 1. 18</a>.
-Sirach Prologue	2	1	15	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small 	*	Or, <span class='add'>excellency</span>. So <a href='2MA.xhtml#M215_13'>2 Macc. 15. 13</a>. <a href='MAT.xhtml#MT6_26'>Matt. 6. 26</a>. &amp; <a href='MAT.xhtml#MT10_31'>10. 31</a>. &amp; <a href='MAT.xhtml#MT12_12'>12. 12</a> in the Gk.
-Sirach Prologue	2	1	16	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. 	*	About B.C. 133.
-Sirach Prologue	2	1	17	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. For in the eight and thirtieth year coming into Egypt, when Euergetes was king, and continuing there some time, I found a 	*	Or, <span class='add'>help of learning</span>.
-Sirach Prologue	2	1	18	The Prologue of the Wisdom of Jesus, the Son of Sirach. Whereas many and great things have been delivered unto us by the law and the prophets, and by others that have followed their steps, for the which things Israel ought to be commended for learning and wisdom; and whereof not only the readers must needs become skilful themselves, but also they that desire to learn be able to profit them which are without, both by speaking and writing: my grandfather Jesus, when he had much given himself to the reading of the law, and the prophets, and other books of our fathers, and had gotten therein good judgment, was drawn on also himself to write something pertaining to learning and wisdom; to the intent that those which are desirous to learn, and are addicted to these things, might profit much more in living according to the law. Wherefore let me intreat you to read it with favour and attention, and to pardon us, wherein we may seem to come short of some words, which we have laboured to interpret. For the same things uttered in Hebrew, and translated into another tongue, have not the same force in them: and not only these things, but the law itself, and the prophets, and the rest of the books, have no small difference, when they are spoken in their own language. For in the eight and thirtieth year coming into Egypt, when Euergetes was king, and continuing there some time, I found a book of no small learning: therefore I thought it most necessary for me to bestow some diligence and travail to interpret it; using great watchfulness and skill in that space to bring the book to an end, and set it forth for them also, which 	c	<a href='ACT.xhtml#AC13_17'>Acts 13. 17</a> (Gk.).
-Sirach	1	1	1		*	Before CHRIST about 200.
-Sirach	1	1	2		a	<a href='1KI.xhtml#K13_9'>1 Kin. 3. 9</a>. &amp; <a href='1KI.xhtml#K14_29'>4. 29</a>. See <a href='JAS.xhtml#JM1_5'>Jam. 1. 5</a>.
-Sirach	1	1	3	All wisdom cometh from the Lord, And 	c	See <a href='JHN.xhtml#JN1_1'>John 1. 1</a>.
-Sirach	1	11	1	The fear of the Lord is honour, and glory, And 	g	<a href='SIR.xhtml#SR6_31'>ch. 6. 31</a>. &amp; <a href='SIR.xhtml#SR15_6'>15. 6</a> in the Gk. So <a href='1TH.xhtml#H12_19'>1 Thess. 2. 19</a>.
-Sirach	1	13	1	Whoso feareth the Lord, it shall go well with him 	h	<a href='SIR.xhtml#SR2_3'>ch. 2. 3</a> (Gk.). &amp; <a href='SIR.xhtml#SR3_26'>3. 26</a>. &amp; <a href='SIR.xhtml#SR6_28'>6. 28</a>. &amp; <a href='SIR.xhtml#SR12_12'>12. 12</a>. &amp; <a href='SIR.xhtml#SR14_7'>14. 7</a>. &amp; <a href='SIR.xhtml#SR30_1'>30. 1</a>, <a href='SIR.xhtml#SR30_10'>10</a> (Gk.). &amp; <a href='SIR.xhtml#SR31_22'>31. 22</a>. So <a href='PSA.xhtml#PS37_37'>Ps. 37. 37</a>.
-Sirach	1	13	2	Whoso feareth the Lord, it shall go well with him at the last, And he 	*	Or, <span class='add'>shall be blessed</span>.
-Sirach	1	14	1		i	See <a href='PRO.xhtml#PR1_7'>Prov. 1. 7</a>.
-Sirach	1	15	1		j	So <a href='PRO.xhtml#PR8_23'>Prov. 8. 23</a>.
-Sirach	1	15	2	She hath built an everlasting foundation with men, And she shall 	k	<a href='2CH.xhtml#R220_20'>2 Chr. 20. 20</a> (Gk.).
-Sirach	1	16	1		i	See <a href='PRO.xhtml#PR1_7'>Prov. 1. 7</a>.
-Sirach	1	17	1		l	So <a href='PSA.xhtml#PS112_3'>Ps. 112. 3</a>.
-Sirach	1	19	1	Wisdom 	m	See <a href='SIR.xhtml#SR50_27'>ch. 50. 27</a>.
-Sirach	1	2	1		b	So <a href='SIR.xhtml#SR18_10'>ch. 18. 10</a>.
-Sirach	1	20	1		e	See <a href='WIS.xhtml#WS9_13'>Wisd. 9. 13</a>. <a href='SIR.xhtml#SR1_20'>ver. 20</a>. So <a href='WIS.xhtml#WS3_15'>Wisd. 3. 15</a>. Comp. <a href='WIS.xhtml#WS15_3'>Wisd. 15. 3</a>.
-Sirach	1	20	2	The root of wisdom is to fear the Lord, And the branches thereof are 	n	<a href='PRO.xhtml#PR3_2'>Prov. 3. 2</a>, <a href='PRO.xhtml#PR3_16'>16</a>.
-Sirach	1	22	1	A furious man cannot 	*	Or, <span class='add'>escape punishment</span>. See <a href='SIR.xhtml#SR23_11'>ch. 23. 11</a>.
-Sirach	1	23	1		o	<a href='PSA.xhtml#PS37_7'>Ps. 37. 7–9</a>. So <a href='SIR.xhtml#SR2_7'>ch. 2. 7</a>.
-Sirach	1	24	1	He will hide his words for a time, And the lips of 	p	<a href='SIR.xhtml#SR39_9'>ch. 39. 9</a>.
-Sirach	1	25	1		q	See <a href='PRO.xhtml#PR1_6'>Prov. 1. 6</a>.
-Sirach	1	26	1	If thou desire wisdom, 	r	So <a href='MAT.xhtml#MT19_17'>Matt. 19. 17</a>.
-Sirach	1	26	2	If thou desire wisdom, keep the commandments, And 	s	See <a href='JAS.xhtml#JM1_5'>James 1. 5</a>.
-Sirach	1	28	1		*	Or, <span class='add'>Be not disobedient to</span>. <a href='SIR.xhtml#SR2_15'>ch. 2. 15</a>. <a href='ROM.xhtml#RM2_8'>Rom. 2. 8</a> in the Gk.
-Sirach	1	28	2	Distrust not the fear of the Lord when thou art poor: And come not unto him 	t	See <a href='JAS.xhtml#JM1_6'>James 1. 6</a>, <a href='JAS.xhtml#JM1_8'>8</a>.
-Sirach	1	29	1	Be not an hypocrite in the sight of men, and 	u	So <a href='SIR.xhtml#SR4_29'>ch. 4. 29</a>. &amp; <a href='SIR.xhtml#SR5_13'>5. 13</a>. See <a href='JAS.xhtml#JM1_19'>James 1. 19</a>.
-Sirach	1	30	1		x	See <a href='MAT.xhtml#MT23_12'>Matt. 23. 12</a>.
-Sirach	1	30	2	Exalt not thyself, lest thou fall, And bring dishonour upon thy soul, And so God discover thy secrets, And cast thee down 	y	<a href='PRO.xhtml#PR5_14'>Prov. 5. 14</a>. So <a href='PRO.xhtml#PR26_26'>Prov. 26. 26</a>.
-Sirach	1	30	3	Exalt not thyself, lest thou fall, And bring dishonour upon thy soul, And so God discover thy secrets, And cast thee down in the midst of the congregation, Because thou camest not in truth to the fear of the Lord, But thy heart is 	z	So <a href='ACT.xhtml#AC13_10'>Acts 13. 10</a>.
-Sirach	1	4	1		c	See <a href='JHN.xhtml#JN1_1'>John 1. 1</a>.
-Sirach	1	5	1	The word of God most high is 	d	<a href='BAR.xhtml#BR3_12'>Baruch 3. 12</a>. So <a href='2ES.xhtml#E214_47'>2 Esdr. 14. 47</a>.
-Sirach	1	6	1	To whom hath 	e	See <a href='WIS.xhtml#WS9_13'>Wisd. 9. 13</a>. <a href='SIR.xhtml#SR1_20'>ver. 20</a>. So <a href='WIS.xhtml#WS3_15'>Wisd. 3. 15</a>. Comp. <a href='WIS.xhtml#WS15_3'>Wisd. 15. 3</a>.
-Sirach	1	9	1	He created her, and saw her, and 	f	Comp. <a href='WIS.xhtml#WS11_20'>Wisd. 11. 20</a>.
-Sirach	10	10	1	The physician cutteth off a long disease; And 	h	So <a href='1MA.xhtml#M12_62'>1 Macc. 2. 62</a>, <a href='1MA.xhtml#M12_63'>63</a>. <a href='2MA.xhtml#M29_11'>2 Macc. 9. 11</a>, <a href='2MA.xhtml#M29_12'>12</a>.
-Sirach	10	11	1	For when a man is dead, He shall inherit creeping things, beasts, and 	h	So <a href='1MA.xhtml#M12_62'>1 Macc. 2. 62</a>, <a href='1MA.xhtml#M12_63'>63</a>. <a href='2MA.xhtml#M29_11'>2 Macc. 9. 11</a>, <a href='2MA.xhtml#M29_12'>12</a>.
-Sirach	10	11	2	For when a man is dead, He shall inherit creeping things, beasts, and 	i	<a href='ISA.xhtml#IS14_11'>Isai. 14. 11</a>.
-Sirach	10	13	1	For pride is the beginning of sin, And he that hath it shall 	j	See <a href='SIR.xhtml#SR50_27'>ch. 50. 27</a>.
-Sirach	10	13	2	For pride is the beginning of sin, And he that hath it shall pour out abomination: And therefore the Lord brought upon them strange 	k	See <a href='SIR.xhtml#SR2_2'>ch. 2. 2</a>.
-Sirach	10	14	1		l	See <a href='1SA.xhtml#S12_8'>1 Sam. 2. 8</a>.
-Sirach	10	17	1	He took some of them away, and destroyed them, And 	m	So <a href='PSA.xhtml#PS9_6'>Ps. 9. 6</a>.
-Sirach	10	18	1	Pride was not 	n	Comp. <a href='SIR.xhtml#SR11_16'>ch. 11. 16</a> (Gk.).
-Sirach	10	18	2	Pride was not made for men, Nor furious anger for 	o	See <a href='JOB.xhtml#JB14_1'>Job 14. 1</a>.
-Sirach	10	19	1	They that fear the Lord are a sure seed, And they that love him an honourable plant: They that regard not the law are a dishonourable seed; They that transgress the commandments are a 	*	Or, <span class='add'>unstable generation</span>.
-Sirach	10	2	1		a	<a href='PRO.xhtml#PR29_12'>Prov. 29. 12</a>.
-Sirach	10	21	1	The fear of the Lord goeth before the obtaining of 	*	Or, <span class='add'>principality</span>. <a href='EPH.xhtml#EP1_21'>Ephes. 1. 21</a>.
-Sirach	10	22	1	Whether he be rich, noble, or poor, 	p	Comp. <a href='JER.xhtml#JR9_23'>Jer. 9. 23</a>.
-Sirach	10	23	1	It is not meet to despise the poor man 	q	<a href='ACT.xhtml#AC13_7'>Acts 13. 7</a> (Gk.).
-Sirach	10	23	2	It is not meet to despise the poor man that hath understanding; Neither 	r	<a href='ACT.xhtml#AC22_22'>Acts 22. 22</a> (Gk.).
-Sirach	10	25	1		s	<a href='PRO.xhtml#PR17_2'>Prov. 17. 2</a>.
-Sirach	10	25	2	Unto the servant that is wise shall they that are free do service: And 	t	<a href='PRO.xhtml#PR15_5'>Prov. 15. 5</a>. Comp. <a href='2SA.xhtml#S212_13'>2 Sam. 12. 13</a>.
-Sirach	10	27	1		u	<a href='PRO.xhtml#PR12_9'>Prov. 12. 9</a>.
-Sirach	10	28	1	My son, 	x	So <a href='MAT.xhtml#MT16_26'>Matt. 16. 26</a>. <a href='MRK.xhtml#MK8_37'>Mark 8. 37</a>.
-Sirach	10	30	1		u	<a href='PRO.xhtml#PR12_9'>Prov. 12. 9</a>.
-Sirach	10	4	1		b	See <a href='PSA.xhtml#PS75_7'>Ps. 75. 7</a>. So <a href='SIR.xhtml#SR10_8'>ver. 8</a>.
-Sirach	10	5	1	In the hand of God is the 	c	<a href='1ES.xhtml#E18_6'>1 Esdr. 8. 6</a> marg.
-Sirach	10	5	2	In the hand of God is the prosperity of man: And upon the 	*	Or, <span class='add'>face</span>. Comp. <a href='EXO.xhtml#EX34_33'>Ex. 34. 33</a>.
-Sirach	10	5	3	In the hand of God is the prosperity of man: And upon the person of 	d	<a href='SIR.xhtml#SR38_24'>ch. 38. 24</a> (Gk.). <a href='1CO.xhtml#C11_20'>1 Cor. 1. 20</a>.
-Sirach	10	6	1		e	<a href='LEV.xhtml#LV19_17'>Lev. 19. 17</a>. <a href='MAT.xhtml#MT18_21'>Matt. 18. 21</a>.
-Sirach	10	8	1	Because of unrighteous dealings, injuries, and riches got by deceit, 	b	See <a href='PSA.xhtml#PS75_7'>Ps. 75. 7</a>. So <a href='SIR.xhtml#SR10_8'>ver. 8</a>.
-Sirach	10	9	1	Why is 	f	See <a href='SIR.xhtml#SR17_32'>ch. 17. 32</a>.
-Sirach	10	9	2	Why is earth and ashes proud? There is not a more wicked thing than a covetous man: For such an one setteth his own soul to sale; Because while he liveth 	g	Comp. <a href='1JN.xhtml#1JN3_17'>1 John 3. 17</a>.
-Sirach	11	1	1	Wisdom lifteth up the head 	*	Or, <span class='add'>of the lowly</span>. <a href='SIR.xhtml#SR3_20'>ch. 3. 20</a>. &amp; <a href='SIR.xhtml#SR10_15'>10. 15</a>. &amp; <a href='SIR.xhtml#SR12_5'>12. 5</a>.
-Sirach	11	1	2	Wisdom lifteth up the head of him that is of low degree, And 	a	<a href='GEN.xhtml#GN41_40'>Gen. 41. 40</a>. <a href='DAN.xhtml#DN6_3'>Dan. 6. 3</a>. <a href='SIR.xhtml#SR39_4'>ch. 39. 4</a>.
-Sirach	11	10	1	My son, meddle not with many matters: For if thou meddle much, thou shalt not be innocent; And if thou 	i	<a href='PHP.xhtml#PP3_12'>Phil. 3. 12</a>.
-Sirach	11	10	2	My son, meddle not with many matters: For if thou meddle much, thou shalt not be innocent; And if thou follow after, thou shalt not 	i	<a href='PHP.xhtml#PP3_12'>Phil. 3. 12</a>.
-Sirach	11	10	3	My son, meddle not with many matters: For if thou meddle much, thou shalt not be innocent; And if thou follow after, thou shalt not obtain, Neither shalt thou 	*	Or, <span class='add'>escape</span> hurt.
-Sirach	11	11	1		k	<a href='PRO.xhtml#PR10_3'>Prov. 10. 3</a>. <a href='MAT.xhtml#MT19_22'>Matt. 19. 22</a>. <a href='1TI.xhtml#T16_9'>1 Tim. 6. 9</a>.
-Sirach	11	12	1	Again, there is another that is slow, and hath need of help, Wanting 	l	See <a href='SIR.xhtml#SR9_2'>ch. 9. 2</a>.
-Sirach	11	12	2	Again, there is another that is slow, and hath need of help, Wanting ability, and full of poverty; 	m	<a href='JOB.xhtml#JB42_10'>Job 42. 10</a>. <a href='PRO.xhtml#PR10_22'>Prov. 10. 22</a>.
-Sirach	11	14	1		n	So <a href='1SA.xhtml#S12_7'>1 Sam. 2. 7</a>. <a href='JOB.xhtml#JB1_21'>Job 1. 21</a>. &amp; <a href='JOB.xhtml#JB2_10'>2. 10</a>. <a href='SIR.xhtml#SR7_11'>ch. 7. 11</a>.
-Sirach	11	15	1		o	<a href='EZK.xhtml#EK28_4'>Ezek. 28. 4</a>.
-Sirach	11	16	1	Error and darkness 	p	Comp. <a href='SIR.xhtml#SR10_18'>ch. 10. 18</a> (Gk.).
-Sirach	11	19	1		q	See <a href='SIR.xhtml#SR31_3'>ch. 31. 3</a>. Comp. <a href='SIR.xhtml#SR11_24'>ver. 24</a>.
-Sirach	11	19	2	Whereas he saith, I have found rest, And now will eat 	q	See <a href='SIR.xhtml#SR31_3'>ch. 31. 3</a>. Comp. <a href='SIR.xhtml#SR11_24'>ver. 24</a>.
-Sirach	11	19	3	Whereas he saith, I have found rest, And now will eat continually of my goods; And yet he knoweth not what time shall 	*	Or, <span class='add'>pass</span>.
-Sirach	11	19	4	Whereas he saith, I have found rest, And now will eat continually of my goods; And yet he knoweth not what time shall come upon him, And that 	r	<a href='PSA.xhtml#PS49_10'>Ps. 49. 10</a>. <a href='SIR.xhtml#SR14_4'>ch. 14. 4</a>, <a href='SIR.xhtml#SR14_15'>15</a>. See <a href='PSA.xhtml#PS39_6'>Ps. 39. 6</a>.
-Sirach	11	20	1		s	<a href='2KI.xhtml#K223_3'>2 Kin. 23. 3</a> (Gk.). So <a href='MAT.xhtml#MT10_22'>Matt. 10. 22</a>.
-Sirach	11	21	1		t	<a href='ECC.xhtml#EC5_8'>Eccles. 5. 8</a>.
-Sirach	11	22	1	The blessing of the Lord is 	*	Or, <span class='add'>for a reward</span>.
-Sirach	11	23	1	Say not, 	u	See <a href='MAL.xhtml#ML3_14'>Mal. 3. 14</a>. Comp. <a href='JOB.xhtml#JB2_9'>Job 2. 9</a>. <a href='TOB.xhtml#TB2_14'>Tobit 2. 14</a>.
-Sirach	11	24	1	Again, 	q	See <a href='SIR.xhtml#SR31_3'>ch. 31. 3</a>. Comp. <a href='SIR.xhtml#SR11_24'>ver. 24</a>.
-Sirach	11	25	1		v	Comp. <a href='SIR.xhtml#SR18_25'>ch. 18. 25</a>.
-Sirach	11	26	1	For it is an easy thing unto the Lord 	w	<a href='SIR.xhtml#SR18_24'>ch. 18. 24</a> (Gk.).
-Sirach	11	28	1		x	See <a href='SIR.xhtml#SR37_24'>ch. 37. 24</a>.
-Sirach	11	3	1	The bee is little among such as fly; But her fruit is 	b	<a href='SIR.xhtml#SR29_21'>ch. 29. 21</a>. &amp; <a href='SIR.xhtml#SR39_26'>39. 26</a> (Gk.).
-Sirach	11	32	1	Of a spark of fire 	y	<a href='JHN.xhtml#JN18_18'>John 18. 18</a>. &amp; <a href='JHN.xhtml#JN21_9'>21. 9</a> in the Greek.
-Sirach	11	34	1	Receive a stranger into thine house, and he will disturb thee, And turn thee out of 	z	See <a href='JHN.xhtml#JN16_32'>John 16. 32</a> marg.
-Sirach	11	4	1		c	<a href='ACT.xhtml#AC12_21'>Acts 12. 21</a>.
-Sirach	11	4	2	Boast not of thy clothing and raiment, And exalt not thyself in the day of honour: For 	d	<a href='PSA.xhtml#PS139_14'>Ps. 139. 14</a>.
-Sirach	11	5	1	Many 	*	Gr. <span class='add'>tyrants</span>. See <a href='WIS.xhtml#WS14_16'>Wisd. 14. 16</a>.
-Sirach	11	5	2	Many kings have 	e	See <a href='JOB.xhtml#JB2_8'>Job 2. 8</a>. Comp. <a href='EZR.xhtml#ER9_3'>Ezra 9. 3</a>.
-Sirach	11	6	1		f	<a href='1SA.xhtml#S115_28'>1 Sam. 15. 28</a>. <a href='EST.xhtml#ET7_10'>Esth. 7. 10</a>.
-Sirach	11	7	1		g	So <a href='DEU.xhtml#DT13_14'>Deut. 13. 14</a>. &amp; <a href='DEU.xhtml#DT17_6'>17. 6</a>, <a href='DEU.xhtml#DT17_7'>7</a>.
-Sirach	11	8	1		h	See <a href='PRO.xhtml#PR18_13'>Prov. 18. 13</a>.
-Sirach	11	9	1	Strive not in a matter that concerneth thee not; And sit not 	*	Or, <span class='add'>in the judgment of sinners</span>. Comp. <a href='PSA.xhtml#PS1_1'>Ps. 1. 1</a>.
-Sirach	12	1	1	When thou wilt do good 	a	Comp. <a href='MAT.xhtml#MT7_6'>Matt. 7. 6</a>.
-Sirach	12	10	1	Never trust thine enemy: For like as 	*	Or, <span class='add'>brass</span>.
-Sirach	12	11	1		h	So <a href='PSA.xhtml#PS10_10'>Ps. 10. 10</a>.
-Sirach	12	11	2	Though he humble himself, and go 	i	<a href='SIR.xhtml#SR19_26'>ch. 19. 26</a>, <a href='SIR.xhtml#SR19_27'>27</a> (Gk.).
-Sirach	12	11	3	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst 	j	<a href='BAR.xhtml#BR6_24'>Baruch 6. 24</a>.
-Sirach	12	11	4	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst wiped a 	k	<a href='WIS.xhtml#WS7_26'>Wisd. 7. 26</a>. <a href='1CO.xhtml#C113_12'>1 Cor. 13. 12</a> in the Gk.
-Sirach	12	11	5	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst wiped a lookingglass, And thou shalt know that 	j	<a href='BAR.xhtml#BR6_24'>Baruch 6. 24</a>.
-Sirach	12	11	6	Though he humble himself, and go crouching, Yet take good heed and beware of him, And thou shalt be unto him as if thou hadst wiped a lookingglass, And thou shalt know that 	l	Comp. <a href='JAS.xhtml#JM5_3'>James 5. 3</a> (Gk.).
-Sirach	12	12	1	Set him not by thee, Lest, when he hath overthrown thee, he stand up in thy place; Neither let him sit at thy right hand, Lest he seek to take thy seat, And thou 	ll	See <a href='SIR.xhtml#SR1_13'>ch. 1. 13</a>.
-Sirach	12	12	2	Set him not by thee, Lest, when he hath overthrown thee, he stand up in thy place; Neither let him sit at thy right hand, Lest he seek to take thy seat, And thou at the last remember my words, And 	m	See <a href='SIR.xhtml#SR14_1'>ch. 14. 1</a>.
-Sirach	12	13	1	Who will pity 	n	So <a href='PSA.xhtml#PS58_5'>Ps. 58. 5</a>. See <a href='ECC.xhtml#EC10_11'>Eccles. 10. 11</a>.
-Sirach	12	14	1	So one that goeth to a sinner, And is 	*	Or, <span class='add'>mingled</span>.
-Sirach	12	15	1	For a while he will abide with thee, But if thou begin to fall, he will not 	o	See <a href='SIR.xhtml#SR2_2'>ch. 2. 2</a>.
-Sirach	12	16	1		p	<a href='PRO.xhtml#PR26_24'>Prov. 26. 24</a>, <a href='PRO.xhtml#PR26_25'>25</a>. See <a href='PSA.xhtml#PS28_3'>Ps. 28. 3</a>.
-Sirach	12	16	2	An enemy speaketh sweetly with his lips, But in his heart 	q	Comp. <a href='JER.xhtml#JR41_6'>Jer. 41. 6</a>, <a href='JER.xhtml#JR41_7'>7</a>.
-Sirach	12	16	3	An enemy speaketh sweetly with his lips, But in his heart he imagineth how to throw thee into a pit: 	q	Comp. <a href='JER.xhtml#JR41_6'>Jer. 41. 6</a>, <a href='JER.xhtml#JR41_7'>7</a>.
-Sirach	12	17	1	If adversity come upon thee, thou shalt find him there first; And though he pretend to help thee, yet shall he 	*	Or, <span class='add'>supplant</span>. Comp. <a href='PSA.xhtml#PS41_9'>Ps. 41. 9</a>.
-Sirach	12	18	1	He will 	r	<a href='SIR.xhtml#SR13_7'>ch. 13. 7</a>. See <a href='JOB.xhtml#JB16_4'>Job 16. 4</a>.
-Sirach	12	18	2	He will shake his head, and 	s	See <a href='JOB.xhtml#JB27_23'>Job 27. 23</a>.
-Sirach	12	18	3	He will shake his head, and clap his hands, And whisper much, and 	t	<a href='SIR.xhtml#SR13_25'>ch. 13. 25</a>.
-Sirach	12	2	1	Do good to the godly man, and thou shalt find a recompence; And 	b	So <a href='LUK.xhtml#LK6_35'>Luke 6. 35</a>.
-Sirach	12	3	1	There can no good come to him that is always occupied in evil, Nor 	c	See <a href='TOB.xhtml#TB4_7'>Tobit 4. 7</a>.
-Sirach	12	4	1		d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
-Sirach	12	4	2	Give to the godly man, 	d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
-Sirach	12	4	3	Give to the godly man, 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
-Sirach	12	5	1	Do well unto him that is lowly, but 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
-Sirach	12	5	2	Do well unto him that is lowly, but give not to the ungodly: Hold back thy bread, and give it not unto him, lest he overmaster thee thereby: For else 	f	<a href='SIR.xhtml#SR11_34'>ch. 11. 34</a>.
-Sirach	12	6	1	For the most High hateth sinners, And will repay vengeance unto the ungodly, And 	g	Comp. <a href='JUD.xhtml#JD1_6'>Jude 6</a>.
-Sirach	12	7	1		d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
-Sirach	12	7	2	Give unto the good, 	d	<a href='SIR.xhtml#SR12_7'>ver. 7</a>. So <a href='GAL.xhtml#GL6_10'>Gal. 6. 10</a>.
-Sirach	12	7	3	Give unto the good, 	e	Comp. <a href='MAT.xhtml#MT5_44'>Matt. 5. 44</a>.
-Sirach	13	1	1	He that toucheth pitch shall be defiled therewith; And 	a	Comp. <a href='DEU.xhtml#DT7_2'>Deut. 7. 2</a>.
-Sirach	13	10	1		f	Comp. <a href='PRO.xhtml#PR25_17'>Prov. 25. 17</a>.
-Sirach	13	11	1		*	Or, <span class='add'>Forbear not</span>.
-Sirach	13	11	2		g	See <a href='SIR.xhtml#SR5_1'>ch. 5. 1</a>.
-Sirach	13	11	3	Affect not to be made equal unto him in talk, 	*	Or, <span class='add'>But</span>.
-Sirach	13	17	1		h	Comp. <a href='2CO.xhtml#C26_14'>2 Cor. 6. 14</a>.
-Sirach	13	17	2	What fellowship hath the wolf with the lamb? 	i	So <a href='PRO.xhtml#PR29_27'>Prov. 29. 27</a>.
-Sirach	13	19	1	As 	k	See <a href='JOB.xhtml#JB6_5'>Job 6. 5</a>.
-Sirach	13	19	2	As the wild ass is the lion’s prey in the wilderness: so 	l	<a href='AMO.xhtml#AM8_4'>Amos 8. 4</a>. See <a href='PSA.xhtml#PS14_4'>Ps. 14. 4</a>.
-Sirach	13	2	1	Burden not thyself above thy power while thou livest; And have no fellowship with one that is mightier and richer than thyself: For how agree the kettle and the earthen pot together? 	*	Gr. <span class='add'>This shall smite against</span> it, <span class='add'>and be broken</span>.
-Sirach	13	22	1	When a rich man is fallen, he hath many helpers: he speaketh things not to be spoken, and yet men justify him: the poor man slipped, and yet they rebuked him too; 	m	So <a href='ECC.xhtml#EC9_15'>Eccles. 9. 15</a>, <a href='ECC.xhtml#EC9_16'>16</a>. <a href='SIR.xhtml#SR26_28'>ch. 26. 28</a>.
-Sirach	13	22	2	When a rich man is fallen, he hath many helpers: he speaketh things not to be spoken, and yet men justify him: the poor man slipped, and yet they rebuked him too; He spake wisely, and 	n	<a href='SIR.xhtml#SR19_17'>ch. 19. 17</a>. &amp; <a href='SIR.xhtml#SR38_12'>38. 12</a> in the Gk.
-Sirach	13	23	1	When a rich man speaketh, 	o	<a href='JOB.xhtml#JB29_9'>Job 29. 9</a>.
-Sirach	13	25	1	The heart of a man 	p	<a href='SIR.xhtml#SR12_18'>ch. 12. 18</a>.
-Sirach	13	25	2	The heart of a man changeth his countenance, whether it be for good or evil: And 	q	See <a href='PRO.xhtml#PR15_13'>Prov. 15. 13</a>.
-Sirach	13	26	1	A cheerful countenance is a token of a heart that is in prosperity; And the finding out of parables is 	r	<a href='ECC.xhtml#EC12_12'>Eccles. 12. 12</a>.
-Sirach	13	3	1		b	So <a href='PRO.xhtml#PR18_23'>Prov. 18. 23</a>.
+1 Esdras	1	1	1	And Josias held the 	a	<a href='2KI.xhtml#K223_21'>2 Kin. 23. 21</a>. To <a href='1ES.xhtml#E11_22'>ver. 22</a>, <a href='2CH.xhtml#R235_1'>2 Chr. 35. 1–19</a>.
+1 Esdras	1	10	1	And when these things were done, the priests and Levites, having the unleavened bread, stood in very comely order according to the 	d	<a href='1ES.xhtml#E11_10'>ver. 10</a>, <a href='1ES.xhtml#E11_11'>11</a>. <a href='1ES.xhtml#E15_4'>ch. 5. 4</a> (Gk.). &amp; <a href='1ES.xhtml#E18_28'>8. 28</a>.
+1 Esdras	1	11	1	and according to 	d	<a href='1ES.xhtml#E11_10'>ver. 10</a>, <a href='1ES.xhtml#E11_11'>11</a>. <a href='1ES.xhtml#E15_4'>ch. 5. 4</a> (Gk.). &amp; <a href='1ES.xhtml#E18_28'>8. 28</a>.
+1 Esdras	1	11	2	and according to the several dignities of the fathers, before the people, to offer to the Lord, as it is written in the book of Moses: 	*	<a href='2CH.xhtml#R235_12'>2 Chr. 35. 12</a>, <span class='add'>and so of the bullocks</span>.
+1 Esdras	1	12	1	And they roasted the passover with fire, 	g	Comp. <a href='2CH.xhtml#R235_13'>2 Chr. 35. 13</a>.
+1 Esdras	1	12	2	And they roasted the passover with fire, as appertaineth: as for the sacrifices, they sod them in brass pots and pans 	*	[Or,] <span class='add'>with good speed</span>, or, <span class='add'>willingly</span>. <a href='2CH.xhtml#R235_13'>2 Chr. 35. 13</a>.
+1 Esdras	1	15	1	The holy singers also, the sons of Asaph, were in their order, according to the appointment 	*	<a href='2CH.xhtml#R235_15'>2 Chr. 35. 15</a>, <span class='add'>of David and Asaph</span>.
+1 Esdras	1	15	2	The holy singers also, the sons of Asaph, were in their order, according to the appointment of David, to wit, 	h	See <a href='1CH.xhtml#R16_39'>1 Chr. 6. 39</a>.
+1 Esdras	1	15	3	The holy singers also, the sons of Asaph, were in their order, according to the appointment of David, to wit, Asaph, Zacharias, and Jeduthun, who was 	*	<a href='2CH.xhtml#R235_15'>2 Chr. 35. 15</a>, <span class='add'>the king’s seer</span>.
+1 Esdras	1	16	1	Moreover the porters were at every gate; it was not lawful for any to go from his 	b	<a href='2CH.xhtml#R231_2'>2 Chr. 31. 2</a>. <a href='NEH.xhtml#NH13_30'>Neh. 13. 30</a>. <a href='1ES.xhtml#E11_16'>ver. 16</a>. <a href='LUK.xhtml#LK1_5'>Luke 1. 5</a>, <a href='LUK.xhtml#LK1_8'>8</a> in the Gk.
+1 Esdras	1	19	1	So the children of Israel 	f	Gk. as <a href='1ES.xhtml#E11_19'>ver. 19</a>. See <a href='JDG.xhtml#JG20_48'>Judg. 20. 48</a> marg.
+1 Esdras	1	19	2	So the children of Israel which were present held the passover at that time, and 	i	Gk. as in <a href='LUK.xhtml#LK22_1'>Luke 22. 1</a>.
+1 Esdras	1	2	1	having set the priests according to their 	b	<a href='2CH.xhtml#R231_2'>2 Chr. 31. 2</a>. <a href='NEH.xhtml#NH13_30'>Neh. 13. 30</a>. <a href='1ES.xhtml#E11_16'>ver. 16</a>. <a href='LUK.xhtml#LK1_5'>Luke 1. 5</a>, <a href='LUK.xhtml#LK1_8'>8</a> in the Gk.
+1 Esdras	1	20	1	And 	k	<a href='2KI.xhtml#K223_22'>2 Kin. 23. 22</a>, <a href='2KI.xhtml#K223_23'>23</a>.
+1 Esdras	1	23	1		l	<a href='2KI.xhtml#K223_24'>2 Kin. 23. 24–28</a>.
+1 Esdras	1	24	1		l	<a href='2KI.xhtml#K223_24'>2 Kin. 23. 24–28</a>.
+1 Esdras	1	24	2	As for the things that came to pass in his time, they were written in former times, concerning those that sinned, and 	*	Or, <span class='add'>were ungodly</span>. <a href='1ES.xhtml#E11_49'>ver. 49</a>. <a href='2PE.xhtml#P22_6'>2 Pet. 2. 6</a>. <a href='JUD.xhtml#JD1_15'>Jude 15</a> in the Gk.
+1 Esdras	1	24	3	As for the things that came to pass in his time, they were written in former times, concerning those that sinned, and did wickedly against the Lord above all people and kingdoms, and how they grieved him 	*	Or, <span class='add'>sensibly</span>.
+1 Esdras	1	25	1		m	<a href='2KI.xhtml#K223_29'>2 Kin. 23. 29</a>, <a href='2KI.xhtml#K223_30'>30</a>. To <a href='1ES.xhtml#E11_33'>ver. 33</a>, <a href='2CH.xhtml#R235_20'>2 Chr. 35. 20–27</a>.
+1 Esdras	1	26	1		*	About B.C. 610.
+1 Esdras	1	27	1	I am not sent out from the Lord God against thee; for my war is upon Euphrates: and now the Lord is with me, yea, the Lord is with me hasting me forward: depart from me, and 	n	So <a href='2CH.xhtml#R213_12'>2 Chr. 13. 12</a>. <a href='ACT.xhtml#AC5_39'>Acts 5. 39</a>.
+1 Esdras	1	32	1	And in all Jewry they mourned for Josias, yea, Jeremy the prophet lamented for Josias, and the chief men with the women made lamentation for him unto this day: and this was given out 	o	From <a href='2CH.xhtml#R235_25'>2 Chr. 35. 25</a>?
+1 Esdras	1	34	1		p	To <a href='1ES.xhtml#E11_38'>ver. 38</a>, <a href='2KI.xhtml#K223_30'>2 Kin. 23. 30–35</a>. <a href='2CH.xhtml#R236_1'>2 Chr. 36. 1–4</a>.
+1 Esdras	1	34	2	And the people took Joachaz the son of Josias, and 	q	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
+1 Esdras	1	37	1	The king of Egypt also 	q	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
+1 Esdras	1	39	1		r	To <a href='1ES.xhtml#E11_43'>ver. 43</a>, <a href='2KI.xhtml#K223_36'>2 Kin. 23. 36–24</a>. <a href='2KI.xhtml#K223_6'>6</a>. <a href='2CH.xhtml#R236_5'>2 Chr. 36. 5–8</a>.
+1 Esdras	1	39	2	Five and twenty years old was 	*	<a href='2CH.xhtml#R236_4'>2 Chr. 36. 4</a>, <a href='2CH.xhtml#R236_5'>5</a>. <span class='add'>Jehoiakim</span>, or, <span class='add'>Eliakim</span>.
+1 Esdras	1	4	1		c	<a href='2CH.xhtml#R235_3'>2 Chr. 35. 3</a>. Comp. <a href='EXO.xhtml#EX18_4'>Ex. 18. 4</a>.
+1 Esdras	1	4	2	and said, Ye shall no more bear the ark upon your shoulders: now therefore serve the Lord your God, and minister unto his people Israel, and prepare you after your families and 	d	<a href='1ES.xhtml#E11_10'>ver. 10</a>, <a href='1ES.xhtml#E11_11'>11</a>. <a href='1ES.xhtml#E15_4'>ch. 5. 4</a> (Gk.). &amp; <a href='1ES.xhtml#E18_28'>8. 28</a>.
+1 Esdras	1	40	1		*	About B.C. 606.
+1 Esdras	1	43	1		*	About B.C. 599.
+1 Esdras	1	43	2	And Joacim his son reigned in his stead: he 	q	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
+1 Esdras	1	43	3	And Joacim his son reigned in his stead: he was made king being 	s	<a href='2KI.xhtml#K224_8'>2 Kin. 24. 8</a>. Comp. <a href='2CH.xhtml#R236_9'>2 Chr. 36. 9</a>.
+1 Esdras	1	44	1		t	To <a href='1ES.xhtml#E11_58'>ver. 58</a>, <a href='2CH.xhtml#R236_9'>2 Chr. 36. 9–21</a>. Comp. <a href='2KI.xhtml#K224_8'>2 Kin. 24. 8–25. 21</a>.
+1 Esdras	1	45	1	So after a year Nabuchodonosor sent and caused him to be brought into Babylon with 	u	Comp. <a href='1ES.xhtml#E11_41'>ver. 41</a>, <a href='1ES.xhtml#E11_54'>54</a>.
+1 Esdras	1	46	1	and 	q	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
+1 Esdras	1	48	1		*	B.C. 593.
+1 Esdras	1	49	1	The governors also of the people and of the priests 	x	<a href='1ES.xhtml#E11_24'>ver. 24</a> (Gk.).
+1 Esdras	1	5	1	according as David the king of Israel prescribed, and according to 	e	Comp. <a href='2CH.xhtml#R235_4'>2 Chr. 35. 4</a>.
+1 Esdras	1	5	2	according as David the king of Israel prescribed, and according to the magnificence of Solomon his son: and standing in the temple according to 	d	<a href='1ES.xhtml#E11_10'>ver. 10</a>, <a href='1ES.xhtml#E11_11'>11</a>. <a href='1ES.xhtml#E15_4'>ch. 5. 4</a> (Gk.). &amp; <a href='1ES.xhtml#E18_28'>8. 28</a>.
+1 Esdras	1	51	1	But they 	y	<a href='GAL.xhtml#GL6_7'>Gal. 6. 7</a> (Gk.).
+1 Esdras	1	54	1	And they took all 	u	Comp. <a href='1ES.xhtml#E11_41'>ver. 41</a>, <a href='1ES.xhtml#E11_54'>54</a>.
+1 Esdras	1	55	1		*	About B.C. 588.
+1 Esdras	1	57	1	who became servants to him and his children, till the Persians reigned, to fulfil the word of the Lord 	z	<a href='JER.xhtml#JR25_11'>Jer. 25. 11</a>. &amp; <a href='JER.xhtml#JR29_10'>29. 10</a>.
+1 Esdras	1	58	1	Until the land had enjoyed her sabbaths, the whole time of her desolation shall she 	*	Or, <span class='add'>keep sabbath</span>. <a href='2CH.xhtml#R236_21'>2 Chr. 36. 21</a> (Heb. and Gk.).
+1 Esdras	1	7	1	And unto the people 	f	Gk. as <a href='1ES.xhtml#E11_19'>ver. 19</a>. See <a href='JDG.xhtml#JG20_48'>Judg. 20. 48</a> marg.
+1 Esdras	1	8	1	And Helkias, Zacharias, and 	*	Or, <span class='add'>Jehiel</span>. <a href='2CH.xhtml#R235_8'>2 Chr. 35. 8</a>.
+1 Esdras	1	9	1	And Jeconias, and Samaias, and Nathanael his brother, and Assabias, and Ochiel, and Joram, captains over thousands, gave to the Levites for the passover five thousand sheep, and 	*	[Or,] <span class='add'>five hundred calves</span>. <a href='2CH.xhtml#R235_9'>2 Chr. 35. 9</a>.
+1 Esdras	2	1	1		*	About B.C. 536.
+1 Esdras	2	1	2		a	<a href='2CH.xhtml#R236_22'>2 Chr. 36. 22</a>, <a href='2CH.xhtml#R236_23'>23</a>. To <a href='1ES.xhtml#E12_15'>ver. 15</a>, <a href='EZR.xhtml#ER1_1'>Ezra 1. 1–11</a>.
+1 Esdras	2	10	1	King Cyrus also brought forth the holy vessels, 	d	<a href='1ES.xhtml#E11_41'>ch. 1. 41</a>. Comp. <a href='1ES.xhtml#E14_44'>ch. 4. 44</a>.
+1 Esdras	2	10	2	King Cyrus also brought forth the holy vessels, which Nabuchodonosor had carried away from Jerusalem, 	d	<a href='1ES.xhtml#E11_41'>ch. 1. 41</a>. Comp. <a href='1ES.xhtml#E14_44'>ch. 4. 44</a>.
+1 Esdras	2	10	3	King Cyrus also brought forth the holy vessels, which Nabuchodonosor had carried away from Jerusalem, and had set up in his 	e	<a href='1MA.xhtml#M11_47'>1 Macc. 1. 47</a> (Gk.). <a href='1CO.xhtml#C18_10'>1 Cor. 8. 10</a>.
+1 Esdras	2	12	1	and by him they were delivered to 	*	<span class='add'>Shashbazzar</span>, <a href='EZR.xhtml#ER1_8'>Ezra 1. 8</a>. <span class='add'>Greek, the first part of the word is corruptly joined to the word going before</span>. [Comp. <a href='1ES.xhtml#E16_18'>ch. 6. 18</a>].
+1 Esdras	2	13	1	And this was the number of them; A thousand golden cups, and a thousand of silver, 	*	Heb. <span class='add'>knives,</span> <a href='EZR.xhtml#ER1_9'>Ezra 1. 9</a>.
+1 Esdras	2	13	2	And this was the number of them; A thousand golden cups, and a thousand of silver, censers of silver twenty nine, vials of gold thirty, and of silver 	*	<a href='EZR.xhtml#ER1_10'>Ezra 1. 10</a>, <span class='add'>but four hundred and ten</span>.
+1 Esdras	2	14	1	So all the vessels of gold and of silver, which were carried away, were 	*	<a href='EZR.xhtml#ER1_11'>Ezra 1. 11</a>, <span class='add'>but five thousand four hundred</span>.
+1 Esdras	2	16	1		*	About B.C. 522.
+1 Esdras	2	16	2		f	To <a href='1ES.xhtml#E12_30'>ver. 30</a>, <a href='EZR.xhtml#ER4_7'>Ezra 4. 7–24</a>.
+1 Esdras	2	16	3	But in the time of Artexerxes king of the Persians Belemus, and Mithridates, and Tabellius, and 	*	<span class='add'>Bahumus, and the name which followeth is but an epithet to the former</span>, <a href='EZR.xhtml#ER4_8'>Ezra 4. [8]</a>, <a href='EZR.xhtml#ER4_9'>9</a>. [So <a href='1ES.xhtml#E12_25'>ver. 25</a>].
+1 Esdras	2	16	4	But in the time of Artexerxes king of the Persians Belemus, and Mithridates, and Tabellius, and Rathumus, and Beeltethmus, and 	*	<span class='add'>Shimsai</span>, <a href='EZR.xhtml#ER4_8'>Ezra 4. 8</a>, <a href='EZR.xhtml#ER4_9'>9</a>.
+1 Esdras	2	16	5	But in the time of Artexerxes king of the Persians Belemus, and Mithridates, and Tabellius, and Rathumus, and Beeltethmus, and Semellius the 	g	<a href='1ES.xhtml#E12_17'>ver. 17</a>, <a href='1ES.xhtml#E12_25'>25</a>, <a href='1ES.xhtml#E12_30'>30</a>. <a href='ACT.xhtml#AC19_35'>Acts 19. 35</a> in the Gk.
+1 Esdras	2	17	1	To king Artexerxes our lord, Thy servants, Rathumus the 	h	Gk. more full in <a href='1ES.xhtml#E12_25'>ver. 25</a>.
+1 Esdras	2	17	2	To king Artexerxes our lord, Thy servants, Rathumus the storywriter, and Semellius the 	g	<a href='1ES.xhtml#E12_17'>ver. 17</a>, <a href='1ES.xhtml#E12_25'>25</a>, <a href='1ES.xhtml#E12_30'>30</a>. <a href='ACT.xhtml#AC19_35'>Acts 19. 35</a> in the Gk.
+1 Esdras	2	17	3	To king Artexerxes our lord, Thy servants, Rathumus the storywriter, and Semellius the scribe, and the rest of their council, and the judges that are in 	i	<a href='1ES.xhtml#E12_24'>ver. 24</a>, <a href='1ES.xhtml#E12_27'>27</a>. <a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. &amp; <a href='1ES.xhtml#E16_29'>6. 29</a>. &amp; <a href='1ES.xhtml#E17_1'>7. 1</a>. &amp; <a href='1ES.xhtml#E18_67'>8. 67</a>. <a href='2MA.xhtml#M23_5'>2 Macc. 3. 5</a>, <a href='2MA.xhtml#M23_8'>8</a>. &amp; <a href='2MA.xhtml#M24_4'>4. 4</a>. &amp; <a href='2MA.xhtml#M28_8'>8. 8</a>. &amp; <a href='2MA.xhtml#M210_11'>10. 11</a>. So <a href='1MA.xhtml#M110_69'>1 Macc. 10. 69</a>.
+1 Esdras	2	17	4	To king Artexerxes our lord, Thy servants, Rathumus the storywriter, and Semellius the scribe, and the rest of their council, and the judges that are in Celosyria and 	i	<a href='1ES.xhtml#E12_24'>ver. 24</a>, <a href='1ES.xhtml#E12_27'>27</a>. <a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. &amp; <a href='1ES.xhtml#E16_29'>6. 29</a>. &amp; <a href='1ES.xhtml#E17_1'>7. 1</a>. &amp; <a href='1ES.xhtml#E18_67'>8. 67</a>. <a href='2MA.xhtml#M23_5'>2 Macc. 3. 5</a>, <a href='2MA.xhtml#M23_8'>8</a>. &amp; <a href='2MA.xhtml#M24_4'>4. 4</a>. &amp; <a href='2MA.xhtml#M28_8'>8. 8</a>. &amp; <a href='2MA.xhtml#M210_11'>10. 11</a>. So <a href='1MA.xhtml#M110_69'>1 Macc. 10. 69</a>.
+1 Esdras	2	17	5	To king Artexerxes our lord, Thy servants, Rathumus the storywriter, and Semellius the scribe, and the rest of their council, and the judges that are in Celosyria and 	k	See <a href='ACT.xhtml#AC11_19'>Acts 11. 19</a>.
+1 Esdras	2	2	1	the Lord 	c	Gk. as <a href='1ES.xhtml#E12_2'>ver. 2</a>, not as <a href='1ES.xhtml#E12_9'>ver. 9</a>.
+1 Esdras	2	24	1	Wherefore now we do declare unto thee, O lord the king, that if this city be built again, and the walls thereof set up anew, thou shalt from henceforth have no passage into 	i	<a href='1ES.xhtml#E12_24'>ver. 24</a>, <a href='1ES.xhtml#E12_27'>27</a>. <a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. &amp; <a href='1ES.xhtml#E16_29'>6. 29</a>. &amp; <a href='1ES.xhtml#E17_1'>7. 1</a>. &amp; <a href='1ES.xhtml#E18_67'>8. 67</a>. <a href='2MA.xhtml#M23_5'>2 Macc. 3. 5</a>, <a href='2MA.xhtml#M23_8'>8</a>. &amp; <a href='2MA.xhtml#M24_4'>4. 4</a>. &amp; <a href='2MA.xhtml#M28_8'>8. 8</a>. &amp; <a href='2MA.xhtml#M210_11'>10. 11</a>. So <a href='1MA.xhtml#M110_69'>1 Macc. 10. 69</a>.
+1 Esdras	2	25	1	Then the king wrote back again to Rathumus the 	h	Gk. more full in <a href='1ES.xhtml#E12_25'>ver. 25</a>.
+1 Esdras	2	25	2	Then the king wrote back again to Rathumus the storywriter, 	l	<a href='1ES.xhtml#E12_16'>ver. 16</a> marg.
+1 Esdras	2	25	3	Then the king wrote back again to Rathumus the storywriter, to Beeltethmus, 	l	<a href='1ES.xhtml#E12_16'>ver. 16</a> marg.
+1 Esdras	2	25	4	Then the king wrote back again to Rathumus the storywriter, to Beeltethmus, to Semellius the 	g	<a href='1ES.xhtml#E12_17'>ver. 17</a>, <a href='1ES.xhtml#E12_25'>25</a>, <a href='1ES.xhtml#E12_30'>30</a>. <a href='ACT.xhtml#AC19_35'>Acts 19. 35</a> in the Gk.
+1 Esdras	2	27	1	and the men therein were given to rebellion and war: and that mighty kings and fierce were in Jerusalem, who reigned and exacted tributes in 	i	<a href='1ES.xhtml#E12_24'>ver. 24</a>, <a href='1ES.xhtml#E12_27'>27</a>. <a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. &amp; <a href='1ES.xhtml#E16_29'>6. 29</a>. &amp; <a href='1ES.xhtml#E17_1'>7. 1</a>. &amp; <a href='1ES.xhtml#E18_67'>8. 67</a>. <a href='2MA.xhtml#M23_5'>2 Macc. 3. 5</a>, <a href='2MA.xhtml#M23_8'>8</a>. &amp; <a href='2MA.xhtml#M24_4'>4. 4</a>. &amp; <a href='2MA.xhtml#M28_8'>8. 8</a>. &amp; <a href='2MA.xhtml#M210_11'>10. 11</a>. So <a href='1MA.xhtml#M110_69'>1 Macc. 10. 69</a>.
+1 Esdras	2	3	1	saying, Thus saith Cyrus king of the Persians; The Lord of Israel, the most high Lord, hath 	b	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
+1 Esdras	2	30	1	Then king Artaxerxes his letters being read, Rathumus, and Semellius the 	g	<a href='1ES.xhtml#E12_17'>ver. 17</a>, <a href='1ES.xhtml#E12_25'>25</a>, <a href='1ES.xhtml#E12_30'>30</a>. <a href='ACT.xhtml#AC19_35'>Acts 19. 35</a> in the Gk.
+1 Esdras	2	30	2	Then king Artaxerxes his letters being read, Rathumus, and Semellius the scribe, and the rest that were in commission with them, removing in haste towards Jerusalem with a troop of horsemen and 	*	Or, <span class='add'>a great number of soldiers</span>.
+1 Esdras	2	30	3	Then king Artaxerxes his letters being read, Rathumus, and Semellius the scribe, and the rest that were in commission with them, removing in haste towards Jerusalem with a troop of horsemen and a multitude of people in battle array, began to hinder the builders; 	*	About B.C. 520.
+1 Esdras	2	5	1	If therefore there be any of you that are of his people, let the Lord, even his Lord, be with him, and let him go up to Jerusalem that is in Judea, and build the house of the Lord of Israel: for 	*	Or, <span class='add'>this</span>.
+1 Esdras	2	8	1	Then the chief of the families of Judea and of the tribe of Benjamin stood up; the priests also, and the Levites, and all they whose 	c	Gk. as <a href='1ES.xhtml#E12_2'>ver. 2</a>, not as <a href='1ES.xhtml#E12_9'>ver. 9</a>.
+1 Esdras	2	9	1	and they that dwelt round about them, and helped them in all things with silver and gold, with 	*	Heb. <span class='add'>substance</span>, <a href='EZR.xhtml#ER1_6'>Ezra 1. 6</a>.
+1 Esdras	3	1	1	Now when Darius reigned, he 	a	<a href='LUK.xhtml#LK5_29'>Luke 5. 29</a>.
+1 Esdras	3	1	2	Now when Darius reigned, he made a great feast unto all his subjects, and unto all his household, and unto all the 	b	See <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>.
+1 Esdras	3	1	3	Now when Darius reigned, he made a great feast unto all his subjects, and unto all his household, and unto all the princes of 	c	See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
+1 Esdras	3	14	1	and sending forth he called all the 	b	See <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>.
+1 Esdras	3	14	2	and sending forth he called all the princes of Persia and Media, and the 	k	<a href='1ES.xhtml#E13_2'>ver. 2</a>. So <a href='1ES.xhtml#E14_47'>ch. 4. 47</a>, <a href='1ES.xhtml#E14_48'>48</a>, <a href='1ES.xhtml#E14_49'>49</a>.
+1 Esdras	3	15	1	and sat him down in the 	*	Or, <span class='add'>council</span>.
+1 Esdras	3	2	1	and to all the 	k	<a href='1ES.xhtml#E13_2'>ver. 2</a>. So <a href='1ES.xhtml#E14_47'>ch. 4. 47</a>, <a href='1ES.xhtml#E14_48'>48</a>, <a href='1ES.xhtml#E14_49'>49</a>.
+1 Esdras	3	2	2	and to all the governors and captains and lieutenants that were under him, 	d	See <a href='EST.xhtml#ET1_1'>Esther 1. 1</a>.
+1 Esdras	3	20	1		l	So <a href='ECC.xhtml#EC10_19'>Eccles. 10. 19</a>. See <a href='PSA.xhtml#PS104_15'>Ps. 104. 15</a>.
+1 Esdras	3	20	2	it turneth also every thought into 	m	<a href='WIS.xhtml#WS2_9'>Wisd. 2. 9</a> marg. <a href='SIR.xhtml#SR13_8'>Ecclus. 13. 8</a> (Engl.).
+1 Esdras	3	3	1	And when they had eaten and drunken, and being satisfied 	e	<a href='JDT.xhtml#JT13_1'>Judith 13. 1</a>. <a href='LUK.xhtml#LK12_36'>Luke 12. 36</a> in the Gk. See <a href='WIS.xhtml#WS2_1'>Wisd. 2. 1</a>.
+1 Esdras	3	3	2	And when they had eaten and drunken, and being satisfied were gone home, then Darius the king 	e	<a href='JDT.xhtml#JT13_1'>Judith 13. 1</a>. <a href='LUK.xhtml#LK12_36'>Luke 12. 36</a> in the Gk. See <a href='WIS.xhtml#WS2_1'>Wisd. 2. 1</a>.
+1 Esdras	3	3	3	And when they had eaten and drunken, and being satisfied were gone home, then Darius the king went into his bedchamber, and slept, and soon after 	f	<a href='ACT.xhtml#AC16_27'>Acts 16. 27</a> (Gk.).
+1 Esdras	3	6	1	as, 	g	See <a href='DAN.xhtml#DN5_29'>Dan. 5. 29</a>.
+1 Esdras	3	6	2	as, to be clothed in purple, to drink in gold, and to sleep upon gold, and 	h	So <a href='GEN.xhtml#GN41_42'>Gen. 41. 42</a>, <a href='GEN.xhtml#GN41_43'>43</a>.
+1 Esdras	3	6	3	As, to be clothed in purple, to drink in gold, and to sleep upon gold, and a chariot with bridles of gold, and an headtire of 	h	So <a href='GEN.xhtml#GN41_42'>Gen. 41. 42</a>, <a href='GEN.xhtml#GN41_43'>43</a>.
+1 Esdras	3	6	4	As, to be clothed in purple, to drink in gold, and to sleep upon gold, and a chariot with bridles of gold, and an headtire of fine linen, and 	g	See <a href='DAN.xhtml#DN5_29'>Dan. 5. 29</a>.
+1 Esdras	3	6	5	As, to be clothed in purple, to drink in gold, and to sleep upon gold, and a chariot with bridles of gold, and an headtire of fine linen, and 	h	So <a href='GEN.xhtml#GN41_42'>Gen. 41. 42</a>, <a href='GEN.xhtml#GN41_43'>43</a>.
+1 Esdras	3	9	1	and said that, when the king is risen, 	i	See <a href='LUK.xhtml#LK12_20'>Luke 12. 20</a> marg.
+1 Esdras	3	9	2	and said that, when the king is risen, some will give him the writings; and of whose side the king and 	j	<a href='DAN.xhtml#DN6_2'>Dan. 6. 2</a>.
+1 Esdras	3	9	3	and said that, when the king is risen, some will give him the writings; and of whose side the king and the three 	b	See <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>.
+1 Esdras	4	10	1	So all his people and his armies obey him: 	b	Gk. as <a href='1ES.xhtml#E14_31'>ver. 31</a>.
+1 Esdras	4	11	1	and 	c	<a href='1ES.xhtml#E13_4'>ch. 3. 4</a>.
+1 Esdras	4	11	2	and these keep watch round about him, neither 	*	Or, <span class='add'>can</span>.
+1 Esdras	4	13	1	Then the third, who had spoken of women, and of the truth, (this was 	d	See <a href='EZR.xhtml#ER3_2'>Ezra 3. 2</a> marg.
+1 Esdras	4	14	1	O ye men, it is not the great king, nor the multitude of men, neither is it wine, that 	*	Gk. <span class='add'>is of force</span>.
+1 Esdras	4	17	1		e	<a href='PRO.xhtml#PR31_13'>Prov. 31. 13</a>, <a href='PRO.xhtml#PR31_19'>19</a>.
+1 Esdras	4	19	1	And letting all those things go, do they not gape, and even 	f	<a href='1ES.xhtml#E14_31'>ver. 31</a> (Gk.).
+1 Esdras	4	2	1	O ye men, do not men excel in strength that 	*	Or, <span class='add'>have the command</span>.
+1 Esdras	4	20	1		g	<a href='GEN.xhtml#GN2_24'>Gen. 2. 24</a>.
+1 Esdras	4	26	1	Yea, many there be that have 	*	Or, <span class='add'>grown desperate</span>.
+1 Esdras	4	26	2	Yea, many there be that have run out of their wits for women, and 	h	<a href='GEN.xhtml#GN29_20'>Gen. 29. 20</a>.
+1 Esdras	4	29	1	Yet did I see him and Apame the king’s concubine, the daughter of the admirable 	*	Joseph. Antiq. lib. 11. cap. 3. <span class='add'>Rabsaces Themasius</span>.
+1 Esdras	4	29	2	Yet did I see him and Apame the king’s concubine, the daughter of the admirable Bartacus, sitting 	i	See <a href='PSA.xhtml#PS45_9'>Ps. 45. 9</a>.
+1 Esdras	4	30	1	and taking the crown from the king’s head, and setting it upon her own head; she also 	k	See <a href='MAT.xhtml#MT26_67'>Matt. 26. 67</a> text.
+1 Esdras	4	31	1	And yet 	*	Or, <span class='add'>hereat</span>. Gk. as <a href='1ES.xhtml#E14_10'>ver. 10</a>.
+1 Esdras	4	31	2	And yet for all this the king 	f	<a href='1ES.xhtml#E14_31'>ver. 31</a> (Gk.).
+1 Esdras	4	31	3	And yet for all this the king gaped and gazed upon her with open mouth: if she laughed upon him, he laughed also: but if she took any displeasure at him, the king was fain to flatter, that she might 	*	Or, <span class='add'>be friends with him</span>. Gk. as <a href='MAT.xhtml#MT5_24'>Matt. 5. 24</a>.
+1 Esdras	4	33	1	Then the king and the 	l	See <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>.
+1 Esdras	4	36	1	All the earth 	*	Or, <span class='add'>praiseth the truth</span>, Athanasius.
+1 Esdras	4	37	1	Wine is wicked, the king is wicked, women are wicked, all the children of men are wicked, and such are all their wicked works; and 	m	So <a href='JHN.xhtml#JN8_44'>John 8. 44</a>. <a href='1JN.xhtml#1JN2_4'>1 John 2. 4</a>.
+1 Esdras	4	39	1	With her there is no 	n	<a href='WIS.xhtml#WS6_7'>Wisd. 6. 7</a>. <a href='SIR.xhtml#SR35_12'>Ecclus. 35. 12–16</a>. See <a href='DEU.xhtml#DT10_17'>Deut. 10. 17</a>.
+1 Esdras	4	39	2	With her there is no accepting of persons or rewards; but she doeth the things that are just, and refraineth from all unjust and wicked things; and all men 	o	See <a href='ROM.xhtml#RM1_32'>Rom. 1. 32</a>.
+1 Esdras	4	40	1	Neither in her judgment is any unrighteousness; and she is the strength, 	p	Comp. <a href='1CH.xhtml#R129_11'>1 Chr. 29. 11</a>.
+1 Esdras	4	40	2	Neither in her judgment is any unrighteousness; and she is the strength, kingdom, power, and majesty, of all ages. Blessed be 	q	See <a href='DEU.xhtml#DT32_4'>Deut. 32. 4</a>.
+1 Esdras	4	42	1	Then said the king unto him, Ask what thou wilt more 	r	<a href='1ES.xhtml#E13_5'>ch. 3. 5</a>, <a href='1ES.xhtml#E13_6'>6</a>.
+1 Esdras	4	42	2	Then said the king unto him, Ask what thou wilt more than is appointed in the writing, and we will give it thee, because thou art found wisest; and 	s	<a href='1ES.xhtml#E13_7'>ch. 3. 7</a>. Comp. <a href='GEN.xhtml#GN41_39'>Gen. 41. 39</a>, <a href='GEN.xhtml#GN41_40'>40</a>.
+1 Esdras	4	42	3	Then said the king unto him, Ask what thou wilt more than is appointed in the writing, and we will give it thee, because thou art found wisest; and thou shalt sit next me, and 	s	<a href='1ES.xhtml#E13_7'>ch. 3. 7</a>. Comp. <a href='GEN.xhtml#GN41_39'>Gen. 41. 39</a>, <a href='GEN.xhtml#GN41_40'>40</a>.
+1 Esdras	4	44	1	and to send away all the vessels that were taken away out of Jerusalem, 	t	Comp. <a href='1ES.xhtml#E11_41'>ch. 1. 41</a>. &amp; <a href='1ES.xhtml#E12_10'>2. 10</a>. &amp; <a href='1ES.xhtml#E16_18'>6. 18</a>, <a href='1ES.xhtml#E16_19'>19</a> with <a href='1ES.xhtml#E14_57'>ver. 57</a>.
+1 Esdras	4	45	1	Thou also hast vowed to build up the temple, which 	u	See <a href='PSA.xhtml#PS137_7'>Ps. 137. 7</a>. Comp. <a href='1ES.xhtml#E14_50'>ver. 50</a>.
+1 Esdras	4	46	1	And now, O lord the king, this is that which I require, and which I desire of thee, and this is the princely liberality 	x	<a href='1ES.xhtml#E14_42'>ver. 42</a>.
+1 Esdras	4	46	2	And now, O lord the king, this is that which I require, and which I desire of thee, and this is the princely liberality proceeding from thyself: I desire therefore that thou make good the vow, the performance whereof with thine own mouth thou hast vowed to 	y	<a href='DAN.xhtml#DN4_37'>Dan. 4. 37</a>. <a href='1ES.xhtml#E14_58'>ver. 58</a>. <a href='TOB.xhtml#TB13_7'>Tobit 13. 7</a>, <a href='TOB.xhtml#TB13_11'>11</a>.
+1 Esdras	4	47	1	Then Darius the king stood up, and kissed him, and wrote letters for him unto all the 	z	<a href='1ES.xhtml#E14_49'>ver. 49</a> (Gk.). So <a href='1ES.xhtml#E13_2'>ch. 3. 2</a>, <a href='1ES.xhtml#E13_14'>14</a>.
+1 Esdras	4	47	2	Then Darius the king stood up, and kissed him, and wrote letters for him unto all the treasurers and 	z	<a href='1ES.xhtml#E14_49'>ver. 49</a> (Gk.). So <a href='1ES.xhtml#E13_2'>ch. 3. 2</a>, <a href='1ES.xhtml#E13_14'>14</a>.
+1 Esdras	4	48	1	He wrote letters also unto the 	z	<a href='1ES.xhtml#E14_49'>ver. 49</a> (Gk.). So <a href='1ES.xhtml#E13_2'>ch. 3. 2</a>, <a href='1ES.xhtml#E13_14'>14</a>.
+1 Esdras	4	48	2	He wrote letters also unto the lieutenants that were in 	a	See <a href='1ES.xhtml#E12_17'>ch. 2. 17</a>.
+1 Esdras	4	48	3	He wrote letters also unto the lieutenants that were in Celosyria and Phenice, and unto them in Libanus, that they should bring 	b	<a href='1ES.xhtml#E15_55'>ch. 5. 55</a>. See <a href='JDG.xhtml#JG9_15'>Judg. 9. 15</a>.
+1 Esdras	4	49	1	Moreover he wrote for all the Jews that went out of his realm up into Jewry, concerning their freedom, that no officer, no 	z	<a href='1ES.xhtml#E14_49'>ver. 49</a> (Gk.). So <a href='1ES.xhtml#E13_2'>ch. 3. 2</a>, <a href='1ES.xhtml#E13_14'>14</a>.
+1 Esdras	4	49	2	Moreover he wrote for all the Jews that went out of his realm up into Jewry, concerning their freedom, that no officer, no ruler, no lieutenant, nor 	*	Or, <span class='add'>steward</span>. <a href='1ES.xhtml#E14_47'>ver. 47</a>. <a href='1ES.xhtml#E18_67'>ch. 8. 67</a>. <a href='ROM.xhtml#RM16_23'>Rom. 16. 23</a> (Gk.).
+1 Esdras	4	50	1	and that all the country which they hold should be free without tribute; and that 	u	See <a href='PSA.xhtml#PS137_7'>Ps. 137. 7</a>. Comp. <a href='1ES.xhtml#E14_50'>ver. 50</a>.
+1 Esdras	4	56	1	And he commanded to give to all that kept the city 	*	Or, <span class='add'>portions of land</span>. <a href='DEU.xhtml#DT10_9'>Deut. 10. 9</a> (Gk.).
+1 Esdras	4	56	2	And he commanded to give to all that kept the city pensions and 	c	See <a href='1MA.xhtml#M13_28'>1 Macc. 3. 28</a>.
+1 Esdras	4	57	1	He sent away also all the vessels from Babylon, 	t	Comp. <a href='1ES.xhtml#E11_41'>ch. 1. 41</a>. &amp; <a href='1ES.xhtml#E12_10'>2. 10</a>. &amp; <a href='1ES.xhtml#E16_18'>6. 18</a>, <a href='1ES.xhtml#E16_19'>19</a> with <a href='1ES.xhtml#E14_57'>ver. 57</a>.
+1 Esdras	4	58	1	Now when this young man was gone forth, 	d	See <a href='LUK.xhtml#LK6_20'>Luke 6. 20</a>.
+1 Esdras	4	58	2	Now when this young man was gone forth, he lifted up his face to heaven 	e	See <a href='DAN.xhtml#DN6_10'>Dan. 6. 10</a>.
+1 Esdras	4	58	3	Now when this young man was gone forth, he lifted up his face to heaven toward Jerusalem, and praised 	y	<a href='DAN.xhtml#DN4_37'>Dan. 4. 37</a>. <a href='1ES.xhtml#E14_58'>ver. 58</a>. <a href='TOB.xhtml#TB13_7'>Tobit 13. 7</a>, <a href='TOB.xhtml#TB13_11'>11</a>.
+1 Esdras	4	59	1	and said, From thee cometh victory, from thee cometh wisdom, and 	f	<a href='MAT.xhtml#MT6_13'>Matt. 6. 13</a>.
+1 Esdras	4	60	1	Blessed art thou, 	g	Comp. <a href='1KI.xhtml#K13_12'>1 Kin. 3. 12</a>.
+1 Esdras	4	63	1	to go up, and to build Jerusalem, and 	h	<a href='1KI.xhtml#K18_43'>1 Kin. 8. 43</a>. See <a href='1KI.xhtml#K18_29'>1 Kin. 8. 29</a>.
+1 Esdras	4	63	2	to go up, and to build Jerusalem, and the temple which is called by his name: and they feasted 	i	<a href='1ES.xhtml#E15_2'>ch. 5. 2</a>.
+1 Esdras	4	9	1	if he command 	a	Comp. <a href='DEU.xhtml#DT20_19'>Deut. 20. 19</a>, <a href='DEU.xhtml#DT20_20'>20</a>.
+1 Esdras	5	12	1	the sons of Elam, a thousand two hundred fifty and four: the sons of 	x	<span class='add'>Zattu</span>.
+1 Esdras	5	12	2	the sons of Elam, a thousand two hundred fifty and four: the sons of Zathui, nine hundred forty and five: the sons of 	y	<span class='add'>Zacchai</span>.
+1 Esdras	5	13	1	the sons of Bebai, six hundred twenty and three: the sons of 	z	<span class='add'>Azgad</span>.
+1 Esdras	5	14	1	the sons of Adonican, six hundred sixty and seven: the sons of 	a	<span class='add'>Bigui</span>.
+1 Esdras	5	15	1	the sons of 	b	<span class='add'>Ater-hezekiah</span>.
+1 Esdras	5	16	1	the sons of Ananias, an hundred and one: the sons of Arom, thirty two: and the sons of 	c	<span class='add'>Bezai</span>.
+1 Esdras	5	17	1	the sons of Meterus, three thousand and five: the sons of 	d	<span class='add'>Bethlehem</span>.
+1 Esdras	5	18	1	They of Netophah, fifty and five: they of Anathoth, an hundred fifty and eight: they of 	e	<span class='add'>Azmaveth</span>.
+1 Esdras	5	19	1	they of 	f	<span class='add'>Kirjathjarim</span>.
+1 Esdras	5	2	1	And Darius sent with them 	a	Comp. <a href='NEH.xhtml#NH2_9'>Neh. 2. 9</a>.
+1 Esdras	5	2	2	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and 	b	<a href='1ES.xhtml#E14_63'>ch. 4. 63</a>.
+1 Esdras	5	2	3	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and with musical instruments 	c	Gk. as <a href='GEN.xhtml#GN31_27'>Gen. 31. 27</a>. <a href='1SA.xhtml#S118_6'>1 Sam. 18. 6</a>, &amp;c.
+1 Esdras	5	2	4	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and with musical instruments 	d	<a href='ISA.xhtml#IS5_12'>Isai. 5. 12</a> (Gk.). So <a href='EZK.xhtml#EK28_13'>Ezek. 28. 13</a>.
+1 Esdras	5	2	5	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and with musical instruments tabrets and 	d	<a href='ISA.xhtml#IS5_12'>Isai. 5. 12</a> (Gk.). So <a href='EZK.xhtml#EK28_13'>Ezek. 28. 13</a>.
+1 Esdras	5	20	1	they of Chadias and Ammidioi, four hundred twenty and two: they of 	g	<span class='add'>Rama</span>[<span class='add'>h</span>].
+1 Esdras	5	20	2	they of Chadias and Ammidioi, four hundred twenty and two: they of Cirama and 	h	<span class='add'>Gaba</span>.
+1 Esdras	5	21	1	they of 	i	<span class='add'>Michmas</span>.
+1 Esdras	5	21	2	they of Macalon, an hundred twenty and two: they of 	k	<span class='add'>Bethel</span>.
+1 Esdras	5	21	3	they of Macalon, an hundred twenty and two: they of Betolius, fifty and two: the sons of 	l	<span class='add'>Magbish</span>.
+1 Esdras	5	22	1	the sons of 	m	<span class='add'>Lodhadid</span>.
+1 Esdras	5	23	1	the sons of 	n	<span class='add'>Senaah</span>.
+1 Esdras	5	24	1	The priests: the sons of 	o	<span class='add'>Jedaiah</span>. See <a href='EZR.xhtml#ER2_36'>Ezra 2. 36</a>.
+1 Esdras	5	24	2	The priests: the sons of Jeddu, the son of Jesus, among the sons of Sanasib, nine hundred seventy and two: the sons of 	p	<span class='add'>Immer</span>.
+1 Esdras	5	25	1	the sons of 	q	<span class='add'>Pashur</span>.
+1 Esdras	5	25	2	the sons of Phassaron, a thousand forty and seven: the sons of 	r	<span class='add'>Harim</span>.
+1 Esdras	5	25	3	the sons of Phassaron, a thousand forty and seven: the sons of Carme, 	s	Or, <span class='add'>two hundred and seventeen</span>, according to some copies.
+1 Esdras	5	26	1	The Levites: 	t	Thus it is read, <a href='EZR.xhtml#ER2_40'>Ezra 2. 40</a>, <span class='add'>the sons of Jeshua, and Kadmiel, of the sons of Hodaviah</span>.
+1 Esdras	5	28	1	The porters: the sons of 	u	<span class='add'>Shallum</span>.
+1 Esdras	5	28	2	The porters: the sons of Salum, the sons of 	x	<span class='add'>Ater</span>.
+1 Esdras	5	28	3	The porters: the sons of Salum, the sons of Jatal, the sons of Talmon, the sons of 	y	<span class='add'>Akkub</span>.
+1 Esdras	5	28	4	The porters: the sons of Salum, the sons of Jatal, the sons of Talmon, the sons of Dacobi, the sons of 	z	<span class='add'>Hatita</span>.
+1 Esdras	5	28	5	The porters: the sons of Salum, the sons of Jatal, the sons of Talmon, the sons of Dacobi, the sons of Teta, the sons of 	a	<span class='add'>Shobai</span>.
+1 Esdras	5	29	1	The servants of the temple: the sons of 	b	<span class='add'>Ziha</span>.
+1 Esdras	5	29	2	The servants of the temple: the sons of Esau, the sons of 	c	<span class='add'>Hasupha</span>.
+1 Esdras	5	29	3	The servants of the temple: the sons of Esau, the sons of Asipha, the sons of Tabaoth, the sons of 	d	<span class='add'>Keros</span>.
+1 Esdras	5	29	4	The servants of the temple: the sons of Esau, the sons of Asipha, the sons of Tabaoth, the sons of Ceras, the sons of 	e	<span class='add'>Siaha</span>.
+1 Esdras	5	29	5	The servants of the temple: the sons of Esau, the sons of Asipha, the sons of Tabaoth, the sons of Ceras, the sons of Sud, the sons of 	f	<span class='add'>Padon</span>.
+1 Esdras	5	29	6	The servants of the temple: the sons of Esau, the sons of Asipha, the sons of Tabaoth, the sons of Ceras, the sons of Sud, the sons of Phaleas, the sons of Labana, the sons of 	g	<span class='add'>Agabah</span>.
+1 Esdras	5	30	1	the sons of 	h	<span class='add'>Akkub</span>.
+1 Esdras	5	30	2	the sons of Acua, the sons of Uta, the sons of 	i	<span class='add'>Hagab</span>.
+1 Esdras	5	30	3	the sons of Acua, the sons of Uta, the sons of Cetab, the sons of Agaba, the sons of 	k	<span class='add'>Shamlai</span>.
+1 Esdras	5	30	4	the sons of Acua, the sons of Uta, the sons of Cetab, the sons of Agaba, the sons of Subai, the sons of Anan, the sons of 	l	<span class='add'>Giddel</span>.
+1 Esdras	5	30	5	the sons of Acua, the sons of Uta, the sons of Cetab, the sons of Agaba, the sons of Subai, the sons of Anan, the sons of Cathua, the sons of 	m	<span class='add'>Gahar</span>.
+1 Esdras	5	31	1	the sons of 	n	<span class='add'>Reaiah</span>.
+1 Esdras	5	31	2	the sons of Airus, the sons of 	o	<span class='add'>Rezin</span>.
+1 Esdras	5	31	3	the sons of Airus, the sons of Daisan, the sons of 	p	<span class='add'>Nekoda</span>.
+1 Esdras	5	31	4	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of 	q	<span class='add'>Gazzam</span>.
+1 Esdras	5	31	5	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of 	r	<span class='add'>Huzza</span>.
+1 Esdras	5	31	6	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of 	s	<span class='add'>Paseah</span>.
+1 Esdras	5	31	7	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of 	t	<span class='add'>Besai</span>.
+1 Esdras	5	31	8	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of 	u	<span class='add'>Asnah</span>.
+1 Esdras	5	31	9	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of 	x	<span class='add'>Mehunim</span>.
+1 Esdras	5	31	10	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of 	y	<span class='add'>Nephusim</span>.
+1 Esdras	5	31	11	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of 	z	<span class='add'>Bakbuk</span>.
+1 Esdras	5	31	12	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of 	a	<span class='add'>Hakupha</span>.
+1 Esdras	5	31	13	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of Acipha, the sons of 	b	<span class='add'>Harhur</span>.
+1 Esdras	5	31	14	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of Acipha, the sons of Assur, the sons of Pharacim, the sons of 	c	<span class='add'>Bazluth</span>.
+1 Esdras	5	32	1	the sons of 	d	<span class='add'>Mehida</span>.
+1 Esdras	5	32	2	the sons of Meeda, the sons of Coutha, the sons of 	e	<span class='add'>Harsha</span>.
+1 Esdras	5	32	3	the sons of Meeda, the sons of Coutha, the sons of Charea, the sons of 	f	<span class='add'>Barkos</span>.
+1 Esdras	5	32	4	the sons of Meeda, the sons of Coutha, the sons of Charea, the sons of Charcus, the sons of 	g	<span class='add'>Sisera</span>.
+1 Esdras	5	32	5	the sons of Meeda, the sons of Coutha, the sons of Charea, the sons of Charcus, the sons of Aserer, the sons of 	h	<span class='add'>Thamah</span>.
+1 Esdras	5	32	6	the sons of Meeda, the sons of Coutha, the sons of Charea, the sons of Charcus, the sons of Aserer, the sons of Thomoi, the sons of 	i	<span class='add'>Neziah</span>.
+1 Esdras	5	33	1	The sons of the servants of Solomon: the sons of 	k	<span class='add'>Sophereth</span>.
+1 Esdras	5	33	2	The sons of the servants of Solomon: the sons of Azaphion, the sons of 	l	<span class='add'>Peruda</span>.
+1 Esdras	5	33	3	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of 	m	<span class='add'>Jaalah</span>.
+1 Esdras	5	33	4	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of 	n	<span class='add'>Darkon</span>.
+1 Esdras	5	33	5	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of Lozon, the sons of 	o	<span class='add'>Giddel</span>.
+1 Esdras	5	33	6	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of Lozon, the sons of Isdael, the sons of 	p	<span class='add'>Shephatiah</span>.
+1 Esdras	5	34	1	the sons of 	q	<span class='add'>Hattil</span>.
+1 Esdras	5	34	2	the sons of Hagia, the sons of 	r	<span class='add'>Pochereth Hazzebaim</span>, <a href='EZR.xhtml#ER2_57'>Ezra 2. 57</a> (Heb.).
+1 Esdras	5	37	1	neither could they shew their families, nor their stock, how they were of Israel: the sons of 	s	<span class='add'>Delaiah</span>.
+1 Esdras	5	37	2	neither could they shew their families, nor their stock, how they were of Israel: the sons of Ladan, the son of 	t	<span class='add'>Tobiah</span>.
+1 Esdras	5	37	3	neither could they shew their families, nor their stock, how they were of Israel: the sons of Ladan, the son of Ban, the sons of 	u	<span class='add'>Nekoda</span>.
+1 Esdras	5	38	1	And of the priests that usurped the office of the priesthood, and were not found: the sons of 	x	<span class='add'>Habaiah</span>.
+1 Esdras	5	38	2	And of the priests that usurped the office of the priesthood, and were not found: the sons of Obdia, the sons of 	y	<span class='add'>Koz</span>.
+1 Esdras	5	38	3	And of the priests that usurped the office of the priesthood, and were not found: the sons of Obdia, the sons of Accoz, the sons of Addus, who married Augia one of the daughters of 	z	<span class='add'>Barzillai</span>.
+1 Esdras	5	4	1	And these are the names of the men which went up, according to their families among their tribes, after 	e	<a href='1ES.xhtml#E11_5'>ch. 1. 5</a>, <a href='1ES.xhtml#E11_11'>11</a> (Gk.).
+1 Esdras	5	40	1	for unto them said 	*	<span class='add'>Nehemias, who also is Atharias:</span> two of one: <a href='EZR.xhtml#ER2_63'>Ezra 2. 63</a>. See <a href='NEH.xhtml#NH8_9'>Neh. 8. 9</a>. Comp. <a href='1ES.xhtml#E19_49'>ch. 9. 49</a>.
+1 Esdras	5	40	2	for unto them said Nehemias and Atharias, that they should not be partakers of the holy things, till there arose up an high priest clothed with 	*	Heb. <span class='add'>Urim and Thummim</span>. See <a href='EXO.xhtml#EX28_30'>Ex. 28. 30</a>.
+1 Esdras	5	41	1	So of Israel, from them of twelve years old and upward, they were all in number forty thousand, besides 	a	<a href='1ES.xhtml#E15_1'>ver. 1</a>, <a href='1ES.xhtml#E15_42'>42</a> (Gk.).
+1 Esdras	5	42	1	Their 	a	<a href='1ES.xhtml#E15_1'>ver. 1</a>, <a href='1ES.xhtml#E15_42'>42</a> (Gk.).
+1 Esdras	5	42	2	Their menservants and handmaids were seven thousand three hundred 	b	Comp. <a href='EZR.xhtml#ER2_65'>Ezra 2. 65</a>. <a href='NEH.xhtml#NH7_67'>Neh. 7. 67</a>.
+1 Esdras	5	43	1	four hundred thirty and five camels, 	c	Comp. <a href='EZR.xhtml#ER2_66'>Ezra 2. 66</a>, <a href='EZR.xhtml#ER2_67'>67</a>. <a href='NEH.xhtml#NH7_68'>Neh. 7. 68</a>, <a href='NEH.xhtml#NH7_69'>69</a>.
+1 Esdras	5	43	2	four hundred thirty and five camels, seven thousand thirty and six horses, two hundred forty and five mules, 	c	Comp. <a href='EZR.xhtml#ER2_66'>Ezra 2. 66</a>, <a href='EZR.xhtml#ER2_67'>67</a>. <a href='NEH.xhtml#NH7_68'>Neh. 7. 68</a>, <a href='NEH.xhtml#NH7_69'>69</a>.
+1 Esdras	5	43	3	four hundred thirty and five camels, seven thousand thirty and six horses, two hundred forty and five mules, five thousand five hundred twenty and five 	*	<span class='add'>asses</span>. <a href='EZR.xhtml#ER2_67'>Ezra 2. 67</a>. <a href='NEH.xhtml#NH7_69'>Neh. 7. 69</a>.
+1 Esdras	5	44	1	And certain of the chief of their families, when they came to the temple of God that is in Jerusalem, vowed to set up the house again 	h	<span class='add'>Thamah</span>.
+1 Esdras	5	45	1	and to give into the holy treasury of the works a thousand 	d	<a href='LUK.xhtml#LK19_13'>Luke 19. 13</a> marg.,
+1 Esdras	5	47	1		e	To <a href='1ES.xhtml#E15_55'>ver. 55</a>, <a href='EZR.xhtml#ER3_1'>Ezra 3. 1–7</a>. So <a href='NEH.xhtml#NH7_73'>Neh. 7. 73</a>. <a href='1ES.xhtml#E19_37'>ch. 9. 37</a>.
+1 Esdras	5	47	2	But when the seventh month was at hand, 	*	B.C 535.
+1 Esdras	5	47	3	But when the seventh month was at hand, and when the children of Israel were every man in 	f	<a href='1ES.xhtml#E16_32'>ch. 6. 32</a>. See <a href='JHN.xhtml#JN16_32'>John 16. 32</a> marg.
+1 Esdras	5	47	4	But when the seventh month was at hand, and when the children of Israel were every man in his own place, they came all together with one consent into the open place 	*	Or, <span class='add'>before the east gate</span>.
+1 Esdras	5	48	1	Then stood up 	g	See <a href='1ES.xhtml#E15_5'>ver. 5</a>.
+1 Esdras	5	48	2	Then stood up Jesus the son of Josedec, and his brethren the priests, and 	g	See <a href='1ES.xhtml#E15_5'>ver. 5</a>.
+1 Esdras	5	5	1		f	<a href='NEH.xhtml#NH12_1'>Neh. 12. 1</a>.
+1 Esdras	5	5	2	The priests, 	g	<a href='1CH.xhtml#R16_4'>1 Chr. 6. 4</a>, <a href='1CH.xhtml#R16_14'>14</a>, <a href='1CH.xhtml#R16_15'>15</a>.
+1 Esdras	5	5	3	The priests, the sons of Phinees the son of Aaron: 	h	<a href='1ES.xhtml#E15_48'>ver. 48</a>. <a href='EZR.xhtml#ER3_2'>Ezra 3. 2</a> marg. See <a href='NEH.xhtml#NH12_7'>Neh. 12. 7</a>.
+1 Esdras	5	5	4	The priests, the sons of Phinees the son of Aaron: Jesus 	g	<a href='1CH.xhtml#R16_4'>1 Chr. 6. 4</a>, <a href='1CH.xhtml#R16_14'>14</a>, <a href='1CH.xhtml#R16_15'>15</a>.
+1 Esdras	5	5	5	The priests, the sons of Phinees the son of Aaron: Jesus the son of Josedec, the son of Saraias, and 	*	[Or,] <span class='add'>Joacim and Zorobabel</span>. This place is corrupt: for Joacim was the son of Jeshua, <a href='NEH.xhtml#NH12_10'>Neh. 12. 10</a>, and not Zorobabel, who was of the tribe of Judah. Comp. <a href='JDT.xhtml#JT4_6'>Judith 4. 6</a>.
+1 Esdras	5	5	6	The priests, the sons of Phinees the son of Aaron: Jesus the son of Josedec, the son of Saraias, and Joacim the son of 	i	<a href='1ES.xhtml#E15_48'>ver. 48</a>. See <a href='1CH.xhtml#R13_17'>1 Chr. 3. 17</a>, <a href='1CH.xhtml#R13_19'>19</a>.
+1 Esdras	5	5	7	The priests, the sons of Phinees the son of Aaron: Jesus the son of Josedec, the son of Saraias, and Joacim the son of Zorobabel, the son of 	i	<a href='1ES.xhtml#E15_48'>ver. 48</a>. See <a href='1CH.xhtml#R13_17'>1 Chr. 3. 17</a>, <a href='1CH.xhtml#R13_19'>19</a>.
+1 Esdras	5	5	8	The priests, the sons of Phinees the son of Aaron: Jesus the son of Josedec, the son of Saraias, and Joacim the son of Zorobabel, the son of Salathiel, of the house of David, 	k	<a href='1CH.xhtml#R12_5'>1 Chr. 2. 5</a>, <a href='1CH.xhtml#R12_9'>9</a>, &amp;c.
+1 Esdras	5	50	1	And there were gathered unto them out of the other nations of the land, and they erected the altar 	h	Gk. as <a href='1ES.xhtml#E15_44'>ver. 44</a>.
+1 Esdras	5	52	1	and after that, the 	*	Or, <span class='add'>daily sacrifice</span>. <a href='1ES.xhtml#E15_50'>ver. 50</a>? <a href='EXO.xhtml#EX29_38'>Ex. 29. 38</a>?
+1 Esdras	5	53	1	And all they that had 	*	Gr. <span class='add'>hallowed</span>.
+1 Esdras	5	53	2	And all they that had made any vow to God began to offer sacrifices to God from 	i	<a href='1ES.xhtml#E15_47'>ver. 47</a>.
+1 Esdras	5	55	1	Unto them of Sidon also and Tyre they gave carrs, that they should bring 	k	<a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. See <a href='JDG.xhtml#JG9_15'>Judg. 9. 15</a>.
+1 Esdras	5	55	2	Unto them of Sidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, 	l	So <a href='2CH.xhtml#R22_16'>2 Chr. 2. 16</a>.
+1 Esdras	5	55	3	Unto them of Sidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, which should be brought by flotes to the haven of 	m	See <a href='JOS.xhtml#JS19_46'>Josh. 19. 46</a>.
+1 Esdras	5	56	1		n	To <a href='1ES.xhtml#E15_65'>ver. 65</a>, <a href='EZR.xhtml#ER3_8'>Ezra 3. 8–13</a>.
+1 Esdras	5	58	1	And they appointed the Levites from twenty years old over the works of the Lord. Then stood up Jesus, and his sons and brethren, and Cadmiel his brother, and the sons of Madiabun, with the sons of Joda the son of Eliadun, with their sons and brethren, all Levites, with one accord 	*	Or, <span class='add'>overseers</span>, or, <span class='add'>encouragers of them that wrought in the house of the Lord</span>.
+1 Esdras	5	6	1		*	<span class='add'>Zorobabel</span>.
+1 Esdras	5	6	2	who spake wise sentences before Darius the king of Persia 	l	<a href='1ES.xhtml#E12_30'>ch. 2. 30</a>.
+1 Esdras	5	6	3	who spake wise sentences before Darius the king of Persia in the second year of his reign, in the month 	m	See <a href='NEH.xhtml#NH2_1'>Neh. 2. 1</a>.
+1 Esdras	5	60	1	singing songs of thanksgiving, and praising the Lord, 	*	Or, <span class='add'>after the manner of David king of Israel</span>.
+1 Esdras	5	65	1	insomuch that the trumpets might not be 	*	Or, <span class='add'>discerned</span>. See <a href='JHN.xhtml#JN8_43'>John 8. 43</a>.
+1 Esdras	5	66	1		o	To <a href='1ES.xhtml#E15_73'>ver. 73</a>, <a href='EZR.xhtml#ER4_1'>Ezra 4. 1–5</a>.
+1 Esdras	5	69	1	For we likewise, as you, do obey your Lord, and do sacrifice unto him from the days of 	*	Or, <span class='add'>Esarhaddon</span>, <a href='EZR.xhtml#ER4_2'>Ezra 4. 2</a>.
+1 Esdras	5	7	1		n	To <a href='1ES.xhtml#E15_46'>ver. 46</a>, <a href='EZR.xhtml#ER2_1'>Ezra 2. 1–70</a>. <a href='NEH.xhtml#NH7_6'>Neh. 7. 6–73</a>.
+1 Esdras	5	70	1		*	About B.C. 534.
+1 Esdras	5	73	1	and by their secret plots, and popular persuasions and commotions, they hindered the finishing of the building all the time that king Cyrus lived: so they were hindered from building for the space of two years, 	*	[Or,] <span class='add'>until the second year of Darius</span>, <a href='EZR.xhtml#ER4_5'>Ezra 4. 5</a>, <a href='EZR.xhtml#ER4_6'>6</a>, <a href='EZR.xhtml#ER4_7'>7</a>, <a href='EZR.xhtml#ER4_24'>24</a>.
+1 Esdras	5	8	1		*	About B.C. 536.
+1 Esdras	5	8	2	And they returned unto Jerusalem, and to the other parts of Jewry, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, and 	o	<span class='add'>Saraiah</span>.
+1 Esdras	5	8	3	And they returned unto Jerusalem, and to the other parts of Jewry, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, and Zacharias, and Reesaias, Enenius, Mardocheus. Beelsarus, 	p	Or, <span class='add'>Mispar</span>.
+1 Esdras	5	8	4	And they returned unto Jerusalem, and to the other parts of Jewry, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, and Zacharias, and Reesaias, Enenius, Mardocheus. Beelsarus, Aspharasus, 	q	Or, <span class='add'>Reelaiah</span>.
+1 Esdras	5	8	5	And they returned unto Jerusalem, and to the other parts of Jewry, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, and Zacharias, and Reesaias, Enenius, Mardocheus. Beelsarus, Aspharasus, Reelius, Roimus, and Baana, their 	r	Gk. as <a href='1ES.xhtml#E15_9'>ver. 9</a>.
+1 Esdras	5	9	1	The number of them of the nation, and their 	r	Gk. as <a href='1ES.xhtml#E15_9'>ver. 9</a>.
+1 Esdras	5	9	2	The number of them of the nation, and their governors, sons of 	s	<span class='add'>Parosh</span>, <a href='EZR.xhtml#ER2_3'>Ezra 2. 3</a>. <a href='NEH.xhtml#NH7_8'>Neh. 7. 8</a>, where for brevity look for the true numbers of the particulars following : for here they vary much, and the names much more.
+1 Esdras	5	9	3	The number of them of the nation, and their governors, sons of Phoros, two thousand an hundred seventy and two; the sons of 	t	<span class='add'>Shephatia</span>[<span class='add'>h</span>].
+1 Esdras	5	9	4	The number of them of the nation, and their governors, sons of Phoros, two thousand an hundred seventy and two; the sons of Saphat, 	u	Or, <span class='add'>three hundred seventy-two</span>.
+1 Esdras	6	1	1		*	About B.C. 520.
+1 Esdras	6	1	2	Now 	a	Comp. <a href='1ES.xhtml#E15_73'>ch. 5. 73</a>. <a href='EZR.xhtml#ER4_24'>Ezra 4. 24</a>.
+1 Esdras	6	1	3	Now in the second year of the reign of Darius, 	b	To <a href='1ES.xhtml#E16_22'>ver. 22</a>, <a href='EZR.xhtml#ER5_1'>Ezra 5. 1–17</a>.
+1 Esdras	6	1	4	Now in the second year of the reign of Darius, Aggeus and Zacharias the son of 	*	Or, <span class='add'>Iddo</span>. <a href='EZR.xhtml#ER5_1'>Ezra 5. 1</a>.
+1 Esdras	6	1	5	Now in the second year of the reign of Darius, Aggeus and Zacharias the son of Addo, the prophets, prophesied unto the Jews in Jewry and Jerusalem in the name of the Lord God of Israel, 	*	Or, <span class='add'>which was called on them</span>.
+1 Esdras	6	1	6	Now in the second year of the reign of Darius, Aggeus and Zacharias the son of Addo, the prophets, prophesied unto the Jews in Jewry and Jerusalem in the name of the Lord God of Israel, 	c	Rather as <a href='EZR.xhtml#ER5_1'>Ezra 5. 1</a>.
+1 Esdras	6	11	1	Then asked we these 	e	<a href='1ES.xhtml#E17_2'>ch. 7. 2</a>. Gk. as <a href='1ES.xhtml#E16_5'>ver. 5</a>, <a href='1ES.xhtml#E16_11'>11</a>, <a href='1ES.xhtml#E16_27'>27</a>. <a href='1ES.xhtml#E19_12'>ch. 9. 12</a>. See <a href='JDT.xhtml#JT6_16'>Judith 6. 16</a>.
+1 Esdras	6	15	1	But when our fathers 	f	<a href='HEB.xhtml#HB3_16'>Heb. 3. 16</a>.
+1 Esdras	6	18	1	And the holy vessels of gold and of silver, that Nabuchodonosor had carried away out of the house at Jerusalem, and had 	g	See <a href='1ES.xhtml#E14_44'>ch. 4. 44</a>.
+1 Esdras	6	18	2	And the holy vessels of gold and of silver, that Nabuchodonosor had carried away out of the house at Jerusalem, and had set them in his own temple, 	h	Comp. <a href='1ES.xhtml#E14_44'>ch. 4. 44</a>.
+1 Esdras	6	18	3	And the holy vessels of gold and of silver, that Nabuchodonosor had carried away out of the house at Jerusalem, and had set them in his own temple, those Cyrus the king brought forth again out of the temple at Babylon, and they were delivered to 	*	Or, <span class='add'>Zorobabel, which is also Sanabassar the ruler</span>, so as Zorobabel seemeth to be added to the text, <a href='EZR.xhtml#ER1_8'>Ezra 1. 8</a>. Comp. <a href='1ES.xhtml#E12_12'>ch. 2. 12</a>. <a href='1ES.xhtml#E16_20'>ver. 20</a>.
+1 Esdras	6	21	1	Now therefore, if it seem good unto the king, let search be made among the 	*	Or, <span class='add'>rolls</span>. <a href='1ES.xhtml#E16_23'>ver. 23</a>.
+1 Esdras	6	23	1		i	To <a href='1ES.xhtml#E16_34'>ver. 34</a>, <a href='EZR.xhtml#ER6_1'>Ezra 6. 1–12</a>.
+1 Esdras	6	23	2	Then commanded king Darius to seek among the 	k	Gk. as <a href='1ES.xhtml#E16_21'>ver. 21</a>.
+1 Esdras	6	23	3	Then commanded king Darius to seek among the records at Babylon: and so at Ecbatane the palace, which is in the country of Media, there was found a 	*	Or, <span class='add'>place</span>.
+1 Esdras	6	24	1	In the first year of the reign of Cyrus, king Cyrus commanded that the house of the Lord at Jerusalem should be built again, where they do sacrifice 	l	Comp. <a href='NUM.xhtml#NU16_46'>Num. 16. 46</a>.
+1 Esdras	6	27	1	And also he commanded that Sisinnes the governor of Syria and Phenice, and Sathrabuzanes, and their companions, and those which were appointed rulers in Syria and Phenice, should be careful not to meddle with the place, but suffer Zorobabel, the servant of the Lord, and governor of Judea, and the 	e	<a href='1ES.xhtml#E17_2'>ch. 7. 2</a>. Gk. as <a href='1ES.xhtml#E16_5'>ver. 5</a>, <a href='1ES.xhtml#E16_11'>11</a>, <a href='1ES.xhtml#E16_27'>27</a>. <a href='1ES.xhtml#E19_12'>ch. 9. 12</a>. See <a href='JDT.xhtml#JT6_16'>Judith 6. 16</a>.
+1 Esdras	6	29	1	and out of the tribute of 	m	See <a href='1ES.xhtml#E12_17'>ch. 2. 17</a>.
+1 Esdras	6	3	1	At the same time came unto them 	*	Or, <span class='add'>Tatnai</span>. <a href='EZR.xhtml#ER5_3'>Ezra 5. 3</a>.
+1 Esdras	6	3	2	At the same time came unto them Sisinnes the governor of Syria and Phenice, with 	*	Or, <span class='add'>Shetharboznai</span>. <a href='EZR.xhtml#ER5_3'>Ezra 5. 3</a>.
+1 Esdras	6	31	1	that 	*	[Or,] <span class='add'>drink-offerings</span>.
+1 Esdras	6	31	2	that offerings may be made to 	n	<a href='1ES.xhtml#E18_19'>ch. 8. 19</a>, <a href='1ES.xhtml#E18_21'>21</a>. <a href='JDT.xhtml#JT13_18'>Judith 13. 18</a>. <a href='ESG.xhtml#EG16_16'>Esther 16. 16</a>. See <a href='MRK.xhtml#MK5_7'>Mark 5. 7</a>.
+1 Esdras	6	32	1	And he commanded that whosoever should transgress, yea, or make light of any thing afore spoken or written, out of 	o	See <a href='1ES.xhtml#E15_47'>ch. 5. 47</a>.
+1 Esdras	6	5	1	Nevertheless the 	e	<a href='1ES.xhtml#E17_2'>ch. 7. 2</a>. Gk. as <a href='1ES.xhtml#E16_5'>ver. 5</a>, <a href='1ES.xhtml#E16_11'>11</a>, <a href='1ES.xhtml#E16_27'>27</a>. <a href='1ES.xhtml#E19_12'>ch. 9. 12</a>. See <a href='JDT.xhtml#JT6_16'>Judith 6. 16</a>.
+1 Esdras	6	5	2	Nevertheless the elders of the Jews obtained favour, because 	d	See <a href='LUK.xhtml#LK1_68'>Luke 1. 68</a>.
+1 Esdras	6	6	1		*	About B.C. 519.
+1 Esdras	6	8	1	To king Darius, greeting. Let all things be known unto our lord the king, that being come into the country of Judea, and entered into the city of Jerusalem, we found in the city of Jerusalem the 	e	<a href='1ES.xhtml#E17_2'>ch. 7. 2</a>. Gk. as <a href='1ES.xhtml#E16_5'>ver. 5</a>, <a href='1ES.xhtml#E16_11'>11</a>, <a href='1ES.xhtml#E16_27'>27</a>. <a href='1ES.xhtml#E19_12'>ch. 9. 12</a>. See <a href='JDT.xhtml#JT6_16'>Judith 6. 16</a>.
+1 Esdras	7	1	1		a	To <a href='1ES.xhtml#E17_15'>ver. 15</a>, <a href='EZR.xhtml#ER6_13'>Ezra 6. 13–22</a>.
+1 Esdras	7	1	2	Then Sisinnes the governor of 	b	See <a href='1ES.xhtml#E12_17'>ch. 2. 17</a>.
+1 Esdras	7	10	1	And the children of Israel 	*	Or, <span class='add'>with those that, &amp;c.</span>
+1 Esdras	7	15	1	for that he had turned the 	*	Or, <span class='add'>mind</span>.
+1 Esdras	7	15	2	for that he had turned the counsel of the king of Assyria towards them, to strengthen their hands in the works of 	e	<a href='1ES.xhtml#E17_15'>ver. 15</a>. <a href='LUK.xhtml#LK1_68'>Luke 1. 68</a>.
+1 Esdras	7	2	1	did very carefully oversee the holy works, assisting the 	c	See <a href='1ES.xhtml#E16_8'>ch. 6. 8</a>.
+1 Esdras	7	4	1	And they finished these things by the commandment of the Lord God of Israel, and with 	*	Or, <span class='add'>the decree</span>.
+1 Esdras	7	4	2	And they finished these things by the commandment of the Lord God of Israel, and with the 	d	<a href='1ES.xhtml#E16_22'>ch. 6. 22</a>. <a href='2MA.xhtml#M24_39'>2 Macc. 4. 39</a>.
+1 Esdras	7	5	1		*	B.C. 515.
+1 Esdras	7	5	2	And thus was the holy house finished in 	*	Heb. <span class='add'>the third day</span>, <a href='EZR.xhtml#ER6_15'>Ezra 6. 15</a>.
+1 Esdras	7	8	1	and twelve goats for the sin of all Israel, according to the number of the 	*	Or, <span class='add'>tribes</span>.
+1 Esdras	7	9	1	The priests also and the Levites stood arrayed in their vestments, according to their 	*	Chald. <span class='add'>divisions</span>, <a href='EZR.xhtml#ER6_18'>Ezra 6. 18</a>.
+1 Esdras	7	9	2	The priests also and the Levites stood arrayed in their vestments, according to their kindreds, in the services of 	e	<a href='1ES.xhtml#E17_15'>ver. 15</a>. <a href='LUK.xhtml#LK1_68'>Luke 1. 68</a>.
+1 Esdras	8	1	1		*	About B.C. 457.
+1 Esdras	8	1	2		a	To <a href='1ES.xhtml#E18_27'>ver. 27</a>, <a href='EZR.xhtml#ER7_1'>Ezra 7. 1–28</a>.
+1 Esdras	8	1	3	And after these things, when Artaxerxes the king of the Persians reigned, came Esdras the son of Saraias, the son of 	*	<span class='add'>Azarias</span>.
+1 Esdras	8	13	1	and carry the gifts unto the Lord of Israel to Jerusalem, which I and my friends have vowed, and all the gold and silver that in the country of Babylon can be 	*	Or, <span class='add'>got</span>.
+1 Esdras	8	16	1	And whatsoever thou and thy brethren will do 	*	[Or,] <span class='add'>with the rest of</span>, <a href='EZR.xhtml#ER7_18'>Ezra 7. 18</a>.
+1 Esdras	8	19	1	And I king Artaxerxes have also commanded the keepers of the treasures in Syria and Phenice, that whatsoever Esdras the priest and the reader of the law of 	f	<a href='1ES.xhtml#E16_31'>ch. 6. 31</a>. See <a href='MRK.xhtml#MK5_7'>Mark 5. 7</a>.
+1 Esdras	8	2	1	the son of Sadduc, the son of Achitob, the son of Amarias, the son of 	*	<span class='add'>Ezias</span>.
+1 Esdras	8	2	2	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of 	*	<span class='add'>Meraioth</span>.
+1 Esdras	8	2	3	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of 	b	<a href='EZR.xhtml#ER7_3'>Ezra 7. 3</a>.
+1 Esdras	8	2	4	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of 	*	Some copies want these three names.
+1 Esdras	8	2	5	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of Memeroth, the son of 	*	Some copies want these three names.
+1 Esdras	8	2	6	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of Memeroth, the son of Zaraias, the son of 	*	<span class="notemark">c</span> <span class='add'>Uzzi</span>.
+1 Esdras	8	2	7	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of Memeroth, the son of Zaraias, the son of 	*	Some copies want these three names.
+1 Esdras	8	2	8	the son of Sadduc, the son of Achitob, the son of Amarias, the son of Ozias, the son of Memeroth, the son of Zaraias, the son of Savias, the son of Boccas, the son of Abisum, the son of Phinees, the son of Eleazar, the son of Aaron 	*	Heb. was <span class='add'>first</span>, <a href='EZR.xhtml#ER7_5'>Ezra 7. 5</a>.
+1 Esdras	8	20	1	to the sum of an hundred talents of silver, likewise also of wheat even to an hundred 	*	Or, <span class='add'>measures</span>.
+1 Esdras	8	20	2	to the sum of an hundred talents of silver, likewise also of wheat even to an hundred cors, and an hundred 	g	See <a href='JHN.xhtml#JN2_6'>John 2. 6</a>.
+1 Esdras	8	20	3	to the sum of an hundred talents of silver, likewise also of wheat even to an hundred cors, and an hundred pieces of wine, and 	*	Or, <span class='add'>salt</span>, <a href='EZR.xhtml#ER7_22'>Ezra 7. 22</a>.
+1 Esdras	8	21	1	Let all things be performed after the law of God diligently unto 	f	<a href='1ES.xhtml#E16_31'>ch. 6. 31</a>. See <a href='MRK.xhtml#MK5_7'>Mark 5. 7</a>.
+1 Esdras	8	23	1	And thou, Esdras, according to the wisdom of God ordain judges and justices, that they may judge in all Syria and Phenice 	*	Chald. <span class='add'>of</span> [all] <span class='add'>those that know</span>, <a href='EZR.xhtml#ER7_25'>Ezra 7. 25</a>.
+1 Esdras	8	28	1		g	To <a href='1ES.xhtml#E18_67'>ver. 67</a>, <a href='EZR.xhtml#ER8_1'>Ezra 8. 1–36</a>.
+1 Esdras	8	28	2	And these are the chief according to their families and 	h	See <a href='1ES.xhtml#E11_4'>ch. 1. 4</a>.
+1 Esdras	8	29	1	of the sons of Phinees, Gerson: of the sons of Ithamar, 	i	Or, <span class='add'>Daniel</span>.
+1 Esdras	8	29	2	of the sons of Phinees, Gerson: of the sons of Ithamar, Gamael: of the sons of David, 	j	Or, <span class='add'>Chattus</span>.
+1 Esdras	8	29	3	of the sons of Phinees, Gerson: of the sons of Ithamar, Gamael: of the sons of David, Lettus 	k	<a href='EZR.xhtml#ER8_3'>Ezra 8. 3</a>, <span class='add'>of the sons of Shechaniah, of the sons of Pharosh</span>.
+1 Esdras	8	30	1		k	<a href='EZR.xhtml#ER8_3'>Ezra 8. 3</a>, <span class='add'>of the sons of Shechaniah, of the sons of Pharosh</span>.
+1 Esdras	8	31	1	of the sons of Pahath Moab, Eliaonias, the son of 	l	<span class='add'>Zerachaiah</span>. [<a href='EZR.xhtml#ER8_4'>Ezra 8. 4</a> (Heb.)].
+1 Esdras	8	32	1		m	Or, <span class='add'>of the sons of Shechaniah the son of Jahaziel</span>.
+1 Esdras	8	32	2	of the sons of Zathoe, Sechenias the son of Jezelus, and with him three hundred men: of the sons of Adin, Obeth the son of Jonathan, and with him 	*	Heb. <span class='add'>fifty men</span>. [<a href='EZR.xhtml#ER8_6'>Ezra 8. 6</a>].
+1 Esdras	8	33	1	of the sons of Elam, Josias son of 	n	Or, <span class='add'>Athaliah</span>.
+1 Esdras	8	34	1	of the sons of Saphatias, 	o	Or, <span class='add'>Zebadiah</span>.
+1 Esdras	8	34	2	of the sons of Saphatias, Zaraias son of Michael, and with him 	p	Or, <span class='add'>four-score men</span>.
+1 Esdras	8	35	1	of the sons of Joab, 	q	Or, <span class='add'>Obadiah</span>.
+1 Esdras	8	35	2	of the sons of Joab, Abadias, son of 	r	Or, <span class='add'>Jehiel</span>.
+1 Esdras	8	35	3	of the sons of Joab, Abadias, son of Jezelus, and with him two hundred and 	s	Or, <span class='add'>eighteen men</span>.
+1 Esdras	8	36	1		t	Or, <span class='add'>of the sons of Shelomith, the son of Josiphiah</span>.
+1 Esdras	8	38	1	of the sons of 	u	Or, <span class='add'>Azgad</span>.
+1 Esdras	8	38	2	of the sons of Astath, Johannes son of 	x	Or, <span class='add'>Catan</span>. [Comp. <a href='EZR.xhtml#ER8_12'>Ezra 8. 12</a>].
+1 Esdras	8	39	1	of the sons of Adonicam, the last, and these are the names of them; Eliphalet, Jeuel, and 	y	Or, <span class='add'>Shemaia</span>[<span class='add'>h</span>].
+1 Esdras	8	39	2	of the sons of Adonicam, the last, and these are the names of them; Eliphalet, Jeuel, and Samaias, and with them 	z	Or, <span class='add'>sixty men</span>.
+1 Esdras	8	40	1	of the sons of 	*	[Heb. <span class='add'>Bigvai</span>].
+1 Esdras	8	41	1	And these I gathered together 	*	Or, <span class='add'>to the river called Ahava</span>, <a href='EZR.xhtml#ER8_15'>Ezra 8. 15</a>.
+1 Esdras	8	41	2	And these I gathered together to the river called Theras, where we pitched our tents three days: and then 	*	Or, <span class='add'>he numbered the people and the priests : but found none of the sons of Levi</span>. [Comp. <a href='EZR.xhtml#ER8_15'>Ezra 8. 15</a>].
+1 Esdras	8	42	1		*	Or, <span class='add'>he numbered the people and the priests : but found none of the sons of Levi</span>. [Comp. <a href='EZR.xhtml#ER8_15'>Ezra 8. 15</a>].
+1 Esdras	8	43	1	then sent I unto Eleazar, and 	a	Or, <span class='add'>Ariel</span>.
+1 Esdras	8	43	2	then sent I unto Eleazar, and Iduel, and 	b	Or, <span class='add'>Shemaiah</span>.
+1 Esdras	8	44	1	and Alnathan, and Mamaias, and 	c	Or, <span class='add'>Jarib</span>. These men’s names with their generations are rightly distinguished, <a href='EZR.xhtml#ER8_16'>Ezra 8. 16</a>.
+1 Esdras	8	45	1	And I bade them that they should go unto 	d	Or, <span class='add'>Iddo</span>.
+1 Esdras	8	45	2	And I bade them that they should go unto Saddeus the captain, 	e	Or, <span class='add'>of</span>.
+1 Esdras	8	45	3	And I bade them that they should go unto Saddeus the captain, who was in the place of 	f	Or, <span class='add'>Casiphia</span>.
+1 Esdras	8	46	1	and commanded them that they should speak unto 	d	Or, <span class='add'>Iddo</span>.
+1 Esdras	8	46	2	and commanded them that they should speak unto Daddeus, and to 	g	Or, <span class='add'>the Nethinims at the place of Casiphia</span>.
+1 Esdras	8	47	1	And by the mighty hand of our Lord they brought unto us skilful men of the sons of 	h	Or, <span class='add'>Machli</span>. [<a href='EZR.xhtml#ER8_18'>Ezra 8. 18</a> (Heb.)].
+1 Esdras	8	47	2	And by the mighty hand of our Lord they brought unto us skilful men of the sons of Moli the son of Levi, the son of Israel, 	i	Or, <span class='add'>Sherebia</span>[<span class='add'>h</span>]. <a href='EZR.xhtml#ER8_18'>Ezra 8. 18</a>.
+1 Esdras	8	48	1		j	Or, <span class='add'>Also Hashabia</span>[<span class='add'>h</span>], <span class='add'>and with him Jeshaiah of the sons of Merari with his brethren</span>, <a href='EZR.xhtml#ER8_19'>Ezra 8. 19</a>.
+1 Esdras	8	49	1	And 	l	<span class='add'>Zerachaiah</span>. [<a href='EZR.xhtml#ER8_4'>Ezra 8. 4</a> (Heb.)].
+1 Esdras	8	49	2	And of the servants of the temple whom David had ordained, and the principal men for the service of the Levites, to wit, 	k	See <a href='1ES.xhtml#E18_5'>ver. 5</a>.
+1 Esdras	8	5	1	There went up with him also certain of the children of Israel, of the priest, of the Levites, of the holy singers, porters, and 	*	Or, <span class='add'>Nethinims</span>. <a href='EZR.xhtml#ER7_7'>Ezra 7. 7</a>. So <a href='1ES.xhtml#E18_22'>ver. 22</a>, <a href='1ES.xhtml#E18_49'>49</a> (Gk.).
+1 Esdras	8	50	1	And there I 	*	[Or,] <span class='add'>proclaimed</span>. [<a href='EZR.xhtml#ER8_21'>Ezra 8. 21</a>].
+1 Esdras	8	50	2	And there I vowed a fast unto the young men before our Lord, to desire of him 	l	<a href='1ES.xhtml#E18_6'>ver. 6</a>.
+1 Esdras	8	50	3	And there I vowed a fast unto the young men before our Lord, to desire of him a prosperous journey both for us and them that were with us, for our children, and for the 	*	Heb. <span class='add'>substance</span>. [<a href='EZR.xhtml#ER8_21'>Ezra 8. 21</a>].
+1 Esdras	8	51	1	for 	m	<a href='1ES.xhtml#E18_74'>ver. 74</a>.
+1 Esdras	8	54	1	Then I separated twelve of the chief of the priests, 	mm	Or, <span class='add'>Sherebiah and Hashabiah</span>. <a href='EZR.xhtml#ER8_24'>Ezra 8. 24</a>.
+1 Esdras	8	55	1	and I 	n	<a href='1ES.xhtml#E18_56'>ver. 56</a>, <a href='1ES.xhtml#E18_62'>62</a>. See <a href='MAT.xhtml#MT26_15'>Matt. 26. 15</a> (Gk.).
+1 Esdras	8	56	1	And when I had 	n	<a href='1ES.xhtml#E18_56'>ver. 56</a>, <a href='1ES.xhtml#E18_62'>62</a>. See <a href='MAT.xhtml#MT26_15'>Matt. 26. 15</a> (Gk.).
+1 Esdras	8	57	1	and twenty golden vessels, and 	*	Heb. <span class='add'>two vessels</span>, <a href='EZR.xhtml#ER8_27'>Ezra 8. 27</a>.
+1 Esdras	8	6	1	in the seventh year of the reign of Artaxerxes, in the fifth month, this was the king’s seventh year; for they went from Babylon in the first day of the first month, and came to Jerusalem, according to the 	*	Or, <span class='add'>success</span>. <a href='SIR.xhtml#SR10_5'>Ecclus. 10. 5</a>.
+1 Esdras	8	6	2	in the seventh year of the reign of Artaxerxes, in the fifth month, this was the king’s seventh year; for they went from Babylon in the first day of the first month, and came to Jerusalem, according to the 	d	<a href='1ES.xhtml#E18_50'>ver. 50</a>.
+1 Esdras	8	61	1	And 	o	<a href='1ES.xhtml#E18_41'>ver. 41</a>.
+1 Esdras	8	61	2	And from the river Theras we departed the twelfth day of the first month, and came to Jerusalem by the mighty hand of our Lord, which was with us: and from the 	*	[Or,] <span class='add'>dangers in the way</span>.
+1 Esdras	8	61	3	And from the river Theras we departed the twelfth day of the first month, and came to Jerusalem by the mighty hand of our Lord, which was with us: and from the 	p	<a href='1MA.xhtml#M15_46'>1 Macc. 5. 46</a> (Gk.).
+1 Esdras	8	62	1	And when we had been there three days, the gold and silver that was 	n	<a href='1ES.xhtml#E18_56'>ver. 56</a>, <a href='1ES.xhtml#E18_62'>62</a>. See <a href='MAT.xhtml#MT26_15'>Matt. 26. 15</a> (Gk.).
+1 Esdras	8	62	2	And when we had been there three days, the gold and silver that was weighed was delivered in the house of our Lord on the fourth day 	*	Or, <span class='add'>unto Meremoth the son of Uriah the priest</span>. [<a href='EZR.xhtml#ER8_33'>Ezra 8. 33</a>].
+1 Esdras	8	63	1	And with him was Eleazar the son of Phinees, and with them were Josabad the son of Jesu and 	*	[Or,] <span class='add'>Noadiah the son of Binnui</span>. [<a href='EZR.xhtml#ER8_33'>Ezra 8. 33</a>].
+1 Esdras	8	65	1	Moreover they that were come out of the captivity offered sacrifice unto 	q	So <a href='1ES.xhtml#E18_72'>ver. 72</a>. <a href='1ES.xhtml#E19_39'>ch. 9. 39</a>. <a href='LUK.xhtml#LK1_68'>Luke 1. 68</a>.
+1 Esdras	8	66	1		*	Heb. <span class='add'>Seventy-seven lambs, twelve hegoats for a sin offering</span>, <a href='EZR.xhtml#ER8_35'>Ezra 8. 35</a>.
+1 Esdras	8	66	2	threescore and twelve lambs, goats for 	r	Gk. as Gk. of <a href='EXO.xhtml#EX20_24'>Ex. 20. 24</a>. &amp; <a href='EXO.xhtml#EX24_5'>24. 5</a>, &amp;c.
+1 Esdras	8	67	1	And they delivered the king’s 	s	See <a href='1ES.xhtml#E18_8'>ver. 8</a>.
+1 Esdras	8	67	2	And they delivered the king’s commandments unto the king’s 	t	<a href='1ES.xhtml#E14_49'>ch. 4. 49</a> marg.
+1 Esdras	8	67	3	And they delivered the king’s commandments unto the king’s stewards, and to the governors of 	u	See <a href='1ES.xhtml#E12_17'>ch. 2. 17</a>.
+1 Esdras	8	68	1		x	To <a href='1ES.xhtml#E18_90'>ver. 90</a>, <a href='EZR.xhtml#ER9_1'>Ezra 9. 1–15</a>.
+1 Esdras	8	69	1	The nation of Israel, the princes, the priests and Levites, have not put away from them the strange people of the land, nor the pollutions of the Gentiles, to wit, of the Canaanites, Hittites, Pheresites, Jebusites, and the Moabites, Egyptians, and 	y	Comp. <a href='EZR.xhtml#ER9_1'>Ezra 9. 1</a>.
+1 Esdras	8	71	1	And as soon as I had heard these things, I rent my clothes, and the holy garment, and pulled off the hair from off my head and beard, and sat me down sad and 	z	<a href='1ES.xhtml#E18_72'>ver. 72</a>. <a href='MAT.xhtml#MT26_38'>Matt. 26. 38</a>. <a href='MRK.xhtml#MK6_26'>Mark 6. 26</a>. &amp; <a href='MRK.xhtml#MK14_34'>14. 34</a>. <a href='LUK.xhtml#LK18_23'>Luke 18. 23</a>, <a href='LUK.xhtml#LK18_24'>24</a> in the Gk.
+1 Esdras	8	72	1	So all they that were then moved at the word of 	q	So <a href='1ES.xhtml#E18_72'>ver. 72</a>. <a href='1ES.xhtml#E19_39'>ch. 9. 39</a>. <a href='LUK.xhtml#LK1_68'>Luke 1. 68</a>.
+1 Esdras	8	72	2	So all they that were then moved at the word of the Lord God of Israel assembled unto me, whilst I mourned for the iniquity: but I sat still 	z	<a href='1ES.xhtml#E18_72'>ver. 72</a>. <a href='MAT.xhtml#MT26_38'>Matt. 26. 38</a>. <a href='MRK.xhtml#MK6_26'>Mark 6. 26</a>. &amp; <a href='MRK.xhtml#MK14_34'>14. 34</a>. <a href='LUK.xhtml#LK18_23'>Luke 18. 23</a>, <a href='LUK.xhtml#LK18_24'>24</a> in the Gk.
+1 Esdras	8	73	1	Then rising up from 	a	Comp. <a href='EZR.xhtml#ER9_5'>Ezra 9. 5</a>.
+1 Esdras	8	74	1	I said, O Lord, I am confounded and 	b	<a href='1ES.xhtml#E18_51'>ver. 51</a>.
+1 Esdras	8	75	1	for our sins 	*	Gk. <span class='add'>have abounded</span>. <a href='ROM.xhtml#RM5_20'>Rom. 5. 20</a>.
+1 Esdras	8	77	1	And for our sins and our fathers’ we with our brethren and our kings and our priests were given up unto the kings of the earth, to the sword, and to captivity, and 	c	<a href='2ES.xhtml#E22_6'>2 Esdr. 2. 6</a>. <a href='JDT.xhtml#JT4_12'>Judith 4. 12</a> (Gk.). &amp; <a href='JDT.xhtml#JT7_26'>7. 26</a> (Gk.). &amp; <a href='JDT.xhtml#JT9_4'>9. 4</a>. &amp; <a href='JDT.xhtml#JT16_5'>16. 5</a>.
+1 Esdras	8	79	1	and to discover unto us a light in the house of the Lord our God, and 	d	<a href='1ES.xhtml#E18_80'>ver. 80</a>.
+1 Esdras	8	79	2	and to discover unto us a light in the house of the Lord our God, and to give us 	*	Heb. <span class='add'>life</span>. <a href='EZR.xhtml#ER9_8'>Ezra 9. 8</a>, [<a href='EZR.xhtml#ER9_9'>9</a>].
+1 Esdras	8	8	1	Now the copy of the 	*	Or, <span class='add'>decree</span>. <a href='1ES.xhtml#E18_67'>ver. 67</a>, <a href='1ES.xhtml#E18_82'>82</a>. <a href='2MA.xhtml#M27_30'>2 Macc. 7. 30</a> in the Gk.
+1 Esdras	8	8	2	Now the copy of the commission, which was written from Artaxerxes the king, and came to Esdras the priest and 	e	<a href='1ES.xhtml#E19_39'>ch. 9. 39</a>, <a href='1ES.xhtml#E19_42'>42</a>, <a href='1ES.xhtml#E19_49'>49</a>.
+1 Esdras	8	80	1	Yea, when we were in bondage, we were not forsaken of our Lord; but he made us gracious before the kings of Persia, 	d	<a href='1ES.xhtml#E18_80'>ver. 80</a>.
+1 Esdras	8	82	1	And now, O Lord, what shall we say, having these things? for we have transgressed thy 	e	See <a href='1ES.xhtml#E18_8'>ver 8</a>.
+1 Esdras	8	87	1	and didst give unto us such 	f	<a href='1ES.xhtml#E18_78'>ver. 78</a>, <a href='1ES.xhtml#E18_88'>88</a>, <a href='1ES.xhtml#E18_89'>89</a>. See <a href='ISA.xhtml#IS27_6'>Isai. 27. 6</a>.
+1 Esdras	8	88	1		*	Or, <span class='add'>Be not angry, &amp;c</span>.
+1 Esdras	8	88	2	Mightest not thou be angry with us to destroy us, till thou hadst 	g	<a href='MAL.xhtml#ML4_1'>Mal. 4. 1</a>.
+1 Esdras	8	88	3	Mightest not thou be angry with us to destroy us, till thou hadst left us neither 	f	<a href='1ES.xhtml#E18_78'>ver. 78</a>, <a href='1ES.xhtml#E18_88'>88</a>, <a href='1ES.xhtml#E18_89'>89</a>. See <a href='ISA.xhtml#IS27_6'>Isai. 27. 6</a>.
+1 Esdras	8	89	1	O Lord of Israel, thou art true: for we are left 	f	<a href='1ES.xhtml#E18_78'>ver. 78</a>, <a href='1ES.xhtml#E18_88'>88</a>, <a href='1ES.xhtml#E18_89'>89</a>. See <a href='ISA.xhtml#IS27_6'>Isai. 27. 6</a>.
+1 Esdras	8	9	1	King Artaxerxes unto Esdras the priest and 	e	<a href='1ES.xhtml#E19_39'>ch. 9. 39</a>, <a href='1ES.xhtml#E19_42'>42</a>, <a href='1ES.xhtml#E19_49'>49</a>.
+1 Esdras	8	91	1		h	To ch. 10. 4, <a href='EZR.xhtml#ER10_1'>Ezra 10. 1–8</a>.
+1 Esdras	8	92	1	Then Jechonias the son of Jeelus, one of the sons of Israel, called out, and said, O Esdras, we have sinned against the Lord God, we have married strange women of the nations of the land, and now is all Israel 	*	Or, <span class='add'>exalted</span>. <a href='DEU.xhtml#DT28_13'>Deut. 28. 13</a> (Heb. &amp; Gk.). <a href='BAR.xhtml#BR2_5'>Baruch 2. 5</a>. Comp. <a href='EZR.xhtml#ER10_2'>Ezra 10. 2</a>.
+1 Esdras	8	96	1	So Esdras arose, and took an oath of the chief of the priests and Levites 	*	Heb. <span class='add'>and of all Israel</span>, <a href='EZR.xhtml#ER10_5'>Ezra 10. 5</a>.
+1 Esdras	9	12	1	therefore let the rulers of the multitude 	*	Or, <span class='add'>stand</span>. Gk. as <a href='1ES.xhtml#E19_11'>ver. 11</a>.
+1 Esdras	9	13	1	and with them the 	c	Gk. as <a href='1ES.xhtml#E16_8'>ch. 6. 8</a>, not as <a href='1ES.xhtml#E19_12'>ver. 12</a>.
+1 Esdras	9	17	1		*	About B.C. 456.
+1 Esdras	9	17	2	So their cause that held strange wives was brought to an end 	d	Rather as <a href='EZR.xhtml#ER10_17'>Ezra 10. 17</a> (Heb. &amp; Gk.).
+1 Esdras	9	19	1	of the sons of Jesus the son of Josedec, and his brethren; 	e	<span class='add'>Maaseiah</span>.
+1 Esdras	9	19	2	of the sons of Jesus the son of Josedec, and his brethren; Matthelas, and Eleazar, and 	f	<span class='add'>Jarib</span>.
+1 Esdras	9	19	3	of the sons of Jesus the son of Josedec, and his brethren; Matthelas, and Eleazar, and Joribus, and 	g	<span class='add'>Gedaliah</span>.
+1 Esdras	9	20	1	And they gave their hands to put away their wives, and to offer 	*	Heb. <span class='add'>a ram</span>. [<a href='EZR.xhtml#ER10_19'>Ezra 10. 19</a>].
+1 Esdras	9	20	2	And they gave their hands to put away their wives, and to offer rams to make reconcilement for their 	*	Or, <span class='add'>purification</span>.
+1 Esdras	9	20	3	And they gave their hands to put away their wives, and to offer rams to make reconcilement for their 	gg	[Comp. Gk. with <a href='LEV.xhtml#LV4_22'>Lev. 4. 22</a>, <a href='LEV.xhtml#LV4_23'>23</a> (Heb.)].
+1 Esdras	9	21	1	And of the sons of Emmer; Ananias, and Zabdeus, and 	h	<span class='add'>Harim</span>.
+1 Esdras	9	21	2	And of the sons of Emmer; Ananias, and Zabdeus, and Eanes, and 	i	<span class='add'>Maaseiah</span>.
+1 Esdras	9	21	3	And of the sons of Emmer; Ananias, and Zabdeus, and Eanes, and Sameius, and 	j	<span class='add'>Jehiel</span>.
+1 Esdras	9	21	4	And of the sons of Emmer; Ananias, and Zabdeus, and Eanes, and Sameius, and Hiereel, and 	k	<span class='add'>Uzziah</span>.
+1 Esdras	9	22	1	And of the sons of 	l	<span class='add'>Pashur</span>.
+1 Esdras	9	22	2	And of the sons of Phaisur; Elionas, Massias, Ismael, and Nathanael, and 	m	<span class='add'>Jozabad</span>.
+1 Esdras	9	22	3	And of the sons of Phaisur; Elionas, Massias, Ismael, and Nathanael, and Ocidelus, and 	n	<span class='add'>Elasah</span>.
+1 Esdras	9	23	1	And of the Levites; Jozabad, and Semis, and 	o	<span class='add'>Kelaiah</span>.
+1 Esdras	9	23	2	And of the Levites; Jozabad, and Semis, and Colius, who was called 	p	<span class='add'>Kelita</span>.
+1 Esdras	9	23	3	And of the Levites; Jozabad, and Semis, and Colius, who was called Calitas, and 	q	<span class='add'>Pethahiah</span>.
+1 Esdras	9	24	1	Of the holy singers; 	r	<span class='add'>Eliashib</span>.
+1 Esdras	9	25	1	Of the porters; Sallumus, and 	s	<span class='add'>Telem</span>.
+1 Esdras	9	26	1	Of them of Israel, of the sons of 	t	<span class='add'>Parosh</span>.
+1 Esdras	9	26	2	Of them of Israel, of the sons of Phoros; 	u	<span class='add'>Ramiah</span>.
+1 Esdras	9	26	3	Of them of Israel, of the sons of Phoros; Hiermas, and 	w	<span class='add'>Jeziah</span>.
+1 Esdras	9	26	4	Of them of Israel, of the sons of Phoros; Hiermas, and Eddias, and Melchias, and 	x	<span class='add'>Miamin</span>.
+1 Esdras	9	26	5	Of them of Israel, of the sons of Phoros; Hiermas, and Eddias, and Melchias, and Maelus, and Eleazar, and 	y	<span class='add'>Malchiah</span>.
+1 Esdras	9	27	1	Of the sons of Ela; Matthanias, Zacharias, and 	z	<span class='add'>Jehiel</span>.
+1 Esdras	9	27	2	Of the sons of Ela; Matthanias, Zacharias, and Hierielus, and Hieremoth, and 	a	<span class='add'>Abdi</span>.
+1 Esdras	9	28	1	And of the sons of 	b	<span class='add'>Zattu</span>.
+1 Esdras	9	28	2	And of the sons of Zamoth; 	c	<span class='add'>Elioenai</span>.
+1 Esdras	9	28	3	And of the sons of Zamoth; Eliadas, 	d	<span class='add'>Eliashib</span>.
+1 Esdras	9	28	4	And of the sons of Zamoth; Eliadas, Elisimus, 	e	<span class='add'>Mattaniah</span>.
+1 Esdras	9	28	5	And of the sons of Zamoth; Eliadas, Elisimus, Othonias, Jarimoth, and 	f	<span class='add'>Zabad</span>.
+1 Esdras	9	28	6	And of the sons of Zamoth; Eliadas, Elisimus, Othonias, Jarimoth, and Sabatus, and 	g	<span class='add'>Aziza</span>.
+1 Esdras	9	29	1	Of the sons of Bebai; Johannes, and Ananias, and 	h	<span class='add'>Zabbai</span>.
+1 Esdras	9	29	2	Of the sons of Bebai; Johannes, and Ananias, and Jozabad, and 	i	<span class='add'>Athlai</span>.
+1 Esdras	9	30	1	Of the sons of 	k	<span class='add'>Bani</span>.
+1 Esdras	9	30	2	Of the sons of Mani; 	l	<span class='add'>Meshullam</span>.
+1 Esdras	9	30	3	Of the sons of Mani; Olamus, 	m	<span class='add'>Malluch</span>.
+1 Esdras	9	30	4	Of the sons of Mani; Olamus, Mamuchus, 	n	<span class='add'>Adaiah</span>.
+1 Esdras	9	30	5	Of the sons of Mani; Olamus, Mamuchus, Jedeus, Jasubus, 	o	<span class='add'>Sheal</span>.
+1 Esdras	9	31	1		*	Of the names in <a href='1ES.xhtml#E19_31'>ver. 31</a>, <a href='1ES.xhtml#E19_32'>32</a>, <a href='1ES.xhtml#E19_34'>34</a>, <a href='1ES.xhtml#E19_35'>35</a>, see <a href='EZR.xhtml#ER10_30'>Ezra 10. 30</a>, <a href='EZR.xhtml#ER10_31'>31</a>, <a href='EZR.xhtml#ER10_34'>34–43</a>.
+1 Esdras	9	33	1	And of the sons of Asom; 	p	<span class='add'>Mattenai</span>. [<a href='EZR.xhtml#ER10_33'>Ezra 10. 33</a>].
+1 Esdras	9	33	2	And of the sons of Asom; Altaneus, and 	q	<span class='add'>Mattathah</span>.
+1 Esdras	9	33	3	And of the sons of Asom; Altaneus, and Matthias, and 	r	<span class='add'>Zabad</span>.
+1 Esdras	9	34	1	And of the sons of Maani; Jeremias, Momdis, Omaerus, Juel, Mabdai, and Pelias, and Anos, Carabasion, and Enasibus, and Mamnitanaimus, Eliasis, Bannus, Eliali, Samis, Selemias, Nathanias: and 	s	<a href='EZR.xhtml#ER10_40'>Ezra 10. 40</a> marg.
+1 Esdras	9	37	1		t	<a href='NEH.xhtml#NH7_73'>Neh. 7. 73</a>. So <a href='1ES.xhtml#E15_46'>ch. 5. 46</a>, <a href='1ES.xhtml#E15_47'>47</a>.
+1 Esdras	9	37	2	And the priests and Levites, and they that were of Israel, dwelt in Jerusalem, and in the country, 	u	<a href='1ES.xhtml#E19_40'>ver. 40</a>.
+1 Esdras	9	37	3	And the priests and Levites, and they that were of Israel, dwelt in Jerusalem, and in the country, in the first day of the seventh month: so the children of Israel were in their 	*	Or, <span class='add'>villages</span>. Gk. not as <a href='1ES.xhtml#E15_46'>ch. 5. 46</a>.
+1 Esdras	9	37	4	And the priests and Levites, and they that were of Israel, dwelt in Jerusalem, and in the country, in the first day of the seventh month: so the children of Israel were in their 	w	<a href='1ES.xhtml#E19_12'>ver. 12</a>.
+1 Esdras	9	38	1		x	To <a href='1ES.xhtml#E19_55'>ver. 55</a>, <a href='NEH.xhtml#NH8_1'>Neh. 8. 1–12</a>.
+1 Esdras	9	38	2	And the whole multitude came together with one accord into 	y	<a href='1ES.xhtml#E19_6'>ver. 6</a>, <a href='1ES.xhtml#E19_41'>41</a> (Gk.).
+1 Esdras	9	38	3	And the whole multitude came together with one accord into the broad place of the holy porch 	z	Comp. <a href='NEH.xhtml#NH3_26'>Neh. 3. 26</a> with <a href='NEH.xhtml#NH8_1'>Neh. 8. 1</a>.
+1 Esdras	9	39	1		*	About B.C. 445.
+1 Esdras	9	39	2	and they spake unto Esdras the priest and 	a	<a href='1ES.xhtml#E18_8'>ch. 8. 8</a>.
+1 Esdras	9	39	3	and they spake unto Esdras the priest and reader, that he would bring the law of Moses, that was given of 	b	See <a href='1ES.xhtml#E18_65'>ch. 8. 65</a>.
+1 Esdras	9	4	1	and that whosoever met not there within two or three days, according as the elders that bare rule appointed, their cattle should be seized to the use of the temple, and himself 	*	[Or,]<span class='add'>utterly destroyed</span>. But comp. <a href='EZR.xhtml#ER10_8'>Ezra 10. 8</a> (Heb.).
+1 Esdras	9	40	1	So Esdras the chief priest brought the law unto the whole multitude from man to woman, and to all the priests, to hear the law 	c	<a href='1ES.xhtml#E19_37'>ver. 37</a>.
+1 Esdras	9	41	1	And he read in 	d	<a href='1ES.xhtml#E19_38'>ver. 38</a> (Gk.).
+1 Esdras	9	42	1	And Esdras the priest and 	a	<a href='1ES.xhtml#E18_8'>ch. 8. 8</a>.
+1 Esdras	9	43	1	And there stood up by him Mattathias, Sammus, Ananias, Azarias, Urias, 	e	Or, <span class='add'>Hilkiah</span>.
+1 Esdras	9	43	2	And there stood up by him Mattathias, Sammus, Ananias, Azarias, Urias, Ezecias, 	f	Or, <span class='add'>Maaseiah</span>.
+1 Esdras	9	44	1	and upon his left hand stood 	g	Or, <span class='add'>Pedaiah</span>.
+1 Esdras	9	44	2	and upon his left hand stood Phaldaius, Misael, Melchias, 	h	Or, <span class='add'>Hashum</span>.
+1 Esdras	9	44	3	and upon his left hand stood Phaldaius, Misael, Melchias, Lothasubus, and 	i	Comp. <a href='NEH.xhtml#NH8_4'>Neh. 8. 4</a>.
+1 Esdras	9	45	1	Then took Esdras the book of the law before the multitude: for he sat 	*	Heb. <span class='add'>above them all</span>. [<a href='NEH.xhtml#NH8_5'>Neh. 8. 5</a>].
+1 Esdras	9	46	1	And when he opened the law, they stood all straight up. So Esdras blessed the Lord God most High, the God of hosts, 	k	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+1 Esdras	9	48	1	Also Jesus, Anus, Sarabias, Adinus, Jacubus, Sabateus, 	l	Or, <span class='add'>Hodijah</span>.
+1 Esdras	9	48	2	Also Jesus, Anus, Sarabias, Adinus, Jacubus, Sabateus, Auteas, Maianeas, and Calitas, Azarias, and Joazabdus, and Ananias, Biatas, the Levites, taught the law of the Lord, making them withal to 	m	<a href='1ES.xhtml#E19_55'>ver. 55</a>.
+1 Esdras	9	49	1		*	<span class='add'>Then Nehemiah, and Ezra the priest the scribe, and the Levites that instructed the people, said unto all the people</span>, <a href='NEH.xhtml#NH8_9'>Neh. 8. 9</a>.
+1 Esdras	9	49	2	Then spake 	n	See <a href='1ES.xhtml#E15_40'>ch. 5. 40</a> marg.
+1 Esdras	9	49	3	Then spake Attharates unto Esdras the 	o	<a href='1ES.xhtml#E19_40'>ver. 40</a>.
+1 Esdras	9	49	4	Then spake Attharates unto Esdras the chief priest and 	a	<a href='1ES.xhtml#E18_8'>ch. 8. 8</a>.
+1 Esdras	9	5	1		a	To <a href='1ES.xhtml#E19_36'>ver. 36</a>, <a href='EZR.xhtml#ER10_9'>Ezra 10. 9–44</a>.
+1 Esdras	9	51	1	go then, and eat the fat, and drink the sweet, and send part to 	*	Or, <span class='add'>the poor</span>. So <a href='1ES.xhtml#E19_54'>ver. 54</a>. Comp. <a href='NEH.xhtml#NH8_10'>Neh. 8. 10</a>.
+1 Esdras	9	54	1	Then went they their way, every one to eat and drink, and make merry, and to give 	p	<a href='1ES.xhtml#E19_51'>ver. 51</a>.
+1 Esdras	9	55	1	because they 	m	<a href='1ES.xhtml#E19_55'>ver. 55</a>.
+1 Esdras	9	8	1	And now 	b	See <a href='JOS.xhtml#JS7_19'>Josh. 7. 19</a>.

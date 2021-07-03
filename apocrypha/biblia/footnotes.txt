@@ -19,12 +19,12 @@
 1 Esdras	1	25	1		m	<a href='2KI.xhtml#K223_29'>2 Kin. 23. 29</a>, <a href='2KI.xhtml#K223_30'>30</a>. To <a href='1ES.xhtml#E11_33'>ver. 33</a>, <a href='2CH.xhtml#R235_20'>2 Chr. 35. 20–27</a>.
 1 Esdras	1	26	1		*	About B.C. 610.
 1 Esdras	1	27	1	I am not sent out from the Lord God against thee; for my war is upon Euphrates: and now the Lord is with me, yea, the Lord is with me hasting me forward: depart from me, and 	n	So <a href='2CH.xhtml#R213_12'>2 Chr. 13. 12</a>. <a href='ACT.xhtml#AC5_39'>Acts 5. 39</a>.
-1 Esdras	1	32	1	And in all Jewry they mourned for Josias, yea, Jeremie the prophet lamented for Josias, and the chief men with the women made lamentation for him unto this day: and this was given out 	o	From <a href='2CH.xhtml#R235_25'>2 Chr. 35. 25</a>?
+1 Esdras	1	32	1	And in all Jewry they mourned for Josias, yea, Jeremy the prophet lamented for Josias, and the chief men with the women made lamentation for him unto this day: and this was given out 	o	From <a href='2CH.xhtml#R235_25'>2 Chr. 35. 25</a>?
 1 Esdras	1	34	1		p	To <a href='1ES.xhtml#E11_38'>ver. 38</a>, <a href='2KI.xhtml#K223_30'>2 Kin. 23. 30–35</a>. <a href='2CH.xhtml#R236_1'>2 Chr. 36. 1–4</a>.
 1 Esdras	1	34	2	And the people took Joachaz the son of Josias, and 	q	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
 1 Esdras	1	37	1	The king of Egypt also 	q	See <a href='2MA.xhtml#M29_23'>2 Macc. 9. 23</a>.
 1 Esdras	1	39	1		r	To <a href='1ES.xhtml#E11_43'>ver. 43</a>, <a href='2KI.xhtml#K223_36'>2 Kin. 23. 36–24</a>. <a href='2KI.xhtml#K223_6'>6</a>. <a href='2CH.xhtml#R236_5'>2 Chr. 36. 5–8</a>.
-1 Esdras	1	39	2	Five and twenty year old was 	*	<a href='2CH.xhtml#R236_4'>2 Chr. 36. 4</a>, <a href='2CH.xhtml#R236_5'>5</a>. <span class='add'>Jehoiakim</span>, or, <span class='add'>Eliakim</span>.
+1 Esdras	1	39	2	Five and twenty years old was 	*	<a href='2CH.xhtml#R236_4'>2 Chr. 36. 4</a>, <a href='2CH.xhtml#R236_5'>5</a>. <span class='add'>Jehoiakim</span>, or, <span class='add'>Eliakim</span>.
 1 Esdras	1	4	1		c	<a href='2CH.xhtml#R235_3'>2 Chr. 35. 3</a>. Comp. <a href='EXO.xhtml#EX18_4'>Ex. 18. 4</a>.
 1 Esdras	1	4	2	and said, Ye shall no more bear the ark upon your shoulders: now therefore serve the Lord your God, and minister unto his people Israel, and prepare you after your families and 	d	<a href='1ES.xhtml#E11_10'>ver. 10</a>, <a href='1ES.xhtml#E11_11'>11</a>. <a href='1ES.xhtml#E15_4'>ch. 5. 4</a> (Gk.). &amp; <a href='1ES.xhtml#E18_28'>8. 28</a>.
 1 Esdras	1	40	1		*	About B.C. 606.
