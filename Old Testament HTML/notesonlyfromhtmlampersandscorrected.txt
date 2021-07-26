@@ -931,7 +931,7 @@
 <div id="lf0610_footnote_nt935" class="type-footnote note"><a id="lf0610_label_3693" href="#lf0610_footnote_nt935_ref">* </a><p id="Bible_0610_OldAuth_24362">ch. 31. 10. &amp;c 35. 19.</p></div>
 <div id="lf0610_footnote_nt936" class="type-footnote note"><a id="lf0610_label_3699" href="#lf0610_footnote_nt936_ref">* </a><p id="Bible_0610_OldAuth_24363">ch. 28. 9.</p></div>
 <div id="lf0610_footnote_nt937" class="type-footnote note"><a id="lf0610_label_3701" href="#lf0610_footnote_nt937_ref">* </a><p id="Bible_0610_OldAuth_24364">ch. 28. 12.</p></div>
-<div id="lf0610_footnote_nt938" class="type-footnote note"><a id="lf0610_label_3705" href="#lf0610_footnote_nt938_ref">‎∥ </a><p id="Bible_0610_OldAuth_24365">Or, 23.</p></div>
+<div id="lf0610_footnote_nt938" class="type-footnote note"><a id="lf0610_label_3705" href="#lf0610_footnote_nt938_ref">‎∥ </a><p id="Bible_0610_OldAuth_24365">Or, Ruby.</p></div>
 <div id="lf0610_footnote_nt939" class="type-footnote note"><a id="lf0610_label_3721" href="#lf0610_footnote_nt939_ref">* </a><p id="Bible_0610_OldAuth_24366">ch. 28. 33.</p></div>
 <div id="lf0610_footnote_nt940" class="type-footnote note"><a id="lf0610_label_3725" href="#lf0610_footnote_nt940_ref">* </a><p id="Bible_0610_OldAuth_24367">ch. 28. 42.</p></div>
 <div id="lf0610_footnote_nt941" class="type-footnote note"><a id="lf0610_label_3728" href="#lf0610_footnote_nt941_ref">* </a><p id="Bible_0610_OldAuth_24368">ch. 28. 36.</p></div>
