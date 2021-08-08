@@ -161,7 +161,7 @@
 <div id="lf0610_footnote_nt1111" class="type-footnote note"><a id="lf0610_label_4525" href="#lf0610_footnote_nt1111_ref">† </a><p id="Bible_0610_OldAuth_24538">Heb. reproached by, or, for man.</p></div>
 <div id="lf0610_footnote_nt1112" class="type-footnote note"><a id="lf0610_label_4526" href="#lf0610_footnote_nt1112_ref">‎∥ </a><p id="Bible_0610_OldAuth_24539">Or, they.</p></div>
 <div id="lf0610_footnote_nt1113" class="type-footnote note"><a id="lf0610_label_4527" href="#lf0610_footnote_nt1113_ref">† </a><p id="Bible_0610_OldAuth_24540">Heb. there shall be a scourging.</p></div>
-<div id="lf0610_footnote_nt1114" class="type-footnote note"><a id="lf0610_label_4532" href="#lf0610_footnote_nt1114_ref">† </a><p id="Bible_0610_OldAuth_24541">Heb. <span class="ital">holiness of praises to the <span class="csc">Lord</span></span></p></div>
+<div id="lf0610_footnote_nt1114" class="type-footnote note"><a id="lf0610_label_4532" href="#lf0610_footnote_nt1114_ref">† </a><p id="Bible_0610_OldAuth_24541">Heb. <span class="add">holiness of praises to the <span class="nd">Lord</span></span></p></div>
 <div id="lf0610_footnote_nt1115" class="type-footnote note"><a id="lf0610_label_4536" href="#lf0610_footnote_nt1115_ref">* </a><p id="Bible_0610_OldAuth_24542">ch. 21. 5.</p></div>
 <div id="lf0610_footnote_nt1116" class="type-footnote note"><a id="lf0610_label_4538" href="#lf0610_footnote_nt1116_ref">* </a><p id="Bible_0610_OldAuth_24543">Deut. 14. 1.</p></div>
 <div id="lf0610_footnote_nt1117" class="type-footnote note"><a id="lf0610_label_4540" href="#lf0610_footnote_nt1117_ref">† </a><p id="Bible_0610_OldAuth_24544">Heb. profane.</p></div>
@@ -230,7 +230,7 @@
 <div id="lf0610_footnote_nt1180" class="type-footnote note"><a id="lf0610_label_4749" href="#lf0610_footnote_nt1180_ref">* </a><p id="Bible_0610_OldAuth_24607">Ex. 25. 30.</p></div>
 <div id="lf0610_footnote_nt1181" class="type-footnote note"><a id="lf0610_label_4754" href="#lf0610_footnote_nt1181_ref">* </a><p id="Bible_0610_OldAuth_24608">Ex. 29. 33 ch 8. 31. Matt. 12. 1, 5.</p></div>
 <div id="lf0610_footnote_nt1182" class="type-footnote note"><a id="lf0610_label_4758" href="#lf0610_footnote_nt1182_ref">* </a><p id="Bible_0610_OldAuth_24609">Num. 15. 34.</p></div>
-<div id="lf0610_footnote_nt1183" class="type-footnote note"><a id="lf0610_label_4759" href="#lf0610_footnote_nt1183_ref">† </a><p id="Bible_0610_OldAuth_24610">Heb. <span class="ital">to expound unto them according to the mouth of the <span class="csc">Lord</span></span></p></div>
+<div id="lf0610_footnote_nt1183" class="type-footnote note"><a id="lf0610_label_4759" href="#lf0610_footnote_nt1183_ref">† </a><p id="Bible_0610_OldAuth_24610">Heb. <span class="add">to expound unto them according to the mouth of the <span class="nd">Lord</span></span></p></div>
 <div id="lf0610_footnote_nt1184" class="type-footnote note"><a id="lf0610_label_4762" href="#lf0610_footnote_nt1184_ref">* </a><p id="Bible_0610_OldAuth_24611">Deut. 13 9 &amp;c 17. 7.</p></div>
 <div id="lf0610_footnote_nt1185" class="type-footnote note"><a id="lf0610_label_4766" href="#lf0610_footnote_nt1185_ref">* </a><p id="Bible_0610_OldAuth_24612">Ex. 21. 12. Deut. 19. 21</p></div>
 <div id="lf0610_footnote_nt1186" class="type-footnote note"><a id="lf0610_label_4767" href="#lf0610_footnote_nt1186_ref">† </a><p id="Bible_0610_OldAuth_24613">Heb smiteth the life of a man.</p></div>

@@ -1,36 +1,292 @@
-<div id="lf0610_footnote_nt1567" class="type-footnote note"><a id="lf0610_label_6530" href="#lf0610_footnote_nt1567_ref">‎∥ </a><p id="Bible_0610_OldAuth_24994">Or, The plains of Shittim.</p></div>
-<div id="lf0610_footnote_nt1568" class="type-footnote note"><a id="lf0610_label_6531" href="#lf0610_footnote_nt1568_ref">* </a><p id="Bible_0610_OldAuth_24995">ch. 25. 1.</p></div>
-<div id="lf0610_footnote_nt1569" class="type-footnote note"><a id="lf0610_label_6534" href="#lf0610_footnote_nt1569_ref">* </a><p id="Bible_0610_OldAuth_24996">Deut. 7. 2. Josh. 11. 12.</p></div>
-<div id="lf0610_footnote_nt1570" class="type-footnote note"><a id="lf0610_label_6538" href="#lf0610_footnote_nt1570_ref">* </a><p id="Bible_0610_OldAuth_24997">ch. 26. 53.</p></div>
-<div id="lf0610_footnote_nt1571" class="type-footnote note"><a id="lf0610_label_6539" href="#lf0610_footnote_nt1571_ref">† </a><p id="Bible_0610_OldAuth_24998">Heb. multiply his inheritance.</p></div>
-<div id="lf0610_footnote_nt1572" class="type-footnote note"><a id="lf0610_label_6540" href="#lf0610_footnote_nt1572_ref">† </a><p id="Bible_0610_OldAuth_24999">Heb. diminish his inheritance.</p></div>
-<div id="lf0610_footnote_nt1573" class="type-footnote note"><a id="lf0610_label_6542" href="#lf0610_footnote_nt1573_ref">* </a><p id="Bible_0610_OldAuth_25000">Josh. 28. 13. Judg. 2. 3.</p></div>
-<div id="lf0610_footnote_nt1574" class="type-footnote note"><a id="lf0610_label_6548" href="#lf0610_footnote_nt1574_ref">* </a><p id="Bible_0610_OldAuth_25001">Josh. 15. 1.</p></div>
-<div id="lf0610_footnote_nt1575" class="type-footnote note"><a id="lf0610_label_6557" href="#lf0610_footnote_nt1575_ref">† </a><p id="Bible_0610_OldAuth_25002">Heb. shoulder.</p></div>
-<div id="lf0610_footnote_nt1576" class="type-footnote note"><a id="lf0610_label_6561" href="#lf0610_footnote_nt1576_ref">* </a><p id="Bible_0610_OldAuth_25003">ch. 32. 33. Josh. 14. 2, 3.</p></div>
-<div id="lf0610_footnote_nt1577" class="type-footnote note"><a id="lf0610_label_6565" href="#lf0610_footnote_nt1577_ref">* </a><p id="Bible_0610_OldAuth_25004">Josh. 19. 51.</p></div>
-<div id="lf0610_footnote_nt1578" class="type-footnote note"><a id="lf0610_label_6581" href="#lf0610_footnote_nt1578_ref">* </a><p id="Bible_0610_OldAuth_25005">Josh. 21. 2.</p></div>
-<div id="lf0610_footnote_nt1579" class="type-footnote note"><a id="lf0610_label_6586" href="#lf0610_footnote_nt1579_ref">* </a><p id="Bible_0610_OldAuth_25006">Deut. 4. 41. Josh. 20. 2. &amp;c 21. 3.</p></div>
-<div id="lf0610_footnote_nt1580" class="type-footnote note"><a id="lf0610_label_6587" href="#lf0610_footnote_nt1580_ref">† </a><p id="Bible_0610_OldAuth_25007">Heb. above them ye shall give.</p></div>
-<div id="lf0610_footnote_nt1581" class="type-footnote note"><a id="lf0610_label_6590" href="#lf0610_footnote_nt1581_ref">† </a><p id="Bible_0610_OldAuth_25008">Heb. they inherit.</p></div>
-<div id="lf0610_footnote_nt1582" class="type-footnote note"><a id="lf0610_label_6593" href="#lf0610_footnote_nt1582_ref">* </a><p id="Bible_0610_OldAuth_25009">Deut. 19. 2 Josh. 20. 2.</p></div>
-<div id="lf0610_footnote_nt1583" class="type-footnote note"><a id="lf0610_label_6595" href="#lf0610_footnote_nt1583_ref">† </a><p id="Bible_0610_OldAuth_25010">Heb. by error.</p></div>
-<div id="lf0610_footnote_nt1584" class="type-footnote note"><a id="lf0610_label_6601" href="#lf0610_footnote_nt1584_ref">* </a><p id="Bible_0610_OldAuth_25011">Ex. 21. 14.</p></div>
-<div id="lf0610_footnote_nt1585" class="type-footnote note"><a id="lf0610_label_6603" href="#lf0610_footnote_nt1585_ref">† </a><p id="Bible_0610_OldAuth_25012">Heb. with a stone of the hand.</p></div>
-<div id="lf0610_footnote_nt1586" class="type-footnote note"><a id="lf0610_label_6607" href="#lf0610_footnote_nt1586_ref">* </a><p id="Bible_0610_OldAuth_25013">Deut. 19. 11.</p></div>
-<div id="lf0610_footnote_nt1587" class="type-footnote note"><a id="lf0610_label_6610" href="#lf0610_footnote_nt1587_ref">* </a><p id="Bible_0610_OldAuth_25014">Ex. 21. 18.</p></div>
-<div id="lf0610_footnote_nt1588" class="type-footnote note"><a id="lf0610_label_6616" href="#lf0610_footnote_nt1588_ref">† </a><p id="Bible_0610_OldAuth_25015">Heb. no blood shall be to him.</p></div>
-<div id="lf0610_footnote_nt1589" class="type-footnote note"><a id="lf0610_label_6620" href="#lf0610_footnote_nt1589_ref">* </a><p id="Bible_0610_OldAuth_25016">Deut. 17 6. &amp;c 19. 15. Matt. 18. 16. 2 Cor. 13. 1. Heb. 10. 28.</p></div>
-<div id="lf0610_footnote_nt1590" class="type-footnote note"><a id="lf0610_label_6622" href="#lf0610_footnote_nt1590_ref">† </a><p id="Bible_0610_OldAuth_25017">Heb. faulty to die.</p></div>
-<div id="lf0610_footnote_nt1591" class="type-footnote note"><a id="lf0610_label_6625" href="#lf0610_footnote_nt1591_ref">† </a><p id="Bible_0610_OldAuth_25018">Heb. there can be no expiation for the land.</p></div>
-<div id="lf0610_footnote_nt1592" class="type-footnote note"><a id="lf0610_label_6630" href="#lf0610_footnote_nt1592_ref">* </a><p id="Bible_0610_OldAuth_25019">ch. 27. 1. Josh. 17. 3.</p></div>
-<div id="lf0610_footnote_nt1593" class="type-footnote note"><a id="lf0610_label_6632" href="#lf0610_footnote_nt1593_ref">† </a><p id="Bible_0610_OldAuth_25020">Heb. unto whom they shall be.</p></div>
-<div id="lf0610_footnote_nt1594" class="type-footnote note"><a id="lf0610_label_6633" href="#lf0610_footnote_nt1594_ref">‡ </a><p id="Bible_0610_OldAuth_25021">[1611 whereinto]</p></div>
-<div id="lf0610_footnote_nt1595" class="type-footnote note"><a id="lf0610_label_6637" href="#lf0610_footnote_nt1595_ref">† </a><p id="Bible_0610_OldAuth_25022">Heb. be wives.</p></div>
-<div id="lf0610_footnote_nt1596" class="type-footnote note"><a id="lf0610_label_6638" href="#lf0610_footnote_nt1596_ref">* </a><p id="Bible_0610_OldAuth_25023">Tob. 1. 9.</p></div>
-<div id="lf0610_footnote_nt1597" class="type-footnote note"><a id="lf0610_label_6640" href="#lf0610_footnote_nt1597_ref">† </a><p id="Bible_0610_OldAuth_25024">Heb. cleave to the, &amp;c.</p></div>
-<div id="lf0610_footnote_nt1598" class="type-footnote note"><a id="lf0610_label_6645" href="#lf0610_footnote_nt1598_ref">* </a><p id="Bible_0610_OldAuth_25025">ch. 27. 1.</p></div>
-<div id="lf0610_footnote_nt1599" class="type-footnote note"><a id="lf0610_label_6647" href="#lf0610_footnote_nt1599_ref">† </a><p id="Bible_0610_OldAuth_25026">Heb. to some that were of the families.</p></div>
-<div id="lf0610_footnote_nt1600" class="type-footnote note"><a id="lf0610_label_6651" href="#lf0610_footnote_nt1600_ref">‎∥ </a><p id="Bible_0610_OldAuth_25027">Or, Zuph.</p></div>
-<div id="lf0610_footnote_nt1601" class="type-footnote note"><a id="lf0610_label_6655" href="#lf0610_footnote_nt1601_ref">* </a><p id="Bible_0610_OldAuth_25028">Num. 21. 24.</p></div>
-<div id="lf0610_footnote_nt1602" class="type-footnote note"><a id="lf0610_label_6659" href="#lf0610_footnote_nt1602_ref">† </a><p 
+<div id="lf0610_footnote_nt1726" class="type-footnote note"><a id="lf0610_label_7096" href="#lf0610_footnote_nt1726_ref">* </a><p id="Bible_0610_OldAuth_25153">2 Chr. 19. 7. Job 34. 19. Acts 10. 34. Rom. 2. 11. Gal. 2 6. Eph. 6. 9. Col 3. 25. 1 Pet. 1. 17.</p></div>
+<div id="lf0610_footnote_nt1727" class="type-footnote note"><a id="lf0610_label_7100" href="#lf0610_footnote_nt1727_ref">* </a><p id="Bible_0610_OldAuth_25154">ch. 6. 13. Matt. 4. 10. Luke 4. 3.</p></div>
+<div id="lf0610_footnote_nt1728" class="type-footnote note"><a id="lf0610_label_7101" href="#lf0610_footnote_nt1728_ref">* </a><p id="Bible_0610_OldAuth_25155">ch. 13. 4.</p></div>
+<div id="lf0610_footnote_nt1729" class="type-footnote note"><a id="lf0610_label_7104" href="#lf0610_footnote_nt1729_ref">* </a><p id="Bible_0610_OldAuth_25156">Gen. 46 27. Ex. 1. 5.</p></div>
+<div id="lf0610_footnote_nt1730" class="type-footnote note"><a id="lf0610_label_7105" href="#lf0610_footnote_nt1730_ref">* </a><p id="Bible_0610_OldAuth_25157">Gen. 15. 5.</p></div>
+<div id="lf0610_footnote_nt1731" class="type-footnote note"><a id="lf0610_label_7113" href="#lf0610_footnote_nt1731_ref">* </a><p id="Bible_0610_OldAuth_25158">Num. 16. 31. &amp;c 27. 3. Ps. 106. 17.</p></div>
+<div id="lf0610_footnote_nt1732" class="type-footnote note"><a id="lf0610_label_7114" href="#lf0610_footnote_nt1732_ref">‎∥ </a><p id="Bible_0610_OldAuth_25159">Or, living substance which followed them.</p></div>
+<div id="lf0610_footnote_nt1733" class="type-footnote note"><a id="lf0610_label_7115" href="#lf0610_footnote_nt1733_ref">† </a><p id="Bible_0610_OldAuth_25160">Heb. was at their feet.</p></div>
+<div id="lf0610_footnote_nt1734" class="type-footnote note"><a id="lf0610_label_7122" href="#lf0610_footnote_nt1734_ref">† </a><p id="Bible_0610_OldAuth_25161">Heb. seeketh.</p></div>
+<div id="lf0610_footnote_nt1735" class="type-footnote note"><a id="lf0610_label_7126" href="#lf0610_footnote_nt1735_ref">† </a><p id="Bible_0610_OldAuth_25162">Heb. give.</p></div>
+<div id="lf0610_footnote_nt1736" class="type-footnote note"><a id="lf0610_label_7130" href="#lf0610_footnote_nt1736_ref">* </a><p id="Bible_0610_OldAuth_25163">ch. 6. 8.</p></div>
+<div id="lf0610_footnote_nt1737" class="type-footnote note"><a id="lf0610_label_7132" href="#lf0610_footnote_nt1737_ref">* </a><p id="Bible_0610_OldAuth_25164">ch. 4. 10. &amp;c 6. 7.</p></div>
+<div id="lf0610_footnote_nt1738" class="type-footnote note"><a id="lf0610_label_7138" href="#lf0610_footnote_nt1738_ref">* </a><p id="Bible_0610_OldAuth_25165">Josh. 1. 3.</p></div>
+<div id="lf0610_footnote_nt1739" class="type-footnote note"><a id="lf0610_label_7142" href="#lf0610_footnote_nt1739_ref">* </a><p id="Bible_0610_OldAuth_25166">ch. 23. 2.</p></div>
+<div id="lf0610_footnote_nt1740" class="type-footnote note"><a id="lf0610_label_7144" href="#lf0610_footnote_nt1740_ref">* </a><p id="Bible_0610_OldAuth_25167">ch. 28. 15.</p></div>
+<div id="lf0610_footnote_nt1741" class="type-footnote note"><a id="lf0610_label_7146" href="#lf0610_footnote_nt1741_ref">* </a><p id="Bible_0610_OldAuth_25168">ch. 27. 13 Josh. 8. 33.</p></div>
+<div id="lf0610_footnote_nt1742" class="type-footnote note"><a id="lf0610_label_7150" href="#lf0610_footnote_nt1742_ref">* </a><p id="Bible_0610_OldAuth_25169">ch. 5. 32.</p></div>
+<div id="lf0610_footnote_nt1743" class="type-footnote note"><a id="lf0610_label_7154" href="#lf0610_footnote_nt1743_ref">* </a><p id="Bible_0610_OldAuth_25170">ch. 7. 5.</p></div>
+<div id="lf0610_footnote_nt1744" class="type-footnote note"><a id="lf0610_label_7155" href="#lf0610_footnote_nt1744_ref">‎∥ </a><p id="Bible_0610_OldAuth_25171">Or, inherit.</p></div>
+<div id="lf0610_footnote_nt1745" class="type-footnote note"><a id="lf0610_label_7157" href="#lf0610_footnote_nt1745_ref">* </a><p id="Bible_0610_OldAuth_25172">Judg. 2. 2.</p></div>
+<div id="lf0610_footnote_nt1746" class="type-footnote note"><a id="lf0610_label_7158" href="#lf0610_footnote_nt1746_ref">† </a><p id="Bible_0610_OldAuth_25173">Heb. break down.</p></div>
+<div id="lf0610_footnote_nt1747" class="type-footnote note"><a id="lf0610_label_7161" href="#lf0610_footnote_nt1747_ref">* </a><p id="Bible_0610_OldAuth_25174">1 Kings 8 29. 2 Chr. 7. 12.</p></div>
+<div id="lf0610_footnote_nt1748" class="type-footnote note"><a id="lf0610_label_7168" href="#lf0610_footnote_nt1748_ref">† </a><p id="Bible_0610_OldAuth_25175">Heb. the choice of your vows.</p></div>
+<div id="lf0610_footnote_nt1749" class="type-footnote note"><a id="lf0610_label_7170" href="#lf0610_footnote_nt1749_ref">* </a><p id="Bible_0610_OldAuth_25176">ch. 10 9.</p></div>
+<div id="lf0610_footnote_nt1750" class="type-footnote note"><a id="lf0610_label_7175" href="#lf0610_footnote_nt1750_ref">* </a><p id="Bible_0610_OldAuth_25177">ch. 15. 23.</p></div>
+<div id="lf0610_footnote_nt1751" class="type-footnote note"><a id="lf0610_label_7179" href="#lf0610_footnote_nt1751_ref">* </a><p id="Bible_0610_OldAuth_25178">ch. 14. 27 Ecclus. 7 31.</p></div>
+<div id="lf0610_footnote_nt1752" class="type-footnote note"><a id="lf0610_label_7180" href="#lf0610_footnote_nt1752_ref">† </a><p id="Bible_0610_OldAuth_25179">Heb. all thy days</p></div>
+<div id="lf0610_footnote_nt1753" class="type-footnote note"><a id="lf0610_label_7182" href="#lf0610_footnote_nt1753_ref">* </a><p id="Bible_0610_OldAuth_25180">Gen. 28. 14 ch. 19. 8.</p></div>
+<div id="lf0610_footnote_nt1754" class="type-footnote note"><a id="lf0610_label_7186" href="#lf0610_footnote_nt1754_ref">† </a><p id="Bible_0610_OldAuth_25181">Heb. be strong.</p></div>
+<div id="lf0610_footnote_nt1755" class="type-footnote note"><a id="lf0610_label_7193" href="#lf0610_footnote_nt1755_ref">† </a><p id="Bible_0610_OldAuth_25182">Heb. inheritest, or, possessest them.</p></div>
+<div id="lf0610_footnote_nt1756" class="type-footnote note"><a id="lf0610_label_7195" href="#lf0610_footnote_nt1756_ref">† </a><p id="Bible_0610_OldAuth_25183">Heb. after them.</p></div>
+<div id="lf0610_footnote_nt1757" class="type-footnote note"><a id="lf0610_label_7197" href="#lf0610_footnote_nt1757_ref">† </a><p id="Bible_0610_OldAuth_25184">Heb. abomination of the.</p></div>
+<div id="lf0610_footnote_nt1758" class="type-footnote note"><a id="lf0610_label_7199" href="#lf0610_footnote_nt1758_ref">* </a><p id="Bible_0610_OldAuth_25185">ch. 4. 2. Josh. 1. 7. Prov. 30. 6 Rev. 22. 18.</p></div>
+<div id="lf0610_footnote_nt1759" class="type-footnote note"><a id="lf0610_label_7205" href="#lf0610_footnote_nt1759_ref">* </a><p id="Bible_0610_OldAuth_25186">ch. 10. 20.</p></div>
+<div id="lf0610_footnote_nt1760" class="type-footnote note"><a id="lf0610_label_7207" href="#lf0610_footnote_nt1760_ref">† </a><p id="Bible_0610_OldAuth_25187">Heb. <span class="ital">spoken recolt against the <span class="csc">Lord.</span></span></p></div>
+<div id="lf0610_footnote_nt1761" class="type-footnote note"><a id="lf0610_label_7212" href="#lf0610_footnote_nt1761_ref">* </a><p id="Bible_0610_OldAuth_25188">ch. 17. 7.</p></div>
+<div id="lf0610_footnote_nt1762" class="type-footnote note"><a id="lf0610_label_7214" href="#lf0610_footnote_nt1762_ref">† </a><p id="Bible_0610_OldAuth_25189">Heb. bondmen.</p></div>
+<div id="lf0610_footnote_nt1763" class="type-footnote note"><a id="lf0610_label_7216" href="#lf0610_footnote_nt1763_ref">* </a><p id="Bible_0610_OldAuth_25190">ch. 17. 13.</p></div>
+<div id="lf0610_footnote_nt1764" class="type-footnote note"><a id="lf0610_label_7219" href="#lf0610_footnote_nt1764_ref">‎∥ </a><p id="Bible_0610_OldAuth_25191">Or, naughty men</p></div>
+<div id="lf0610_footnote_nt1765" class="type-footnote note"><a id="lf0610_label_7224" href="#lf0610_footnote_nt1765_ref">‎∥ </a><p id="Bible_0610_OldAuth_25192">Or, devoted</p></div>
+<div id="lf0610_footnote_nt1766" class="type-footnote note"><a id="lf0610_label_7228" href="#lf0610_footnote_nt1766_ref">* </a><p id="Bible_0610_OldAuth_25193">Lev. 19. 28.</p></div>
+<div id="lf0610_footnote_nt1767" class="type-footnote note"><a id="lf0610_label_7230" href="#lf0610_footnote_nt1767_ref">* </a><p id="Bible_0610_OldAuth_25194">ch. 7 6 &amp;c 26. 18.</p></div>
+<div id="lf0610_footnote_nt1768" class="type-footnote note"><a id="lf0610_label_7233" href="#lf0610_footnote_nt1768_ref">* </a><p id="Bible_0610_OldAuth_25195">Lev. 11. 2, &amp;c.</p></div>
+<div id="lf0610_footnote_nt1769" class="type-footnote note"><a id="lf0610_label_7235" href="#lf0610_footnote_nt1769_ref">‎∥ </a><p id="Bible_0610_OldAuth_25196">Or, bison.</p></div>
+<div id="lf0610_footnote_nt1770" class="type-footnote note"><a id="lf0610_label_7236" href="#lf0610_footnote_nt1770_ref">† </a><p id="Bible_0610_OldAuth_25197">Heb. dishon.</p></div>
+<div id="lf0610_footnote_nt1771" class="type-footnote note"><a id="lf0610_label_7241" href="#lf0610_footnote_nt1771_ref">* </a><p id="Bible_0610_OldAuth_25198">Lev. 11. 9.</p></div>
+<div id="lf0610_footnote_nt1772" class="type-footnote note"><a id="lf0610_label_7251" href="#lf0610_footnote_nt1772_ref">* </a><p id="Bible_0610_OldAuth_25199">Lev. 11 19.</p></div>
+<div id="lf0610_footnote_nt1773" class="type-footnote note"><a id="lf0610_label_7255" href="#lf0610_footnote_nt1773_ref">* </a><p id="Bible_0610_OldAuth_25200">Ex. 23. 19. &amp;c 34. 26.</p></div>
+<div id="lf0610_footnote_nt1774" class="type-footnote note"><a id="lf0610_label_7261" href="#lf0610_footnote_nt1774_ref">† </a><p id="Bible_0610_OldAuth_25201">Heb. asketh of thee.</p></div>
+<div id="lf0610_footnote_nt1775" class="type-footnote note"><a id="lf0610_label_7263" href="#lf0610_footnote_nt1775_ref">* </a><p id="Bible_0610_OldAuth_25202">ch. 12. 19</p></div>
+<div id="lf0610_footnote_nt1776" class="type-footnote note"><a id="lf0610_label_7268" href="#lf0610_footnote_nt1776_ref">* </a><p id="Bible_0610_OldAuth_25203">Lev. 25. 2, 4.</p></div>
+<div id="lf0610_footnote_nt1777" class="type-footnote note"><a id="lf0610_label_7270" href="#lf0610_footnote_nt1777_ref">† </a><p id="Bible_0610_OldAuth_25204">Heb. master of the lending of his hand.</p></div>
+<div id="lf0610_footnote_nt1778" class="type-footnote note"><a id="lf0610_label_7273" href="#lf0610_footnote_nt1778_ref">‎∥ </a><p id="Bible_0610_OldAuth_25205">Or, To the end that there be no poor among you.</p></div>
+<div id="lf0610_footnote_nt1779" class="type-footnote note"><a id="lf0610_label_7276" href="#lf0610_footnote_nt1779_ref">* </a><p id="Bible_0610_OldAuth_25206">ch. 28. 12.</p></div>
+<div id="lf0610_footnote_nt1780" class="type-footnote note"><a id="lf0610_label_7279" href="#lf0610_footnote_nt1780_ref">* </a><p id="Bible_0610_OldAuth_25207">Matt. 5. 42. Luke 6. 34.</p></div>
+<div id="lf0610_footnote_nt1781" class="type-footnote note"><a id="lf0610_label_7281" href="#lf0610_footnote_nt1781_ref">† </a><p id="Bible_0610_OldAuth_25208">Heb. word.</p></div>
+<div id="lf0610_footnote_nt1782" class="type-footnote note"><a id="lf0610_label_7282" href="#lf0610_footnote_nt1782_ref">† </a><p id="Bible_0610_OldAuth_25209">Heb Belial.</p></div>
+<div id="lf0610_footnote_nt1783" class="type-footnote note"><a id="lf0610_label_7285" href="#lf0610_footnote_nt1783_ref">‡ </a><p id="Bible_0610_OldAuth_25210">[1611 the]</p></div>
+<div id="lf0610_footnote_nt1784" class="type-footnote note"><a id="lf0610_label_7287" href="#lf0610_footnote_nt1784_ref">* </a><p id="Bible_0610_OldAuth_25211">Ex. 21. 2. Jer. 34. 14.</p></div>
+<div id="lf0610_footnote_nt1785" class="type-footnote note"><a id="lf0610_label_7293" href="#lf0610_footnote_nt1785_ref">* </a><p id="Bible_0610_OldAuth_25212">Ex. 21. 6.</p></div>
+<div id="lf0610_footnote_nt1786" class="type-footnote note"><a id="lf0610_label_7296" href="#lf0610_footnote_nt1786_ref">* </a><p id="Bible_0610_OldAuth_25213">Ex 34. 19.</p></div>
+<div id="lf0610_footnote_nt1787" class="type-footnote note"><a id="lf0610_label_7299" href="#lf0610_footnote_nt1787_ref">* </a><p id="Bible_0610_OldAuth_25214">Lev. 22. 20. ch. 17. 1. Ecclus. 35. 12.</p></div>
+<div id="lf0610_footnote_nt1788" class="type-footnote note"><a id="lf0610_label_7302" href="#lf0610_footnote_nt1788_ref">* </a><p id="Bible_0610_OldAuth_25215">ch. 13. 16, 23.</p></div>
+<div id="lf0610_footnote_nt1789" class="type-footnote note"><a id="lf0610_label_7305" href="#lf0610_footnote_nt1789_ref">* </a><p id="Bible_0610_OldAuth_25216">Ex. 12. 2, &amp;c.</p></div>
+<div id="lf0610_footnote_nt1790" class="type-footnote note"><a id="lf0610_label_7306" href="#lf0610_footnote_nt1790_ref">* </a><p id="Bible_0610_OldAuth_25217">Ex. 13. 4.</p></div>
+<div id="lf0610_footnote_nt1791" class="type-footnote note"><a id="lf0610_label_7308" href="#lf0610_footnote_nt1791_ref">* </a><p id="Bible_0610_OldAuth_25218">ch. 12. 5.</p></div>
+<div id="lf0610_footnote_nt1792" class="type-footnote note"><a id="lf0610_label_7310" href="#lf0610_footnote_nt1792_ref">* </a><p id="Bible_0610_OldAuth_25219">Ex. 12. 15.</p></div>
+<div id="lf0610_footnote_nt1793" class="type-footnote note"><a id="lf0610_label_7312" href="#lf0610_footnote_nt1793_ref">* </a><p id="Bible_0610_OldAuth_25220">Ex. 34. 25.</p></div>
+<div id="lf0610_footnote_nt1794" class="type-footnote note"><a id="lf0610_label_7313" href="#lf0610_footnote_nt1794_ref">‡ </a><p id="Bible_0610_OldAuth_25221">[1611 coasts]</p></div>
+<div id="lf0610_footnote_nt1795" class="type-footnote note"><a id="lf0610_label_7315" href="#lf0610_footnote_nt1795_ref">‎∥ </a><p id="Bible_0610_OldAuth_25222">Or, kill.</p></div>
+<div id="lf0610_footnote_nt1796" class="type-footnote note"><a id="lf0610_label_7316" href="#lf0610_footnote_nt1796_ref">‡ </a><p id="Bible_0610_OldAuth_25223">[1611 the]</p></div>
+<div id="lf0610_footnote_nt1797" class="type-footnote note"><a id="lf0610_label_7320" href="#lf0610_footnote_nt1797_ref">† </a><p id="Bible_0610_OldAuth_25224">Heb restraint.</p></div>
+<div id="lf0610_footnote_nt1798" class="type-footnote note"><a id="lf0610_label_7322" href="#lf0610_footnote_nt1798_ref">* </a><p id="Bible_0610_OldAuth_25225">Lev. 23. 15.</p></div>
+<div id="lf0610_footnote_nt1799" class="type-footnote note"><a id="lf0610_label_7324" href="#lf0610_footnote_nt1799_ref">‎∥ </a><p id="Bible_0610_OldAuth_25226">Or, sufficiency.</p></div>
+<div id="lf0610_footnote_nt1800" class="type-footnote note"><a id="lf0610_label_7328" href="#lf0610_footnote_nt1800_ref">† </a><p id="Bible_0610_OldAuth_25227">Heb. floor and thy winepress.</p></div>
+<div id="lf0610_footnote_nt1801" class="type-footnote note"><a id="lf0610_label_7332" href="#lf0610_footnote_nt1801_ref">* </a><p id="Bible_0610_OldAuth_25228">Ex. 23. 14. &amp;c 34. 23.</p></div>
+<div id="lf0610_footnote_nt1802" class="type-footnote note"><a id="lf0610_label_7333" href="#lf0610_footnote_nt1802_ref">* </a><p id="Bible_0610_OldAuth_25229">Ecclus. 35. 4.</p></div>
+<div id="lf0610_footnote_nt1803" class="type-footnote note"><a id="lf0610_label_7335" href="#lf0610_footnote_nt1803_ref">† </a><p id="Bible_0610_OldAuth_25230">Heb. according to the gift of his hand.</p></div>
+<div id="lf0610_footnote_nt1804" class="type-footnote note"><a id="lf0610_label_7338" href="#lf0610_footnote_nt1804_ref">* </a><p id="Bible_0610_OldAuth_25231">Ex. 23. 8</p></div>
+<div id="lf0610_footnote_nt1805" class="type-footnote note"><a id="lf0610_label_7339" href="#lf0610_footnote_nt1805_ref">‎∥ </a><p id="Bible_0610_OldAuth_25232">Or, matters.</p></div>
+<div id="lf0610_footnote_nt1806" class="type-footnote note"><a id="lf0610_label_7341" href="#lf0610_footnote_nt1806_ref">† </a><p id="Bible_0610_OldAuth_25233">Heb. Justice, justice.</p></div>
+<div id="lf0610_footnote_nt1807" class="type-footnote note"><a id="lf0610_label_7344" href="#lf0610_footnote_nt1807_ref">* </a><p id="Bible_0610_OldAuth_25234">Lev. 26. 1.</p></div>
+<div id="lf0610_footnote_nt1808" class="type-footnote note"><a id="lf0610_label_7345" href="#lf0610_footnote_nt1808_ref">‎∥ </a><p id="Bible_0610_OldAuth_25235">Or, statue, or, pillar.</p></div>
+<div id="lf0610_footnote_nt1809" class="type-footnote note"><a id="lf0610_label_7348" href="#lf0610_footnote_nt1809_ref">‎∥ </a><p id="Bible_0610_OldAuth_25236">Or, goat.</p></div>
+<div id="lf0610_footnote_nt1810" class="type-footnote note"><a id="lf0610_label_7354" href="#lf0610_footnote_nt1810_ref">* </a><p id="Bible_0610_OldAuth_25237">Num. 35 30. ch. 19. 15 Matt. 18. 16. John 8. 17. 2 Cor. 13. 1. Heb. 10. 28.</p></div>
+<div id="lf0610_footnote_nt1811" class="type-footnote note"><a id="lf0610_label_7361" href="#lf0610_footnote_nt1811_ref">† </a><p id="Bible_0610_OldAuth_25238">Heb. not to hearken.</p></div>
+<div id="lf0610_footnote_nt1812" class="type-footnote note"><a id="lf0610_label_7372" href="#lf0610_footnote_nt1812_ref">* </a><p id="Bible_0610_OldAuth_25239">Num. 18. 20. ch. 10. 9.</p></div>
+<div id="lf0610_footnote_nt1813" class="type-footnote note"><a id="lf0610_label_7373" href="#lf0610_footnote_nt1813_ref">* </a><p id="Bible_0610_OldAuth_25240">1 Cor. 9. 13.</p></div>
+<div id="lf0610_footnote_nt1814" class="type-footnote note"><a id="lf0610_label_7381" href="#lf0610_footnote_nt1814_ref">† </a><p id="Bible_0610_OldAuth_25241">Heb. his sales by the fathers.</p></div>
+<div id="lf0610_footnote_nt1815" class="type-footnote note"><a id="lf0610_label_7384" href="#lf0610_footnote_nt1815_ref">* </a><p id="Bible_0610_OldAuth_25242">Lev. 18. 21.</p></div>
+<div id="lf0610_footnote_nt1816" class="type-footnote note"><a id="lf0610_label_7386" href="#lf0610_footnote_nt1816_ref">* </a><p id="Bible_0610_OldAuth_25243">Lev. 20 27.</p></div>
+<div id="lf0610_footnote_nt1817" class="type-footnote note"><a id="lf0610_label_7387" href="#lf0610_footnote_nt1817_ref">* </a><p id="Bible_0610_OldAuth_25244">1 Sam. 28. 7.</p></div>
+<div id="lf0610_footnote_nt1818" class="type-footnote note"><a id="lf0610_label_7390" href="#lf0610_footnote_nt1818_ref">‎∥ </a><p id="Bible_0610_OldAuth_25245">Or, upright, or, sincere.</p></div>
+<div id="lf0610_footnote_nt1819" class="type-footnote note"><a id="lf0610_label_7392" href="#lf0610_footnote_nt1819_ref">‎∥ </a><p id="Bible_0610_OldAuth_25246">Or, inherit.</p></div>
+<div id="lf0610_footnote_nt1820" class="type-footnote note"><a id="lf0610_label_7394" href="#lf0610_footnote_nt1820_ref">* </a><p id="Bible_0610_OldAuth_25247">John 1. 45 Acts 3. 22. &amp;c 7. 37.</p></div>
+<div id="lf0610_footnote_nt1821" class="type-footnote note"><a id="lf0610_label_7396" href="#lf0610_footnote_nt1821_ref">* </a><p id="Bible_0610_OldAuth_25248">Ex. 20. 19.</p></div>
+<div id="lf0610_footnote_nt1822" class="type-footnote note"><a id="lf0610_label_7399" href="#lf0610_footnote_nt1822_ref">* </a><p id="Bible_0610_OldAuth_25249">John 1. 45. Acts 3. 22 &amp;c 7. 37.</p></div>
+<div id="lf0610_footnote_nt1823" class="type-footnote note"><a id="lf0610_label_7406" href="#lf0610_footnote_nt1823_ref">* </a><p id="Bible_0610_OldAuth_25250">ch. 12. 29.</p></div>
+<div id="lf0610_footnote_nt1824" class="type-footnote note"><a id="lf0610_label_7407" href="#lf0610_footnote_nt1824_ref">† </a><p id="Bible_0610_OldAuth_25251">Heb. inheritest, or, possessest.</p></div>
+<div id="lf0610_footnote_nt1825" class="type-footnote note"><a id="lf0610_label_7409" href="#lf0610_footnote_nt1825_ref">* </a><p id="Bible_0610_OldAuth_25252">Ex. 21. 13 Num. 35. 10. Josh. 20. 2.</p></div>
+<div id="lf0610_footnote_nt1826" class="type-footnote note"><a id="lf0610_label_7412" href="#lf0610_footnote_nt1826_ref">† </a><p id="Bible_0610_OldAuth_25253">Heb from yesterday the third day.</p></div>
+<div id="lf0610_footnote_nt1827" class="type-footnote note"><a id="lf0610_label_7414" href="#lf0610_footnote_nt1827_ref">† </a><p id="Bible_0610_OldAuth_25254">Heb. iron.</p></div>
+<div id="lf0610_footnote_nt1828" class="type-footnote note"><a id="lf0610_label_7415" href="#lf0610_footnote_nt1828_ref">† </a><p id="Bible_0610_OldAuth_25255">Heb wood.</p></div>
+<div id="lf0610_footnote_nt1829" class="type-footnote note"><a id="lf0610_label_7416" href="#lf0610_footnote_nt1829_ref">† </a><p id="Bible_0610_OldAuth_25256">Heb findeth.</p></div>
+<div id="lf0610_footnote_nt1830" class="type-footnote note"><a id="lf0610_label_7418" href="#lf0610_footnote_nt1830_ref">† </a><p id="Bible_0610_OldAuth_25257">Heb. smite him in life.</p></div>
+<div id="lf0610_footnote_nt1831" class="type-footnote note"><a id="lf0610_label_7419" href="#lf0610_footnote_nt1831_ref">† </a><p id="Bible_0610_OldAuth_25258">Heb. from yesterday the third day.</p></div>
+<div id="lf0610_footnote_nt1832" class="type-footnote note"><a id="lf0610_label_7422" href="#lf0610_footnote_nt1832_ref">* </a><p id="Bible_0610_OldAuth_25259">ch. 12 20.</p></div>
+<div id="lf0610_footnote_nt1833" class="type-footnote note"><a id="lf0610_label_7424" href="#lf0610_footnote_nt1833_ref">* </a><p id="Bible_0610_OldAuth_25260">Josh. 20. 7.</p></div>
+<div id="lf0610_footnote_nt1834" class="type-footnote note"><a id="lf0610_label_7427" href="#lf0610_footnote_nt1834_ref">† </a><p id="Bible_0610_OldAuth_25261">Heb in life.</p></div>
+<div id="lf0610_footnote_nt1835" class="type-footnote note"><a id="lf0610_label_7432" href="#lf0610_footnote_nt1835_ref">* </a><p id="Bible_0610_OldAuth_25262">Num. 35 30. ch. 17. 6. Matt. 18. 16. John 8 17. 2 Cor. 13. 1. Heb. 10. 28.</p></div>
+<div id="lf0610_footnote_nt1836" class="type-footnote note"><a id="lf0610_label_7434" href="#lf0610_footnote_nt1836_ref">‎∥ </a><p id="Bible_0610_OldAuth_25263">Or, falling away.</p></div>
+<div id="lf0610_footnote_nt1837" class="type-footnote note"><a id="lf0610_label_7438" href="#lf0610_footnote_nt1837_ref">* </a><p id="Bible_0610_OldAuth_25264">Prov. 19. 5, 9. Dan. 6. 24.</p></div>
+<div id="lf0610_footnote_nt1838" class="type-footnote note"><a id="lf0610_label_7441" href="#lf0610_footnote_nt1838_ref">* </a><p id="Bible_0610_OldAuth_25265">Ex. 21. 23. Lev. 24. 20. Matt. 5. 38.</p></div>
+<div id="lf0610_footnote_nt1839" class="type-footnote note"><a id="lf0610_label_7446" href="#lf0610_footnote_nt1839_ref">† </a><p id="Bible_0610_OldAuth_25266">Heb be tender.</p></div>
+<div id="lf0610_footnote_nt1840" class="type-footnote note"><a id="lf0610_label_7447" href="#lf0610_footnote_nt1840_ref">† </a><p id="Bible_0610_OldAuth_25267">Heb. make haste.</p></div>
+<div id="lf0610_footnote_nt1841" class="type-footnote note"><a id="lf0610_label_7451" href="#lf0610_footnote_nt1841_ref">† </a><p id="Bible_0610_OldAuth_25268">Heb. made it common See Lev. 19. 23</p></div>
+<div id="lf0610_footnote_nt1842" class="type-footnote note"><a id="lf0610_label_7453" href="#lf0610_footnote_nt1842_ref">* </a><p id="Bible_0610_OldAuth_25269">ch. 24. 5.</p></div>
+<div id="lf0610_footnote_nt1843" class="type-footnote note"><a id="lf0610_label_7454" href="#lf0610_footnote_nt1843_ref">‡ </a><p id="Bible_0610_OldAuth_25270">[1611 omits the]</p></div>
+<div id="lf0610_footnote_nt1844" class="type-footnote note"><a id="lf0610_label_7456" href="#lf0610_footnote_nt1844_ref">* </a><p id="Bible_0610_OldAuth_25271">Judg. 7. 3</p></div>
+<div id="lf0610_footnote_nt1845" class="type-footnote note"><a id="lf0610_label_7457" href="#lf0610_footnote_nt1845_ref">† </a><p id="Bible_0610_OldAuth_25272">Heb. melt.</p></div>
+<div id="lf0610_footnote_nt1846" class="type-footnote note"><a id="lf0610_label_7459" href="#lf0610_footnote_nt1846_ref">† </a><p id="Bible_0610_OldAuth_25273">Heb. to be in the head of the people.</p></div>
+<div id="lf0610_footnote_nt1847" class="type-footnote note"><a id="lf0610_label_7465" href="#lf0610_footnote_nt1847_ref">* </a><p id="Bible_0610_OldAuth_25274">Josh. 8. 2.</p></div>
+<div id="lf0610_footnote_nt1848" class="type-footnote note"><a id="lf0610_label_7466" href="#lf0610_footnote_nt1848_ref">† </a><p id="Bible_0610_OldAuth_25275">Heb. spoil.</p></div>
+<div id="lf0610_footnote_nt1849" class="type-footnote note"><a id="lf0610_label_7472" href="#lf0610_footnote_nt1849_ref">‎∥ </a><p id="Bible_0610_OldAuth_25276">Or, for, O man, the tree of the fickt is to be employed in the siege.</p></div>
+<div id="lf0610_footnote_nt1850" class="type-footnote note"><a id="lf0610_label_7473" href="#lf0610_footnote_nt1850_ref">† </a><p id="Bible_0610_OldAuth_25277">Heb. to go from before thee.</p></div>
+<div id="lf0610_footnote_nt1851" class="type-footnote note"><a id="lf0610_label_7475" href="#lf0610_footnote_nt1851_ref">† </a><p id="Bible_0610_OldAuth_25278">Heb. it come down.</p></div>
+<div id="lf0610_footnote_nt1852" class="type-footnote note"><a id="lf0610_label_7482" href="#lf0610_footnote_nt1852_ref">† </a><p id="Bible_0610_OldAuth_25279">Heb. mouth.</p></div>
+<div id="lf0610_footnote_nt1853" class="type-footnote note"><a id="lf0610_label_7486" href="#lf0610_footnote_nt1853_ref">† </a><p id="Bible_0610_OldAuth_25280">Heb. in the midst.</p></div>
+<div id="lf0610_footnote_nt1854" class="type-footnote note"><a id="lf0610_label_7491" href="#lf0610_footnote_nt1854_ref">‎∥ </a><p id="Bible_0610_OldAuth_25281">Or, suffer to grow.</p></div>
+<div id="lf0610_footnote_nt1855" class="type-footnote note"><a id="lf0610_label_7492" href="#lf0610_footnote_nt1855_ref">† </a><p id="Bible_0610_OldAuth_25282">Heb. make, or, dress.</p></div>
+<div id="lf0610_footnote_nt1856" class="type-footnote note"><a id="lf0610_label_7498" href="#lf0610_footnote_nt1856_ref">† </a><p id="Bible_0610_OldAuth_25283">Heb. that is found with him.</p></div>
+<div id="lf0610_footnote_nt1857" class="type-footnote note"><a id="lf0610_label_7505" href="#lf0610_footnote_nt1857_ref">* </a><p id="Bible_0610_OldAuth_25284">Gal. 3. 18.</p></div>
+<div id="lf0610_footnote_nt1858" class="type-footnote note"><a id="lf0610_label_7506" href="#lf0610_footnote_nt1858_ref">† </a><p id="Bible_0610_OldAuth_25285">Heb. the curse of God.</p></div>
+<div id="lf0610_footnote_nt1859" class="type-footnote note"><a id="lf0610_label_7509" href="#lf0610_footnote_nt1859_ref">* </a><p id="Bible_0610_OldAuth_25286">Ex. 23. 4.</p></div>
+<div id="lf0610_footnote_nt1860" class="type-footnote note"><a id="lf0610_label_7518" href="#lf0610_footnote_nt1860_ref">† </a><p id="Bible_0610_OldAuth_25287">Heb. fulness of the seed.</p></div>
+<div id="lf0610_footnote_nt1861" class="type-footnote note"><a id="lf0610_label_7521" href="#lf0610_footnote_nt1861_ref">* </a><p id="Bible_0610_OldAuth_25288">Lev. 19. 19.</p></div>
+<div id="lf0610_footnote_nt1862" class="type-footnote note"><a id="lf0610_label_7523" href="#lf0610_footnote_nt1862_ref">* </a><p id="Bible_0610_OldAuth_25289">Num. 15. 38.</p></div>
+<div id="lf0610_footnote_nt1863" class="type-footnote note"><a id="lf0610_label_7524" href="#lf0610_footnote_nt1863_ref">† </a><p id="Bible_0610_OldAuth_25290">Heb. wings.</p></div>
+<div id="lf0610_footnote_nt1864" class="type-footnote note"><a id="lf0610_label_7535" href="#lf0610_footnote_nt1864_ref">* </a><p id="Bible_0610_OldAuth_25291">Lev. 20. 10.</p></div>
+<div id="lf0610_footnote_nt1865" class="type-footnote note"><a id="lf0610_label_7539" href="#lf0610_footnote_nt1865_ref">‎∥ </a><p id="Bible_0610_OldAuth_25292">Or, take strong hold of her.</p></div>
+<div id="lf0610_footnote_nt1866" class="type-footnote note"><a id="lf0610_label_7543" href="#lf0610_footnote_nt1866_ref">* </a><p id="Bible_0610_OldAuth_25293">Ex. 22. 16.</p></div>
+<div id="lf0610_footnote_nt1867" class="type-footnote note"><a id="lf0610_label_7546" href="#lf0610_footnote_nt1867_ref">* </a><p id="Bible_0610_OldAuth_25294">Lev. 18. 8.</p></div>
+<div id="lf0610_footnote_nt1868" class="type-footnote note"><a id="lf0610_label_7551" href="#lf0610_footnote_nt1868_ref">* </a><p id="Bible_0610_OldAuth_25295">Neh. 13. 1.</p></div>
+<div id="lf0610_footnote_nt1869" class="type-footnote note"><a id="lf0610_label_7553" href="#lf0610_footnote_nt1869_ref">* </a><p id="Bible_0610_OldAuth_25296">Num. 22. 5, 6.</p></div>
+<div id="lf0610_footnote_nt1870" class="type-footnote note"><a id="lf0610_label_7556" href="#lf0610_footnote_nt1870_ref">† </a><p id="Bible_0610_OldAuth_25297">Heb. good.</p></div>
+<div id="lf0610_footnote_nt1871" class="type-footnote note"><a id="lf0610_label_7562" href="#lf0610_footnote_nt1871_ref">† </a><p id="Bible_0610_OldAuth_25298">Heb turncth toward.</p></div>
+<div id="lf0610_footnote_nt1872" class="type-footnote note"><a id="lf0610_label_7565" href="#lf0610_footnote_nt1872_ref">† </a><p id="Bible_0610_OldAuth_25299">Heb. sittest down.</p></div>
+<div id="lf0610_footnote_nt1873" class="type-footnote note"><a id="lf0610_label_7567" href="#lf0610_footnote_nt1873_ref">† </a><p id="Bible_0610_OldAuth_25300">Heb. nakedness of any thing.</p></div>
+<div id="lf0610_footnote_nt1874" class="type-footnote note"><a id="lf0610_label_7570" href="#lf0610_footnote_nt1874_ref">† </a><p id="Bible_0610_OldAuth_25301">Heb. is good for him.</p></div>
+<div id="lf0610_footnote_nt1875" class="type-footnote note"><a id="lf0610_label_7572" href="#lf0610_footnote_nt1875_ref">‎∥ </a><p id="Bible_0610_OldAuth_25302">Or, sodomitess.</p></div>
+<div id="lf0610_footnote_nt1876" class="type-footnote note"><a id="lf0610_label_7575" href="#lf0610_footnote_nt1876_ref">* </a><p id="Bible_0610_OldAuth_25303">Ex. 22. 25 Lev. 25. 36. Ps. 15. 5.</p></div>
+<div id="lf0610_footnote_nt1877" class="type-footnote note"><a id="lf0610_label_7578" href="#lf0610_footnote_nt1877_ref">* </a><p id="Bible_0610_OldAuth_25304">Eccles. 5. 4.</p></div>
+<div id="lf0610_footnote_nt1878" class="type-footnote note"><a id="lf0610_label_7583" href="#lf0610_footnote_nt1878_ref">‡ </a><p id="Bible_0610_OldAuth_25305">[1611 neighbour's]</p></div>
+<div id="lf0610_footnote_nt1879" class="type-footnote note"><a id="lf0610_label_7584" href="#lf0610_footnote_nt1879_ref">* </a><p id="Bible_0610_OldAuth_25306">Matt. 12. 1. Mark 2. 23 Luke 6. 1.</p></div>
+<div id="lf0610_footnote_nt1880" class="type-footnote note"><a id="lf0610_label_7587" href="#lf0610_footnote_nt1880_ref">* </a><p id="Bible_0610_OldAuth_25307">Matt. 5. 31. &amp;c 19 7. Mark 10. 4.</p></div>
+<div id="lf0610_footnote_nt1881" class="type-footnote note"><a id="lf0610_label_7588" href="#lf0610_footnote_nt1881_ref">† </a><p id="Bible_0610_OldAuth_25308">Heb. matter of nakedness</p></div>
+<div id="lf0610_footnote_nt1882" class="type-footnote note"><a id="lf0610_label_7589" href="#lf0610_footnote_nt1882_ref">† </a><p id="Bible_0610_OldAuth_25309">Heb. cutting off.</p></div>
+<div id="lf0610_footnote_nt1883" class="type-footnote note"><a id="lf0610_label_7594" href="#lf0610_footnote_nt1883_ref">* </a><p id="Bible_0610_OldAuth_25310">ch. 20. 7.</p></div>
+<div id="lf0610_footnote_nt1884" class="type-footnote note"><a id="lf0610_label_7595" href="#lf0610_footnote_nt1884_ref">† </a><p id="Bible_0610_OldAuth_25311">Heb. not any thing shall pass upon him.</p></div>
+<div id="lf0610_footnote_nt1885" class="type-footnote note"><a id="lf0610_label_7599" href="#lf0610_footnote_nt1885_ref">* </a><p id="Bible_0610_OldAuth_25312">Lev. 13 2.</p></div>
+<div id="lf0610_footnote_nt1886" class="type-footnote note"><a id="lf0610_label_7601" href="#lf0610_footnote_nt1886_ref">* </a><p id="Bible_0610_OldAuth_25313">Num. 12. 10.</p></div>
+<div id="lf0610_footnote_nt1887" class="type-footnote note"><a id="lf0610_label_7603" href="#lf0610_footnote_nt1887_ref">† </a><p id="Bible_0610_OldAuth_25314">Heb. lend the loan of any thing to, &amp;c.</p></div>
+<div id="lf0610_footnote_nt1888" class="type-footnote note"><a id="lf0610_label_7609" href="#lf0610_footnote_nt1888_ref">* </a><p id="Bible_0610_OldAuth_25315">Lev. 19 13. Tob. 4. 14.</p></div>
+<div id="lf0610_footnote_nt1889" class="type-footnote note"><a id="lf0610_label_7610" href="#lf0610_footnote_nt1889_ref">† </a><p id="Bible_0610_OldAuth_25316">Heb. he lifteth his soul unto it.</p></div>
+<div id="lf0610_footnote_nt1890" class="type-footnote note"><a id="lf0610_label_7612" href="#lf0610_footnote_nt1890_ref">* </a><p id="Bible_0610_OldAuth_25317">2 Kings 14. 6. 2 Chr. 25. 4. Jer 31. 29. 30. Ezek. 18. 20.</p></div>
+<div id="lf0610_footnote_nt1891" class="type-footnote note"><a id="lf0610_label_7616" href="#lf0610_footnote_nt1891_ref">* </a><p id="Bible_0610_OldAuth_25318">Lev. 19. 9. &amp;c 23. 22.</p></div>
+<div id="lf0610_footnote_nt1892" class="type-footnote note"><a id="lf0610_label_7618" href="#lf0610_footnote_nt1892_ref">† </a><p id="Bible_0610_OldAuth_25319">Heb. thou shall not bough it after thee.</p></div>
+<div id="lf0610_footnote_nt1893" class="type-footnote note"><a id="lf0610_label_7620" href="#lf0610_footnote_nt1893_ref">† </a><p id="Bible_0610_OldAuth_25320">Heb. after thee.</p></div>
+<div id="lf0610_footnote_nt1894" class="type-footnote note"><a id="lf0610_label_7626" href="#lf0610_footnote_nt1894_ref">* </a><p id="Bible_0610_OldAuth_25321">2 Cor. 11. 24.</p></div>
+<div id="lf0610_footnote_nt1895" class="type-footnote note"><a id="lf0610_label_7628" href="#lf0610_footnote_nt1895_ref">* </a><p id="Bible_0610_OldAuth_25322">1 Cor. 9. 9. 1 Tim. 5 18.</p></div>
+<div id="lf0610_footnote_nt1896" class="type-footnote note"><a id="lf0610_label_7629" href="#lf0610_footnote_nt1896_ref">† </a><p id="Bible_0610_OldAuth_25323">Heb. thresheth.</p></div>
+<div id="lf0610_footnote_nt1897" class="type-footnote note"><a id="lf0610_label_7631" href="#lf0610_footnote_nt1897_ref">* </a><p id="Bible_0610_OldAuth_25324">Matt. 22. 24. Mark 12 19. Luke 20. 28.</p></div>
+<div id="lf0610_footnote_nt1898" class="type-footnote note"><a id="lf0610_label_7632" href="#lf0610_footnote_nt1898_ref">‎∥ </a><p id="Bible_0610_OldAuth_25325">Or, next kinsman.</p></div>
+<div id="lf0610_footnote_nt1899" class="type-footnote note"><a id="lf0610_label_7635" href="#lf0610_footnote_nt1899_ref">‎∥ </a><p id="Bible_0610_OldAuth_25326">Or, next kinsman's wife.</p></div>
+<div id="lf0610_footnote_nt1900" class="type-footnote note"><a id="lf0610_label_7636" href="#lf0610_footnote_nt1900_ref">* </a><p id="Bible_0610_OldAuth_25327">Ruth 4. 7.</p></div>
+<div id="lf0610_footnote_nt1901" class="type-footnote note"><a id="lf0610_label_7643" href="#lf0610_footnote_nt1901_ref">† </a><p id="Bible_0610_OldAuth_25328">Heb a stone and a stone.</p></div>
+<div id="lf0610_footnote_nt1902" class="type-footnote note"><a id="lf0610_label_7645" href="#lf0610_footnote_nt1902_ref">† </a><p id="Bible_0610_OldAuth_25329">Heb an ephah and an ephah.</p></div>
+<div id="lf0610_footnote_nt1903" class="type-footnote note"><a id="lf0610_label_7649" href="#lf0610_footnote_nt1903_ref">* </a><p id="Bible_0610_OldAuth_25330">Ex 17. 8</p></div>
+<div id="lf0610_footnote_nt1904" class="type-footnote note"><a id="lf0610_label_7654" href="#lf0610_footnote_nt1904_ref">‡ </a><p id="Bible_0610_OldAuth_25331">[1611 omits thy God]</p></div>
+<div id="lf0610_footnote_nt1905" class="type-footnote note"><a id="lf0610_label_7666" href="#lf0610_footnote_nt1905_ref">* </a><p id="Bible_0610_OldAuth_25332">ch. 14. 28</p></div>
+<div id="lf0610_footnote_nt1906" class="type-footnote note"><a id="lf0610_label_7670" href="#lf0610_footnote_nt1906_ref">* </a><p id="Bible_0610_OldAuth_25333">Isai. 63. 15.</p></div>
+<div id="lf0610_footnote_nt1907" class="type-footnote note"><a id="lf0610_label_7674" href="#lf0610_footnote_nt1907_ref">* </a><p id="Bible_0610_OldAuth_25334">ch. 7. 6.</p></div>
+<div id="lf0610_footnote_nt1908" class="type-footnote note"><a id="lf0610_label_7679" href="#lf0610_footnote_nt1908_ref">* </a><p id="Bible_0610_OldAuth_25335">Josh. 4. 1</p></div>
+<div id="lf0610_footnote_nt1909" class="type-footnote note"><a id="lf0610_label_7683" href="#lf0610_footnote_nt1909_ref">* </a><p id="Bible_0610_OldAuth_25336">Ex. 20. 25. Josh. 8. 31.</p></div>
+<div id="lf0610_footnote_nt1910" class="type-footnote note"><a id="lf0610_label_7692" href="#lf0610_footnote_nt1910_ref">† </a><p id="Bible_0610_OldAuth_25337">Heb. for a cursing.</p></div>
+<div id="lf0610_footnote_nt1911" class="type-footnote note"><a id="lf0610_label_7694" href="#lf0610_footnote_nt1911_ref">* </a><p id="Bible_0610_OldAuth_25338">Dan. 9. 11.</p></div>
+<div id="lf0610_footnote_nt1912" class="type-footnote note"><a id="lf0610_label_7706" href="#lf0610_footnote_nt1912_ref">* </a><p id="Bible_0610_OldAuth_25339">Ezek. 22. 12.</p></div>
+<div id="lf0610_footnote_nt1913" class="type-footnote note"><a id="lf0610_label_7708" href="#lf0610_footnote_nt1913_ref">* </a><p id="Bible_0610_OldAuth_25340">Gal. 2. 10.</p></div>
+<div id="lf0610_footnote_nt1914" class="type-footnote note"><a id="lf0610_label_7711" href="#lf0610_footnote_nt1914_ref">* </a><p id="Bible_0610_OldAuth_25341">Lev. 26. 3.</p></div>
+<div id="lf0610_footnote_nt1915" class="type-footnote note"><a id="lf0610_label_7716" href="#lf0610_footnote_nt1915_ref">‎∥ </a><p id="Bible_0610_OldAuth_25342">Or, dough, or, kneading-troughs.</p></div>
+<div id="lf0610_footnote_nt1916" class="type-footnote note"><a id="lf0610_label_7720" href="#lf0610_footnote_nt1916_ref">‎∥ </a><p id="Bible_0610_OldAuth_25343">Or, barns.</p></div>
+<div id="lf0610_footnote_nt1917" class="type-footnote note"><a id="lf0610_label_7724" href="#lf0610_footnote_nt1917_ref">* </a><p id="Bible_0610_OldAuth_25344">ch. 30. 9, &amp;c.</p></div>
+<div id="lf0610_footnote_nt1918" class="type-footnote note"><a id="lf0610_label_7725" href="#lf0610_footnote_nt1918_ref">‎∥ </a><p id="Bible_0610_OldAuth_25345">Or, for good.</p></div>
+<div id="lf0610_footnote_nt1919" class="type-footnote note"><a id="lf0610_label_7726" href="#lf0610_footnote_nt1919_ref">† </a><p id="Bible_0610_OldAuth_25346">Heb. belly.</p></div>
+<div id="lf0610_footnote_nt1920" class="type-footnote note"><a id="lf0610_label_7728" href="#lf0610_footnote_nt1920_ref">* </a><p id="Bible_0610_OldAuth_25347">ch. 15. 6.</p></div>
+<div id="lf0610_footnote_nt1921" class="type-footnote note"><a id="lf0610_label_7732" href="#lf0610_footnote_nt1921_ref">* </a><p id="Bible_0610_OldAuth_25348">Lev. 26. 14. Lam. 2. 17. Mal. 2. 2. Bar. 1. 20.</p></div>
+<div id="lf0610_footnote_nt1922" class="type-footnote note"><a id="lf0610_label_7738" href="#lf0610_footnote_nt1922_ref">† </a><p id="Bible_0610_OldAuth_25349">Heb. which thou wouldest do.</p></div>
+<div id="lf0610_footnote_nt1923" class="type-footnote note"><a id="lf0610_label_7741" href="#lf0610_footnote_nt1923_ref">* </a><p id="Bible_0610_OldAuth_25350">Lev. 26 16.</p></div>
+<div id="lf0610_footnote_nt1924" class="type-footnote note"><a id="lf0610_label_7742" href="#lf0610_footnote_nt1924_ref">‎∥ </a><p id="Bible_0610_OldAuth_25351">Or, drought.</p></div>
+<div id="lf0610_footnote_nt1925" class="type-footnote note"><a id="lf0610_label_7744" href="#lf0610_footnote_nt1925_ref">‡ </a><p id="Bible_0610_OldAuth_25352">[1611 the]</p></div>
+<div id="lf0610_footnote_nt1926" class="type-footnote note"><a id="lf0610_label_7747" href="#lf0610_footnote_nt1926_ref">† </a><p id="Bible_0610_OldAuth_25353">Heb. for a removing.</p></div>
+<div id="lf0610_footnote_nt1927" class="type-footnote note"><a id="lf0610_label_7752" href="#lf0610_footnote_nt1927_ref">‡ </a><p id="Bible_0610_OldAuth_25354">[1611 noon days]</p></div>
+<div id="lf0610_footnote_nt1928" class="type-footnote note"><a id="lf0610_label_7754" href="#lf0610_footnote_nt1928_ref">* </a><p id="Bible_0610_OldAuth_25355">ch. 20. 6.</p></div>
+<div id="lf0610_footnote_nt1929" class="type-footnote note"><a id="lf0610_label_7755" href="#lf0610_footnote_nt1929_ref">† </a><p id="Bible_0610_OldAuth_25356">Heb. profane, or, use it as common meat.</p></div>
+<div id="lf0610_footnote_nt1930" class="type-footnote note"><a id="lf0610_label_7757" href="#lf0610_footnote_nt1930_ref">† </a><p id="Bible_0610_OldAuth_25357">Heb. shall not return to thee.</p></div>
+<div id="lf0610_footnote_nt1931" class="type-footnote note"><a id="lf0610_label_7764" href="#lf0610_footnote_nt1931_ref">* </a><p id="Bible_0610_OldAuth_25358">1 Kings 9. 7. Jer. 24. 9. &amp;c 25. 9.</p></div>
+<div id="lf0610_footnote_nt1932" class="type-footnote note"><a id="lf0610_label_7766" href="#lf0610_footnote_nt1932_ref">* </a><p id="Bible_0610_OldAuth_25359">Mic. 6. 15. Hag. 1. 6.</p></div>
+<div id="lf0610_footnote_nt1933" class="type-footnote note"><a id="lf0610_label_7770" href="#lf0610_footnote_nt1933_ref">† </a><p id="Bible_0610_OldAuth_25360">Heb. they shall not be thine.</p></div>
+<div id="lf0610_footnote_nt1934" class="type-footnote note"><a id="lf0610_label_7772" href="#lf0610_footnote_nt1934_ref">‡ </a><p id="Bible_0610_OldAuth_25361">[1611 locusts]</p></div>
+<div id="lf0610_footnote_nt1935" class="type-footnote note"><a id="lf0610_label_7773" href="#lf0610_footnote_nt1935_ref">‎∥ </a><p id="Bible_0610_OldAuth_25362">Or, possess.</p></div>
+<div id="lf0610_footnote_nt1936" class="type-footnote note"><a id="lf0610_label_7781" href="#lf0610_footnote_nt1936_ref">† </a><p id="Bible_0610_OldAuth_25363">Heb. hear.</p></div>
+<div id="lf0610_footnote_nt1937" class="type-footnote note"><a id="lf0610_label_7783" href="#lf0610_footnote_nt1937_ref">† </a><p id="Bible_0610_OldAuth_25364">Heb. strong of face.</p></div>
+<div id="lf0610_footnote_nt1938" class="type-footnote note"><a id="lf0610_label_7787" href="#lf0610_footnote_nt1938_ref">* </a><p id="Bible_0610_OldAuth_25365">Lev. 26. 29. 2 Kings 6 29. Lam. 4. 10 Bar. 2. 3.</p></div>
+<div id="lf0610_footnote_nt1939" class="type-footnote note"><a id="lf0610_label_7788" href="#lf0610_footnote_nt1939_ref">† </a><p id="Bible_0610_OldAuth_25366">Heb. belly.</p></div>
+<div id="lf0610_footnote_nt1940" class="type-footnote note"><a id="lf0610_label_7793" href="#lf0610_footnote_nt1940_ref">† </a><p id="Bible_0610_OldAuth_25367">Heb. afterbirth.</p></div>
+<div id="lf0610_footnote_nt1941" class="type-footnote note"><a id="lf0610_label_7798" href="#lf0610_footnote_nt1941_ref">† </a><p id="Bible_0610_OldAuth_25368">Heb. cause to ascend</p></div>
+<div id="lf0610_footnote_nt1942" class="type-footnote note"><a id="lf0610_label_7800" href="#lf0610_footnote_nt1942_ref">* </a><p id="Bible_0610_OldAuth_25369">ch 10. 22.</p></div>
+<div id="lf0610_footnote_nt1943" class="type-footnote note"><a id="lf0610_label_7810" href="#lf0610_footnote_nt1943_ref">* </a><p id="Bible_0610_OldAuth_25370">Ex. 19. 4.</p></div>
+<div id="lf0610_footnote_nt1944" class="type-footnote note"><a id="lf0610_label_7818" href="#lf0610_footnote_nt1944_ref">* </a><p id="Bible_0610_OldAuth_25371">ch. 4. 6. 1 Kings 2. 2. Josh 1. 7.</p></div>
+<div id="lf0610_footnote_nt1945" class="type-footnote note"><a id="lf0610_label_7822" href="#lf0610_footnote_nt1945_ref">† </a><p id="Bible_0610_OldAuth_25372">Heb. pass.</p></div>
+<div id="lf0610_footnote_nt1946" class="type-footnote note"><a id="lf0610_label_7828" href="#lf0610_footnote_nt1946_ref">† </a><p id="Bible_0610_OldAuth_25373">Heb dungy gods.</p></div>
+<div id="lf0610_footnote_nt1947" class="type-footnote note"><a id="lf0610_label_7830" href="#lf0610_footnote_nt1947_ref">‎∥ </a><p id="Bible_0610_OldAuth_25374">Or, a poisonful herb</p></div>
+<div id="lf0610_footnote_nt1948" class="type-footnote note"><a id="lf0610_label_7831" href="#lf0610_footnote_nt1948_ref">† </a><p id="Bible_0610_OldAuth_25375">Heb. rosh.</p></div>
+<div id="lf0610_footnote_nt1949" class="type-footnote note"><a id="lf0610_label_7833" href="#lf0610_footnote_nt1949_ref">‎∥ </a><p id="Bible_0610_OldAuth_25376">Or, stubbornness.</p></div>
+<div id="lf0610_footnote_nt1950" class="type-footnote note"><a id="lf0610_label_7834" href="#lf0610_footnote_nt1950_ref">† </a><p id="Bible_0610_OldAuth_25377">Heb. the drunken to the thirsty.</p></div>
+<div id="lf0610_footnote_nt1951" class="type-footnote note"><a id="lf0610_label_7837" href="#lf0610_footnote_nt1951_ref">† </a><p id="Bible_0610_OldAuth_25378">Heb. is written.</p></div>
+<div id="lf0610_footnote_nt1952" class="type-footnote note"><a id="lf0610_label_7839" href="#lf0610_footnote_nt1952_ref">† </a><p id="Bible_0610_OldAuth_25379">Heb <span class="ital">wherewith the <span class="csc">Lord</span> hath made it sick.</span></p></div>
+<div id="lf0610_footnote_nt1953" class="type-footnote note"><a id="lf0610_label_7841" href="#lf0610_footnote_nt1953_ref">* </a><p id="Bible_0610_OldAuth_25380">Gen. 19. 24. 25.</p></div>
+<div id="lf0610_footnote_nt1954" class="type-footnote note"><a id="lf0610_label_7843" href="#lf0610_footnote_nt1954_ref">* </a><p id="Bible_0610_OldAuth_25381">1 Kings 9. 8 Jer. 22. 8.</p></div>
+<div id="lf0610_footnote_nt1955" class="type-footnote note"><a id="lf0610_label_7846" href="#lf0610_footnote_nt1955_ref">‎∥ </a><p id="Bible_0610_OldAuth_25382">Or, who had not given to them any portion.</p></div>
+<div id="lf0610_footnote_nt1956" class="type-footnote note"><a id="lf0610_label_7847" href="#lf0610_footnote_nt1956_ref">† </a><p id="Bible_0610_OldAuth_25383">Heb. divided.</p></div>
+<div id="lf0610_footnote_nt1957" class="type-footnote note"><a id="lf0610_label_7856" href="#lf0610_footnote_nt1957_ref">* </a><p id="Bible_0610_OldAuth_25384">Neh. 1. 9.</p></div>
+<div id="lf0610_footnote_nt1958" class="type-footnote note"><a id="lf0610_label_7862" href="#lf0610_footnote_nt1958_ref">* </a><p id="Bible_0610_OldAuth_25385">ch. 28. 11.</p></div>
+<div id="lf0610_footnote_nt1959" class="type-footnote note"><a id="lf0610_label_7866" href="#lf0610_footnote_nt1959_ref">* </a><p id="Bible_0610_OldAuth_25386">Rom. 10 6, &amp;c.</p></div>
+<div id="lf0610_footnote_nt1960" class="type-footnote note"><a id="lf0610_label_7874" href="#lf0610_footnote_nt1960_ref">* </a><p id="Bible_0610_OldAuth_25387">ch. 4. 26.</p></div>
+<div id="lf0610_footnote_nt1961" class="type-footnote note"><a id="lf0610_label_7879" href="#lf0610_footnote_nt1961_ref">* </a><p id="Bible_0610_OldAuth_25388">Num. 20 12. ch. 3. 27.</p></div>
+<div id="lf0610_footnote_nt1962" class="type-footnote note"><a id="lf0610_label_7881" href="#lf0610_footnote_nt1962_ref">* </a><p id="Bible_0610_OldAuth_25389">Num. 27. 21.</p></div>
+<div id="lf0610_footnote_nt1963" class="type-footnote note"><a id="lf0610_label_7884" href="#lf0610_footnote_nt1963_ref">* </a><p id="Bible_0610_OldAuth_25390">ch. 7. 2.</p></div>
+<div id="lf0610_footnote_nt1964" class="type-footnote note"><a id="lf0610_label_7890" href="#lf0610_footnote_nt1964_ref">* </a><p id="Bible_0610_OldAuth_25391">ch. 15. 1.</p></div>
+<div id="lf0610_footnote_nt1965" class="type-footnote note"><a id="lf0610_label_7897" href="#lf0610_footnote_nt1965_ref">† </a><p id="Bible_0610_OldAuth_25392">Heb. lie down.</p></div>
+<div id="lf0610_footnote_nt1966" class="type-footnote note"><a id="lf0610_label_7899" href="#lf0610_footnote_nt1966_ref">† </a><p id="Bible_0610_OldAuth_25393">Heb. find them.</p></div>
+<div id="lf0610_footnote_nt1967" class="type-footnote note"><a id="lf0610_label_7904" href="#lf0610_footnote_nt1967_ref">† </a><p id="Bible_0610_OldAuth_25394">Heb. before.</p></div>
+<div id="lf0610_footnote_nt1968" class="type-footnote note"><a id="lf0610_label_7905" href="#lf0610_footnote_nt1968_ref">† </a><p id="Bible_0610_OldAuth_25395">Heb. do.</p></div>
+<div id="lf0610_footnote_nt1969" class="type-footnote note"><a id="lf0610_label_7908" href="#lf0610_footnote_nt1969_ref">* </a><p id="Bible_0610_OldAuth_25396">Josh. 1. 6.</p></div>
+<div id="lf0610_footnote_nt1970" class="type-footnote note"><a id="lf0610_label_7922" href="#lf0610_footnote_nt1970_ref">† </a><p id="Bible_0610_OldAuth_25397">Heb. He hath corrupted to himself.</p></div>
+<div id="lf0610_footnote_nt1971" class="type-footnote note"><a id="lf0610_label_7923" href="#lf0610_footnote_nt1971_ref">‎∥ </a><p id="Bible_0610_OldAuth_25398">Or, that they are not his children, that is their blot.</p></div>
+<div id="lf0610_footnote_nt1972" class="type-footnote note"><a id="lf0610_label_7926" href="#lf0610_footnote_nt1972_ref">† </a><p id="Bible_0610_OldAuth_25399">Heb. generation and generation.</p></div>
+<div id="lf0610_footnote_nt1973" class="type-footnote note"><a id="lf0610_label_7929" href="#lf0610_footnote_nt1973_ref">† </a><p id="Bible_0610_OldAuth_25400">Heb. cord.</p></div>
+<div id="lf0610_footnote_nt1974" class="type-footnote note"><a id="lf0610_label_7931" href="#lf0610_footnote_nt1974_ref">‎∥ </a><p id="Bible_0610_OldAuth_25401">Or, compassed him about.</p></div>
+<div id="lf0610_footnote_nt1975" class="type-footnote note"><a id="lf0610_label_7939" href="#lf0610_footnote_nt1975_ref">‎∥ </a><p id="Bible_0610_OldAuth_25402">Or, which were not God.</p></div>
+<div id="lf0610_footnote_nt1976" class="type-footnote note"><a id="lf0610_label_7942" href="#lf0610_footnote_nt1976_ref">‎∥ </a><p id="Bible_0610_OldAuth_25403">Or, despised.</p></div>
+<div id="lf0610_footnote_nt1977" class="type-footnote note"><a id="lf0610_label_7945" href="#lf0610_footnote_nt1977_ref">* </a><p id="Bible_0610_OldAuth_25404">Rom. 10. 9.</p></div>
+<div id="lf0610_footnote_nt1978" class="type-footnote note"><a id="lf0610_label_7947" href="#lf0610_footnote_nt1978_ref">‎∥ </a><p id="Bible_0610_OldAuth_25405">Or, hath burned.</p></div>
+<div id="lf0610_footnote_nt1979" class="type-footnote note"><a id="lf0610_label_7948" href="#lf0610_footnote_nt1979_ref">‎∥ </a><p id="Bible_0610_OldAuth_25406">Or, hath consumed.</p></div>
+<div id="lf0610_footnote_nt1980" class="type-footnote note"><a id="lf0610_label_7951" href="#lf0610_footnote_nt1980_ref">† </a><p id="Bible_0610_OldAuth_25407">Heb. burning coals.</p></div>
+<div id="lf0610_footnote_nt1981" class="type-footnote note"><a id="lf0610_label_7953" href="#lf0610_footnote_nt1981_ref">† </a><p id="Bible_0610_OldAuth_25408">Heb. from the chambers.</p></div>
+<div id="lf0610_footnote_nt1982" class="type-footnote note"><a id="lf0610_label_7954" href="#lf0610_footnote_nt1982_ref">† </a><p id="Bible_0610_OldAuth_25409">Heb. bereave.</p></div>
+<div id="lf0610_footnote_nt1983" class="type-footnote note"><a id="lf0610_label_7957" href="#lf0610_footnote_nt1983_ref">‎∥ </a><p id="Bible_0610_OldAuth_25410">Or, <span class="ital">Our high hand, and not the <span class="csc">Lord,</span> hath done all this.</span></p></div>
+<div id="lf0610_footnote_nt1984" class="type-footnote note"><a id="lf0610_label_7961" href="#lf0610_footnote_nt1984_ref">* </a><p id="Bible_0610_OldAuth_25411">Josh. 23. 10.</p></div>
+<div id="lf0610_footnote_nt1985" class="type-footnote note"><a id="lf0610_label_7964" href="#lf0610_footnote_nt1985_ref">‎∥ </a><p id="Bible_0610_OldAuth_25412">Or, is worse than the vine of Sodom, &amp;c.</p></div>
+<div id="lf0610_footnote_nt1986" class="type-footnote note"><a id="lf0610_label_7968" href="#lf0610_footnote_nt1986_ref">* </a><p id="Bible_0610_OldAuth_25413">Ecclus. 28 1. Rom. 12. 19. Heb. 10. 30.</p></div>
+<div id="lf0610_footnote_nt1987" class="type-footnote note"><a id="lf0610_label_7970" href="#lf0610_footnote_nt1987_ref">† </a><p id="Bible_0610_OldAuth_25414">Heb. hand.</p></div>
+<div id="lf0610_footnote_nt1988" class="type-footnote note"><a id="lf0610_label_7973" href="#lf0610_footnote_nt1988_ref">† </a><p id="Bible_0610_OldAuth_25415">Heb. an hiding for you.</p></div>
+<div id="lf0610_footnote_nt1989" class="type-footnote note"><a id="lf0610_label_7975" href="#lf0610_footnote_nt1989_ref">* </a><p id="Bible_0610_OldAuth_25416">1 Sam. 2 6. Tob. 13. 2 Wisd. 16. 13.</p></div>
+<div id="lf0610_footnote_nt1990" class="type-footnote note"><a id="lf0610_label_7980" href="#lf0610_footnote_nt1990_ref">‎∥ </a><p id="Bible_0610_OldAuth_25417">Or, Praise his people, ye nations. Or, Sing ye.</p></div>
+<div id="lf0610_footnote_nt1991" class="type-footnote note"><a id="lf0610_label_7981" href="#lf0610_footnote_nt1991_ref">* </a><p id="Bible_0610_OldAuth_25418">Matt. 7. 6. Rom. 15. 10.</p></div>
+<div id="lf0610_footnote_nt1992" class="type-footnote note"><a id="lf0610_label_7983" href="#lf0610_footnote_nt1992_ref">‎∥ </a><p id="Bible_0610_OldAuth_25419">Or, Joshua.</p></div>
+<div id="lf0610_footnote_nt1993" class="type-footnote note"><a id="lf0610_label_7986" href="#lf0610_footnote_nt1993_ref">* </a><p id="Bible_0610_OldAuth_25420">ch. 6 6. &amp;c 11. 18.</p></div>
+<div id="lf0610_footnote_nt1994" class="type-footnote note"><a id="lf0610_label_7989" href="#lf0610_footnote_nt1994_ref">* </a><p id="Bible_0610_OldAuth_25421">Num. 27. 12.</p></div>
+<div id="lf0610_footnote_nt1995" class="type-footnote note"><a id="lf0610_label_7992" href="#lf0610_footnote_nt1995_ref">* </a><p id="Bible_0610_OldAuth_25422">Num. 20. 25, 28. &amp;c 33. 38.</p></div>
+<div id="lf0610_footnote_nt1996" class="type-footnote note"><a id="lf0610_label_7994" href="#lf0610_footnote_nt1996_ref">* </a><p id="Bible_0610_OldAuth_25423">Num. 20. 12, 13. &amp;c 27. 14.</p></div>
+<div id="lf0610_footnote_nt1997" class="type-footnote note"><a id="lf0610_label_7995" href="#lf0610_footnote_nt1997_ref">‎∥ </a><p id="Bible_0610_OldAuth_25424">Or, Strife at Kadesh.</p></div>
+<div id="lf0610_footnote_nt1998" class="type-footnote note"><a id="lf0610_label_8000" href="#lf0610_footnote_nt1998_ref">† </a><p id="Bible_0610_OldAuth_25425">Heb. a fire of law.</p></div>
+<div id="lf0610_footnote_nt1999" class="type-footnote note"><a id="lf0610_label_8007" href="#lf0610_footnote_nt1999_ref">* </a><p id="Bible_0610_OldAuth_25426">Ex. 28. 30.</p></div>
+<div id="lf0610_footnote_nt2000" class="type-footnote note"><a id="lf0610_label_8010" href="#lf0610_footnote_nt2000_ref">‎∥ </a><p id="Bible_0610_OldAuth_25427">Or, Let them teach, &amp;c.</p></div>
+<div id="lf0610_footnote_nt2001" class="type-footnote note"><a id="lf0610_label_8011" href="#lf0610_footnote_nt2001_ref">‎∥ </a><p id="Bible_0610_OldAuth_25428">Or, let them put incense.</p></div>
+<div id="lf0610_footnote_nt2002" class="type-footnote note"><a id="lf0610_label_8012" href="#lf0610_footnote_nt2002_ref">† </a><p id="Bible_0610_OldAuth_25429">Heb. at thy nose.</p></div>
+<div id="lf0610_footnote_nt2003" class="type-footnote note"><a id="lf0610_label_8016" href="#lf0610_footnote_nt2003_ref">* </a><p id="Bible_0610_OldAuth_25430">Gen. 49. 25.</p></div>
+<div id="lf0610_footnote_nt2004" class="type-footnote note"><a id="lf0610_label_8018" href="#lf0610_footnote_nt2004_ref">† </a><p id="Bible_0610_OldAuth_25431">Heb. thrust forth.</p></div>
+<div id="lf0610_footnote_nt2005" class="type-footnote note"><a id="lf0610_label_8019" href="#lf0610_footnote_nt2005_ref">† </a><p id="Bible_0610_OldAuth_25432">Heb. moons.</p></div>
+<div id="lf0610_footnote_nt2006" class="type-footnote note"><a id="lf0610_label_8022" href="#lf0610_footnote_nt2006_ref">* </a><p id="Bible_0610_OldAuth_25433">Gen. 49. 26.</p></div>
+<div id="lf0610_footnote_nt2007" class="type-footnote note"><a id="lf0610_label_8028" href="#lf0610_footnote_nt2007_ref">† </a><p id="Bible_0610_OldAuth_25434">Heb. cieled.</p></div>
+<div id="lf0610_footnote_nt2008" class="type-footnote note"><a id="lf0610_label_8033" href="#lf0610_footnote_nt2008_ref">‎∥ </a><p id="Bible_0610_OldAuth_25435">Or, Under thy shoes shall be iron.</p></div>
+<div id="lf0610_footnote_nt2009" class="type-footnote note"><a id="lf0610_label_8037" href="#lf0610_footnote_nt2009_ref">* </a><p id="Bible_0610_OldAuth_25436">Jer. 23. 6.</p></div>
+<div id="lf0610_footnote_nt2010" class="type-footnote note"><a id="lf0610_label_8039" href="#lf0610_footnote_nt2010_ref">‎∥ </a><p id="Bible_0610_OldAuth_25437">Or, shall be subdued.</p></div>
+<div id="lf0610_footnote_nt2011" class="type-footnote note"><a id="lf0610_label_8042" href="#lf0610_footnote_nt2011_ref">‎∥ </a><p id="Bible_0610_OldAuth_25438">Or, The kill.</p></div>
+<div id="lf0610_footnote_nt2012" class="type-footnote note"><a id="lf0610_label_8043" href="#lf0610_footnote_nt2012_ref">* </a><p id="Bible_0610_OldAuth_25439">ch. 3. 27. 2 Mac. 2. 4.</p></div>
+<div id="lf0610_footnote_nt2013" class="type-footnote note"><a id="lf0610_label_8047" href="#lf0610_footnote_nt2013_ref">* </a><p id="Bible_0610_OldAuth_25440">Gen. 12 7. &amp;c 13. 15.</p></div>
+<div id="lf0610_footnote_nt2014" class="type-footnote note"><a id="lf0610_label_8051" href="#lf0610_footnote_nt2014_ref">† </a><p id="Bible_0610_OldAuth_25441">Heb. moisture.</p></div>
+<div id="lf0610_footnote_nt2015" class="type-footnote note"><a id="lf0610_label_8052" href="#lf0610_footnote_nt2015_ref">† </a><p id="Bible_0610_OldAuth_25442">Heb. fied.</p></div>
+<div id="lf0610_footnote_nt2016" class="type-footnote note"><a id="lf0610_label_8060" href="#lf0610_footnote_nt2016_ref">* </a><p id="Bible_0610_OldAuth_25443">Deut. 1. 38.</p></div>
+<div id="lf0610_footnote_nt2017" class="type-footnote note"><a id="lf0610_label_8063" href="#lf0610_footnote_nt2017_ref">* </a><p id="Bible_0610_OldAuth_25444">Deut. 11. 24. ch. 14. 9.</p></div>
