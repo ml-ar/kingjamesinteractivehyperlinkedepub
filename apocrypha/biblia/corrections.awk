@@ -1,4 +1,6 @@
 #feed a list of footnotes into this script to correct discrepancies
+#rememeber to be careful when correcting multiple discrepancies in the same line! Don't find and replace twice
+
 
 {
 toReturn = $0
@@ -35,6 +37,12 @@ toReturn = gensub(/And these are the names of the men which went up, according t
 toReturn = gensub(/The priests, the sons of Phinees the son of Aaron: Jesus the son of Josedec, the son of Saraias, and Joacim the son of Zorobabel, the son of Salathiel of the house of David,/,"The priests, the sons of Phinees the son of Aaron: Jesus the son of Josedec, the son of Saraias, and Joacim the son of Zorobabel, the son of Salathiel, of the house of David,","g,",toReturn)
 toReturn = gensub(/And they returned unto Jerusalem, and to the other parts of Jewry, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, and Zacharias, and Resaias, Enenius, Mardocheus, Beelsarus,/,"And they returned unto Jerusalem, and to the other parts of Jewry, every man to his own city, who came with Zorobabel, with Jesus, Nehemias, and Zacharias, and Reesaias, Enenius, Mardocheus. Beelsarus,","g,",toReturn)
 toReturn = gensub(/the sons of The sons of Elam, a thousand two hundred fifty and four: the sons of Zathui, nine hundred forty and five: the sons of/,"The sons of Elam, a thousand two hundred fifty and four: the sons of Zathui, nine hundred forty and five: the sons of","g,",toReturn)
+toReturn = gensub(/Then king Artaxerxes his letters being read, Rathumus, and Semellius the scribe, and the rest that were in commission with them, removing in haste towards Jerusalem with a troop of horsemen and a multitude of people in battle array, began to hinder the builders;/,"Then king Artexerxes his letters being read, Rathumus, and Semellius the scribe, and the rest that were in commission with them, removing in haste toward Jerusalem with a troop of horsemen and a multitude of people in battle array, began to hinder the builders;","1",toReturn)
+toReturn = gensub(/Then king Artaxerxes his letters being read, Rathumus, and Semellius the scribe, and the rest that were in commission with them, removing in haste towards Jerusalem with a troop of horsemen and/,"Then king Artexerxes his letters being read, Rathumus, and Semellius the scribe, and the rest that were in commission with them, removing in haste toward Jerusalem with a troop of horsemen and","1",toReturn)
+toReturn = gensub(/Then king Artaxerxes his letters being read, Rathumus, and Semellius the/,"Then king Artexerxes his letters being read, Rathumus, and Semellius the","1",toReturn)
+
+
+
 }
 
 {
