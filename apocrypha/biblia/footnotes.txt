@@ -151,9 +151,9 @@
 1 Esdras	4	63	2	to go up, and to build Jerusalem, and the temple which is called by his name: and they feasted 	i	<a href='1ES.xhtml#E15_2'>ch. 5. 2</a>.
 1 Esdras	4	9	1	if he command 	a	Comp. <a href='DEU.xhtml#DT20_19'>Deut. 20. 19</a>, <a href='DEU.xhtml#DT20_20'>20</a>.
 1 Esdras	5	12	1	the sons of Elam, a thousand two hundred fifty and four: the sons of 	x	<span class='add'>Zattu</span>.
-1 Esdras	5	12	2	the sons of Elam, a thousand two hundred fifty and four: the sons of Zathui, nine hundred forty and five: the sons of 	y	<span class='add'>Zacchai</span>.
+1 Esdras	5	12	2	The sons of Elam, a thousand two hundred fifty and four: the sons of Zathul, nine hundred forty and five: the sons of 	y	<span class='add'>Zacchai</span>.
 1 Esdras	5	13	1	the sons of Bebai, six hundred twenty and three: the sons of 	z	<span class='add'>Azgad</span>.
-1 Esdras	5	14	1	the sons of Adonican, six hundred sixty and seven: the sons of 	a	<span class='add'>Bigui</span>.
+1 Esdras	5	14	1	The sons of Adonikam, six hundred sixty and seven: the sons of 	a	<span class='add'>Bigui</span>.
 1 Esdras	5	15	1	the sons of 	b	<span class='add'>Ater-hezekiah</span>.
 1 Esdras	5	16	1	the sons of Ananias, an hundred and one: the sons of Arom, thirty two: and the sons of 	c	<span class='add'>Bezai</span>.
 1 Esdras	5	17	1	the sons of Meterus, three thousand and five: the sons of 	d	<span class='add'>Bethlehem</span>.
@@ -164,15 +164,15 @@
 1 Esdras	5	2	3	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and with musical instruments 	c	Gk. as <a href='GEN.xhtml#GN31_27'>Gen. 31. 27</a>. <a href='1SA.xhtml#S118_6'>1 Sam. 18. 6</a>, &amp;c.
 1 Esdras	5	2	4	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and with musical instruments 	d	<a href='ISA.xhtml#IS5_12'>Isai. 5. 12</a> (Gk.). So <a href='EZK.xhtml#EK28_13'>Ezek. 28. 13</a>.
 1 Esdras	5	2	5	And Darius sent with them a thousand horsemen, till they had brought them back to Jerusalem safely, and with musical instruments tabrets and 	d	<a href='ISA.xhtml#IS5_12'>Isai. 5. 12</a> (Gk.). So <a href='EZK.xhtml#EK28_13'>Ezek. 28. 13</a>.
-1 Esdras	5	20	1	they of Chadias and Ammidioi, four hundred twenty and two: they of 	g	<span class='add'>Rama</span>[<span class='add'>h</span>].
-1 Esdras	5	20	2	they of Chadias and Ammidioi, four hundred twenty and two: they of Cirama and 	h	<span class='add'>Gaba</span>.
+1 Esdras	5	20	1	They of Chadias and Ammidoi, four hundred twenty and two: they of 	g	<span class='add'>Rama</span>[<span class='add'>h</span>].
+1 Esdras	5	20	2	They of Chadias and Ammidoi, four hundred twenty and two: they of Cirama and 	h	<span class='add'>Gaba</span>.
 1 Esdras	5	21	1	they of 	i	<span class='add'>Michmas</span>.
 1 Esdras	5	21	2	they of Macalon, an hundred twenty and two: they of 	k	<span class='add'>Bethel</span>.
 1 Esdras	5	21	3	they of Macalon, an hundred twenty and two: they of Betolius, fifty and two: the sons of 	l	<span class='add'>Magbish</span>.
 1 Esdras	5	22	1	the sons of 	m	<span class='add'>Lodhadid</span>.
 1 Esdras	5	23	1	the sons of 	n	<span class='add'>Senaah</span>.
 1 Esdras	5	24	1	The priests: the sons of 	o	<span class='add'>Jedaiah</span>. See <a href='EZR.xhtml#ER2_36'>Ezra 2. 36</a>.
-1 Esdras	5	24	2	The priests: the sons of Jeddu, the son of Jesus, among the sons of Sanasib, nine hundred seventy and two: the sons of 	p	<span class='add'>Immer</span>.
+1 Esdras	5	24	2	The priests: the sons of Jeddu, the son of Jesus among the sons of Sanasib, nine hundred seventy and two: the sons of 	p	<span class='add'>Immer</span>.
 1 Esdras	5	25	1	the sons of 	q	<span class='add'>Pashur</span>.
 1 Esdras	5	25	2	the sons of Phassaron, a thousand forty and seven: the sons of 	r	<span class='add'>Harim</span>.
 1 Esdras	5	25	3	the sons of Phassaron, a thousand forty and seven: the sons of Carme, 	s	Or, <span class='add'>two hundred and seventeen</span>, according to some copies.
@@ -193,20 +193,20 @@
 1 Esdras	5	30	3	the sons of Acua, the sons of Uta, the sons of Cetab, the sons of Agaba, the sons of 	k	<span class='add'>Shamlai</span>.
 1 Esdras	5	30	4	the sons of Acua, the sons of Uta, the sons of Cetab, the sons of Agaba, the sons of Subai, the sons of Anan, the sons of 	l	<span class='add'>Giddel</span>.
 1 Esdras	5	30	5	the sons of Acua, the sons of Uta, the sons of Cetab, the sons of Agaba, the sons of Subai, the sons of Anan, the sons of Cathua, the sons of 	m	<span class='add'>Gahar</span>.
-1 Esdras	5	31	1	the sons of 	n	<span class='add'>Reaiah</span>.
-1 Esdras	5	31	2	the sons of Airus, the sons of 	o	<span class='add'>Rezin</span>.
-1 Esdras	5	31	3	the sons of Airus, the sons of Daisan, the sons of 	p	<span class='add'>Nekoda</span>.
-1 Esdras	5	31	4	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of 	q	<span class='add'>Gazzam</span>.
-1 Esdras	5	31	5	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of 	r	<span class='add'>Huzza</span>.
-1 Esdras	5	31	6	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of 	s	<span class='add'>Paseah</span>.
-1 Esdras	5	31	7	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of 	t	<span class='add'>Besai</span>.
-1 Esdras	5	31	8	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of 	u	<span class='add'>Asnah</span>.
-1 Esdras	5	31	9	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of 	x	<span class='add'>Mehunim</span>.
-1 Esdras	5	31	10	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of 	y	<span class='add'>Nephusim</span>.
-1 Esdras	5	31	11	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of 	z	<span class='add'>Bakbuk</span>.
-1 Esdras	5	31	12	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of 	a	<span class='add'>Hakupha</span>.
-1 Esdras	5	31	13	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of Acipha, the sons of 	b	<span class='add'>Harhur</span>.
-1 Esdras	5	31	14	the sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azara, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of Acipha, the sons of Assur, the sons of Pharacim, the sons of 	c	<span class='add'>Bazluth</span>.
+1 Esdras	5	31	1	The sons of 	n	<span class='add'>Reaiah</span>.
+1 Esdras	5	31	2	The sons of Airus, the sons of 	o	<span class='add'>Rezin</span>.
+1 Esdras	5	31	3	The sons of Airus, the sons of Daisan, the sons of 	p	<span class='add'>Nekoda</span>.
+1 Esdras	5	31	4	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of 	q	<span class='add'>Gazzam</span>.
+1 Esdras	5	31	5	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of 	r	<span class='add'>Huzza</span>.
+1 Esdras	5	31	6	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of 	s	<span class='add'>Paseah</span>.
+1 Esdras	5	31	7	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of 	t	<span class='add'>Besai</span>.
+1 Esdras	5	31	8	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of 	u	<span class='add'>Asnah</span>.
+1 Esdras	5	31	9	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of Asana, the sons of 	x	<span class='add'>Mehunim</span>.
+1 Esdras	5	31	10	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of 	y	<span class='add'>Nephusim</span>.
+1 Esdras	5	31	11	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of 	z	<span class='add'>Bakbuk</span>.
+1 Esdras	5	31	12	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of 	a	<span class='add'>Hakupha</span>.
+1 Esdras	5	31	13	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of Acipha, the sons of 	b	<span class='add'>Harhur</span>.
+1 Esdras	5	31	14	The sons of Airus, the sons of Daisan, the sons of Noeba, the sons of Chaseba, the sons of Gazera, the sons of Azia, the sons of Phinees, the sons of Azare, the sons of Bastai, the sons of Asana, the sons of Meani, the sons of Naphisi, the sons of Acub, the sons of Acipha, the sons of Assur, the sons of Pharacim, the sons of 	c	<span class='add'>Bazluth</span>.
 1 Esdras	5	32	1	the sons of 	d	<span class='add'>Mehida</span>.
 1 Esdras	5	32	2	the sons of Meeda, the sons of Coutha, the sons of 	e	<span class='add'>Harsha</span>.
 1 Esdras	5	32	3	the sons of Meeda, the sons of Coutha, the sons of Charea, the sons of 	f	<span class='add'>Barkos</span>.
@@ -218,7 +218,7 @@
 1 Esdras	5	33	3	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of 	m	<span class='add'>Jaalah</span>.
 1 Esdras	5	33	4	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of 	n	<span class='add'>Darkon</span>.
 1 Esdras	5	33	5	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of Lozon, the sons of 	o	<span class='add'>Giddel</span>.
-1 Esdras	5	33	6	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of Lozon, the sons of Isdael, the sons of 	p	<span class='add'>Shephatiah</span>.
+1 Esdras	5	33	6	The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of Lozon, the sons of Israel, the sons of 	p	<span class='add'>Shephatiah</span>.
 1 Esdras	5	34	1	the sons of 	q	<span class='add'>Hattil</span>.
 1 Esdras	5	34	2	the sons of Hagia, the sons of 	r	<span class='add'>Pochereth Hazzebaim</span>, <a href='EZR.xhtml#ER2_57'>Ezra 2. 57</a> (Heb.).
 1 Esdras	5	37	1	neither could they shew their families, nor their stock, how they were of Israel: the sons of 	s	<span class='add'>Delaiah</span>.
