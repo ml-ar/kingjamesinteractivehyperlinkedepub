@@ -68,6 +68,9 @@ toReturn = gensub(/And they arose against the two elders, \(for/,"And they arose
 		toReturn=gensub(/the sons of Adonican, six hundred sixty and seven: the sons of/,"The sons of Adonikam, six hundred sixty and seven: the sons of","1",toReturn)
 		toReturn=gensub(/they of Chadias and Ammidioi, four hundred twenty and two: they of/,"They of Chadias and Ammidoi, four hundred twenty and two: they of","1",toReturn)
 		toReturn=gensub(/The priests: the sons of Jeddu, the son of Jesus, among the sons of Sanasib, nine hundred seventy and two: the sons of/,"The priests: the sons of Jeddu, the son of Jesus among the sons of Sanasib, nine hundred seventy and two: the sons of","1",toReturn)
+		toReturn=gensub(/So of Israel, from them of twelve years old and upward, they were all in number forty thousand, besides/,"So of Israel, from them of twelve years old and upward, they were all in number forty thousand, beside","1",toReturn)
+		toReturn=gensub(/Then stood up Jesus the son of Josedec, and his brethren the priests, and/,"Then stood up Jesus the son of Josedec, and his brethren the priests and","1",toReturn)
+		toReturn=gensub(/For we likewise, as you, do obey your Lord, and do sacrifice unto him from the days of/,"For we likewise, as ye, do obey your Lord, and do sacrifice unto him from the days of","1",toReturn)
 
 #mass changes
 		if ($2 == "2")
@@ -90,6 +93,12 @@ toReturn = gensub(/And they arose against the two elders, \(for/,"And they arose
 			else if ($3 == "33")
 			{
 				$5 = correctAllVerses($1, $2, $3, $5, "The sons of the servants of Solomon: the sons of Azaphion, the sons of Pharira, the sons of Jeeli, the sons of Lozon, the sons of Israel, the sons of Sapheth, ")
+					toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+			}
+			else if ($3 == "55")
+			{
+				$5 = correctAllVerses($1, $2, $3, $5, "Unto them of Zidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, which should be brought by floats to the haven of Joppa, according as it was commanded them by Cyrus king of the Persians.")
 					toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 
 			}

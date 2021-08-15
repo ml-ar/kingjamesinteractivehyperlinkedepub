@@ -230,7 +230,7 @@
 1 Esdras	5	4	1	And these are the names of the men which went up, according to their families among their tribes, after 	e	<a href='1ES.xhtml#E11_5'>ch. 1. 5</a>, <a href='1ES.xhtml#E11_11'>11</a> (Gk.).
 1 Esdras	5	40	1	for unto them said 	*	<span class='add'>Nehemias, who also is Atharias:</span> two of one: <a href='EZR.xhtml#ER2_63'>Ezra 2. 63</a>. See <a href='NEH.xhtml#NH8_9'>Neh. 8. 9</a>. Comp. <a href='1ES.xhtml#E19_49'>ch. 9. 49</a>.
 1 Esdras	5	40	2	for unto them said Nehemias and Atharias, that they should not be partakers of the holy things, till there arose up an high priest clothed with 	*	Heb. <span class='add'>Urim and Thummim</span>. See <a href='EXO.xhtml#EX28_30'>Ex. 28. 30</a>.
-1 Esdras	5	41	1	So of Israel, from them of twelve years old and upward, they were all in number forty thousand, besides 	a	<a href='1ES.xhtml#E15_1'>ver. 1</a>, <a href='1ES.xhtml#E15_42'>42</a> (Gk.).
+1 Esdras	5	41	1	So of Israel, from them of twelve years old and upward, they were all in number forty thousand, beside 	a	<a href='1ES.xhtml#E15_1'>ver. 1</a>, <a href='1ES.xhtml#E15_42'>42</a> (Gk.).
 1 Esdras	5	42	1	Their 	a	<a href='1ES.xhtml#E15_1'>ver. 1</a>, <a href='1ES.xhtml#E15_42'>42</a> (Gk.).
 1 Esdras	5	42	2	Their menservants and handmaids were seven thousand three hundred 	b	Comp. <a href='EZR.xhtml#ER2_65'>Ezra 2. 65</a>. <a href='NEH.xhtml#NH7_67'>Neh. 7. 67</a>.
 1 Esdras	5	43	1	four hundred thirty and five camels, 	c	Comp. <a href='EZR.xhtml#ER2_66'>Ezra 2. 66</a>, <a href='EZR.xhtml#ER2_67'>67</a>. <a href='NEH.xhtml#NH7_68'>Neh. 7. 68</a>, <a href='NEH.xhtml#NH7_69'>69</a>.
@@ -243,7 +243,7 @@
 1 Esdras	5	47	3	But when the seventh month was at hand, and when the children of Israel were every man in 	f	<a href='1ES.xhtml#E16_32'>ch. 6. 32</a>. See <a href='JHN.xhtml#JN16_32'>John 16. 32</a> marg.
 1 Esdras	5	47	4	But when the seventh month was at hand, and when the children of Israel were every man in his own place, they came all together with one consent into the open place 	*	Or, <span class='add'>before the east gate</span>.
 1 Esdras	5	48	1	Then stood up 	g	See <a href='1ES.xhtml#E15_5'>ver. 5</a>.
-1 Esdras	5	48	2	Then stood up Jesus the son of Josedec, and his brethren the priests, and 	g	See <a href='1ES.xhtml#E15_5'>ver. 5</a>.
+1 Esdras	5	48	2	Then stood up Jesus the son of Josedec, and his brethren the priests and 	g	See <a href='1ES.xhtml#E15_5'>ver. 5</a>.
 1 Esdras	5	5	1		f	<a href='NEH.xhtml#NH12_1'>Neh. 12. 1</a>.
 1 Esdras	5	5	2	The priests, 	g	<a href='1CH.xhtml#R16_4'>1 Chr. 6. 4</a>, <a href='1CH.xhtml#R16_14'>14</a>, <a href='1CH.xhtml#R16_15'>15</a>.
 1 Esdras	5	5	3	The priests, the sons of Phinees the son of Aaron: 	h	<a href='1ES.xhtml#E15_48'>ver. 48</a>. <a href='EZR.xhtml#ER3_2'>Ezra 3. 2</a> marg. See <a href='NEH.xhtml#NH12_7'>Neh. 12. 7</a>.
@@ -256,9 +256,9 @@
 1 Esdras	5	52	1	and after that, the 	*	Or, <span class='add'>daily sacrifice</span>. <a href='1ES.xhtml#E15_50'>ver. 50</a>? <a href='EXO.xhtml#EX29_38'>Ex. 29. 38</a>?
 1 Esdras	5	53	1	And all they that had 	*	Gr. <span class='add'>hallowed</span>.
 1 Esdras	5	53	2	And all they that had made any vow to God began to offer sacrifices to God from 	i	<a href='1ES.xhtml#E15_47'>ver. 47</a>.
-1 Esdras	5	55	1	Unto them of Sidon also and Tyre they gave carrs, that they should bring 	k	<a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. See <a href='JDG.xhtml#JG9_15'>Judg. 9. 15</a>.
-1 Esdras	5	55	2	Unto them of Sidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, 	l	So <a href='2CH.xhtml#R22_16'>2 Chr. 2. 16</a>.
-1 Esdras	5	55	3	Unto them of Sidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, which should be brought by flotes to the haven of 	m	See <a href='JOS.xhtml#JS19_46'>Josh. 19. 46</a>.
+1 Esdras	5	55	1	Unto them of Zidon also and Tyre they gave carrs, that they should bring 	k	<a href='1ES.xhtml#E14_48'>ch. 4. 48</a>. See <a href='JDG.xhtml#JG9_15'>Judg. 9. 15</a>.
+1 Esdras	5	55	2	Unto them of Zidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, 	l	So <a href='2CH.xhtml#R22_16'>2 Chr. 2. 16</a>.
+1 Esdras	5	55	3	Unto them of Zidon also and Tyre they gave carrs, that they should bring cedar trees from Libanus, which should be brought by floats to the haven of 	m	See <a href='JOS.xhtml#JS19_46'>Josh. 19. 46</a>.
 1 Esdras	5	56	1		n	To <a href='1ES.xhtml#E15_65'>ver. 65</a>, <a href='EZR.xhtml#ER3_8'>Ezra 3. 8–13</a>.
 1 Esdras	5	58	1	And they appointed the Levites from twenty years old over the works of the Lord. Then stood up Jesus, and his sons and brethren, and Cadmiel his brother, and the sons of Madiabun, with the sons of Joda the son of Eliadun, with their sons and brethren, all Levites, with one accord 	*	Or, <span class='add'>overseers</span>, or, <span class='add'>encouragers of them that wrought in the house of the Lord</span>.
 1 Esdras	5	6	1		*	<span class='add'>Zorobabel</span>.
@@ -267,7 +267,7 @@
 1 Esdras	5	60	1	singing songs of thanksgiving, and praising the Lord, 	*	Or, <span class='add'>after the manner of David king of Israel</span>.
 1 Esdras	5	65	1	insomuch that the trumpets might not be 	*	Or, <span class='add'>discerned</span>. See <a href='JHN.xhtml#JN8_43'>John 8. 43</a>.
 1 Esdras	5	66	1		o	To <a href='1ES.xhtml#E15_73'>ver. 73</a>, <a href='EZR.xhtml#ER4_1'>Ezra 4. 1–5</a>.
-1 Esdras	5	69	1	For we likewise, as you, do obey your Lord, and do sacrifice unto him from the days of 	*	Or, <span class='add'>Esarhaddon</span>, <a href='EZR.xhtml#ER4_2'>Ezra 4. 2</a>.
+1 Esdras	5	69	1	For we likewise, as ye, do obey your Lord, and do sacrifice unto him from the days of 	*	Or, <span class='add'>Esarhaddon</span>, <a href='EZR.xhtml#ER4_2'>Ezra 4. 2</a>.
 1 Esdras	5	7	1		n	To <a href='1ES.xhtml#E15_46'>ver. 46</a>, <a href='EZR.xhtml#ER2_1'>Ezra 2. 1–70</a>. <a href='NEH.xhtml#NH7_6'>Neh. 7. 6–73</a>.
 1 Esdras	5	70	1		*	About B.C. 534.
 1 Esdras	5	73	1	and by their secret plots, and popular persuasions and commotions, they hindered the finishing of the building all the time that king Cyrus lived: so they were hindered from building for the space of two years, 	*	[Or,] <span class='add'>until the second year of Darius</span>, <a href='EZR.xhtml#ER4_5'>Ezra 4. 5</a>, <a href='EZR.xhtml#ER4_6'>6</a>, <a href='EZR.xhtml#ER4_7'>7</a>, <a href='EZR.xhtml#ER4_24'>24</a>.
