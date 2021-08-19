@@ -262,7 +262,7 @@ else if ($3 == "19")
 			}
 			else if ($3 == "49")
 			{
-				$5 = correctAllVerses($5, "Then spake Attharates unto Esdras the chief priest. and reader, and to the Levites that taught the multitude, even to all, saying, ")
+				$5 = correctAllVerses($5, "Then spake Attharates unto Esdras the chief priest, and reader, and to the Levites that taught the multitude, even to all, saying, ")
 
 					toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 			}

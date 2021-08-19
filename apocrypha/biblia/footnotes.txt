@@ -496,7 +496,7 @@
 1 Esdras	9	49	1		*	<span class='add'>Then Nehemiah, and Ezra the priest the scribe, and the Levites that instructed the people, said unto all the people</span>, <a href='NEH.xhtml#NH8_9'>Neh. 8. 9</a>.
 1 Esdras	9	49	2	Then spake 	n	See <a href='1ES.xhtml#E15_40'>ch. 5. 40</a> marg.
 1 Esdras	9	49	3	Then spake Attharates unto Esdras the 	o	<a href='1ES.xhtml#E19_40'>ver. 40</a>.
-1 Esdras	9	49	4	Then spake Attharates unto Esdras the chief priest. and 	a	<a href='1ES.xhtml#E18_8'>ch. 8. 8</a>.
+1 Esdras	9	49	4	Then spake Attharates unto Esdras the chief priest, and 	a	<a href='1ES.xhtml#E18_8'>ch. 8. 8</a>.
 1 Esdras	9	5	1		a	To <a href='1ES.xhtml#E19_36'>ver. 36</a>, <a href='EZR.xhtml#ER10_9'>Ezra 10. 9–44</a>.
 1 Esdras	9	51	1	go then, and eat the fat, and drink the sweet, and send part to 	*	Or, <span class='add'>the poor</span>. So <a href='1ES.xhtml#E19_54'>ver. 54</a>. Comp. <a href='NEH.xhtml#NH8_10'>Neh. 8. 10</a>.
 1 Esdras	9	54	1	Then went they their way, every one to eat and drink, and make merry, and to give 	p	<a href='1ES.xhtml#E19_51'>ver. 51</a>.
