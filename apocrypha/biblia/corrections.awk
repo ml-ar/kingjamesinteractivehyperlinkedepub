@@ -271,6 +271,91 @@ else if ($3 == "19")
 
 }
 
+/^2 Esdras/ {
+	if ($2 == "1")
+	{
+
+
+		if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "I led you through the sea and in the beginning gave you a large and safe passage; I gave you Moses for a leader, and Aaron for a priest.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "I divided among you a fruitful land, I cast out the Canaanites, the Pherezites, and the Philistines, before you: what shall I yet do more for you? saith the Lord.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "Thus saith the Almighty Lord, When ye were in the wilderness, in the river of the Amorites, being athirst, and blaspheming my name, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "26")
+		{
+			$5 = correctAllVerses($5, "Whensoever ye shall call upon me, I will not hear you: for ye have defiled your hands with blood, and your feet are swift to commit manslaughter.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "40")
+		{
+			$5 = correctAllVerses($5, "Nahum, and Abacuc, Sophonias, Aggeus, Zachary, and Malachy, which is called also an angel of the Lord.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "2")
+	{
+
+
+		if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "For thy help will I send my servants Esau and Jeremy, after whose counsel I have sanctified and prepared for thee twelve trees laden with divers fruits, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "3")
+	{
+
+
+		if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "And it came to pass, that when thou leadest his seed out of Egypt, thou broughtest them up to the mount Sinai.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "Thus infirmity was made permanent; and the law (also) in the heart of the people with the malignity of the root; so that the good departed away, and the evil abode still.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "4")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And said, Thy heart hath gone to far in this world, and thinkest thou to comprehend the way of the most High?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "How should thy vessel then be able to comprehend the way of the Highest, and, the world being now outwardly corrupted to understand the corruption that is evident in my sight?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+}
 
 {
 print toReturn;

@@ -6,9 +6,9 @@
 2 Esdras	1	11	2	All the nations have I destroyed before them, and in the east I have scattered the people of 	k	<a href='NUM.xhtml#NU21_23'>Numb. 21. 23</a>, <a href='NUM.xhtml#NU21_24'>24</a>, <a href='NUM.xhtml#NU21_33'>33–35</a>.
 2 Esdras	1	11	3	All the nations have I destroyed before them, and in the east I have scattered the people of two provinces, even 	l	<a href='JOS.xhtml#JS11_8'>Josh. 11. 8</a>.
 2 Esdras	1	13	1		m	<a href='EXO.xhtml#EX14_29'>Ex. 14. 29</a>.
-2 Esdras	1	13	2	I led you through the sea, and in the beginning gave you a large and safe 	*	Or, <span class='add'>street</span>. Comp. <a href='ISA.xhtml#IS62_10'>Isai. 62. 10</a>.
-2 Esdras	1	13	3	I led you through the sea, and in the beginning gave you a large and safe passage; I gave you 	n	<a href='EXO.xhtml#EX3_10'>Ex. 3. 10</a>.
-2 Esdras	1	13	4	I led you through the sea, and in the beginning gave you a large and safe passage; I gave you Moses for a leader, and 	o	<a href='EXO.xhtml#EX4_14'>Ex. 4. 14</a>.
+2 Esdras	1	13	2	I led you through the sea and in the beginning gave you a large and safe 	*	Or, <span class='add'>street</span>. Comp. <a href='ISA.xhtml#IS62_10'>Isai. 62. 10</a>.
+2 Esdras	1	13	3	I led you through the sea and in the beginning gave you a large and safe passage; I gave you 	n	<a href='EXO.xhtml#EX3_10'>Ex. 3. 10</a>.
+2 Esdras	1	13	4	I led you through the sea and in the beginning gave you a large and safe passage; I gave you Moses for a leader, and 	o	<a href='EXO.xhtml#EX4_14'>Ex. 4. 14</a>.
 2 Esdras	1	14	1		p	<a href='EXO.xhtml#EX13_21'>Ex. 13. 21</a>.
 2 Esdras	1	14	2	I gave you light in a pillar of fire, and great wonders have I done among you; 	q	See <a href='JER.xhtml#JR2_32'>Jer. 2. 32</a>.
 2 Esdras	1	15	1	Thus saith the 	r	<a href='2ES.xhtml#E21_22'>ver. 22</a>, <a href='2ES.xhtml#E21_28'>28</a>, <a href='2ES.xhtml#E21_33'>33</a>. <a href='2ES.xhtml#E22_9'>ch. 2. 9</a>, <a href='2ES.xhtml#E22_31'>31</a>. See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
@@ -20,17 +20,17 @@
 2 Esdras	1	19	2	Then had I pity upon your mournings, and gave you manna to eat; so 	x	See <a href='WIS.xhtml#WS16_20'>Wisd. 16. 20</a>.
 2 Esdras	1	20	1		y	See <a href='WIS.xhtml#WS11_4'>Wisd. 11. 4</a>.
 2 Esdras	1	20	2	When ye were thirsty, did I not cleave the rock, and waters flowed out 	*	Or, <span class='add'>abundantly</span>.
-2 Esdras	1	21	1	I divided amongst you 	z	See <a href='EXO.xhtml#EX3_8'>Ex. 3. 8</a>.
-2 Esdras	1	21	2	I divided amongst you a fruitful land, I cast out the Canaanites, the Pherezites, and the Philistines, before you: 	a	<a href='ISA.xhtml#IS5_4'>Isai. 5. 4</a>.
+2 Esdras	1	21	1	I divided among you 	z	See <a href='EXO.xhtml#EX3_8'>Ex. 3. 8</a>.
+2 Esdras	1	21	2	I divided among you a fruitful land, I cast out the Canaanites, the Pherezites, and the Philistines, before you: 	a	<a href='ISA.xhtml#IS5_4'>Isai. 5. 4</a>.
 2 Esdras	1	22	1	Thus saith the 	b	<a href='2ES.xhtml#E21_15'>ver. 15</a>.
-2 Esdras	1	22	2	Thus saith the Almighty Lord, When you were in the wilderness, 	*	Or, <span class='add'>at the bitter waters</span>, or, <span class='add'>waters of Marah</span>. <a href='EXO.xhtml#EX15_23'>Ex. 15. 23</a>, <a href='EXO.xhtml#EX15_24'>24</a>.
+2 Esdras	1	22	2	Thus saith the Almighty Lord, When ye were in the wilderness, 	*	Or, <span class='add'>at the bitter waters</span>, or, <span class='add'>waters of Marah</span>. <a href='EXO.xhtml#EX15_23'>Ex. 15. 23</a>, <a href='EXO.xhtml#EX15_24'>24</a>.
 2 Esdras	1	23	1	I gave you not fire for your blasphemies, but 	c	<a href='EXO.xhtml#EX15_25'>Ex. 15. 25</a>. <a href='SIR.xhtml#SR38_5'>Ecclus. 38. 5</a>.
 2 Esdras	1	24	1	What shall I do unto thee, O Jacob? 	d	<a href='PSA.xhtml#PS81_11'>Ps. 81. 11</a>.
 2 Esdras	1	24	2	What shall I do unto thee, O Jacob? thou, Juda, 	e	<a href='EXO.xhtml#EX32_8'>Ex. 32. 8</a>, <a href='EXO.xhtml#EX32_10'>10</a>. <a href='NUM.xhtml#NU14_11'>Num. 14. 11</a>, <a href='NUM.xhtml#NU14_12'>12</a>.
 2 Esdras	1	24	3	What shall I do unto thee, O Jacob? thou, Juda, wouldest not obey me: 	e	<a href='EXO.xhtml#EX32_8'>Ex. 32. 8</a>, <a href='EXO.xhtml#EX32_10'>10</a>. <a href='NUM.xhtml#NU14_11'>Num. 14. 11</a>, <a href='NUM.xhtml#NU14_12'>12</a>.
 2 Esdras	1	25	1		f	See <a href='2CH.xhtml#R215_2'>2 Chr. 15. 2</a>.
 2 Esdras	1	26	1		g	See <a href='PRO.xhtml#PR1_28'>Prov. 1. 28</a>.
-2 Esdras	1	26	2	Whensoever you shall call upon me, I will not hear you: for ye have defiled your hands with blood, and 	h	See <a href='ISA.xhtml#IS59_7'>Isai. 59. 7</a>.
+2 Esdras	1	26	2	Whensoever ye shall call upon me, I will not hear you: for ye have defiled your hands with blood, and 	h	See <a href='ISA.xhtml#IS59_7'>Isai. 59. 7</a>.
 2 Esdras	1	28	1	Thus saith the 	b	<a href='2ES.xhtml#E21_15'>ver. 15</a>.
 2 Esdras	1	29	1	that ye would be my people, 	*	Or, <span class='add'>as I</span> am <span class='add'>your God</span>.
 2 Esdras	1	3	1	the son of Aaron, of the tribe of Levi; which was captive in the land of 	c	See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
@@ -50,7 +50,7 @@
 2 Esdras	1	38	2	And now, brother, behold what glory; and see 	q	<a href='2ES.xhtml#E21_37'>ver. 37</a>, <a href='2ES.xhtml#E21_38'>38</a> (Lat.).
 2 Esdras	1	38	3	And now, brother, behold what glory; and see the people 	t	<a href='MAT.xhtml#MT8_11'>Matt. 8. 11</a>.
 2 Esdras	1	39	1	unto whom I will give for leaders, 	t	<a href='MAT.xhtml#MT8_11'>Matt. 8. 11</a>.
-2 Esdras	1	40	1	Nahum, and Abacuc, Sophonias, Aggeus, Zacharie, and Malachie, which is called also an 	u	<a href='MAL.xhtml#ML3_1'>Mal. 3. 1</a> (Heb. &amp; Gk.).
+2 Esdras	1	40	1	Nahum, and Abacuc, Sophonias, Aggeus, Zachary, and Malachy, which is called also an 	u	<a href='MAL.xhtml#ML3_1'>Mal. 3. 1</a> (Heb. &amp; Gk.).
 2 Esdras	1	5	1	Go thy way, and 	d	<a href='ISA.xhtml#IS58_1'>Isai. 58. 1</a>.
 2 Esdras	1	7	1	Am not I even he that 	e	<a href='EXO.xhtml#EX20_2'>Ex. 20. 2</a>.
 2 Esdras	1	8	1		f	<a href='EZR.xhtml#ER9_3'>Ezra 9. 3</a>. <a href='ESG.xhtml#EG14_2'>Esther 14. 2</a>.
@@ -434,7 +434,7 @@
 2 Esdras	2	16	3	And those that be dead will I raise up again from their places, and bring them out of the graves: for I have known 	*	Or, <span class='add'>thy name, O Israel</span>.
 2 Esdras	2	17	1	Fear not, thou 	s	<a href='2ES.xhtml#E22_2'>ver. 2</a>, <a href='2ES.xhtml#E22_17'>17</a>, <a href='2ES.xhtml#E22_30'>30</a>. So <a href='2ES.xhtml#E22_25'>ver. 25</a>?
 2 Esdras	2	17	2	Fear not, thou mother of the children: 	t	<a href='2ES.xhtml#E22_17'>ver. 17</a>.
-2 Esdras	2	18	1	For thy help I will send my servants Esay and Jeremie, after whose counsel I have sanctified and prepared for thee 	w	Comp. <a href='REV.xhtml#RV22_2'>Rev. 22. 2</a>.
+2 Esdras	2	18	1	For thy help will I send my servants Esau and Jeremy, after whose counsel I have sanctified and prepared for thee 	w	Comp. <a href='REV.xhtml#RV22_2'>Rev. 22. 2</a>.
 2 Esdras	2	19	1	and as many fountains 	x	See <a href='EXO.xhtml#EX3_8'>Ex. 3. 8</a>.
 2 Esdras	2	19	2	and as many fountains flowing with milk and honey, and seven mighty mountains, whereupon there grow 	y	<a href='SNG.xhtml#SS2_1'>Cant. 2. 1</a>.
 2 Esdras	2	19	3	and as many fountains flowing with milk and honey, and seven mighty mountains, whereupon there grow roses and 	y	<a href='SNG.xhtml#SS2_1'>Cant. 2. 1</a>.
@@ -507,7 +507,7 @@
 2 Esdras	3	16	2	And unto him thou gavest Isaac, and 	q	<a href='GEN.xhtml#GN25_25'>Gen. 25. 25</a>, <a href='GEN.xhtml#GN25_26'>26</a>.
 2 Esdras	3	16	3	And unto him thou gavest Isaac, and unto Isaac also thou gavest Jacob and Esau. As for Jacob, 	r	<a href='MAL.xhtml#ML1_2'>Mal. 1. 2</a>, <a href='MAL.xhtml#ML1_3'>3</a>. <a href='ROM.xhtml#RM9_13'>Rom. 9. 13</a>.
 2 Esdras	3	16	4	And unto him thou gavest Isaac, and unto Isaac also thou gavest Jacob and Esau. As for Jacob, thou didst choose him to thee, and put by Esau: and so 	s	<a href='GEN.xhtml#GN32_10'>Gen. 32. 10</a>.
-2 Esdras	3	17	1	And it came to pass, that when thou leddest his seed out of Egypt, 	t	<a href='EXO.xhtml#EX19_1'>Exod. 19. 1</a>. So <a href='DEU.xhtml#DT4_10'>Deut. 4. 10</a>.
+2 Esdras	3	17	1	And it came to pass, that when thou leadest his seed out of Egypt, 	t	<a href='EXO.xhtml#EX19_1'>Exod. 19. 1</a>. So <a href='DEU.xhtml#DT4_10'>Deut. 4. 10</a>.
 2 Esdras	3	18	1	And 	u	See <a href='2SA.xhtml#S222_10'>2 Sam. 22. 10</a>.
 2 Esdras	3	18	2	And bowing the heavens, 	w	<a href='PSA.xhtml#PS93_1'>Ps. 93. 1</a>. &amp; <a href='PSA.xhtml#PS96_10'>96. 10</a>.
 2 Esdras	3	18	3	And bowing the heavens, thou didst set fast the earth, movedst the whole world, and 	x	<a href='PSA.xhtml#PS77_16'>Ps. 77. 16</a>.
@@ -516,8 +516,8 @@
 2 Esdras	3	19	2	And thy glory went through four gates, of fire, and of earthquake, and of wind, and of cold; that thou mightest give the law unto the seed of Jacob, 	*	[Or,] <span class='add'>and to all the generation of Israel, that they should keep it with diligence</span>.
 2 Esdras	3	21	1	For 	a	See <a href='2ES.xhtml#E27_48'>ch. 7. 48</a>.
 2 Esdras	3	22	1	Thus infirmity was made permanent; and 	b	<a href='ROM.xhtml#RM7_8'>Rom. 7. 8–13</a>.
-2 Esdras	3	22	2	Thus infirmity was made permanent; and the law also in the heart of the people with 	c	So <a href='2ES.xhtml#E28_53'>ch. 8. 53</a>. Comp. <a href='DEU.xhtml#DT29_18'>Deut. 29. 18</a>.
-2 Esdras	3	22	3	Thus infirmity was made permanent; and the law also in the heart of the people with the malignity of the root; 	b	<a href='ROM.xhtml#RM7_8'>Rom. 7. 8–13</a>.
+2 Esdras	3	22	2	Thus infirmity was made permanent; and the law (also) in the heart of the people with 	c	So <a href='2ES.xhtml#E28_53'>ch. 8. 53</a>. Comp. <a href='DEU.xhtml#DT29_18'>Deut. 29. 18</a>.
+2 Esdras	3	22	3	Thus infirmity was made permanent; and the law (also) in the heart of the people with the malignity of the root; 	b	<a href='ROM.xhtml#RM7_8'>Rom. 7. 8–13</a>.
 2 Esdras	3	23	1	So the times passed away, and the years were brought to an end: then 	d	<a href='1SA.xhtml#S116_13'>1 Sam. 16. 13</a>.
 2 Esdras	3	24	1		e	<a href='2SA.xhtml#S25_2'>2 Sam. 5. 2</a>. &amp; <a href='2SA.xhtml#S27_5'>7. 5</a>, <a href='2SA.xhtml#S27_13'>13</a>.
 2 Esdras	3	28	1		f	<a href='2ES.xhtml#E23_31'>ver. 31</a>.
@@ -537,14 +537,14 @@
 2 Esdras	3	8	2	And every people walked after their own will, and 	h	<a href='GEN.xhtml#GN6_11'>Gen. 6. 11</a>.
 2 Esdras	3	9	1	And again in process of time 	i	<a href='GEN.xhtml#GN7_10'>Gen. 7. 10</a>.
 2 Esdras	4	1	1	And the angel that was sent unto me, whose name was 	a	<a href='2ES.xhtml#E24_36'>ver. 36</a> (text). <a href='2ES.xhtml#E25_20'>ch. 5. 20</a>. &amp; <a href='2ES.xhtml#E210_28'>10. 28</a>.
-2 Esdras	4	11	1	how should 	f	<a href='1TH.xhtml#H14_4'>1 Thess. 4. 4</a>. So <a href='2CO.xhtml#C24_7'>2 Cor. 4. 7</a>.
-2 Esdras	4	11	2	how should thy vessel then be able to comprehend the way of the Highest, and, the world being now outwardly corrupted, to understand the 	*	Or, <span class='add'>incorruption</span>.
+2 Esdras	4	11	1	How should 	f	<a href='1TH.xhtml#H14_4'>1 Thess. 4. 4</a>. So <a href='2CO.xhtml#C24_7'>2 Cor. 4. 7</a>.
+2 Esdras	4	11	2	How should thy vessel then be able to comprehend the way of the Highest, and, the world being now outwardly corrupted to understand the 	*	Or, <span class='add'>incorruption</span>.
 2 Esdras	4	13	1	He answered me, and said, I went into a forest into a plain, and 	g	<a href='JDG.xhtml#JG9_8'>Judg. 9. 8</a>. <a href='2CH.xhtml#R225_18'>2 Chr. 25. 18</a>.
 2 Esdras	4	16	1	The thought of the wood was in vain, for 	h	<a href='JDG.xhtml#JG9_15'>Judg. 9. 15</a>.
 2 Esdras	4	17	1	The thought of the floods of the sea came likewise to nought, for 	i	Comp. <a href='JOB.xhtml#JB38_8'>Job 38. 8</a>, <a href='JOB.xhtml#JB38_10'>10</a>, <a href='JOB.xhtml#JB38_11'>11</a>.
 2 Esdras	4	19	1	I answered and said, Verily it is a foolish thought that they both have devised, for 	*	[Or,] <span class='add'>the land</span>. <a href='2ES.xhtml#E24_21'>ver. 21</a>.
 2 Esdras	4	19	2	I answered and said, Verily it is a foolish thought that they both have devised, for the ground is given unto the wood, and the sea also hath his place to bear his 	*	Or, <span class='add'>waves</span>. So <a href='2ES.xhtml#E24_15'>ver. 15</a>, <a href='2ES.xhtml#E24_17'>17</a>, <a href='2ES.xhtml#E24_21'>21</a>.
-2 Esdras	4	2	1	and said, Thy heart hath gone too far in this world, and 	aa	So <a href='2ES.xhtml#E25_34'>ch. 5. 34</a>.
+2 Esdras	4	2	1	And said, Thy heart hath gone to far in this world, and 	aa	So <a href='2ES.xhtml#E25_34'>ch. 5. 34</a>.
 2 Esdras	4	21	1	For like as 	*	[Or,] <span class='add'>the land</span>. <a href='2ES.xhtml#E24_19'>ver. 19</a>.
 2 Esdras	4	21	2	For like as the ground is given unto the wood, and the sea to his floods: even so 	e	So <a href='2ES.xhtml#E24_21'>ver. 21</a>. <a href='WIS.xhtml#WS9_16'>Wisd. 9. 16</a>. <a href='JHN.xhtml#JN3_12'>John 3. 12</a>.
 2 Esdras	4	21	3	For like as the ground is given unto the wood, and the sea to his floods: even so 	j	So <a href='ISA.xhtml#IS55_8'>Isai. 55. 8</a>, <a href='ISA.xhtml#IS55_9'>9</a>. <a href='JHN.xhtml#JN3_31'>John 3. 31</a>. <a href='1CO.xhtml#C12_14'>1 Cor. 2. 14</a>.
@@ -868,4 +868,3 @@
 2 Esdras	9	8	1	shall be preserved from the said perils, and 	f	See <a href='2ES.xhtml#E26_25'>ch. 6. 25</a>.
 2 Esdras	9	8	2	shall be preserved from the said perils, and shall see my salvation in my land, and within my borders: for 	g	<a href='2ES.xhtml#E22_41'>ch. 2. 41</a>. Comp. <a href='EPH.xhtml#EP1_4'>Ephes. 1. 4</a>.
 2 Esdras	9	9	1	Then 	*	Or, <span class='add'>they shall marvel</span>.
-
