@@ -359,7 +359,7 @@ else if ($3 == "19")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "33")
+		else if ($3 == "33")
 		{
 			$5 = correctAllVerses($5, "Then I answered and said, How, and when shall these things come to pass? wherefore are our years few and evil?")
 
@@ -367,7 +367,7 @@ else if ($3 == "33")
 		}
 
 	}
-else if ($2 == "5")
+	else if ($2 == "5")
 	{
 
 
@@ -377,20 +377,20 @@ else if ($2 == "5")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "27")
+		else if ($3 == "27")
 		{
 			$5 = correctAllVerses($5, "And among all the multitudes of people thou hast gotten thee one people: and unto this people, whom thou lovedst, thou gavest a law that is approved of all.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "52")
+		else if ($3 == "52")
 		{
 			$5 = correctAllVerses($5, "Say unto her, Wherefore are unto they whom thou hast now brought forth like those that were before, but less of stature?")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "6")
+	}
+	else if ($2 == "6")
 	{
 
 
@@ -400,20 +400,20 @@ else if ($2 == "6")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "34")
+		else if ($3 == "34")
 		{
 			$5 = correctAllVerses($5, "And hasten not with the times that are past, to think vain things, that thou mayest not hasten from the latter times.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "58")
+		else if ($3 == "58")
 		{
 			$5 = correctAllVerses($5, "But we thy people, whom thou hast called thy firstborn, thy only begotten, and thy fervent lover, are given into their hands.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "7")
+	}
+	else if ($2 == "7")
 	{
 
 
@@ -423,8 +423,8 @@ else if ($2 == "7")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "8")
+	}
+	else if ($2 == "8")
 	{
 
 
@@ -434,21 +434,21 @@ else if ($2 == "8")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "45")
+		else if ($3 == "45")
 		{
 			$5 = correctAllVerses($5, "Be not wroth with us but spare thy people, and have mercy upon thine own inheritance: for thou art merciful unto thy creature.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "59")
+		else if ($3 == "59")
 		{
 			$5 = correctAllVerses($5, "For as the things aforesaid shalt receive you, so thirst and pain are prepared for them: for it was not his will that men should come to nought: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 
-}
-else if ($2 == "9")
+	}
+	else if ($2 == "9")
 	{
 
 
@@ -458,19 +458,19 @@ else if ($2 == "9")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "11")
+		else if ($3 == "11")
 		{
 			$5 = correctAllVerses($5, "And they that have loathed my law, while they had yet liberty, and, when as yet place of repentance was open unto them, understood not, but despised it; ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "13")
+		else if ($3 == "13")
 		{
 			$5 = correctAllVerses($5, "And therefore be thou not curious how the ungodly shall be punished, and when: but enquire how the righteous shall be saved, whose the world is, and for whom the world is created.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "38")
+		else if ($3 == "38")
 		{
 			$5 = correctAllVerses($5, "And when I spake these things in my heart, I looked back with mine eyes, and upon the right side I saw a woman, and, behold, she mourned and wept with a loud voice, and was much grieved in heart, and her clothes were rent, and she had ashes upon her head. ")
 
@@ -478,8 +478,8 @@ else if ($3 == "38")
 		}
 
 
-}
-else if ($2 == "10")
+	}
+	else if ($2 == "10")
 	{
 
 
@@ -489,37 +489,37 @@ else if ($2 == "10")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "27")
+		else if ($3 == "27")
 		{
 			$5 = correctAllVerses($5, "And I looked, and, behold, the woman appeared unto me no more, but there was a city builded, and a large place shewed itself from the foundations: then was I afraid, and cried with a loud voice, and said, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "30")
+		else if ($3 == "30")
 		{
 			$5 = correctAllVerses($5, "And, lo, I lay as one that had been dead, and mine understanding was taken from me: and he took me by the right hand, and comforted me, and set me upon my feet, and said unto me, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "46")
+		else if ($3 == "46")
 		{
 			$5 = correctAllVerses($5, "But after thirty years Solomon builded the city and offered offerings: and then bare the barren a son.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "49")
+		else if ($3 == "49")
 		{
 			$5 = correctAllVerses($5, "And, behold, thou sawest her likeness, and because she mourned for her son, thou begannest to comfort her: and of these things which have chanced, these are to be opened unto thee.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "55")
+		else if ($3 == "55")
 		{
 			$5 = correctAllVerses($5, "And therefore fear not, let not thine heart be affrighted, but go thy way in, and see the beauty and greatness of the building, as much as thine eyes be able to see: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "59")
+		else if ($3 == "59")
 		{
 			$5 = correctAllVerses($5, "And so shall the Highest shew thee visions of the high things, which the most High will do unto them that dwell upon the earth in the last days. So I slept that night and another, like as he commanded me.")
 
@@ -527,9 +527,218 @@ else if ($3 == "59")
 		}
 
 
-}
-}
+	}
+	else if ($2 == "11")
+	{
 
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Then saw I a dream, and, behold, there came up from the sea an eagle, which had twelve feathered wings, and three heads.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "And I numbered her contrary feathers, and, behold, there were eight of them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "And I looked, and, behold, on the right side there arose one feather, and reigned over all the earth; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "Then I beheld, and, lo, in process of time the feathers that followed stood up upon the right side, that they might rule also; and some of them ruled, but within a while they appeared no more: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "After this I looked, and, behold, the twelve feathers appeared no more, nor the two little feathers: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "25")
+		{
+			$5 = correctAllVerses($5, "And I beheld, and, lo, the feathers that were under the wing thought to set up themselves and to have the rule.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "26")
+		{
+			$5 = correctAllVerses($5, "And I beheld, and, lo, there was one set up, but shortly it appeared no more.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "28")
+		{
+			$5 = correctAllVerses($5, "And I beheld, and, lo, the two that remained thought also in themselves to reign: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "31")
+		{
+			$5 = correctAllVerses($5, "And, behold, the head was turned with them that were with it, and did eat up the two feathers under the wing that would have reigned.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "32")
+		{
+			$5 = correctAllVerses($5, "But this head put the whole earth in fear, and bare rule in it over all those that dwelt upon the earth with much oppression; and it had the governance of the world more than all the wings that had been.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "33")
+		{
+			$5 = correctAllVerses($5, "And after this I beheld, and, lo, the head that was in the midst suddenly appeared no more, like as the wings.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "45")
+		{
+			$5 = correctAllVerses($5, "And therefore appear no more, thou eagle, nor thy horrible wings, nor thy wicked feathers nor thy malicious heads, nor thy hurtful claws, nor all thy vain body: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "12")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And, behold, the head that remained and the four wings appeared no more, and the two went unto it and set themselves up to reign, and their kingdom was small, and fill of uproar.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "And I saw, and, behold, they appeared no more, and the whole body of the eagle was burnt so that the earth was in great fear: then awaked I out of the trouble and trance of my mind, and from great fear, and said unto my spirit, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "34")
+		{
+			$5 = correctAllVerses($5, "For the rest of my people shall he deliver with mercy, those that have been pressed upon my borders, and he shall make them joyful until the coming of the day of judgment, whereof I have spoken unto thee from the the beginning.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "13")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And, lo, there arose a wind from the sea, that it moved all the waves thereof.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "And I beheld, and, lo, that man waxed strong with the thousands of heaven: and when he turned his countenance to look, all the things trembled that were seen under him.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "And there came much people unto him, whereof some were glad, some were sorry, and some of them were bound, and other some brought of them that were offered: then was I sick through great fear, and I awaked, and said, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "14")
+	{
+
+
+		if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "And I sent him and led my people out of Egypt, and brought him up to the mount of where I held him by me a long season, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "For the time is fled far away, and leasing is hard at hand: for now hasteth the vision to come, which thou hast seen.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "33")
+		{
+			$5 = correctAllVerses($5, "And now are ye here, and your brethren among you.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "45")
+		{
+			$5 = correctAllVerses($5, "And it came to pass, when the forty days were filled, that the Highest spake, saying, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "47")
+		{
+			$5 = correctAllVerses($5, "For in them is the spring of understanding, the fountain of wisdom, and the stream of knowledge.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "15")
+	{
+
+
+		if ($3 == "40")
+		{
+			$5 = correctAllVerses($5, "The great and mighty clouds shall be puffed up full of wrath, and the star, that they may make all the earth afraid, and them that dwell therein; and they shall pour out over every high and eminent place an horrible star, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "53")
+		{
+			$5 = correctAllVerses($5, "If thou hadst not always slain my chosen, exalting the stroke of thine hands, and saying over their dead, when thou wast drunken, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "16")
+	{
+
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "May any man drive away an hungry lion in the wood? or may any one quench the fire in stubble, when it hath begun to burn?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "Hear now these things and understand them, ye servants of the Lord.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "40")
+		{
+			$5 = correctAllVerses($5, "O my people, hear my word: make you ready to thy battle, and in those evils be even as pilgrims upon the earth.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "75")
+		{
+			$5 = correctAllVerses($5, "Be ye not afraid neither doubt; for God is your guide, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "77")
+		{
+			$5 = correctAllVerses($5, "Woe be unto them that are bound with their sins, and covered with their iniquities like as a field is covered over with bushes, and the path thereof covered with thorns, that no man may travel through!")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+}
 {
 print toReturn;
 }
