@@ -927,6 +927,29 @@ else if ($3 == "19")
 
 	}
 }
+
+/^Judith/ {
+if ($2 == "1")
+	{
+
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "And there came unto him all they that dwelt in the hill country, and all that dwelt by Euphrates, and Tigris and Hydaspes, and the plain of Arioch the king of the Elymeans, and very many nations of the sons of Chelod, assembled themselves to the battle.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "And to those among the nations that were of Carmel, and Galaad, and the higher Galilee, and the great plain of Esdrelom, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+
+
+}
+
 {
 print toReturn;
 }

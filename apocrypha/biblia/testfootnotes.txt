@@ -1,340 +1,481 @@
-Tobit	1	1	1	The book of the 	*	Or, <span class='add'>acts</span>.
-Tobit	1	10	1	And when 	a	<a href='2KI.xhtml#K217_3'>2 Kin. 17. 3</a>, <a href='2KI.xhtml#K217_23'>23</a>. &amp; <a href='2KI.xhtml#K218_9'>18. 9</a>. <a href='TOB.xhtml#TB1_10'>ver. 10</a>.
-Tobit	1	10	2	And when we were carried away captives to Nineve, all my brethren and those that were of my kindred 	n	See <a href='ACT.xhtml#AC10_14'>Acts 10. 14</a>. Comp. <a href='GEN.xhtml#GN43_32'>Gen. 43. 32</a>. <a href='ACT.xhtml#AC15_20'>Acts 15. 20</a>.
-Tobit	1	11	1	But I kept 	*	Gr. <span class='add'>my soul</span>. <a href='TOB.xhtml#TB1_12'>ver. 12</a> (Gk.). See <a href='EST.xhtml#ET9_31'>Esther 9. 31</a>.
-Tobit	1	13	1	And the most High gave me grace and favour before Enemessar, so that I was his 	*	Gr. <span class='add'>buyer</span>.
-Tobit	1	14	1	And I went into Media, and left in trust with Gabael, 	nn	Comp. <a href='TOB.xhtml#TB4_20'>ch. 4. 20</a>.
-Tobit	1	14	2	And I went into Media, and left in trust with Gabael, the brother of Gabrias, at 	o	<a href='TOB.xhtml#TB4_1'>ch. 4. 1</a>. &amp; <a href='TOB.xhtml#TB5_5'>5. 5</a>. &amp; <a href='TOB.xhtml#TB6_12'>6. 12</a>. &amp; <a href='TOB.xhtml#TB9_2'>9. 2</a>. So <a href='TOB.xhtml#TB6_9'>ch. 6. 9</a>. <a href='JDT.xhtml#JT1_5'>Judith 1. 5</a>, <a href='JDT.xhtml#JT1_15'>15</a>.
-Tobit	1	14	3	And I went into Media, and left in trust with Gabael, the brother of Gabrias, at Rages 	*	Or, in the land. or, country <span class='add'>of Media</span>.
-Tobit	1	14	4	And I went into Media, and left in trust with Gabael, the brother of Gabrias, at Rages a city of 	p	<a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>. &amp; <a href='TOB.xhtml#TB14_4'>14. 4</a>, <a href='TOB.xhtml#TB14_14'>14</a>. See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
-Tobit	1	15	1	Now when Enemessar was dead, Sennacherib his son reigned in his stead; 	*	Gr. <span class='add'>the ways of whom were unsettled</span>.
-Tobit	1	15	2	Now when Enemessar was dead, Sennacherib his son reigned in his stead; whose estate was troubled, that I could not go into 	p	<a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>. &amp; <a href='TOB.xhtml#TB14_4'>14. 4</a>, <a href='TOB.xhtml#TB14_14'>14</a>. See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
-Tobit	1	16	1	And in the time of Enemessar 	d	<a href='TOB.xhtml#TB1_16'>ver. 16</a> (Gk.). <a href='ACT.xhtml#AC9_36'>Acts 9. 36</a>.
-Tobit	1	16	2	And in the time of Enemessar I gave many alms to my brethren, and 	q	<a href='TOB.xhtml#TB4_16'>ch. 4. 16</a>. So <a href='JOB.xhtml#JB31_17'>Job 31. 17</a>, <a href='JOB.xhtml#JB31_19'>19</a>, <a href='JOB.xhtml#JB31_20'>20</a>.
-Tobit	1	17	1		q	<a href='TOB.xhtml#TB4_16'>ch. 4. 16</a>. So <a href='JOB.xhtml#JB31_17'>Job 31. 17</a>, <a href='JOB.xhtml#JB31_19'>19</a>, <a href='JOB.xhtml#JB31_20'>20</a>.
-Tobit	1	17	2	and my clothes to the naked: and if I saw any of my nation dead, or cast 	*	Or, <span class='add'>behind the walls</span>.
-Tobit	1	17	3	and my clothes to the naked: and if I saw any of my nation dead, or cast about the walls of Nineve, 	r	<a href='2ES.xhtml#E22_23'>2 Esdr. 2. 23</a>. <a href='TOB.xhtml#TB2_7'>ch. 2. 7</a>, <a href='TOB.xhtml#TB2_8'>8</a>. &amp; <a href='TOB.xhtml#TB8_12'>8. 12</a>. &amp; <a href='TOB.xhtml#TB12_12'>12. 12</a>. So <a href='2SA.xhtml#S22_5'>2 Sam 2. 5</a>, <a href='2SA.xhtml#S22_6'>6</a>.
-Tobit	1	18	1	And if the king Sennacherib had slain any, when he was come, and 	s	<a href='2KI.xhtml#K219_35'>2 Kin. 19. 35</a>, <a href='2KI.xhtml#K219_36'>36</a>. <a href='ISA.xhtml#IS37_36'>Isai. 37. 36</a>, <a href='ISA.xhtml#IS37_37'>37</a>. <a href='SIR.xhtml#SR48_18'>Ecclus. 48. 18</a>, <a href='SIR.xhtml#SR48_21'>21</a>. <a href='1MA.xhtml#M17_41'>1 Macc. 7. 41</a>. <a href='2MA.xhtml#M28_19'>2 Macc. 8. 19</a>. &amp; <a href='2MA.xhtml#M215_22'>15. 22</a>.
-Tobit	1	2	1	who in the time of 	*	[Or, <span class='add'>Shalmaneser</span>].
-Tobit	1	2	2	who in the time of Enemessar king of the Assyrians 	a	<a href='2KI.xhtml#K217_3'>2 Kin. 17. 3</a>, <a href='2KI.xhtml#K217_23'>23</a>. &amp; <a href='2KI.xhtml#K218_9'>18. 9</a>. <a href='TOB.xhtml#TB1_10'>ver. 10</a>.
-Tobit	1	2	3	who in the time of Enemessar king of the Assyrians was led captive out of 	b	Comp. <a href='1KI.xhtml#K121_18'>1 Kin. 21. 18</a>.
-Tobit	1	2	4	who in the time of Enemessar king of the Assyrians was led captive out of Thisbe, which is at 	c	See <a href='1SA.xhtml#S123_19'>1 Sam. 23. 19</a> marg.
-Tobit	1	2	5	who in the time of Enemessar king of the Assyrians was led captive out of Thisbe, which is at the right hand of that city, which is called 	*	Or, <span class='add'>Kedes of Nephthali in Galilee</span>. <a href='JDG.xhtml#JG4_6'>Judg. 4. 6</a>. See <a href='JOS.xhtml#JS19_37'>Josh. 19. 37</a>. Comp. <a href='2KI.xhtml#K215_29'>2 Kin. 15. 29</a>.
-Tobit	1	20	1	Then all my goods were forcibly taken away, neither was there any thing left me, beside 	t	<a href='TOB.xhtml#TB1_9'>ver. 9</a>. <a href='TOB.xhtml#TB2_1'>ch. 2. 1</a>.
-Tobit	1	21	1	And there passed not five and fifty days, before 	u	<a href='2KI.xhtml#K219_37'>2 Kin. 19. 37</a>. <a href='ISA.xhtml#IS37_38'>Isai. 37. 38</a>. So <a href='2CH.xhtml#R232_21'>2 Chr. 32. 21</a>.
-Tobit	1	21	2	And there passed not five and fifty days, before two of his sons killed him, and they fled into the mountains of 	u	<a href='2KI.xhtml#K219_37'>2 Kin. 19. 37</a>. <a href='ISA.xhtml#IS37_38'>Isai. 37. 38</a>. So <a href='2CH.xhtml#R232_21'>2 Chr. 32. 21</a>.
-Tobit	1	21	3	And there passed not five and fifty days, before two of his sons killed him, and they fled into the mountains of Ararath; and 	*	Or, <span class='add'>Esarhaddon</span>.
-Tobit	1	21	4	And there passed not five and fifty days, before two of his sons killed him, and they fled into the mountains of Ararath; and 	u	<a href='2KI.xhtml#K219_37'>2 Kin. 19. 37</a>. <a href='ISA.xhtml#IS37_38'>Isai. 37. 38</a>. So <a href='2CH.xhtml#R232_21'>2 Chr. 32. 21</a>.
-Tobit	1	22	1	And Achiacharus intreating for me, I returned to Nineve. Now Achiacharus was 	w	See <a href='NEH.xhtml#NH1_11'>Neh 1. 11</a>.
-Tobit	1	22	2	And Achiacharus intreating for me, I returned to Nineve. Now Achiacharus was cupbearer, and 	x	See <a href='GEN.xhtml#GN41_42'>Gen. 41. 42</a>.
-Tobit	1	22	3	And Achiacharus intreating for me, I returned to Nineve. Now Achiacharus was cupbearer, and keeper of the signet, and steward, and overseer of the accounts: and 	*	Or, <span class='add'>Esarhaddon</span>.
-Tobit	1	22	4	And Achiacharus intreating for me, I returned to Nineve. Now Achiacharus was cupbearer, and keeper of the signet, and steward, and overseer of the accounts: and Sarchedonus appointed him 	y	So <a href='GEN.xhtml#GN41_40'>Gen. 41. 40</a>.
-Tobit	1	22	5	And Achiacharus intreating for me, I returned to Nineve. Now Achiacharus was cupbearer, and keeper of the signet, and steward, and overseer of the accounts: and Sarchedonus appointed him next unto him: and he was my 	z	<a href='TOB.xhtml#TB11_18'>ch. 11. 18</a>.
-Tobit	1	3	1	I Tobit have walked all the days of my life in the ways of truth and justice, and 	d	<a href='TOB.xhtml#TB1_16'>ver. 16</a> (Gk.). <a href='ACT.xhtml#AC9_36'>Acts 9. 36</a>.
-Tobit	1	4	1	And when I was in mine own country, in the land of Israel being but young, 	e	<a href='1KI.xhtml#K112_19'>1 Kin. 12. 19</a>, <a href='1KI.xhtml#K112_20'>20</a>, <a href='1KI.xhtml#K112_28'>28</a>. Comp. <a href='TOB.xhtml#TB5_13'>ch. 5. 13</a>.
-Tobit	1	4	2	And when I was in mine own country, in the land of Israel being but young, all the tribe of Nephthali my father fell from the house of Jerusalem, which was chosen out of all the tribes of Israel, that all the tribes should sacrifice there, where the temple of the habitation of the most High was consecrated and built 	f	<a href='TOB.xhtml#TB13_10'>ch. 13. 10</a> (Gk.). So <a href='EPH.xhtml#EP3_21'>Eph. 3. 21</a> (Gk.).
-Tobit	1	5	1	Now all the tribes which together revolted, and the house of my father Nephthali, sacrificed 	*	Or, <span class='add'>to the power of Baal</span>, or, <span class='add'>the god Baal</span>.
-Tobit	1	5	2	Now all the tribes which together revolted, and the house of my father Nephthali, sacrificed unto the 	g	<a href='1KI.xhtml#K112_30'>1 Kin. 12. 30</a>.
-Tobit	1	6	1	But I alone went often to Jerusalem at the feasts, 	h	See <a href='DEU.xhtml#DT16_16'>Deut. 16. 16</a>.
-Tobit	1	6	2	But I alone went often to Jerusalem at the feasts, as it was ordained unto all the people of Israel by an everlasting decree, having 	i	<a href='EXO.xhtml#EX22_29'>Exod. 22. 29</a>. <a href='DEU.xhtml#DT12_6'>Deut 12. 6</a>.
-Tobit	1	6	3	But I alone went often to Jerusalem at the feasts, as it was ordained unto all the people of Israel by an everlasting decree, having the firstfruits and 	j	<a href='TOB.xhtml#TB5_13'>ch. 5. 13</a> (Gk.).
-Tobit	1	6	4	But I alone went often to Jerusalem at the feasts, as it was ordained unto all the people of Israel by an everlasting decree, having the firstfruits and tenths of increase, with 	k	<a href='DEU.xhtml#DT18_4'>Deut. 18. 4</a>.
-Tobit	1	7	1	The first tenth part of all increase I gave to the sons of 	*	Or, <span class='add'>Levi</span>. See <a href='NUM.xhtml#NU18_21'>Numb. 18. 21</a>.
-Tobit	1	7	2	The first tenth part of all increase I gave to the sons of Aaron, who ministered at Jerusalem: 	l	<a href='DEU.xhtml#DT14_25'>Deut. 14. 25</a>, <a href='DEU.xhtml#DT14_26'>26</a>.
-Tobit	1	9	1	Furthermore, when I was come to the age of a man, I married Anna 	m	<a href='NUM.xhtml#NU36_7'>Numb. 36. 7</a>.
-Tobit	10	1	1	Now Tobit his father 	a	So <a href='TOB.xhtml#TB9_4'>ch. 9. 4</a>.
-Tobit	10	10	1	Then Raguel arose, and gave him Sara his wife, and 	d	<a href='TOB.xhtml#TB8_21'>ch. 8. 21</a>.
-Tobit	10	10	2	Then Raguel arose, and gave him Sara his wife, and half his goods, 	e	See <a href='REV.xhtml#RV18_13'>Rev. 18. 13</a>.
-Tobit	10	12	1	And he said to his daughter, Honour thy father and thy mother in law, which are now thy parents, that I may hear good report of thee. And he kissed her. Edna also said to Tobias, The Lord of heaven restore thee, my dear brother, and grant that I may see thy children of my daughter Sara before I die, that I may rejoice before the Lord: behold, I 	f	See <a href='1PE.xhtml#P14_19'>1 Pet. 4. 19</a>.
-Tobit	10	12	2	And he said to his daughter, Honour thy father and thy mother in law, which are now thy parents, that I may hear good report of thee. And he kissed her. Edna also said to Tobias, The Lord of heaven restore thee, my dear brother, and grant that I may see thy children of my daughter Sara before I die, that I may rejoice before the Lord: behold, I commit my daughter unto thee 	*	Or, <span class='add'>to be safely kept</span>. <a href='1TI.xhtml#T16_20'>1 Tim. 6. 20</a>. <a href='2TI.xhtml#T21_12'>2 Tim. 1. (12)</a>, <a href='2TI.xhtml#T21_14'>14</a>.
-Tobit	10	5	1	Now I care for nothing, my son, since I have let thee go, 	b	Comp. <a href='PRO.xhtml#PR15_30'>Prov. 15. 30</a>. <a href='BAR.xhtml#BR3_14'>Baruch 3. 14</a>.
-Tobit	10	7	1	But she said, Hold thy peace, and deceive me not; my son is dead. And she went out every day into the way which they went, and did eat no meat on the daytime, and ceased not whole nights to bewail her son Tobias, 	c	See <a href='TOB.xhtml#TB8_20'>ch. 8. 20</a>.
-Tobit	11	11	1	And took hold of his father: and he strake of 	b	<a href='TOB.xhtml#TB6_8'>ch. 6. 8</a>.
-Tobit	11	11	2	And took hold of his father: and he strake of the gall on his fathers’ eyes, saying, 	f	<a href='TOB.xhtml#TB7_18'>ch. 7. 18</a> (Gk.).
-Tobit	11	13	1	and the whiteness 	g	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	11	13	2	and the whiteness pilled away from the corners of his eyes: and when he saw his son, 	e	<a href='GEN.xhtml#GN46_29'>Gen. 46. 29</a>. <a href='LUK.xhtml#LK15_20'>Luke 15. 20</a>.
-Tobit	11	14	1	And he wept, and said, 	h	See <a href='TOB.xhtml#TB8_5'>ch. 8. 5</a>.
-Tobit	11	14	2	And he wept, and said, Blessed art thou, O God, and blessed is thy name for ever; and blessed are all thine 	i	<a href='TOB.xhtml#TB12_15'>ch. 12. 15</a>. See <a href='MAT.xhtml#MT25_31'>Matt. 25. 31</a>.
-Tobit	11	15	1	for 	k	See <a href='TOB.xhtml#TB13_2'>ch. 13. 2</a>.
-Tobit	11	17	1	But Tobias gave thanks before them, because God had mercy on him. And when he came near to Sara his daughter in law, he blessed her, saying, 	l	<a href='TOB.xhtml#TB5_13'>ch. 5. 13</a>.
-Tobit	11	17	2	But Tobias gave thanks before them, because God had mercy on him. And when he came near to Sara his daughter in law, he blessed her, saying, Thou art welcome, daughter: 	h	See <a href='TOB.xhtml#TB8_5'>ch. 8. 5</a>.
-Tobit	11	18	1	And 	m	See <a href='TOB.xhtml#TB2_10'>ch. 2. 10</a>.
-Tobit	11	18	2	And Achiacharus, 	*	Junius, <span class='add'>who</span> is <span class='add'>also</span> called <span class='add'>Nasbas</span>. Comp. <a href='TOB.xhtml#TB14_10'>ch. 14. 10</a> marg.
-Tobit	11	18	3	And Achiacharus, and Nasbas his 	n	<a href='TOB.xhtml#TB1_22'>ch. 1. 22</a>.
-Tobit	11	19	1	and Tobias’ 	o	See <a href='TOB.xhtml#TB8_19'>ch. 8. 19</a>.
-Tobit	11	19	2	and Tobias’ wedding was kept 	p	<a href='GEN.xhtml#GN29_27'>Gen. 29. 27</a>. <a href='JDG.xhtml#JG14_12'>Judg. 14. 12</a>. Comp. <a href='TOB.xhtml#TB8_19'>ch. 8. 19</a>.
-Tobit	11	2	1	Then 	a	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	11	4	1	And take in thine hand 	b	<a href='TOB.xhtml#TB6_8'>ch. 6. 8</a>.
-Tobit	11	4	2	And take in thine hand the gall of the fish. So they went their way, and 	c	<a href='TOB.xhtml#TB5_16'>ch. 5. 16</a>.
-Tobit	11	5	1	Now 	d	<a href='TOB.xhtml#TB10_7'>ch. 10. 7</a>.
-Tobit	11	7	1	Then said 	a	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	11	8	1	Therefore anoint thou his eyes with 	b	<a href='TOB.xhtml#TB6_8'>ch. 6. 8</a>.
-Tobit	11	9	1	Then Anna ran forth, and 	e	<a href='GEN.xhtml#GN46_29'>Gen. 46. 29</a>. <a href='LUK.xhtml#LK15_20'>Luke 15. 20</a>.
-Tobit	12	1	1	Then Tobit called his son Tobias, and said unto him, My son, see that the man have 	a	<a href='TOB.xhtml#TB5_14'>ch. 5. 14</a>, <a href='TOB.xhtml#TB5_15'>15</a>.
-Tobit	12	10	1	but 	n	So <a href='ROM.xhtml#RM6_23'>Rom. 6. 23</a>.
-Tobit	12	11	1	Surely I will keep close nothing from you. For I said, 	h	<a href='TOB.xhtml#TB12_11'>ver. 11</a>.
-Tobit	12	12	1	Now therefore, when 	o	<a href='TOB.xhtml#TB3_1'>ch. 3. 1–6</a>.
-Tobit	12	12	2	Now therefore, when thou didst pray, and 	p	<a href='TOB.xhtml#TB3_11'>ch. 3. 11–15</a>.
-Tobit	12	12	3	Now therefore, when thou didst pray, and Sara thy daughter in law, 	q	See <a href='ACT.xhtml#AC10_4'>Acts 10. 4</a>.
-Tobit	12	12	4	Now therefore, when thou didst pray, and Sara thy daughter in law, I did bring the remembrance of your prayers before the Holy One: and 	r	See <a href='TOB.xhtml#TB1_17'>ch. 1. 17</a>.
-Tobit	12	13	1	And 	s	<a href='TOB.xhtml#TB2_3'>ch. 2. 3</a>, <a href='TOB.xhtml#TB2_4'>4</a>.
-Tobit	12	13	2	And when thou didst not delay to rise up, and leave thy dinner, 	*	Gr. <span class='add'>to go and bury</span>.
-Tobit	12	14	1	And now God hath sent me to heal 	f	<a href='TOB.xhtml#TB11_7'>ch. 11. 7</a>, <a href='TOB.xhtml#TB11_8'>8</a>. <a href='TOB.xhtml#TB12_14'>ver. 14</a>.
-Tobit	12	14	2	And now God hath sent me to heal thee and 	d	<a href='TOB.xhtml#TB8_2'>ch. 8. 2</a>. <a href='TOB.xhtml#TB12_14'>ver. 14</a>.
-Tobit	12	15	1	I am 	t	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	12	15	2	I am Raphael, one of 	u	<a href='REV.xhtml#RV8_2'>Rev. 8. 2</a>. See <a href='REV.xhtml#RV1_4'>Rev. 1. 4</a>.
-Tobit	12	15	3	I am Raphael, one of the seven 	v	<a href='TOB.xhtml#TB11_14'>ch. 11. 14</a>.
-Tobit	12	15	4	I am Raphael, one of the seven holy angels, 	w	<a href='REV.xhtml#RV8_3'>Rev. 8. 3</a>, <a href='REV.xhtml#RV8_4'>4</a>.
-Tobit	12	15	5	I am Raphael, one of the seven holy angels, which present the prayers of the saints, and 	x	Comp. <a href='LUK.xhtml#LK1_19'>Luke 1. 19</a>.
-Tobit	12	16	1	Then they were 	y	<a href='TOB.xhtml#TB12_6'>ver. 6</a>.
-Tobit	12	16	2	Then they were both troubled, and 	z	<a href='JOS.xhtml#JS5_14'>Josh. 5. 14</a>. See <a href='EZK.xhtml#EK1_28'>Ezek. 1. 28</a>.
-Tobit	12	19	1	All these days I did appear unto you; but 	a	<a href='JDG.xhtml#JG13_16'>Judg. 13. 16</a>. Comp. <a href='GEN.xhtml#GN18_8'>Gen. 18. 8</a>. &amp; <a href='GEN.xhtml#GN19_3'>19. 3</a>.
-Tobit	12	2	1	And Tobias said unto him, O father, it is no harm to me to give him half 	b	<a href='TOB.xhtml#TB10_10'>ch. 10. 10</a>.
-Tobit	12	20	1	Now therefore 	b	Gk. as <a href='TOB.xhtml#TB12_6'>ver. 6</a>, <a href='TOB.xhtml#TB12_22'>22</a>. See <a href='TOB.xhtml#TB13_3'>ch. 13. 3</a>.
-Tobit	12	20	2	Now therefore give God thanks: for 	c	Comp. <a href='JHN.xhtml#JN16_5'>John 16. 5</a>.
-Tobit	12	22	1	Then they 	b	Gk. as <a href='TOB.xhtml#TB12_6'>ver. 6</a>, <a href='TOB.xhtml#TB12_22'>22</a>. See <a href='TOB.xhtml#TB13_3'>ch. 13. 3</a>.
-Tobit	12	3	1	for he hath 	c	<a href='TOB.xhtml#TB6_2'>ch. 6. 2</a>, <a href='TOB.xhtml#TB6_3'>3</a>.
-Tobit	12	3	2	for he hath brought me again to thee in safety, and 	d	<a href='TOB.xhtml#TB8_2'>ch. 8. 2</a>. <a href='TOB.xhtml#TB12_14'>ver. 14</a>.
-Tobit	12	3	3	for he hath brought me again to thee in safety, and made whole my wife, and 	e	<a href='TOB.xhtml#TB9_5'>ch. 9. 5</a>.
-Tobit	12	3	4	for he hath brought me again to thee in safety, and made whole my wife, and brought me the money, and 	f	<a href='TOB.xhtml#TB11_7'>ch. 11. 7</a>, <a href='TOB.xhtml#TB11_8'>8</a>. <a href='TOB.xhtml#TB12_14'>ver. 14</a>.
-Tobit	12	6	1	Then he took them both apart, and said unto them, Bless God, 	g	<a href='TOB.xhtml#TB12_20'>ver. 20</a> (Gk.).
-Tobit	12	6	2	Then he took them both apart, and said unto them, Bless God, praise him, and magnify him, and 	g	<a href='TOB.xhtml#TB12_20'>ver. 20</a> (Gk.).
-Tobit	12	6	3	Then he took them both apart, and said unto them, Bless God, praise him, and magnify him, and praise him for the things which he hath done unto you in the sight of all that live. It is good to praise God, and exalt his name, and 	*	Or, <span class='add'>with honour</span>.
-Tobit	12	7	1		h	<a href='TOB.xhtml#TB12_11'>ver. 11</a>.
-Tobit	12	7	2	It is good to keep close the secret of a king, but it is honourable to reveal the works of God. 	i	<a href='1PE.xhtml#P13_13'>1 Pet. 3. 13</a>.
-Tobit	12	8	1		j	See <a href='MAT.xhtml#MT17_21'>Matt. 17. 21</a>.
-Tobit	12	8	2	Prayer is good with fasting and 	k	<a href='TOB.xhtml#TB12_9'>ver. 9</a>. <a href='TOB.xhtml#TB14_11'>ch. 14. 11</a>. So <a href='TOB.xhtml#TB2_14'>ch. 2. 14</a> See <a href='MAT.xhtml#MT6_1'>Matt. 6. 1</a> [marg.].
-Tobit	12	8	3	Prayer is good with fasting and alms and 	k	<a href='TOB.xhtml#TB12_9'>ver. 9</a>. <a href='TOB.xhtml#TB14_11'>ch. 14. 11</a>. So <a href='TOB.xhtml#TB2_14'>ch. 2. 14</a> See <a href='MAT.xhtml#MT6_1'>Matt. 6. 1</a> [marg.].
-Tobit	12	8	4	Prayer is good with fasting and alms and righteousness. 	l	<a href='PSA.xhtml#PS37_16'>Ps. 37. 16</a>. See <a href='PRO.xhtml#PR15_16'>Prov. 15. 16</a>.
-Tobit	12	9	1		m	<a href='TOB.xhtml#TB4_10'>ch. 4. 10</a>. So <a href='TOB.xhtml#TB14_11'>ch. 14. 11</a>.
-Tobit	12	9	2	for alms doth deliver from death, and shall purge away all sin. 	k	<a href='TOB.xhtml#TB12_9'>ver. 9</a>. <a href='TOB.xhtml#TB14_11'>ch. 14. 11</a>. So <a href='TOB.xhtml#TB2_14'>ch. 2. 14</a> See <a href='MAT.xhtml#MT6_1'>Matt. 6. 1</a> [marg.].
-Tobit	13	10	1		c	<a href='TOB.xhtml#TB12_6'>ch. 12. 6</a> (Gk.), <a href='TOB.xhtml#TB12_20'>20</a> (Gk.), <a href='TOB.xhtml#TB12_22'>22</a>. <a href='TOB.xhtml#TB13_6'>ver. 6</a>, <a href='TOB.xhtml#TB13_8'>8</a> (Gk.), <a href='TOB.xhtml#TB13_10'>10</a> (Gk.). <a href='TOB.xhtml#TB14_1'>ch. 14. 1</a>, <a href='TOB.xhtml#TB14_2'>2</a> (Gk.), <a href='TOB.xhtml#TB14_7'>7</a>.
-Tobit	13	10	2	Give praise to the Lord, for he is good: And praise 	g	<a href='TOB.xhtml#TB13_10'>ver. 10</a>. <a href='1TI.xhtml#T11_17'>1 Tim. 1. 17</a> (Gk.).
-Tobit	13	10	3	Give praise to the Lord, for he is good: And praise the everlasting King, That his tabernacle may be builded in thee again with joy, And 	*	Or, <span class='add'>to make</span>.
-Tobit	13	10	4	Give praise to the Lord, for he is good: And praise the everlasting King, That his tabernacle may be builded in thee again with joy, And let him make joyful there in thee those that are captives, And love in thee 	l	See <a href='TOB.xhtml#TB1_4'>ch. 1. 4</a>.
-Tobit	13	11	1		m	So <a href='ISA.xhtml#IS60_5'>Isai. 60. 5</a>. <a href='TOB.xhtml#TB14_6'>ch. 14. 6</a>. <a href='REV.xhtml#RV21_24'>Rev. 21. 24</a>.
-Tobit	13	11	2	Many nations shall come from far to the name of the Lord God 	n	Comp. <a href='PSA.xhtml#PS72_10'>Ps. 72. 10</a>, <a href='PSA.xhtml#PS72_11'>11</a>.
-Tobit	13	11	3	Many nations shall come from far to the name of the Lord God With gifts in their hands, even gifts to 	i	<a href='TOB.xhtml#TB13_11'>ver. 11</a>. See <a href='1ES.xhtml#E14_46'>1 Esdr. 4. 46</a>.
-Tobit	13	12	1	Cursed are all they which hate thee, And 	o	<a href='TOB.xhtml#TB13_14'>ver. 14</a>. So <a href='PSA.xhtml#PS122_6'>Ps. 122. 6</a>.
-Tobit	13	13	1	Rejoice and be glad for 	k	<a href='TOB.xhtml#TB13_13'>ver. 13</a> (Gk.).
-Tobit	13	14	1	O 	o	<a href='TOB.xhtml#TB13_14'>ver. 14</a>. So <a href='PSA.xhtml#PS122_6'>Ps. 122. 6</a>.
-Tobit	13	14	2	O blessed are 	p	So <a href='ISA.xhtml#IS66_10'>Isai. 66. 10</a>. <a href='TOB.xhtml#TB14_7'>ch. 14. 7</a>.
-Tobit	13	14	3	O blessed are they which love thee, for they shall rejoice in thy 	*	Or, <span class='add'>prosperity</span>.
-Tobit	13	14	4	O blessed are they which love thee, for they shall rejoice in thy peace: Blessed are 	p	So <a href='ISA.xhtml#IS66_10'>Isai. 66. 10</a>. <a href='TOB.xhtml#TB14_7'>ch. 14. 7</a>.
-Tobit	13	15	1	Let my soul bless God 	q	<a href='PSA.xhtml#PS48_3'>Ps. 48. 3</a>. <a href='MAT.xhtml#MT5_35'>Matt. 5. 35</a>.
-Tobit	13	16	1	For 	r	<a href='REV.xhtml#RV21_18'>Rev. 21. 18–20</a>.
-Tobit	13	16	2	For Jerusalem shall be built up with 	r	<a href='REV.xhtml#RV21_18'>Rev. 21. 18–20</a>.
-Tobit	13	16	3	For Jerusalem shall be built up with sapphires and 	r	<a href='REV.xhtml#RV21_18'>Rev. 21. 18–20</a>.
-Tobit	13	17	1	And the streets of Jerusalem shall be paved with 	r	<a href='REV.xhtml#RV21_18'>Rev. 21. 18–20</a>.
-Tobit	13	17	2	And the streets of Jerusalem shall be paved with beryl and carbuncle and stones of 	s	See <a href='1KI.xhtml#K19_28'>1 Kin. 9. 28</a>.
-Tobit	13	18	1	And all her streets shall say, 	t	<a href='REV.xhtml#RV19_1'>Rev. 19. 1</a>, <a href='REV.xhtml#RV19_3'>3</a>, <a href='REV.xhtml#RV19_4'>4</a>, <a href='REV.xhtml#RV19_6'>6</a>.
-Tobit	13	2	1	For 	a	<a href='TOB.xhtml#TB11_15'>ch. 11. 15</a>. <a href='TOB.xhtml#TB13_5'>ver. 5</a>. See <a href='DEU.xhtml#DT32_39'>Deut. 32. 39</a>.
-Tobit	13	2	2	For he doth scourge, and hath mercy: 	b	<a href='1SA.xhtml#S12_6'>1 Sam. 2. 6</a>. <a href='WIS.xhtml#WS16_13'>Wisd. 16. 13</a>.
-Tobit	13	3	1		c	<a href='TOB.xhtml#TB12_6'>ch. 12. 6</a> (Gk.), <a href='TOB.xhtml#TB12_20'>20</a> (Gk.), <a href='TOB.xhtml#TB12_22'>22</a>. <a href='TOB.xhtml#TB13_6'>ver. 6</a>, <a href='TOB.xhtml#TB13_8'>8</a> (Gk.), <a href='TOB.xhtml#TB13_10'>10</a> (Gk.). <a href='TOB.xhtml#TB14_1'>ch. 14. 1</a>, <a href='TOB.xhtml#TB14_2'>2</a> (Gk.), <a href='TOB.xhtml#TB14_7'>7</a>.
-Tobit	13	3	2	Confess him before the Gentiles, ye children of Israel: For 	d	<a href='TOB.xhtml#TB1_2'>ch. 1. 2</a>. So <a href='TOB.xhtml#TB13_6'>ver. 6</a>.
-Tobit	13	5	1	And 	a	<a href='TOB.xhtml#TB11_15'>ch. 11. 15</a>. <a href='TOB.xhtml#TB13_5'>ver. 5</a>. See <a href='DEU.xhtml#DT32_39'>Deut. 32. 39</a>.
-Tobit	13	5	2	And he will scourge us for our iniquities, And will have mercy again, and 	e	See <a href='DEU.xhtml#DT30_3'>Deut. 30. 3</a>.
-Tobit	13	6	1	If ye turn to him 	f	See <a href='DEU.xhtml#DT6_5'>Deut. 6. 5</a>.
-Tobit	13	6	2	If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and 	c	<a href='TOB.xhtml#TB12_6'>ch. 12. 6</a> (Gk.), <a href='TOB.xhtml#TB12_20'>20</a> (Gk.), <a href='TOB.xhtml#TB12_22'>22</a>. <a href='TOB.xhtml#TB13_6'>ver. 6</a>, <a href='TOB.xhtml#TB13_8'>8</a> (Gk.), <a href='TOB.xhtml#TB13_10'>10</a> (Gk.). <a href='TOB.xhtml#TB14_1'>ch. 14. 1</a>, <a href='TOB.xhtml#TB14_2'>2</a> (Gk.), <a href='TOB.xhtml#TB14_7'>7</a>.
-Tobit	13	6	3	If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and confess him with your whole mouth, and praise the Lord of might, and extol 	g	<a href='TOB.xhtml#TB13_10'>ver. 10</a>. <a href='1TI.xhtml#T11_17'>1 Tim. 1. 17</a> (Gk.).
-Tobit	13	6	4	If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and confess him with your whole mouth, and praise the Lord of might, and extol the everlasting King. 	d	<a href='TOB.xhtml#TB1_2'>ch. 1. 2</a>. So <a href='TOB.xhtml#TB13_6'>ver. 6</a>.
-Tobit	13	6	5	If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and confess him with your whole mouth, and praise the Lord of might, and extol the everlasting King. In the land of my captivity do I 	c	<a href='TOB.xhtml#TB12_6'>ch. 12. 6</a> (Gk.), <a href='TOB.xhtml#TB12_20'>20</a> (Gk.), <a href='TOB.xhtml#TB12_22'>22</a>. <a href='TOB.xhtml#TB13_6'>ver. 6</a>, <a href='TOB.xhtml#TB13_8'>8</a> (Gk.), <a href='TOB.xhtml#TB13_10'>10</a> (Gk.). <a href='TOB.xhtml#TB14_1'>ch. 14. 1</a>, <a href='TOB.xhtml#TB14_2'>2</a> (Gk.), <a href='TOB.xhtml#TB14_7'>7</a>.
-Tobit	13	6	6	If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and confess him with your whole mouth, and praise the Lord of might, and extol the everlasting King. In the land of my captivity do I praise him, and declare his might and majesty to a sinful nation. O ye sinners, turn and do justice before him: 	h	See <a href='JON.xhtml#JH3_9'>Jonah 3. 9</a>.
-Tobit	13	7	1	I will extol my God, And my soul shall praise 	i	<a href='TOB.xhtml#TB13_11'>ver. 11</a>. See <a href='1ES.xhtml#E14_46'>1 Esdr. 4. 46</a>.
-Tobit	13	8	1	Let all men speak, and let all 	c	<a href='TOB.xhtml#TB12_6'>ch. 12. 6</a> (Gk.), <a href='TOB.xhtml#TB12_20'>20</a> (Gk.), <a href='TOB.xhtml#TB12_22'>22</a>. <a href='TOB.xhtml#TB13_6'>ver. 6</a>, <a href='TOB.xhtml#TB13_8'>8</a> (Gk.), <a href='TOB.xhtml#TB13_10'>10</a> (Gk.). <a href='TOB.xhtml#TB14_1'>ch. 14. 1</a>, <a href='TOB.xhtml#TB14_2'>2</a> (Gk.), <a href='TOB.xhtml#TB14_7'>7</a>.
-Tobit	13	9	1	O Jerusalem, 	j	<a href='DAN.xhtml#DN9_24'>Dan. 9. 24</a>. <a href='SIR.xhtml#SR24_11'>Ecclus. 24. 11</a> marg. See <a href='NEH.xhtml#NH11_1'>Neh. 11. 1</a>.
-Tobit	13	9	2	O Jerusalem, the holy city, 	*	Or, <span class='add'>He will lay a scourge upon the works of thy children</span>.
-Tobit	13	9	3	O Jerusalem, the holy city, He will scourge thee for thy children’s works, And will have mercy again on 	k	<a href='TOB.xhtml#TB13_13'>ver. 13</a> (Gk.).
-Tobit	14	1	1	So Tobit made an end of 	a	See <a href='TOB.xhtml#TB13_3'>ch. 13. 3</a>.
-Tobit	14	10	1	And bury me decently, and thy mother with me; but tarry no longer at Nineve. Remember, my son, how Aman handled 	m	See <a href='TOB.xhtml#TB2_10'>ch. 2. 10</a>.
-Tobit	14	10	2	And bury me decently, and thy mother with me; but tarry no longer at Nineve. Remember, my son, how Aman handled Achiacharus that brought him up, how 	n	Comp. <a href='JOB.xhtml#JB18_18'>Job 18. 18</a>. <a href='PSA.xhtml#PS112_4'>Ps. 112. 4</a>.
-Tobit	14	10	3	And bury me decently, and thy mother with me; but tarry no longer at Nineve. Remember, my son, how Aman handled Achiacharus that brought him up, how out of light he brought him into darkness, and how he rewarded him again: yet Achiacharus was 	*	Or, <span class='add'>preserved</span>. <a href='TOB.xhtml#TB6_17'>ch. 6. 17</a>.
-Tobit	14	10	4	And bury me decently, and thy mother with me; but tarry no longer at Nineve. Remember, my son, how Aman handled Achiacharus that brought him up, how out of light he brought him into darkness, and how he rewarded him again: yet Achiacharus was saved, but the other had his reward: for he went down into darkness. 	*	Junius readeth. <span class='add'>Nitzba</span>. <a href='TOB.xhtml#TB11_18'>ch. 11. 18</a>.
-Tobit	14	10	5	And bury me decently, and thy mother with me; but tarry no longer at Nineve. Remember, my son, how Aman handled Achiacharus that brought him up, how out of light he brought him into darkness, and how he rewarded him again: yet Achiacharus was saved, but the other had his reward: for he went down into darkness. Manasses gave alms, and escaped the snares of death 	*	Rom. <span class='add'>Which he had set</span>.
-Tobit	14	11	1	Wherefore now, my son, consider 	o	See <a href='TOB.xhtml#TB12_8'>ch. 12. 8</a>, <a href='TOB.xhtml#TB12_9'>9</a>.
-Tobit	14	11	2	Wherefore now, my son, consider what alms doeth, and how righteousness doth deliver. When he had said these things, he gave up the ghost in the bed, 	p	Comp. <a href='TOB.xhtml#TB14_2'>ver. 2</a>.
-Tobit	14	11	3	Wherefore now, my son, consider what alms doeth, and how righteousness doth deliver. When he had said these things, he gave up the ghost in the bed, being an hundred and eight and fifty years old; and 	*	Or, <span class='add'>they</span>.
-Tobit	14	12	1	And when Anna his mother was dead, he buried her with his father. But Tobias departed with his wife and children to 	q	See <a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>.
-Tobit	14	13	1	where he became old with honour, and he buried his father and mother in law honourably, and he 	*	Or, <span class='add'>possessed</span>. <a href='1MA.xhtml#M12_10'>1 Macc. 2. 10</a> (Gk.).
-Tobit	14	14	1	And he died at 	q	See <a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>.
-Tobit	14	14	2	And he died at Ecbatane in 	b	See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	14	15	1	But before he died he heard of the destruction of Nineve, which was taken by Nabuchodonosor and 	r	<a href='DAN.xhtml#DN9_1'>Dan. 9. 1</a> ?
-Tobit	14	2	1	And he was eight and fifty years old when he lost his sight, which was restored to him after eight years: and he gave alms, and he 	*	Or, <span class='add'>did more and more fear</span>. See <a href='LUK.xhtml#LK19_11'>Luke 19. 11</a>.
-Tobit	14	2	2	And he was eight and fifty years old when he lost his sight, which was restored to him after eight years: and he gave alms, and he increased in the fear of the Lord God, and 	a	See <a href='TOB.xhtml#TB13_3'>ch. 13. 3</a>.
-Tobit	14	4	1	Go into 	b	See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	14	4	2	Go into Media my son, for I surely believe those things which 	c	<a href='JON.xhtml#JH3_4'>Jonah 3. 4</a>. <a href='TOB.xhtml#TB14_8'>ver. 8</a>.
-Tobit	14	4	3	Go into Media my son, for I surely believe those things which Jonas the prophet spake of Nineve, that it shall be overthrown; and that for a time peace shall rather be in Media; and that 	d	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9–11</a>.
-Tobit	14	4	4	Go into Media my son, for I surely believe those things which Jonas the prophet spake of Nineve, that it shall be overthrown; and that for a time peace shall rather be in Media; and that our brethren shall lie scattered in the earth from that good land: and 	d	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9–11</a>.
-Tobit	14	4	5	Go into Media my son, for I surely believe those things which Jonas the prophet spake of Nineve, that it shall be overthrown; and that for a time peace shall rather be in Media; and that our brethren shall lie scattered in the earth from that good land: and Jerusalem shall be desolate, and 	d	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9–11</a>.
-Tobit	14	5	1	and that again God will have mercy on them, and bring them again into the land, where 	e	<a href='EZR.xhtml#ER3_8'>Ezra 3. 8</a>. &amp; <a href='EZR.xhtml#ER6_14'>6. 14</a>.
-Tobit	14	5	2	and that again God will have mercy on them, and bring them again into the land, where they shall build a temple, but 	f	<a href='EZR.xhtml#ER3_12'>Ezra 3. 12</a>. <a href='HAG.xhtml#HG2_3'>Hagg. 2. 3</a>.
-Tobit	14	5	3	and that again God will have mercy on them, and bring them again into the land, where they shall build a temple, but not like to the first, until the time of that age be fulfilled; and 	g	Comp. <a href='JER.xhtml#JR31_1'>Jer. 31. 1–14</a>. &amp; <a href='JER.xhtml#JR50_4'>50. 4</a>, <a href='JER.xhtml#JR50_5'>5</a>. <a href='BAR.xhtml#BR4_36'>Baruch 4. 36</a>, <a href='BAR.xhtml#BR4_37'>37</a>. &amp; <a href='BAR.xhtml#BR5_5'>5. 5–9</a>.
-Tobit	14	5	4	and that again God will have mercy on them, and bring them again into the land, where they shall build a temple, but not like to the first, until the time of that age be fulfilled; and afterward they shall return from all places of their captivity, and build up Jerusalem gloriously, and the house of God shall be built in it 	*	<span class='add'>for ever</span> is not in the Roman copy.
-Tobit	14	6	1	And 	h	See <a href='TOB.xhtml#TB13_11'>ch. 13. 11</a>.
-Tobit	14	6	2	And all nations shall turn, and fear the Lord God truly, and 	i	So <a href='ISA.xhtml#IS2_18'>Isai. 2. 18</a>. <a href='MIC.xhtml#MC5_13'>Mic 5. 13</a>. <a href='ZEC.xhtml#ZC13_2'>Zech. 13. 2</a>.
-Tobit	14	7	1	So shall all nations praise the Lord, and his people shall 	a	See <a href='TOB.xhtml#TB13_3'>ch. 13. 3</a>.
-Tobit	14	7	2	So shall all nations praise the Lord, and his people shall confess God, and the Lord shall exalt his people; and all 	k	<a href='TOB.xhtml#TB13_14'>ch. 13. 14</a>.
-Tobit	14	8	1	And now, my son, depart out of Nineve, because that those things which 	c	<a href='JON.xhtml#JH3_4'>Jonah 3. 4</a>. <a href='TOB.xhtml#TB14_8'>ver. 8</a>.
-Tobit	14	9	1	But keep thou the law and the commandments, and shew thyself merciful and just, 	l	See <a href='DEU.xhtml#DT4_40'>Deut. 4. 40</a>.
-Tobit	2	1	1	Now when I was come home again, and my wife Anna was restored unto me, with my son Tobias, in 	a	See <a href='EXO.xhtml#EX34_22'>Exod. 34. 22</a>. &amp; <a href='ACT.xhtml#AC2_1'>Acts 2. 1</a>.
-Tobit	2	1	2	Now when I was come home again, and my wife Anna was restored unto me, with my son Tobias, in the feast of Pentecost, which is 	a	See <a href='EXO.xhtml#EX34_22'>Exod. 34. 22</a>. &amp; <a href='ACT.xhtml#AC2_1'>Acts 2. 1</a>.
-Tobit	2	10	1	And I knew not that there were 	*	Or, <span class='add'>swallows</span>.
-Tobit	2	10	2	And I knew not that there were sparrows in the wall, and mine eyes being open, the sparrows muted warm dung into mine eyes, and 	*	Or, <span class='add'>white films</span>. <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>. &amp; <a href='TOB.xhtml#TB6_8'>6. 8</a>. &amp; <a href='TOB.xhtml#TB11_8'>11. 8</a>, <a href='TOB.xhtml#TB11_13'>13</a>.
-Tobit	2	10	3	And I knew not that there were sparrows in the wall, and mine eyes being open, the sparrows muted warm dung into mine eyes, and a whiteness came in mine eyes: and I went to the physicians, but they helped me not: moreover 	h	<a href='TOB.xhtml#TB1_22'>ch. 1. 22</a>. &amp; <a href='TOB.xhtml#TB11_18'>11. 18</a>. &amp; <a href='TOB.xhtml#TB14_10'>14. 10</a>.
-Tobit	2	10	4	And I knew not that there were sparrows in the wall, and mine eyes being open, the sparrows muted warm dung into mine eyes, and a whiteness came in mine eyes: and I went to the physicians, but they helped me not: moreover Achiacharus did nourish me, until I went into 	i	<a href='1MA.xhtml#M16_1'>1 Macc. 6. 1</a>. See <a href='ISA.xhtml#IS11_11'>Isai. 11. 11</a>.
-Tobit	2	11	1	And my wife Anna 	*	Or, <span class='add'>was hired to spin in the women’s rooms</span>.
-Tobit	2	12	1	And when she had sent 	*	Or, her work.
-Tobit	2	13	1	And when it was in my house, and began to cry, I said unto her, From whence is this kid? is it not stolen? render it to the owners; 	k	<a href='DEU.xhtml#DT22_1'>Deut. 22. 1</a>.
-Tobit	2	14	1	But she replied upon me, It was given for a gift more than the wages. Howbeit I did not believe her, but bade her render it to the owners: and I was abashed at her. 	l	<a href='JOB.xhtml#JB2_9'>Job 2. 9</a>. Comp. <a href='TOB.xhtml#TB5_17'>ch. 5. 17</a>, <a href='TOB.xhtml#TB5_18'>18</a>. <a href='SIR.xhtml#SR11_23'>Ecclus. 11. 23</a>.
-Tobit	2	14	2	But she replied upon me, It was given for a gift more than the wages. Howbeit I did not believe her, but bade her render it to the owners: and I was abashed at her. But she replied upon me, Where are thine alms and 	m	See <a href='MAT.xhtml#MT6_1'>Matt. 6. 1</a> [marg.]. So <a href='TOB.xhtml#TB12_8'>ch. 12. 8</a>, <a href='TOB.xhtml#TB12_9'>9</a>. &amp; <a href='TOB.xhtml#TB14_11'>14. 11</a>.
-Tobit	2	14	3	But she replied upon me, It was given for a gift more than the wages. Howbeit I did not believe her, but bade her render it to the owners: and I was abashed at her. But she replied upon me, Where are thine alms and thy righteous deeds? 	*	Or, <span class='add'>lo, all</span> things are <span class='add'>known to thee</span>. Comp. <a href='ACT.xhtml#AC15_18'>Acts 15. 18</a> (Gk.).
-Tobit	2	6	1	remembering that prophecy of Amos, as he said, 	b	Cited from <a href='AMO.xhtml#AM8_10'>Amos 8. 10</a>. So <a href='1MA.xhtml#M11_39'>1 Mac. 1. 39</a>.
-Tobit	2	7	1	Therefore I wept: and after the going down of the sun I went and made a grave, and 	c	See <a href='TOB.xhtml#TB1_17'>ch. 1. 17</a>.
-Tobit	2	8	1	But my neighbours mocked me, and said, This man is not yet afraid to be put to death for this matter: 	d	<a href='TOB.xhtml#TB1_19'>ch. 1. 19</a>.
-Tobit	2	9	1	The same night also I 	e	See <a href='WIS.xhtml#WS2_1'>Wisd. 2. 1</a>.
-Tobit	2	9	2	The same night also I returned from the burial, and slept by the wall of my 	f	See <a href='REV.xhtml#RV11_2'>Rev. 11. 2</a>.
-Tobit	2	9	3	The same night also I returned from the burial, and slept by the wall of my courtyard, 	g	<a href='NUM.xhtml#NU19_11'>Numb. 19. 11</a>.
-Tobit	3	10	1	When she heard these things, she was very sorrowful, so that she thought to have strangled herself; and she said, I am the only daughter of my father, and if I do this, it shall be a reproach unto him, and 	n	So <a href='TOB.xhtml#TB6_14'>ch. 6. 14</a>. See <a href='GEN.xhtml#GN42_38'>Gen. 42. 38</a>.
-Tobit	3	11	1	Then she prayed 	o	<a href='DAN.xhtml#DN6_10'>Dan. 6. 10</a>.
-Tobit	3	11	2	Then she prayed toward the window, and said, 	oo	See <a href='TOB.xhtml#TB8_5'>ch. 8. 5</a>.
-Tobit	3	11	3	Then she prayed toward the window, and said, Blessed art thou, O Lord my God, and thine holy and glorious name is blessed and honourable for ever: 	p	<a href='PSA.xhtml#PS145_10'>Ps. 145. 10</a>.
-Tobit	3	12	1	And now, O Lord, 	q	So <a href='PSA.xhtml#PS123_1'>Ps. 123. 1</a>.
-Tobit	3	13	1	and say, 	r	So <a href='TOB.xhtml#TB3_6'>ver. 6</a>.
-Tobit	3	15	1	and that I never polluted my name, nor the name of my father, in the land of my captivity: I am the only daughter of my father, neither hath he any child to be his heir, neither any near 	*	Or, <span class='add'>brother</span>. Gk. as <a href='TOB.xhtml#TB7_4'>ch. 7. 4</a>, <a href='TOB.xhtml#TB7_12'>12</a>.
-Tobit	3	17	1	And 	s	<a href='TOB.xhtml#TB5_4'>ch. 5. 4</a>. &amp; <a href='TOB.xhtml#TB7_8'>7. 8</a>. &amp; <a href='TOB.xhtml#TB8_2'>8. 2</a>. &amp; <a href='TOB.xhtml#TB9_1'>9. 1</a>, <a href='TOB.xhtml#TB9_5'>5</a>. &amp; <a href='TOB.xhtml#TB11_2'>11. 2</a>, <a href='TOB.xhtml#TB11_7'>7</a>. &amp; <a href='TOB.xhtml#TB12_15'>12. 15</a>.
-Tobit	3	17	2	And Raphael was sent to heal them both, that is, to 	t	<a href='TOB.xhtml#TB11_13'>ch. 11. 13</a> (Gk.). So <a href='ACT.xhtml#AC9_18'>Acts 9. 18</a>.
-Tobit	3	17	3	And Raphael was sent to heal them both, that is, to scale away the whiteness of Tobit’s eyes, and to give Sara the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind 	m	<a href='TOB.xhtml#TB3_17'>ver. 17</a>. So <a href='TOB.xhtml#TB6_14'>ch. 6. 14</a>, <a href='TOB.xhtml#TB6_15'>15</a>, <a href='TOB.xhtml#TB6_17'>17</a>. &amp; <a href='TOB.xhtml#TB8_3'>8. 3</a>. Comp. <a href='WIS.xhtml#WS18_25'>Wisd. 18. 25</a>. <a href='REV.xhtml#RV9_11'>Rev. 9. 11</a>. See <a href='JOB.xhtml#JB26_6'>Job 26. 6</a>.
-Tobit	3	17	4	And Raphael was sent to heal them both, that is, to scale away the whiteness of Tobit’s eyes, and to give Sara the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodeus the evil spirit; because 	u	So <a href='TOB.xhtml#TB6_11'>ch. 6. 11</a> (Gk.), <a href='TOB.xhtml#TB6_12'>12</a>.
-Tobit	3	17	5	And Raphael was sent to heal them both, that is, to scale away the whiteness of Tobit’s eyes, and to give Sara the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodeus the evil spirit; because she belonged to Tobias by right of inheritance. 	x	<a href='TOB.xhtml#TB3_7'>ver. 7</a>.
-Tobit	3	2	1		a	<a href='PSA.xhtml#PS119_137'>Ps. 119. 137</a>. See <a href='EZR.xhtml#ER9_13'>Ezra 9. 13</a>.
-Tobit	3	3	1	Remember me, and look on me, punish me not for my sins and 	b	<a href='SIR.xhtml#SR23_2'>Ecclus. 23. 2</a>. So <a href='1ES.xhtml#E18_75'>1 Esdr. 8. 75</a>. <a href='SIR.xhtml#SR23_3'>Ecclus. 23. 3</a>. See <a href='LEV.xhtml#LV4_2'>Lev. 4. 2</a>.
-Tobit	3	4	1	for they obeyed not thy commandments: wherefore thou hast delivered us 	c	See <a href='JDT.xhtml#JT9_4'>Judith 9. 4</a>.
-Tobit	3	4	2	for they obeyed not thy commandments: wherefore thou hast delivered us for a spoil, and unto captivity, and unto death, and for 	d	<a href='DEU.xhtml#DT28_15'>Deut. 28. 15</a>, <a href='DEU.xhtml#DT28_37'>37</a>.
-Tobit	3	6	1	Now therefore 	e	See <a href='1SA.xhtml#S13_18'>1 Sam. 3. 18</a>.
-Tobit	3	6	2	Now therefore deal with me as seemeth best unto thee, and 	f	<a href='JON.xhtml#JH4_3'>Jonah 4. 3</a>.
-Tobit	3	6	3	Now therefore deal with me as seemeth best unto thee, and command my spirit to be taken from me, that I may be 	*	Or, <span class='add'>dismissed</span>, or, <span class='add'>delivered</span>. So <a href='TOB.xhtml#TB3_13'>ver. 13</a>.
-Tobit	3	6	4	Now therefore deal with me as seemeth best unto thee, and command my spirit to be taken from me, that I may be dissolved, and become earth: 	f	<a href='JON.xhtml#JH4_3'>Jonah 4. 3</a>.
-Tobit	3	6	5	Now therefore deal with me as seemeth best unto thee, and command my spirit to be taken from me, that I may be dissolved, and become earth: for 	g	<a href='LUK.xhtml#LK17_2'>Luke 17. 2</a> (Gk.).
-Tobit	3	6	6	Now therefore deal with me as seemeth best unto thee, and command my spirit to be taken from me, that I may be dissolved, and become earth: for it is profitable for me to die rather than to live, because 	h	<a href='TOB.xhtml#TB2_14'>ch. 2. 14</a>.
-Tobit	3	6	7	Now therefore deal with me as seemeth best unto thee, and command my spirit to be taken from me, that I may be dissolved, and become earth: for it is profitable for me to die rather than to live, because I have heard false reproaches, and have much sorrow: command therefore that I may now be delivered out of this distress, and go into the everlasting place: 	i	<a href='2CH.xhtml#R230_9'>2 Chr. 30. 9</a>. So <a href='TOB.xhtml#TB4_7'>ch. 4. 7</a>.
-Tobit	3	7	1	It came to pass the same day, that in 	k	<a href='EZR.xhtml#ER6_2'>Ezra 6. 2</a>? <a href='TOB.xhtml#TB6_5'>ch. 6. 5</a>. &amp; <a href='TOB.xhtml#TB7_1'>7. 1</a>. &amp; <a href='TOB.xhtml#TB14_12'>14. 12</a>, <a href='TOB.xhtml#TB14_14'>14</a>. <a href='JDT.xhtml#JT1_1'>Judith 1. 1</a>, <a href='JDT.xhtml#JT1_2'>2</a>. <a href='2MA.xhtml#M29_3'>2 Macc. 9. 3</a>.
-Tobit	3	7	2	It came to pass the same day, that in Ecbatane a city of 	l	<a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>, <a href='TOB.xhtml#TB1_15'>15</a>.
-Tobit	3	8	1	because that she had been married to seven husbands, whom 	m	<a href='TOB.xhtml#TB3_17'>ver. 17</a>. So <a href='TOB.xhtml#TB6_14'>ch. 6. 14</a>, <a href='TOB.xhtml#TB6_15'>15</a>, <a href='TOB.xhtml#TB6_17'>17</a>. &amp; <a href='TOB.xhtml#TB8_3'>8. 3</a>. Comp. <a href='WIS.xhtml#WS18_25'>Wisd. 18. 25</a>. <a href='REV.xhtml#RV9_11'>Rev. 9. 11</a>. See <a href='JOB.xhtml#JB26_6'>Job 26. 6</a>.
-Tobit	4	1	1	In that day Tobit remembered 	a	See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	4	10	1	Because that 	l	<a href='TOB.xhtml#TB12_9'>ch. 12. 9</a>. Comp. <a href='SIR.xhtml#SR29_12'>Ecclus. 29. 12</a>, <a href='SIR.xhtml#SR29_13'>13</a>.
-Tobit	4	12	1		m	See <a href='1TH.xhtml#H14_3'>1 Thess. 4. 3</a>.
-Tobit	4	12	2	Beware of all whoredom, my son, and chiefly take a wife of the seed of thy fathers, and take not a strange woman to wife, which is not of thy father’s tribe: for we are the children of the 	n	See <a href='GEN.xhtml#GN20_7'>Gen. 20. 7</a>. So <a href='PSA.xhtml#PS105_15'>Ps. 105. 15</a>. <a href='WIS.xhtml#WS7_27'>Wisd. 7. 27</a>.
-Tobit	4	13	1	Now therefore, my son, love thy brethren, and despise not in thy heart thy brethren, the sons and daughters of thy people, in not taking a wife of them: for 	o	So <a href='PRO.xhtml#PR11_2'>Prov. 11. 2</a>. Comp. <a href='GEN.xhtml#GN3_5'>Gen. 3. 5</a>.
-Tobit	4	13	2	Now therefore, my son, love thy brethren, and despise not in thy heart thy brethren, the sons and daughters of thy people, in not taking a wife of them: for in pride is destruction and much trouble, and in 	p	So <a href='MAT.xhtml#MT25_30'>Matt. 25. 30</a> (Gk.).
-Tobit	4	13	3	Now therefore, my son, love thy brethren, and despise not in thy heart thy brethren, the sons and daughters of thy people, in not taking a wife of them: for in pride is destruction and much trouble, and in lewdness is decay and great want: for 	p	So <a href='MAT.xhtml#MT25_30'>Matt. 25. 30</a> (Gk.).
-Tobit	4	13	4	Now therefore, my son, love thy brethren, and despise not in thy heart thy brethren, the sons and daughters of thy people, in not taking a wife of them: for in pride is destruction and much trouble, and in lewdness is decay and great want: for 	q	So <a href='PRO.xhtml#PR6_10'>Prov. 6. 10</a>, <a href='PRO.xhtml#PR6_11'>11</a>.
-Tobit	4	14	1		r	See <a href='LEV.xhtml#LV19_13'>Lev. 19. 13</a>.
-Tobit	4	14	2	Let not the wages of any man, which hath wrought for thee, tarry with thee, but give him it out of hand: for if thou serve God, he will also repay thee: be 	s	<a href='EXO.xhtml#EX23_13'>Exod. 23. 13</a>. <a href='WIS.xhtml#WS12_21'>Wisd. 12. 21</a>. <a href='EPH.xhtml#EP5_15'>Ephes. 5. 15</a> (English).
-Tobit	4	14	3	Let not the wages of any man, which hath wrought for thee, tarry with thee, but give him it out of hand: for if thou serve God, he will also repay thee: be circumspect my son, in all things thou doest, and be wise 	t	See <a href='1PE.xhtml#P11_15'>1 Pet. 1. 15</a>.
-Tobit	4	15	1		u	<a href='MAT.xhtml#MT7_12'>Matt. 7. 12</a>. <a href='LUK.xhtml#LK6_31'>Luke 6. 31</a>.
-Tobit	4	15	2	Do that to no man which thou hatest: 	x	See <a href='EPH.xhtml#EP5_18'>Eph. 5. 18</a>.
-Tobit	4	16	1		y	<a href='TOB.xhtml#TB1_16'>ch. 1. 16</a>, <a href='TOB.xhtml#TB1_17'>17</a>. <a href='LUK.xhtml#LK14_13'>Luke 14. 13</a>. See <a href='TOB.xhtml#TB4_7'>ver. 7</a>.
-Tobit	4	16	2	Give of thy bread to the hungry, and of thy garments to them that are naked; and 	z	So <a href='TOB.xhtml#TB4_8'>ver. 8</a>. Comp. <a href='MAT.xhtml#MT6_1'>Matt. 6. 1</a>.
-Tobit	4	16	3	Give of thy bread to the hungry, and of thy garments to them that are naked; and according to thine abundance give alms: and 	a	<a href='TOB.xhtml#TB4_7'>ver. 7</a>.
-Tobit	4	17	1		b	<a href='BAR.xhtml#BR6_32'>Baruch 6. 32</a>. Comp. <a href='JER.xhtml#JR16_7'>Jer. 16. 7</a>. <a href='EZK.xhtml#EK24_17'>Ezek. 24. 17</a>. <a href='SIR.xhtml#SR7_33'>Ecclus. 7. 33</a>. &amp; <a href='SIR.xhtml#SR30_18'>30. 18</a>.
-Tobit	4	19	1	Bless the Lord thy God alway, and desire of him that 	c	See <a href='PSA.xhtml#PS119_5'>Ps. 119. 5</a>.
-Tobit	4	19	2	Bless the Lord thy God alway, and desire of him that thy ways may be directed, and that all thy paths and counsels may prosper: for every nation hath not counsel; but 	d	So <a href='JAS.xhtml#JM1_17'>Jam. 1. 17</a>.
-Tobit	4	2	1	and said with himself, 	b	<a href='TOB.xhtml#TB3_6'>ch. 3. 6</a>.
-Tobit	4	20	1	And now I signify this to they that I committed ten talents to Gabael 	*	[<a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>, <span class='add'>the</span> brother].
-Tobit	4	21	1	And fear not, my son, that 	e	<a href='TOB.xhtml#TB1_20'>ch. 1. 20</a>.
-Tobit	4	21	2	And fear not, my son, that we are made poor: for 	f	<a href='1TI.xhtml#T16_6'>1 Tim. 6. 6</a>. Comp. <a href='ROM.xhtml#RM8_17'>Rom. 8. 17</a>.
-Tobit	4	3	1	And when he had called him, he said, My son, when I am dead, bury me; and 	c	<a href='PRO.xhtml#PR23_22'>Prov. 23. 22</a>.
-Tobit	4	3	2	And when he had called him, he said, My son, when I am dead, bury me; and despise not thy mother, 	d	See <a href='EXO.xhtml#EX20_12'>Exod. 20. 12</a>. So <a href='SIR.xhtml#SR7_27'>Ecclus. 7. 27</a>.
-Tobit	4	5	1	My son, be mindful of the Lord our God all thy days, and 	e	<a href='1TI.xhtml#T15_11'>1 Tim. 5. 11</a> (Gk.).
-Tobit	4	7	1		f	See <a href='PRO.xhtml#PR3_9'>Prov. 3. 9</a>. So <a href='DEU.xhtml#DT15_7'>Deut. 15. 7</a>, <a href='DEU.xhtml#DT15_8'>8</a>. <a href='SIR.xhtml#SR3_30'>Ecclus. 3. 30</a>. &amp; <a href='SIR.xhtml#SR4_1'>4. 1</a>, <a href='SIR.xhtml#SR4_5'>5</a>. &amp; <a href='SIR.xhtml#SR7_10'>7. 10</a>. &amp; <a href='SIR.xhtml#SR12_3'>12. 3</a>. &amp; <a href='SIR.xhtml#SR14_13'>14. 13</a>. &amp; <a href='SIR.xhtml#SR17_22'>17. 22</a>. &amp; <a href='SIR.xhtml#SR29_12'>29. 12</a>. <a href='TOB.xhtml#TB4_16'>ver. 16</a>. <a href='LUK.xhtml#LK11_41'>Luke 11. 41</a>.
-Tobit	4	7	2	Give alms of thy substance; and when thou givest alms, 	g	<a href='TOB.xhtml#TB4_16'>ver. 16</a>. So <a href='SIR.xhtml#SR14_10'>Ecclus. 14. 10</a>. &amp; <a href='SIR.xhtml#SR35_10'>35. 10</a>. See <a href='2CO.xhtml#C29_7'>2 Cor. 9. 7</a>.
-Tobit	4	7	3	Give alms of thy substance; and when thou givest alms, let not thine eye be envious, 	h	<a href='SIR.xhtml#SR4_4'>Ecclus. 4. 4</a>.
-Tobit	4	7	4	Give alms of thy substance; and when thou givest alms, let not thine eye be envious, neither turn thy face from any poor, and 	i	So <a href='TOB.xhtml#TB3_6'>ch. 3. 6</a>.
-Tobit	4	8	1		j	So <a href='TOB.xhtml#TB4_16'>ver. 16</a>.
-Tobit	4	9	1	for thou 	k	<a href='1TI.xhtml#T16_19'>1 Tim. 6. 19</a>.
-Tobit	5	13	1	Then Tobit said, 	bb	<a href='TOB.xhtml#TB11_17'>ch. 11. 17</a>.
-Tobit	5	13	2	Then Tobit said, Thou art welcome, brother; be not now angry with me, because I have enquired to know thy tribe and thy family; for thou art my brother, of 	c	<a href='TOB.xhtml#TB7_7'>ch. 7. 7</a>. <a href='LUK.xhtml#LK8_15'>Luke 8. 15</a>.
-Tobit	5	13	3	Then Tobit said, Thou art welcome, brother; be not now angry with me, because I have enquired to know thy tribe and thy family; for thou art my brother, of an honest and good stock: for I know Ananias and Jonathas, sons of that great Samaias, 	d	<a href='TOB.xhtml#TB1_6'>ch. 1. 6</a>, <a href='TOB.xhtml#TB1_7'>7</a>.
-Tobit	5	13	4	Then Tobit said, Thou art welcome, brother; be not now angry with me, because I have enquired to know thy tribe and thy family; for thou art my brother, of an honest and good stock: for I know Ananias and Jonathas, sons of that great Samaias, as we went together to Jerusalem to worship, and offered the firstborn, and the tenths of the fruits; and they were not seduced 	e	<a href='TOB.xhtml#TB1_4'>ch. 1. 4</a>, <a href='TOB.xhtml#TB1_5'>5</a>.
-Tobit	5	14	1	But tell me, what wages shall I give thee? wilt thou 	f	So <a href='MAT.xhtml#MT20_2'>Matt. 20. 2</a>.
-Tobit	5	16	1	So they were well pleased. Then said he to Tobias, Prepare thyself for the journey, and God send you a good journey. And when his son had prepared all things for the journey, his father said, Go thou with this man, and God, which dwelleth in heaven, prosper your journey, and the angel of God keep you company. So they went forth both, and 	g	<a href='TOB.xhtml#TB11_4'>ch. 11. 4</a>.
-Tobit	5	17	1	But Anna his mother wept, and 	h	Comp. <a href='TOB.xhtml#TB2_14'>ch. 2. 14</a>.
-Tobit	5	17	2	But Anna his mother wept, and said to Tobit, Why hast thou sent away our son? is he not the staff of our hand, 	i	See <a href='NUM.xhtml#NU27_17'>Num. 27. 17</a>.
-Tobit	5	18	1		*	[Gk.]. <span class='add'>Let not money be added, but be the</span> <span class="notemark">k</span><span class='add'>offscouring of our son</span>.
-Tobit	5	19	1		*	Or, <span class='add'>So long as God hath granted us to live, this is sufficient</span>.
-Tobit	5	20	1	Then said Tobit to her, Take no care, 	l	<a href='TOB.xhtml#TB7_16'>ch. 7. 16</a>. &amp; <a href='TOB.xhtml#TB8_4'>8. 4</a>, <a href='TOB.xhtml#TB8_7'>7</a>. See <a href='SNG.xhtml#SS4_9'>Cant. 4. 9</a>.
-Tobit	5	21	1	For 	m	<a href='TOB.xhtml#TB5_16'>ver. 16</a>.
-Tobit	5	3	1	Then he gave him 	a	<a href='TOB.xhtml#TB9_4'>ch. 9. 4</a>.
-Tobit	5	4	1	Therefore when he went to seek a man, he found 	aa	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	5	5	1	But he knew not; and he said unto him, Canst thou go with me to 	b	See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	6	1	1	And as they went on their journey, they came in the evening to the river 	a	<a href='GEN.xhtml#GN2_14'>Gen. 2. 14</a>. <a href='DAN.xhtml#DN10_4'>Dan. 10. 4</a>. in the Gk. <a href='JDT.xhtml#JT1_6'>Judith 1. 6</a>. <a href='SIR.xhtml#SR24_25'>Ecclus. 24. 25</a>.
-Tobit	6	10	1	the angel said to the young man, Brother, to day we shall lodge with 	e	<a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>.
-Tobit	6	10	2	the angel said to the young man, Brother, to day we shall lodge with Raguel, who is thy cousin; he also hath 	f	<a href='TOB.xhtml#TB3_10'>ch. 3. 10</a>, <a href='TOB.xhtml#TB3_15'>15</a>.
-Tobit	6	11	1	For to thee doth the 	*	Or, <span class='add'>inheritance</span>. So <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>. <a href='TOB.xhtml#TB6_12'>ver. 12</a>. <a href='TOB.xhtml#TB7_10'>ch. 7. 10</a>.
-Tobit	6	11	2	For to thee doth the 	g	<a href='NUM.xhtml#NU27_8'>Numb. 27. 8</a>. &amp; <a href='NUM.xhtml#NU36_8'>36. 8</a>. So <a href='TOB.xhtml#TB7_13'>ch. 7. 13</a>.
-Tobit	6	12	1	And the maid is fair and wise: now therefore hear me, and I will speak to her father; and when we return from 	d	So <a href='TOB.xhtml#TB6_12'>ver. 12</a>. See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	6	12	2	And the maid is fair and wise: now therefore hear me, and I will speak to her father; and when we return from Rages we will celebrate the marriage: for I know that Raguel cannot marry her to another according 	g	<a href='NUM.xhtml#NU27_8'>Numb. 27. 8</a>. &amp; <a href='NUM.xhtml#NU36_8'>36. 8</a>. So <a href='TOB.xhtml#TB7_13'>ch. 7. 13</a>.
-Tobit	6	12	3	And the maid is fair and wise: now therefore hear me, and I will speak to her father; and when we return from Rages we will celebrate the marriage: for I know that Raguel cannot marry her to another according to the law of Moses, but 	h	See <a href='NUM.xhtml#NU35_31'>Numb. 35. 31</a> (Engl.).
-Tobit	6	13	1	Then the young man answered the angel, I have heard, brother Azarias that this maid hath been given to seven men, who all died in 	i	<a href='TOB.xhtml#TB6_16'>ver. 16</a>. <a href='MAT.xhtml#MT9_15'>Matt. 9. 15</a>. <a href='MRK.xhtml#MK2_19'>Mark 2. 19</a>. <a href='LUK.xhtml#LK5_34'>Luke 5. 34</a>.
-Tobit	6	14	1	And now I am the only son of my father, and I am afraid, lest if I go in unto her, I die, as the other before: for a 	j	Gk. as <a href='TOB.xhtml#TB6_17'>ver. 17</a>. <a href='TOB.xhtml#TB8_3'>ch. 8. 3</a>. See <a href='TOB.xhtml#TB3_8'>ch. 3. 8</a>.
-Tobit	6	14	2	And now I am the only son of my father, and I am afraid, lest if I go in unto her, I die, as the other before: for a wicked spirit loveth her, which hurteth no body, 	k	<a href='TOB.xhtml#TB3_8'>ch. 3. 8</a>.
-Tobit	6	14	3	And now I am the only son of my father, and I am afraid, lest if I go in unto her, I die, as the other before: for a wicked spirit loveth her, which hurteth no body, but those which come unto her; wherefore I also fear lest I die, and 	l	See <a href='TOB.xhtml#TB3_10'>ch. 3. 10</a>.
-Tobit	6	15	1	Then the angel said unto him, Dost thou not remember the precepts which thy father gave thee, 	m	<a href='TOB.xhtml#TB4_12'>ch. 4. 12</a>.
-Tobit	6	15	2	Then the angel said unto him, Dost thou not remember the precepts which thy father gave thee, that thou shouldest marry a wife of thine own kindred? wherefore hear me, O my brother; for she shall be given thee to wife; and make thou no reckoning of 	j	Gk. as <a href='TOB.xhtml#TB6_17'>ver. 17</a>. <a href='TOB.xhtml#TB8_3'>ch. 8. 3</a>. See <a href='TOB.xhtml#TB3_8'>ch. 3. 8</a>.
-Tobit	6	16	1	And when thou shalt come into 	i	<a href='TOB.xhtml#TB6_16'>ver. 16</a>. <a href='MAT.xhtml#MT9_15'>Matt. 9. 15</a>. <a href='MRK.xhtml#MK2_19'>Mark 2. 19</a>. <a href='LUK.xhtml#LK5_34'>Luke 5. 34</a>.
-Tobit	6	16	2	And when thou shalt come into the marriage chamber, thou shalt take the 	*	Or, <span class='add'>imbers</span>. <a href='TOB.xhtml#TB8_2'>ch. 8. 2</a>.
-Tobit	6	17	1	and 	j	Gk. as <a href='TOB.xhtml#TB6_17'>ver. 17</a>. <a href='TOB.xhtml#TB8_3'>ch. 8. 3</a>. See <a href='TOB.xhtml#TB3_8'>ch. 3. 8</a>.
-Tobit	6	17	2	and the devil shall smell it, and flee away, and never come again any more: but when thou shalt come to her, rise up both of you, and pray to God which is merciful, who will have pity on you, and save you: fear not, for she is appointed unto thee from the beginning; and thou shalt preserve her, and she shall go with thee. Moreover I suppose that she shall bear thee children. Now when Tobias had heard these things, he loved her, and his heart was 	*	Or, <span class='add'>vehemently</span>. <a href='SIR.xhtml#SR17_26'>Ecclus. 17. 26</a>.
-Tobit	6	3	1	Then the angel said unto him, Take the fish. And the young man laid hold of the fish, and 	*	[Or,] <span class='add'>cast it upon the land</span>.
-Tobit	6	5	1	So the young man did as the angel commanded him; and when they had roasted the fish, they did eat it: then they both went on their way, till they drew near to 	b	See <a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>.
-Tobit	6	7	1	And he said unto him, Touching the heart and the liver, if a devil or an 	c	<a href='LUK.xhtml#LK7_21'>Luke 7. 21</a>. &amp; <a href='LUK.xhtml#LK8_2'>8. 2</a>. &amp; <a href='LUK.xhtml#LK11_26'>11. 26</a> (Gk.). <a href='ACT.xhtml#AC19_12'>Acts 19. 12</a>, <a href='ACT.xhtml#AC19_13'>13</a>, <a href='ACT.xhtml#AC19_15'>15</a>, <a href='ACT.xhtml#AC19_16'>16</a>.
-Tobit	6	8	1	As for the gall, it is good 	cc	<a href='TOB.xhtml#TB11_4'>ch. 11. 4</a>, <a href='TOB.xhtml#TB11_8'>8</a>, <a href='TOB.xhtml#TB6_11'>11–13</a>.
-Tobit	6	9	1	And when they were come near to 	d	So <a href='TOB.xhtml#TB6_12'>ver. 12</a>. See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	7	1	1	And when they were come to 	a	See <a href='TOB.xhtml#TB3_7'>ch. 3. 7</a>.
-Tobit	7	12	1	Raguel said, Then take her from henceforth 	g	So <a href='NEH.xhtml#NH8_18'>Neh. 8. 18</a> (Heb. &amp; Gk.).
-Tobit	7	12	2	Raguel said, Then take her from henceforth according to the 	*	Or, <span class='add'>law</span>. Gk. not as <a href='TOB.xhtml#TB7_13'>ver. 13</a>.
-Tobit	7	13	1	Then he called his daughter Sara, and she came to her father, and he took her by the hand, and gave her to be wife to Tobias, saying, Behold, take her 	h	<a href='NUM.xhtml#NU36_6'>Numb. 36. 6</a>. So <a href='TOB.xhtml#TB6_11'>ch. 6. 11</a>.
-Tobit	7	14	1	and called 	i	So <a href='GEN.xhtml#GN24_55'>Gen. 24. 55</a>.
-Tobit	7	14	2	and called Edna his wife, and took 	k	Lat. as <a href='2ES.xhtml#E215_2'>2 Esdr. 15. 2</a>.
-Tobit	7	14	3	and called Edna his wife, and took paper, and did write an instrument of covenants, and 	l	<a href='JER.xhtml#JR32_10'>Jer. 32. 10</a>. So <a href='DAN.xhtml#DN6_17'>Dan. 6. 17</a>. See <a href='EST.xhtml#ET3_12'>Esther 3. 12</a>.
-Tobit	7	16	1	After Raguel called his wife Edna, and said unto her, 	m	See <a href='TOB.xhtml#TB5_20'>ch. 5. 20</a>.
-Tobit	7	16	2	After Raguel called his wife Edna, and said unto her, Sister, prepare another 	n	See <a href='MAT.xhtml#MT6_6'>Matt. 6. 6</a>.
-Tobit	7	17	1	Which when she had done as he had bidden her, she brought her thither: and she wept, and she 	*	Or, <span class='add'>licked</span>.
-Tobit	7	18	1		o	Gk. as <a href='TOB.xhtml#TB11_11'>ch. 11. 11</a>.
-Tobit	7	18	2	Be of good comfort, my daughter; the Lord of heaven and earth give thee joy for this thy sorrow: 	o	Gk. as <a href='TOB.xhtml#TB11_11'>ch. 11. 11</a>.
-Tobit	7	3	1	And Raguel asked them, From whence are ye, brethren? To whom they said, We are 	b	<a href='TOB.xhtml#TB1_3'>ch. 1. 3</a>, <a href='TOB.xhtml#TB1_4'>4</a>.
-Tobit	7	4	1	Then he said to them, Do ye know Tobit our kinsman? And they said, We know him. 	c	So <a href='GEN.xhtml#GN43_27'>Gen. 43. 27</a>, <a href='GEN.xhtml#GN43_28'>28</a>.
-Tobit	7	7	1	and blessed him, and said unto him, Thou art the son of 	d	See <a href='TOB.xhtml#TB5_13'>ch. 5. 13</a>.
-Tobit	7	8	1	And likewise Edna his wife and Sara his daughter wept. Moreover they 	e	See <a href='LUK.xhtml#LK10_38'>Luke 10. 38</a>.
-Tobit	7	8	2	And likewise Edna his wife and Sara his daughter wept. Moreover they entertained them cheerfully; and after that they had killed 	*	<span class='add'>a sucking ram</span>, or, <span class='add'>lamb</span>, Junius. Comp. <a href='EXO.xhtml#EX12_3'>Ex. 12. 3</a> marg, <a href='EXO.xhtml#EX12_5'>5</a>.
-Tobit	7	8	3	And likewise Edna his wife and Sara his daughter wept. Moreover they entertained them cheerfully; and after that they had killed a ram of the flock, they set store of meat on the table. Then said Tobias to 	f	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	8	15	1	Then Raguel praised God, and said, O God, thou art 	e	<a href='TOB.xhtml#TB3_11'>ch. 3. 11</a>. &amp; <a href='TOB.xhtml#TB11_14'>11. 14</a>, <a href='TOB.xhtml#TB11_17'>17</a>. So <a href='TOB.xhtml#TB8_15'>ver. 15</a>, <a href='TOB.xhtml#TB8_16'>16</a>, <a href='TOB.xhtml#TB8_17'>17</a> in the Gk.
-Tobit	8	15	2	Then Raguel praised God, and said, O God, thou art worthy to be praised with all pure and holy praise; therefore 	h	<a href='PSA.xhtml#PS145_10'>Ps. 145. 10</a>.
-Tobit	8	15	3	Then Raguel praised God, and said, O God, thou art worthy to be praised with all pure and holy praise; therefore let thy saints praise thee with all thy creatures; and 	i	<a href='PSA.xhtml#PS103_20'>Ps. 103. 20</a>. &amp; <a href='PSA.xhtml#PS148_2'>148. 2</a>.
-Tobit	8	15	4	Then Raguel praised God, and said, O God, thou art worthy to be praised with all pure and holy praise; therefore let thy saints praise thee with all thy creatures; and let all thine angels and 	k	<a href='SIR.xhtml#SR17_10'>Ecclus. 17. 10</a>.
-Tobit	8	16	1	Thou art 	e	<a href='TOB.xhtml#TB3_11'>ch. 3. 11</a>. &amp; <a href='TOB.xhtml#TB11_14'>11. 14</a>, <a href='TOB.xhtml#TB11_17'>17</a>. So <a href='TOB.xhtml#TB8_15'>ver. 15</a>, <a href='TOB.xhtml#TB8_16'>16</a>, <a href='TOB.xhtml#TB8_17'>17</a> in the Gk.
-Tobit	8	17	1	Thou art 	e	<a href='TOB.xhtml#TB3_11'>ch. 3. 11</a>. &amp; <a href='TOB.xhtml#TB11_14'>11. 14</a>, <a href='TOB.xhtml#TB11_17'>17</a>. So <a href='TOB.xhtml#TB8_15'>ver. 15</a>, <a href='TOB.xhtml#TB8_16'>16</a>, <a href='TOB.xhtml#TB8_17'>17</a> in the Gk.
-Tobit	8	19	1	And he kept 	l	<a href='2ES.xhtml#E29_47'>2 Esdr. 9. 47</a>. <a href='TOB.xhtml#TB11_19'>ch. 11. 19</a> (Gk.). See <a href='MAT.xhtml#MT22_2'>Matt. 22. 2</a>.
-Tobit	8	19	2	And he kept the wedding feast 	m	Comp. <a href='TOB.xhtml#TB11_19'>ch. 11. 19</a>.
-Tobit	8	2	1	And as he went, he remembered the words of 	a	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	8	2	2	And as he went, he remembered the words of Raphael, and took the 	*	Or, <span class='add'>imbers</span>. <a href='TOB.xhtml#TB6_16'>ch. 6. 16</a>.
-Tobit	8	20	1	For before the days of the marriage were finished, Raguel had said unto him by an oath, that he should not depart till 	n	<a href='TOB.xhtml#TB9_3'>ch. 9. 3</a>. &amp; <a href='TOB.xhtml#TB10_7'>10. 7</a>.
-Tobit	8	21	1	and then he should take 	o	<a href='TOB.xhtml#TB10_10'>ch. 10. 10</a>.
-Tobit	8	21	2	and then he should take the half of his goods, and go in safety to his father; and should have the rest when 	p	Comp. <a href='EXO.xhtml#EX18_4'>Ex. 18. 4</a>.
-Tobit	8	3	1	The which smell when 	b	<a href='TOB.xhtml#TB6_14'>ch. 6. 14</a>, <a href='TOB.xhtml#TB6_15'>15</a> in the Gk., <a href='TOB.xhtml#TB6_17'>17</a>. See <a href='TOB.xhtml#TB3_8'>ch. 3. 8</a>.
-Tobit	8	3	2	The which smell when the evil spirit had smelled, he fled into the utmost parts of Egypt, and 	c	Comp. <a href='REV.xhtml#RV20_2'>Rev. 20. 2</a>.
-Tobit	8	4	1	And after that they were both shut in together, Tobias rose out of the bed, and said, 	d	See <a href='TOB.xhtml#TB5_20'>ch. 5. 20</a>.
-Tobit	8	5	1	Then began Tobias to say, 	e	<a href='TOB.xhtml#TB3_11'>ch. 3. 11</a>. &amp; <a href='TOB.xhtml#TB11_14'>11. 14</a>, <a href='TOB.xhtml#TB11_17'>17</a>. So <a href='TOB.xhtml#TB8_15'>ver. 15</a>, <a href='TOB.xhtml#TB8_16'>16</a>, <a href='TOB.xhtml#TB8_17'>17</a> in the Gk.
-Tobit	8	6	1		f	<a href='GEN.xhtml#GN2_7'>Gen. 2. 7</a>, <a href='GEN.xhtml#GN2_22'>22</a>.
-Tobit	8	6	2	Thou madest Adam, and gavest him Eve his wife for an helper and stay: of them came mankind: thou hast said, 	g	<a href='GEN.xhtml#GN2_18'>Gen. 2. 18</a>.
-Tobit	8	7	1	And now, O Lord, I take not this my 	d	See <a href='TOB.xhtml#TB5_20'>ch. 5. 20</a>.
-Tobit	9	1	1	Then Tobias called 	a	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	9	2	1	Brother Azarias, take with thee a servant, and two 	b	<a href='GEN.xhtml#GN24_10'>Gen. 24. 10</a>. <a href='EZR.xhtml#ER2_67'>Ezra 2. 67</a>. <a href='JOB.xhtml#JB1_3'>Job 1. 3</a>, &amp;c.
-Tobit	9	2	2	Brother Azarias, take with thee a servant, and two camels, and go to 	c	See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	9	2	3	Brother Azarias, take with thee a servant, and two camels, and go to Rages of Media to Gabael, and bring me 	c	See <a href='TOB.xhtml#TB1_14'>ch. 1. 14</a>.
-Tobit	9	3	1	For 	d	See <a href='TOB.xhtml#TB8_20'>ch. 8. 20</a>.
-Tobit	9	4	1	But 	e	So <a href='TOB.xhtml#TB10_1'>ch. 10. 1</a>.
-Tobit	9	5	1	So 	a	See <a href='TOB.xhtml#TB3_17'>ch. 3. 17</a>.
-Tobit	9	5	2	So Raphael went out, and lodged with Gabael, and gave him 	f	<a href='TOB.xhtml#TB5_3'>ch. 5. 3</a>.
-Tobit	9	6	1	And early in the morning they went forth both together, and came to the wedding: and 	*	Or, <span class='add'>Gabael blessed Tobias and his wife</span>. Junius.
-
+Judith	1	1	1	In the twelfth year of the reign of 	a	Comp. <a href='TOB.xhtml#TB14_15'>Tobit 14. 15</a>.
+Judith	1	1	2	In the twelfth year of the reign of Nabuchodonosor, who reigned in Nineve, 	b	See <a href='JON.xhtml#JH1_2'>Jonah 1. 2</a>.
+Judith	1	1	3	In the twelfth year of the reign of Nabuchodonosor, who reigned in Nineve, the great city; in the days of Arphaxad, which reigned over the 	c	<a href='JDT.xhtml#JT16_10'>ch. 16. 10</a>. See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
+Judith	1	1	4	In the twelfth year of the reign of Nabuchodonosor, who reigned in Nineve, the great city; in the days of Arphaxad, which reigned over the Medes in 	d	See <a href='TOB.xhtml#TB3_7'>Tobit 3. 7</a>.
+Judith	1	10	1	until you come beyond 	w	Gk. of <a href='NUM.xhtml#NU13_22'>Num. 13. 22</a>. <a href='PSA.xhtml#PS78_12'>Ps. 78. 12</a>, <a href='PSA.xhtml#PS78_43'>43</a>. <a href='ISA.xhtml#IS19_11'>Isai. 19. 11</a>, <a href='ISA.xhtml#IS19_13'>13</a>. <a href='EZK.xhtml#EK30_14'>Ezek. 30. 14</a>.
+Judith	1	10	2	until you come beyond Tanis and 	x	See <a href='HOS.xhtml#HS9_6'>Hos. 9. 6</a>.
+Judith	1	10	3	until you come beyond Tanis and Memphis, and to all the inhabitants of Egypt, until you come to the borders of 	y	See <a href='2KI.xhtml#K219_9'>2 Kin. 19. 9</a>. &amp; <a href='ZEP.xhtml#ZP3_10'>Zeph. 3. 10</a>.
+Judith	1	11	1	But all the inhabitants of the land 	z	<a href='JDT.xhtml#JT11_2'>ch. 11. 2</a>, <a href='JDT.xhtml#JT11_22'>22</a> (Gk.).
+Judith	1	12	1	Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of 	i	See <a href='JDT.xhtml#JT2_21'>ch. 2. 21</a>.
+Judith	1	12	2	Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of Cilicia, and 	j	See <a href='ISA.xhtml#IS7_8'>Isai. 7. 8</a>.
+Judith	1	12	3	Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of Cilicia, and Damascus, and 	a	See <a href='ACT.xhtml#AC18_18'>Acts 18. 18</a>.
+Judith	1	12	4	Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of Cilicia, and Damascus, and Syria, and that he would slay with the sword all the inhabitants of the land of 	b	<a href='JDT.xhtml#JT5_2'>ch. 5. 2</a>, <a href='JDT.xhtml#JT5_22'>22</a>. &amp; <a href='JDT.xhtml#JT6_1'>6. 1</a>. &amp; <a href='JDT.xhtml#JT7_8'>7. 8</a>. See <a href='NUM.xhtml#NU22_1'>Num. 22. 1</a>. &amp; <a href='2CH.xhtml#R220_1'>2 Chr. 20. 1</a>.
+Judith	1	12	5	Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of Cilicia, and Damascus, and Syria, and that he would slay with the sword all the inhabitants of the land of Moab, and the children of 	c	<a href='JDT.xhtml#JT5_2'>ch. 5. 2</a>, <a href='JDT.xhtml#JT5_5'>5</a>. &amp; <a href='JDT.xhtml#JT6_5'>6. 5</a>. &amp; <a href='JDT.xhtml#JT7_17'>7. 17</a>, <a href='JDT.xhtml#JT7_18'>18</a>. See <a href='1SA.xhtml#S111_1'>1 Sam. 11. 1</a>.
+Judith	1	12	6	Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of Cilicia, and Damascus, and Syria, and that he would slay with the sword all the inhabitants of the land of Moab, and the children of Ammon, and all Judea, and all that were in Egypt, till you come to the borders of 	d	See <a href='ZEC.xhtml#ZC9_10'>Zech. 9. 10</a>.
+Judith	1	13	1	Then he marched in battle array with his power against king Arphaxad 	dd	Comp. <a href='JDT.xhtml#JT2_1'>ch. 2. 1</a>.
+Judith	1	14	1	And became lord of his cities, and came unto 	e	<a href='JDT.xhtml#JT1_1'>ver. 1</a>.
+Judith	1	14	2	And became lord of his cities, and came unto Ecbatane, and took 	f	<a href='JDT.xhtml#JT1_3'>ver. 3</a>.
+Judith	1	15	1	He took also Arphaxad in the mountains of 	g	<a href='JDT.xhtml#JT1_5'>ver. 5</a>.
+Judith	1	16	1	So he returned afterward to Nineve, both he and all his 	h	So <a href='JDT.xhtml#JT2_20'>ch. 2. 20</a>.
+Judith	1	5	1	even in those days king Nabuchodonosor made war with king Arphaxad in the great plain, which is the plain in the borders of 	e	<a href='JDT.xhtml#JT1_15'>ver. 15</a>. See <a href='TOB.xhtml#TB1_14'>Tobit 1. 14</a>.
+Judith	1	6	1	And there came unto him all they that dwelt in the hill country, and all that dwelt by Euphrates, and 	f	See <a href='TOB.xhtml#TB6_1'>Tobit 6. 1</a>.
+Judith	1	6	2	And there came unto him all they that dwelt in the hill country, and all that dwelt by Euphrates, and Tigris and Hydaspes, and the plain of Arioch the king of the 	g	See <a href='ISA.xhtml#IS11_11'>Isai. 11. 11</a>.
+Judith	1	7	1	Then Nabuchodonosor king of the Assyrians sent unto all that dwelt in 	h	<a href='JDT.xhtml#JT16_10'>ch. 16. 10</a>.
+Judith	1	7	2	Then Nabuchodonosor king of the Assyrians sent unto all that dwelt in Persia, and to all that dwelt westward, and to those that dwelt in 	i	See <a href='JDT.xhtml#JT2_21'>ch. 2. 21</a>.
+Judith	1	7	3	Then Nabuchodonosor king of the Assyrians sent unto all that dwelt in Persia, and to all that dwelt westward, and to those that dwelt in Cilicia, and 	j	See <a href='ISA.xhtml#IS7_8'>Isai. 7. 8</a>.
+Judith	1	7	4	Then Nabuchodonosor king of the Assyrians sent unto all that dwelt in Persia, and to all that dwelt westward, and to those that dwelt in Cilicia, and Damascus, and 	k	<a href='1ES.xhtml#E14_48'>1 Esdr. 4. 48</a>. &amp; <a href='1ES.xhtml#E15_55'>5. 55</a>. <a href='2ES.xhtml#E215_20'>2 Esdr. 15. 20</a>. <a href='SIR.xhtml#SR24_13'>Ecclus. 24. 13</a>. &amp; <a href='SIR.xhtml#SR50_12'>50. 12</a>.
+Judith	1	8	1	And to those among the nations that were of 	l	See <a href='JOS.xhtml#JS19_26'>Josh. 19. 26</a>.
+Judith	1	8	2	And to those among the nations that were of Carmel, and 	m	<a href='JDT.xhtml#JT15_5'>ch. 15. 5</a>. So <a href='NUM.xhtml#NU32_1'>Num. 32. 1</a>. <a href='PSA.xhtml#PS60_7'>Ps. 60. 7</a>.
+Judith	1	8	3	And to those among the nations that were of Carmel, and Galaad, and 	n	Comp. <a href='ISA.xhtml#IS9_1'>Isai. 9. 1</a>.
+Judith	1	8	4	And to those among the nations that were of Carmel, and Galaad, and the higher Galilee, and the great plain of 	o	See <a href='JDT.xhtml#JT3_9'>ch. 3. 9</a> marg.
+Judith	1	9	1	and to all that were in 	p	See <a href='1KI.xhtml#K116_24'>1 Kin. 16. 24</a>.
+Judith	1	9	2	and to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and 	q	Comp. <a href='JDT.xhtml#JT2_23'>ch. 2. 23</a>.
+Judith	1	9	3	and to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and Chellus, and 	r	See <a href='NUM.xhtml#NU13_26'>Num. 13. 26</a>.
+Judith	1	9	4	and to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and Chellus, and Kades, and 	s	<a href='GEN.xhtml#GN15_18'>Gen. 15. 18</a>? or see <a href='JOS.xhtml#JS15_4'>Josh. 15. 4</a>.
+Judith	1	9	5	and to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and Chellus, and Kades, and the river of Egypt, and Taphnes, and 	t	See <a href='GEN.xhtml#GN47_11'>Gen. 47. 11</a>.
+Judith	1	9	6	and to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and Chellus, and Kades, and the river of Egypt, and Taphnes, and Ramesse, and all the land of 	u	See <a href='GEN.xhtml#GN45_10'>Gen. 45. 10</a>.
+Judith	10	11	1	Thus they went straight forth in the valley: and the 	mm	<a href='JDT.xhtml#JT14_2'>ch. 14. 2</a> (Gk.).
+Judith	10	12	1	and took her, and asked her, Of what people art thou? and whence comest thou? and whither goest thou? And she said, I am a woman of the Hebrews, and am fled from them: for they shall be given you 	n	So <a href='JDT.xhtml#JT5_24'>ch. 5. 24</a> (Gk.).
+Judith	10	15	1	Thou hast saved thy life, in that thou hast hasted to come down to the presence of our lord: now therefore come to his tent, and some of us shall 	o	<a href='WIS.xhtml#WS19_2'>Wisd. 19. 2</a> (Gk.). See <a href='ACT.xhtml#AC15_3'>Acts 15. 3</a>.
+Judith	10	17	1	Then they chose out of them an hundred men 	*	Or, <span class='add'>and they prepared</span> a chariot <span class='add'>for her</span>. Comp. <a href='1KI.xhtml#K118_44'>1 Kin. 18. 44</a>. &amp; <a href='JDT.xhtml#JT15_11'>ch. 15. 11</a> (Gk.).
+Judith	10	18	1	Then 	p	<a href='ACT.xhtml#AC21_30'>Acts 21. 30</a> (Gk.).
+Judith	10	2	1	she rose 	a	<a href='JDT.xhtml#JT9_1'>ch. 9. 1</a>.
+Judith	10	2	2	she rose where she had fallen down, and called her maid, and went down into the house, 	b	<a href='JDT.xhtml#JT8_5'>ch. 8. 5</a>, <a href='JDT.xhtml#JT8_6'>6</a>.
+Judith	10	20	1	And they that 	r	Comp. <a href='JDT.xhtml#JT10_20'>ver. 20</a>. <a href='JDT.xhtml#JT11_3'>ch. 11. 3</a>, <a href='JDT.xhtml#JT11_5'>5</a>.
+Judith	10	21	1	Now Olofernes rested upon his bed under a 	q	<a href='JDT.xhtml#JT13_9'>ch. 13. 9</a>, <a href='JDT.xhtml#JT13_15'>15</a>. &amp; <a href='JDT.xhtml#JT16_19'>16. 19</a>.
+Judith	10	22	1	So they shewed him of her; and he came out before his tent with 	r	Comp. <a href='JDT.xhtml#JT10_20'>ver. 20</a>. <a href='JDT.xhtml#JT11_3'>ch. 11. 3</a>, <a href='JDT.xhtml#JT11_5'>5</a>.
+Judith	10	23	1	And when Judith was come before him and his servants, they all marvelled at the beauty of her countenance; and 	s	<a href='JDT.xhtml#JT14_7'>ch. 14. 7</a>.
+Judith	10	3	1	and pulled off 	b	<a href='JDT.xhtml#JT8_5'>ch. 8. 5</a>, <a href='JDT.xhtml#JT8_6'>6</a>.
+Judith	10	3	2	and pulled off the sackcloth which she had on, and put off 	b	<a href='JDT.xhtml#JT8_5'>ch. 8. 5</a>, <a href='JDT.xhtml#JT8_6'>6</a>.
+Judith	10	3	3	and pulled off the sackcloth which she had on, and put off the garments of her widowhood, and 	c	<a href='2SA.xhtml#S212_20'>2 Sam. 12. 20</a>. <a href='JDT.xhtml#JT16_8'>ch. 16. 8</a>. See <a href='PSA.xhtml#PS23_5'>Ps. 23. 5</a>.
+Judith	10	3	4	and pulled off the sackcloth which she had on, and put off the garments of her widowhood, and washed her body all over with water, and 	c	<a href='2SA.xhtml#S212_20'>2 Sam. 12. 20</a>. <a href='JDT.xhtml#JT16_8'>ch. 16. 8</a>. See <a href='PSA.xhtml#PS23_5'>Ps. 23. 5</a>.
+Judith	10	3	5	and pulled off the sackcloth which she had on, and put off the garments of her widowhood, and washed her body all over with water, and anointed herself with precious ointment, and braided the hair of her head, and put on a 	*	Gr. <span class='add'>mitre</span>. <a href='JDT.xhtml#JT16_8'>ch. 16. 8</a>. Not as <a href='JDT.xhtml#JT4_15'>ch. 4. 15</a>. See <a href='EZK.xhtml#EK24_17'>Ezek. 24. 17</a>.
+Judith	10	3	6	and pulled off the sackcloth which she had on, and put off the garments of her widowhood, and washed her body all over with water, and anointed herself with precious ointment, and braided the hair of her head, and put on a 	d	<a href='JDT.xhtml#JT16_9'>ch. 16. 9</a>.
+Judith	10	3	7	and pulled off the sackcloth which she had on, and put off the garments of her widowhood, and washed her body all over with water, and anointed herself with precious ointment, and braided the hair of her head, and put on a tire upon it, and put on her garments of gladness, wherewith she was clad during the life of 	e	<a href='JDT.xhtml#JT8_2'>ch. 8. 2</a>.
+Judith	10	4	1	And 	d	<a href='JDT.xhtml#JT16_9'>ch. 16. 9</a>.
+Judith	10	4	2	And she took sandals upon her feet, and put about her her 	f	<a href='SIR.xhtml#SR21_21'>Ecclus. 21. 21</a>.
+Judith	10	4	3	And she took sandals upon her feet, and put about her her bracelets, and 	g	<a href='GEN.xhtml#GN24_22'>Gen. 24. 22</a>, <a href='GEN.xhtml#GN24_30'>30</a> (Gk.).
+Judith	10	4	4	And she took sandals upon her feet, and put about her her bracelets, and her chains, and her 	h	<a href='ISA.xhtml#IS3_21'>Isai. 3. 21</a> (Gk.).
+Judith	10	4	5	And she took sandals upon her feet, and put about her her bracelets, and her chains, and her rings, and her 	g	<a href='GEN.xhtml#GN24_22'>Gen. 24. 22</a>, <a href='GEN.xhtml#GN24_30'>30</a> (Gk.).
+Judith	10	4	6	And she took sandals upon her feet, and put about her her bracelets, and her chains, and her rings, and her 	h	<a href='ISA.xhtml#IS3_21'>Isai. 3. 21</a> (Gk.).
+Judith	10	5	1	Then she gave her maid a bottle of wine, and 	i	<a href='1KI.xhtml#K117_12'>1 Kin. 17. 12</a>, <a href='1KI.xhtml#K117_14'>14</a>, <a href='1KI.xhtml#K117_16'>16</a>.
+Judith	10	5	2	Then she gave her maid a bottle of wine, and a cruse of oil, and filled a bag with parched corn, and 	j	<a href='1SA.xhtml#S125_18'>1 Sam. 25. 18</a>. &amp; <a href='1SA.xhtml#S130_12'>30. 12</a> (Gk.).
+Judith	10	5	3	Then she gave her maid a bottle of wine, and a cruse of oil, and filled a bag with parched corn, and lumps of figs, and with fine bread; so she 	*	[Or,] <span class='add'>wrapped</span>, or, <span class='add'>packed</span>.
+Judith	10	6	1	Thus they went forth to the gate of the city of Bethulia, and 	k	<a href='JDT.xhtml#JT8_33'>ch. 8. 33</a>.
+Judith	10	6	2	Thus they went forth to the gate of the city of Bethulia, and found standing there Ozias, and 	l	<a href='JDT.xhtml#JT6_15'>ch. 6. 15</a>, <a href='JDT.xhtml#JT6_16'>16</a>.
+Judith	10	8	1	The God, the God of our fathers, give thee favour, and accomplish thine 	m	<a href='JDT.xhtml#JT11_6'>ch. 11. 6</a> (Gk.). &amp; <a href='JDT.xhtml#JT13_5'>13. 5</a>.
+Judith	11	10	1	Therefore, O lord and governor, reject not 	f	<a href='JDT.xhtml#JT5_20'>ch. 5. 20</a>, <a href='JDT.xhtml#JT5_21'>21</a>.
+Judith	11	11	1	And now, that my lord be not defeated and frustrate of his purpose, even death is now fallen upon them, and their sin hath overtaken them, wherewith they will 	g	See <a href='JDT.xhtml#JT8_14'>ch. 8. 14</a>.
+Judith	11	13	1	and are resolved to spend 	h	<a href='NUM.xhtml#NU18_12'>Num. 18. 12</a>.
+Judith	11	13	2	and are resolved to spend the firstfruits of the corn, and the tenths of wine and oil, which they had sanctified, and 	h	<a href='NUM.xhtml#NU18_12'>Num. 18. 12</a>.
+Judith	11	14	1	For they have sent some to Jerusalem, because they also that dwell there have done the like, to bring them a licence from the 	i	See <a href='JDT.xhtml#JT4_8'>ch. 4. 8</a> marg.
+Judith	11	17	1	For thy servant is 	j	<a href='JHN.xhtml#JN9_31'>John 9. 31</a> (Gk.).
+Judith	11	17	2	For thy servant is religious, and serveth 	k	See <a href='JDT.xhtml#JT5_8'>ch. 5. 8</a>.
+Judith	11	17	3	For thy servant is religious, and serveth the God of heaven 	l	See <a href='LUK.xhtml#LK2_37'>Luke 2. 37</a>.
+Judith	11	19	1	And I will lead thee through the midst of Judea, until thou come before Jerusalem; and I will set thy throne in the midst thereof; and thou shalt drive them 	m	See <a href='NUM.xhtml#NU27_17'>Num. 27. 17</a>.
+Judith	11	19	2	And I will lead thee through the midst of Judea, until thou come before Jerusalem; and I will set thy throne in the midst thereof; and thou shalt drive them as sheep that have no shepherd, and 	n	See <a href='EXO.xhtml#EX11_7'>Ex. 11. 7</a>.
+Judith	11	19	3	And I will lead thee through the midst of Judea, until thou come before Jerusalem; and I will set thy throne in the midst thereof; and thou shalt drive them as sheep that have no shepherd, and a dog shall not so much as 	*	Or, <span class='add'>bark</span>.
+Judith	11	19	4	And I will lead thee through the midst of Judea, until thou come before Jerusalem; and I will set thy throne in the midst thereof; and thou shalt drive them as sheep that have no shepherd, and a dog shall not so much as open his mouth at thee: for 	*	Or, <span class='add'>these</span> things <span class='add'>have I spoken</span>.
+Judith	11	19	5	And I will lead thee through the midst of Judea, until thou come before Jerusalem; and I will set thy throne in the midst thereof; and thou shalt drive them as sheep that have no shepherd, and a dog shall not so much as open his mouth at thee: for these things 	o	Gk. construction as <a href='LUK.xhtml#LK1_45'>Luke 1. 45</a>. <a href='ACT.xhtml#AC9_6'>Acts 9. 6</a>. &amp; <a href='ACT.xhtml#AC13_42'>13. 42</a>, <a href='ACT.xhtml#AC13_46'>46</a>. &amp; <a href='ACT.xhtml#AC22_10'>22. 10</a>. <a href='HEB.xhtml#HB9_19'>Heb. 9. 19</a>.
+Judith	11	2	1	Now therefore, if thy people that dwelleth in the mountains had not 	a	<a href='JDT.xhtml#JT1_11'>ch. 1. 11</a>. <a href='JDT.xhtml#JT11_22'>ver. 22</a> in the Gk.
+Judith	11	22	1	Likewise Olofernes said unto her, God hath done well to send thee before the people, that strength might be in our hands, and destruction upon them that 	a	<a href='JDT.xhtml#JT1_11'>ch. 1. 11</a>. <a href='JDT.xhtml#JT11_22'>ver. 22</a> in the Gk.
+Judith	11	23	1	And now thou art both beautiful in thy countenance, and witty in thy words: surely if thou do as thou hast spoken, 	p	Comp. <a href='RUT.xhtml#RT1_16'>Ruth 1. 16</a>. <a href='DAN.xhtml#DN6_26'>Dan. 6. 26</a>.
+Judith	11	3	1	But now tell me wherefore thou art fled from them, and art come unto us: for thou art come for safeguard; be of good comfort, thou shalt live 	b	<a href='JDT.xhtml#JT8_33'>ch. 8. 33</a>. &amp; <a href='JDT.xhtml#JT10_20'>10. 20</a>, <a href='JDT.xhtml#JT10_22'>22</a>. &amp; <a href='JDT.xhtml#JT12_5'>12. 5</a>.
+Judith	11	5	1	Then Judith said unto him, Receive the words of thy servant, and suffer thine handmaid to speak in thy presence, and I will declare no lie to my lord 	b	<a href='JDT.xhtml#JT8_33'>ch. 8. 33</a>. &amp; <a href='JDT.xhtml#JT10_20'>10. 20</a>, <a href='JDT.xhtml#JT10_22'>22</a>. &amp; <a href='JDT.xhtml#JT12_5'>12. 5</a>.
+Judith	11	6	1	And if thou wilt follow the words of thine handmaid, God will bring the thing perfectly to pass by thee; and my lord shall not fail of his 	bb	See <a href='JDT.xhtml#JT10_8'>ch. 10. 8</a>.
+Judith	11	7	1		c	So <a href='GEN.xhtml#GN42_15'>Gen. 42. 15</a>. Comp. <a href='JDT.xhtml#JT2_12'>ch. 2. 12</a>.
+Judith	11	7	2	As Nabuchodonosor king of all the earth liveth, and as his power liveth, who hath sent thee for the upholding of every living thing: for not only men shall serve him by thee, but also 	cc	See <a href='BAR.xhtml#BR3_16'>Baruch 3. 16</a>.
+Judith	11	8	1	For we have heard of thy wisdom and thy policies, and it is reported in all the earth, that thou only art 	*	Or, <span class='add'>in favour</span>.
+Judith	11	9	1	Now as concerning the matter, which 	d	See <a href='JDT.xhtml#JT5_5'>ch. 5. 5</a>.
+Judith	11	9	2	Now as concerning the matter, which Achior did speak in thy council, we have heard his words; for the men of Bethulia 	*	Or, <span class='add'>gat him</span>. So <a href='1MA.xhtml#M16_44'>1 Macc. 6. 44</a>.
+Judith	11	9	3	Now as concerning the matter, which Achior did speak in thy council, we have heard his words; for the men of Bethulia 	e	<a href='GEN.xhtml#GN12_12'>Gen. 12. 12</a> (Gk.).
+Judith	12	1	1	Then he commanded to bring her in where 	a	<a href='JDT.xhtml#JT15_11'>ch. 15. 11</a>.
+Judith	12	10	1	And in the fourth day Olofernes 	i	See <a href='JDT.xhtml#JT6_21'>ch. 6. 21</a>.
+Judith	12	11	1	Then said he to Bagoas the eunuch, who had charge over all that he had, Go now, and persuade this Hebrew woman 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
+Judith	12	13	1	Then went Bagoas from the presence of Olofernes, and came to her, and he said, Let not this fair damsel fear to come to my lord, and to be honoured in his presence, and drink wine, and be merry with us, and be made this day as one of the daughters of the Assyrians, which 	j	<a href='JDT.xhtml#JT13_1'>ch. 13. 1</a> (Gk.).
+Judith	12	16	1	Now when Judith came in and sat down, Olofernes 	k	See <a href='MAT.xhtml#MT5_28'>Matt. 5. 28</a>.
+Judith	12	19	1	Then she took and ate and drank before him 	l	<a href='JDT.xhtml#JT12_2'>ver. 2</a>, <a href='JDT.xhtml#JT12_9'>9</a>.
+Judith	12	2	1	And Judith said, 	aa	So <a href='ESG.xhtml#EG14_17'>Esther 14. 17</a>. See <a href='TOB.xhtml#TB1_10'>Tobit 1. 10</a>.
+Judith	12	2	2	And Judith said, I will not eat thereof, lest there be an offence: but provision shall be made for me 	b	<a href='JDT.xhtml#JT10_5'>ch. 10. 5</a>.
+Judith	12	4	1	Then said Judith unto him, 	c	See <a href='1SA.xhtml#S11_26'>1 Sam. 1. 26</a>.
+Judith	12	5	1	Then the servants of Olofernes brought her 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
+Judith	12	5	2	Then the servants of Olofernes brought her into the tent, and she slept 	e	See <a href='JDT.xhtml#JT11_3'>ch. 11. 3</a>.
+Judith	12	5	3	Then the servants of Olofernes brought her into the tent, and she slept till midnight, and she arose when it was toward 	f	<a href='EXO.xhtml#EX14_24'>Ex. 14. 24</a>. <a href='1SA.xhtml#S111_11'>1 Sam. 11. 11</a>.
+Judith	12	7	1	Then Olofernes commanded his guard that they should not stay her: thus she abode in the camp three days, and went out in the night into the valley of Bethulia, and washed herself 	g	<a href='GEN.xhtml#GN7_3'>ch. 7. 3</a> (Gk.).
+Judith	12	8	1	And when she came out, she besought the Lord God of Israel to direct her way to 	h	<a href='JDT.xhtml#JT9_10'>ch. 9. 10</a> (Gk.).
+Judith	12	9	1	So she came in clean, and remained in 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
+Judith	13	1	1	Now when the evening was come, 	a	<a href='JDT.xhtml#JT12_10'>ch. 12. 10</a>.
+Judith	13	1	2	Now when the evening was come, his servants made haste to 	b	See <a href='1ES.xhtml#E13_3'>1 Esdr. 3. 3</a>.
+Judith	13	1	3	Now when the evening was come, his servants made haste to depart, and Bagoas shut his tent without, and dismissed 	c	<a href='JDT.xhtml#JT12_13'>ch. 12. 13</a> (Gk.).
+Judith	13	10	1	and she put it in her 	n	<a href='JDT.xhtml#JT10_5'>ch. 10. 5</a>.
+Judith	13	10	2	and she put it in her bag of meat: so they twain went together according to their custom unto prayer: and when they passed the camp, they compassed 	o	So <a href='JDT.xhtml#JT7_3'>ch. 7. 3</a>.
+Judith	13	12	1	Now when the men of her city heard her voice, they made haste to go down to the gate of their city, and they called 	p	See <a href='JDT.xhtml#JT6_16'>ch. 6. 16</a>.
+Judith	13	13	1	And then they ran all together, 	e	See <a href='JER.xhtml#JR6_13'>Jer. 6. 13</a>.
+Judith	13	15	1	So she took the head out of 	m	<a href='MAT.xhtml#MT13_20'>Matt. 13. 20</a>. <a href='MRK.xhtml#MK1_30'>Mark 1. 30</a> (English).
+Judith	13	15	2	So she took the head out of the bag, and shewed it, and said unto them, Behold the head of Olofernes, the chief captain of the army of Assur, and behold the 	k	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
+Judith	13	15	3	So she took the head out of the bag, and shewed it, and said unto them, Behold the head of Olofernes, the chief captain of the army of Assur, and behold the canopy, wherein he did lie in his drunkenness; and 	q	See <a href='JDT.xhtml#JT9_10'>ch. 9. 10</a>.
+Judith	13	16	1		r	See <a href='RUT.xhtml#RT3_13'>Ruth 3. 13</a>.
+Judith	13	18	1	Then said Ozias unto her, O daughter, blessed art thou of 	s	See <a href='1ES.xhtml#E16_31'>1 Esdr. 6. 31</a>.
+Judith	13	18	2	Then said Ozias unto her, O daughter, blessed art thou of the most high God above all the women upon the earth; and blessed be the Lord God, 	t	So <a href='JDT.xhtml#JT9_12'>ch. 9. 12</a>.
+Judith	13	2	1	And Judith was left alone in the tent, and Olofernes lying along upon his bed: for 	d	<a href='JDT.xhtml#JT12_20'>ch. 12. 20</a>. Comp. <a href='SIR.xhtml#SR31_20'>Ecclus. 31. 20</a>, <a href='SIR.xhtml#SR31_25'>25</a>.
+Judith	13	20	1	And God turn these things to thee for a perpetual praise, to visit thee in good things, because thou hast not spared thy life for the affliction of our nation, but hast revenged our ruin, walking a straight way before our God. 	u	<a href='JDT.xhtml#JT15_10'>ch. 15. 10</a>.
+Judith	13	4	1	So all went forth, and none was left in the bedchamber, 	e	See <a href='JER.xhtml#JR6_13'>Jer. 6. 13</a>.
+Judith	13	5	1	For now is the time 	f	<a href='LUK.xhtml#LK1_54'>Luke 1. 54</a> (Gk.).
+Judith	13	5	2	For now is the time to help thine inheritance, and to execute mine 	g	See <a href='JDT.xhtml#JT10_8'>ch. 10. 8</a>.
+Judith	13	6	1	Then she came to the 	l	Gk. not as <a href='JDT.xhtml#JT13_6'>ver. 6</a>.
+Judith	13	6	2	Then she came to the pillar of the bed, which was at Olofernes’ head, and took down his 	h	<a href='JDT.xhtml#JT16_9'>ch. 16. 9</a>.
+Judith	13	8	1	And she smote twice upon his neck with all her might, and 	i	See <a href='1SA.xhtml#S117_51'>1 Sam. 17. 51</a>.
+Judith	13	9	1	and tumbled his body down from the bed, and pulled down the 	k	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
+Judith	13	9	2	and tumbled his body down from the bed, and pulled down the canopy from the 	l	Gk. not as <a href='JDT.xhtml#JT13_6'>ver. 6</a>.
+Judith	13	9	3	and tumbled his body down from the bed, and pulled down the canopy from the pillars; and 	m	<a href='MAT.xhtml#MT13_20'>Matt. 13. 20</a>. <a href='MRK.xhtml#MK1_30'>Mark 1. 30</a> (English).
+Judith	14	1	1	Then said Judith unto them, Hear me now, my brethren, and take this head, and 	a	<a href='2MA.xhtml#M215_35'>2 Macc. 15. 35</a>.
+Judith	14	10	1	And when Achior had seen all that the God of Israel had done, he believed in God greatly, and 	g	Comp. <a href='EXO.xhtml#EX12_48'>Ex. 12. 48</a>, <a href='EXO.xhtml#EX12_49'>49</a>.
+Judith	14	10	2	And when Achior had seen all that the God of Israel had done, he believed in God greatly, and circumcised the flesh of his foreskin, and was joined unto the house of Israel 	h	So <a href='DEU.xhtml#DT34_6'>Deut. 34. 6</a>. <a href='JOS.xhtml#JS4_9'>Josh. 4. 9</a>. <a href='JDG.xhtml#JG1_26'>Judg. 1. 26</a>. <a href='MAT.xhtml#MT27_8'>Matt. 27. 8</a>. &amp; <a href='MAT.xhtml#MT28_15'>28. 15</a>.
+Judith	14	11	1	And as soon as the morning arose, 	i	<a href='JDT.xhtml#JT14_1'>ver. 1</a>.
+Judith	14	11	2	And as soon as the morning arose, they hanged the head of Olofernes upon the wall, and 	k	<a href='JDT.xhtml#JT14_2'>ver. 2</a>.
+Judith	14	11	3	And as soon as the morning arose, they hanged the head of Olofernes upon the wall, and every man took his weapons, and they went forth by bands unto the 	*	Or, <span class='add'>ascents</span>. See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>.
+Judith	14	12	1	But 	l	<a href='JDT.xhtml#JT14_3'>ver. 3</a>.
+Judith	14	12	2	But when the Assyrians saw them, they sent to their leaders, which came to their captains and 	m	See <a href='1MA.xhtml#M116_19'>1 Macc. 16. 19</a> marg.
+Judith	14	13	1	So 	l	<a href='JDT.xhtml#JT14_3'>ver. 3</a>.
+Judith	14	13	2	So they came to Olofernes’ tent, and said to 	n	<a href='JDT.xhtml#JT14_14'>ver. 14</a>. <a href='JDT.xhtml#JT12_11'>ch. 12. 11</a>, <a href='JDT.xhtml#JT12_13'>13</a>. &amp; <a href='JDT.xhtml#JT13_1'>13. 1</a>, <a href='JDT.xhtml#JT13_3'>3</a>.
+Judith	14	13	3	So they came to Olofernes’ tent, and said to him that had the charge of all his things, Waken now our lord: for the slaves have been bold to come down against us to battle, that they may be 	o	See <a href='JDT.xhtml#JT7_30'>ch. 7. 30</a>.
+Judith	14	14	1	Then went in 	n	<a href='JDT.xhtml#JT14_14'>ver. 14</a>. <a href='JDT.xhtml#JT12_11'>ch. 12. 11</a>, <a href='JDT.xhtml#JT12_13'>13</a>. &amp; <a href='JDT.xhtml#JT13_1'>13. 1</a>, <a href='JDT.xhtml#JT13_3'>3</a>.
+Judith	14	16	1		*	[Or,] <span class='add'>Then</span>.
+Judith	14	16	2	Therefore he cried with a loud voice, with weeping, and sighing, and a mighty cry, and 	p	See <a href='GEN.xhtml#GN44_13'>Gen. 44. 13</a>.
+Judith	14	17	1	After, he went into 	q	See <a href='JDT.xhtml#JT12_5'>ch. 12. 5</a>.
+Judith	14	18	1	These slaves have 	r	<a href='JER.xhtml#JR3_20'>Jer. 3. 20</a> (Gk.). So <a href='JDG.xhtml#JG9_23'>Judg. 9. 23</a> (Gk.).
+Judith	14	19	1	When the captains of the Assyrians’ army heard these words, they 	p	See <a href='GEN.xhtml#GN44_13'>Gen. 44. 13</a>.
+Judith	14	19	2	When the captains of the Assyrians’ army heard these words, they rent their coats, and their minds were wonderfully 	s	<a href='JDT.xhtml#JT14_7'>ver. 7</a> (Gk.). <a href='JDT.xhtml#JT16_10'>ch. 16. 10</a> marg.
+Judith	14	2	1	And so soon as the morning shall appear, and the sun shall come forth upon the earth, take you every one his weapons, and go forth every valiant man out of the city, and set you a captain over them, as though you would go down into the field toward the 	b	<a href='JDT.xhtml#JT10_11'>ch. 10. 11</a> (Gk.).
+Judith	14	5	1	But before you do these things, call me 	c	See <a href='JDT.xhtml#JT5_5'>ch. 5. 5</a>.
+Judith	14	6	1	Then they called Achior 	d	<a href='JDT.xhtml#JT6_21'>ch. 6. 21</a>.
+Judith	14	6	2	Then they called Achior out of the house of Ozias; and when he was come, and saw the head of Olofernes in a man’s hand in the assembly of the people, he fell down on his face, and 	e	So <a href='1KI.xhtml#K110_5'>1 Kin. 10. 5</a>.
+Judith	14	7	1	But when they had recovered him, 	f	<a href='JDT.xhtml#JT10_23'>ch. 10. 23</a>.
+Judith	14	7	2	But when they had recovered him, he fell at Judith’s feet, and reverenced her, and said, Blessed art thou in all the tabernacles of Juda, and in all nations, which hearing thy name shall be 	s	<a href='JDT.xhtml#JT14_7'>ver. 7</a> (Gk.). <a href='JDT.xhtml#JT16_10'>ch. 16. 10</a> marg.
+Judith	15	10	1	thou hast done all these things by thine hand: thou hast done much good to Israel, and God is pleased therewith: blessed be thou of the 	k	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+Judith	15	10	2	thou hast done all these things by thine hand: thou hast done much good to Israel, and God is pleased therewith: blessed be thou of the Almighty Lord for evermore. 	l	<a href='JDT.xhtml#JT13_20'>ch. 13. 20</a>.
+Judith	15	11	1	And the people spoiled the camp the space of thirty days: and they gave unto Judith Olofernes his tent, and all 	m	<a href='JDT.xhtml#JT12_1'>ch. 12. 1</a>.
+Judith	15	11	2	And the people spoiled the camp the space of thirty days: and they gave unto Judith Olofernes his tent, and all his plate, and beds, and vessels, and all his 	n	So <a href='JDT.xhtml#JT16_19'>ch. 16. 19</a>. <a href='LUK.xhtml#LK17_31'>Luke 17. 31</a> (Gk.&amp; Engl.).
+Judith	15	12	1	Then all the women of Israel ran together to see her, and blessed her, and made a dance among them for her: and she took 	o	<a href='2MA.xhtml#M210_7'>2 Macc. 10. 7</a>.
+Judith	15	13	1	And they put a garland of olive upon her and her maid that was with her, and she went before all the people 	p	<a href='JDT.xhtml#JT3_7'>ch. 3. 7</a>. See <a href='EXO.xhtml#EX15_20'>Ex. 15. 20</a>.
+Judith	15	13	2	And they put a garland of olive upon her and her maid that was with her, and she went before all the people in the dance, leading all the women: and all the men of Israel followed in their armour 	q	See <a href='JDT.xhtml#JT3_7'>ch. 3. 7</a>.
+Judith	15	2	1	And 	a	<a href='JDT.xhtml#JT14_3'>ch. 14. 3</a>.
+Judith	15	3	1	They also 	b	<a href='JDT.xhtml#JT7_1'>ch. 7. 1</a>.
+Judith	15	4	1	Then sent Ozias to 	c	So <a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>.
+Judith	15	4	2	Then sent Ozias to Betomasthem, and to Bebai, and 	d	Comp. <a href='JDT.xhtml#JT4_4'>ch. 4. 4</a>?
+Judith	15	5	1	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto 	d	Comp. <a href='JDT.xhtml#JT4_4'>ch. 4. 4</a>?
+Judith	15	5	2	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in 	e	<a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>.
+Judith	15	5	3	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in Galaad, and in 	e	<a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>.
+Judith	15	5	4	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in Galaad, and in Galilee, 	*	Or, <span class='add'>overcame</span>.
+Judith	15	5	5	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in Galaad, and in Galilee, chased them with a great slaughter, until they were past 	f	See <a href='ISA.xhtml#IS7_8'>Isai. 7. 8</a>.
+Judith	15	8	1	Then 	g	See <a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>.
+Judith	15	8	2	Then Joacim the high priest, and the 	h	See <a href='JDT.xhtml#JT4_8'>ch. 4. 8</a>.
+Judith	15	8	3	Then Joacim the high priest, and the ancients of the children of Israel that dwelt in Jerusalem, came to behold the good things that God had shewed to Israel, and to see Judith, and to 	i	Comp. <a href='JDG.xhtml#JG18_15'>Judg. 18. 15</a> marg.
+Judith	16	1	1	Then Judith began to sing this thanksgiving in all Israel, and all the people sang after her 	*	Or, <span class='add'>this praising</span>.
+Judith	16	10	1	The 	r	<a href='JDT.xhtml#JT1_7'>ch. 1. 7</a>.
+Judith	16	10	2	The Persians quaked at her boldness, And the 	s	<a href='JDT.xhtml#JT1_1'>ch. 1. 1</a>.
+Judith	16	10	3	The Persians quaked at her boldness, And the Medes were 	*	Or, <span class='add'>confounded</span>. <a href='JDT.xhtml#JT14_7'>ch. 14. 7</a>, <a href='JDT.xhtml#JT14_19'>19</a> (Gk.).
+Judith	16	10	4	The Persians quaked at her boldness, And the Medes were 	t	<a href='JDT.xhtml#JT9_8'>ch. 9. 8</a> (Gk.)?
+Judith	16	11	1	Then my afflicted shouted for joy, And my weak ones cried aloud; but 	*	[That is,] <span class='add'>the Assyrians</span>.
+Judith	16	12	1	The sons of the damsels have pierced them through, And wounded them as fugitives’ children: They perished by the 	u	See <a href='JDT.xhtml#JT5_23'>ch. 5. 23</a>.
+Judith	16	13	1	I will sing unto the Lord 	*	Or, <span class='add'>a song of praise</span>.
+Judith	16	13	2	I will sing unto the Lord a new song: 	w	Comp. <a href='EXO.xhtml#EX15_11'>Ex. 15. 11</a>.
+Judith	16	14	1	Let all creatures serve thee: 	x	<a href='PSA.xhtml#PS33_9'>Ps. 33. 9</a>. Comp. <a href='GEN.xhtml#GN1_3'>Gen. 1. 3</a>, &amp;c. So <a href='JDT.xhtml#JT9_12'>ch. 9. 12</a>. <a href='ESG.xhtml#EG13_10'>Esther 13. 10</a>.
+Judith	16	14	2	Let all creatures serve thee: For thou spakest, and they were made, 	y	<a href='PSA.xhtml#PS104_30'>Ps. 104. 30</a>.
+Judith	16	15	1	For 	z	Comp. <a href='2SA.xhtml#S222_8'>2 Sam. 22. 8</a>, <a href='2SA.xhtml#S222_16'>16</a>.
+Judith	16	15	2	For the mountains shall be moved from their foundations with the waters, The rocks 	a	See <a href='PSA.xhtml#PS68_2'>Ps. 68. 2</a>.
+Judith	16	16	1	For all sacrifice is too little for 	b	<a href='EPH.xhtml#EP5_2'>Eph. 5. 2</a>. <a href='PHP.xhtml#PP4_18'>Phil. 4. 18</a> in the Gk. So <a href='SIR.xhtml#SR45_16'>Ecclus. 45. 16</a>. See <a href='GEN.xhtml#GN8_21'>Gen. 8. 21</a> marg.
+Judith	16	17	1	Woe to the nations that rise up against my kindred! The Lord 	i	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+Judith	16	17	2	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them 	c	<a href='ESG.xhtml#EG10_11'>Esther 10. 11</a>. <a href='MAT.xhtml#MT10_15'>Matt. 10. 15</a>. &amp; <a href='MAT.xhtml#MT11_22'>11. 22</a>, <a href='MAT.xhtml#MT11_24'>24</a>. &amp; <a href='MAT.xhtml#MT12_36'>12. 36</a>. <a href='MRK.xhtml#MK6_11'>Mark 6. 11</a>. <a href='2PE.xhtml#P22_9'>2 Pet. 2. 9</a>. &amp; <a href='2PE.xhtml#P23_7'>3. 7</a>. <a href='1JN.xhtml#1JN4_17'>1 John 4. 17</a>. So <a href='JUD.xhtml#JD1_6'>Jude 6</a>.
+Judith	16	17	3	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them in the day of judgment, In putting fire and 	d	Comp. <a href='JOB.xhtml#JB14_22'>Job 14. 22</a>. <a href='ISA.xhtml#IS66_24'>Isai. 66. 24</a>.
+Judith	16	19	1	Judith also dedicated all the 	e	See <a href='JDT.xhtml#JT15_11'>ch. 15. 11</a>.
+Judith	16	19	2	Judith also dedicated all the stuff of Olofernes, which the people had given her, and gave the 	f	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
+Judith	16	19	3	Judith also dedicated all the stuff of Olofernes, which the people had given her, and gave the canopy, which she had taken out of his bedchamber, for a 	g	<a href='2MA.xhtml#M29_16'>2 Macc. 9. 16</a>. <a href='LUK.xhtml#LK21_5'>Luke 21. 5</a>.
+Judith	16	2	1	And Judith said, Begin unto my God with 	a	See <a href='JDT.xhtml#JT3_7'>ch. 3. 7</a>.
+Judith	16	2	2	And Judith said, Begin unto my God with timbrels, Sing unto my Lord with 	b	<a href='1ES.xhtml#E15_59'>1 Esdr. 5. 59</a>. <a href='1MA.xhtml#M14_54'>1 Macc. 4. 54</a>. See <a href='PSA.xhtml#PS150_5'>Ps. 150. 5</a>.
+Judith	16	2	3	And Judith said, Begin unto my God with timbrels, Sing unto my Lord with cymbals: Tune unto him a 	*	Or, <span class='add'>psalm and praise</span>.
+Judith	16	20	1	So the people continued feasting in Jerusalem 	h	<a href='JDT.xhtml#JT4_13'>ch. 4. 13</a>.
+Judith	16	22	1	And many desired her, but none knew her all the days of her life, after that 	i	<a href='JDT.xhtml#JT8_2'>ch. 8. 2</a>.
+Judith	16	22	2	And many desired her, but none knew her all the days of her life, after that Manasses her husband was dead, and 	k	See <a href='GEN.xhtml#GN25_8'>Gen. 25. 8</a>. See <a href='BEL.xhtml#BL1_1'>Bel &amp;amp; Drag. 1</a>. <a href='1MA.xhtml#M12_69'>1 Macc. 2. 69</a>.
+Judith	16	23	1	But she increased more and more in honour, and waxed old in her husband’s house, being 	l	Comp. <a href='TOB.xhtml#TB14_11'>Tobit 14. 11</a>, <a href='TOB.xhtml#TB14_14'>14</a>.
+Judith	16	23	2	But she increased more and more in honour, and waxed old in her husband’s house, being an hundred and five years old, and made 	m	See <a href='JDT.xhtml#JT8_33'>ch. 8. 33</a>.
+Judith	16	23	3	But she increased more and more in honour, and waxed old in her husband’s house, being an hundred and five years old, and made her maid free; so she died in Bethulia: and they buried her in the 	*	Or, <span class='add'>sepulchre</span>.
+Judith	16	23	4	But she increased more and more in honour, and waxed old in her husband’s house, being an hundred and five years old, and made her maid free; so she died in Bethulia: and they buried her in the 	n	<a href='GEN.xhtml#GN23_19'>Gen. 23. 19</a>, &amp;c. <a href='JHN.xhtml#JN11_38'>John 11. 38</a>.
+Judith	16	24	1	And the house of Israel lamented her 	o	<a href='GEN.xhtml#GN50_10'>Gen. 50. 10</a>. <a href='1SA.xhtml#S131_13'>1 Sam. 31. 13</a>. <a href='SIR.xhtml#SR22_12'>Ecclus. 22. 12</a>.
+Judith	16	3	1	For God 	c	<a href='JDT.xhtml#JT9_7'>ch. 9. 7</a>.
+Judith	16	4	1	Assur came out of the mountains 	d	<a href='JDT.xhtml#JT2_21'>ch. 2. 21–27</a>.
+Judith	16	4	2	Assur came out of the mountains from the north, He came with ten thousands of his army, The multitude whereof stopped the torrents, And 	e	See <a href='JDT.xhtml#JT2_19'>ch. 2. 19</a>.
+Judith	16	5	1		f	Comp. <a href='EXO.xhtml#EX15_9'>Ex. 15. 9</a>.
+Judith	16	5	2	He bragged that he would burn up my borders, And kill my young men with the sword, And 	g	See <a href='2KI.xhtml#K28_12'>2 Kin. 8. 12</a>.
+Judith	16	5	3	He bragged that he would burn up my borders, And kill my young men with the sword, And dash the sucking children against the ground, And make mine infants 	h	See <a href='1ES.xhtml#E18_77'>1 Esdr. 8. 77</a>.
+Judith	16	6	1	But the 	i	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+Judith	16	6	2	But the Almighty Lord hath disappointed them 	k	See <a href='JDT.xhtml#JT9_10'>ch. 9. 10</a>.
+Judith	16	7	1	For the mighty one did not fall by the young men, Neither did the sons of the 	l	<a href='2SA.xhtml#S25_18'>2 Sam. 5. 18</a>, <a href='2SA.xhtml#S25_22'>22</a> (Gk.).
+Judith	16	7	2	For the mighty one did not fall by the young men, Neither did the sons of the Titans smite him, Nor high 	m	<a href='1CH.xhtml#R111_15'>1 Chr. 11. 15</a>. &amp; <a href='1CH.xhtml#R114_9'>14. 9</a> (Gk.). Comp. <a href='GEN.xhtml#GN6_4'>Gen. 6. 4</a>.
+Judith	16	7	3	For the mighty one did not fall by the young men, Neither did the sons of the Titans smite him, Nor high giants set upon him: But 	n	<a href='JDT.xhtml#JT8_1'>ch. 8. 1</a>.
+Judith	16	8	1	For she put off 	o	<a href='JDT.xhtml#JT10_3'>ch. 10. 3</a>.
+Judith	16	8	2	For she put off the garment of her widowhood For the exaltation of those that were oppressed in Israel, And 	o	<a href='JDT.xhtml#JT10_3'>ch. 10. 3</a>.
+Judith	16	8	3	For she put off the garment of her widowhood For the exaltation of those that were oppressed in Israel, And anointed her face with ointment, And 	o	<a href='JDT.xhtml#JT10_3'>ch. 10. 3</a>.
+Judith	16	8	4	For she put off the garment of her widowhood For the exaltation of those that were oppressed in Israel, And anointed her face with ointment, And bound her hair in a 	*	Gr. <span class='add'>mitre.</span> <a href='JDT.xhtml#JT10_3'>ch. 10. 3</a>.
+Judith	16	9	1		p	<a href='JDT.xhtml#JT10_4'>ch. 10. 4</a>. Comp. <a href='SNG.xhtml#SS7_1'>Cant. 7. 1</a>.
+Judith	16	9	2	Her sandals ravished his eyes, Her beauty took his mind prisoner, And the 	q	<a href='JDT.xhtml#JT13_6'>ch. 13. 6</a>.
+Judith	2	1	1	And 	a	Comp. <a href='JDT.xhtml#JT1_13'>ch. 1. 13</a>.
+Judith	2	1	2	And in the eighteenth year, the two and twentieth day of the first month, there was talk in the house of Nabuchodonosor king of the Assyrians, that he should, 	b	<a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>.
+Judith	2	11	1	But concerning them that rebel, 	f	See <a href='ISA.xhtml#IS13_18'>Isai. 13. 18</a>.
+Judith	2	12	1	For 	g	Comp. <a href='JDT.xhtml#JT11_7'>ch. 11. 7</a>.
+Judith	2	14	1	Then Olofernes went forth from the presence of his lord, and called all the 	h	<a href='ACT.xhtml#AC8_27'>Acts 8. 27</a> (Gk.).
+Judith	2	15	1	and he mustered the chosen men for the 	i	See <a href='JDT.xhtml#JT5_23'>ch. 5. 23</a>.
+Judith	2	15	2	and he mustered the chosen men for the battle, as his lord had commanded him, 	j	<a href='JDT.xhtml#JT2_5'>ver. 5</a>. Comp. <a href='JDT.xhtml#JT7_2'>ch. 7. 2</a>.
+Judith	2	17	1	And he took 	jj	See <a href='TOB.xhtml#TB9_2'>Tobit 9. 2</a>.
+Judith	2	17	2	And he took camels and asses for their 	k	<a href='JDT.xhtml#JT3_10'>ch. 3. 10</a>. &amp; <a href='JDT.xhtml#JT7_18'>7. 18</a>. See <a href='JDG.xhtml#JG18_21'>Judg. 18. 21</a>.
+Judith	2	19	1	Then he went forth and all his power to go before king Nabuchodonosor in the voyage, and 	l	<a href='JDT.xhtml#JT7_18'>ch. 7. 18</a>. So <a href='EXO.xhtml#EX10_5'>Ex. 10. 5</a>, <a href='EXO.xhtml#EX10_15'>15</a>. <a href='NUM.xhtml#NU22_5'>Num. 22. 5</a>, <a href='NUM.xhtml#NU22_11'>11</a>. Comp. <a href='JDT.xhtml#JT16_4'>ch. 16. 4</a>.
+Judith	2	2	1	So he called unto him all his officers, and all his 	c	See <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>.
+Judith	2	2	2	So he called unto him all his officers, and all his nobles, and communicated with them his secret counsel, and 	d	See <a href='1SA.xhtml#S120_7'>1 Sam. 20. 7</a>.
+Judith	2	20	1	A great multitude also 	m	So <a href='JDT.xhtml#JT1_16'>ch. 1. 16</a>.
+Judith	2	20	2	A great multitude also of sundry countries came with them like 	n	See <a href='EXO.xhtml#EX10_4'>Ex. 10. 4</a>.
+Judith	2	20	3	A great multitude also of sundry countries came with them like locusts, and 	o	See <a href='GEN.xhtml#GN22_17'>Gen. 22. 17</a>.
+Judith	2	21	1	And they went forth of Nineve three days’ journey toward the plain of Bectileth, and pitched from Bectileth near the mountain which is at the left hand of the upper 	p	<a href='JDT.xhtml#JT1_7'>ch. 1. 7</a>, <a href='JDT.xhtml#JT1_12'>12</a>. <a href='JDT.xhtml#JT2_25'>ver. 25</a>. <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a>. <a href='ACT.xhtml#AC6_9'>Acts 6. 9</a>. &amp; <a href='ACT.xhtml#AC15_23'>15. 23</a>, <a href='ACT.xhtml#AC15_41'>41</a>. &amp; <a href='ACT.xhtml#AC21_39'>21. 39</a>. &amp; <a href='ACT.xhtml#AC22_3'>22. 3</a>. &amp; <a href='ACT.xhtml#AC23_34'>23. 34</a>. &amp; <a href='ACT.xhtml#AC27_5'>27. 5</a>. <a href='GAL.xhtml#GL1_21'>Gal. 1. 21</a>.
+Judith	2	23	1	and destroyed 	q	See <a href='EZK.xhtml#EK27_10'>Ezek. 27. 10</a>.
+Judith	2	23	2	and destroyed Phud and 	q	See <a href='EZK.xhtml#EK27_10'>Ezek. 27. 10</a>.
+Judith	2	23	3	and destroyed Phud and Lud, and spoiled all the children of Rasses, and 	r	<a href='GEN.xhtml#GN25_18'>Gen. 25. 18</a>.
+Judith	2	23	4	and destroyed Phud and Lud, and spoiled all the children of Rasses, and the children of Ismael, which were toward the wilderness at the south of the land of the 	s	Comp. <a href='JDT.xhtml#JT1_9'>ch. 1. 9</a>.
+Judith	2	24	1	Then he went over Euphrates, and went through 	t	<a href='JDT.xhtml#JT5_7'>ch. 5. 7</a>. See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
+Judith	2	25	1	And he took the borders of 	p	<a href='JDT.xhtml#JT1_7'>ch. 1. 7</a>, <a href='JDT.xhtml#JT1_12'>12</a>. <a href='JDT.xhtml#JT2_25'>ver. 25</a>. <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a>. <a href='ACT.xhtml#AC6_9'>Acts 6. 9</a>. &amp; <a href='ACT.xhtml#AC15_23'>15. 23</a>, <a href='ACT.xhtml#AC15_41'>41</a>. &amp; <a href='ACT.xhtml#AC21_39'>21. 39</a>. &amp; <a href='ACT.xhtml#AC22_3'>22. 3</a>. &amp; <a href='ACT.xhtml#AC23_34'>23. 34</a>. &amp; <a href='ACT.xhtml#AC27_5'>27. 5</a>. <a href='GAL.xhtml#GL1_21'>Gal. 1. 21</a>.
+Judith	2	25	2	And he took the borders of Cilicia, and killed all that resisted him, and came to 	u	<a href='GEN.xhtml#GN10_5'>Gen. 10. 5</a>.
+Judith	2	26	1	He compassed also all the children of 	v	See <a href='JDG.xhtml#JG6_1'>Judg. 6. 1</a>.
+Judith	2	27	1	Then he went down into the plain of 	w	<a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>. See <a href='ISA.xhtml#IS7_8'>Isai. 7. 8</a>.
+Judith	2	27	2	Then he went down into the plain of Damascus in the time of wheat harvest, and burnt up all their fields, and destroyed their flocks and herds, also he spoiled their cities, and 	x	So <a href='DAN.xhtml#DN2_44'>Dan. 2. 44</a>. <a href='MAT.xhtml#MT21_44'>Matt. 21. 44</a>. <a href='LUK.xhtml#LK20_18'>Luke 20. 18</a> in the Gk.
+Judith	2	27	3	Then he went down into the plain of Damascus in the time of wheat harvest, and burnt up all their fields, and destroyed their flocks and herds, also he spoiled their cities, and utterly wasted their countries, and smote all their young men with 	y	<a href='GEN.xhtml#GN34_26'>Gen. 34. 26</a> marg. <a href='SIR.xhtml#SR28_18'>Ecclus. 28. 18</a>. <a href='1MA.xhtml#M15_28'>1 Macc. 5. 28</a>. <a href='LUK.xhtml#LK21_24'>Luke 21. 24</a>. <a href='HEB.xhtml#HB11_34'>Heb. 11. 34</a>.
+Judith	2	28	1	Therefore the fear and dread of him fell upon all the inhabitants of the sea coasts, which were in 	z	See <a href='MAT.xhtml#MT15_21'>Matt. 15. 21</a>.
+Judith	2	28	2	Therefore the fear and dread of him fell upon all the inhabitants of the sea coasts, which were in Sidon and Tyrus, and them that dwelt in Sur and Ocina, and all that dwelt in 	a	See <a href='1MA.xhtml#M14_15'>1 Macc. 4. 15</a> ?
+Judith	2	28	3	Therefore the fear and dread of him fell upon all the inhabitants of the sea coasts, which were in Sidon and Tyrus, and them that dwelt in Sur and Ocina, and all that dwelt in Jemnaan; and they that dwelt in 	b	See <a href='1SA.xhtml#S15_1'>1 Sam. 5. 1</a>. &amp; <a href='1MA.xhtml#M14_15'>1 Macc. 4. 15</a>.
+Judith	2	28	4	Therefore the fear and dread of him fell upon all the inhabitants of the sea coasts, which were in Sidon and Tyrus, and them that dwelt in Sur and Ocina, and all that dwelt in Jemnaan; and they that dwelt in Azotus and 	c	<a href='1MA.xhtml#M110_86'>1 Macc. 10. 86</a>. &amp; <a href='1MA.xhtml#M111_60'>11. 60</a>. &amp; <a href='1MA.xhtml#M112_33'>12. 33</a>. See <a href='JDG.xhtml#JG1_18'>Judg. 1. 18</a>.
+Judith	2	3	1	Then they decreed to destroy all flesh, 	dd	<a href='JDT.xhtml#JT1_11'>ch. 1. 11</a>, <a href='JDT.xhtml#JT1_12'>12</a>.
+Judith	2	4	1	And when he had ended his counsel, Nabuchodonosor king of the Assyrians called Olofernes the chief captain of his army, which was 	*	Gr. <span class='add'>second</span> man. So <a href='ESG.xhtml#EG13_6'>Esther 13. 6</a>.
+Judith	2	5	1	Thus saith 	e	<a href='2KI.xhtml#K218_28'>2 Kin. 18. 28</a>. <a href='ISA.xhtml#IS36_13'>Isai. 36. 13</a>. <a href='JDT.xhtml#JT3_2'>ch. 3. 2</a>.
+Judith	2	6	1	And thou shalt go against all the west country, because 	d	See <a href='1SA.xhtml#S120_7'>1 Sam. 20. 7</a>.
+Judith	2	7	1	And thou shalt declare unto them, that they prepare for me 	*	After the manner of the kings of Persia, to whom earth and water was wont to be given, to acknowledge that they were lords of land and sea. <span class='add'>Herodotus</span>.
+Judith	3	10	1	And he pitched between 	g	See <a href='JOS.xhtml#JS18_24'>Josh. 18. 24</a>.
+Judith	3	10	2	And he pitched between Geba and 	h	<a href='2MA.xhtml#M212_29'>2 Macc. 12. 29</a>, <a href='2MA.xhtml#M212_30'>30</a>. See <a href='JOS.xhtml#JS17_11'>Josh. 17. 11</a>.
+Judith	3	10	3	And he pitched between Geba and Scythopolis, and there he tarried a whole month, that he might gather together all the 	i	See <a href='JDT.xhtml#JT2_17'>ch. 2. 17</a>.
+Judith	3	2	1	Behold, we the servants of Nabuchodonosor 	a	See <a href='JDT.xhtml#JT2_5'>ch. 2. 5</a>.
+Judith	3	3	1	Behold, our houses, and all our places, and all 	b	<a href='JDT.xhtml#JT2_27'>ch. 2. 27</a>. Comp. <a href='JDT.xhtml#JT4_5'>ch. 4. 5</a>.
+Judith	3	6	1	Then came he down toward 	c	<a href='JDT.xhtml#JT2_28'>ch. 2. 28</a>. &amp; <a href='JDT.xhtml#JT5_2'>5. 2</a>, <a href='JDT.xhtml#JT5_22'>22</a>. &amp; <a href='JDT.xhtml#JT7_8'>7. 8</a>.
+Judith	3	7	1	So they and all the country round about received them 	d	<a href='JDT.xhtml#JT15_13'>ch. 15. 13</a>. Comp. <a href='ACT.xhtml#AC14_13'>Acts 14. 13</a>.
+Judith	3	7	2	So they and all the country round about received them with garlands, 	e	<a href='JDT.xhtml#JT16_2'>ch. 16. 2</a>. See <a href='EXO.xhtml#EX15_20'>Ex. 15. 20</a>.
+Judith	3	7	3	So they and all the country round about received them with garlands, with dances, and with 	e	<a href='JDT.xhtml#JT16_2'>ch. 16. 2</a>. See <a href='EXO.xhtml#EX15_20'>Ex. 15. 20</a>.
+Judith	3	8	1	Yet he did cast down their frontiers, and 	f	See <a href='EXO.xhtml#EX34_13'>Ex. 34. 13</a>.
+Judith	3	9	1	Also he came over against 	*	Or, <span class='add'>Esdrelom</span>. <a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>. &amp; <a href='JDT.xhtml#JT4_6'>4. 6</a> marg. &amp; <a href='JDT.xhtml#JT7_3'>7. 3</a> (Gk.). See <a href='JOS.xhtml#JS17_16'>Josh. 17. 16</a>.
+Judith	3	9	2	Also he came over against Esdraelon near unto 	*	Or, <span class='add'>Dotea, Dothan</span>, Junius. <a href='GEN.xhtml#GN37_17'>Gen. 37. 17</a>. See <a href='JDT.xhtml#JT7_3'>ch. 7. 3</a>.
+Judith	3	9	3	Also he came over against Esdraelon near unto Judea, over against the 	*	Gr. <span class='add'>great saw</span>. Comp. <a href='1SA.xhtml#S113_23'>1 Sam. 13. 23</a>. &amp; <a href='1SA.xhtml#S114_4'>14. 4</a>.
+Judith	4	10	1	both they, and their wives, and their children, and their cattle, and every stranger and hireling, and their servants bought with money, 	o	<a href='JDT.xhtml#JT8_5'>ch. 8. 5</a>. See <a href='1KI.xhtml#K120_31'>1 Kin. 20. 31</a>.
+Judith	4	11	1	Thus every man and woman, and the little children, and the inhabitants of Jerusalem, 	p	<a href='EZR.xhtml#ER10_1'>Ezra 10. 1</a>.
+Judith	4	11	2	Thus every man and woman, and the little children, and the inhabitants of Jerusalem, fell before the temple, and 	q	So <a href='JDT.xhtml#JT9_1'>ch. 9. 1</a>. See <a href='JOS.xhtml#JS7_6'>Josh. 7. 6</a>.
+Judith	4	11	3	Thus every man and woman, and the little children, and the inhabitants of Jerusalem, fell before the temple, and cast ashes upon their heads, and 	r	Comp. <a href='2SA.xhtml#S221_10'>2 Sam. 21. 10</a>?
+Judith	4	12	1	and cried to the God of Israel all with one consent earnestly, that he would not give their children for a prey, and their wives 	s	See <a href='1ES.xhtml#E18_77'>1 Esdr. 8. 77</a>.
+Judith	4	13	1	So God heard their prayers, and 	t	See <a href='EXO.xhtml#EX3_7'>Ex. 3. 7</a>.
+Judith	4	13	2	So God heard their prayers, and looked upon their afflictions: for the people fasted many days in all Judea and Jerusalem 	u	<a href='JDT.xhtml#JT16_20'>ch. 16. 20</a>.
+Judith	4	13	3	So God heard their prayers, and looked upon their afflictions: for the people fasted many days in all Judea and Jerusalem before the sanctuary of the Lord 	v	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+Judith	4	14	1	And 	i	<a href='JDT.xhtml#JT4_8'>ver. 8</a>, <a href='JDT.xhtml#JT4_14'>14</a>. <a href='JDT.xhtml#JT15_8'>ch. 15. 8</a>. Comp. <a href='1ES.xhtml#E15_5'>1 Esdr. 5. 5</a> marg.
+Judith	4	14	2	And Joacim the high priest, and all the priests that stood before the Lord, and they which ministered unto the Lord, 	o	<a href='JDT.xhtml#JT8_5'>ch. 8. 5</a>. See <a href='1KI.xhtml#K120_31'>1 Kin. 20. 31</a>.
+Judith	4	14	3	And Joacim the high priest, and all the priests that stood before the Lord, and they which ministered unto the Lord, had their loins girt with sackcloth, and 	w	<a href='EXO.xhtml#EX29_38'>Ex. 29. 38</a>.
+Judith	4	15	1	and 	q	So <a href='JDT.xhtml#JT9_1'>ch. 9. 1</a>. See Josh.<a href='JDT.xhtml#JT9_7'>7</a>.<a href='JDT.xhtml#JT9_6'>6</a>.
+Judith	4	15	2	and had ashes on their 	x	<a href='EXO.xhtml#EX28_4'>Ex. 28. 4</a>, &amp;c. <a href='SIR.xhtml#SR45_12'>Ecclus. 45. 12</a> (Gk. and Engl.). Gk. not as <a href='JDT.xhtml#JT10_3'>ch. 10. 3</a> marg.
+Judith	4	3	1		a	Comp. <a href='2CH.xhtml#R233_11'>2 Chr. 33. 11–13</a> ? or rather <a href='JDT.xhtml#JT5_19'>ch. 5. 19</a>.
+Judith	4	3	2	for they were newly returned from the captivity, and all the people 	*	Or, <span class='add'>out of Judea</span>.
+Judith	4	3	3	for they were newly returned from the captivity, and all the people of Judea were lately gathered together: and the vessels, and 	b	<a href='2CH.xhtml#R233_15'>2 Chr. 33. 15</a>, <a href='2CH.xhtml#R233_16'>16</a> ?
+Judith	4	3	4	for they were newly returned from the captivity, and all the people of Judea were lately gathered together: and the vessels, and the altar, and 	b	<a href='2CH.xhtml#R233_15'>2 Chr. 33. 15</a>, <a href='2CH.xhtml#R233_16'>16</a> ?
+Judith	4	4	1	Therefore they sent into all the coasts of 	c	See <a href='1KI.xhtml#K116_24'>1 Kin. 16. 24</a>.
+Judith	4	4	2	Therefore they sent into all the coasts of Samaria, and the villages, and to 	d	<a href='1MA.xhtml#M13_16'>1 Macc. 3. 16</a>. See <a href='JOS.xhtml#JS10_11'>Josh. 10. 11</a>.
+Judith	4	4	3	Therefore they sent into all the coasts of Samaria, and the villages, and to Bethoron, and Belmen, and Jericho, and to 	e	Comp. <a href='JDT.xhtml#JT15_4'>ch. 15. 4</a>, <a href='JDT.xhtml#JT15_5'>5</a> ?
+Judith	4	4	4	Therefore they sent into all the coasts of Samaria, and the villages, and to Bethoron, and Belmen, and Jericho, and to Choba, and Esora, and to the valley of 	f	See <a href='JHN.xhtml#JN3_23'>John 3. 23</a> ?
+Judith	4	5	1	and 	g	<a href='JDT.xhtml#JT5_1'>ch. 5. 1</a>.
+Judith	4	5	2	and possessed themselves beforehand of all the tops of the high mountains, and fortified the villages that were in them, and laid up victuals for the provision of war: for 	h	Comp. <a href='JDT.xhtml#JT2_27'>ch. 2. 27</a>. &amp; <a href='JDT.xhtml#JT3_3'>3. 3</a>.
+Judith	4	6	1	Also 	i	<a href='JDT.xhtml#JT4_8'>ver. 8</a>, <a href='JDT.xhtml#JT4_14'>14</a>. <a href='JDT.xhtml#JT15_8'>ch. 15. 8</a>. Comp. <a href='1ES.xhtml#E15_5'>1 Esdr. 5. 5</a> marg.
+Judith	4	6	2	Also Joacim the high priest, which was in those days in Jerusalem, wrote to them that dwelt in 	j	<a href='JDT.xhtml#JT6_10'>ch. 6. 10</a>, &amp;c. &amp; <a href='JDT.xhtml#JT7_1'>7. 1</a>, &amp;c.
+Judith	4	6	3	Also Joacim the high priest, which was in those days in Jerusalem, wrote to them that dwelt in Bethulia, and 	k	So <a href='JDT.xhtml#JT15_4'>ch. 15. 4</a>.
+Judith	4	6	4	Also Joacim the high priest, which was in those days in Jerusalem, wrote to them that dwelt in Bethulia, and Betomestham, which is over against 	*	Or, <span class='add'>Esdrelom</span>. See <a href='JDT.xhtml#JT3_9'>ch. 3. 9</a>.
+Judith	4	6	5	Also Joacim the high priest, which was in those days in Jerusalem, wrote to them that dwelt in Bethulia, and Betomestham, which is over against Esdraelon toward the 	*	Or, <span class='add'>plain</span>.
+Judith	4	6	6	Also Joacim the high priest, which was in those days in Jerusalem, wrote to them that dwelt in Bethulia, and Betomestham, which is over against Esdraelon toward the open country near to 	l	See <a href='JDT.xhtml#JT7_3'>ch. 7. 3</a>.
+Judith	4	7	1	charging them to keep 	m	<a href='JDT.xhtml#JT6_7'>ch. 6. 7</a>. &amp; <a href='JDT.xhtml#JT7_1'>7. 1</a> (Gk.), <a href='JDT.xhtml#JT7_7'>7</a>. &amp; <a href='JDT.xhtml#JT14_11'>14. 11</a> (Gk.). So <a href='JDT.xhtml#JT5_1'>ch. 5. 1</a>.
+Judith	4	7	2	charging them to keep the passages of the hill country: for by them there was an entrance into Judea, and it was easy to stop them that would come up, because the passage was strait, 	*	Or, <span class='add'>two against all</span>.
+Judith	4	8	1	And the children of Israel did as 	i	<a href='JDT.xhtml#JT4_8'>ver. 8</a>, <a href='JDT.xhtml#JT4_14'>14</a>. <a href='JDT.xhtml#JT15_8'>ch. 15. 8</a>. Comp. <a href='1ES.xhtml#E15_5'>1 Esdr. 5. 5</a> marg.
+Judith	4	8	2	And the children of Israel did as Joacim the high priest had commanded them, with the 	*	Or, <span class='add'>governors</span>. <a href='JDT.xhtml#JT11_14'>ch. 11. 14</a>. &amp; <a href='JDT.xhtml#JT15_8'>15. 8</a>. <a href='2MA.xhtml#M21_10'>2 Macc. 1. 10</a>. &amp; <a href='2MA.xhtml#M24_44'>4. 44</a>. <a href='ACT.xhtml#AC5_21'>Acts 5. 21</a> in the Gk. Gk. not as <a href='JDT.xhtml#JT6_16'>ch. 6. 16</a>.
+Judith	4	9	1	Then every man of Israel cried to God with great 	n	See <a href='ACT.xhtml#AC12_5'>Acts 12. 5</a> marg.
+Judith	4	9	2	Then every man of Israel cried to God with great fervency, and with great 	n	See <a href='ACT.xhtml#AC12_5'>Acts 12. 5</a> marg.
+Judith	5	1	1	Then was it declared to Olofernes, the chief captain of the army of Assur, that the children of Israel had prepared for war, and had shut up 	a	See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>.
+Judith	5	1	2	Then was it declared to Olofernes, the chief captain of the army of Assur, that the children of Israel had prepared for war, and had shut up the passages of the hill country, and had fortified 	*	Gr. <span class='add'>all</span> the <span class='add'>top</span>.
+Judith	5	1	3	Then was it declared to Olofernes, the chief captain of the army of Assur, that the children of Israel had prepared for war, and had shut up the passages of the hill country, and had fortified all 	b	So <a href='JDT.xhtml#JT4_5'>ch. 4. 5</a>. &amp; <a href='JDT.xhtml#JT7_10'>7. 10</a>.
+Judith	5	1	4	Then was it declared to Olofernes, the chief captain of the army of Assur, that the children of Israel had prepared for war, and had shut up the passages of the hill country, and had fortified all the tops of the high hills, and had laid 	bb	<a href='JDT.xhtml#JT5_20'>ver. 20</a> (Gk.).
+Judith	5	10	1	But when a famine covered all the land of Canaan, 	l	<a href='GEN.xhtml#GN46_6'>Gen. 46. 6</a>.
+Judith	5	10	2	But when a famine covered all the land of Canaan, they went down into Egypt, and sojourned there, while they were nourished, and 	m	<a href='EXO.xhtml#EX1_7'>Ex. 1. 7</a>.
+Judith	5	11	1	Therefore 	n	<a href='EXO.xhtml#EX1_8'>Ex. 1. 8–14</a>.
+Judith	5	11	2	Therefore the king of Egypt rose up against them, and 	o	<a href='EXO.xhtml#EX1_10'>Ex 1. 10</a>. <a href='ACT.xhtml#AC7_19'>Acts 7. 19</a> in the Gk.
+Judith	5	12	1		p	<a href='EXO.xhtml#EX2_23'>Ex. 2. 23</a>.
+Judith	5	12	2	Then they cried unto their God, and 	q	Ex. <a href='JDT.xhtml#JT7_0'>ch. 7</a>–<a href='JDT.xhtml#JT10_0'>ch. 10</a>.
+Judith	5	12	3	Then they cried unto their God, and he smote all the land of Egypt with incurable plagues: so 	r	<a href='EXO.xhtml#EX12_31'>Ex. 12. 31</a>, <a href='EXO.xhtml#EX12_33'>33</a>.
+Judith	5	13	1	And 	s	<a href='EXO.xhtml#EX14_21'>EX. 14. 21</a>, <a href='EXO.xhtml#EX14_29'>29</a>.
+Judith	5	14	1	and 	t	<a href='EXO.xhtml#EX19_1'>Ex. 19. 1</a>.
+Judith	5	14	2	and brought them 	*	Gr. <span class='add'>into the way</span> of the wilderness <span class='add'>of Sina</span>.
+Judith	5	14	3	and brought them to mount Sina, and 	u	<a href='NUM.xhtml#NU13_26'>Numb. 13. 26</a>. &amp; <a href='NUM.xhtml#NU20_1'>20. 1</a>. <a href='DEU.xhtml#DT1_19'>Deut. 1. 19</a>.
+Judith	5	15	1		x	<a href='NUM.xhtml#NU21_25'>Numb. 21. 25</a>.
+Judith	5	15	2	So they dwelt in the land of the Amorites, and they destroyed by their strength all them of 	x	<a href='NUM.xhtml#NU21_25'>Numb. 21. 25</a>.
+Judith	5	15	3	So they dwelt in the land of the Amorites, and they destroyed by their strength all them of Esebon, and 	y	<a href='JOS.xhtml#JS3_16'>Josh. 3. 16</a>.
+Judith	5	15	4	So they dwelt in the land of the Amorites, and they destroyed by their strength all them of Esebon, and passing over Jordan they possessed 	z	<a href='JOS.xhtml#JS10_40'>Josh. 10. 40</a>
+Judith	5	16	1	And they cast forth before them the 	a	<a href='JOS.xhtml#JS12_8'>Josh. 12. 8</a>.
+Judith	5	16	2	And they cast forth before them the Canaanite, the 	a	<a href='JOS.xhtml#JS12_8'>Josh. 12. 8</a>.
+Judith	5	16	3	And they cast forth before them the Canaanite, the Pherezite, the 	a	<a href='JOS.xhtml#JS12_8'>Josh. 12. 8</a>.
+Judith	5	16	4	And they cast forth before them the Canaanite, the Pherezite, the Jebusite, and the 	a	<a href='JOS.xhtml#JS12_8'>Josh. 12. 8</a>.
+Judith	5	16	5	And they cast forth before them the Canaanite, the Pherezite, the Jebusite, and the 	b	Comp. <a href='GEN.xhtml#GN34_2'>Gen. 34. 2</a>.
+Judith	5	16	6	And they cast forth before them the Canaanite, the Pherezite, the Jebusite, and the Sychemite, and all the 	c	<a href='DEU.xhtml#DT7_1'>Deut. 7. 1</a>. <a href='JOS.xhtml#JS3_10'>Josh. 3. 10</a>. &amp; <a href='JOS.xhtml#JS24_11'>24. 11</a>.
+Judith	5	17	1	And whilst they sinned not before their God, they prospered, because the 	d	<a href='PSA.xhtml#PS5_5'>Ps. 5. 5</a>.
+Judith	5	18	1	But 	e	<a href='JDG.xhtml#JG2_11'>Judg. 2. 11–15</a>. &amp; <a href='JDG.xhtml#JG3_7'>3. 7</a>, <a href='JDG.xhtml#JG3_8'>8</a>.
+Judith	5	18	2	But when they departed from the way which he appointed them, they were destroyed in many battles very sore, and 	f	<a href='2KI.xhtml#K225_9'>2 Kin. 25. 9–11</a>.
+Judith	5	19	1	But now are they returned to their God, and 	g	<a href='JDT.xhtml#JT4_3'>ch. 4. 3</a>. Comp. <a href='EZR.xhtml#ER1_1'>Ezra 1. 1–3</a>.
+Judith	5	19	2	But now are they returned to their God, and are come up from the places where they were scattered, and have possessed Jerusalem, where their sanctuary is, and 	*	Or, <span class='add'>have their dwellings</span>.
+Judith	5	2	1	wherewith he was very angry, and called all the princes of 	c	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>.
+Judith	5	2	2	wherewith he was very angry, and called all the princes of Moab, and the captains of 	c	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>.
+Judith	5	2	3	wherewith he was very angry, and called all the princes of Moab, and the captains of Ammon, and all the governors of 	d	See <a href='JDT.xhtml#JT3_6'>ch. 3. 6</a>.
+Judith	5	20	1	Now therefore, my lord and governor, if there be any error in this people, and they sin against their God, let us consider that this shall be their 	h	Gk. as <a href='JDT.xhtml#JT5_1'>ver. 1</a>. Rather as <a href='ROM.xhtml#RM14_13'>Rom. 14. 13</a>.
+Judith	5	22	1	And when Achior had finished these sayings, all the people standing round about the tent murmured, and the 	i	See <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>.
+Judith	5	22	2	And when Achior had finished these sayings, all the people standing round about the tent murmured, and the chief men of Olofernes, and all that dwelt by 	ii	See <a href='JDT.xhtml#JT5_2'>ver. 2</a>.
+Judith	5	22	3	And when Achior had finished these sayings, all the people standing round about the tent murmured, and the chief men of Olofernes, and all that dwelt by the sea side, and in 	ii	See <a href='JDT.xhtml#JT5_2'>ver. 2</a>.
+Judith	5	23	1	For, 	j	Comp. <a href='EXO.xhtml#EX18_4'>Ex. 18. 4</a>.
+Judith	5	23	2	For, say they, we will not be afraid of the face of the children of Israel: for lo, it is a people that have no strength nor power 	*	Gr. <span class='add'>against a mighty army</span>.
+Judith	5	23	3	For, say they, we will not be afraid of the face of the children of Israel: for lo, it is a people that have no strength nor power for a strong 	k	<a href='JDT.xhtml#JT2_15'>ch. 2. 15</a>. &amp; <a href='JDT.xhtml#JT7_11'>7. 11</a> (Gk.). &amp; <a href='JDT.xhtml#JT16_12'>16. 12</a>. <a href='WIS.xhtml#WS12_9'>Wisd. 12. 9</a>.
+Judith	5	24	1	Now therefore, lord Olofernes, we will go up, and they shall be 	l	So <a href='JDT.xhtml#JT10_12'>ch. 10. 12</a> (Gk.).
+Judith	5	5	1	Then said 	e	<a href='JDT.xhtml#JT6_5'>ch. 6. 5</a>. &amp; <a href='JDT.xhtml#JT11_9'>11. 9</a>. &amp; <a href='JDT.xhtml#JT14_5'>14. 5</a>.
+Judith	5	5	2	Then said Achior, the captain of all the sons of 	c	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>.
+Judith	5	7	1	and 	f	<a href='GEN.xhtml#GN11_31'>Gen. 11. 31</a>. Comp. <a href='ACT.xhtml#AC7_2'>Acts. 7. 2</a>.
+Judith	5	7	2	and they sojourned heretofore in 	g	See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
+Judith	5	7	3	and they sojourned heretofore in Mesopotamia, because 	h	Comp. <a href='JOS.xhtml#JS24_2'>Josh. 24. 2</a>.
+Judith	5	8	1	For they 	*	Or, <span class='add'>went out of</span>.
+Judith	5	8	2	For they left the way of their ancestors, and worshipped 	i	<a href='TOB.xhtml#TB10_11'>Tobit 10. 11</a>. <a href='JDT.xhtml#JT6_19'>ch. 6. 19</a>. &amp; <a href='JDT.xhtml#JT11_17'>11. 17</a>. 1 Macc. (<a href='1MA.xhtml#M13_18'>3. 18</a>. &amp;) <a href='1MA.xhtml#M14_55'>4. 55</a>.
+Judith	5	8	3	For they left the way of their ancestors, and worshipped the God of heaven, the God whom they knew: so they cast them out from the face of their gods, and they fled into 	g	See <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
+Judith	5	9	1	Then 	j	<a href='GEN.xhtml#GN12_1'>Gen. 12. 1</a>.
+Judith	5	9	2	Then their God commanded them to depart from the place where they sojourned, and to go into the land of Canaan: where they dwelt, and 	k	<a href='GEN.xhtml#GN13_2'>Gen. 13. 2</a>.
+Judith	6	1	1	And when the tumult of men that were about the council was ceased, Olofernes the chief captain of the army of Assur said unto Achior and all the 	a	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>.
+Judith	6	10	1	Then Olofernes commanded his servants, that waited in his tent, to take Achior, and bring him to 	l	<a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>.
+Judith	6	11	1	So his servants took him, and brought him out of the camp into the plain, and they went from the midst of the plain into the hill country, and came unto 	m	<a href='JDT.xhtml#JT7_3'>ch. 7. 3</a>, <a href='JDT.xhtml#JT7_7'>7</a>, <a href='JDT.xhtml#JT7_12'>12</a>, <a href='JDT.xhtml#JT7_17'>17</a>. &amp; <a href='JDT.xhtml#JT12_7'>12. 7</a>.
+Judith	6	16	1	And they called together all 	n	<a href='JDT.xhtml#JT6_21'>ver. 21</a>. <a href='JDT.xhtml#JT7_23'>ch. 7. 23</a>. &amp; <a href='JDT.xhtml#JT8_10'>8. 10</a>. &amp; <a href='JDT.xhtml#JT10_6'>10. 6</a>. &amp; <a href='JDT.xhtml#JT13_12'>13. 12</a> in the Gk. See <a href='1ES.xhtml#E16_8'>1 Esdr. 6. 8</a>. Gk. not as <a href='JDT.xhtml#JT4_8'>ch. 4. 8</a>.
+Judith	6	17	1	And he answered and declared unto them the words of 	o	<a href='JDT.xhtml#JT6_1'>ver. 1</a>.
+Judith	6	19	1	O Lord 	p	See <a href='JDT.xhtml#JT5_8'>ch. 5. 8</a>.
+Judith	6	19	2	O Lord God of heaven, behold their pride, and pity the low estate of our nation, and 	q	So <a href='PSA.xhtml#PS84_9'>Ps. 84. 9</a>.
+Judith	6	2	1	And who art thou, Achior, and 	b	<a href='JDT.xhtml#JT6_5'>ver. 5</a>.
+Judith	6	2	2	And who art thou, Achior, and the hirelings of Ephraim, that thou hast prophesied amongst us as to day, and hast said, that we should not make war with the people of Israel, 	c	<a href='JDT.xhtml#JT5_21'>ch. 5. 21</a>.
+Judith	6	21	1	And Ozias took him out of the assembly unto his house, and 	r	<a href='2SA.xhtml#S23_20'>2 Sam. 3. 20</a> (Gk.). <a href='JDT.xhtml#JT12_10'>ch. 12. 10</a>.
+Judith	6	21	2	And Ozias took him out of the assembly unto his house, and made a feast to 	n	<a href='JDT.xhtml#JT6_21'>ver. 21</a>. <a href='JDT.xhtml#JT7_23'>ch. 7. 23</a>. &amp; <a href='JDT.xhtml#JT8_10'>8. 10</a>. &amp; <a href='JDT.xhtml#JT10_6'>10. 6</a>. &amp; <a href='JDT.xhtml#JT13_12'>13. 12</a> in the Gk. See <a href='1ES.xhtml#E16_8'>1 Esdr. 6. 8</a>. Gk. not as <a href='JDT.xhtml#JT4_8'>ch. 4. 8</a>.
+Judith	6	3	1	He will send his power, and will destroy them from the face of the earth, and 	d	So <a href='2KI.xhtml#K218_33'>2 Kin. 18. 33–35</a>. <a href='ISA.xhtml#IS36_18'>Isai. 36. 18–20</a>.
+Judith	6	4	1	For with them we will tread them under foot, and their mountains 	e	See <a href='ISA.xhtml#IS34_7'>Isai. 34. 7</a>.
+Judith	6	5	1	And thou, Achior, 	b	<a href='JDT.xhtml#JT6_5'>ver. 5</a>.
+Judith	6	5	2	And thou, Achior, a hireling of 	f	See <a href='JDT.xhtml#JT5_5'>ch. 5. 5</a>.
+Judith	6	5	3	And thou, Achior, a hireling of Ammon, which hast spoken these words in the day of thine iniquity, shalt see my face no more from this day, until I take vengeance of this nation 	g	<a href='JDT.xhtml#JT5_12'>ch. 5. 12</a>.
+Judith	6	6	1	And then shall the sword of mine army, and the multitude of them that serve me, pass through thy sides, and thou shalt fall among their slain, 	h	Comp. <a href='1KI.xhtml#K122_27'>1 Kin. 22. 27</a>.
+Judith	6	7	1	Now therefore my servants shall bring thee back into the hill country, and shall set thee in one of the cities of 	i	See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>.
+Judith	6	9	1	And if thou persuade thyself in thy mind that they shall not be taken, let not 	k	<a href='GEN.xhtml#GN4_6'>Gen. 4. 6</a>.
+Judith	7	1	1	The next day Olofernes commanded all his army, and all his people which were come to take his part, that they should remove their camp against Bethulia, to take aforehand 	a	See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>. Comp. <a href='JDT.xhtml#JT15_3'>ch. 15. 3</a>.
+Judith	7	11	1	Now therefore, my lord, fight not against them in battle 	ll	See <a href='JDT.xhtml#JT5_23'>ch. 5. 23</a>.
+Judith	7	12	1	Remain in thy camp, and keep all the men of thine army, and let thy servants get into their hands 	c	<a href='JDT.xhtml#JT12_7'>ch. 12. 7</a> (Gk.). See <a href='JDT.xhtml#JT6_11'>ch. 6. 11</a>.
+Judith	7	17	1	So the 	h	<a href='JDT.xhtml#JT7_17'>ver. 17</a>, <a href='JDT.xhtml#JT7_20'>20</a>. <a href='1MA.xhtml#M15_45'>1 Macc. 5. 45</a>. <a href='HEB.xhtml#HB11_34'>Heb. 11. 34</a> in the Gk.
+Judith	7	17	2	So the camp of the children of 	m	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>. Comp. <a href='JDT.xhtml#JT7_8'>ver. 8</a>.
+Judith	7	17	3	So the camp of the children of Ammon departed, and with them five thousand of the Assyrians, and they pitched in the valley, and took the waters, and 	c	<a href='JDT.xhtml#JT12_7'>ch. 12. 7</a> (Gk.). See <a href='JDT.xhtml#JT6_11'>ch. 6. 11</a>.
+Judith	7	18	1	Then 	i	<a href='JDT.xhtml#JT7_18'>ver. 18</a>. <a href='1MA.xhtml#M15_3'>1 Macc. 5. 3</a>, <a href='1MA.xhtml#M15_65'>65</a>.
+Judith	7	18	2	Then the children of Esau went up with the children of 	m	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>. Comp. <a href='JDT.xhtml#JT7_8'>ver. 8</a>.
+Judith	7	18	3	Then the children of Esau went up with the children of Ammon, and camped in the hill country over against 	d	<a href='JDT.xhtml#JT7_18'>ver. 18</a>. <a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>. &amp; <a href='JDT.xhtml#JT8_3'>8. 3</a>. See <a href='JDT.xhtml#JT3_9'>ch. 3. 9</a>.
+Judith	7	18	4	Then the children of Esau went up with the children of Ammon, and camped in the hill country over against Dothaim: and they sent some of them toward the south, and toward the east, over against Ekrebel, which is near unto Chusi, that is upon the brook Mochmur; and the rest of the army of the Assyrians camped in the plain, and 	n	<a href='JDT.xhtml#JT2_19'>ch. 2. 19</a>.
+Judith	7	18	5	Then the children of Esau went up with the children of Ammon, and camped in the hill country over against Dothaim: and they sent some of them toward the south, and toward the east, over against Ekrebel, which is near unto Chusi, that is upon the brook Mochmur; and the rest of the army of the Assyrians camped in the plain, and covered the face of the whole land; and their tents and 	o	See <a href='JDT.xhtml#JT2_17'>ch. 2. 17</a>.
+Judith	7	2	1	Then their strong men removed their camps in that day, and the army of the men of war was 	b	Comp. <a href='JDT.xhtml#JT2_15'>ch. 2. 15</a>.
+Judith	7	20	1	Thus all the 	h	<a href='JDT.xhtml#JT7_17'>ver. 17</a>, <a href='JDT.xhtml#JT7_20'>20</a>. <a href='1MA.xhtml#M15_45'>1 Macc. 5. 45</a>. <a href='HEB.xhtml#HB11_34'>Heb. 11. 34</a> in the Gk.
+Judith	7	21	1	And the 	*	Or, <span class='add'>pits</span>.
+Judith	7	21	2	And the 	p	<a href='2CH.xhtml#R226_10'>2 Chr. 26. 10</a> marg. (Gk.). <a href='JDT.xhtml#JT8_31'>ch. 8. 31</a>.
+Judith	7	21	3	And the cisterns were emptied, and they had not water to drink their fill for one day; for they gave them drink 	q	See <a href='EZK.xhtml#EK4_11'>Ezek. 4. 11</a>.
+Judith	7	22	1	Therefore their young children were out of heart, and their women and young men 	r	<a href='TOB.xhtml#TB14_11'>Tobit 14. 11</a>. <a href='LUK.xhtml#LK16_9'>Luke 16. 9</a>? in the Gk.
+Judith	7	23	1	Then all the people assembled to 	s	<a href='JDT.xhtml#JT6_15'>ch. 6. 15</a>.
+Judith	7	23	2	Then all the people assembled to Ozias, and to the chief of the city, both young men, and women, and children, and cried with a loud voice, and said before all 	t	See <a href='JDT.xhtml#JT6_16'>ch. 6. 16</a>.
+Judith	7	24	1		u	So <a href='EXO.xhtml#EX5_21'>Ex. 5. 21</a>.
+Judith	7	25	1	For now we have no helper: but 	x	See <a href='DEU.xhtml#DT32_30'>Deut. 32. 30</a>.
+Judith	7	26	1	Now therefore call them unto you, and deliver the whole city 	y	See <a href='1ES.xhtml#E18_77'>1 Esdr. 8. 77</a>. Gk. not as <a href='JDT.xhtml#JT7_27'>ver. 27</a>.
+Judith	7	28	1		z	<a href='2ES.xhtml#E22_14'>2 Esdr. 2. 14</a>. See <a href='DEU.xhtml#DT4_26'>Deut. 4. 26</a>.
+Judith	7	28	2	We take to witness against you the heaven and the earth, and our God and Lord of our fathers, which punisheth us according to our sins and 	a	See <a href='PSA.xhtml#PS106_6'>Ps. 106. 6</a>.
+Judith	7	28	3	We take to witness against you the heaven and the earth, and our God and Lord of our fathers, which punisheth us according to our sins and the sins of our fathers, 	*	Or, <span class='add'>lest he do</span>, meaning Olofernes.
+Judith	7	28	4	We take to witness against you the heaven and the earth, and our God and Lord of our fathers, which punisheth us according to our sins and the sins of our fathers, that he do not 	b	<a href='JDT.xhtml#JT7_27'>ver. 27</a>.
+Judith	7	3	1	And they camped in the valley near unto Bethulia, 	c	<a href='JDT.xhtml#JT12_7'>ch. 12. 7</a> (Gk.). See <a href='JDT.xhtml#JT6_11'>ch. 6. 11</a>.
+Judith	7	3	2	And they camped in the valley near unto Bethulia, by the fountain, and they spread themselves in breadth 	*	<span class='add'>from Dothaim</span>, Junius.
+Judith	7	3	3	And they camped in the valley near unto Bethulia, by the fountain, and they spread themselves in breadth over 	d	<a href='JDT.xhtml#JT7_18'>ver. 18</a>. <a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>. &amp; <a href='JDT.xhtml#JT8_3'>8. 3</a>. See <a href='JDT.xhtml#JT3_9'>ch. 3. 9</a>.
+Judith	7	3	4	And they camped in the valley near unto Bethulia, by the fountain, and they spread themselves in breadth over Dothaim even to 	e	Not as <a href='JDT.xhtml#JT4_4'>ch. 4. 4</a> ?
+Judith	7	3	5	And they camped in the valley near unto Bethulia, by the fountain, and they spread themselves in breadth over Dothaim even to Belmaim, and in length from Bethulia unto 	*	Gr. <span class='add'>Bean field</span>.
+Judith	7	3	6	And they camped in the valley near unto Bethulia, by the fountain, and they spread themselves in breadth over Dothaim even to Belmaim, and in length from Bethulia unto Cyamon, which is over against 	f	<a href='JDT.xhtml#JT3_9'>ch. 3. 9</a> marg.
+Judith	7	30	1	Then said Ozias to them, Brethren, be of good courage, 	c	<a href='JDT.xhtml#JT7_20'>ver. 20</a>.
+Judith	7	30	2	Then said Ozias to them, Brethren, be of good courage, let us yet endure five days, in the which space the Lord our God may turn his mercy toward us; for he will not forsake us 	d	<a href='JDT.xhtml#JT14_13'>ch. 14. 13</a>. <a href='1TH.xhtml#H12_16'>1 Thess. 2. 16</a> (Gk.).
+Judith	7	31	1	And if these days pass, and there come no help unto us, I will do 	e	<a href='JDT.xhtml#JT7_26'>ver. 26</a>.
+Judith	7	4	1	Now the children of Israel, when they saw the multitude of them, were greatly troubled, and said every one to his neighbour, Now will these men 	g	<a href='NUM.xhtml#NU22_4'>Numb. 22. 4</a>.
+Judith	7	7	1	and viewed 	a	See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>. Comp. <a href='JDT.xhtml#JT15_3'>ch. 15. 3</a>.
+Judith	7	7	2	and viewed the passages up to the city, and came to 	c	<a href='JDT.xhtml#JT12_7'>ch. 12. 7</a> (Gk.). See <a href='JDT.xhtml#JT6_11'>ch. 6. 11</a>.
+Judith	7	7	3	and viewed the passages up to the city, and came to the fountains of their waters, and took them, and set 	h	<a href='JDT.xhtml#JT7_17'>ver. 17</a>, <a href='JDT.xhtml#JT7_20'>20</a>. <a href='1MA.xhtml#M15_45'>1 Macc. 5. 45</a>. <a href='HEB.xhtml#HB11_34'>Heb. 11. 34</a> in the Gk.
+Judith	7	8	1	Then came unto him all the chief of 	i	<a href='JDT.xhtml#JT7_18'>ver. 18</a>. <a href='1MA.xhtml#M15_3'>1 Macc. 5. 3</a>, <a href='1MA.xhtml#M15_65'>65</a>.
+Judith	7	8	2	Then came unto him all the chief of the children of Esau, and all the governors of the people of 	k	See <a href='JDT.xhtml#JT1_12'>ch. 1. 12</a>. Comp. <a href='JDT.xhtml#JT7_17'>ver. 17</a>, <a href='JDT.xhtml#JT7_18'>18</a>.
+Judith	7	8	3	Then came unto him all the chief of the children of Esau, and all the governors of the people of Moab, and the captains of 	l	See <a href='JDT.xhtml#JT3_6'>ch. 3. 6</a>.
+Judith	8	1	1	Now at that time Judith heard thereof, which was the daughter of Merari, the son of Ox, the son of Joseph, the son of Oziel, the son of Elcia, the son of Ananias, the son of Gedeon, the son of Raphaim, the son of Acitho, the son of Eliu, the son of Eliab, the son of Nathanael, the son of 	*	Or, <span class='add'>Samaliel</span>.
+Judith	8	1	2	Now at that time Judith heard thereof, which was the daughter of Merari, the son of Ox, the son of Joseph, the son of Oziel, the son of Elcia, the son of Ananias, the son of Gedeon, the son of Raphaim, the son of Acitho, the son of Eliu, the son of Eliab, the son of Nathanael, the son of Samael, the son of Salasadai, 	a	Comp. <a href='JDT.xhtml#JT9_2'>ch. 9. 2</a>.
+Judith	8	10	1	then she sent her waiting woman, that had the government of all things that she had, to call 	o	<a href='JDT.xhtml#JT6_15'>ch. 6. 15</a>.
+Judith	8	10	2	then she sent her waiting woman, that had the government of all things that she had, to call Ozias and Chabris and Charmis, 	p	See <a href='JDT.xhtml#JT6_16'>ch. 6. 16</a>.
+Judith	8	12	1	And now who are you 	q	<a href='ACT.xhtml#AC15_10'>Acts 15. 10</a>.
+Judith	8	13	1	And now try the Lord 	r	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+Judith	8	14	1	For 	s	<a href='1CO.xhtml#C12_11'>1 Cor. 2. 11</a>.
+Judith	8	14	2	For you cannot find the depth of the heart of man, neither can ye perceive the things that he thinketh: then how can you search out God, that hath made all these things, and 	t	<a href='1CO.xhtml#C12_16'>1 Cor. 2. 16</a>.
+Judith	8	14	3	For you cannot find the depth of the heart of man, neither can ye perceive the things that he thinketh: then how can you search out God, that hath made all these things, and know his mind, or comprehend his purpose? Nay, my brethren, 	u	<a href='JDT.xhtml#JT11_11'>ch. 11. 11</a>. See <a href='DEU.xhtml#DT31_29'>Deut. 31. 29</a>.
+Judith	8	16	1	Do not 	*	Or, <span class='add'>engage</span>.
+Judith	8	16	2	Do not bind the counsels of the Lord our God: for 	x	<a href='NUM.xhtml#NU23_19'>Numb. 23. 19</a> (Gk.).
+Judith	8	16	3	Do not bind the counsels of the Lord our God: for God is not as man, that he may be threatened; 	x	<a href='NUM.xhtml#NU23_19'>Numb. 23. 19</a> (Gk.).
+Judith	8	18	1	For there arose none in our age, neither is there any now in these days, neither tribe, nor family, nor 	*	Or, <span class='add'>town</span>.
+Judith	8	18	2	For there arose none in our age, neither is there any now in these days, neither tribe, nor family, nor people, nor city, among us, which worship gods made with hands, 	y	<a href='JDG.xhtml#JG2_11'>Judg. 2. 11</a>. &amp; <a href='JDG.xhtml#JG4_1'>4. 1</a>. &amp; <a href='JDG.xhtml#JG6_1'>6. 1</a>.
+Judith	8	2	1	And Manasses was her husband, of her tribe and kindred, who died in 	b	See <a href='RUT.xhtml#RT1_22'>Ruth 1. 22</a>.
+Judith	8	22	1	And the 	*	Or, <span class='add'>fear</span>.
+Judith	8	22	2	And the slaughter of our brethren, and the captivity of the country, and the desolation of our inheritance, will he turn upon our heads among the Gentiles, wheresoever we shall be in bondage; and we shall be 	z	<a href='ROM.xhtml#RM14_13'>Rom. 14. 13</a> (Gk.).
+Judith	8	26	1	Remember what things he did to 	a	<a href='GEN.xhtml#GN22_1'>Gen. 22. 1</a>.
+Judith	8	26	2	Remember what things he did to Abraham, and how he tried 	a	<a href='GEN.xhtml#GN22_1'>Gen. 22. 1</a>.
+Judith	8	26	3	Remember what things he did to Abraham, and how he tried Isaac, and 	b	<a href='GEN.xhtml#GN28_2'>Gen. 28. 2</a>, <a href='GEN.xhtml#GN28_7'>7</a>. &amp; <a href='GEN.xhtml#GN29_20'>29. 20</a>. &amp; <a href='GEN.xhtml#GN31_7'>31. 7</a>.
+Judith	8	27	1	For he hath not tried us in the fire, as he did them, for the examination of their hearts, neither hath he taken vengeance on us: but 	c	<a href='PRO.xhtml#PR3_12'>Prov. 3. 12</a>. See <a href='HEB.xhtml#HB12_6'>Heb. 12. 6</a>.
+Judith	8	3	1	For as he stood overseeing them that bound sheaves in the field, 	c	So <a href='2KI.xhtml#K24_18'>2 Kin. 4. 18</a>, <a href='2KI.xhtml#K24_19'>19</a>.
+Judith	8	3	2	For as he stood overseeing them that bound sheaves in the field, the heat came upon his head, and he fell on his bed, and died in the city of Bethulia: and they buried him with his fathers in the field between 	d	See <a href='JDT.xhtml#JT7_3'>ch. 7. 3</a>.
+Judith	8	3	3	For as he stood overseeing them that bound sheaves in the field, the heat came upon his head, and he fell on his bed, and died in the city of Bethulia: and they buried him with his fathers in the field between Dothaim and 	e	So <a href='SNG.xhtml#SS8_11'>Cant. 8. 11</a>.
+Judith	8	30	1	But 	d	<a href='JDT.xhtml#JT8_9'>ver. 9</a>.
+Judith	8	31	1	Therefore now pray thou for us, because thou art a godly woman, and the Lord will send us rain to fill our 	e	<a href='JDT.xhtml#JT7_21'>ch. 7. 21</a>.
+Judith	8	33	1	You shall stand this night in the gate, and I will go forth with my 	f	<a href='JDT.xhtml#JT8_10'>ver. 10</a>. <a href='JDT.xhtml#JT10_2'>ch. 10. 2</a>, <a href='JDT.xhtml#JT10_5'>5</a>, <a href='JDT.xhtml#JT10_17'>17</a>. &amp; <a href='JDT.xhtml#JT13_9'>13. 9</a>. &amp; <a href='JDT.xhtml#JT16_23'>16. 23</a>. <a href='ESG.xhtml#EG15_2'>Esther 15. 2</a>, <a href='ESG.xhtml#EG15_7'>7</a> in the Gk.
+Judith	8	33	2	You shall stand this night in the gate, and I will go forth with my waiting woman: and within the days that you have promised to deliver the city to our enemies 	g	See <a href='EXO.xhtml#EX3_16'>Ex 3. 16</a>.
+Judith	8	35	1	Then said Ozias and the princes unto her, 	h	See <a href='1SA.xhtml#S11_17'>1 Sam. 1. 17</a>.
+Judith	8	36	1	So they returned from 	i	<a href='JDT.xhtml#JT8_5'>ver. 5</a>.
+Judith	8	4	1	So Judith was a widow in her house three years and 	f	Comp. <a href='JDT.xhtml#JT4_5'>ch. 4. 5</a>.
+Judith	8	5	1	And she made her a tent upon 	g	<a href='ACT.xhtml#AC10_9'>Acts 10. 9</a>. See <a href='2SA.xhtml#S211_2'>2 Sam. 11. 2</a>.
+Judith	8	5	2	And she made her a tent upon the top of her house, and 	h	<a href='JDT.xhtml#JT4_10'>ch. 4. 10</a>, <a href='JDT.xhtml#JT4_14'>14</a>. &amp; <a href='JDT.xhtml#JT9_1'>9. 1</a>. &amp; <a href='JDT.xhtml#JT10_3'>10. 3</a>. See <a href='1KI.xhtml#K120_31'>1 Kin. 20. 31</a>.
+Judith	8	5	3	And she made her a tent upon the top of her house, and put on sackcloth upon her loins, and ware 	i	<a href='GEN.xhtml#GN38_14'>Gen. 38. 14</a>, <a href='GEN.xhtml#GN38_19'>19</a>. <a href='JDT.xhtml#JT10_3'>ch. 10. 3</a>. &amp; <a href='JDT.xhtml#JT16_8'>16. 8</a>
+Judith	8	6	1	And she fasted all the days of her widowhood, save 	k	<a href='MRK.xhtml#MK15_42'>Mark 15. 42</a> (Gk.).
+Judith	8	6	2	And she fasted all the days of her widowhood, save the eves of the sabbath, and 	l	See <a href='ISA.xhtml#IS1_13'>Isai. 1. 13</a>.
+Judith	8	6	3	And she fasted all the days of her widowhood, save the eves of the sabbath, and the sabbaths, and the eves of the new moons, and 	l	See <a href='ISA.xhtml#IS1_13'>Isai. 1. 13</a>.
+Judith	8	7	1	She was also of a goodly countenance, and very beautiful to behold: and her husband Manasses had left her gold, and silver, and menservants, and maidservants, and cattle, and lands; 	*	Or, <span class='add'>and she kept them</span>.
+Judith	8	9	1	Now when she heard the evil words of the people against the governor, 	m	<a href='JDT.xhtml#JT7_19'>ch. 7. 19</a>, (<a href='JDT.xhtml#JT7_22'>22</a>).
+Judith	8	9	2	Now when she heard the evil words of the people against the governor, that they fainted for lack of water (for Judith had heard 	n	<a href='JDT.xhtml#JT7_26'>ch. 7. 26</a>, <a href='JDT.xhtml#JT7_30'>30</a>, <a href='JDT.xhtml#JT7_31'>31</a>. <a href='JDT.xhtml#JT8_30'>ver. 30</a>.
+Judith	8	9	3	Now when she heard the evil words of the people against the governor, that they fainted for lack of water (for Judith had heard all the words that Ozias had spoken unto them, and 	n	<a href='JDT.xhtml#JT7_26'>ch. 7. 26</a>, <a href='JDT.xhtml#JT7_30'>30</a>, <a href='JDT.xhtml#JT7_31'>31</a>. <a href='JDT.xhtml#JT8_30'>ver. 30</a>.
+Judith	9	1	1	Then Judith 	a	See <a href='JDT.xhtml#JT4_11'>ch. 4. 11</a>.
+Judith	9	1	2	Then Judith fell upon her face, and 	a	See <a href='JDT.xhtml#JT4_11'>ch. 4. 11</a>.
+Judith	9	1	3	Then Judith fell upon her face, and put ashes upon her head, and uncovered 	b	See <a href='JDT.xhtml#JT8_5'>ch. 8. 5</a>.
+Judith	9	1	4	Then Judith fell upon her face, and put ashes upon her head, and uncovered the sackcloth wherewith she was clothed; and about 	c	<a href='EXO.xhtml#EX30_8'>Ex. 30. 8</a>.
+Judith	9	10	1		l	<a href='JDG.xhtml#JG4_21'>Judg. 4. 21</a>. &amp; <a href='JDG.xhtml#JG5_26'>5. 26</a>.
+Judith	9	10	2	Smite by the deceit of my lips the servant with the prince, and the prince with the servant: break down their 	m	<a href='JDT.xhtml#JT12_8'>ch. 12. 8</a> (Gk.).
+Judith	9	10	3	Smite by the deceit of my lips the servant with the prince, and the prince with the servant: break down their stateliness 	n	<a href='JDG.xhtml#JG4_9'>Judg. 4. 9</a>. <a href='JDT.xhtml#JT13_15'>ch. 13. 15</a>. &amp; <a href='JDT.xhtml#JT16_6'>16. 6</a>.
+Judith	9	11	1	For 	o	<a href='JDG.xhtml#JG7_2'>Judg. 7. 2</a>. <a href='2CH.xhtml#R214_11'>2 Chr. 14. 11</a>. &amp; <a href='2CH.xhtml#R216_8'>16. 8</a>. &amp; <a href='2CH.xhtml#R220_6'>20. 6</a>.
+Judith	9	11	2	For thy power standeth not in multitude, nor thy might in strong men: for thou art a God of the afflicted, a helper of the oppressed, an upholder of the weak, a protector of the forlorn, a 	p	<a href='ESG.xhtml#EG15_2'>Esther 15. 2</a>.
+Judith	9	11	3	For thy power standeth not in multitude, nor thy might in strong men: for thou art a God of the afflicted, a helper of the oppressed, an upholder of the weak, a protector of the forlorn, a saviour of 	q	<a href='ESG.xhtml#EG14_19'>Esther 14. 19</a>(Gk.).
+Judith	9	12	1	I pray thee, I pray thee, O God of my father, and God of the inheritance of Israel, 	r	So <a href='JDT.xhtml#JT13_18'>ch. 13. 18</a>.
+Judith	9	2	1	O Lord God of my father Simeon, 	d	<a href='GEN.xhtml#GN34_2'>Gen. 34. 2</a>, <a href='GEN.xhtml#GN34_25'>25</a>. But comp. <a href='GEN.xhtml#GN49_7'>Gen. 49. 7</a>.
+Judith	9	2	2	O Lord God of my father Simeon, to whom thou gavest a sword to take vengeance of the strangers, who loosened the girdle of a maid to defile her, and discovered the thigh to her shame, and polluted her virginity to her reproach; for thou saidst, 	e	<a href='GEN.xhtml#GN34_7'>Gen. 34. 7</a>.
+Judith	9	4	1	and 	f	<a href='GEN.xhtml#GN34_28'>Gen. 34. 28</a>, <a href='GEN.xhtml#GN34_29'>29</a>.
+Judith	9	4	2	and hast given their wives 	g	<a href='2ES.xhtml#E22_6'>2 Esdr. 2. 6</a>. So <a href='TOB.xhtml#TB3_4'>Tobit 3. 4</a>. <a href='JDT.xhtml#JT7_27'>ch. 7. 27</a>. See <a href='1ES.xhtml#E18_77'>1 Esdr. 8. 77</a>.
+Judith	9	4	3	and hast given their wives for a prey, and 	f	<a href='GEN.xhtml#GN34_28'>Gen. 34. 28</a>, <a href='GEN.xhtml#GN34_29'>29</a>.
+Judith	9	4	4	and hast given their wives for a prey, and their daughters to be captives, and all 	f	<a href='GEN.xhtml#GN34_28'>Gen. 34. 28</a>, <a href='GEN.xhtml#GN34_29'>29</a>.
+Judith	9	4	5	and hast given their wives for a prey, and their daughters to be captives, and all their spoils to be divided amongst thy dear children; which 	h	<a href='NUM.xhtml#NU25_11'>Num. 25. 11</a> [marg.].
+Judith	9	7	1	For behold, the Assyrians are multiplied in their power; they are exalted with horse and man; they glory in the strength of their footmen; 	i	So <a href='1SA.xhtml#S117_45'>1 Sam. 17. 45</a>, <a href='1SA.xhtml#S117_47'>47</a>.
+Judith	9	7	2	For behold, the Assyrians are multiplied in their power; they are exalted with horse and man; they glory in the strength of their footmen; they trust in shield, and spear, and bow, and sling; and know not that thou art 	j	<a href='JDT.xhtml#JT16_3'>ch. 16. 3</a>. So <a href='EXO.xhtml#EX15_3'>Ex. 15. 3</a>.
+Judith	9	7	3	For behold, the Assyrians are multiplied in their power; they are exalted with horse and man; they glory in the strength of their footmen; they trust in shield, and spear, and bow, and sling; and know not that thou art the Lord that breakest the battles: 	j	<a href='JDT.xhtml#JT16_3'>ch. 16. 3</a>. So <a href='EXO.xhtml#EX15_3'>Ex. 15. 3</a>.
+Judith	9	8	1		jj	<a href='JDT.xhtml#JT16_10'>ch. 16. 10</a> (Gk.)?
+Judith	9	8	2	Throw down their strength in thy power, and bring down their force in thy wrath: for they have purposed to defile thy sanctuary, and to pollute the tabernacle where thy glorious name resteth, and to cast down with sword 	k	<a href='EXO.xhtml#EX27_2'>Ex. 27. 2</a>.
