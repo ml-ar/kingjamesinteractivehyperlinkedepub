@@ -739,6 +739,194 @@ else if ($3 == "19")
 		}
 	}
 }
+
+/^Tobit/ {
+	if ($2 == "1")
+	{
+
+
+		if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "I Tobit have walked all the days of my life in the ways of truth and justice, and I did many almsdeeds to my brethren, and my nation, who came with me to Nineve, into the land of the Assyrians.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "And when I was in mine own country, in the land of Israel being but young, all the tribe of Nephthali my father fell from the house of Jerusalem, which was chosen out of all the tribes of Israel, that all the tribes should sacrifice there, where the temple of the habitation of the most High was consecrated and built for all ages.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5,"Then all my goods were forcibly taken away, neither was there any thing left me, beside my wife Anna and my son Tobias.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "2")
+	{
+
+
+		if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "And I knew not that there were sparrows in the wall, and mine eyes being open, the sparrows muted warm dung into mine eyes, and a whiteness came in mine eyes: and I went to the physicians, but they helped me not: moreover Achiacharus did nourish me, until I went into Elymais.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "And when it was in my house, and began to cry, I said unto her, From whence is this kid? is it not stolen? render it to the owners; for it is not lawful to eat any thing that is stolen.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+	}
+	else if ($2 == "3")
+	{
+
+
+		if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "And Raphael was sent to heal them both, that is, to scale away the whiteness of Tobit’s eyes, and to give Sara the daughter of Raguel for a wife to Tobias the son of Tobit; and to bind Asmodeus the evil spirit; because she belonged to Tobias by right of inheritance. The selfsame time came Tobit home, and entered into his house, and Sara the daughter of Raguel came down from her upper chamber.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "4")
+	{
+
+
+		if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "Let not the wages of any man, which hath wrought for thee, tarry with thee, but give him it out of hand: for if thou serve God, he will also repay thee: be circumspect my son, in all things thou doest, and be wise in all thy conversation.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "16")
+		{
+			$5 = correctAllVerses($5, "Give of thy bread to the hungry, and of thy garments to them that are naked; and according to thine abundance give alms: and let not thine eye be envious, when thou givest alms.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "And now I signify this to they that I committed ten talents to Gabael the son of Gabrias at Rages in Media.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "5")
+	{
+
+
+		if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "Then Tobit said, Thou art welcome, brother; be not now angry with me, because I have enquired to know thy tribe and thy family; for thou art my brother, of an honest and good stock: for I know Ananias and Jonathas, sons of that great Samaias, as we went together to Jerusalem to worship, and offered the firstborn, and the tenths of the fruits; and they were not seduced with the error of our brethren: my brother, thou art of a good stock.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "6")
+	{
+
+
+		if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "Then the young man answered the angel, I have heard, brother Azarias that this maid hath been given to seven men, who all died in the marriage chamber.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "And now I am the only son of my father, and I am afraid, lest if I go in unto her, I die, as the other before: for a wicked spirit loveth her, which hurteth no body, but those which come unto her; wherefore I also fear lest I die, and bring my father’s and my mother’s life because of me to the grave with sorrow: for they have no other son to bury them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "7")
+	{
+
+
+		if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "And Raguel asked them, From whence are ye, brethren? To whom they said, We are of the sons of Nephthalim, which are captives in Nineve.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "8")
+	{
+
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "Thou madest Adam, and gavest him Eve his wife for an helper and stay: of them came mankind: thou hast said, It is not good that man should be alone; let us make unto him an aid like unto himself.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "11")
+	{
+
+
+		if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "And took hold of his father: and he strake of the gall on his fathers’ eyes, saying, Be of good hope, my father.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "And he wept, and said, Blessed art thou, O God, and blessed is thy name for ever; and blessed are all thine holy angels: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "But Tobias gave thanks before them, because God had mercy on him. And when he came near to Sara his daughter in law, he blessed her, saying, Thou art welcome, daughter: God be blessed, which hath brought thee unto us, and blessed be thy father and thy mother. And there was joy among all his brethren which were at Nineve.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "13")
+	{
+
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and confess him with your whole mouth, and praise the Lord of might, and extol the everlasting King. In the land of my captivity do I praise him, and declare his might and majesty to a sinful nation. O ye sinners, turn and do justice before him: who can tell if he will accept you, and have mercy on you?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "16")
+		{
+			$5 = correctAllVerses($5, "For Jerusalem shall be built up with sapphires and emeralds, and precious stone: thy walls and towers and battlements with pure gold.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "14")
+	{
+
+
+		if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "Go into Media my son, for I surely believe those things which Jonas the prophet spake of Nineve, that it shall be overthrown; and that for a time peace shall rather be in Media; and that our brethren shall lie scattered in the earth from that good land: and Jerusalem shall be desolate, and the house of God in it shall be burned, and shall be desolate for a time; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+}
 {
 print toReturn;
 }

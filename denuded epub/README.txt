@@ -3,3 +3,5 @@ This folder is the innards of the original epub (sha256 hash: c46df1ac65a2716ef9
 Also modified SIRACH so that there's a period after the header of the first prologue (this aids in inserting footnotes)
 
 Also modified 1 Esdras 9:49, changing errant period to comma
+
+Tobit 3:10: When, not Whe 
