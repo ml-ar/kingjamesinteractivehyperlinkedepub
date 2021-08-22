@@ -928,6 +928,35 @@ else if ($3 == "19")
 	}
 }
 
+/^Wisdom/ {
+
+	if ($2 == "4")
+	{
+
+
+		if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "For though they flourish in branches for a time; yet standing not last, they shall be shaken with the wind, and through the force of winds they shall be rooted out.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "The imperfect branches shall be broken off, their fruit unprofitable, not ripe to eat, yea, meet for nothing.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "Yea speedily was he taken away, lest that wickedness should alter his understanding, or deceit beguile his soul.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+}
+
 /^Judith/ {
 if ($2 == "1")
 	{
