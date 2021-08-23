@@ -30,8 +30,8 @@ Wisdom of Solomon	1	8	1	Therefore he that speaketh unrighteous things cannot be 
 Wisdom of Solomon	1	9	1	For inquisition shall be made into the counsels of the ungodly: and the sound of his words shall come unto the Lord for the 	*	Or, <span class='add'>reproving</span>. <a href='WIS.xhtml#WS2_14'>ch. 2. 14</a>. So <a href='WIS.xhtml#WS1_3'>ver. 3</a>, <a href='WIS.xhtml#WS1_5'>5</a>, <a href='WIS.xhtml#WS1_8'>8</a>.
 Wisdom of Solomon	10	1	1	She preserved the 	a	So <a href='1TI.xhtml#T12_13'>1 Tim. 2. 13</a>.
 Wisdom of Solomon	10	10	1	When 	q	<a href='GEN.xhtml#GN28_5'>Gen. 28. 5</a>, <a href='GEN.xhtml#GN28_10'>10</a>.
-Wisdom of Solomon	10	10	2	When the righteous fled from his brother’s wrath, she guided him in right paths, 	r	<a href='GEN.xhtml#GN28_12'>Gen. 28. 12–22</a>.
-Wisdom of Solomon	10	10	3	When the righteous fled from his brother’s wrath, she guided him in right paths, shewed him the kingdom of God, and gave him knowledge of holy things, 	s	<a href='GEN.xhtml#GN30_43'>Gen. 30. 43</a>.
+Wisdom of Solomon	10	10	2	When the righteous fled from his brother’s wrath she guided him in right paths, 	r	<a href='GEN.xhtml#GN28_12'>Gen. 28. 12–22</a>.
+Wisdom of Solomon	10	10	3	When the righteous fled from his brother’s wrath she guided him in right paths, shewed him the kingdom of God, and gave him knowledge of holy things, 	s	<a href='GEN.xhtml#GN30_43'>Gen. 30. 43</a>.
 Wisdom of Solomon	10	11	1		t	<a href='GEN.xhtml#GN31_1'>Gen. 31. 1–16</a>.
 Wisdom of Solomon	10	12	1		u	<a href='GEN.xhtml#GN32_6'>Gen. 32. 6</a>, <a href='GEN.xhtml#GN32_7'>7</a>. &amp; <a href='GEN.xhtml#GN33_4'>33. 4</a>.
 Wisdom of Solomon	10	12	2	She defended him from his enemies, and kept him safe from those that lay in wait, and 	x	<a href='GEN.xhtml#GN32_24'>Gen. 32. 24–30</a>.
@@ -81,8 +81,8 @@ Wisdom of Solomon	11	1	1	She prospered their works in the hand of the holy 	a	Se
 Wisdom of Solomon	11	10	1	For these thou didst admonish and try, 	j	So <a href='HEB.xhtml#HB12_7'>Heb. 12. 7</a>. See <a href='DEU.xhtml#DT8_5'>Deut. 8. 5</a>.
 Wisdom of Solomon	11	13	1	For when they heard by their own punishments the other to be benefited, 	k	See <a href='EXO.xhtml#EX8_8'>Ex. 8. 8</a>.
 Wisdom of Solomon	11	13	2	For when they heard by their own punishments the other to be benefited, they 	*	Or, <span class='add'>perceived</span>.
-Wisdom of Solomon	11	14	1	For whom they rejected with scorn, 	l	<a href='EXO.xhtml#EX2_3'>Ex. 2. 3</a>.
-Wisdom of Solomon	11	14	2	For whom they rejected with scorn, when he was long before thrown out at the casting forth of the infants, him in the end, 	m	See <a href='WIS.xhtml#WS2_17'>ch. 2. 17</a>.
+Wisdom of Solomon	11	14	1	For whom they respected with scorn, 	l	<a href='EXO.xhtml#EX2_3'>Ex. 2. 3</a>.
+Wisdom of Solomon	11	14	2	For whom they respected with scorn, when he was long before thrown out at the casting forth of the infants, him in the end, 	m	See <a href='WIS.xhtml#WS2_17'>ch. 2. 17</a>.
 Wisdom of Solomon	11	15	1	But for the foolish devices of their wickedness, wherewith being deceived they worshipped 	n	<a href='WIS.xhtml#WS17_9'>ch. 17. 9</a>. Gk. as <a href='ROM.xhtml#RM1_23'>Rom. 1. 23</a>.
 Wisdom of Solomon	11	15	2	But for the foolish devices of their wickedness, wherewith being deceived they worshipped serpents void of reason, and 	o	<a href='WIS.xhtml#WS13_14'>ch. 13. 14</a>. Comp. <a href='WIS.xhtml#WS15_18'>ch. 15. 18</a>.
 Wisdom of Solomon	11	15	3	But for the foolish devices of their wickedness, wherewith being deceived they worshipped serpents void of reason, and vile beasts, 	p	<a href='EXO.xhtml#EX8_2'>Ex. 8. 2</a>, <a href='EXO.xhtml#EX8_17'>17</a>, <a href='EXO.xhtml#EX8_24'>24</a>.
@@ -103,18 +103,18 @@ Wisdom of Solomon	11	25	1	And how could any thing have endured, if it had not be
 Wisdom of Solomon	11	26	1	But 	b	<a href='WIS.xhtml#WS12_8'>ch. 12. 8</a>, <a href='WIS.xhtml#WS12_16'>16</a> (Gk.). So <a href='WIS.xhtml#WS12_18'>ch. 12. 18</a> (Gk.).
 Wisdom of Solomon	11	3	1		c	<a href='EXO.xhtml#EX17_10'>Ex. 17. 10</a>, <a href='EXO.xhtml#EX17_11'>11</a>, <a href='EXO.xhtml#EX17_13'>13</a>. <a href='2ES.xhtml#E21_10'>2 Esdr. 1. 10</a>.
 Wisdom of Solomon	11	4	1	When they were thirsty, they called upon thee, and 	d	<a href='EXO.xhtml#EX17_6'>Ex. 17. 6</a>. <a href='NUM.xhtml#NU20_11'>Numb. 20. 11</a>.
-Wisdom of Solomon	11	6	1	For instead of a fountain of a perpetual running river 	e	<a href='EXO.xhtml#EX7_17'>Ex. 7. 17</a>.
+Wisdom of Solomon	11	6	1	For instead of a perpetual running river troubled with foul 	e	<a href='EXO.xhtml#EX7_17'>Ex. 7. 17</a>.
 Wisdom of Solomon	11	7	1	for a manifest reproof of 	f	<a href='EXO.xhtml#EX1_16'>Ex. 1. 16</a>, <a href='EXO.xhtml#EX1_22'>22</a>. <a href='WIS.xhtml#WS18_5'>ch. 18. 5</a>.
 Wisdom of Solomon	11	7	2	for a manifest reproof of that commandment, whereby the infants were slain, thou gavest unto them abundance of water 	g	<a href='PSA.xhtml#PS78_16'>Ps. 78. 16</a>.
 Wisdom of Solomon	11	8	1	declaring by that thirst then 	h	<a href='EXO.xhtml#EX7_20'>Ex. 7. 20</a>.
-Wisdom of Solomon	11	9	1	For when they were tried, albeit but in mercy chastised, they knew how the ungodly were judged in wrath and tormented, 	i	<a href='WIS.xhtml#WS11_6'>ver. 6</a>.
+Wisdom of Solomon	11	9	1	For when they were tried albeit but in mercy chastised, they knew how the ungodly were judged in wrath and tormented, 	i	<a href='WIS.xhtml#WS11_6'>ver. 6</a>.
 Wisdom of Solomon	12	10	1	but executing thy judgments upon them 	g	<a href='EXO.xhtml#EX23_30'>Ex. 23. 30</a>. <a href='DEU.xhtml#DT7_22'>Deut. 7. 22</a>.
 Wisdom of Solomon	12	11	1	For it was 	h	<a href='GEN.xhtml#GN9_25'>Gen. 9. 25</a>.
 Wisdom of Solomon	12	12	1		i	See <a href='ROM.xhtml#RM9_20'>Rom. 9. 20</a>. Comp. <a href='JOB.xhtml#JB36_23'>Job 36. 23</a>.
 Wisdom of Solomon	12	12	2	For who shall say, 	j	So <a href='HEB.xhtml#HB12_7'>Heb. 12. 7</a>. See <a href='DEU.xhtml#DT8_5'>Deut. 8. 5</a>.
 Wisdom of Solomon	12	12	3	For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall 	k	<a href='ROM.xhtml#RM8_33'>Rom. 8. 33</a>.
-Wisdom of Solomon	12	12	4	For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall accuse thee for the nations that perish, whom thou hast made? or who shall come 	*	Or, <span class='add'>in thy presence</span>.
-Wisdom of Solomon	12	12	5	For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall accuse thee for the nations that perish, whom thou hast made? or who shall come to stand against thee, 	*	Or, <span class='add'>a revenger</span>. <a href='ROM.xhtml#RM13_4'>Rom. 13. 4</a>.
+Wisdom of Solomon	12	12	4	For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall accuse thee for the nations that perish, whom thou made? or who shall come to 	*	Or, <span class='add'>in thy presence</span>.
+Wisdom of Solomon	12	12	5	For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall accuse thee for the nations that perish, whom thou made? or who shall come to stand against thee, to 	*	Or, <span class='add'>a revenger</span>. <a href='ROM.xhtml#RM13_4'>Rom. 13. 4</a>.
 Wisdom of Solomon	12	13	1	For neither is there any God but thou that 	l	<a href='1PE.xhtml#P15_7'>1 Pet. 5. 7</a>. So <a href='WIS.xhtml#WS6_7'>ch. 6. 7</a>.
 Wisdom of Solomon	12	14	1	Neither shall king or tyrant be able 	m	<a href='SIR.xhtml#SR19_5'>Ecclus. 19. 5</a>. <a href='ACT.xhtml#AC27_15'>Acts 27. 15</a> in the Gk.
 Wisdom of Solomon	12	15	1	Forsomuch then as thou art righteous thyself, thou orderest all things righteously: 	n	Comp. <a href='JOB.xhtml#JB10_2'>Job 10. 2</a>, <a href='JOB.xhtml#JB10_3'>3</a>.
@@ -136,7 +136,7 @@ Wisdom of Solomon	12	24	1	For 	v	<a href='WIS.xhtml#WS11_15'>ch. 11. 15</a>, <a 
 Wisdom of Solomon	12	24	2	For they went astray very far in the ways of error, and 	x	<a href='WIS.xhtml#WS13_3'>ch. 13. 3</a> (Gk.). See <a href='ROM.xhtml#RM1_23'>Rom. 1. 23</a>.
 Wisdom of Solomon	12	26	1	But they that would not be reformed by that correction, 	y	Gk. as <a href='WIS.xhtml#WS15_12'>ch. 15. 12</a>.
 Wisdom of Solomon	12	27	1	For, look, for what things they grudged, when they were punished, that is, for them whom they thought to be gods; now 	z	<a href='WIS.xhtml#WS12_23'>ver. 23</a>.
-Wisdom of Solomon	12	27	2	For, look, for what things they grudged, when they were punished, that is, for them whom they thought to be gods; now being punished in them, when they saw it, they acknowledged him to be the true God, whom before they denied to know; and 	a	Comp. <a href='1TH.xhtml#H12_16'>1 Thess. 2. 16</a>.
+Wisdom of Solomon	12	27	2	For, look, for what things they grudged, when they were punished, that is, for them whom they thought to be gods; now being punished in them, when they saw it, they acknowledged him to be the true God, whom before they denied to know: and 	a	Comp. <a href='1TH.xhtml#H12_16'>1 Thess. 2. 16</a>.
 Wisdom of Solomon	12	3	1	For it was thy will to destroy by the hands of our fathers both those 	*	Or, <span class='add'>ancient</span>.
 Wisdom of Solomon	12	4	1	whom 	b	See <a href='DEU.xhtml#DT18_12'>Deut. 18. 12</a>.
 Wisdom of Solomon	12	4	2	whom thou hatedst for doing most odious works of 	*	Or, <span class='add'>sorceries</span>. <a href='REV.xhtml#RV9_21'>Rev. 9. 21</a>. &amp; <a href='REV.xhtml#RV18_23'>18. 23</a>.
@@ -149,8 +149,8 @@ Wisdom of Solomon	12	8	2	Nevertheless even those thou sparedst as men, and didst
 Wisdom of Solomon	13	1	1		a	To end <a href='WIS.xhtml#WS15_0'>ch. 15</a>, <a href='ROM.xhtml#RM1_19'>Rom. 1. 19–32</a>.
 Wisdom of Solomon	13	1	2	Surely vain are all men by nature, who are ignorant of God, and could not out of the good things that are seen know him that is: neither by considering the works did they acknowledge the 	b	<a href='SIR.xhtml#SR38_27'>Ecclus. 38. 27</a> (Engl.).
 Wisdom of Solomon	13	10	1	But miserable are they, and in 	g	<a href='WIS.xhtml#WS13_18'>ver. 18</a>. <a href='WIS.xhtml#WS15_17'>ch. 15. 17</a>.
-Wisdom of Solomon	13	10	2	But miserable are they, and in dead things is their hope, who called them gods, which are 	h	See <a href='BAR.xhtml#BR6_4'>Baruch 6. 4</a>.
-Wisdom of Solomon	13	10	3	But miserable are they, and in dead things is their hope, who called them gods, which are the works of men’s hands, gold and silver, 	i	Comp <a href='ACT.xhtml#AC17_29'>Acts. 17. 29</a>.
+Wisdom of Solomon	13	10	2	But miserable are they, and in dead things is their hope, who call them gods, which are 	h	See <a href='BAR.xhtml#BR6_4'>Baruch 6. 4</a>.
+Wisdom of Solomon	13	10	3	But miserable are they, and in dead things is their hope, who call them gods, which are the works of men’s hands, gold and silver, 	i	Comp <a href='ACT.xhtml#AC17_29'>Acts. 17. 29</a>.
 Wisdom of Solomon	13	11	1		j	See <a href='ISA.xhtml#IS40_19'>Isai. 40. 19</a>.
 Wisdom of Solomon	13	11	2	Now a 	*	Or, <span class='add'>timber-wright</span>.
 Wisdom of Solomon	13	11	3	Now a carpenter that felleth timber, after he hath sawn down a tree meet for the purpose, and taken off all the bark skilfully round about, and hath wrought it handsomely, and made 	k	So <a href='BAR.xhtml#BR6_59'>Baruch 6. 59</a>. <a href='2TI.xhtml#T22_21'>2 Tim. 2. 21</a>.
@@ -162,9 +162,9 @@ Wisdom of Solomon	13	14	1	or made it like some 	n	<a href='WIS.xhtml#WS11_15'>ch
 Wisdom of Solomon	13	15	1	and 	o	<a href='ISA.xhtml#IS46_7'>Isai. 46. 7</a>. Comp. <a href='BAR.xhtml#BR6_26'>Baruch 6. 26</a>, <a href='BAR.xhtml#BR6_27'>27</a>.
 Wisdom of Solomon	13	17	1		p	<a href='ISA.xhtml#IS44_17'>Isai. 44. 17</a>, <a href='ISA.xhtml#IS44_19'>19</a>.
 Wisdom of Solomon	13	18	1	For health he calleth upon that which is weak: for life prayeth to that which is 	g	<a href='WIS.xhtml#WS13_18'>ver. 18</a>. <a href='WIS.xhtml#WS15_17'>ch. 15. 17</a>.
-Wisdom of Solomon	13	18	2	For health he calleth upon that which is weak: for life prayeth to that which is dead: for 	q	<a href='ACT.xhtml#AC26_22'>Acts 26. 22</a> (Gk.). Comp. <a href='BAR.xhtml#BR6_4'>Baruch 6. 4</a>.
-Wisdom of Solomon	13	18	3	For health he calleth upon that which is weak: for life prayeth to that which is dead: for aid humbly beseecheth 	*	Gr. <span class='add'>that hath no experience at all</span>.
-Wisdom of Solomon	13	18	4	For health he calleth upon that which is weak: for life prayeth to that which is dead: for aid humbly beseecheth that which hath least means to help: and for a good journey he asketh of 	r	<a href='JER.xhtml#JR10_5'>Jer. 10. 5</a>.
+Wisdom of Solomon	13	18	2	For health he calleth upon that which is weak: for life prayeth to that which is dead; for 	q	<a href='ACT.xhtml#AC26_22'>Acts 26. 22</a> (Gk.). Comp. <a href='BAR.xhtml#BR6_4'>Baruch 6. 4</a>.
+Wisdom of Solomon	13	18	3	For health he calleth upon that which is weak: for life prayeth to that which is dead; for aid humbly beseecheth 	*	Gr. <span class='add'>that hath no experience at all</span>.
+Wisdom of Solomon	13	18	4	For health he calleth upon that which is weak: for life prayeth to that which is dead; for aid humbly beseecheth that which hath least means to help: and for a good journey he asketh of 	r	<a href='JER.xhtml#JR10_5'>Jer. 10. 5</a>.
 Wisdom of Solomon	13	2	1	but deemed either fire, or wind, or the swift air, or 	c	<a href='DEU.xhtml#DT4_19'>Deut. 4. 19</a>. &amp; <a href='DEU.xhtml#DT4_19'>17. 3</a>.
 Wisdom of Solomon	13	2	2	but deemed either fire, or wind, or the swift air, or the circle of the stars, or the violent water, or 	c	<a href='DEU.xhtml#DT4_19'>Deut. 4. 19</a>. &amp; <a href='DEU.xhtml#DT4_19'>17. 3</a>.
 Wisdom of Solomon	13	3	1	With whose beauty if they being delighted 	d	<a href='WIS.xhtml#WS12_24'>ch. 12. 24</a> (Gk.).
@@ -236,7 +236,7 @@ Wisdom of Solomon	15	5	1	the sight whereof 	*	Or, <span class='add'>turneth a re
 Wisdom of Solomon	15	7	1	For 	c	See <a href='ROM.xhtml#RM9_21'>Rom. 9. 21</a>.
 Wisdom of Solomon	15	7	2	For the potter, tempering soft earth, fashioneth every vessel with much labour for our service: yea, 	c	See <a href='ROM.xhtml#RM9_21'>Rom. 9. 21</a>.
 Wisdom of Solomon	15	8	1	And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, 	d	<a href='GEN.xhtml#GN3_19'>Gen. 3. 19</a>.
-Wisdom of Solomon	15	8	2	And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out of the which he was taken, 	e	<a href='LUK.xhtml#LK12_20'>Luke 12. 20</a>. Comp. <a href='WIS.xhtml#WS15_16'>ver. 16</a>.
+Wisdom of Solomon	15	8	2	And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out when his life which was lent 	e	<a href='LUK.xhtml#LK12_20'>Luke 12. 20</a>. Comp. <a href='WIS.xhtml#WS15_16'>ver. 16</a>.
 Wisdom of Solomon	15	9	1	Notwithstanding his care is, not that he shall 	*	Or, <span class='add'>be sick</span>, or, <span class='add'>die</span>. <a href='WIS.xhtml#WS4_16'>ch. 4. 16</a>.
 Wisdom of Solomon	16	1	1	Therefore 	a	<a href='WIS.xhtml#WS11_15'>ch. 11. 15</a>, <a href='WIS.xhtml#WS11_16'>16</a>. &amp; <a href='WIS.xhtml#WS12_23'>12. 23</a>.
 Wisdom of Solomon	16	11	1	For they were 	*	Gr. <span class='add'>stung</span>.
@@ -257,7 +257,7 @@ Wisdom of Solomon	16	16	4	For the ungodly, that denied to know thee, were scourg
 Wisdom of Solomon	16	16	5	For the ungodly, that denied to know thee, were scourged by the strength of thine arm: with strange rains, hails, and showers, were they persecuted, that they could not avoid, and 	w	<a href='EXO.xhtml#EX9_23'>Ex. 9. 23</a>, <a href='EXO.xhtml#EX9_24'>24</a>.
 Wisdom of Solomon	16	17	1	For, which is most to be wondered at, 	x	<a href='WIS.xhtml#WS19_20'>ch. 19. 20</a>. So <a href='WIS.xhtml#WS16_22'>ver. 22</a>.
 Wisdom of Solomon	16	17	2	For, which is most to be wondered at, the fire had more force in the water, that quencheth all things: for 	y	Comp. <a href='JDG.xhtml#JG5_20'>Judg. 5. 20</a>. <a href='WIS.xhtml#WS16_24'>ver. 24</a>.
-Wisdom of Solomon	16	18	1	For sometimes the flame was mitigated, that it might not burn up 	z	<a href='WIS.xhtml#WS19_21'>ch. 19. 21</a>. Comp. <a href='WIS.xhtml#WS16_3'>ver. 3</a>.
+Wisdom of Solomon	16	18	1	For sometime the flame was mitigated, that it might not burn up 	z	<a href='WIS.xhtml#WS19_21'>ch. 19. 21</a>. Comp. <a href='WIS.xhtml#WS16_3'>ver. 3</a>.
 Wisdom of Solomon	16	2	1	Instead of which punishment, 	aa	See <a href='WIS.xhtml#WS3_5'>ch. 3. 5</a>.
 Wisdom of Solomon	16	2	2	Instead of which punishment, dealing graciously with thine own people, thou preparedst for them meat of a strange taste, even 	b	<a href='EXO.xhtml#EX16_13'>Ex. 16. 13</a>. <a href='NUM.xhtml#NU11_31'>Num. 11. 31</a>. So <a href='WIS.xhtml#WS19_11'>ch. 19. 11</a>.
 Wisdom of Solomon	16	20	1	Instead whereof 	a	<a href='EXO.xhtml#EX16_14'>Ex. 16. 14</a>. <a href='NUM.xhtml#NU11_7'>Numb. 11. 7</a>.
@@ -293,8 +293,8 @@ Wisdom of Solomon	16	5	3	For when the horrible fierceness of beasts came upon th
 Wisdom of Solomon	16	6	1	but they were troubled 	n	<a href='WIS.xhtml#WS14_20'>ch. 14. 20</a> (Gk.). See <a href='2TH.xhtml#H22_4'>2 Thess. 2. 4</a>.
 Wisdom of Solomon	16	6	2	but they were troubled for a small season, that they might be admonished, 	g	<a href='NUM.xhtml#NU21_9'>Numb. 21. 9</a>.
 Wisdom of Solomon	16	6	3	but they were troubled for a small season, that they might be admonished, having a sign of salvation, 	m	<a href='WIS.xhtml#WS13_10'>ch. 13. 10</a>, <a href='WIS.xhtml#WS13_18'>18</a>.
-Wisdom of Solomon	16	7	1	For he that turned himself towards it was not saved by the thing that he saw, 	h	<a href='JHN.xhtml#JN3_14'>John 3. 14</a>.
-Wisdom of Solomon	16	7	2	For he that turned himself towards it was not saved by the thing that he saw, but by thee, that art 	i	See <a href='1TI.xhtml#T14_10'>1 Tim. 4. 10</a>.
+Wisdom of Solomon	16	7	1	For he that turned himself toward it was not saved by the thing that he saw, 	h	<a href='JHN.xhtml#JN3_14'>John 3. 14</a>.
+Wisdom of Solomon	16	7	2	For he that turned himself toward it was not saved by the thing that he saw, but by thee, that art 	i	See <a href='1TI.xhtml#T14_10'>1 Tim. 4. 10</a>.
 Wisdom of Solomon	16	9	1	for them the bitings of 	j	<a href='EXO.xhtml#EX10_4'>Exod. 10. 4</a> (Gk.). <a href='REV.xhtml#RV9_3'>Rev. 9. 3</a>, <a href='REV.xhtml#RV9_7'>7</a> (Gk.). Comp. <a href='EXO.xhtml#EX10_17'>Ex. 10. 17</a>.
 Wisdom of Solomon	16	9	2	for them the bitings of grasshoppers and 	k	So <a href='EXO.xhtml#EX8_24'>Ex. 8. 24</a>. <a href='PSA.xhtml#PS78_45'>Ps. 78. 45</a>.
 Wisdom of Solomon	16	9	3	for them the bitings of grasshoppers and flies killed, neither was there found any remedy for their life: 	l	<a href='REV.xhtml#RV16_6'>Rev. 16. 6</a>. Comp. <a href='WIS.xhtml#WS18_4'>ch. 18. 4</a>.
@@ -302,7 +302,7 @@ Wisdom of Solomon	17	1	1	For 	a	<a href='EXO.xhtml#EX6_6'>Ex. 6. 6</a>. &amp; <a
 Wisdom of Solomon	17	1	2	For great are thy judgments, and cannot be expressed: therefore 	*	Or, <span class='add'>souls that will not be reformed</span>.
 Wisdom of Solomon	17	10	1	they died for fear, 	*	Or, <span class='add'>refusing to look upon</span>.
 Wisdom of Solomon	17	10	2	they died for fear, denying that they saw the air, 	g	Comp. <a href='EXO.xhtml#EX10_21'>Ex. 10. 21</a>.
-Wisdom of Solomon	17	11	1	(For wickedness, condemned by her own witness, is very timorous, and being pressed with conscience, 	h	So <a href='JOB.xhtml#JB15_22'>Job 15. 22</a>.
+Wisdom of Solomon	17	11	1	For wickedness, condemned by her own witness, is very timorous, and being pressed with conscience, 	h	So <a href='JOB.xhtml#JB15_22'>Job 15. 22</a>.
 Wisdom of Solomon	17	13	1	And the expectation from within, being less, 	i	Comp. <a href='WIS.xhtml#WS17_6'>ver. 6</a>.
 Wisdom of Solomon	17	14	1	But they sleeping the same sleep that night, 	*	Or, <span class="notemark">k</span><span class='add'>wherein</span> they <span class='add'>could do nothing</span>.
 Wisdom of Solomon	17	14	2	But they sleeping the same sleep that night, which was indeed intolerable, and which came upon them out of the bottoms of 	k	Gk. as marg. Comp. <a href='ECC.xhtml#EC9_10'>Eccles. 9. 10</a>.
@@ -320,13 +320,13 @@ Wisdom of Solomon	17	2	1	For when unrighteous men thought to oppress the holy na
 Wisdom of Solomon	17	2	2	For when unrighteous men thought to oppress the holy nation; they being shut up 	*	Or, <span class='add'>under</span> their <span class='add'>roofs</span>.
 Wisdom of Solomon	17	2	3	For when unrighteous men thought to oppress the holy nation; they being shut up in their houses, the prisoners of darkness, and fettered with the bonds of a long night, lay there 	*	Or, <span class='add'>fugitives</span>. <a href='WIS.xhtml#WS19_3'>ch. 19. 3</a>.
 Wisdom of Solomon	17	20	1		o	So <a href='WIS.xhtml#WS19_17'>ch. 19. 17</a>.
-Wisdom of Solomon	17	21	1	over them only was spread a heavy night, an image of that 	r	<a href='2PE.xhtml#P22_17'>2 Pet. 2. 17</a>. <a href='JUD.xhtml#JD1_13'>Jude 13</a>. See <a href='MAT.xhtml#MT8_12'>Matt. 8. 12</a>.
+Wisdom of Solomon	17	21	1	Over them only was spread an heavy night, an image of that 	r	<a href='2PE.xhtml#P22_17'>2 Pet. 2. 17</a>. <a href='JUD.xhtml#JD1_13'>Jude 13</a>. See <a href='MAT.xhtml#MT8_12'>Matt. 8. 12</a>.
 Wisdom of Solomon	17	3	1	For while they supposed to lie hid in their secret sins, they were scattered 	*	Or, in.
 Wisdom of Solomon	17	3	2	For while they supposed to lie hid in their secret sins, they were scattered under a dark veil of forgetfulness, being horribly astonished, and troubled with strange 	*	Or, <span class='add'>sights</span>.
 Wisdom of Solomon	17	6	1	Only there appeared unto them a fire kindled of itself, very dreadful: for being much terrified, 	i	<a href='WIS.xhtml#WS19_6'>ch. 19. 6</a>.
 Wisdom of Solomon	17	7	1	As for 	c	<a href='EXO.xhtml#EX7_11'>Ex. 7. 11</a>, <a href='EXO.xhtml#EX7_12'>12</a>. &amp; <a href='EXO.xhtml#EX8_7'>8. 7</a>, <a href='EXO.xhtml#EX8_19'>19</a>. &amp; <a href='EXO.xhtml#EX9_11'>9. 11</a>. So <a href='WIS.xhtml#WS18_13'>ch. 18. 13</a>.
 Wisdom of Solomon	17	7	2	As for the illusions of art magick, they were put down, and 	d	So <a href='2TI.xhtml#T23_8'>2 Tim. 3. 8</a>, <a href='2TI.xhtml#T23_9'>9</a>.
-Wisdom of Solomon	17	8	1	For they that promised to drive away terrors and troubles from a sick soul, were sick themselves of 	e	<a href='HEB.xhtml#HB5_7'>Heb. 5. 7</a> (text).
+Wisdom of Solomon	17	8	1	For they, that promised to drive away terrors and troubles from a sick soul, were sick themselves of 	e	<a href='HEB.xhtml#HB5_7'>Heb. 5. 7</a> (text).
 Wisdom of Solomon	17	9	1	For though no terrible thing did fear them; yet being scared with beasts that passed by, and hissing of 	f	<a href='WIS.xhtml#WS11_15'>ch. 11. 15</a>.
 Wisdom of Solomon	18	1	1		a	<a href='EXO.xhtml#EX10_23'>Ex. 10. 23</a>.
 Wisdom of Solomon	18	1	2	Nevertheless thy 	h	So <a href='JOB.xhtml#JB15_22'>Job 15. 22</a>.
@@ -338,8 +338,8 @@ Wisdom of Solomon	18	13	1	For whereas they would not believe any thing 	w	So <a 
 Wisdom of Solomon	18	13	2	For whereas they would not believe any thing by reason of the enchantments; upon the destruction of the firstborn, 	x	<a href='EXO.xhtml#EX12_33'>Ex. 12. 33</a>.
 Wisdom of Solomon	18	14	1	For while all things were in quiet silence, and 	k	<a href='EXO.xhtml#EX12_29'>Ex. 12. 29</a>. So <a href='WIS.xhtml#WS18_14'>ver. 14</a>, <a href='WIS.xhtml#WS18_15'>15</a>.
 Wisdom of Solomon	18	15	1		k	<a href='EXO.xhtml#EX12_29'>Ex. 12. 29</a>. So <a href='WIS.xhtml#WS18_14'>ver. 14</a>, <a href='WIS.xhtml#WS18_15'>15</a>.
-Wisdom of Solomon	18	15	2	thine Almighty word leapt down from heaven 	y	See <a href='WIS.xhtml#WS9_4'>ch. 9. 4</a>.
-Wisdom of Solomon	18	15	3	thine Almighty word leapt down from heaven out of thy royal throne, as 	z	<a href='EXO.xhtml#EX15_3'>Ex. 15. 3</a>.
+Wisdom of Solomon	18	15	2	Thine Almighty word leaped down from heaven 	y	See <a href='WIS.xhtml#WS9_4'>ch. 9. 4</a>.
+Wisdom of Solomon	18	15	3	Thine Almighty word leaped down from heaven out of thy royal throne, as 	z	<a href='EXO.xhtml#EX15_3'>Ex. 15. 3</a>.
 Wisdom of Solomon	18	16	1	and brought thine 	a	<a href='WIS.xhtml#WS5_18'>ch. 5. 18</a> (Gk.).
 Wisdom of Solomon	18	16	2	and brought thine unfeigned commandment as 	b	Comp. <a href='REV.xhtml#RV1_16'>Rev. 1. 16</a>.
 Wisdom of Solomon	18	16	3	and brought thine unfeigned commandment as a sharp sword, and standing up filled all things with death; and 	c	<a href='1CH.xhtml#R121_16'>1 Chr. 21. 16</a>.
@@ -354,7 +354,7 @@ Wisdom of Solomon	18	21	1	For then 	g	See <a href='WIS.xhtml#WS10_5'>ch. 10. 5</
 Wisdom of Solomon	18	21	2	For then the blameless man made haste, and stood forth to defend them; and bringing 	i	Gk. as <a href='WIS.xhtml#WS18_21'>ver. 21</a>.
 Wisdom of Solomon	18	21	3	For then the blameless man made haste, and stood forth to defend them; and bringing the shield of his proper ministry, even prayer, and 	h	<a href='NUM.xhtml#NU16_46'>Num. 16. 46</a>, <a href='NUM.xhtml#NU16_47'>47</a>.
 Wisdom of Solomon	18	22	1	So he overcame the destroyer, not with strength of body, nor force of 	i	Gk. as <a href='WIS.xhtml#WS18_21'>ver. 21</a>.
-Wisdom of Solomon	18	22	2	So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued he him that punished, 	k	Comp. <a href='EXO.xhtml#EX32_13'>Ex. 32. 13</a>. <a href='SIR.xhtml#SR36_8'>Ecclus. 36. 8</a>.
+Wisdom of Solomon	18	22	2	So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued him that punished, alleging 	k	Comp. <a href='EXO.xhtml#EX32_13'>Ex. 32. 13</a>. <a href='SIR.xhtml#SR36_8'>Ecclus. 36. 8</a>.
 Wisdom of Solomon	18	23	1	For when the dead were now fallen down by heaps one upon another, 	l	<a href='NUM.xhtml#NU16_48'>Num. 16. 48</a>.
 Wisdom of Solomon	18	23	2	For when the dead were now fallen down by heaps one upon another, standing between, he stayed the wrath, and 	*	Or, <span class='add'>cut off</span>.
 Wisdom of Solomon	18	24	1	For 	m	<a href='EXO.xhtml#EX28_2'>Ex. 28. 2</a>, <a href='EXO.xhtml#EX28_6'>6</a>. &amp; <a href='EXO.xhtml#EX31_10'>31. 10</a>. So <a href='SIR.xhtml#SR45_10'>Ecclus. 45. 10</a>. &amp; <a href='SIR.xhtml#SR50_11'>50. 11</a>.
@@ -363,9 +363,9 @@ Wisdom of Solomon	18	24	3	For in the long garment was the whole world, and in th
 Wisdom of Solomon	18	25	1	Unto these 	p	<a href='HEB.xhtml#HB11_28'>Heb. 11. 28</a>. So <a href='PSA.xhtml#PS78_49'>Ps. 78. 49</a>. See <a href='TOB.xhtml#TB3_8'>Tobit 3. 8</a>.
 Wisdom of Solomon	18	25	2	Unto these the destroyer gave place, and was afraid of them: for it was enough that they only 	q	<a href='WIS.xhtml#WS18_20'>ver. 20</a> (Gk.).
 Wisdom of Solomon	18	3	1	Instead whereof 	d	See <a href='EXO.xhtml#EX13_21'>Ex. 13. 21</a>.
-Wisdom of Solomon	18	3	2	Instead whereof thou gavest them a burning pillar of fire, both to be a guide of the unknown journey, and a 	e	Comp. <a href='PSA.xhtml#PS121_6'>PS. 121. 6</a>.
+Wisdom of Solomon	18	3	2	Instead whereof thou gavest them a burning pillar of fire, both to be a guide of the unknown journey, and an 	e	Comp. <a href='PSA.xhtml#PS121_6'>PS. 121. 6</a>.
 Wisdom of Solomon	18	4	1		f	Comp. <a href='WIS.xhtml#WS16_10'>ch. 16. 10</a>.
-Wisdom of Solomon	18	4	2	For they were worthy to be deprived of light, and imprisoned in darkness, who had kept thy sons shut up, by whom the 	*	Or, <span class='add'>incorruptible</span>. <a href='WIS.xhtml#WS12_1'>ch. 12. 1</a>.
+Wisdom of Solomon	18	4	2	For they were worthy to be deprived of light and imprisoned in darkness, who had kept thy sons shut up, by whom the 	*	Or, <span class='add'>incorruptible</span>. <a href='WIS.xhtml#WS12_1'>ch. 12. 1</a>.
 Wisdom of Solomon	18	5	1	And 	g	See <a href='WIS.xhtml#WS11_7'>ch. 11. 7</a>.
 Wisdom of Solomon	18	5	2	And when they had determined to slay the babes of 	h	<a href='WIS.xhtml#WS18_1'>ver. 1</a>, <a href='WIS.xhtml#WS18_9'>9</a> (Gk.). See <a href='PSA.xhtml#PS50_5'>Ps. 50. 5</a> (Gk. &amp; Engl.).
 Wisdom of Solomon	18	5	3	And when they had determined to slay the babes of the saints, 	i	<a href='EXO.xhtml#EX2_3'>Ex. 2. 3</a>, <a href='EXO.xhtml#EX2_5'>5</a>.
@@ -389,7 +389,7 @@ Wisdom of Solomon	19	13	1	And punishments came upon the sinners not without form
 Wisdom of Solomon	19	13	2	And punishments came upon the sinners not without former signs 	r	Comp. <a href='PSA.xhtml#PS77_17'>Ps. 77. 17</a>, <a href='PSA.xhtml#PS77_18'>18</a>, rather than <a href='WIS.xhtml#WS16_16'>ch. 16. 16</a>, <a href='WIS.xhtml#WS16_22'>22</a>.
 Wisdom of Solomon	19	13	3	And punishments came upon the sinners not without former signs by the force of thunders: for they suffered justly according to their own wickedness, 	s	<a href='EXO.xhtml#EX1_11'>Ex. 1. 11</a>. &amp; <a href='EXO.xhtml#EX5_6'>5. 6–9</a>.
 Wisdom of Solomon	19	14	1	For 	t	<a href='GEN.xhtml#GN19_4'>Gen. 19. 4–8</a>. Comp. <a href='SIR.xhtml#SR16_8'>Ecclus. 16. 8</a>.
-Wisdom of Solomon	19	14	2	For the Sodomites did not receive those whom they knew not, when they came: but 	u	<a href='GEN.xhtml#GN41_55'>Gen. 41. 55–57</a>. <a href='EXO.xhtml#EX1_8'>Ex. 1. 8</a>.
+Wisdom of Solomon	19	14	2	For the Sodomites did not receive those, whom they knew not when they came: but 	u	<a href='GEN.xhtml#GN41_55'>Gen. 41. 55–57</a>. <a href='EXO.xhtml#EX1_8'>Ex. 1. 8</a>.
 Wisdom of Solomon	19	15	1	And not only so, but peradventure some 	x	See <a href='WIS.xhtml#WS2_20'>ch. 2. 20</a>.
 Wisdom of Solomon	19	15	2	And not only so, but peradventure some respect shall be had 	t	<a href='GEN.xhtml#GN19_4'>Gen. 19. 4–8</a>. Comp. <a href='SIR.xhtml#SR16_8'>Ecclus. 16. 8</a>.
 Wisdom of Solomon	19	16	1	but 	u	<a href='GEN.xhtml#GN41_55'>Gen. 41. 55–57</a>. <a href='EXO.xhtml#EX1_8'>Ex. 1. 8</a>.
@@ -611,10 +611,10 @@ Wisdom of Solomon	7	2	1	and in my mother’s womb was fashioned to be flesh in t
 Wisdom of Solomon	7	2	2	and in my mother’s womb was fashioned to be flesh in the time of ten months, being compacted in blood, of the seed of man, and the pleasure that came with 	c	<a href='WIS.xhtml#WS4_6'>ch. 4. 6</a>.
 Wisdom of Solomon	7	20	1	the natures of living creatures, and the furies of wild beasts: the violence of winds, and the 	u	So <a href='SIR.xhtml#SR27_5'>Ecclus. 27. 5</a>. See <a href='LUK.xhtml#LK2_35'>Luke 2. 35</a>.
 Wisdom of Solomon	7	22	1	For wisdom, which is 	v	So <a href='WIS.xhtml#WS8_5'>ch. 8. 5</a>. Comp. <a href='PRO.xhtml#PR8_30'>Prov. 8. 30</a>.
-Wisdom of Solomon	7	22	2	For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit, holy, 	*	Gr. <span class='add'>only-begotten</span>.
-Wisdom of Solomon	7	22	3	For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit, holy, one only, manifold, subtil, lively, 	w	<a href='WIS.xhtml#WS10_21'>ch. 10. 21</a> (Gk.).
-Wisdom of Solomon	7	22	4	For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit, holy, one only, manifold, subtil, lively, clear, undefiled, plain, not subject to hurt, 	x	<a href='TIT.xhtml#TT1_8'>Tit. 1. 8</a> (Gk.).
-Wisdom of Solomon	7	23	1	Kind to man, stedfast, sure, 	y	<a href='WIS.xhtml#WS6_15'>ch. 6. 15</a> (Gk.).
+Wisdom of Solomon	7	22	2	For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit holy, 	*	Gr. <span class='add'>only-begotten</span>.
+Wisdom of Solomon	7	22	3	For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit holy, one only, manifold, subtil, lively, 	w	<a href='WIS.xhtml#WS10_21'>ch. 10. 21</a> (Gk.).
+Wisdom of Solomon	7	22	4	For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit holy, one only, manifold, subtil, lively, clear, undefiled, plain, not subject to hurt, 	x	<a href='TIT.xhtml#TT1_8'>Tit. 1. 8</a> (Gk.).
+Wisdom of Solomon	7	23	1	Kind to man, steadfast, sure, 	y	<a href='WIS.xhtml#WS6_15'>ch. 6. 15</a> (Gk.).
 Wisdom of Solomon	7	25	1	For she is the 	*	Or, <span class='add'>vapour</span>. <a href='JAS.xhtml#JM4_14'>James 4. 14</a>.
 Wisdom of Solomon	7	25	2	For she is the breath of the power of God, and a pure 	*	Or, <span class='add'>stream</span>.
 Wisdom of Solomon	7	25	3	For she is the breath of the power of God, and a pure influence flowing from the glory of the 	z	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
@@ -649,7 +649,7 @@ Wisdom of Solomon	8	15	2	Horrible tyrants shall be afraid, when they do but hear
 Wisdom of Solomon	8	16	1		*	Or, <span class='add'>Being entered into mine house</span>.
 Wisdom of Solomon	8	16	2	After I am come into mine house, I will repose myself with her: for her conversation hath no bitterness; and 	b	Gk. as <a href='WIS.xhtml#WS8_9'>ver. 9</a>, <a href='WIS.xhtml#WS8_16'>16</a>. So <a href='BEL.xhtml#BL1_2'>Bel and Drag. 2</a> marg.
 Wisdom of Solomon	8	17	1	Now when I considered these things in myself, and 	r	Comp. <a href='PRO.xhtml#PR7_3'>Prov. 7. 3</a>.
-Wisdom of Solomon	8	17	2	Now when I considered these things in myself, and pondered them in mine heart, how that to be allied unto wisdom 	o	<a href='WIS.xhtml#WS8_17'>ver. 17</a>.
+Wisdom of Solomon	8	17	2	Now when I considered these things in myself, and pondered them in my heart, how that to be allied unto wisdom 	o	<a href='WIS.xhtml#WS8_17'>ver. 17</a>.
 Wisdom of Solomon	8	18	1	and great pleasure it is to have her friendship; and in the works of her hands are infinite riches; and in the exercise of conference with her, prudence; and in talking with her, a 	*	Or, <span class='add'>fame</span>.
 Wisdom of Solomon	8	18	2	and great pleasure it is to have her friendship; and in the works of her hands are infinite riches; and in the exercise of conference with her, prudence; and in talking with her, a good report; I went about seeking how to 	*	Or, <span class='add'>marry her</span>. See <a href='WIS.xhtml#WS8_2'>ver. 2</a>.
 Wisdom of Solomon	8	2	1	I loved her, and sought her out from my youth, I desired 	*	Or, <span class='add'>to marry</span> her <span class='add'>to myself</span>. So <a href='WIS.xhtml#WS8_9'>ver. 9</a>. Comp. <a href='WIS.xhtml#WS8_18'>ver. 18</a>.
@@ -664,7 +664,7 @@ Wisdom of Solomon	8	4	2	For she is privy to the mysteries of the knowledge of Go
 Wisdom of Solomon	8	5	1	If riches be a possession to be desired in this life; 	c	<a href='WIS.xhtml#WS7_8'>ch. 7. 8</a>, <a href='WIS.xhtml#WS7_9'>9</a>. <a href='PRO.xhtml#PR8_18'>Prov. 8. 18</a>.
 Wisdom of Solomon	8	5	2	If riches be a possession to be desired in this life; what is richer than wisdom, 	d	So <a href='WIS.xhtml#WS7_22'>ch. 7. 22</a>.
 Wisdom of Solomon	8	6	1	And if 	e	Comp. <a href='EXO.xhtml#EX31_3'>Exod. 31. 3</a>, <a href='EXO.xhtml#EX31_6'>6</a>.
-Wisdom of Solomon	8	7	1	And if a man love righteousness, her labours are virtues: for she teacheth temperance and prudence, justice and 	q	So <a href='WIS.xhtml#WS8_7'>ver. 7</a> (Gk.).
+Wisdom of Solomon	8	7	1	And if a man love righteousness her labours are virtues: for she teacheth temperance and prudence, justice and 	q	So <a href='WIS.xhtml#WS8_7'>ver. 7</a> (Gk.).
 Wisdom of Solomon	8	8	1	If a man desire much experience, she knoweth things of old, and conjectureth aright what is to come: she knoweth the subtilties of speeches, and can expound 	f	See <a href='PRO.xhtml#PR1_6'>Prov. 1. 6</a>.
 Wisdom of Solomon	8	8	2	If a man desire much experience, she knoweth things of old, and conjectureth aright what is to come: she knoweth the subtilties of speeches, and can expound dark sentences: she foreseeth signs and wonders, and the 	g	See <a href='WIS.xhtml#WS2_17'>ch. 2. 17</a>.
 Wisdom of Solomon	8	9	1	Therefore I purposed 	h	<a href='WIS.xhtml#WS8_2'>ver. 2</a> marg.

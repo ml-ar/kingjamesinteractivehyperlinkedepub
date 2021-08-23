@@ -955,7 +955,214 @@ else if ($3 == "19")
 
 		}
 	}
+	else if ($2 == "7")
+	{
+
+
+		if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "For wisdom, which is the worker of all things, taught me: for in her is an understanding spirit holy, one only, manifold, subtil, lively, clear, undefiled, plain, not subject to hurt, loving the thing that is good quick, which cannot be letted, ready to do good, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "Kind to man, steadfast, sure, free from care, having all power, overseeing all things, and going through all understanding, pure, and most subtil, spirits.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "8")
+	{
+
+
+		if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "And if a man love righteousness her labours are virtues: for she teacheth temperance and prudence, justice and fortitude: which are such things, as en can have nothing more profitable in their life.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "Now when I considered these things in myself, and pondered them in my heart, how that to be allied unto wisdom is immortality; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "10")
+	{
+
+
+		if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "When the righteous fled from his brother’s wrath she guided him in right paths, shewed him the kingdom of God, and gave him knowledge of holy things, made him rich in his travels, and multiplied the fruit of his labours.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "11")
+	{
+
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "For instead of a perpetual running river troubled with foul blood, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "For when they were tried albeit but in mercy chastised, they knew how the ungodly were judged in wrath and tormented, thirsting in another manner than the just.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+		else if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "For whom they respected with scorn, when he was long before thrown out at the casting forth of the infants, him in the end, when they saw what came to pass, they admired.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "12")
+	{
+
+
+		if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall accuse thee for the nations that perish, whom thou made? or who shall come to stand against thee, to be revenged for the unrighteous men?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "27")
+		{
+			$5 = correctAllVerses($5, "For, look, for what things they grudged, when they were punished, that is, for them whom they thought to be gods; now being punished in them, when they saw it, they acknowledged him to be the true God, whom before they denied to know: and therefore came extreme damnation upon them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "13")
+	{
+
+
+		if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "But miserable are they, and in dead things is their hope, who call them gods, which are the works of men’s hands, gold and silver, to shew art in, and resemblances of beasts, or a stone good for nothing, the work of an ancient hand.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "For health he calleth upon that which is weak: for life prayeth to that which is dead; for aid humbly beseecheth that which hath least means to help: and for a good journey he asketh of that which cannot set a foot forward: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "15")
+	{
+
+
+		if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out when his life which was lent him shall be demanded.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "16")
+	{
+
+
+		if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "For he that turned himself toward it was not saved by the thing that he saw, but by thee, that art the Saviour of all.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "For sometime the flame was mitigated, that it might not burn up the beasts that were sent against the ungodly; but themselves might see and perceive that they were persecuted with the judgment of God.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "17")
+	{
+
+
+		if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "For they, that promised to drive away terrors and troubles from a sick soul, were sick themselves of fear, worthy to be laughed at.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "For wickedness, condemned by her own witness, is very timorous, and being pressed with conscience, always forecasteth grievous things.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+		else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "Over them only was spread an heavy night, an image of that darkness which should afterward receive them: but yet were they unto themselves more grievous than the darkness.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "18")
+	{
+
+
+		if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "Instead whereof thou gavest them a burning pillar of fire, both to be a guide of the unknown journey, and an harmless sun to entertain them honourably.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "For they were worthy to be deprived of light and imprisoned in darkness, who had kept thy sons shut up, by whom the uncorrupt light of the law was to be given unto the world.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+		else if ($3 == "15")
+		{
+			$5 = correctAllVerses($5, "Thine Almighty word leaped down from heaven out of thy royal throne, as a fierce man of war into the midst of a land of destruction, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued him that punished, alleging the oaths and covenants made with the fathers.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+
+		}
+	}
+	else if ($2 == "19")
+	{
+
+
+		if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "For the Sodomites did not receive those, whom they knew not when they came: but these brought friends into bondage, that had well deserved of them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+
 }
+
 
 /^Judith/ {
 if ($2 == "1")
