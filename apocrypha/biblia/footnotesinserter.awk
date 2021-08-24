@@ -777,7 +777,6 @@ END {
 	#Do special cases first
 
 	#writeSirach()
-
 	#writeS3Y()
 	#writeBel()
 	#writeSusanna()
@@ -788,10 +787,13 @@ END {
 #START WORK HERE 1: Feed footnotes.txt into this file and start troubleshooting
 	for (x in footnotes) #for every book
 	{
+	
 		xhtmlFile = folderPrefix bookFiles[x]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
-		writeCSS(xhtmlFile, xhtmlVariable, footnotes)
+		copySingleBookFootnotesArray(x, adhocFootnotes)
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+		delete footnotes[x]
 	}
 
 

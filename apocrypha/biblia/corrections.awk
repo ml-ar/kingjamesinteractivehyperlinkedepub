@@ -1163,9 +1163,23 @@ else if ($3 == "19")
 
 }
 
+/^Prayer of/ {
+	if ($2 == "0")
+	{
+
+
+		if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "for thou art the most high Lord, of great compassion, longsuffering, very merciful, and repentest of the evils of men. Thou, O Lord, according to thy great goodness hast promised repentance and forgiveness to them that have sinned against thee: and of thine infinite mercies hast appointed repentance unto sinners, that they may be saved.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+}
+
 
 /^Judith/ {
-if ($2 == "1")
+	if ($2 == "1")
 	{
 
 
@@ -1175,13 +1189,73 @@ if ($2 == "1")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "8")
+		else if ($3 == "8")
 		{
 			$5 = correctAllVerses($5, "And to those among the nations that were of Carmel, and Galaad, and the higher Galilee, and the great plain of Esdrelom, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
+		else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "And to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and Chelus, and Kades, and the river of Egypt, and Taphnes, and Ramesse, and all the land of Gesem, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "Until ye come beyond Tanis and Memphis, and to all the inhabitants of Egypt, until ye come to the borders of Ethiopia.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "Therefore Nabuchodonosor was very angry with all this country, and sware by his throne and kingdom, that he would surely be avenged upon all those coasts of Cilicia, and Damascus, and Syria, and that he would slay with the sword all the inhabitants of the land of Moab, and the children of Ammon, and all Judea, and all that were in Egypt, till ye come to the borders of the two seas.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "2")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "And in the eighteenth year, the two and twentieth day of the first month, there was talk in the house of Nabuchodonosor king of the Assyrians that he should, as he said, avenge himself on all the earth.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "And when he had ended his counsel, Nabuchodonosor king of the Assyrians called Holofernes the chief captain of his army, which was next unto him, and said unto him.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "And thou shalt declare unto that they prepare for me earth and water: for I will go forth in my wrath against them and will cover the whole face of the earth with the feet of mine army, and I will give them for a spoil unto them: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "Then Holofernes went forth from the presence of his lord, and called all the governors and captains, and the officers of the army of Assur; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "A great number also sundry countries came with them like locusts, and like the sand of the earth: for the multitude was without number.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "And destroyed Phud and Lud, and spoiled all the children of Rasses, and the children of Israel, which were toward the wilderness at the south of the land of the Chellians.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
 
 
 }
