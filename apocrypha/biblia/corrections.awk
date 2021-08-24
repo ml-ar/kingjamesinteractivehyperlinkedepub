@@ -1256,7 +1256,223 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+	else if ($2 == "4")
+	{
 
+
+		if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "Therefore they sent into all the coasts of Samaria, and the villages and to Bethoron, and Belmen, and Jericho, and to Choba, and Esora, and to the valley of Salem: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "Also Joacim the high priest, which was in those days in Jerusalem, wrote to them that dwelt in Bethulia, and Betomestham, which is over against Esdraelon toward the open country, near to Dothaim, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "Charging them to keep the passages of the hill country: for by them there was an entrance into Judea, and it was easy to stop them that would come up, because the passage was straight, for two men at the most.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "Both they, and their wives and their children, and their cattle, and every stranger and hireling, and their servants bought with money, put sackcloth upon their loins.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "Thus every man and women, and the little children, and the inhabitants of Jerusalem, fell before the temple, and cast ashes upon their heads, and spread out their sackcloth before the face of the Lord: also they put sackcloth about the altar, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "5")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Then was it declared to Holofernes, the chief captain of the army of Assur, that the children of Israel had prepared for war, and had shut up the passages of the hill country, and had fortified all the tops of the high hills and had laid impediments in the champaign countries: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "Then their God commanded them to depart from the place where they sojourned, and to go into the land of Chanaan: where they dwelt, and were increased with gold and silver, and with very much cattle.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "But when a famine covered all the land of Chanaan, they went down into Egypt, and sojourned there, while they were nourished, and became there a great multitude, so that one could not number their nation.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "16")
+		{
+			$5 = correctAllVerses($5, "And they cast forth before them the Chanaanite, the Pherezite, the Jebusite, and the Sychemite, and all the Gergesites, and they dwelt in that country many days.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "Now therefore, my lord and governor, if there be any error against this people, and they sin against their God, let us consider that this shall be their ruin, and let us go up, and we shall overcome them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "And when Achior had finished these sayings, all the people standing round about the tent murmured, and the chief men of Holofernes, and all that dwelt by the sea side, and in Moab, spake that he should kill him.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "For, say they, we will not be afraid of the face of the children of Israel: for, lo, it is a people that have no strength nor power for a strong battle.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "24")
+		{
+			$5 = correctAllVerses($5, "Now therefore, lord Holofernes, we will go up, and they shall be a prey to be devoured of all thine army.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "6")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "And when the tumult of men that were about the council was ceased, Holofernes the chief captain of the army of Assur said unto Achior and all the Moabites before all the company of other nations, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And who art thou, Achior, and the hirelings of Ephraim, that thou hast prophesied against us as to day, and hast said, that we should not make war with the people of Israel, because their God will defend them? and who is God but Nabuchodonosor?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "And thou, Achior, an hireling of Ammon, which hast spoken these words in the day of thine iniquity, shalt see my face no more from this day, until I take vengeance of this nation that came out of Egypt.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "And if thou persuade thyself in thy mind that they shall be taken, let not thy countenance fall: I have spoken it, and none of my words shall be in vain.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "Then Holofernes commanded his servants, that waited in his tent, to take Achior, and bring him to Bethulia, and deliver him into the hands of the children of Israel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "7")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "The next day Holofernes commanded all his army, and all his people which were come to take his part, that they should remove their camp against Bethulia, to take aforehand the ascents of the hill country, and to make war against the children of Israel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "And they camped in the valley near unto Bethulia, by the fountain, and they spread themselves in breadth over Dothaim even to Belmaim, and in length from Bethulia unto Cynamon, which is over against Esdraelon.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "Now the children of Israel, when they saw the multitude of them, were greatly troubled, and said every one to his neighbour, Now will these men lick up the face of the earth; for neither the high mountains, nor the valleys, nor the hills, are able to bear their weight.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "Then the children of Esau went up with the children of Ammon, and camped in the hill country over against Dothaim: and they sent some of them toward the south, and toward the east over against Ekrebel, which is near unto Chusi, that is upon the brook Mochmur; and the rest of the army of the Assyrians camped in the plain, and covered the face of the whole land; and their tents and carriages were pitched to a very great multitude.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "8")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Now at that time Judith heard thereof, which was the daughter of Merari, the son of Ox, the son of Joseph, the son of Ozel, the son of Elcia, the son of Ananias, the son of Gedeon, the son of Raphaim, the son of Acitho, the son of Eliu, the son of Eliab, the son of Nathanael, the son of Samael, the son of Salasadal, the son of Israel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "And she made her a tent upon the top of her house, and put on sackcloth upon her loins and ware her widow’s apparel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "And she fasted all the days of her widowhood, save the eves of the sabbaths, and the sabbaths, and the eves of the new moons, and the new moons and the feasts and solemn days of the house of Israel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "She was also of a goodly countenance, and very beautiful to behold: and her husband Manasses had left her gold, and silver, and menservants and maidservants, and cattle, and lands; and she remained upon them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "Now when she heard the evil words of the people against the governor, that they fainted for lack of water; for Judith had heard all the words that Ozias had spoken unto them, and that he had sworn to deliver the city unto the Assyrians after five days; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "Then she sent her waitingwoman, that had the government of all things that she had, to call Ozias and Chabris and Charmis, the ancients of the city.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "And now who are ye that have tempted God this day, and stand instead of God among the children of men?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "For ye cannot find the depth of the heart of man, neither can ye perceive the things that he thinketh: then how can ye search out God, that hath made all these things, and know his mind, or comprehend his purpose? Nay, my brethren, provoke not the Lord our God to anger.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "For there arose none in our age, neither is there any now in these days neither tribe, nor family, nor people, nor city among us, which worship gods made with hands, as hath been aforetime.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "33")
+		{
+			$5 = correctAllVerses($5, "Ye shall stand this night in the gate, and I will go forth with my waitingwoman: and within the days that ye have promised to deliver the city to our enemies the Lord will visit Israel by mine hand.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
 
 }
 
