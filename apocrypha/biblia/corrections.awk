@@ -1473,6 +1473,105 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+	else if ($2 == "9")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Judith fell upon her face, and put ashes upon her head, and uncovered the sackcloth wherewith she was clothed; and about the time that the incense of that evening was offered in Jerusalem in the house of the Lord Judith cried with a loud voice, and said, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "And hast given their wives for a prey, and their daughters to be captives, and all their spoils to be divided among thy dear children; which were moved with thy zeal, and abhorred the pollution of their blood, and called upon thee for aid: O God, O my God, hear me also a widow.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "For, behold, the Assyrians are multiplied in their power; they are exalted with horse and man; they glory in the strength of their footmen; they trust in shield, and spear, and bow, and sling; and know not that thou art the Lord that breakest the battles: the Lord is thy name.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "Throw down their strength in thy power, and bring down their force in thy wrath: for they have purposed to defile thy sanctuary, and to pollute the tabernacle where thy glorious name resteth and to cast down with sword the horn of thy altar.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "For thy power standeth not in multitude nor thy might in strong men: for thou art a God of the afflicted, an helper of the oppressed, an upholder of the weak, a protector of the forlorn, a saviour of them that are without hope.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+else if ($2 == "10")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "She rose where she had fallen down, and called her maid, and went down into the house in the which she abode in the sabbath days, and in her feast days, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+	}	
+else if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "Thus they went forth to the gate of the city of Bethulia, and found standing there Ozias and the ancients of the city, Chabris and Charmis.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "The God, the God of our fathers give thee favour, and accomplish thine enterprizes to the glory of the children of Israel, and to the exaltation of Jerusalem. Then they worshipped God.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "Now Holofernes rested upon his bed under a canopy, which was woven with purple, and gold, and emeralds, and precious stones.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "And when Judith was come before him and his servants they all marvelled at the beauty of her countenance; and she fell down upon her face, and did reverence unto him: and his servants took her up.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "11")
+	{
+
+
+		if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "Therefore, O lord and governor, respect not his word; but lay it up in thine heart, for it is true: for our nation shall not be punished, neither can sword prevail against them, except they sin against their God.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "And are resolved to spend the firstfruits of the tenths of wine and oil, which they had sanctified, and reserved for the priests that serve in Jerusalem before the face of our God; the which things it is not lawful for any of the people so much as to touch with their hands.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "Likewise Holofernes said unto her. God hath done well to send thee before the people, that strength might be in our hands and destruction upon them that lightly regard my lord.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "And now thou art both beautiful in thy countenance, and witty in thy words: surely if thou do as thou hast spoken thy God shall be my God, and thou shalt dwell in the house of king Nabuchodonosor, and shalt be renowned through the whole earth.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
 
 }
 
