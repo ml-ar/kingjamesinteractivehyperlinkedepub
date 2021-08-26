@@ -5,3 +5,5 @@ Also modified SIRACH so that there's a period after the header of the first prol
 Also modified 1 Esdras 9:49, changing errant period to comma
 
 Tobit 3:10: When, not Whe 
+
+Judith 13:2: Lying along, not lying alone

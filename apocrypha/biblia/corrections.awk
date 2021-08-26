@@ -1508,7 +1508,7 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
-else if ($2 == "10")
+	else if ($2 == "10")
 	{
 
 
@@ -1517,33 +1517,33 @@ else if ($2 == "10")
 			$5 = correctAllVerses($5, "She rose where she had fallen down, and called her maid, and went down into the house in the which she abode in the sabbath days, and in her feast days, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
-	}	
-else if ($3 == "6")
+		}	
+		else if ($3 == "6")
 		{
 			$5 = correctAllVerses($5, "Thus they went forth to the gate of the city of Bethulia, and found standing there Ozias and the ancients of the city, Chabris and Charmis.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "8")
+		else if ($3 == "8")
 		{
 			$5 = correctAllVerses($5, "The God, the God of our fathers give thee favour, and accomplish thine enterprizes to the glory of the children of Israel, and to the exaltation of Jerusalem. Then they worshipped God.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "21")
+		else if ($3 == "21")
 		{
 			$5 = correctAllVerses($5, "Now Holofernes rested upon his bed under a canopy, which was woven with purple, and gold, and emeralds, and precious stones.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "23")
+		else if ($3 == "23")
 		{
 			$5 = correctAllVerses($5, "And when Judith was come before him and his servants they all marvelled at the beauty of her countenance; and she fell down upon her face, and did reverence unto him: and his servants took her up.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "11")
+	}
+	else if ($2 == "11")
 	{
 
 
@@ -1553,25 +1553,189 @@ else if ($2 == "11")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "13")
+		else if ($3 == "13")
 		{
 			$5 = correctAllVerses($5, "And are resolved to spend the firstfruits of the tenths of wine and oil, which they had sanctified, and reserved for the priests that serve in Jerusalem before the face of our God; the which things it is not lawful for any of the people so much as to touch with their hands.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "22")
+		else if ($3 == "22")
 		{
 			$5 = correctAllVerses($5, "Likewise Holofernes said unto her. God hath done well to send thee before the people, that strength might be in our hands and destruction upon them that lightly regard my lord.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "23")
+		else if ($3 == "23")
 		{
 			$5 = correctAllVerses($5, "And now thou art both beautiful in thy countenance, and witty in thy words: surely if thou do as thou hast spoken thy God shall be my God, and thou shalt dwell in the house of king Nabuchodonosor, and shalt be renowned through the whole earth.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
+	}
+	else if ($2 == "12")
+	{
+
+
+		if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "Then said Judith unto him As thy soul liveth, my lord, thine handmaid shall not spend those things that I have, before the Lord work by mine hand the things that he hath determined.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "Then the servants of Holofernes brought her into the tent, and she slept till midnight, and she arose when it was toward the morning watch, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "Then Holofernes commanded his guard that they should not stay her: thus she abode in the camp three days, and went out in the night into the valley of Bethulia, and washed herself in a fountain of water by the camp.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "And in the fourth day Holofernes made a feast to his own servants only, and called none of the officers to the banquet.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "Then went Bagoas from the presence of Holofernes, and came to her, and he said, Let not this fair damsel fear to come to my lord, and to be honoured in his presence, and drink wine, and be merry with us and be made this day as one of the daughters of the Assyrians, which serve in the house of Nabuchodonosor.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "16")
+		{
+			$5 = correctAllVerses($5, "Now when Judith came in and sat down, Holofernes his heart was ravished with her, and his mind was moved, and he desired greatly her company; for he waited a time to deceive her, from the day that he had seen her.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "13")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And Judith was left alone in the tent, and Holofernes lying along upon his bed: for he was filled with wine.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "So all went forth and none was left in the bedchamber, neither little nor great. Then Judith, standing by his bed, said in her heart, O Lord God of all power, look at this present upon the works of mine hands for the exaltation of Jerusalem.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "For now is the time to help thine inheritance, and to execute thine enterprizes to the destruction of the enemies which are risen against us.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "Then she came to the pillar of the bed, which was at Holofernes’ head, and took down his fauchion from thence, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "15")
+		{
+			$5 = correctAllVerses($5, "So she took the head out of the bag, and shewed it, and said unto them, behold the head of Holofernes, the chief captain of the army of Assur, and behold the canopy, wherein he did lie in his drunkenness; and the Lord hath smitten him by the hand of a woman.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "And God turn these things to thee for a perpetual praise, to visit thee in good things because thou hast not spared thy life for the affliction of our nation, but hast revenged our ruin, walking a straight way before our God. And all the people said; So be it, so be it.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "14")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And so soon as the morning shall appear, and the sun shall come forth upon the earth, take ye every one his weapons, and go forth every valiant man out of the city, and set ye a captain over them, as though ye would go down into the field toward the watch of the Assyrians; but go not down.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "But before ye do these things, call me Achior the Ammonite, that he may see and know him that despised the house of Israel, and that sent him to us as it were to his death.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "Then they called Achior out of the house of Ozias; and when he was come, and saw the head of Holofernes in a man’s hand in the assembly of the people, he fell down on his face, and his spirit failed.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "And as soon as the morning arose, they hanged the head of Holofernes upon the wall, and every man took his weapons, and they went forth by bands unto the straits of the mountain.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "13")
+		{
+			$5 = correctAllVerses($5, "So they came to Holofernes’ tent, and said to him that had the charge of all his things, Waken now our lord: for the slaves have been bold to come down against us to battle, that they may be utterly destroyed.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "After he went into the tent where Judith lodged: and when he found her not, he leaped out to the people, and cried, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "19")
+		{
+			$5 = correctAllVerses($5, "When the captains of the Assyrians’ army heard these words, they rent their coats and their minds were wonderfully troubled, and there was a cry and a very great noise throughout the camp.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "15")
+	{
+
+
+		if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Chobai: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies) and they that were in Galaad, and in Galilee, chased them with a great slaughter, until they were past Damascus and the borders thereof.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "And the people spoiled the camp the space of thirty days: and they gave unto Judith Holofernes his tent, and all his plate, and beds, and vessels, and all his stuff: and she took it and laid it on her mule; and made ready her carts, and laid them thereon.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "16")
+	{
+
+
+		if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "The sons of the damsels have pierced them through, and wounded them as fugatives’ children: they perished by the battle of the Lord.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "19")
+		{
+			$5 = correctAllVerses($5, "Judith also dedicated all the stuff of Holofernes, which the people had given her, and gave the canopy, which she had taken out of his bedchamber, for a gift unto the Lord.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+
 
 }
 

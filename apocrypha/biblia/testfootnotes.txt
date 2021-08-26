@@ -90,18 +90,18 @@ Judith	11	9	1	Now as concerning the matter, which 	d	See <a href='JDT.xhtml#JT5_
 Judith	11	9	2	Now as concerning the matter, which Achior did speak in thy council, we have heard his words; for the men of Bethulia 	*	Or, <span class='add'>gat him</span>. So <a href='1MA.xhtml#M16_44'>1 Macc. 6. 44</a>.
 Judith	11	9	3	Now as concerning the matter, which Achior did speak in thy council, we have heard his words; for the men of Bethulia 	e	<a href='GEN.xhtml#GN12_12'>Gen. 12. 12</a> (Gk.).
 Judith	12	1	1	Then he commanded to bring her in where 	a	<a href='JDT.xhtml#JT15_11'>ch. 15. 11</a>.
-Judith	12	10	1	And in the fourth day Olofernes 	i	See <a href='JDT.xhtml#JT6_21'>ch. 6. 21</a>.
+Judith	12	10	1	And in the fourth day Holofernes 	i	See <a href='JDT.xhtml#JT6_21'>ch. 6. 21</a>.
 Judith	12	11	1	Then said he to Bagoas the eunuch, who had charge over all that he had, Go now, and persuade this Hebrew woman 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
-Judith	12	13	1	Then went Bagoas from the presence of Olofernes, and came to her, and he said, Let not this fair damsel fear to come to my lord, and to be honoured in his presence, and drink wine, and be merry with us, and be made this day as one of the daughters of the Assyrians, which 	j	<a href='JDT.xhtml#JT13_1'>ch. 13. 1</a> (Gk.).
-Judith	12	16	1	Now when Judith came in and sat down, Olofernes 	k	See <a href='MAT.xhtml#MT5_28'>Matt. 5. 28</a>.
+Judith	12	13	1	Then went Bagoas from the presence of Holofernes, and came to her, and he said, Let not this fair damsel fear to come to my lord, and to be honoured in his presence, and drink wine, and be merry with us and be made this day as one of the daughters of the Assyrians, which 	j	<a href='JDT.xhtml#JT13_1'>ch. 13. 1</a> (Gk.).
+Judith	12	16	1	Now when Judith came in and sat down, Holofernes 	k	See <a href='MAT.xhtml#MT5_28'>Matt. 5. 28</a>.
 Judith	12	19	1	Then she took and ate and drank before him 	l	<a href='JDT.xhtml#JT12_2'>ver. 2</a>, <a href='JDT.xhtml#JT12_9'>9</a>.
 Judith	12	2	1	And Judith said, 	aa	So <a href='ESG.xhtml#EG14_17'>Esther 14. 17</a>. See <a href='TOB.xhtml#TB1_10'>Tobit 1. 10</a>.
 Judith	12	2	2	And Judith said, I will not eat thereof, lest there be an offence: but provision shall be made for me 	b	<a href='JDT.xhtml#JT10_5'>ch. 10. 5</a>.
-Judith	12	4	1	Then said Judith unto him, 	c	See <a href='1SA.xhtml#S11_26'>1 Sam. 1. 26</a>.
-Judith	12	5	1	Then the servants of Olofernes brought her 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
-Judith	12	5	2	Then the servants of Olofernes brought her into the tent, and she slept 	e	See <a href='JDT.xhtml#JT11_3'>ch. 11. 3</a>.
-Judith	12	5	3	Then the servants of Olofernes brought her into the tent, and she slept till midnight, and she arose when it was toward 	f	<a href='EXO.xhtml#EX14_24'>Ex. 14. 24</a>. <a href='1SA.xhtml#S111_11'>1 Sam. 11. 11</a>.
-Judith	12	7	1	Then Olofernes commanded his guard that they should not stay her: thus she abode in the camp three days, and went out in the night into the valley of Bethulia, and washed herself 	g	<a href='GEN.xhtml#GN7_3'>ch. 7. 3</a> (Gk.).
+Judith	12	4	1	Then said Judith unto him 	c	See <a href='1SA.xhtml#S11_26'>1 Sam. 1. 26</a>.
+Judith	12	5	1	Then the servants of Holofernes brought her 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
+Judith	12	5	2	Then the servants of Holofernes brought her into the tent, and she slept 	e	See <a href='JDT.xhtml#JT11_3'>ch. 11. 3</a>.
+Judith	12	5	3	Then the servants of Holofernes brought her into the tent, and she slept till midnight, and she arose when it was toward 	f	<a href='EXO.xhtml#EX14_24'>Ex. 14. 24</a>. <a href='1SA.xhtml#S111_11'>1 Sam. 11. 11</a>.
+Judith	12	7	1	Then Holofernes commanded his guard that they should not stay her: thus she abode in the camp three days, and went out in the night into the valley of Bethulia, and washed herself 	g	<a href='GEN.xhtml#GN7_3'>ch. 7. 3</a> (Gk.).
 Judith	12	8	1	And when she came out, she besought the Lord God of Israel to direct her way to 	h	<a href='JDT.xhtml#JT9_10'>ch. 9. 10</a> (Gk.).
 Judith	12	9	1	So she came in clean, and remained in 	d	<a href='JDT.xhtml#JT10_20'>ch. 10. 20</a>. &amp; <a href='JDT.xhtml#JT14_17'>14. 17</a>. Comp. <a href='JDT.xhtml#JT12_9'>ver. 9</a>, <a href='JDT.xhtml#JT12_11'>11</a>.
 Judith	13	1	1	Now when the evening was come, 	a	<a href='JDT.xhtml#JT12_10'>ch. 12. 10</a>.
@@ -112,18 +112,18 @@ Judith	13	10	2	and she put it in her bag of meat: so they twain went together ac
 Judith	13	12	1	Now when the men of her city heard her voice, they made haste to go down to the gate of their city, and they called 	p	See <a href='JDT.xhtml#JT6_16'>ch. 6. 16</a>.
 Judith	13	13	1	And then they ran all together, 	e	See <a href='JER.xhtml#JR6_13'>Jer. 6. 13</a>.
 Judith	13	15	1	So she took the head out of 	m	<a href='MAT.xhtml#MT13_20'>Matt. 13. 20</a>. <a href='MRK.xhtml#MK1_30'>Mark 1. 30</a> (English).
-Judith	13	15	2	So she took the head out of the bag, and shewed it, and said unto them, Behold the head of Olofernes, the chief captain of the army of Assur, and behold the 	k	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
-Judith	13	15	3	So she took the head out of the bag, and shewed it, and said unto them, Behold the head of Olofernes, the chief captain of the army of Assur, and behold the canopy, wherein he did lie in his drunkenness; and 	q	See <a href='JDT.xhtml#JT9_10'>ch. 9. 10</a>.
+Judith	13	15	2	So she took the head out of the bag, and shewed it, and said unto them, behold the head of Holofernes, the chief captain of the army of Assur, and behold the 	k	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
+Judith	13	15	3	So she took the head out of the bag, and shewed it, and said unto them, behold the head of Holofernes, the chief captain of the army of Assur, and behold the canopy, wherein he did lie in his drunkenness; and 	q	See <a href='JDT.xhtml#JT9_10'>ch. 9. 10</a>.
 Judith	13	16	1		r	See <a href='RUT.xhtml#RT3_13'>Ruth 3. 13</a>.
 Judith	13	18	1	Then said Ozias unto her, O daughter, blessed art thou of 	s	See <a href='1ES.xhtml#E16_31'>1 Esdr. 6. 31</a>.
 Judith	13	18	2	Then said Ozias unto her, O daughter, blessed art thou of the most high God above all the women upon the earth; and blessed be the Lord God, 	t	So <a href='JDT.xhtml#JT9_12'>ch. 9. 12</a>.
-Judith	13	2	1	And Judith was left alone in the tent, and Olofernes lying along upon his bed: for 	d	<a href='JDT.xhtml#JT12_20'>ch. 12. 20</a>. Comp. <a href='SIR.xhtml#SR31_20'>Ecclus. 31. 20</a>, <a href='SIR.xhtml#SR31_25'>25</a>.
-Judith	13	20	1	And God turn these things to thee for a perpetual praise, to visit thee in good things, because thou hast not spared thy life for the affliction of our nation, but hast revenged our ruin, walking a straight way before our God. 	u	<a href='JDT.xhtml#JT15_10'>ch. 15. 10</a>.
-Judith	13	4	1	So all went forth, and none was left in the bedchamber, 	e	See <a href='JER.xhtml#JR6_13'>Jer. 6. 13</a>.
+Judith	13	2	1	And Judith was left alone in the tent, and Holofernes lying along upon his bed: for 	d	<a href='JDT.xhtml#JT12_20'>ch. 12. 20</a>. Comp. <a href='SIR.xhtml#SR31_20'>Ecclus. 31. 20</a>, <a href='SIR.xhtml#SR31_25'>25</a>.
+Judith	13	20	1	And God turn these things to thee for a perpetual praise, to visit thee in good things because thou hast not spared thy life for the affliction of our nation, but hast revenged our ruin, walking a straight way before our God. 	u	<a href='JDT.xhtml#JT15_10'>ch. 15. 10</a>.
+Judith	13	4	1	So all went forth and none was left in the bedchamber, 	e	See <a href='JER.xhtml#JR6_13'>Jer. 6. 13</a>.
 Judith	13	5	1	For now is the time 	f	<a href='LUK.xhtml#LK1_54'>Luke 1. 54</a> (Gk.).
-Judith	13	5	2	For now is the time to help thine inheritance, and to execute mine 	g	See <a href='JDT.xhtml#JT10_8'>ch. 10. 8</a>.
+Judith	13	5	2	For now is the time to help thine inheritance, and to execute thine 	g	See <a href='JDT.xhtml#JT10_8'>ch. 10. 8</a>.
 Judith	13	6	1	Then she came to the 	l	Gk. not as <a href='JDT.xhtml#JT13_6'>ver. 6</a>.
-Judith	13	6	2	Then she came to the pillar of the bed, which was at Olofernes’ head, and took down his 	h	<a href='JDT.xhtml#JT16_9'>ch. 16. 9</a>.
+Judith	13	6	2	Then she came to the pillar of the bed, which was at Holofernes’ head, and took down his 	h	<a href='JDT.xhtml#JT16_9'>ch. 16. 9</a>.
 Judith	13	8	1	And she smote twice upon his neck with all her might, and 	i	See <a href='1SA.xhtml#S117_51'>1 Sam. 17. 51</a>.
 Judith	13	9	1	and tumbled his body down from the bed, and pulled down the 	k	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
 Judith	13	9	2	and tumbled his body down from the bed, and pulled down the canopy from the 	l	Gk. not as <a href='JDT.xhtml#JT13_6'>ver. 6</a>.
@@ -132,30 +132,30 @@ Judith	14	1	1	Then said Judith unto them, Hear me now, my brethren, and take thi
 Judith	14	10	1	And when Achior had seen all that the God of Israel had done, he believed in God greatly, and 	g	Comp. <a href='EXO.xhtml#EX12_48'>Ex. 12. 48</a>, <a href='EXO.xhtml#EX12_49'>49</a>.
 Judith	14	10	2	And when Achior had seen all that the God of Israel had done, he believed in God greatly, and circumcised the flesh of his foreskin, and was joined unto the house of Israel 	h	So <a href='DEU.xhtml#DT34_6'>Deut. 34. 6</a>. <a href='JOS.xhtml#JS4_9'>Josh. 4. 9</a>. <a href='JDG.xhtml#JG1_26'>Judg. 1. 26</a>. <a href='MAT.xhtml#MT27_8'>Matt. 27. 8</a>. &amp; <a href='MAT.xhtml#MT28_15'>28. 15</a>.
 Judith	14	11	1	And as soon as the morning arose, 	i	<a href='JDT.xhtml#JT14_1'>ver. 1</a>.
-Judith	14	11	2	And as soon as the morning arose, they hanged the head of Olofernes upon the wall, and 	k	<a href='JDT.xhtml#JT14_2'>ver. 2</a>.
-Judith	14	11	3	And as soon as the morning arose, they hanged the head of Olofernes upon the wall, and every man took his weapons, and they went forth by bands unto the 	*	Or, <span class='add'>ascents</span>. See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>.
+Judith	14	11	2	And as soon as the morning arose, they hanged the head of Holofernes upon the wall, and 	k	<a href='JDT.xhtml#JT14_2'>ver. 2</a>.
+Judith	14	11	3	And as soon as the morning arose, they hanged the head of Holofernes upon the wall, and every man took his weapons, and they went forth by bands unto the 	*	Or, <span class='add'>ascents</span>. See <a href='JDT.xhtml#JT4_7'>ch. 4. 7</a>.
 Judith	14	12	1	But 	l	<a href='JDT.xhtml#JT14_3'>ver. 3</a>.
 Judith	14	12	2	But when the Assyrians saw them, they sent to their leaders, which came to their captains and 	m	See <a href='1MA.xhtml#M116_19'>1 Macc. 16. 19</a> marg.
 Judith	14	13	1	So 	l	<a href='JDT.xhtml#JT14_3'>ver. 3</a>.
-Judith	14	13	2	So they came to Olofernes’ tent, and said to 	n	<a href='JDT.xhtml#JT14_14'>ver. 14</a>. <a href='JDT.xhtml#JT12_11'>ch. 12. 11</a>, <a href='JDT.xhtml#JT12_13'>13</a>. &amp; <a href='JDT.xhtml#JT13_1'>13. 1</a>, <a href='JDT.xhtml#JT13_3'>3</a>.
-Judith	14	13	3	So they came to Olofernes’ tent, and said to him that had the charge of all his things, Waken now our lord: for the slaves have been bold to come down against us to battle, that they may be 	o	See <a href='JDT.xhtml#JT7_30'>ch. 7. 30</a>.
+Judith	14	13	2	So they came to Holofernes’ tent, and said to 	n	<a href='JDT.xhtml#JT14_14'>ver. 14</a>. <a href='JDT.xhtml#JT12_11'>ch. 12. 11</a>, <a href='JDT.xhtml#JT12_13'>13</a>. &amp; <a href='JDT.xhtml#JT13_1'>13. 1</a>, <a href='JDT.xhtml#JT13_3'>3</a>.
+Judith	14	13	3	So they came to Holofernes’ tent, and said to him that had the charge of all his things, Waken now our lord: for the slaves have been bold to come down against us to battle, that they may be 	o	See <a href='JDT.xhtml#JT7_30'>ch. 7. 30</a>.
 Judith	14	14	1	Then went in 	n	<a href='JDT.xhtml#JT14_14'>ver. 14</a>. <a href='JDT.xhtml#JT12_11'>ch. 12. 11</a>, <a href='JDT.xhtml#JT12_13'>13</a>. &amp; <a href='JDT.xhtml#JT13_1'>13. 1</a>, <a href='JDT.xhtml#JT13_3'>3</a>.
 Judith	14	16	1		*	[Or,] <span class='add'>Then</span>.
 Judith	14	16	2	Therefore he cried with a loud voice, with weeping, and sighing, and a mighty cry, and 	p	See <a href='GEN.xhtml#GN44_13'>Gen. 44. 13</a>.
-Judith	14	17	1	After, he went into 	q	See <a href='JDT.xhtml#JT12_5'>ch. 12. 5</a>.
+Judith	14	17	1	After he went into 	q	See <a href='JDT.xhtml#JT12_5'>ch. 12. 5</a>.
 Judith	14	18	1	These slaves have 	r	<a href='JER.xhtml#JR3_20'>Jer. 3. 20</a> (Gk.). So <a href='JDG.xhtml#JG9_23'>Judg. 9. 23</a> (Gk.).
 Judith	14	19	1	When the captains of the Assyrians’ army heard these words, they 	p	See <a href='GEN.xhtml#GN44_13'>Gen. 44. 13</a>.
-Judith	14	19	2	When the captains of the Assyrians’ army heard these words, they rent their coats, and their minds were wonderfully 	s	<a href='JDT.xhtml#JT14_7'>ver. 7</a> (Gk.). <a href='JDT.xhtml#JT16_10'>ch. 16. 10</a> marg.
-Judith	14	2	1	And so soon as the morning shall appear, and the sun shall come forth upon the earth, take you every one his weapons, and go forth every valiant man out of the city, and set you a captain over them, as though you would go down into the field toward the 	b	<a href='JDT.xhtml#JT10_11'>ch. 10. 11</a> (Gk.).
-Judith	14	5	1	But before you do these things, call me 	c	See <a href='JDT.xhtml#JT5_5'>ch. 5. 5</a>.
+Judith	14	19	2	When the captains of the Assyrians’ army heard these words, they rent their coats and their minds were wonderfully 	s	<a href='JDT.xhtml#JT14_7'>ver. 7</a> (Gk.). <a href='JDT.xhtml#JT16_10'>ch. 16. 10</a> marg.
+Judith	14	2	1	And so soon as the morning shall appear, and the sun shall come forth upon the earth, take ye every one his weapons, and go forth every valiant man out of the city, and set ye a captain over them, as though ye would go down into the field toward the 	b	<a href='JDT.xhtml#JT10_11'>ch. 10. 11</a> (Gk.).
+Judith	14	5	1	But before ye do these things, call me 	c	See <a href='JDT.xhtml#JT5_5'>ch. 5. 5</a>.
 Judith	14	6	1	Then they called Achior 	d	<a href='JDT.xhtml#JT6_21'>ch. 6. 21</a>.
-Judith	14	6	2	Then they called Achior out of the house of Ozias; and when he was come, and saw the head of Olofernes in a man’s hand in the assembly of the people, he fell down on his face, and 	e	So <a href='1KI.xhtml#K110_5'>1 Kin. 10. 5</a>.
+Judith	14	6	2	Then they called Achior out of the house of Ozias; and when he was come, and saw the head of Holofernes in a man’s hand in the assembly of the people, he fell down on his face, and 	e	So <a href='1KI.xhtml#K110_5'>1 Kin. 10. 5</a>.
 Judith	14	7	1	But when they had recovered him, 	f	<a href='JDT.xhtml#JT10_23'>ch. 10. 23</a>.
 Judith	14	7	2	But when they had recovered him, he fell at Judith’s feet, and reverenced her, and said, Blessed art thou in all the tabernacles of Juda, and in all nations, which hearing thy name shall be 	s	<a href='JDT.xhtml#JT14_7'>ver. 7</a> (Gk.). <a href='JDT.xhtml#JT16_10'>ch. 16. 10</a> marg.
 Judith	15	10	1	thou hast done all these things by thine hand: thou hast done much good to Israel, and God is pleased therewith: blessed be thou of the 	k	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
 Judith	15	10	2	thou hast done all these things by thine hand: thou hast done much good to Israel, and God is pleased therewith: blessed be thou of the Almighty Lord for evermore. 	l	<a href='JDT.xhtml#JT13_20'>ch. 13. 20</a>.
-Judith	15	11	1	And the people spoiled the camp the space of thirty days: and they gave unto Judith Olofernes his tent, and all 	m	<a href='JDT.xhtml#JT12_1'>ch. 12. 1</a>.
-Judith	15	11	2	And the people spoiled the camp the space of thirty days: and they gave unto Judith Olofernes his tent, and all his plate, and beds, and vessels, and all his 	n	So <a href='JDT.xhtml#JT16_19'>ch. 16. 19</a>. <a href='LUK.xhtml#LK17_31'>Luke 17. 31</a> (Gk.&amp; Engl.).
+Judith	15	11	1	And the people spoiled the camp the space of thirty days: and they gave unto Judith Holofernes his tent, and all 	m	<a href='JDT.xhtml#JT12_1'>ch. 12. 1</a>.
+Judith	15	11	2	And the people spoiled the camp the space of thirty days: and they gave unto Judith Holofernes his tent, and all his plate, and beds, and vessels, and all his 	n	So <a href='JDT.xhtml#JT16_19'>ch. 16. 19</a>. <a href='LUK.xhtml#LK17_31'>Luke 17. 31</a> (Gk.&amp; Engl.).
 Judith	15	12	1	Then all the women of Israel ran together to see her, and blessed her, and made a dance among them for her: and she took 	o	<a href='2MA.xhtml#M210_7'>2 Macc. 10. 7</a>.
 Judith	15	13	1	And they put a garland of olive upon her and her maid that was with her, and she went before all the people 	p	<a href='JDT.xhtml#JT3_7'>ch. 3. 7</a>. See <a href='EXO.xhtml#EX15_20'>Ex. 15. 20</a>.
 Judith	15	13	2	And they put a garland of olive upon her and her maid that was with her, and she went before all the people in the dance, leading all the women: and all the men of Israel followed in their armour 	q	See <a href='JDT.xhtml#JT3_7'>ch. 3. 7</a>.
@@ -164,10 +164,10 @@ Judith	15	3	1	They also 	b	<a href='JDT.xhtml#JT7_1'>ch. 7. 1</a>.
 Judith	15	4	1	Then sent Ozias to 	c	So <a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>.
 Judith	15	4	2	Then sent Ozias to Betomasthem, and to Bebai, and 	d	Comp. <a href='JDT.xhtml#JT4_4'>ch. 4. 4</a>?
 Judith	15	5	1	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto 	d	Comp. <a href='JDT.xhtml#JT4_4'>ch. 4. 4</a>?
-Judith	15	5	2	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in 	e	<a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>.
-Judith	15	5	3	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in Galaad, and in 	e	<a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>.
-Judith	15	5	4	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in Galaad, and in Galilee, 	*	Or, <span class='add'>overcame</span>.
-Judith	15	5	5	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Choba: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies,) and they that were in Galaad, and in Galilee, chased them with a great slaughter, until they were past 	f	See <a href='ISA.xhtml#IS7_8'>Isai. 7. 8</a>.
+Judith	15	5	2	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Chobai: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies) and they that were in 	e	<a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>.
+Judith	15	5	3	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Chobai: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies) and they that were in Galaad, and in 	e	<a href='JDT.xhtml#JT1_8'>ch. 1. 8</a>.
+Judith	15	5	4	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Chobai: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies) and they that were in Galaad, and in Galilee, 	*	Or, <span class='add'>overcame</span>.
+Judith	15	5	5	Now when the children of Israel heard it, they all fell upon them with one consent, and slew them unto Chobai: likewise also they that came from Jerusalem, and from all the hill country, (for men had told them what things were done in the camp of their enemies) and they that were in Galaad, and in Galilee, chased them with a great slaughter, until they were past 	f	See <a href='ISA.xhtml#IS7_8'>Isai. 7. 8</a>.
 Judith	15	8	1	Then 	g	See <a href='JDT.xhtml#JT4_6'>ch. 4. 6</a>.
 Judith	15	8	2	Then Joacim the high priest, and the 	h	See <a href='JDT.xhtml#JT4_8'>ch. 4. 8</a>.
 Judith	15	8	3	Then Joacim the high priest, and the ancients of the children of Israel that dwelt in Jerusalem, came to behold the good things that God had shewed to Israel, and to see Judith, and to 	i	Comp. <a href='JDG.xhtml#JG18_15'>Judg. 18. 15</a> marg.
@@ -177,7 +177,7 @@ Judith	16	10	2	The Persians quaked at her boldness, And the 	s	<a href='JDT.xhtm
 Judith	16	10	3	The Persians quaked at her boldness, And the Medes were 	*	Or, <span class='add'>confounded</span>. <a href='JDT.xhtml#JT14_7'>ch. 14. 7</a>, <a href='JDT.xhtml#JT14_19'>19</a> (Gk.).
 Judith	16	10	4	The Persians quaked at her boldness, And the Medes were 	t	<a href='JDT.xhtml#JT9_8'>ch. 9. 8</a> (Gk.)?
 Judith	16	11	1	Then my afflicted shouted for joy, And my weak ones cried aloud; but 	*	[That is,] <span class='add'>the Assyrians</span>.
-Judith	16	12	1	The sons of the damsels have pierced them through, And wounded them as fugitives’ children: They perished by the 	u	See <a href='JDT.xhtml#JT5_23'>ch. 5. 23</a>.
+Judith	16	12	1	The sons of the damsels have pierced them through, and wounded them as fugatives’ children: they perished by the 	u	See <a href='JDT.xhtml#JT5_23'>ch. 5. 23</a>.
 Judith	16	13	1	I will sing unto the Lord 	*	Or, <span class='add'>a song of praise</span>.
 Judith	16	13	2	I will sing unto the Lord a new song: 	w	Comp. <a href='EXO.xhtml#EX15_11'>Ex. 15. 11</a>.
 Judith	16	14	1	Let all creatures serve thee: 	x	<a href='PSA.xhtml#PS33_9'>Ps. 33. 9</a>. Comp. <a href='GEN.xhtml#GN1_3'>Gen. 1. 3</a>, &amp;c. So <a href='JDT.xhtml#JT9_12'>ch. 9. 12</a>. <a href='ESG.xhtml#EG13_10'>Esther 13. 10</a>.
@@ -189,8 +189,8 @@ Judith	16	17	1	Woe to the nations that rise up against my kindred! The Lord 	i	S
 Judith	16	17	2	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them 	c	<a href='ESG.xhtml#EG10_11'>Esther 10. 11</a>. <a href='MAT.xhtml#MT10_15'>Matt. 10. 15</a>. &amp; <a href='MAT.xhtml#MT11_22'>11. 22</a>, <a href='MAT.xhtml#MT11_24'>24</a>. &amp; <a href='MAT.xhtml#MT12_36'>12. 36</a>. <a href='MRK.xhtml#MK6_11'>Mark 6. 11</a>. <a href='2PE.xhtml#P22_9'>2 Pet. 2. 9</a>. &amp; <a href='2PE.xhtml#P23_7'>3. 7</a>. <a href='1JN.xhtml#1JN4_17'>1 John 4. 17</a>. So <a href='JUD.xhtml#JD1_6'>Jude 6</a>.
 Judith	16	17	3	Woe to the nations that rise up against my kindred! The Lord Almighty will take vengeance of them in the day of judgment, In putting fire and 	d	Comp. <a href='JOB.xhtml#JB14_22'>Job 14. 22</a>. <a href='ISA.xhtml#IS66_24'>Isai. 66. 24</a>.
 Judith	16	19	1	Judith also dedicated all the 	e	See <a href='JDT.xhtml#JT15_11'>ch. 15. 11</a>.
-Judith	16	19	2	Judith also dedicated all the stuff of Olofernes, which the people had given her, and gave the 	f	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
-Judith	16	19	3	Judith also dedicated all the stuff of Olofernes, which the people had given her, and gave the canopy, which she had taken out of his bedchamber, for a 	g	<a href='2MA.xhtml#M29_16'>2 Macc. 9. 16</a>. <a href='LUK.xhtml#LK21_5'>Luke 21. 5</a>.
+Judith	16	19	2	Judith also dedicated all the stuff of Holofernes, which the people had given her, and gave the 	f	See <a href='JDT.xhtml#JT10_21'>ch. 10. 21</a>.
+Judith	16	19	3	Judith also dedicated all the stuff of Holofernes, which the people had given her, and gave the canopy, which she had taken out of his bedchamber, for a 	g	<a href='2MA.xhtml#M29_16'>2 Macc. 9. 16</a>. <a href='LUK.xhtml#LK21_5'>Luke 21. 5</a>.
 Judith	16	2	1	And Judith said, Begin unto my God with 	a	See <a href='JDT.xhtml#JT3_7'>ch. 3. 7</a>.
 Judith	16	2	2	And Judith said, Begin unto my God with timbrels, Sing unto my Lord with 	b	<a href='1ES.xhtml#E15_59'>1 Esdr. 5. 59</a>. <a href='1MA.xhtml#M14_54'>1 Macc. 4. 54</a>. See <a href='PSA.xhtml#PS150_5'>Ps. 150. 5</a>.
 Judith	16	2	3	And Judith said, Begin unto my God with timbrels, Sing unto my Lord with cymbals: Tune unto him a 	*	Or, <span class='add'>psalm and praise</span>.
