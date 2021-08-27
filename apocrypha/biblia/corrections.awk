@@ -1739,6 +1739,112 @@ else if ($3 == "19")
 
 }
 
+/^Esther/ {
+if ($2 == "11")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "In the second year of the reign of Artexerxes the great, in the first day of the month Nisan, Mardocheus the son of Jairus, the son of Semei, the son of Cisai, of the tribe of Benjamin, had a dream; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "And lo a day of darkness and obscurity, tribulation and anguish, affliction and great uproar, upon earth.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "13")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "The copy of the letters was this: The great king Artexerxes writeth these things to the princes and governours that are under him from India unto Ethiopia in an hundred and seven and twenty provinces.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "After that I became lord over many nations and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself always with equity and mildness, I purposed to settle my subjects continually in a quiet life, and making my kingdom peaceable, and open for passage to the utmost coasts, to renew peace, which is desired of all men.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "Now when I asked my counsellors how this might be brought to pass, Aman, that excelled in wisdom among us, and was approved for his constant good will and steadfast fidelity, and had the honour of the second place in the kingdom, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "Declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably intended by us cannot go forward.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "14")
+	{
+
+
+		if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "From my youth up I have heard in the tribe of my family that thou, O Lord, tookest Israel from among all people, and our fathers from all their predecessors, for a perpetual inheritance, and thou hast performed whatsoever thou didst promise them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "19")
+		{
+			$5 = correctAllVerses($5, "O thou mighty God above all, hear the voice of the forlorn and deliver us out of the hands of the mischievous, and deliver me out of my fear.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "15")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "And upon the third day, when she had ended her prayers, she laid away her mourning garments, and put on her glorious apparel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "16")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "The great king Artexerxes unto the princes and governors of an hundred and seven and twenty provinces from India unto Ethiopia, and unto all our faithful subjects, greeting.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "Had so far forth obtained the favour that we shew toward every nation, as that he was called our father, and was continually honoured of all the next person unto the king.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "16")
+		{
+			$5 = correctAllVerses($5, "And that they be children of the most high and most mighty, living God, who hath ordered the kingdom both unto us and to our progenitors in the most excellent manner.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "For he that was the worker of these things, is hanged at the gates of Susa with all his family: God, who ruleth all things, speedily rendering vengeance to him according to his deserts.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+}
+
 {
 print toReturn;
 }

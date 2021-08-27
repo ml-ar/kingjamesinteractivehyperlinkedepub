@@ -4038,22 +4038,22 @@ Esther	11	1	3	In the fourth year of the reign of Ptolemeus and Cleopatra, Dosith
 Esther	11	11	1	The light and the sun rose up, and the lowly were exalted, and devoured 	l	<a href='ESG.xhtml#EG12_6'>ch. 12. 6</a> (Gk.).
 Esther	11	12	1	Now when Mardocheus, who had seen this 	e	<a href='ESG.xhtml#EG10_5'>ch. 10. 5–12</a>.
 Esther	11	2	1	In 	c	Comp. <a href='EST.xhtml#ET1_3'>ch. 1. 3</a>.
-Esther	11	2	2	In the second year of the reign of Artaxerxes the great, in the first day of the month Nisan, 	d	<a href='EST.xhtml#ET2_5'>ch. 2. 5</a> (Gk.).
-Esther	11	2	3	In the second year of the reign of Artaxerxes the great, in the first day of the month Nisan, Mardocheus the son of Jairus, the son of Semei, the son of Cisai, of the tribe of Benjamin, had 	e	<a href='ESG.xhtml#EG10_5'>ch. 10. 5–12</a>.
+Esther	11	2	2	In the second year of the reign of Artexerxes the great, in the first day of the month Nisan, 	d	<a href='EST.xhtml#ET2_5'>ch. 2. 5</a> (Gk.).
+Esther	11	2	3	In the second year of the reign of Artexerxes the great, in the first day of the month Nisan, Mardocheus the son of Jairus, the son of Semei, the son of Cisai, of the tribe of Benjamin, had 	e	<a href='ESG.xhtml#EG10_5'>ch. 10. 5–12</a>.
 Esther	11	3	1		d	<a href='EST.xhtml#ET2_5'>ch. 2. 5</a> (Gk.).
 Esther	11	3	2	who was a Jew, and dwelt in the city of 	f	See <a href='NEH.xhtml#NH1_1'>Neh. 1. 1</a>.
 Esther	11	3	3	who was a Jew, and dwelt in the city of Susa, a great man, being a 	g	<a href='2KI.xhtml#K24_43'>2 Kin. 4. 43</a> (Engl.).
 Esther	11	4	1		h	<a href='EST.xhtml#ET2_6'>ch. 2. 6</a>.
 Esther	11	4	2	He was also one of the captives, which Nabuchodonosor the king of Babylon carried from Jerusalem with Jechonias king of Judea; and this was his 	e	<a href='ESG.xhtml#EG10_5'>ch. 10. 5–12</a>.
-Esther	11	8	1	And lo, 	i	<a href='JOL.xhtml#JL2_2'>Joel 2. 2</a> (Gk.).
-Esther	11	8	2	And lo, a day of darkness and obscurity, 	k	<a href='2ES.xhtml#E216_19'>2 Esdr. 16. 19</a>. <a href='ROM.xhtml#RM2_9'>Rom. 2. 9</a>. &amp; <a href='ROM.xhtml#RM8_35'>8. 35</a>.
+Esther	11	8	1	And lo 	i	<a href='JOL.xhtml#JL2_2'>Joel 2. 2</a> (Gk.).
+Esther	11	8	2	And lo a day of darkness and obscurity, 	k	<a href='2ES.xhtml#E216_19'>2 Esdr. 16. 19</a>. <a href='ROM.xhtml#RM2_9'>Rom. 2. 9</a>. &amp; <a href='ROM.xhtml#RM8_35'>8. 35</a>.
 Esther	12	1	1	And 	a	Comp. <a href='EST.xhtml#ET2_21'>ch. 2. 21</a>. &amp; <a href='EST.xhtml#ET6_2'>6. 2</a>.
 Esther	12	2	1	And 	b	Comp. <a href='EST.xhtml#ET2_22'>ch. 2. 22</a>.
 Esther	12	6	1	Howbeit 	c	<a href='EST.xhtml#ET3_1'>ch. 3. 1</a> (Gk.). Comp. <a href='ESG.xhtml#EG16_10'>ch. 16. 10</a>.
 Esther	12	6	2	Howbeit Aman the son of Amadathus the 	c	<a href='EST.xhtml#ET3_1'>ch. 3. 1</a> (Gk.). Comp. <a href='ESG.xhtml#EG16_10'>ch. 16. 10</a>.
 Esther	12	6	3	Howbeit Aman the son of Amadathus the Agagite, who was 	d	<a href='ESG.xhtml#EG11_11'>ch. 11. 11</a> (Gk.).
-Esther	13	1	1	[PLACED IN THE GREEK AFTER CH. III. 13 OF THE HEBREW]. XIII. The copy of the letters was this: 	a	To <a href='ESG.xhtml#EG13_7'>ver. 7</a>, Joseph. Antiq. lib. 11. cap. 6. [6].
-Esther	13	1	2	[PLACED IN THE GREEK AFTER CH. III. 13 OF THE HEBREW]. XIII. The copy of the letters was this: The great king Artaxerxes writeth these things to the princes and governors that are under him 	b	<a href='EST.xhtml#ET1_1'>ch. 1. 1</a>. &amp; <a href='ESG.xhtml#EG16_1'>16. 1</a>.
+Esther	13	1	1	The copy of the letters was this: The great king Artexerxes writeth these things to the princes and governours 	a	To <a href='ESG.xhtml#EG13_7'>ver. 7</a>, Joseph. Antiq. lib. 11. cap. 6. [6].
+Esther	13	1	2	The copy of the letters was this: The great king Artexerxes writeth these things to the princes and governours that are under him from India unto Ethiopia in an hundred and seven and twenty provinces.	b	<a href='EST.xhtml#ET1_1'>ch. 1. 1</a>. &amp; <a href='ESG.xhtml#EG16_1'>16. 1</a>.
 Esther	13	10	1		j	See <a href='JDT.xhtml#JT16_14'>Judith 16. 14</a>.
 Esther	13	12	1		k	So <a href='ESG.xhtml#EG14_15'>ch. 14. 15</a>. <a href='JHN.xhtml#JN21_17'>John 21. 17</a>. See <a href='1SA.xhtml#S116_7'>1 Sam. 16. 7</a>.
 Esther	13	12	2	Thou knowest all things, and thou knowest, Lord, that it was neither in contempt nor pride, nor for any desire of glory, that 	l	<a href='EST.xhtml#ET3_2'>ch. 3. 2</a>, <a href='EST.xhtml#ET3_5'>5</a>.
@@ -4065,15 +4065,15 @@ Esther	13	17	1	Hear my prayer, and be merciful unto thine inheritance: 	q	So <a 
 Esther	13	17	2	Hear my prayer, and be merciful unto thine inheritance: turn our sorrow into joy, that we may live, O Lord, and praise thy name: and 	*	Or, <span class='add'>shut</span>, or, <span class='add'>stop not</span>.
 Esther	13	17	3	Hear my prayer, and be merciful unto thine inheritance: turn our sorrow into joy, that we may live, O Lord, and praise thy name: and 	r	<a href='ESG.xhtml#EG14_9'>ch. 14. 9</a>.
 Esther	13	18	1	All Israel in like manner cried 	*	Gr. <span class='add'>mightily</span>.
-Esther	13	2	1	After that I became lord over many nations, and had dominion over the whole 	c	<a href='ESG.xhtml#EG13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA1_22'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
-Esther	13	2	2	After that I became lord over many nations, and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself alway with equity and mildness, I purposed to settle 	cc	<a href='ESG.xhtml#EG16_3'>ch. 16. 3</a>.
-Esther	13	2	3	After that I became lord over many nations, and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself alway with equity and mildness, I purposed to settle my subjects continually in a quiet life, and making my kingdom 	*	Or, <span class='add'>mild.</span> <a href='1TI.xhtml#T12_2'>1 Tim. 2. 2</a> (Gk.).
-Esther	13	3	1	Now when I asked my counsellers how this might be brought to pass, Aman, that excelled in wisdom among us, and was 	d	<a href='ACT.xhtml#AC2_22'>Acts 2. 22</a>.
-Esther	13	3	2	Now when I asked my counsellers how this might be brought to pass, Aman, that excelled in wisdom among us, and was approved for his constant good will and stedfast fidelity, and 	e	So <a href='ESG.xhtml#EG13_6'>ver. 6</a>. See <a href='EST.xhtml#ET10_3'>ch. 10. 3</a>.
+Esther	13	2	1	After that I became lord over many nations and had dominion over the whole 	c	<a href='ESG.xhtml#EG13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA1_22'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
+Esther	13	2	2	After that I became lord over many nations and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself always with equity and mildness, I purposed to settle 	cc	<a href='ESG.xhtml#EG16_3'>ch. 16. 3</a>.
+Esther	13	2	3	After that I became lord over many nations and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself always with equity and mildness, I purposed to settle my subjects continually in a quiet life, and making my kingdom 	*	Or, <span class='add'>mild.</span> <a href='1TI.xhtml#T12_2'>1 Tim. 2. 2</a> (Gk.).
+Esther	13	3	1	Now when I asked my counsellors how this might be brought to pass, Aman, that excelled in wisdom among us, and was 	d	<a href='ACT.xhtml#AC2_22'>Acts 2. 22</a>.
+Esther	13	3	2	Now when I asked my counsellors how this might be brought to pass, Aman, that excelled in wisdom among us, and was approved for his constant good will and steadfast fidelity, and 	e	So <a href='ESG.xhtml#EG13_6'>ver. 6</a>. See <a href='EST.xhtml#ET10_3'>ch. 10. 3</a>.
 Esther	13	4	1		f	<a href='EST.xhtml#ET3_8'>ch. 3. 8</a>.
-Esther	13	4	2	declared unto us, that in all nations throughout 	c	<a href='ESG.xhtml#EG13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA1_22'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
-Esther	13	4	3	declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably 	g	<a href='ESG.xhtml#EG16_16'>ch. 16. 16</a> (Gk.).
-Esther	13	4	4	declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably intended by us, cannot 	*	Or, <span class='add'>be settled</span>.
+Esther	13	4	2	Declared unto us, that in all nations throughout 	c	<a href='ESG.xhtml#EG13_4'>ver. 4</a>. <a href='WIS.xhtml#WS1_7'>Wisd. 1. 7</a>. <a href='BAR.xhtml#BR6_62'>Baruch 6. 62</a>. <a href='S3Y.xhtml#PA1_22'>Song 22</a>. See <a href='MAT.xhtml#MT24_14'>Matt. 24. 14</a>.
+Esther	13	4	3	Declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably 	g	<a href='ESG.xhtml#EG16_16'>ch. 16. 16</a> (Gk.).
+Esther	13	4	4	Declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably intended by us cannot 	*	Or, <span class='add'>be settled</span>.
 Esther	13	6	1	therefore have we commanded, that all they that are signified in writing unto you by Aman, who is ordained over the affairs, and is 	*	Or, <span class='add'>second from us</span>. So <a href='JDT.xhtml#JT2_4'>Judith 2. 4</a>. <a href='ESG.xhtml#EG13_3'>ver. 3</a>. <a href='ESG.xhtml#EG16_11'>ch. 16. 11</a>.
 Esther	13	6	2	therefore have we commanded, that all they that are signified in writing unto you by Aman, who is ordained over the affairs, and is next unto us, shall all, with their wives and children, be utterly destroyed by the sword of their enemies, without all mercy and pity, the 	h	Comp. <a href='EST.xhtml#ET3_13'>ch. 3. 13</a>.
 Esther	13	9	1	Saying, O Lord, Lord, the King 	i	So <a href='ESG.xhtml#EG16_21'>ch. 16. 21</a>. See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
@@ -4094,7 +4094,7 @@ Esther	14	16	4	Thou knowest my necessity: for I abhor the sign of my high estate
 Esther	14	17	1	and that thine handmaid 	u	So <a href='JDT.xhtml#JT12_2'>Judith 12. 2</a>. See <a href='TOB.xhtml#TB1_10'>Tobit 1. 10</a>.
 Esther	14	18	1	Neither had thine handmaid any joy since the day 	*	Gr. <span class='add'>of my change</span>.
 Esther	14	19	1	O thou mighty God above all, hear the voice of the 	x	<a href='JDT.xhtml#JT9_11'>Judith 9. 11</a> (Gk.).
-Esther	14	19	2	O thou mighty God above all, hear the voice of the forlorn, and deliver us out of the hands of the mischievous, and deliver me out of 	y	<a href='ESG.xhtml#EG15_5'>ch. 15. 5</a>. So <a href='ESG.xhtml#EG14_1'>ver. 1</a>.
+Esther	14	19	2	O thou mighty God above all, hear the voice of the forlorn and deliver us out of the hands of the mischievous, and deliver me out of 	y	<a href='ESG.xhtml#EG15_5'>ch. 15. 5</a>. So <a href='ESG.xhtml#EG14_1'>ver. 1</a>.
 Esther	14	2	1	and laid away her glorious apparel, and put on 	a	So <a href='BAR.xhtml#BR4_20'>Baruch 4. 20</a>. See <a href='EST.xhtml#ET4_1'>ch. 4. 1</a>.
 Esther	14	2	2	and laid away her glorious apparel, and put on the garments of anguish and mourning: and 	b	So <a href='ISA.xhtml#IS3_24'>Isai. 3. 24</a>.
 Esther	14	2	3	and laid away her glorious apparel, and put on the garments of anguish and mourning: and instead of precious ointments, 	a	So <a href='BAR.xhtml#BR4_20'>Baruch 4. 20</a>. See <a href='EST.xhtml#ET4_1'>ch. 4. 1</a>.
@@ -4102,14 +4102,14 @@ Esther	14	2	4	and laid away her glorious apparel, and put on the garments of ang
 Esther	14	2	5	and laid away her glorious apparel, and put on the garments of anguish and mourning: and instead of precious ointments, she covered her head with ashes and dung, and she humbled her body greatly, and all the places of her joy she filled 	b	So <a href='ISA.xhtml#IS3_24'>Isai. 3. 24</a>.
 Esther	14	2	6	and laid away her glorious apparel, and put on the garments of anguish and mourning: and instead of precious ointments, she covered her head with ashes and dung, and she humbled her body greatly, and all the places of her joy she filled 	d	So <a href='EZR.xhtml#ER9_3'>Ezra 9. 3</a>.
 Esther	14	4	1	for 	e	<a href='JDG.xhtml#JG12_3'>Judg. 12. 3</a>. <a href='1SA.xhtml#S119_5'>1 Sam. 19. 5</a>. &amp; <a href='1SA.xhtml#S128_21'>28. 21</a>. <a href='JOB.xhtml#JB13_14'>Job 13. 14</a>. <a href='PSA.xhtml#PS119_109'>Ps. 119. 109</a>.
-Esther	14	5	1	From my youth up I have heard in the tribe of my family, that thou, O Lord, 	f	<a href='DEU.xhtml#DT4_34'>Deut. 4. 34</a>.
-Esther	14	5	2	From my youth up I have heard in the tribe of my family, that thou, O Lord, tookest Israel from among all people, and 	g	<a href='JOS.xhtml#JS24_2'>Josh. 24. 2</a>, <a href='JOS.xhtml#JS24_3'>3</a>.
+Esther	14	5	1	From my youth up I have heard in the tribe of my family that thou, O Lord, 	f	<a href='DEU.xhtml#DT4_34'>Deut. 4. 34</a>.
+Esther	14	5	2	From my youth up I have heard in the tribe of my family that thou, O Lord, tookest Israel from among all people, and 	g	<a href='JOS.xhtml#JS24_2'>Josh. 24. 2</a>, <a href='JOS.xhtml#JS24_3'>3</a>.
 Esther	14	6	1		h	So <a href='JDG.xhtml#JG2_11'>Judg. 2. 11–15</a>.
 Esther	14	7	1	because we worshipped their gods: O Lord, 	i	See <a href='EZR.xhtml#ER9_15'>Ezra 9. 15</a>.
 Esther	14	8	1	Nevertheless it satisfieth them not, that we are in bitter captivity: but they have 	k	See <a href='1CH.xhtml#R129_24'>1 Chr. 29. 24</a>.
 Esther	14	9	1	that they will abolish the thing that thou with thy mouth hast ordained, and destroy thine inheritance, and 	l	Gk. not as <a href='ESG.xhtml#EG13_17'>ch. 13. 17</a> marg.
 Esther	15	1	1		*	[To <a href='ESG.xhtml#EG15_16'>ver. 16</a>, substituted in the Greek for <a href='EST.xhtml#ET5_1'>ch. 5. 1</a>, <a href='EST.xhtml#ET5_2'>2</a> of the Hebrew].
-Esther	15	1	2	And upon the third day, when she had ended her prayer, 	a	<a href='ESG.xhtml#EG14_2'>ch. 14. 2</a>. Comp. <a href='BAR.xhtml#BR5_1'>Baruch 5. 1</a>.
+Esther	15	1	2	And upon the third day, when she had ended her prayers, 	a	<a href='ESG.xhtml#EG14_2'>ch. 14. 2</a>. Comp. <a href='BAR.xhtml#BR5_1'>Baruch 5. 1</a>.
 Esther	15	10	1	thou shalt not die, though our commandment be 	*	Or, <span class='add'>as well thine as mine</span>.
 Esther	15	13	1	Then said she unto him, I saw thee, my lord, 	g	See <a href='1SA.xhtml#S129_9'>1 Sam. 29. 9</a>.
 Esther	15	15	1	And as she was speaking, 	*	Or, <span class='add'>she fell in a swoon</span>.
@@ -4126,21 +4126,21 @@ Esther	15	7	2	Then lifting up his countenance that shone with majesty, he looked
 Esther	15	7	3	Then lifting up his countenance that shone with majesty, he looked very fiercely upon her: and the queen fell down, and was pale, and fainted, and bowed herself upon the head of the maid that went 	*	Or, <span class='add'>with her</span>, or, <span class='add'>by her</span>. Comp. <a href='ESG.xhtml#EG15_2'>ver. 2</a>, <a href='ESG.xhtml#EG15_3'>3</a>.
 Esther	15	8	1	Then God changed the spirit of the king into mildness, who 	*	Gr. <span class='add'>in an agony</span>. So <a href='ESG.xhtml#EG14_1'>ch. 14. 1</a> (Gk.).
 Esther	15	9	1	Esther, what is the matter? I am 	f	Comp. <a href='TOB.xhtml#TB5_20'>Tobit 5. 20</a>. &amp; <a href='TOB.xhtml#TB7_16'>7. 16</a>. &amp; <a href='TOB.xhtml#TB8_4'>8. 4</a>, <a href='TOB.xhtml#TB8_7'>7</a>. See <a href='SNG.xhtml#SS4_9'>Cant. 4. 9</a>.
-Esther	16	1	1	[Placed in the Greek After Ch. VIII. 12 of the Hebrew]. XVI. 	a	To <a href='ESG.xhtml#EG16_24'>ver. 24</a>, Joseph. Antiq. lib. <a href='ESG.xhtml#EG16_11'>11</a>. cap. <a href='ESG.xhtml#EG16_6'>6</a>. [<a href='ESG.xhtml#EG16_12'>12</a>.].
-Esther	16	1	2	[Placed in the Greek After Ch. VIII. 12 of the Hebrew]. XVI. The great king Artaxerxes unto the princes and governors of an hundred and seven and twenty provinces 	b	<a href='EST.xhtml#ET1_1'>ch. 1. 1</a>. &amp; <a href='ESG.xhtml#EG13_1'>13. 1</a>.
-Esther	16	1	3	[Placed in the Greek After Ch. VIII. 12 of the Hebrew]. XVI. The great king Artaxerxes unto the princes and governors of an hundred and seven and twenty provinces from India unto Ethiopia, and unto all 	*	Or, <span class='add'>well affected to our</span> state.
+Esther	16	1	1	The great king Artexerxes unto the princes and governors of an hundred 	a	To <a href='ESG.xhtml#EG16_24'>ver. 24</a>, Joseph. Antiq. lib. <a href='ESG.xhtml#EG16_11'>11</a>. cap. <a href='ESG.xhtml#EG16_6'>6</a>. [<a href='ESG.xhtml#EG16_12'>12</a>.].
+Esther	16	1	2	The great king Artexerxes unto the princes and governors of an hundred and seven and twenty provinces from India unto Ethiopia, and unto all our faithful subjects, greeting.	b	<a href='EST.xhtml#ET1_1'>ch. 1. 1</a>. &amp; <a href='ESG.xhtml#EG13_1'>13. 1</a>.
+Esther	16	1	3	The great king Artexerxes unto the princes and governors of an hundred and seven and twenty provinces from India unto Ethiopia, and unto all our faithful subjects, greeting.	*	Or, <span class='add'>well affected to our</span> state.
 Esther	16	10	1	For Aman, 	f	Comp. <a href='ESG.xhtml#EG12_6'>ch. 12. 6</a>.
 Esther	16	10	2	For Aman, a Macedonian, the son of 	g	Gk. as <a href='ESG.xhtml#EG12_6'>ch. 12. 6</a>. Comp. <a href='EST.xhtml#ET3_1'>ch. 3. 1</a>.
-Esther	16	11	1	had so far forth obtained the favour that we shew toward every nation, as that he was called our 	h	<a href='GEN.xhtml#GN45_8'>Gen. 45. 8</a>.
-Esther	16	11	2	had so far forth obtained the favour that we shew toward every nation, as that he was called our father, and was continually honoured of all men, as 	i	See <a href='ESG.xhtml#EG13_6'>ch. 13. 6</a>.
+Esther	16	11	1	Had so far forth obtained the favour that we shew toward every nation, as that he was called our 	h	<a href='GEN.xhtml#GN45_8'>Gen. 45. 8</a>.
+Esther	16	11	2	Had so far forth obtained the favour that we shew toward every nation, as that he was called our father, and was continually honoured of all the next 	i	See <a href='ESG.xhtml#EG13_6'>ch. 13. 6</a>.
 Esther	16	12	1	But he, not bearing his 	j	<a href='ESG.xhtml#EG14_16'>ch. 14. 16</a> (Gk.).
-Esther	16	16	1	and that they be children of 	k	See <a href='1ES.xhtml#E16_31'>1 Esdr. 6. 31</a>.
-Esther	16	16	2	and that they be children of the most high and most mighty 	l	<a href='BEL.xhtml#BL1_5'>Bel and Drag. 5</a>, <a href='BEL.xhtml#BL1_24'>24</a>. So <a href='2MA.xhtml#M27_33'>2 Macc. 7. 33</a>. &amp; <a href='2MA.xhtml#M215_4'>15. 4</a>. See <a href='PSA.xhtml#PS42_2'>Ps. 42. 2</a>.
-Esther	16	16	3	and that they be children of the most high and most mighty living God, who hath 	*	Or, <span class='add'>prospered</span>. <a href='ESG.xhtml#EG13_4'>ch. 13. 4</a> (Gk.).
+Esther	16	16	1	And that they be children of 	k	See <a href='1ES.xhtml#E16_31'>1 Esdr. 6. 31</a>.
+Esther	16	16	2	And that they be children of the most high and most mighty, 	l	<a href='BEL.xhtml#BL1_5'>Bel and Drag. 5</a>, <a href='BEL.xhtml#BL1_24'>24</a>. So <a href='2MA.xhtml#M27_33'>2 Macc. 7. 33</a>. &amp; <a href='2MA.xhtml#M215_4'>15. 4</a>. See <a href='PSA.xhtml#PS42_2'>Ps. 42. 2</a>.
+Esther	16	16	3	And that they be children of the most high and most mighty, living God, who hath 	*	Or, <span class='add'>prospered</span>. <a href='ESG.xhtml#EG13_4'>ch. 13. 4</a> (Gk.).
 Esther	16	17	1	Wherefore ye shall do well not to put in execution the letters sent unto you by Aman the son of 	g	Gk. as <a href='ESG.xhtml#EG12_6'>ch. 12. 6</a>. Comp. <a href='EST.xhtml#ET3_1'>ch. 3. 1</a>.
-Esther	16	18	1	For he, that was the worker of these things, 	m	<a href='EST.xhtml#ET7_10'>ch. 7. 10</a>.
-Esther	16	18	2	For he, that was the worker of these things, is hanged at the gates of 	n	See <a href='NEH.xhtml#NH1_1'>Neh. 1. 1</a>.
-Esther	16	18	3	For he, that was the worker of these things, is hanged at the gates of Susa 	o	<a href='EST.xhtml#ET9_10'>ch. 9. 10</a>.
+Esther	16	18	1	For he that was the worker of these things, 	m	<a href='EST.xhtml#ET7_10'>ch. 7. 10</a>.
+Esther	16	18	2	For he that was the worker of these things, is hanged at the gates of 	n	See <a href='NEH.xhtml#NH1_1'>Neh. 1. 1</a>.
+Esther	16	18	3	For he that was the worker of these things, is hanged at the gates of Susa 	o	<a href='EST.xhtml#ET9_10'>ch. 9. 10</a>.
 Esther	16	2	1	Many, the more often they are honoured with the great bounty of 	*	Gr. <span class='add'>their benefactors</span>.
 Esther	16	21	1	For 	p	So <a href='ESG.xhtml#EG13_9'>ch. 13. 9</a>. See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
 Esther	16	21	2	For Almighty God hath turned to joy unto them the day, wherein 	q	<a href='2ES.xhtml#E215_21'>2 Esdr. 15. 21</a>, <a href='2ES.xhtml#E215_53'>53</a>, <a href='2ES.xhtml#E215_56'>56</a>. &amp; <a href='2ES.xhtml#E216_73'>16. 73</a>. <a href='TOB.xhtml#TB8_15'>Tobit 8. 15</a> (Gk.). <a href='WIS.xhtml#WS3_9'>Wisd. 3. 9</a>. &amp; <a href='WIS.xhtml#WS4_15'>4. 15</a>. <a href='SIR.xhtml#SR17_10'>Ecclus. 17. 10</a>. &amp; <a href='SIR.xhtml#SR46_1'>46. 1</a>. &amp; <a href='SIR.xhtml#SR47_22'>47. 22</a>. &amp; <a href='SIR.xhtml#SR49_13'>49. 13</a>.

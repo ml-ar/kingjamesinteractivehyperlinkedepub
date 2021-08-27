@@ -754,20 +754,25 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  footnoteNu
 
 {
 
-if (!$1 || (!$2 && $2 != 0) || (!$3 && $3 != 0) || !$4 || !$6 || !$7)
-{
-print "ERROR: badly formated line: \n " $0; exit 1
+	if (!$1 || (!$2 && $2 != 0) || (!$3 && $3 != 0) || !$4 || !$6 || !$7)
+	{
+		print "ERROR: badly formated line: \n " $0; exit 1
 
-}
-book = $1
-chapter = $2
-verse = $3
-footnoteNumber = $4
-precedingText = $5
-footnoteSymbol = $6
-footnoteText = $7
+	}
 
-footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] = footnoteText
+	if ($1 ~ /Esther/)
+	{
+		$1 = "Esther (Greek)" #because apocrypha
+	}
+	book = $1
+		chapter = $2
+		verse = $3
+		footnoteNumber = $4
+		precedingText = $5
+		footnoteSymbol = $6
+		footnoteText = $7
+
+		footnotes[book][chapter][verse][footnoteNumber][precedingText][footnoteSymbol] = footnoteText
 
 
 }
@@ -776,18 +781,17 @@ END {
 
 	#Do special cases first
 
-	#writeSirach()
-	#writeS3Y()
-	#writeBel()
-	#writeSusanna()
-	#writeManasseh()
+#	writeSirach()
+#	writeS3Y()
+#	writeBel()
+#	writeSusanna()
+#	writeManasseh()
                  
 
 
 #START WORK HERE 1: Feed footnotes.txt into this file and start troubleshooting
 	for (x in footnotes) #for every book
 	{
-	
 		xhtmlFile = folderPrefix bookFiles[x]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
