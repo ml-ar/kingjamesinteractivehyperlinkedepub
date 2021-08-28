@@ -398,6 +398,11 @@ function storeTextFileInVariable(fileName,  toReturn,  line)
 }
 
 
+function removePunctuation(string)
+{
+return gensub(/[;,.?!:]/,"","g",string)
+}
+
 
 #returns fullVerseLine, but modified with the footnote symbol in the right place
 
@@ -457,7 +462,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		{
 			verseTextOnly = verseTextOnly "" splitArray[o]
 				toAppend = ""
-				if (position = index(tolower(verseTextOnly),tolower(precedingWords)) && !found) #we found the section in the xhtml where the footnote is to be inserted
+				if (position = index(removePunctuation(tolower(verseTextOnly)),removePunctuation(tolower(precedingWords))) && !found) #we found the section in the xhtml where the footnote is to be inserted
 				{
 					found = "ja"
 						position = length(precedingWords)

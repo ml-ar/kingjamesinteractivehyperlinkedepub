@@ -1893,7 +1893,53 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+else if ($2 == "2")
+	{
 
+
+		if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "He said, Woe is me! wherefore was I born to see this misery of my people, and of the holy city, and to dwell there, when it was delivered into the hand of the enemy, and the sanctuary into the hand of strangers?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "And, behold, our sanctuary, even our beauty and our glory, is laid waste, and the Gentiles have profaned it.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "18")
+		{
+			$5 = correctAllVerses($5, "Now therefore come thou first, and fulfil the king’s commandment, like as all the heathen have done, yea, and the men of Juda also, and such as remain at Jerusalem: so shalt thou and thy house be in the number of the king’s friends, and thou and thy children shall be honoured with silver and gold, and many rewards.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "64")
+		{
+			$5 = correctAllVerses($5, "Wherefore, ye my sons, be valiant and shew yourselves men in the behalf of the law; for by it shall ye obtain glory.")
+
+			toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "3")
+	{
+
+
+		if ($3 == "16")
+		{
+			$5 = correctAllVerses($5, "And when he came near to the going up of Bethhoron, Judas went forth to meet him with a small company: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "38")
+		{
+			$5 = correctAllVerses($5, "Then Lysias chose Ptolemee the son of Dorymenes, Nicanor, and Gorgias, mighty men of the king’s friends: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
 }
 
 
