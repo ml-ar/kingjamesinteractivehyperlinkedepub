@@ -1740,7 +1740,7 @@ else if ($3 == "19")
 }
 
 /^Esther/ {
-if ($2 == "11")
+	if ($2 == "11")
 	{
 
 
@@ -1750,14 +1750,14 @@ if ($2 == "11")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "8")
+		else if ($3 == "8")
 		{
 			$5 = correctAllVerses($5, "And lo a day of darkness and obscurity, tribulation and anguish, affliction and great uproar, upon earth.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "13")
+	}
+	else if ($2 == "13")
 	{
 
 
@@ -1767,26 +1767,26 @@ else if ($2 == "13")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "2")
+		else if ($3 == "2")
 		{
 			$5 = correctAllVerses($5, "After that I became lord over many nations and had dominion over the whole world, not lifted up with presumption of my authority, but carrying myself always with equity and mildness, I purposed to settle my subjects continually in a quiet life, and making my kingdom peaceable, and open for passage to the utmost coasts, to renew peace, which is desired of all men.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "3")
+		else if ($3 == "3")
 		{
 			$5 = correctAllVerses($5, "Now when I asked my counsellors how this might be brought to pass, Aman, that excelled in wisdom among us, and was approved for his constant good will and steadfast fidelity, and had the honour of the second place in the kingdom, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "4")
+		else if ($3 == "4")
 		{
 			$5 = correctAllVerses($5, "Declared unto us, that in all nations throughout the world there was scattered a certain malicious people, that had laws contrary to all nations, and continually despised the commandments of kings, so as the uniting of our kingdoms, honourably intended by us cannot go forward.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "14")
+	}
+	else if ($2 == "14")
 	{
 
 
@@ -1796,14 +1796,14 @@ else if ($2 == "14")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "19")
+		else if ($3 == "19")
 		{
 			$5 = correctAllVerses($5, "O thou mighty God above all, hear the voice of the forlorn and deliver us out of the hands of the mischievous, and deliver me out of my fear.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "15")
+	}
+	else if ($2 == "15")
 	{
 
 
@@ -1813,8 +1813,8 @@ else if ($2 == "15")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "16")
+	}
+	else if ($2 == "16")
 	{
 
 
@@ -1824,26 +1824,79 @@ else if ($2 == "16")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "11")
+		else if ($3 == "11")
 		{
 			$5 = correctAllVerses($5, "Had so far forth obtained the favour that we shew toward every nation, as that he was called our father, and was continually honoured of all the next person unto the king.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "16")
+		else if ($3 == "16")
 		{
 			$5 = correctAllVerses($5, "And that they be children of the most high and most mighty, living God, who hath ordered the kingdom both unto us and to our progenitors in the most excellent manner.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "18")
+		else if ($3 == "18")
 		{
 			$5 = correctAllVerses($5, "For he that was the worker of these things, is hanged at the gates of Susa with all his family: God, who ruleth all things, speedily rendering vengeance to him according to his deserts.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
+	}
 }
+
+/^1 Mac/ {
+	if ($2 == "1")
+	{
+
+
+		if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "And he gathered a mighty strong host and ruled over countries, and nations, and kings, who became tributaries unto him.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "And there came out of them a wicked root Antiochus surnamed Epiphanes, son of Antiochus the king, who had been an hostage at Rome, and he reigned in the hundred and thirty and seventh year of the kingdom of the Greeks.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "Wherefore he entered into Egypt with a great multitude, with chariots, and elephants, and horsemen, and a great navy, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "And the table of the shewbread, and the pouring vessels, and the vials. and the censers of gold, and the veil, and the crown, and the golden ornaments that were before the temple, all which he pulled off.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "44")
+		{
+			$5 = correctAllVerses($5, "For the king had sent letters by messengers unto Jerusalem and the cities of Juda that they should follow the strange laws of the land, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "57")
+		{
+			$5 = correctAllVerses($5, "And whosoever was found with any the book of the testament, or if any committed to the law, the king’s commandment was, that they should put him to death.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "60")
+		{
+			$5 = correctAllVerses($5, "At which time according to the commandment they put to death certain women, that had caused their children to be circumcised.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+
 }
+
+
 
 {
 print toReturn;
