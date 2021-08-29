@@ -1893,7 +1893,7 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
-else if ($2 == "2")
+	else if ($2 == "2")
 	{
 
 
@@ -1903,26 +1903,26 @@ else if ($2 == "2")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "12")
+		else if ($3 == "12")
 		{
 			$5 = correctAllVerses($5, "And, behold, our sanctuary, even our beauty and our glory, is laid waste, and the Gentiles have profaned it.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "18")
+		else if ($3 == "18")
 		{
 			$5 = correctAllVerses($5, "Now therefore come thou first, and fulfil the king’s commandment, like as all the heathen have done, yea, and the men of Juda also, and such as remain at Jerusalem: so shalt thou and thy house be in the number of the king’s friends, and thou and thy children shall be honoured with silver and gold, and many rewards.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "64")
+		else if ($3 == "64")
 		{
 			$5 = correctAllVerses($5, "Wherefore, ye my sons, be valiant and shew yourselves men in the behalf of the law; for by it shall ye obtain glory.")
 
-			toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "3")
+	}
+	else if ($2 == "3")
 	{
 
 
@@ -1932,14 +1932,90 @@ else if ($2 == "3")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "38")
+		else if ($3 == "38")
 		{
 			$5 = correctAllVerses($5, "Then Lysias chose Ptolemee the son of Dorymenes, Nicanor, and Gorgias, mighty men of the king’s friends: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 
-}
+	}
+	else if ($2 == "4")
+	{
+
+
+		if ($3 == "30")
+		{
+			$5 = correctAllVerses($5, "And when he saw that mighty army, he prayed and said, Blessed art thou, O Saviour of Israel, who didst quell the violence of the mighty man by the hand of thy servant David, and gavest the host of strangers into the hands of Jonathan the son of Saul, and his armourbearer; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "38")
+		{
+			$5 = correctAllVerses($5, "And when they saw the sanctuary desolate, and the altar profaned, and the gates burned up, and shrubs growing in the courts as in a forest, or in one of the mountains, yea, and the priests’ chambers pulled down; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "50")
+		{
+			$5 = correctAllVerses($5, "And upon the altar they burned incense, and the lamps that were upon the candlestick they lighted, that they might give light in the temple.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "57")
+		{
+			$5 = correctAllVerses($5, "They decked also the forefront of the temple with crowns of gold, and with shields; and the gates and the chambers they renewed, and hanged doors upon them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+	}
+	else if ($2 == "5")
+	{
+
+
+		if ($3 == "25")
+		{
+			$5 = correctAllVerses($5, "Where they met with the Nabathites, who came unto them in a peaceable manner, and told them every thing that had happened to their brethren in the land of Galaad: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "26")
+		{
+			$5 = correctAllVerses($5, "And how that many of them were shut up in Bosora, and Bosor, and Alema, Casphor, Maked, and Carnaim; all these cities are strong and great: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "28")
+		{
+			$5 = correctAllVerses($5, "Hereupon Judas and his host turned suddenly by the way of the wilderness unto Bosora; and when he had won the city, he slew all the males with the edge of the sword, and took all their spoils, and burned the city with fire, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "This done, Judas turned aside to Maspha; and after he had assaulted it he took and slew all the males therein, and received the spoils thereof and and burnt it with fire.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "44")
+		{
+			$5 = correctAllVerses($5, "But they took the city, and burned the temple with all that were therein. Thus was Carnaim subdued, neither could they stand any longer before Judas.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "58")
+		{
+			$5 = correctAllVerses($5, "So when they had given charge unto the garrison that was with them, they went toward Jamnia.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+
+
+	}
 }
 
 
