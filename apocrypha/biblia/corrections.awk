@@ -2016,7 +2016,7 @@ else if ($3 == "19")
 
 
 	}
-else if ($2 == "6")
+	else if ($2 == "6")
 	{
 
 
@@ -2026,20 +2026,20 @@ else if ($2 == "6")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "49")
+		else if ($3 == "49")
 		{
 			$5 = correctAllVerses($5, "But with them that were in Bethsura he made peace: for they came out of the city, because they had no victuals there to endure the siege, it being a year of rest to the land.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "62")
+		else if ($3 == "62")
 		{
 			$5 = correctAllVerses($5, "Then the king entered into mount Sion; but when he saw the strength of the place, he broke his oath that he had made, and gave commandment to pull down the wall round about.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "7")
+	}
+	else if ($2 == "7")
 	{
 
 
@@ -2049,21 +2049,21 @@ else if ($2 == "7")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "35")
+		else if ($3 == "35")
 		{
 			$5 = correctAllVerses($5, "And sware in his wrath, saying, Unless Judas and his host be now delivered into my hands, if ever I come again in safety, I will burn up this house: and with that he went out in a great rage.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "47")
+		else if ($3 == "47")
 		{
 			$5 = correctAllVerses($5, "Afterwards they took the spoils, and the prey, and smote off Nicanors head, and his right hand, which he stretched out so proudly, and brought them away, and hanged them up toward Jerusalem.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 
-}
-else if ($2 == "8")
+	}
+	else if ($2 == "8")
 	{
 
 
@@ -2073,25 +2073,84 @@ else if ($2 == "8")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "2")
+		else if ($3 == "2")
 		{
 			$5 = correctAllVerses($5, "And that they were men of great valour. It was told him also of their wars and noble acts which they had done among the Galatians, and how they had conquered them, and brought them under tribute; ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "5")
+		else if ($3 == "5")
 		{
 			$5 = correctAllVerses($5, "Beside this, how they had discomfited in battle Philip, and Perseus, king of the Citims, with others that lifted up themselves against them, and had overcome them: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "31")
+		else if ($3 == "31")
 		{
 			$5 = correctAllVerses($5, "And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore thou made thy yoke heavy upon our friends and confederates the Jews?")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 
+	}
+else if ($2 == "9")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Furthermore, when Demetrius heard the Nicanor and his host were slain in battle, he sent Bacchides and Alcimus into the land of Judea the second time, and with them the chief strength of his host: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "Now after the death of Judas the wicked began to put forth their heads in all the coasts of Israel, and there arose up all such as wrought iniquity.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "26")
+		{
+			$5 = correctAllVerses($5, "And they made enquiry and search for Judas’ friends, and brought them unto Bacchides, who took vengeance of them, and used them despitefully.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "Now Jonathan had sent his brother John, a captain of the people, to pray his friends the Nabathites, that they might leave with them their carriage, which was much.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "39")
+		{
+			$5 = correctAllVerses($5, "Where they lifted up their eyes, and looked, and, behold, there was much ado and great carriage: and the bridegroom came forth, and his friends and brethren, to meet them with drums, and instruments of musick, and many weapons.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "50")
+		{
+			$5 = correctAllVerses($5, "Afterward returned Bacchides to Jerusalem and repaired the strong cites in Judea; the fort in Jericho, and Emmaus, and Bethhoron, and Bethel, and Thamnatha, Pharathoni, and Taphon, these did he strengthen with high walls, with gates and with bars.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "52")
+		{
+			$5 = correctAllVerses($5, "He fortified also the city Bethsura, and Gazera, and the tower, and put forces in them, and provision of victuals.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "55")
+		{
+			$5 = correctAllVerses($5, "And as he began to pull down, even at that time was Alcimus plagued, and his enterprizes hindered: for his mouth was stopped, and he was taken with a palsy, so that he could no more speak any thing, nor give order concerning his house.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "67")
+		{
+			$5 = correctAllVerses($5, "And when he began to smite them, and came up with his forces, Simon and his company went out of the city, and burned up the engines of war, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
 }
 }
 

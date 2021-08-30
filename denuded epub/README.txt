@@ -7,3 +7,5 @@ Also modified 1 Esdras 9:49, changing errant period to comma
 Tobit 3:10: When, not Whe 
 
 Judith 13:2: Lying along, not lying alone
+
+1 Macabees 9:50: Bethel, not Beth-el
