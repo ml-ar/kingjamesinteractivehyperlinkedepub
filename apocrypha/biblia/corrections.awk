@@ -2016,6 +2016,83 @@ else if ($3 == "19")
 
 
 	}
+else if ($2 == "6")
+	{
+
+
+		if ($3 == "17")
+		{
+			$5 = correctAllVerses($5, "Now when Lysias knew that the king was dead, he set up Antiochus his son, whom he had brought up being young, to reign in his stead, and his name he called Eupator.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "49")
+		{
+			$5 = correctAllVerses($5, "But with them that were in Bethsura he made peace: for they came out of the city, because they had no victuals there to endure the siege, it being a year of rest to the land.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "62")
+		{
+			$5 = correctAllVerses($5, "Then the king entered into mount Sion; but when he saw the strength of the place, he broke his oath that he had made, and gave commandment to pull down the wall round about.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "7")
+	{
+
+
+		if ($3 == "31")
+		{
+			$5 = correctAllVerses($5, "Nicanor also, when he saw that his counsel was discovered, went out to fight against Judas beside Capharsalama: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "And sware in his wrath, saying, Unless Judas and his host be now delivered into my hands, if ever I come again in safety, I will burn up this house: and with that he went out in a great rage.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "47")
+		{
+			$5 = correctAllVerses($5, "Afterwards they took the spoils, and the prey, and smote off Nicanors head, and his right hand, which he stretched out so proudly, and brought them away, and hanged them up toward Jerusalem.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
+else if ($2 == "8")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Now Judas had heard of the Romans, that they were mighty and valiant men, and such as would lovingly accept all that joined themselves unto them, and make a league of amity with all that came unto them; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And that they were men of great valour. It was told him also of their wars and noble acts which they had done among the Galatians, and how they had conquered them, and brought them under tribute; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "Beside this, how they had discomfited in battle Philip, and Perseus, king of the Citims, with others that lifted up themselves against them, and had overcome them: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "31")
+		{
+			$5 = correctAllVerses($5, "And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore thou made thy yoke heavy upon our friends and confederates the Jews?")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
 }
 
 

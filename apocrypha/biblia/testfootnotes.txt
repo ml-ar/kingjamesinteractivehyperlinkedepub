@@ -74,8 +74,8 @@
 1 Maccabees	6	16	2	So king Antiochus died 	w	<a href='1MA.xhtml#M16_4'>ver. 4</a>. Comp. <a href='2MA.xhtml#M29_28'>2 Macc. 9. 28</a>.
 1 Maccabees	6	16	3	So king Antiochus died there in 	*	B.C. 164. [Nisan]. Comp. <a href='2MA.xhtml#M211_21'>2 Macc. 11. 21</a>, <a href='2MA.xhtml#M211_33'>33</a>.
 1 Maccabees	6	17	1	Now when 	x	<a href='1MA.xhtml#M13_32'>ch. 3. 32</a>, <a href='1MA.xhtml#M13_33'>33</a>. <a href='1MA.xhtml#M16_55'>ver. 55</a>. &amp; <a href='1MA.xhtml#M17_2'>7. 2</a>. <a href='2MA.xhtml#M210_11'>2 Macc. 10. 11</a>. &amp; <a href='2MA.xhtml#M211_1'>11. 1</a>. &amp; <a href='2MA.xhtml#M212_1'>12. 1</a>, <a href='2MA.xhtml#M212_27'>27</a>. &amp; <a href='2MA.xhtml#M213_2'>13. 2</a>, <a href='2MA.xhtml#M213_4'>4</a>, <a href='2MA.xhtml#M213_26'>26</a>, &amp; <a href='2MA.xhtml#M214_2'>14. 2</a>.
-1 Maccabees	6	17	2	Now when Lysias knew that the king was dead, he set up Antiochus his son (	x	<a href='1MA.xhtml#M13_32'>ch. 3. 32</a>, <a href='1MA.xhtml#M13_33'>33</a>. <a href='1MA.xhtml#M16_55'>ver. 55</a>. &amp; <a href='1MA.xhtml#M17_2'>7. 2</a>. <a href='2MA.xhtml#M210_11'>2 Macc. 10. 11</a>. &amp; <a href='2MA.xhtml#M211_1'>11. 1</a>. &amp; <a href='2MA.xhtml#M212_1'>12. 1</a>, <a href='2MA.xhtml#M212_27'>27</a>. &amp; <a href='2MA.xhtml#M213_2'>13. 2</a>, <a href='2MA.xhtml#M213_4'>4</a>, <a href='2MA.xhtml#M213_26'>26</a>, &amp; <a href='2MA.xhtml#M214_2'>14. 2</a>.
-1 Maccabees	6	17	3	Now when Lysias knew that the king was dead, he set up Antiochus his son (whom he had brought up, being young) to reign in his stead, and his name he called 	y	See <a href='2MA.xhtml#M210_10'>2 Macc. 10. 10</a>.
+1 Maccabees	6	17	2	Now when Lysias knew that the king was dead, he set up Antiochus his son, whom 	x	<a href='1MA.xhtml#M13_32'>ch. 3. 32</a>, <a href='1MA.xhtml#M13_33'>33</a>. <a href='1MA.xhtml#M16_55'>ver. 55</a>. &amp; <a href='1MA.xhtml#M17_2'>7. 2</a>. <a href='2MA.xhtml#M210_11'>2 Macc. 10. 11</a>. &amp; <a href='2MA.xhtml#M211_1'>11. 1</a>. &amp; <a href='2MA.xhtml#M212_1'>12. 1</a>, <a href='2MA.xhtml#M212_27'>27</a>. &amp; <a href='2MA.xhtml#M213_2'>13. 2</a>, <a href='2MA.xhtml#M213_4'>4</a>, <a href='2MA.xhtml#M213_26'>26</a>, &amp; <a href='2MA.xhtml#M214_2'>14. 2</a>.
+1 Maccabees	6	17	3	Now when Lysias knew that the king was dead, he set up Antiochus his son, whom he had brought up being young, to reign in his stead, and his name he called 	y	See <a href='2MA.xhtml#M210_10'>2 Macc. 10. 10</a>.
 1 Maccabees	6	18	1	About this time they that were in 	z	<a href='1MA.xhtml#M16_24'>ver. 24</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	6	2	1	and that there was in it a very rich temple, wherein were 	*	Or, <span class='add'>shields</span>. <a href='1MA.xhtml#M14_6'>ch. 4. 6</a> (Gk.).
 1 Maccabees	6	2	2	and that there was in it a very rich temple, wherein were coverings of gold, and breastplates, and 	*	Or, <span class='add'>armour</span>. <a href='1MA.xhtml#M16_6'>ver. 6</a>. <a href='ROM.xhtml#RM13_12'>Rom. 13. 12</a>.
@@ -116,8 +116,8 @@
 1 Maccabees	6	47	1	Howbeit the rest of the Jews seeing the strength of the king, and 	t	Gk. as <a href='1MA.xhtml#M16_33'>ver. 33</a>.
 1 Maccabees	6	48	1	Then the king’s army went up to Jerusalem to meet them, and the king pitched his tents 	*	Or, <span class='add'>in Judea</span>. Gk. as <a href='1MA.xhtml#M16_53'>ver. 53</a>.
 1 Maccabees	6	49	1	But 	u	<a href='2MA.xhtml#M213_22'>2 Macc. 13. 22</a>.
-1 Maccabees	6	49	2	But with them that were in Bethsura he made peace: for they came out of the city 	*	Add out of Josephus, <span class='add'>and yielded themselves</span>.
-1 Maccabees	6	49	3	But with them that were in Bethsura he made peace: for they came out of the city , because they had no victuals there to endure the siege, it being 	w	<a href='1MA.xhtml#M16_53'>ver. 53</a>. See <a href='LEV.xhtml#LV25_4'>Lev. 25. 4</a>, <a href='LEV.xhtml#LV25_5'>5</a>. &amp; <a href='2CH.xhtml#R236_21'>2 Chr. 36. 21</a>.
+1 Maccabees	6	49	2	But with them that were in Bethsura he made peace: for they came out of the city, 	*	Add out of Josephus, <span class='add'>and yielded themselves</span>.
+1 Maccabees	6	49	3	But with them that were in Bethsura he made peace: for they came out of the city, because they had no victuals there to endure the siege, it being a 	w	<a href='1MA.xhtml#M16_53'>ver. 53</a>. See <a href='LEV.xhtml#LV25_4'>Lev. 25. 4</a>, <a href='LEV.xhtml#LV25_5'>5</a>. &amp; <a href='2CH.xhtml#R236_21'>2 Chr. 36. 21</a>.
 1 Maccabees	6	5	1	Moreover there came one who brought him tidings 	dd	Comp. <a href='2MA.xhtml#M29_3'>2 Macc. 9. 3</a>.
 1 Maccabees	6	51	1	As for the sanctuary, he besieged it many days: and 	*	Or, <span class='add'>made there mounts for shot</span>. <a href='1MA.xhtml#M16_20'>ver. 20</a>. So <a href='JER.xhtml#JR32_24'>Jer. 32. 24</a>. &amp; <a href='JER.xhtml#JR33_4'>33. 4</a>.
 1 Maccabees	6	52	1	Whereupon 	*	That is, <span class='add'>the Jews</span>.
@@ -133,7 +133,7 @@
 1 Maccabees	6	60	1		c	Comp. <a href='2MA.xhtml#M213_23'>2 Macc. 13. 23</a>. <a href='2MA.xhtml#M213_24'>24</a>.
 1 Maccabees	6	60	2	So the king and the princes 	d	<a href='1MA.xhtml#M18_21'>ch. 8. 21</a>. <a href='ACT.xhtml#AC6_5'>Acts 6. 5</a> in the Gk.
 1 Maccabees	6	62	1	Then the king entered into mount Sion; but when he saw the strength of the place, he 	e	<a href='1MA.xhtml#M111_36'>ch. 11. 36</a> (Gk.). &amp; <a href='1MA.xhtml#M114_44'>14. 44</a>, <a href='1MA.xhtml#M114_45'>45</a>. &amp; <a href='1MA.xhtml#M115_27'>15. 27</a>. <a href='2MA.xhtml#M213_25'>2 Macc. 13. 25</a> (Gk.). &amp; <a href='2MA.xhtml#M214_28'>14. 28</a> (Gk.). See <a href='MRK.xhtml#MK7_9'>Mark 7. 9</a> marg.
-1 Maccabees	6	62	2	Then the king entered into mount Sion; but when he saw the strength of the place, he brake his oath that he had made, and gave commandment to pull down 	f	<a href='1MA.xhtml#M14_60'>ch. 4. 60</a>. Comp. <a href='1MA.xhtml#M110_11'>ch. 10. 11</a>.
+1 Maccabees	6	62	2	Then the king entered into mount Sion; but when he saw the strength of the place, he broke his oath that he had made, and gave commandment to pull down 	f	<a href='1MA.xhtml#M14_60'>ch. 4. 60</a>. Comp. <a href='1MA.xhtml#M110_11'>ch. 10. 11</a>.
 1 Maccabees	6	63	1	Afterward departed he in all haste, 	g	Comp. <a href='2MA.xhtml#M213_26'>2 Macc. 13. 26</a>.
 1 Maccabees	6	63	2	Afterward departed he in all haste, and returned unto 	h	See <a href='1MA.xhtml#M13_37'>ch. 3. 37</a>.
 1 Maccabees	6	63	3	Afterward departed he in all haste, and returned unto Antiochia, where he found 	z	See <a href='1MA.xhtml#M16_14'>ver. 14</a>, <a href='1MA.xhtml#M16_15'>15</a>.
@@ -177,14 +177,14 @@
 1 Maccabees	7	28	1	Let there be no battle between me and you; I will come with a few men, that I may 	*	Gr. <span class='add'>see your faces</span>. <a href='1MA.xhtml#M17_30'>ver. 30</a>. Comp. <a href='1MA.xhtml#M17_3'>ver. 3</a>.
 1 Maccabees	7	31	1		p	See <a href='1MA.xhtml#M13_38'>ch. 3. 38</a>.
 1 Maccabees	7	31	2	Nicanor also, when he saw that his counsel was discovered, went out to 	*	Gr. <span class='add'>meet Judas in battle</span>. See <a href='1MA.xhtml#M15_59'>ch. 5. 59</a>.
-1 Maccabees	7	31	3	Nicanor also, when he saw that his counsel was discovered, went out to fight against Judas besides 	*	Or, <span class='add'>Carphasalama</span>.
+1 Maccabees	7	31	3	Nicanor also, when he saw that his counsel was discovered, went out to fight against Judas beside 	*	Or, <span class='add'>Carphasalama</span>.
 1 Maccabees	7	32	1	where there were slain of 	p	See <a href='1MA.xhtml#M13_38'>ch. 3. 38</a>.
 1 Maccabees	7	33	1	After this went 	p	See <a href='1MA.xhtml#M13_38'>ch. 3. 38</a>.
 1 Maccabees	7	33	2	After this went Nicanor up 	r	<a href='1MA.xhtml#M14_60'>ch. 4. 60</a>. &amp; <a href='1MA.xhtml#M16_48'>6. 48</a>, <a href='1MA.xhtml#M16_62'>62</a>. Comp. <a href='1MA.xhtml#M16_51'>ch. 6. 51</a>.
 1 Maccabees	7	33	3	After this went Nicanor up to mount Sion, and 	s	Comp. <a href='2MA.xhtml#M214_31'>2 Macc. 14. 31</a>.
 1 Maccabees	7	33	4	After this went Nicanor up to mount Sion, and there came out of the sanctuary certain of the priests and certain of the elders of the people, to salute him peaceably, and to shew him the burnt sacrifice that was offered 	t	So <a href='BAR.xhtml#BR1_11'>Baruch 1. 11</a>. See <a href='EZR.xhtml#ER6_10'>Ezra 6. 10</a>.
 1 Maccabees	7	34	1	But he mocked them, and laughed at them, and 	*	Gr. <span class='add'>defiled them</span>.
-1 Maccabees	7	35	1	and swore in his wrath, saying, Unless Judas and his host be now delivered into my hands, if ever I come again 	*	Gr. <span class='add'>in peace</span>. See <a href='1MA.xhtml#M15_54'>ch. 5. 54</a>.
+1 Maccabees	7	35	1	And sware in his wrath, saying, Unless Judas and his host be now delivered into my hands, if ever I come again 	*	Gr. <span class='add'>in peace</span>. See <a href='1MA.xhtml#M15_54'>ch. 5. 54</a>.
 1 Maccabees	7	36	1	Then the priests 	s	Comp. <a href='2MA.xhtml#M214_31'>2 Macc. 14. 31</a>.
 1 Maccabees	7	36	2	Then the priests entered in, and stood 	u	So <a href='JOL.xhtml#JL2_17'>Joel 2. 17</a>.
 1 Maccabees	7	37	1	Thou, O Lord, 	x	See <a href='DEU.xhtml#DT12_5'>Deut. 12. 5</a>.
@@ -201,9 +201,9 @@
 1 Maccabees	7	45	2	Then they pursued after them a day’s journey, from 	g	<a href='1MA.xhtml#M17_40'>ver. 40</a>. <a href='1CH.xhtml#R17_28'>1 Chr. 7. 28</a> marg. Comp. <a href='1MA.xhtml#M19_5'>ch. 9. 5</a>.
 1 Maccabees	7	45	3	Then they pursued after them a day’s journey, from Adasa unto 	h	See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
 1 Maccabees	7	45	4	Then they pursued after them a day’s journey, from Adasa unto Gazera, sounding an alarm after them 	i	<a href='1MA.xhtml#M14_40'>ch. 4. 40</a> (Gk.). See <a href='1MA.xhtml#M13_54'>ch. 3. 54</a>.
-1 Maccabees	7	47	1	Afterwards they took the spoils, and the prey, and smote off Nicanor’s head, and his right hand, 	k	<a href='2MA.xhtml#M214_32'>2 Macc. 14. 32</a>. Comp. <a href='2KI.xhtml#K219_21'>2 Kin. 19. 21</a>, <a href='2KI.xhtml#K219_22'>22</a>.
-1 Maccabees	7	47	2	Afterwards they took the spoils, and the prey, and smote off Nicanor’s head, and his right hand, which he stretched out so 	d	<a href='1MA.xhtml#M17_34'>ver. 34</a>.
-1 Maccabees	7	47	3	Afterwards they took the spoils, and the prey, and smote off Nicanor’s head, and his right hand, which he stretched out so proudly, and brought them away, and hanged them up 	l	Comp. <a href='2MA.xhtml#M215_30'>2 Macc. 15. 30</a>.
+1 Maccabees	7	47	1	Afterwards they took the spoils, and the prey, and smote off Nicanors head, and his right hand, 	k	<a href='2MA.xhtml#M214_32'>2 Macc. 14. 32</a>. Comp. <a href='2KI.xhtml#K219_21'>2 Kin. 19. 21</a>, <a href='2KI.xhtml#K219_22'>22</a>.
+1 Maccabees	7	47	2	Afterwards they took the spoils, and the prey, and smote off Nicanors head, and his right hand, which he stretched out so 	d	<a href='1MA.xhtml#M17_34'>ver. 34</a>.
+1 Maccabees	7	47	3	Afterwards they took the spoils, and the prey, and smote off Nicanors head, and his right hand, which he stretched out so proudly, and brought them away, and hanged them up 	l	Comp. <a href='2MA.xhtml#M215_30'>2 Macc. 15. 30</a>.
 1 Maccabees	7	49	1	Moreover 	m	Comp. <a href='2MA.xhtml#M215_36'>2 Macc. 15. 36</a>.
 1 Maccabees	7	49	2	Moreover they ordained to keep yearly this day, being the thirteenth of 	e	See <a href='EZR.xhtml#ER6_15'>Ezra 6. 15</a>.
 1 Maccabees	7	5	1	there came unto him all 	c	<a href='1MA.xhtml#M16_21'>ch. 6. 21</a>. &amp; <a href='1MA.xhtml#M19_23'>9. 23</a>, <a href='1MA.xhtml#M19_25'>25</a>, <a href='1MA.xhtml#M19_58'>58</a>, <a href='1MA.xhtml#M19_69'>69</a>, <a href='1MA.xhtml#M19_73'>73</a>.
@@ -214,7 +214,7 @@
 1 Maccabees	7	8	1	Then the king chose 	f	<a href='1MA.xhtml#M17_12'>ver. 12</a>, <a href='1MA.xhtml#M17_19'>19</a>, <a href='1MA.xhtml#M17_20'>20</a>. <a href='1MA.xhtml#M19_1'>ch. 9. 1</a>, <a href='1MA.xhtml#M19_25'>25</a>, <a href='1MA.xhtml#M19_26'>26</a>, <a href='1MA.xhtml#M19_43'>43</a>, <a href='1MA.xhtml#M19_57'>57</a>, <a href='1MA.xhtml#M19_58'>58</a>, <a href='1MA.xhtml#M19_68'>68</a>. <a href='2MA.xhtml#M28_30'>2 Macc. 8. 30</a>.
 1 Maccabees	7	8	2	Then the king chose Bacchides, 	g	See <a href='1MA.xhtml#M110_20'>ch. 10. 20</a>.
 1 Maccabees	7	8	3	Then the king chose Bacchides, a friend of the king, who ruled 	h	<a href='DEU.xhtml#DT1_7'>Deut. 1. 7</a>.
-1 Maccabees	8	1	1	Now Judas had heard of the fame of 	a	Comp. <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>. &amp; <a href='1MA.xhtml#M17_1'>7. 1</a>. &amp; <a href='1MA.xhtml#M112_1'>12. 1</a>, <a href='1MA.xhtml#M112_3'>3</a>, <a href='1MA.xhtml#M112_16'>16</a>. &amp; <a href='1MA.xhtml#M114_16'>14. 16</a>, <a href='1MA.xhtml#M114_24'>24</a>, <a href='1MA.xhtml#M114_40'>40</a>. &amp; <a href='1MA.xhtml#M115_15'>15. 15</a>, <a href='1MA.xhtml#M115_16'>16</a>. <a href='2MA.xhtml#M24_11'>2 Macc. 4. 11</a>. &amp; <a href='2MA.xhtml#M28_10'>8. 10</a>, <a href='2MA.xhtml#M28_36'>36</a>. &amp; <a href='2MA.xhtml#M211_34'>11. 34</a>.
+1 Maccabees	8	1	1	Now Judas had heard of the Romans, that 	a	Comp. <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>. &amp; <a href='1MA.xhtml#M17_1'>7. 1</a>. &amp; <a href='1MA.xhtml#M112_1'>12. 1</a>, <a href='1MA.xhtml#M112_3'>3</a>, <a href='1MA.xhtml#M112_16'>16</a>. &amp; <a href='1MA.xhtml#M114_16'>14. 16</a>, <a href='1MA.xhtml#M114_24'>24</a>, <a href='1MA.xhtml#M114_40'>40</a>. &amp; <a href='1MA.xhtml#M115_15'>15. 15</a>, <a href='1MA.xhtml#M115_16'>16</a>. <a href='2MA.xhtml#M24_11'>2 Macc. 4. 11</a>. &amp; <a href='2MA.xhtml#M28_10'>8. 10</a>, <a href='2MA.xhtml#M28_36'>36</a>. &amp; <a href='2MA.xhtml#M211_34'>11. 34</a>.
 1 Maccabees	8	10	1	and that they, having knowledge thereof, sent against them a certain captain, and fighting with them 	ee	See <a href='1MA.xhtml#M11_18'>ch. 1. 18</a>.
 1 Maccabees	8	14	1	yet for all this none of them 	f	Comp. <a href='1MA.xhtml#M11_9'>ch. 1. 9</a>. &amp; <a href='1MA.xhtml#M16_15'>6. 15</a>.
 1 Maccabees	8	15	1	moreover how they had made for themselves a 	i	Gk. as <a href='1MA.xhtml#M18_15'>ver. 15</a>. <a href='1MA.xhtml#M112_3'>ch. 12. 3</a>.
@@ -225,20 +225,20 @@
 1 Maccabees	8	18	2	and to intreat them that they would take the yoke from them; for they saw that the kingdom of 	h	<a href='1MA.xhtml#M11_1'>ch. 1. 1</a>, <a href='1MA.xhtml#M11_10'>10</a>.
 1 Maccabees	8	19	1	They went therefore to Rome, which was a very great journey, and came into the 	i	Gk. as <a href='1MA.xhtml#M18_15'>ver. 15</a>. <a href='1MA.xhtml#M112_3'>ch. 12. 3</a>.
 1 Maccabees	8	19	2	They went therefore to Rome, which was a very great journey, and came into the senate, where they 	j	<a href='1SA.xhtml#S19_17'>1 Sam. 9. 17</a> (Gk.). See <a href='JDG.xhtml#JG18_14'>Judg. 18. 14</a>.
-1 Maccabees	8	2	1	and that they were men of great valour. It was told him also of their wars and noble acts which they had done amongst the 	*	Or, <span class='add'>French men</span>.
-1 Maccabees	8	2	2	and that they were men of great valour. It was told him also of their wars and noble acts which they had done amongst the 	b	See <a href='ACT.xhtml#AC16_6'>Acts 16. 6</a>. Comp. <a href='2MA.xhtml#M28_20'>2 Macc. 8. 20</a>.
+1 Maccabees	8	2	1	And that they were men of great valour. It was told him also of their wars and noble acts which they had done among the 	*	Or, <span class='add'>French men</span>.
+1 Maccabees	8	2	2	And that they were men of great valour. It was told him also of their wars and noble acts which they had done among the 	b	See <a href='ACT.xhtml#AC16_6'>Acts 16. 6</a>. Comp. <a href='2MA.xhtml#M28_20'>2 Macc. 8. 20</a>.
 1 Maccabees	8	20	1	Judas 	k	<a href='1MA.xhtml#M12_4'>ch. 2. 4</a>.
 1 Maccabees	8	21	1	So 	l	See <a href='1MA.xhtml#M16_60'>ch. 6. 60</a>.
 1 Maccabees	8	22	1	And this is the copy of the epistle which the senate wrote back again 	ll	See <a href='1MA.xhtml#M114_18'>ch. 14. 18</a>.
 1 Maccabees	8	23	1		m	Comp. <a href='1MA.xhtml#M112_1'>ch. 12. 1</a>.
 1 Maccabees	8	23	2	Good success be to the Romans, and to the people of the Jews, 	n	<a href='1MA.xhtml#M18_32'>ver. 32</a>.
 1 Maccabees	8	31	1	And as touching the evils that 	o	<a href='1MA.xhtml#M17_1'>ch. 7. 1</a>, <a href='1MA.xhtml#M17_26'>26</a>.
-1 Maccabees	8	31	2	And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore hast thou made 	p	<a href='1MA.xhtml#M18_18'>ver. 18</a>.
-1 Maccabees	8	31	3	And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore hast thou made thy yoke heavy upon 	q	<a href='1MA.xhtml#M114_40'>ch. 14. 40</a>. &amp; <a href='1MA.xhtml#M115_17'>15. 17</a>.
+1 Maccabees	8	31	2	And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore thou made thy 	p	<a href='1MA.xhtml#M18_18'>ver. 18</a>.
+1 Maccabees	8	31	3	And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore thou made thy yoke heavy upon our 	q	<a href='1MA.xhtml#M114_40'>ch. 14. 40</a>. &amp; <a href='1MA.xhtml#M115_17'>15. 17</a>.
 1 Maccabees	8	32	1	If therefore they 	r	See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>.
 1 Maccabees	8	32	2	If therefore they complain any more against thee, we will do them justice, and fight with thee 	n	<a href='1MA.xhtml#M18_32'>ver. 32</a>.
 1 Maccabees	8	4	1	and that by their policy and patience they had conquered 	*	Or, <span class='add'>every place</span>.
-1 Maccabees	8	5	1	besides this, how they had discomfited in battle Philip, and Perseus, king of the 	*	Or, <span class='add'>Macedonians</span>. So <a href='1MA.xhtml#M11_1'>ch. 1. 1</a>.
+1 Maccabees	8	5	1	Beside this, how they had discomfited in battle Philip, and Perseus, king of the 	*	Or, <span class='add'>Macedonians</span>. So <a href='1MA.xhtml#M11_1'>ch. 1. 1</a>.
 1 Maccabees	8	6	1	how also Antiochus the great king of 	c	<a href='2ES.xhtml#E215_46'>2 Esdr. 15. 46</a>. &amp; <a href='2ES.xhtml#E216_1'>16. 1</a>. <a href='1MA.xhtml#M111_13'>ch. 11. 13</a>. &amp; <a href='1MA.xhtml#M112_39'>12. 39</a>. &amp; <a href='1MA.xhtml#M113_32'>13. 32</a>. <a href='2MA.xhtml#M23_3'>2 Macc. 3. 3</a>. &amp; <a href='2MA.xhtml#M210_24'>10. 24</a>. Comp. <a href='ACT.xhtml#AC2_9'>Acts 2. 9</a>.
 1 Maccabees	8	6	2	how also Antiochus the great king of Asia, that came against them in battle, having an hundred and twenty 	d	See <a href='1MA.xhtml#M11_17'>ch. 1. 17</a>.
 1 Maccabees	8	7	1	and how they took him alive, and covenanted that he and such as reigned after him should pay a great tribute, and give 	e	See <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>.
