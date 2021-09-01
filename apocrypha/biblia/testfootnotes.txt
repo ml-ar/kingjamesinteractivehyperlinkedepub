@@ -118,26 +118,26 @@
 1 Maccabees	10	23	1	What have we done, 	u	<a href='1MA.xhtml#M110_4'>ver. 4</a> (Gk.).
 1 Maccabees	10	23	2	What have we done, that Alexander hath 	x	See <a href='WIS.xhtml#WS4_7'>Wisd. 4. 7</a> (Engl.).
 1 Maccabees	10	28	1	and will grant you many 	y	<a href='1MA.xhtml#M113_37'>ch. 13. 37</a>. So <a href='1MA.xhtml#M110_34'>ver. 34</a>. <a href='1MA.xhtml#M113_34'>ch. 13. 34</a>.
-1 Maccabees	10	29	1	And now I do free you, and for your sake I release all the Jews, from 	z	So <a href='1MA.xhtml#M111_35'>ch. 11. 35</a>. Comp. <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
-1 Maccabees	10	29	2	And now I do free you, and for your sake I release all the Jews, from tributes, and from 	z	So <a href='1MA.xhtml#M111_35'>ch. 11. 35</a>. Comp. <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
-1 Maccabees	10	29	3	And now I do free you, and for your sake I release all the Jews, from tributes, and from the customs of salt, and from 	z	So <a href='1MA.xhtml#M111_35'>ch. 11. 35</a>. Comp. <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
-1 Maccabees	10	29	4	And now I do free you, and for your sake I release all the Jews, from tributes, and from the customs of salt, and from 	a	<a href='1MA.xhtml#M113_39'>ch. 13. 39</a>.
+1 Maccabees	10	29	1	And now do I free you, and for your sake I release all the Jews, from 	z	So <a href='1MA.xhtml#M111_35'>ch. 11. 35</a>. Comp. <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
+1 Maccabees	10	29	2	And now do I free you, and for your sake I release all the Jews, from tributes, and from 	z	So <a href='1MA.xhtml#M111_35'>ch. 11. 35</a>. Comp. <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
+1 Maccabees	10	29	3	And now do I free you, and for your sake I release all the Jews, from tributes, and from the customs of salt, and from 	z	So <a href='1MA.xhtml#M111_35'>ch. 11. 35</a>. Comp. <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
+1 Maccabees	10	29	4	And now do I free you, and for your sake I release all the Jews, from tributes, and from the customs of salt, and from 	a	<a href='1MA.xhtml#M113_39'>ch. 13. 39</a>.
 1 Maccabees	10	3	1	Moreover Demetrius sent letters unto 	c	<a href='1MA.xhtml#M19_73'>ch. 9. 73</a>.
-1 Maccabees	10	30	1	and from 	b	<a href='LUK.xhtml#LK15_12'>Luke 15. 12</a> (Gk.).
-1 Maccabees	10	30	2	and from that which appertaineth unto me to receive for the third part of the seed, and the half of the fruit of the trees, I release it from this day forth, so that they shall not be taken of the land of Judea, nor of 	c	<a href='1MA.xhtml#M110_38'>ver. 38</a>. <a href='1MA.xhtml#M111_34'>ch. 11. 34</a>. So <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
-1 Maccabees	10	30	3	and from that which appertaineth unto me to receive for the third part of the seed, and the half of the fruit of the trees, I release it from this day forth, so that they shall not be taken of the land of Judea, nor of the three governments which are added thereunto out of the country of 	d	See <a href='1MA.xhtml#M13_10'>ch. 3. 10</a>.
+1 Maccabees	10	30	1	And from 	b	<a href='LUK.xhtml#LK15_12'>Luke 15. 12</a> (Gk.).
+1 Maccabees	10	30	2	And from that which appertaineth unto me to receive for the third part or the seed, and the half of the fruit of the trees, I release it from this day forth, so that they shall not be taken of the land of Judea, nor of 	c	<a href='1MA.xhtml#M110_38'>ver. 38</a>. <a href='1MA.xhtml#M111_34'>ch. 11. 34</a>. So <a href='1MA.xhtml#M111_28'>ch. 11. 28</a>.
+1 Maccabees	10	30	3	And from that which appertaineth unto me to receive for the third part or the seed, and the half of the fruit of the trees, I release it from this day forth, so that they shall not be taken of the land of Judea, nor of the three governments which are added thereunto out of the country of 	d	See <a href='1MA.xhtml#M13_10'>ch. 3. 10</a>.
 1 Maccabees	10	31	1	Let Jerusalem also be 	e	See <a href='1MA.xhtml#M12_7'>ch. 2. 7</a>. Comp. <a href='1MA.xhtml#M115_7'>ch. 15. 7</a>.
 1 Maccabees	10	31	2	Let Jerusalem also be holy and free, with the 	q	So <a href='1MA.xhtml#M111_58'>ch. 11. 58</a>. &amp; <a href='1MA.xhtml#M114_43'>14. 43</a>. Comp. <a href='1MA.xhtml#M113_37'>ch. 13. 37</a>. <a href='2MA.xhtml#M214_4'>2 Macc. 14. 4</a>.
 1 Maccabees	10	31	3	Let Jerusalem also be holy and free, with the borders thereof, both from 	f	<a href='1MA.xhtml#M111_35'>ch. 11. 35</a> (Gk.).
 1 Maccabees	10	31	4	Let Jerusalem also be holy and free, with the borders thereof, both from tenths and 	f	<a href='1MA.xhtml#M111_35'>ch. 11. 35</a> (Gk.).
 1 Maccabees	10	31	5	Let Jerusalem also be holy and free, with the borders thereof, both from tenths and 	g	<a href='MAT.xhtml#MT17_25'>Matt. 17. 25</a>.
 1 Maccabees	10	32	1	And as for 	h	<a href='1MA.xhtml#M110_6'>ver. 6</a>, <a href='1MA.xhtml#M110_7'>7</a>, <a href='1MA.xhtml#M110_9'>9</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
-1 Maccabees	10	32	2	And as for the tower which is at Jerusalem, I yield up my authority over it, and give it to 	i	Comp. <a href='1MA.xhtml#M110_20'>ver. 20</a>, <a href='1MA.xhtml#M110_21'>21</a>.
+1 Maccabees	10	32	2	And as for the tower which is at Jerusalem, I yield up authority over it, and give the high priest, 	i	Comp. <a href='1MA.xhtml#M110_20'>ver. 20</a>, <a href='1MA.xhtml#M110_21'>21</a>.
 1 Maccabees	10	33	1	Moreover I freely set at liberty every one of the Jews, 	j	Comp. <a href='1MA.xhtml#M11_32'>ch. 1. 32</a>. So <a href='1MA.xhtml#M19_72'>ch. 9. 72</a>.
 1 Maccabees	10	34	1	Furthermore I will that all the feasts, and 	k	<a href='JDT.xhtml#JT8_6'>Judith 8. 6</a>. See <a href='ISA.xhtml#IS1_13'>Isai. 1. 13</a>.
 1 Maccabees	10	34	2	Furthermore I will that all the feasts, and sabbaths, and 	k	<a href='JDT.xhtml#JT8_6'>Judith 8. 6</a>. See <a href='ISA.xhtml#IS1_13'>Isai. 1. 13</a>.
-1 Maccabees	10	34	3	Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast, shall be all days of 	l	See <a href='1MA.xhtml#M110_28'>ver. 28</a>.
-1 Maccabees	10	35	1	Also no man shall have authority to meddle with them, or to 	m	See <a href='1MA.xhtml#M110_63'>ver. 63</a>.
+1 Maccabees	10	34	3	Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast shall be all of immunity 	l	See <a href='1MA.xhtml#M110_28'>ver. 28</a>.
+1 Maccabees	10	35	1	Also no man shall have authority to meddle with or to molest 	m	See <a href='1MA.xhtml#M110_63'>ver. 63</a>.
 1 Maccabees	10	36	1	I will further, 	mm	So <a href='1MA.xhtml#M113_40'>ch. 13. 40</a>.
 1 Maccabees	10	37	1	And of them some shall be placed in the king’s strong holds, of whom also some shall be set over the 	n	<a href='1MA.xhtml#M110_42'>ver. 42</a>. <a href='1MA.xhtml#M111_63'>ch. 11. 63</a>. &amp; <a href='1MA.xhtml#M112_45'>12. 45</a>. &amp; <a href='1MA.xhtml#M113_15'>13. 15</a>. <a href='ACT.xhtml#AC6_3'>Acts 6. 3</a> in the Gk. See <a href='1MA.xhtml#M113_37'>ch. 13. 37</a>. Comp. <a href='1MA.xhtml#M110_41'>ver. 41</a> (Gk.).
 1 Maccabees	10	37	2	And of them some shall be placed in the king’s strong holds, of whom also some shall be set over the affairs of the kingdom, which are of trust: and I will that their overseers and governors be of themselves, and that they 	*	Gr. <span class='add'>walk</span>. <a href='PSA.xhtml#PS78_10'>Ps. 78. 10</a>, &amp;c.
@@ -149,8 +149,8 @@
 1 Maccabees	10	4	1	For said he, 	u	<a href='1MA.xhtml#M110_4'>ver. 4</a> (Gk.).
 1 Maccabees	10	4	2	For said he, Let us first 	d	Comp. <a href='1MA.xhtml#M19_70'>ch. 9. 70</a>.
 1 Maccabees	10	41	1	And all the overplus, which 	p	So <a href='JDT.xhtml#JT12_10'>Judith 12. 10</a>. Comp. <a href='1MA.xhtml#M110_37'>ver. 37</a>. <a href='1MA.xhtml#M110_42'>42</a> (Gk.).
-1 Maccabees	10	42	1	And besides this, 	pp	Comp. <a href='1MA.xhtml#M111_34'>ch. 11. 34</a>.
-1 Maccabees	10	42	2	And besides this, the five thousand shekels of silver, which they took from the 	n	<a href='1MA.xhtml#M110_42'>ver. 42</a>. <a href='1MA.xhtml#M111_63'>ch. 11. 63</a>. &amp; <a href='1MA.xhtml#M112_45'>12. 45</a>. &amp; <a href='1MA.xhtml#M113_15'>13. 15</a>. <a href='ACT.xhtml#AC6_3'>Acts 6. 3</a> in the Gk. See <a href='1MA.xhtml#M113_37'>ch. 13. 37</a>. Comp. <a href='1MA.xhtml#M110_41'>ver. 41</a> (Gk.).
+1 Maccabees	10	42	1	And beside this, 	pp	Comp. <a href='1MA.xhtml#M111_34'>ch. 11. 34</a>.
+1 Maccabees	10	42	2	And beside this, the five thousand shekels of silver, which they took from the 	n	<a href='1MA.xhtml#M110_42'>ver. 42</a>. <a href='1MA.xhtml#M111_63'>ch. 11. 63</a>. &amp; <a href='1MA.xhtml#M112_45'>12. 45</a>. &amp; <a href='1MA.xhtml#M113_15'>13. 15</a>. <a href='ACT.xhtml#AC6_3'>Acts 6. 3</a> in the Gk. See <a href='1MA.xhtml#M113_37'>ch. 13. 37</a>. Comp. <a href='1MA.xhtml#M110_41'>ver. 41</a> (Gk.).
 1 Maccabees	10	43	1	And whosoever they be that flee unto the temple at Jerusalem, or be within the 	q	Gk. as <a href='1MA.xhtml#M110_31'>ver. 31</a>.
 1 Maccabees	10	44	1	For the building also and 	r	<a href='1MA.xhtml#M14_36'>ch. 4. 36</a>.
 1 Maccabees	10	45	1	Yea, and for 	s	<a href='1MA.xhtml#M110_11'>ver. 11</a>.
@@ -162,29 +162,29 @@
 1 Maccabees	10	57	1	So Ptolemee went out of Egypt with his daughter Cleopatra, and they came unto 	x	See <a href='1MA.xhtml#M110_1'>ver. 1</a>.
 1 Maccabees	10	57	2	So Ptolemee went out of Egypt with his daughter Cleopatra, and they came unto Ptolemais in 	*	[B.C. 151–150.]
 1 Maccabees	10	58	1	where king Alexander meeting him, he gave unto him his daughter Cleopatra, and celebrated her marriage at 	x	See <a href='1MA.xhtml#M110_1'>ver. 1</a>.
-1 Maccabees	10	6	1	Wherefore he gave him authority to gather together a host, and to provide weapons, that he might aid him in battle: he commanded also that 	f	<a href='1MA.xhtml#M19_53'>ch. 9. 53</a>.
-1 Maccabees	10	6	2	Wherefore he gave him authority to gather together a host, and to provide weapons, that he might aid him in battle: he commanded also that the 	g	See <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>.
-1 Maccabees	10	6	3	Wherefore he gave him authority to gather together a host, and to provide weapons, that he might aid him in battle: he commanded also that the hostages that were in 	h	<a href='1MA.xhtml#M110_32'>ver. 32</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
+1 Maccabees	10	6	1	Wherefore he gave him authority to gather together an host, and to provide weapons, that he might aid him in battle: he commanded also that 	f	<a href='1MA.xhtml#M19_53'>ch. 9. 53</a>.
+1 Maccabees	10	6	2	Wherefore he gave him authority to gather together an host, and to provide weapons, that he might aid him in battle: he commanded also that the 	g	See <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>.
+1 Maccabees	10	6	3	Wherefore he gave him authority to gather together an host, and to provide weapons, that he might aid him in battle: he commanded also that the hostages that were in 	h	<a href='1MA.xhtml#M110_32'>ver. 32</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	10	60	1	Who thereupon went honourably to 	x	See <a href='1MA.xhtml#M110_1'>ver. 1</a>.
 1 Maccabees	10	60	2	Who thereupon went honourably to Ptolemais, where he met the two kings, and gave them and their friends silver and gold, and many presents, and 	y	<a href='1MA.xhtml#M111_24'>ch. 11. 24</a>. See <a href='BAR.xhtml#BR1_12'>Baruch 1. 12</a>.
 1 Maccabees	10	61	1	At that time certain 	z	<a href='1MA.xhtml#M115_3'>ch. 15. 3</a>, <a href='1MA.xhtml#M115_21'>21</a>. <a href='ACT.xhtml#AC24_5'>Acts 24. 5</a>.
 1 Maccabees	10	61	2	At that time certain pestilent fellows of Israel, 	a	<a href='1MA.xhtml#M111_21'>ch. 11. 21</a> (Gk.). See <a href='1MA.xhtml#M11_11'>ch. 1. 11</a>.
 1 Maccabees	10	61	3	At that time certain pestilent fellows of Israel, men of a wicked life, assembled themselves against him, to 	b	<a href='1MA.xhtml#M110_63'>ver. 63</a> <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a> in the Gk. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>. So <a href='1MA.xhtml#M110_64'>ver. 64</a>.
 1 Maccabees	10	62	1	Yea more than that, the king commanded to take off his garments, and 	c	<a href='DAN.xhtml#DN5_29'>Dan. 5. 29</a> (Gk.). <a href='1MA.xhtml#M110_20'>ver. 20</a>. See <a href='EST.xhtml#ET8_15'>Esther 8. 15</a>.
-1 Maccabees	10	63	1	Also he made him sit by himself, and said unto his princes, 	d	Comp. <a href='GEN.xhtml#GN41_43'>Gen. 41. 43</a>. <a href='EST.xhtml#ET6_9'>Esther 6. 9</a>.
-1 Maccabees	10	63	2	Also he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man 	b	<a href='1MA.xhtml#M110_63'>ver. 63</a> <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a> in the Gk. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>. So <a href='1MA.xhtml#M110_64'>ver. 64</a>.
-1 Maccabees	10	63	3	Also he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man complain against him of any matter, and that no man 	e	<a href='S3Y.xhtml#PA1_27'>Song 27</a>. <a href='1MA.xhtml#M110_35'>ver. 35</a> (Gk.). <a href='1MA.xhtml#M112_14'>ch. 12. 14</a> (Gk.). <a href='ACT.xhtml#AC15_19'>Acts 15. 19</a>.
+1 Maccabees	10	63	1	And he made him sit by himself, and said unto his princes, 	d	Comp. <a href='GEN.xhtml#GN41_43'>Gen. 41. 43</a>. <a href='EST.xhtml#ET6_9'>Esther 6. 9</a>.
+1 Maccabees	10	63	2	And he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man 	b	<a href='1MA.xhtml#M110_63'>ver. 63</a> <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a> in the Gk. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>. So <a href='1MA.xhtml#M110_64'>ver. 64</a>.
+1 Maccabees	10	63	3	And he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man complain against him of any matter, and that no man 	e	<a href='S3Y.xhtml#PA1_27'>Song 27</a>. <a href='1MA.xhtml#M110_35'>ver. 35</a> (Gk.). <a href='1MA.xhtml#M112_14'>ch. 12. 14</a> (Gk.). <a href='ACT.xhtml#AC15_19'>Acts 15. 19</a>.
 1 Maccabees	10	64	1	Now when his 	b	<a href='1MA.xhtml#M110_63'>ver. 63</a> <a href='2MA.xhtml#M24_36'>2 Macc. 4. 36</a> in the Gk. See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>. So <a href='1MA.xhtml#M110_64'>ver. 64</a>.
 1 Maccabees	10	65	1	So the king honoured him, and 	f	See <a href='1MA.xhtml#M110_20'>ver. 20</a>.
-1 Maccabees	10	65	2	So the king honoured him, and wrote him amongst his chief friends, and made him a 	g	<a href='GEN.xhtml#GN36_40'>Gen. 36. 40–43</a>. <a href='1CH.xhtml#R11_51'>1 Chr. 1. 51–54</a> (Engl.).
-1 Maccabees	10	65	3	So the king honoured him, and wrote him amongst his chief friends, and made him a duke, and 	*	Or, <span class='add'>governor of a province</span>. Comp. <a href='1ES.xhtml#E11_4'>1 Esdr. 1. 4</a> (Gk.), and places in marg.
+1 Maccabees	10	65	2	So the king honoured him, and wrote him among his chief friends, and made him a 	g	<a href='GEN.xhtml#GN36_40'>Gen. 36. 40–43</a>. <a href='1CH.xhtml#R11_51'>1 Chr. 1. 51–54</a> (Engl.).
+1 Maccabees	10	65	3	So the king honoured him, and wrote him among his chief friends, and made him a duke, and 	*	Or, <span class='add'>governor of a province</span>. Comp. <a href='1ES.xhtml#E11_4'>1 Esdr. 1. 4</a> (Gk.), and places in marg.
 1 Maccabees	10	67	1	Furthermore in 	*	About B.C. 148.
 1 Maccabees	10	67	2	Furthermore in the hundred threescore and fifth year came Demetrius son of 	g	<a href='1MA.xhtml#M110_50'>ver. 50</a>.
 1 Maccabees	10	67	3	Furthermore in the hundred threescore and fifth year came Demetrius son of Demetrius out of 	h	See <a href='ACT.xhtml#AC2_11'>Acts 2. 11</a>. Comp. <a href='1MA.xhtml#M111_38'>ch. 11. 38</a>. &amp; <a href='1MA.xhtml#M115_1'>15. 1</a>.
 1 Maccabees	10	68	1	whereof when king Alexander heard tell, he was right sorry, and returned into 	i	See <a href='1MA.xhtml#M13_37'>ch. 3. 37</a>.
 1 Maccabees	10	69	1	Then Demetrius made 	j	<a href='2MA.xhtml#M23_5'>2 Macc. 3. 5</a>. &amp; <a href='2MA.xhtml#M24_4'>4. 4</a>?
 1 Maccabees	10	69	2	Then Demetrius made Apollonius the governor of 	k	See <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>.
-1 Maccabees	10	69	3	Then Demetrius made Apollonius the governor of Coelosyria his general, who gathered together a great host, and camped in 	l	See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
+1 Maccabees	10	69	3	Then Demetrius made Apollonius the governor of Celosyria his general, who gathered together a great host, and camped in 	l	See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
 1 Maccabees	10	7	1	Then came 	c	<a href='1MA.xhtml#M19_73'>ch. 9. 73</a>.
 1 Maccabees	10	7	2	Then came Jonathan to Jerusalem, and read the letters in the audience of all the people, and of them that were in 	h	<a href='1MA.xhtml#M110_32'>ver. 32</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	10	70	1	Thou alone liftest up thyself against us, and I am laughed to scorn for thy sake, and reproached: and why dost thou vaunt thy power against us 	m	Comp. <a href='DEU.xhtml#DT11_11'>Deut. 11. 11</a>. <a href='1KI.xhtml#K120_23'>1 Kin. 20. 23</a>.
@@ -206,12 +206,12 @@
 1 Maccabees	10	83	1	The horsemen also, being scattered in 	t	Gk. as <a href='1MA.xhtml#M110_77'>ver. 77</a>.
 1 Maccabees	10	83	2	The horsemen also, being scattered in the field, fled to 	q	See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
 1 Maccabees	10	83	3	The horsemen also, being scattered in the field, fled to Azotus, and went into 	u	So <a href='1MA.xhtml#M110_84'>ver. 84</a>. <a href='1MA.xhtml#M111_4'>ch. 11. 4</a>. See <a href='JDG.xhtml#JG16_23'>Judg. 16. 23</a>.
-1 Maccabees	10	83	4	The horsemen also, being scattered in the field, fled to Azotus, and went into Beth-dagon, their 	v	See <a href='1MA.xhtml#M11_47'>ch. 1. 47</a>.
+1 Maccabees	10	83	4	The horsemen also, being scattered in the field, fled to Azotus, and went into Bethdagon, their 	v	See <a href='1MA.xhtml#M11_47'>ch. 1. 47</a>.
 1 Maccabees	10	84	1	But Jonathan set fire on Azotus, and the cities round about it, and took their spoils; and 	u	So <a href='1MA.xhtml#M110_84'>ver. 84</a>. <a href='1MA.xhtml#M111_4'>ch. 11. 4</a>. See <a href='JDG.xhtml#JG16_23'>Judg. 16. 23</a>.
 1 Maccabees	10	86	1	And from thence Jonathan removed his host, and camped against 	w	See <a href='JDT.xhtml#JT2_28'>Judith 2. 28</a>.
 1 Maccabees	10	88	1	Now when king Alexander heard these things, he honoured Jonathan 	x	<a href='1MA.xhtml#M110_65'>ver. 65</a>. Gk. as <a href='1MA.xhtml#M19_1'>ch. 9. 1</a>.
-1 Maccabees	10	89	1	and sent him 	y	<a href='1MA.xhtml#M111_58'>ch. 11. 58</a>. &amp; <a href='1MA.xhtml#M114_44'>14. 44</a>.
-1 Maccabees	10	89	2	and sent him a buckle of gold, as the use is to be given to such as are of the kings’ blood: he gave him also 	z	<a href='JOS.xhtml#JS15_45'>Josh. 15. 45</a>, <a href='JOS.xhtml#JS15_46'>46</a> (Gk.). See <a href='JOS.xhtml#JS15_11'>Josh. 15. 11</a>. Comp. <a href='ZEC.xhtml#ZC9_7'>Zech. 9. 7</a>.
+1 Maccabees	10	89	1	And sent him 	y	<a href='1MA.xhtml#M111_58'>ch. 11. 58</a>. &amp; <a href='1MA.xhtml#M114_44'>14. 44</a>.
+1 Maccabees	10	89	2	And sent him a buckle of gold, as the use is to be given to such as are of the king’s blood: he gave him also 	z	<a href='JOS.xhtml#JS15_45'>Josh. 15. 45</a>, <a href='JOS.xhtml#JS15_46'>46</a> (Gk.). See <a href='JOS.xhtml#JS15_11'>Josh. 15. 11</a>. Comp. <a href='ZEC.xhtml#ZC9_7'>Zech. 9. 7</a>.
 1 Maccabees	10	9	1	Whereupon they of 	h	<a href='1MA.xhtml#M110_32'>ver. 32</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	10	9	2	Whereupon they of the tower delivered their 	g	See <a href='1MA.xhtml#M11_10'>ch. 1. 10</a>.
 1 Maccabees	11	1	1		*	About B.C. 146.
@@ -1356,4 +1356,3 @@
 1 Maccabees	9	73	2	Thus the sword ceased from Israel: but Jonathan dwelt at Machmas, and began to 	*	Gr. <span class='add'>judge</span>. <a href='2KI.xhtml#K223_22'>2 Kin. 23. 22</a>, &amp;c.
 1 Maccabees	9	73	3	Thus the sword ceased from Israel: but Jonathan dwelt at Machmas, and began to govern the people; and he destroyed 	h	See <a href='1MA.xhtml#M17_5'>ch. 7. 5</a>.
 1 Maccabees	9	9	1	But they dehorted him, saying, We shall never be able: 	*	We follow here the Roman copy.
-

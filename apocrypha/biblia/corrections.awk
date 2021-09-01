@@ -2093,7 +2093,7 @@ else if ($3 == "19")
 		}
 
 	}
-else if ($2 == "9")
+	else if ($2 == "9")
 	{
 
 
@@ -2103,55 +2103,131 @@ else if ($2 == "9")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "23")
+		else if ($3 == "23")
 		{
 			$5 = correctAllVerses($5, "Now after the death of Judas the wicked began to put forth their heads in all the coasts of Israel, and there arose up all such as wrought iniquity.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "26")
+		else if ($3 == "26")
 		{
 			$5 = correctAllVerses($5, "And they made enquiry and search for Judas’ friends, and brought them unto Bacchides, who took vengeance of them, and used them despitefully.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "35")
+		else if ($3 == "35")
 		{
 			$5 = correctAllVerses($5, "Now Jonathan had sent his brother John, a captain of the people, to pray his friends the Nabathites, that they might leave with them their carriage, which was much.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "39")
+		else if ($3 == "39")
 		{
 			$5 = correctAllVerses($5, "Where they lifted up their eyes, and looked, and, behold, there was much ado and great carriage: and the bridegroom came forth, and his friends and brethren, to meet them with drums, and instruments of musick, and many weapons.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "50")
+		else if ($3 == "50")
 		{
 			$5 = correctAllVerses($5, "Afterward returned Bacchides to Jerusalem and repaired the strong cites in Judea; the fort in Jericho, and Emmaus, and Bethhoron, and Bethel, and Thamnatha, Pharathoni, and Taphon, these did he strengthen with high walls, with gates and with bars.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "52")
+		else if ($3 == "52")
 		{
 			$5 = correctAllVerses($5, "He fortified also the city Bethsura, and Gazera, and the tower, and put forces in them, and provision of victuals.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "55")
+		else if ($3 == "55")
 		{
 			$5 = correctAllVerses($5, "And as he began to pull down, even at that time was Alcimus plagued, and his enterprizes hindered: for his mouth was stopped, and he was taken with a palsy, so that he could no more speak any thing, nor give order concerning his house.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "67")
+		else if ($3 == "67")
 		{
 			$5 = correctAllVerses($5, "And when he began to smite them, and came up with his forces, Simon and his company went out of the city, and burned up the engines of war, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
+	}
+	else if ($2 == "10")
+	{
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "Wherefore he gave him authority to gather together an host, and to provide weapons, that he might aid him in battle: he commanded also that the hostages that were in the tower should be delivered him.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "29")
+		{
+			$5 = correctAllVerses($5, "And now do I free you, and for your sake I release all the Jews, from tributes, and from the customs of salt, and from crown taxes, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "30")
+		{
+			$5 = correctAllVerses($5, "And from that which appertaineth unto me to receive for the third part or the seed, and the half of the fruit of the trees, I release it from this day forth, so that they shall not be taken of the land of Judea, nor of the three governments which are added thereunto out of the country of Samaria and Galilee, from this day forth for evermore.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "32")
+		{
+			$5 = correctAllVerses($5, "And as for the tower which is at Jerusalem, I yield up authority over it, and give the high priest, that he may set in it such men as he shall choose to keep it.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "34")
+		{
+			$5 = correctAllVerses($5, "Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast shall be all of immunity and freedom for all the Jews in my realm.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "Also no man shall have authority to meddle with or to molest any of them in any matter.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "42")
+		{
+			$5 = correctAllVerses($5, "And beside this, the five thousand shekels of silver, which they took from the uses of the temple out of the accounts year by year, even those things shall be released, because they appertain to the priests that minister.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "63")
+		{
+			$5 = correctAllVerses($5, "And he made him sit by himself, and said unto his princes, Go with him into the midst of the city, and make proclamation, that no man complain against him of any matter, and that no man trouble him for any manner of cause.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "65")
+		{
+			$5 = correctAllVerses($5, "So the king honoured him, and wrote him among his chief friends, and made him a duke, and partaker of his dominion.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "69")
+		{
+			$5 = correctAllVerses($5, "Then Demetrius made Apollonius the governor of Celosyria his general, who gathered together a great host, and camped in Jamnia, and sent unto Jonathan the high priest, saying, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "83")
+		{
+			$5 = correctAllVerses($5, "The horsemen also, being scattered in the field, fled to Azotus, and went into Bethdagon, their idol’s temple, for safety.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "89")
+		{
+			$5 = correctAllVerses($5, "And sent him a buckle of gold, as the use is to be given to such as are of the king’s blood: he gave him also Accaron with the borders thereof in possession.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
 }
 
 
