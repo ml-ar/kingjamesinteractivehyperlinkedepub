@@ -226,12 +226,12 @@
 1 Maccabees	11	18	1	King Ptolemee also died the third day after, 	*	Gr. <span class='add'>and those that were in the holds were slain of those that were in the holds</span>.
 1 Maccabees	11	19	1	By this means 	pp	<a href='2MA.xhtml#M21_7'>2 Macc. 1. 7</a>.
 1 Maccabees	11	19	2	By this means Demetrius reigned in 	*	About B.C. 145.
-1 Maccabees	11	2	1	Whereupon he took his journey into Syria 	c	<a href='1MA.xhtml#M11_30'>ch. 1. 30</a>. &amp; <a href='1MA.xhtml#M17_15'>7. 15</a> in the Gk.
+1 Maccabees	11	2	1	Whereupon he took his journey into Spain 	c	<a href='1MA.xhtml#M11_30'>ch. 1. 30</a>. &amp; <a href='1MA.xhtml#M17_15'>7. 15</a> in the Gk.
 1 Maccabees	11	20	1	At the same time 	q	<a href='1MA.xhtml#M111_7'>ver. 7</a>.
 1 Maccabees	11	20	2	At the same time Jonathan gathered together them that were in Judea, to take 	r	<a href='1MA.xhtml#M111_41'>ver. 41</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
-1 Maccabees	11	21	1	Then certain 	s	<a href='1MA.xhtml#M110_61'>ch. 10. 61</a> (Gk.). See <a href='1MA.xhtml#M11_11'>ch. 1. 11</a>.
-1 Maccabees	11	21	2	Then certain ungodly persons, who hated their own people, went unto the 	t	<a href='1MA.xhtml#M111_19'>ver. 19</a>.
-1 Maccabees	11	21	3	Then certain ungodly persons, who hated their own people, went unto the king, and told him that Jonathan besieged 	r	<a href='1MA.xhtml#M111_41'>ver. 41</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
+1 Maccabees	11	21	1	Then came 	s	<a href='1MA.xhtml#M110_61'>ch. 10. 61</a> (Gk.). See <a href='1MA.xhtml#M11_11'>ch. 1. 11</a>.
+1 Maccabees	11	21	2	Then came ungodly persons, who hated their own people, went unto the 	t	<a href='1MA.xhtml#M111_19'>ver. 19</a>.
+1 Maccabees	11	21	3	Then came ungodly persons, who hated their own people, went unto the king, and told him that Jonathan besieged 	r	<a href='1MA.xhtml#M111_41'>ver. 41</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	11	22	1	Whereof when he heard, he was angry, and immediately removing, he came to 	u	See <a href='1MA.xhtml#M15_15'>ch. 5. 15</a>.
 1 Maccabees	11	22	2	Whereof when he heard, he was angry, and immediately removing, he came to Ptolemais, and wrote unto Jonathan, that he should not lay siege to 	r	<a href='1MA.xhtml#M111_41'>ver. 41</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	11	23	1	Nevertheless Jonathan, when he heard this, commanded to besiege it still: and he chose certain of the elders of Israel and the priests, and 	w	See <a href='1MA.xhtml#M16_44'>ch. 6. 44</a>.
@@ -241,8 +241,8 @@
 1 Maccabees	11	25	2	And though certain ungodly men of the people had 	y	So <a href='1MA.xhtml#M110_61'>ch. 10. 61</a>.
 1 Maccabees	11	25	3	And though certain ungodly men of the people had 	z	See <a href='ROM.xhtml#RM11_2'>Rom. 11. 2</a>.
 1 Maccabees	11	26	1	yet the king entreated him 	a	<a href='1MA.xhtml#M110_62'>ch. 10. 62–65</a>. <a href='1MA.xhtml#M111_6'>ver. 6</a>.
-1 Maccabees	11	27	1	and confirmed him in 	b	<a href='1MA.xhtml#M110_20'>ch. 10. 20</a>. &amp; <a href='1MA.xhtml#M114_38'>14. 38</a>. <a href='1MA.xhtml#M111_57'>ver. 57</a>.
-1 Maccabees	11	27	2	and confirmed him in the high priesthood, and in all the honours that he had before, and gave him pre-eminence among 	c	See <a href='1MA.xhtml#M110_20'>ch. 10. 20</a>.
+1 Maccabees	11	27	1	And confirmed him in 	b	<a href='1MA.xhtml#M110_20'>ch. 10. 20</a>. &amp; <a href='1MA.xhtml#M114_38'>14. 38</a>. <a href='1MA.xhtml#M111_57'>ver. 57</a>.
+1 Maccabees	11	27	2	And confirmed him in the high priesthood, and in all the honours that he had before, and gave him preeminence among 	c	See <a href='1MA.xhtml#M110_20'>ch. 10. 20</a>.
 1 Maccabees	11	28	1	Then Jonathan desired the king, that he would make 	d	Comp. <a href='1MA.xhtml#M110_29'>ch. 10. 29</a>.
 1 Maccabees	11	28	2	Then Jonathan desired the king, that he would make Judea free from tribute, as also 	e	See <a href='1MA.xhtml#M110_30'>ch. 10. 30</a>.
 1 Maccabees	11	3	1	Now as 	a	<a href='1MA.xhtml#M110_51'>ch. 10. 51–58</a>. See <a href='ESG.xhtml#EG11_1'>Esther 11. 1</a>.
@@ -257,7 +257,7 @@
 1 Maccabees	11	35	1	And as for other things that belong unto us, of the 	l	<a href='1MA.xhtml#M110_31'>ch. 10. 31</a> (Gk.).
 1 Maccabees	11	35	2	And as for other things that belong unto us, of the tithes and 	l	<a href='1MA.xhtml#M110_31'>ch. 10. 31</a> (Gk.).
 1 Maccabees	11	35	3	And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also 	m	<a href='1MA.xhtml#M110_29'>ch. 10. 29</a>.
-1 Maccabees	11	35	4	And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the salt pits, and the 	m	<a href='1MA.xhtml#M110_29'>ch. 10. 29</a>.
+1 Maccabees	11	35	4	And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the saltpits, and the crown 	m	<a href='1MA.xhtml#M110_29'>ch. 10. 29</a>.
 1 Maccabees	11	36	1	And nothing hereof shall be 	n	See <a href='1MA.xhtml#M16_62'>ch. 6. 62</a>.
 1 Maccabees	11	38	1	After this, when king Demetrius saw that the land was quiet before him, and that no resistance was made against him, he sent away all his forces, every one to his own place, except certain bands of strangers, whom 	o	Comp. <a href='1MA.xhtml#M110_67'>ch. 10. 67</a>.
 1 Maccabees	11	38	2	After this, when king Demetrius saw that the land was quiet before him, and that no resistance was made against him, he sent away all his forces, every one to his own place, except certain bands of strangers, whom he had gathered from 	p	See <a href='1MA.xhtml#M16_29'>ch. 6. 29</a>.
@@ -314,7 +314,7 @@
 1 Maccabees	11	8	1		a	<a href='1MA.xhtml#M110_51'>ch. 10. 51–58</a>. See <a href='ESG.xhtml#EG11_1'>Esther 11. 1</a>.
 1 Maccabees	11	8	2	King Ptolemee therefore, having gotten the dominion of the cities by the sea unto 	i	<a href='ACT.xhtml#AC13_4'>Acts 13. 4</a>.
 1 Maccabees	11	8	3	King Ptolemee therefore, having gotten the dominion of the cities by the sea unto Seleucia upon the sea coast, 	k	See <a href='LUK.xhtml#LK3_15'>Luke 3. 15</a> marg.
-1 Maccabees	11	9	1	Whereupon he sent ambassadors unto king 	l	<a href='1MA.xhtml#M110_67'>ch. 10. 67</a>.
+1 Maccabees	11	9	1	Whereupon he sent ambasadors unto king 	l	<a href='1MA.xhtml#M110_67'>ch. 10. 67</a>.
 1 Maccabees	12	1	1	Now when Jonathan saw that the time served him, he chose 	a	<a href='1MA.xhtml#M112_16'>ver. 16</a>. So <a href='1MA.xhtml#M112_3'>ver. 3</a>. See <a href='1MA.xhtml#M18_1'>ch. 8. 1</a>.
 1 Maccabees	12	1	2	Now when Jonathan saw that the time served him, he chose certain men, and sent them to 	a	<a href='1MA.xhtml#M112_16'>ver. 16</a>. So <a href='1MA.xhtml#M112_3'>ver. 3</a>. See <a href='1MA.xhtml#M18_1'>ch. 8. 1</a>.
 1 Maccabees	12	1	3	Now when Jonathan saw that the time served him, he chose certain men, and sent them to Rome, for to confirm and renew 	b	<a href='1MA.xhtml#M18_23'>ch. 8. 23–32</a>.

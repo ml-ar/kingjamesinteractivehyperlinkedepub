@@ -2228,6 +2228,44 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+else if ($2 == "11")
+	{
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "Whereupon he took his journey into Spain in peaceable manner, so as they of the cities opened unto him, and met him: for king Alexander had commanded them so to do, because he was his brother in law.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "Whereupon he sent ambasadors unto king Demetrius, saying, Come, let us make a league betwixt us, and I will give thee my daughter whom Alexander hath, and thou shalt reign in thy father’s kingdom: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "Then came ungodly persons, who hated their own people, went unto the king, and told him that Jonathan besieged the tower, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "27")
+		{
+			$5 = correctAllVerses($5, "And confirmed him in the high priesthood, and in all the honours that he had before, and gave him preeminence among his chief friends.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the saltpits, and the crown taxes, which are due unto us, we discharge them of them all for their relief.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+
+
+}
 }
 
 
