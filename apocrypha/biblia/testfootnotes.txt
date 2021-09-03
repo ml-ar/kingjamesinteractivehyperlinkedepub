@@ -315,9 +315,9 @@
 1 Maccabees	11	8	2	King Ptolemee therefore, having gotten the dominion of the cities by the sea unto 	i	<a href='ACT.xhtml#AC13_4'>Acts 13. 4</a>.
 1 Maccabees	11	8	3	King Ptolemee therefore, having gotten the dominion of the cities by the sea unto Seleucia upon the sea coast, 	k	See <a href='LUK.xhtml#LK3_15'>Luke 3. 15</a> marg.
 1 Maccabees	11	9	1	Whereupon he sent ambasadors unto king 	l	<a href='1MA.xhtml#M110_67'>ch. 10. 67</a>.
-1 Maccabees	12	1	1	Now when Jonathan saw that the time served him, he chose 	a	<a href='1MA.xhtml#M112_16'>ver. 16</a>. So <a href='1MA.xhtml#M112_3'>ver. 3</a>. See <a href='1MA.xhtml#M18_1'>ch. 8. 1</a>.
-1 Maccabees	12	1	2	Now when Jonathan saw that the time served him, he chose certain men, and sent them to 	a	<a href='1MA.xhtml#M112_16'>ver. 16</a>. So <a href='1MA.xhtml#M112_3'>ver. 3</a>. See <a href='1MA.xhtml#M18_1'>ch. 8. 1</a>.
-1 Maccabees	12	1	3	Now when Jonathan saw that the time served him, he chose certain men, and sent them to Rome, for to confirm and renew 	b	<a href='1MA.xhtml#M18_23'>ch. 8. 23–32</a>.
+1 Maccabees	12	1	1	Now when Jonathan saw that time served him, he chose certain 	a	<a href='1MA.xhtml#M112_16'>ver. 16</a>. So <a href='1MA.xhtml#M112_3'>ver. 3</a>. See <a href='1MA.xhtml#M18_1'>ch. 8. 1</a>.
+1 Maccabees	12	1	2	Now when Jonathan saw that time served him, he chose certain men, and sent them to Rome, 	a	<a href='1MA.xhtml#M112_16'>ver. 16</a>. So <a href='1MA.xhtml#M112_3'>ver. 3</a>. See <a href='1MA.xhtml#M18_1'>ch. 8. 1</a>.
+1 Maccabees	12	1	3	Now when Jonathan saw that time served him, he chose certain men, and sent them to Rome, for to confirm and renew the 	b	<a href='1MA.xhtml#M18_23'>ch. 8. 23–32</a>.
 1 Maccabees	12	11	1	We therefore at all times 	j	See <a href='1TH.xhtml#H11_3'>1 Thess. 1. 3</a>.
 1 Maccabees	12	14	1	Howbeit we would not 	k	See <a href='1MA.xhtml#M110_63'>ch. 10. 63</a>.
 1 Maccabees	12	16	1	For this cause we chose 	kk	<a href='1MA.xhtml#M114_22'>ch. 14. 22</a>, <a href='1MA.xhtml#M114_24'>24</a>. &amp; <a href='1MA.xhtml#M115_15'>15. 15</a>.
@@ -325,8 +325,8 @@
 1 Maccabees	12	19	2	And this is the copy of the letters 	*	Read out of Jos[eph.] <span class='add'>which Areus sent toOnias</span>. [Comp. <a href='1MA.xhtml#M112_7'>ver. 7</a>].
 1 Maccabees	12	2	1	He sent letters also to 	bb	So <a href='2MA.xhtml#M25_9'>2 Macc. 5. 9</a>. See <a href='1MA.xhtml#M114_16'>ch. 14. 16</a>.
 1 Maccabees	12	21	1	It is found in writing, that 	ll	<a href='2MA.xhtml#M25_9'>2 Macc. 5. 9</a>.
-1 Maccabees	12	22	1	now therefore, since this is come to our knowledge, you shall do well to write unto us of your 	*	Gr. <span class='add'>peace</span>. <a href='TOB.xhtml#TB13_14'>Tobit 13. 14</a>.
-1 Maccabees	12	24	1	Now when Jonathan heard that Demetrius’ princes were come to fight against him 	m	<a href='1MA.xhtml#M111_63'>ch. 11. 63</a>.
+1 Maccabees	12	22	1	Now therefore, since this is come to our knowledge, ye shall do well to write unto us of your 	*	Gr. <span class='add'>peace</span>. <a href='TOB.xhtml#TB13_14'>Tobit 13. 14</a>.
+1 Maccabees	12	24	1	Now when Jonathan heard that Demebius’ princes were come to fight against him 	m	<a href='1MA.xhtml#M111_63'>ch. 11. 63</a>.
 1 Maccabees	12	25	1	he removed from Jerusalem, and met them in the land of 	n	See <a href='1KI.xhtml#K18_65'>1 Kin. 8. 65</a>.
 1 Maccabees	12	25	2	he removed from Jerusalem, and met them in the land of Amathis: for he gave them no respite 	*	Or, <span class='add'>to set foot in his country</span>: or, <span class='add'>to invade his country</span>. <a href='1MA.xhtml#M113_20'>ch. 13 20</a>. &amp; <a href='1MA.xhtml#M114_31'>14. 31</a>. &amp;. <a href='1MA.xhtml#M115_40'>15. 40</a>.
 1 Maccabees	12	27	1	Wherefore so soon as the sun was down, Jonathan commanded his men to watch, and to be in arms, that all the night long they might be ready to fight: also he 	o	See <a href='JHN.xhtml#JN10_4'>John 10. 4</a>.
@@ -362,18 +362,18 @@
 1 Maccabees	12	47	1	And with himself he retained but three thousand men, of whom he 	*	Gr. <span class="notemark">k</span> <span class='add'>left two thousand in Galilee</span>.
 1 Maccabees	12	47	2	And with himself he retained but three thousand men, of whom he sent 	m	<a href='1MA.xhtml#M112_47'>ver. 47</a>.
 1 Maccabees	12	48	1	Now as soon as Jonathan entered into 	h	See <a href='1MA.xhtml#M15_15'>ch. 5. 15</a>.
-1 Maccabees	12	49	1	Then sent Tryphon a host of footmen and horsemen into Galilee, and into 	l	<a href='JDT.xhtml#JT1_8'>Judith 1. 8</a>. <a href='1MA.xhtml#M15_52'>ch. 5. 52</a>.
-1 Maccabees	12	49	2	Then sent Tryphon a host of footmen and horsemen into Galilee, and into the great plain, to destroy 	m	<a href='1MA.xhtml#M112_47'>ver. 47</a>.
+1 Maccabees	12	49	1	Then sent Tryphon an host of footmen and horsemen into Galilee, and into 	l	<a href='JDT.xhtml#JT1_8'>Judith 1. 8</a>. <a href='1MA.xhtml#M15_52'>ch. 5. 52</a>.
+1 Maccabees	12	49	2	Then sent Tryphon an host of footmen and horsemen into Galilee, and into the great plain, to destroy 	m	<a href='1MA.xhtml#M112_47'>ver. 47</a>.
 1 Maccabees	12	5	1	And this is the copy of the letters 	d	<a href='1MA.xhtml#M112_2'>ver. 2</a>.
 1 Maccabees	12	50	1	But when they knew that Jonathan and they that were with him were taken and 	n	Comp. <a href='1MA.xhtml#M113_12'>ch. 13. 12</a>, <a href='1MA.xhtml#M113_23'>23</a>.
-1 Maccabees	12	53	1	Then all the heathen that were round about them sought to destroy them: for said they, They have no captain, nor any to help them: now therefore let us make war upon them, and 	o	<a href='1MA.xhtml#M13_35'>ch. 3. 35</a>.
+1 Maccabees	12	53	1	Then all the heathen that were round about then sought to destroy them: for said they, They have no captain, nor any to help them: now therefore let us make war upon them, and 	o	<a href='1MA.xhtml#M13_35'>ch. 3. 35</a>.
 1 Maccabees	12	6	1	Jonathan the high priest, and 	e	<a href='2MA.xhtml#M21_10'>2 Macc. 1. 10</a> (Gk.). Comp. <a href='1MA.xhtml#M114_20'>ch. 14. 20</a>. See <a href='JDT.xhtml#JT4_8'>Judith 4. 8</a>.
 1 Maccabees	12	7	1	There were letters sent in times past unto 	f	<a href='SIR.xhtml#SR50_1'>Ecclus. 50. 1</a>? or see <a href='2MA.xhtml#M23_1'>2 Macc. 3. 1</a>.
 1 Maccabees	12	7	2	There were letters sent in times past unto Onias the high priest from 	*	<span class='add'>Areus</span> : See Joseph. Ant[iq.] lib. 13. cap. 8. [Comp. <a href='1MA.xhtml#M112_20'>ver. 20</a>].
-1 Maccabees	12	7	3	There were letters sent in times past unto Onias the high priest from Darius, who reigned then among you, to signify that you are our brethren, as 	g	<a href='1MA.xhtml#M112_20'>ver. 20–23</a>.
+1 Maccabees	12	7	3	There were letters sent in times past unto Onias the high priest from Darius, who reigned then among you, to signify that ye are our brethren, as 	g	<a href='1MA.xhtml#M112_20'>ver. 20–23</a>.
 1 Maccabees	12	8	1	At which time Onias entreated the ambassador that was sent honourably, and received the letters, wherein 	h	<a href='MAT.xhtml#MT18_31'>Matt. 18. 31</a> (Gk.). See <a href='2MA.xhtml#M21_18'>2 Macc. 1. 18</a>.
 1 Maccabees	12	8	2	At which time Onias entreated the ambassador that was sent honourably, and received the letters, wherein declaration was made of the 	*	Or,<span class='add'>kindred</span>. Jos[eph.] Ant[iq.]
-1 Maccabees	12	9	1	Therefore we also, albeit we need none of these things, for that we have the holy books of scripture in our hands 	i	<a href='ROM.xhtml#RM15_4'>Rom. 15. 4</a>.
+1 Maccabees	12	9	1	Therefore we also, albeit we need none of these things, that we have the holy books of scripture in our hands to 	i	<a href='ROM.xhtml#RM15_4'>Rom. 15. 4</a>.
 1 Maccabees	13	1	1	Now when 	a	See <a href='1MA.xhtml#M19_19'>ch. 9. 19</a>. Comp. <a href='1MA.xhtml#M12_65'>ch. 2. 65</a>.
 1 Maccabees	13	1	2	Now when Simon heard that 	b	See <a href='1MA.xhtml#M111_39'>ch. 11. 39</a>.
 1 Maccabees	13	10	1	So then he gathered together all the men of war, and made haste 	i	<a href='1MA.xhtml#M112_36'>ch. 12. 36</a>, <a href='1MA.xhtml#M112_37'>37</a>. &amp; <a href='1MA.xhtml#M114_37'>14. 37</a>.

@@ -2266,6 +2266,54 @@ else if ($3 == "35")
 
 
 }
+else if ($2 == "12")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Now when Jonathan saw that time served him, he chose certain men, and sent them to Rome, for to confirm and renew the friendship that they had with them.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "There were letters sent in times past unto Onias the high priest from Darius, who reigned then among you, to signify that ye are our brethren, as the copy here underwritten doth specify.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "Therefore we also, albeit we need none of these things, that we have the holy books of scripture in our hands to comfort us, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "Now therefore, since this is come to our knowledge, ye shall do well to write unto us of your prosperity.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "24")
+		{
+			$5 = correctAllVerses($5, "Now when Jonathan heard that Demebius’ princes were come to fight against him with a greater host than afore, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "49")
+		{
+			$5 = correctAllVerses($5, "Then sent Tryphon an host of footmen and horsemen into Galilee, and into the great plain, to destroy all Jonathan’s company.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "53")
+		{
+			$5 = correctAllVerses($5, "Then all the heathen that were round about then sought to destroy them: for said they, They have no captain, nor any to help them: now therefore let us make war upon them, and take away their memorial from among men.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
 }
 
 
