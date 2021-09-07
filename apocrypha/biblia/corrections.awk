@@ -2228,7 +2228,7 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
-else if ($2 == "11")
+	else if ($2 == "11")
 	{
 
 		if ($3 == "2")
@@ -2237,25 +2237,25 @@ else if ($2 == "11")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "9")
+		else if ($3 == "9")
 		{
 			$5 = correctAllVerses($5, "Whereupon he sent ambasadors unto king Demetrius, saying, Come, let us make a league betwixt us, and I will give thee my daughter whom Alexander hath, and thou shalt reign in thy father’s kingdom: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "21")
+		else if ($3 == "21")
 		{
 			$5 = correctAllVerses($5, "Then came ungodly persons, who hated their own people, went unto the king, and told him that Jonathan besieged the tower, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "27")
+		else if ($3 == "27")
 		{
 			$5 = correctAllVerses($5, "And confirmed him in the high priesthood, and in all the honours that he had before, and gave him preeminence among his chief friends.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "35")
+		else if ($3 == "35")
 		{
 			$5 = correctAllVerses($5, "And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the saltpits, and the crown taxes, which are due unto us, we discharge them of them all for their relief.")
 
@@ -2265,8 +2265,8 @@ else if ($3 == "35")
 
 
 
-}
-else if ($2 == "12")
+	}
+	else if ($2 == "12")
 	{
 
 
@@ -2276,44 +2276,120 @@ else if ($2 == "12")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "7")
+		else if ($3 == "7")
 		{
 			$5 = correctAllVerses($5, "There were letters sent in times past unto Onias the high priest from Darius, who reigned then among you, to signify that ye are our brethren, as the copy here underwritten doth specify.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "9")
+		else if ($3 == "9")
 		{
 			$5 = correctAllVerses($5, "Therefore we also, albeit we need none of these things, that we have the holy books of scripture in our hands to comfort us, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "22")
+		else if ($3 == "22")
 		{
 			$5 = correctAllVerses($5, "Now therefore, since this is come to our knowledge, ye shall do well to write unto us of your prosperity.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "24")
+		else if ($3 == "24")
 		{
 			$5 = correctAllVerses($5, "Now when Jonathan heard that Demebius’ princes were come to fight against him with a greater host than afore, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "49")
+		else if ($3 == "49")
 		{
 			$5 = correctAllVerses($5, "Then sent Tryphon an host of footmen and horsemen into Galilee, and into the great plain, to destroy all Jonathan’s company.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "53")
+		else if ($3 == "53")
 		{
 			$5 = correctAllVerses($5, "Then all the heathen that were round about then sought to destroy them: for said they, They have no captain, nor any to help them: now therefore let us make war upon them, and take away their memorial from among men.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 
-}
+	}
+	else if ($2 == "13")
+	{
+
+
+		if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "Also he sent Jonathan the son of Absolom, and with him a great power, to Joppa: who casting out them that were therein remained there in it.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "So Tryphon removed from Ptolemaus with a great power to invade the land of Judea, and Jonathan was with him in ward.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "47")
+		{
+			$5 = correctAllVerses($5, "So Simon was appeased toward them, and fought no more against them, but put them out of the city, and cleansed the houses wherein the idols were, and so entered into it with songs and thanksgiving.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "51")
+		{
+			$5 = correctAllVerses($5, "And entered into it the three and twentieth day of the second month in the hundred seventy and first year, with thanksgiving, and branches of palm trees, and with harps, and cymbals, and with viols, and hymns, and songs: because there was destroyed a great enemy out of Israel.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "53")
+		{
+			$5 = correctAllVerses($5, "And when Simon saw that John his son was a valiant man, he made him captain of all the hosts; and he dwelt in Gazera.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "14")
+	{
+
+
+		if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "And as he was honourable in all his acts, so in this, that he took Joppa for an haven, and made an entrance to the isles of the sea, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "And gathered together a great number of captives, and had the dominion of Gazera, and Bethsura, and the tower, out of the which he took all uncleaness, neither was there any that resisted him.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "29")
+		{
+			$5 = correctAllVerses($5, "Forasmuch as oftentimes there have been wars in the country, wherein for the maintenance of their sanctuary, and the law, Simon the son of Mattathias, of the posterity of Jarib, together with his brethren, put themselves in jeopardy, and resisting the enemies of their nation did their nation great honour: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "34")
+		{
+			$5 = correctAllVerses($5, "Moreover he fortified Joppa, which lieth upon the sea, and Gazera, that bordereth upon Azotus, where the enemies had dwelt before: but he placed Jews there, and furnished them with all things convenient for the reparation thereof.)")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "The people therefore sang the acts of Simon, and unto what glory he thought to bring his nation, made him their governor and chief priest, because he had done all these things, and for the justice and faith which he kept to his nation, and for that he sought by all means to exalt his people.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "43")
+		{
+			$5 = correctAllVerses($5, "Beside this, that he should be obeyed of every man, and that all the writings in the country should be made in his name, and that he should be clothed in purple, and wear gold: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
 }
 
 
