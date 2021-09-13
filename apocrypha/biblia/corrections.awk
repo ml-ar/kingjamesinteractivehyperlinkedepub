@@ -2390,6 +2390,71 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+	else if ($2 == "15")
+	{
+
+
+		if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "And if anything be, or shall be, owing to the king, let it be forgiven thee from this time forth for evermore.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and Cyprus, and Cyrene.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "28")
+		{
+			$5 = correctAllVerses($5, "Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, Ye withhold Joppa and Gazera; with the tower that is in Jerusalem, which are cities of my realm.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "31")
+		{
+			$5 = correctAllVerses($5, "Or else give me for them five hundred talents of silver; and for the harm that ye have done, and the tributes of the cities, other five hundred talents: if not, we will come and fight against you ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "35")
+		{
+			$5 = correctAllVerses($5, "And whereas thou demandest Joppa and Gazera, albeit they did great harm unto the people in our country, yet will we give thee an hundred talents for them. Hereunto Athenobius answered him not a word;")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "16")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Then came up John from Gazera, and told Simon his father what Cendebeus had done.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "Wherefore Simon called his two eldest sons, Judas and John, and said unto them, I, and my brethren, and my father’s house, have ever from my youth unto this day fought against the enemies of Israel; and things have prospered so well in our hands, that we have delivered Israel oftentimes.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "19")
+		{
+			$5 = correctAllVerses($5, "He sent others also to Gazera to kill John: and unto the tribunes he sent letters to come unto him, that he might give them silver, and gold, and rewards.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "Now one had run afore to Gazera and told John that his father and brethren were slain, and, quoth he, Ptolemee hath sent to slay thee also.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
 }
 
 

@@ -563,36 +563,36 @@
 1 Maccabees	15	22	1	The same things wrote he likewise unto 	u	<a href='1MA.xhtml#M110_67'>ch. 10. 67</a>. &amp; <a href='1MA.xhtml#M114_1'>14. 1</a>.
 1 Maccabees	15	22	2	The same things wrote he likewise unto Demetrius the king, and Attalus, to 	*	Or, <span class='add'>Arathes</span>.
 1 Maccabees	15	22	3	The same things wrote he likewise unto Demetrius the king, and Attalus, to Ariarathes, and 	w	<a href='1MA.xhtml#M114_2'>ch. 14. 2</a>, <a href='1MA.xhtml#M114_3'>3</a>.
-1 Maccabees	15	23	1	and to all the countries, and to 	*	Or, <span class='add'>Sampsaces</span> [Lat. <span class='add'>Lampsacus</span>].
-1 Maccabees	15	23	2	and to all the countries, and to Sampsames, and the 	x	See <a href='1MA.xhtml#M114_16'>ch. 14. 16</a>.
-1 Maccabees	15	23	3	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and 	y	<a href='ACT.xhtml#AC20_15'>Acts 20. 15</a>.
-1 Maccabees	15	23	4	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and 	z	<a href='ACT.xhtml#AC2_10'>Acts 2. 10</a>. &amp; <a href='ACT.xhtml#AC13_13'>13. 13</a>. &amp; <a href='ACT.xhtml#AC14_24'>14. 24</a>. &amp; <a href='ACT.xhtml#AC15_38'>15. 38</a>. &amp; <a href='ACT.xhtml#AC27_5'>27. 5</a>.
-1 Maccabees	15	23	5	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and 	a	<a href='ACT.xhtml#AC27_5'>Acts 27. 5</a>.
-1 Maccabees	15	23	6	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and 	b	<a href='ACT.xhtml#AC21_1'>Acts 21. 1</a>.
-1 Maccabees	15	23	7	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and 	*	Or, <span class='add'>Basilis</span>.
-1 Maccabees	15	23	8	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Phaselis, and 	b	<a href='ACT.xhtml#AC21_1'>Acts 21. 1</a>.
-1 Maccabees	15	23	9	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Phaselis, and Cos, and Side, and Aradus, and Gortyna, and 	c	<a href='ACT.xhtml#AC27_7'>Acts 27. 7</a>.
-1 Maccabees	15	23	10	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Phaselis, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and 	d	See <a href='ACT.xhtml#AC4_36'>Acts 4. 36</a>.
-1 Maccabees	15	23	11	and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Phaselis, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and Cyprus, and 	e	See <a href='ACT.xhtml#AC2_10'>Acts 2. 10</a>.
+1 Maccabees	15	23	1	And to all the countries and to 	*	Or, <span class='add'>Sampsaces</span> [Lat. <span class='add'>Lampsacus</span>].
+1 Maccabees	15	23	2	And to all the countries and to Sampsames, and the 	x	See <a href='1MA.xhtml#M114_16'>ch. 14. 16</a>.
+1 Maccabees	15	23	3	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and 	y	<a href='ACT.xhtml#AC20_15'>Acts 20. 15</a>.
+1 Maccabees	15	23	4	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and 	z	<a href='ACT.xhtml#AC2_10'>Acts 2. 10</a>. &amp; <a href='ACT.xhtml#AC13_13'>13. 13</a>. &amp; <a href='ACT.xhtml#AC14_24'>14. 24</a>. &amp; <a href='ACT.xhtml#AC15_38'>15. 38</a>. &amp; <a href='ACT.xhtml#AC27_5'>27. 5</a>.
+1 Maccabees	15	23	5	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and 	a	<a href='ACT.xhtml#AC27_5'>Acts 27. 5</a>.
+1 Maccabees	15	23	6	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and 	b	<a href='ACT.xhtml#AC21_1'>Acts 21. 1</a>.
+1 Maccabees	15	23	7	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and 	*	Or, <span class='add'>Basilis</span>.
+1 Maccabees	15	23	8	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and 	b	<a href='ACT.xhtml#AC21_1'>Acts 21. 1</a>.
+1 Maccabees	15	23	9	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and Cos, and Side, and Aradus, and Gortyna, and 	c	<a href='ACT.xhtml#AC27_7'>Acts 27. 7</a>.
+1 Maccabees	15	23	10	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and 	d	See <a href='ACT.xhtml#AC4_36'>Acts 4. 36</a>.
+1 Maccabees	15	23	11	And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and Cyprus, and 	e	See <a href='ACT.xhtml#AC2_10'>Acts 2. 10</a>.
 1 Maccabees	15	25	1		f	See <a href='1MA.xhtml#M115_14'>ver. 14</a>.
 1 Maccabees	15	25	2	So Antiochus the king camped against Dora the second day, 	*	Gr. <span class='add'>bringing</span> his <span class='add'>forces to it</span>.
 1 Maccabees	15	25	3	So Antiochus the king camped against Dora the second day, assaulting it continually, and making engines, by which means he shut up Tryphon, that he could neither 	f	See <a href='1MA.xhtml#M115_14'>ver. 14</a>.
 1 Maccabees	15	27	1	Nevertheless he would not receive them, but 	g	See <a href='1MA.xhtml#M16_62'>ch. 6. 62</a>.
 1 Maccabees	15	27	2	Nevertheless he would not receive them, but brake 	h	<a href='1MA.xhtml#M115_3'>ver. 3–9</a>.
-1 Maccabees	15	28	1	Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, You withhold 	i	<a href='1MA.xhtml#M114_5'>ch. 14. 5</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M113_11'>ch. 13. 11</a>.
-1 Maccabees	15	28	2	Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, You withhold Joppe and 	k	<a href='1MA.xhtml#M114_7'>ch. 14. 7</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
-1 Maccabees	15	28	3	Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, You withhold Joppe and Gazara, with 	l	<a href='1MA.xhtml#M113_50'>ch. 13. 50</a>, <a href='1MA.xhtml#M113_51'>51</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
+1 Maccabees	15	28	1	Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, Ye withhold 	i	<a href='1MA.xhtml#M114_5'>ch. 14. 5</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M113_11'>ch. 13. 11</a>.
+1 Maccabees	15	28	2	Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, Ye withhold Joppa and 	k	<a href='1MA.xhtml#M114_7'>ch. 14. 7</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
+1 Maccabees	15	28	3	Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, Ye withhold Joppa and Gazera; with 	l	<a href='1MA.xhtml#M113_50'>ch. 13. 50</a>, <a href='1MA.xhtml#M113_51'>51</a>. See <a href='1MA.xhtml#M11_33'>ch. 1. 33</a>.
 1 Maccabees	15	29	1	The borders thereof ye have wasted, and done great hurt in the land, and got the dominion of 	m	<a href='1MA.xhtml#M111_28'>ch. 11. 28</a>, <a href='1MA.xhtml#M111_34'>34</a>.
 1 Maccabees	15	3	1	Forasmuch as 	e	<a href='1MA.xhtml#M115_21'>ver. 21</a>. <a href='1MA.xhtml#M110_61'>ch. 10. 61</a>. <a href='ACT.xhtml#AC24_5'>Acts 24. 5</a>.
 1 Maccabees	15	3	2	Forasmuch as certain pestilent men 	f	<a href='1MA.xhtml#M113_32'>ch. 13. 32</a>.
 1 Maccabees	15	30	1	Now therefore deliver the cities which ye have taken, and 	m	<a href='1MA.xhtml#M111_28'>ch. 11. 28</a>, <a href='1MA.xhtml#M111_34'>34</a>.
 1 Maccabees	15	30	2	Now therefore deliver the cities which ye have taken, and the tributes of the places, whereof ye have gotten dominion 	*	Or, <span class='add'>except the borders, &amp;c.</span>
-1 Maccabees	15	31	1	or else give me for them five hundred talents of silver; and for the harm that you have done, and the tributes of the cities, other five hundred talents: if not, we will come and 	*	Or, <span class='add'>subdue you in fight</span>.
+1 Maccabees	15	31	1	Or else give me for them five hundred talents of silver; and for the harm that ye have done, and the tributes of the cities, other five hundred talents: if not, we will come and 	*	Or, <span class='add'>subdue you in fight</span>.
 1 Maccabees	15	32	1	So Athenobius 	n	See <a href='1MA.xhtml#M110_20'>ch. 10. 20</a>.
 1 Maccabees	15	32	2	So Athenobius the king’s friend came to Jerusalem: and when he saw the glory of Simon, and the cupboard of gold and silver plate, and his great 	o	So <a href='1KI.xhtml#K110_5'>1 Kin. 10. 5</a> marg.
 1 Maccabees	15	35	1	And whereas thou demandest 	i	<a href='1MA.xhtml#M114_5'>ch. 14. 5</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M113_11'>ch. 13. 11</a>.
-1 Maccabees	15	35	2	And whereas thou demandest Joppe and 	k	<a href='1MA.xhtml#M114_7'>ch. 14. 7</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
-1 Maccabees	15	35	3	And whereas thou demandest Joppe and Gazara, albeit they did great harm unto the people in our country, yet will we give 	p	Comp. <a href='1MA.xhtml#M115_31'>ver. 31</a>.
+1 Maccabees	15	35	2	And whereas thou demandest Joppa and 	k	<a href='1MA.xhtml#M114_7'>ch. 14. 7</a>. <a href='1MA.xhtml#M115_35'>ver. 35</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
+1 Maccabees	15	35	3	And whereas thou demandest Joppa and Gazera, albeit they did great harm unto the people in our country, yet will we give 	p	Comp. <a href='1MA.xhtml#M115_31'>ver. 31</a>.
 1 Maccabees	15	37	1	In the mean time fled 	q	<a href='1MA.xhtml#M115_25'>ver. 25</a>, <a href='1MA.xhtml#M115_39'>39</a>.
 1 Maccabees	15	38	1	Then the king made 	r	<a href='1MA.xhtml#M116_1'>ch. 16. 1</a>, <a href='1MA.xhtml#M116_4'>4</a>, <a href='1MA.xhtml#M116_8'>8</a>.
 1 Maccabees	15	39	1	and commanded him to remove his host toward Judea: also he commanded him to build up 	*	[Or, <span class='add'>Gedor</span>]. <a href='JOS.xhtml#JS15_58'>Josh. 15. 58</a>. So <a href='1MA.xhtml#M115_41'>ver. 41</a>. <a href='1MA.xhtml#M116_9'>ch. 16. 9</a>.
@@ -603,11 +603,11 @@
 1 Maccabees	15	5	1	now therefore 	h	Comp. <a href='1MA.xhtml#M110_40'>ch. 10. 40–43</a>.
 1 Maccabees	15	7	1	And as concerning Jerusalem and the sanctuary, let them 	i	So <a href='1MA.xhtml#M110_31'>ch. 10. 31</a>
 1 Maccabees	15	7	2	And as concerning Jerusalem and the sanctuary, let them be free; and all the armour that thou hast made, and 	k	See <a href='1MA.xhtml#M113_33'>ch. 13. 33</a>.
-1 Maccabees	15	8	1	And if any thing be, or shall be, owing to the king, 	l	So <a href='1MA.xhtml#M110_29'>ch. 10. 29</a>. &amp; <a href='1MA.xhtml#M113_39'>13. 39</a>.
+1 Maccabees	15	8	1	And if anything be, or shall be, owing to the king, let 	l	So <a href='1MA.xhtml#M110_29'>ch. 10. 29</a>. &amp; <a href='1MA.xhtml#M113_39'>13. 39</a>.
 1 Maccabees	16	1	1	Then came up 	a	See <a href='1MA.xhtml#M113_53'>ch. 13. 53</a>.
 1 Maccabees	16	1	2	Then came up John from 	a	See <a href='1MA.xhtml#M113_53'>ch. 13. 53</a>.
 1 Maccabees	16	1	3	Then came up John from 	b	<a href='1MA.xhtml#M116_19'>ver. 19</a>, <a href='1MA.xhtml#M116_21'>21</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
-1 Maccabees	16	1	4	Then came up John from Gazara, and told Simon his father 	c	<a href='1MA.xhtml#M115_40'>ch. 15. 40</a>, <a href='1MA.xhtml#M115_41'>41</a>.
+1 Maccabees	16	1	4	Then came up John from Gazera, and told Simon his father 	c	<a href='1MA.xhtml#M115_40'>ch. 15. 40</a>, <a href='1MA.xhtml#M115_41'>41</a>.
 1 Maccabees	16	10	1		*	Or, <span class='add'>Which when he had set</span> [<span class='add'>on</span>] <span class='add'>fire, they fled unto the towers in the fields of Azotus; and there were slain, &amp;c.</span>
 1 Maccabees	16	10	2	So they fled even unto the towers in the fields of 	*	About B.C. 135.
 1 Maccabees	16	10	3	So they fled even unto the towers in the fields of 	n	See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
@@ -618,13 +618,13 @@
 1 Maccabees	16	16	1	So when Simon and his sons 	r	<a href='GEN.xhtml#GN43_34'>Gen. 43. 34</a>. <a href='JHN.xhtml#JN2_10'>John 2. 10</a> in the Gk.
 1 Maccabees	16	18	1	Then Ptolemee wrote these things, and sent to 	s	<a href='1MA.xhtml#M115_25'>ch. 15. 25</a>, <a href='1MA.xhtml#M115_38'>38</a>.
 1 Maccabees	16	19	1	He sent others also to 	b	<a href='1MA.xhtml#M116_19'>ver. 19</a>, <a href='1MA.xhtml#M116_21'>21</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
-1 Maccabees	16	19	2	He sent others also to Gazara, to kill John: and unto the 	*	Gr. <span class='add'>captains of thousands</span>. <a href='JDT.xhtml#JT14_12'>Judith 14. 12</a>. <a href='MRK.xhtml#MK6_21'>Mark 6. 21</a>. <a href='ACT.xhtml#AC25_23'>Acts 25. 23</a>. <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>. &amp; <a href='REV.xhtml#RV19_18'>19. 18</a> in the Gk.
-1 Maccabees	16	19	3	He sent others also to Gazara, to kill John: and unto the tribunes he sent letters to come unto him, that he might give them 	t	<a href='1MA.xhtml#M116_11'>ver. 11</a>.
+1 Maccabees	16	19	2	He sent others also to Gazera to kill John: and unto the 	*	Gr. <span class='add'>captains of thousands</span>. <a href='JDT.xhtml#JT14_12'>Judith 14. 12</a>. <a href='MRK.xhtml#MK6_21'>Mark 6. 21</a>. <a href='ACT.xhtml#AC25_23'>Acts 25. 23</a>. <a href='REV.xhtml#RV6_15'>Rev. 6. 15</a>. &amp; <a href='REV.xhtml#RV19_18'>19. 18</a> in the Gk.
+1 Maccabees	16	19	3	He sent others also to Gazera to kill John: and unto the tribunes he sent letters to come unto him, that he might give them 	t	<a href='1MA.xhtml#M116_11'>ver. 11</a>.
 1 Maccabees	16	2	1	Wherefore Simon called his two eldest sons, Judas and 	a	See <a href='1MA.xhtml#M113_53'>ch. 13. 53</a>.
 1 Maccabees	16	2	2	Wherefore Simon called his two eldest sons, Judas and John, and said unto them, 	d	So <a href='1MA.xhtml#M114_26'>ch. 14. 26</a>.
-1 Maccabees	16	2	3	Wherefore Simon called his two eldest sons, Judas and John, and said unto them, I, and my brethren, and my father’s house, have ever from our youth unto this day fought against the enemies of Israel; and 	e	See <a href='1MA.xhtml#M114_36'>ch. 14. 36</a>.
+1 Maccabees	16	2	3	Wherefore Simon called his two eldest sons, Judas and John, and said unto them, I, and my brethren, and my father’s house, have ever from my youth unto this day fought against the enemies of Israel; and 	e	See <a href='1MA.xhtml#M114_36'>ch. 14. 36</a>.
 1 Maccabees	16	21	1	Now one had run afore to 	b	<a href='1MA.xhtml#M116_19'>ver. 19</a>, <a href='1MA.xhtml#M116_21'>21</a>. See <a href='1MA.xhtml#M14_15'>ch. 4. 15</a>.
-1 Maccabees	16	21	2	Now one had run afore to Gazara, and told John that his father and brethren were slain, and 	u	See <a href='1MA.xhtml#M11_50'>ch. 1. 50</a>.
+1 Maccabees	16	21	2	Now one had run afore to Gazera and told John that his father and brethren were slain, and, 	u	See <a href='1MA.xhtml#M11_50'>ch. 1. 50</a>.
 1 Maccabees	16	23	1		x	So <a href='1MA.xhtml#M19_22'>ch. 9. 22</a>.
 1 Maccabees	16	3	1	But now I am old, and ye, by God’s mercy, are of a sufficient age: be ye instead of me and 	f	Comp. <a href='1MA.xhtml#M113_23'>ch. 13. 23</a>.
 1 Maccabees	16	4	1	So he chose out of the country twenty thousand men of war with horsemen, who went out against Cendebeus, and 	g	<a href='1MA.xhtml#M111_6'>ch. 11. 6</a> marg.
