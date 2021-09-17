@@ -2457,6 +2457,43 @@ else if ($3 == "19")
 	}
 }
 
+/^2 Mac/ {
+	if ($2 == "1")
+	{
+
+
+		if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "And burned the porch, and shed innocent blood: then we prayed unto the Lord, and were heard; we offered also sacrifices and fine flour, and lighted the lamps, and set forth the loaves.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "In the hundred fourscore and eighth year, the people that were at Jerusalem and in Judea, and the council, and Judas, sent greeting and health unto Aristobulus, king Ptolemeus’ master, who was of the stock of the anointed priests, and to the Jews that were in Egypt: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+	else if ($2 == "2")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "It is also found in the records, that Jeremy the prophet commanded them that were carried away to take of the fire, as it hath been signified: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "And when Jeremy came thither, he found an hollow cave, wherein he laid the tabernacle, and the ark, and the altar of incense, and so stopped the door.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+}
 
 
 {
