@@ -2493,6 +2493,88 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+	else if ($2 == "3")
+	{
+
+
+		if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "Insomuch that Seleucus of Asia of his own revenues bare all the costs belonging to the service of the sacrifices.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "8")
+		{
+			$5 = correctAllVerses($5, "So forthwith Heliodorus took his journey; under a colour of visiting the cities of Celosyria and Phenice, but indeed to fulfil the king’s purpose.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "12")
+		{
+			$5 = correctAllVerses($5, "And that it was altogether impossible that such wrongs should be done unto them, that had committed it to the holiness of the place, and to the majesty and inviolable sanctity of the temple, honoured over all the world.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "25")
+		{
+			$5 = correctAllVerses($5, "For there appeared unto them an horse with a terrible rider upon him, and adorned with a very fair covering, and he ran fiercely, and smote at Heliodorus with his forefeet, and it seemed that he that sat upon the horse had complete harness of gold.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "4")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "This Simon now, of whom we spake afore, having been a betrayer of the money, and of his country, slandered Onias, as if he ha terrified Heliodorus, and been the worker of these evils.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "Thus was he bold to call him a traitor, that had deserved well of the city, and tendered his own nation, and was so zealous of the laws.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "10")
+		{
+			$5 = correctAllVerses($5, "Which when the king had granted, and he had gotten into his hand the rule he forthwith brought his own nation to Greekish fashion.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "Where he was honourably received of Jason, and of the city, and was brought in with torch alight, and with great shoutings: and so afterward went with his host unto Phenice.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "Three years afterward Jason sent Menelaus, the aforesaid Simon’s brother, to bear the money unto the king, and to put him in mind of certain necessary matters.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "27")
+		{
+			$5 = correctAllVerses($5, "So Menelaus got the principality: but as for the money that he had promised unto the king, he took no good order for it, albeit Sostratis the ruler of the castle required it: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "42")
+		{
+			$5 = correctAllVerses($5, "Thus many of them they wounded, and some they struck to the ground, and all of them they forced to flee: but as for the churchrobber himself, him they killed beside the treasury.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "50")
+		{
+			$5 = correctAllVerses($5, "And so through the covetousness of them that were of power Menelaus remained still in authority, increasing in malice, and being a great traitor to the citizens.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
 }
 
 

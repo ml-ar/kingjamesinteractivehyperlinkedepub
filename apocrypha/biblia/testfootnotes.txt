@@ -492,7 +492,7 @@
 2 Maccabees	3	10	1	Then the high priest told him that there was such 	r	<a href='2MA.xhtml#M23_15'>ver. 15</a> (Gk.). See <a href='1TI.xhtml#T16_20'>1 Tim. 6. 20</a>.
 2 Maccabees	3	10	2	Then the high priest told him that there was such money laid up for the relief of 	s	<a href='2MA.xhtml#M28_28'>ch. 8. 28</a>, <a href='2MA.xhtml#M28_30'>30</a>. <a href='JAS.xhtml#JM1_27'>James 1. 27</a>.
 2 Maccabees	3	11	1	and that some of it belonged to Hircanus son of Tobias, a man of great dignity, and not as that wicked Simon had misinformed: the sum whereof in all was four hundred 	t	Comp. <a href='EXO.xhtml#EX38_25'>Ex. 38. 25</a>. <a href='2MA.xhtml#M25_21'>ch. 5. 21</a>.
-2 Maccabees	3	12	1	and that it was altogether impossible that such wrong should be done unto them, 	u	<a href='2MA.xhtml#M23_11'>ver. 11</a>, <a href='2MA.xhtml#M23_15'>15</a>, <a href='2MA.xhtml#M23_22'>22</a>. See <a href='2MA.xhtml#M25_19'>ch. 5. 19</a>.
+2 Maccabees	3	12	1	And that it was altogether impossible that such wrongs should be done unto them, 	u	<a href='2MA.xhtml#M23_11'>ver. 11</a>, <a href='2MA.xhtml#M23_15'>15</a>, <a href='2MA.xhtml#M23_22'>22</a>. See <a href='2MA.xhtml#M25_19'>ch. 5. 19</a>.
 2 Maccabees	3	13	1	But Heliodorus, 	v	<a href='2MA.xhtml#M23_7'>ver. 7</a>, <a href='2MA.xhtml#M23_23'>23</a>.
 2 Maccabees	3	14	1	So at the day which he appointed he entered in to order this matter: wherefore there was no small 	w	<a href='LUK.xhtml#LK22_44'>Luke 22. 44</a>. So <a href='2MA.xhtml#M23_21'>ver. 21</a>.
 2 Maccabees	3	15	1	But the priests, prostrating themselves before the altar 	x	<a href='EXO.xhtml#EX28_2'>Ex. 28. 2–5</a>.
@@ -513,14 +513,14 @@
 2 Maccabees	3	24	2	Now as he was there present himself with his guard about the treasury, the 	*	Or, <span class='add'>Lord of</span> our <span class='add'>fathers</span>. See <a href='SIR.xhtml#SR46_5'>Ecclus. 46. 5</a>.
 2 Maccabees	3	24	3	Now as he was there present himself with his guard about the treasury, the Lord of spirits, and the 	e	<a href='2MA.xhtml#M212_15'>ch. 12. 15</a>, <a href='2MA.xhtml#M212_28'>28</a>. &amp; <a href='2MA.xhtml#M215_23'>15. 23</a>. <a href='1TI.xhtml#T16_15'>1 Tim. 6. 15</a> in the Gk.
 2 Maccabees	3	24	4	Now as he was there present himself with his guard about the treasury, the Lord of spirits, and the Prince of all power, caused a great 	ee	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>.
-2 Maccabees	3	25	1	For there appeared unto them a horse with a terrible rider upon him, and adorned with a very fair covering, and he ran fiercely, and smote at Heliodorus with his forefeet, and it seemed that he that sat upon the horse had complete 	f	<a href='2MA.xhtml#M25_3'>ch. 5. 3</a>. See <a href='1KI.xhtml#K120_11'>1 Kin. 20. 11</a>.
+2 Maccabees	3	25	1	For there appeared unto them an horse with a terrible rider upon him, and adorned with a very fair covering, and he ran fiercely, and smote at Heliodorus with his forefeet, and it seemed that he that sat upon the horse had complete 	f	<a href='2MA.xhtml#M25_3'>ch. 5. 3</a>. See <a href='1KI.xhtml#K120_11'>1 Kin. 20. 11</a>.
 2 Maccabees	3	26	1	Moreover two other young men appeared before him, notable in strength, excellent in beauty, and comely in apparel, who stood by him on either side, and 	ff	<a href='2MA.xhtml#M25_18'>ch. 5. 18</a>.
 2 Maccabees	3	26	2	Moreover two other young men appeared before him, notable in strength, excellent in beauty, and comely in apparel, who stood by him on either side, and scourged him 	g	See <a href='1TH.xhtml#H11_3'>1 Thess. 1. 3</a>.
 2 Maccabees	3	27	1	And Heliodorus fell suddenly unto the ground, and was compassed with great darkness: but they that were with him took him up, and put him into 	gg	<a href='2MA.xhtml#M29_8'>ch. 9. 8</a> (Gk.).
 2 Maccabees	3	28	1	Thus him, that lately came with a great train and with all his guard into the said 	d	See <a href='2MA.xhtml#M23_6'>ver. 6</a>.
-2 Maccabees	3	3	1	insomuch that 	*	About B. C. 187.
-2 Maccabees	3	3	2	insomuch that 	d	<a href='1MA.xhtml#M17_1'>1 Macc. 7. 1</a>. <a href='2MA.xhtml#M24_7'>ch. 4. 7</a>. &amp; <a href='2MA.xhtml#M25_18'>5. 18</a>. &amp; <a href='2MA.xhtml#M214_1'>14. 1</a>.
-2 Maccabees	3	3	3	insomuch that Seleucus king of 	e	See <a href='1MA.xhtml#M18_6'>1 Macc. 8. 6</a>.
+2 Maccabees	3	3	1	Insomuch that 	*	About B. C. 187.
+2 Maccabees	3	3	2	Insomuch that 	d	<a href='1MA.xhtml#M17_1'>1 Macc. 7. 1</a>. <a href='2MA.xhtml#M24_7'>ch. 4. 7</a>. &amp; <a href='2MA.xhtml#M25_18'>5. 18</a>. &amp; <a href='2MA.xhtml#M214_1'>14. 1</a>.
+2 Maccabees	3	3	3	Insomuch that Seleucus of Asia 	e	See <a href='1MA.xhtml#M18_6'>1 Macc. 8. 6</a>.
 2 Maccabees	3	30	1	But they praised the Lord, that had miraculously honoured his own place: for the temple, which a little afore was full of fear and trouble, when the 	h	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
 2 Maccabees	3	31	1	Then straightways certain of Heliodorus’ friends prayed Onias, 	i	See <a href='JAS.xhtml#JM5_16'>James 5. 16</a>.
 2 Maccabees	3	32	1	So the high priest, 	j	So <a href='2MA.xhtml#M24_1'>ch. 4. 1</a>.
@@ -538,17 +538,17 @@
 2 Maccabees	3	6	2	and told him that the treasury in Jerusalem was full of infinite sums of money, so that the multitude of their 	j	See <a href='2MA.xhtml#M21_35'>ch. 1. 35</a>.
 2 Maccabees	3	6	3	and told him that the treasury in Jerusalem was full of infinite sums of money, so that the multitude of their riches, 	k	Comp. <a href='2MA.xhtml#M23_3'>ver. 3</a>.
 2 Maccabees	3	7	1	Now when Apollonius came to the king, and had shewed him of the money whereof he was told, the king chose out Heliodorus his treasurer, and 	l	Comp. <a href='DAN.xhtml#DN11_20'>Dan. 11. 20</a>.
-2 Maccabees	3	8	1	So forthwith Heliodorus took his journey, 	m	<a href='ACT.xhtml#AC27_30'>Acts 27. 30</a> (Engl. So Gk.).
-2 Maccabees	3	8	2	So forthwith Heliodorus took his journey, under a colour of visiting the cities of 	h	<a href='2MA.xhtml#M23_8'>ver. 8</a>. See <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>.
-2 Maccabees	3	8	3	So forthwith Heliodorus took his journey, under a colour of visiting the cities of Coelosyria and Phenice, but indeed to fulfil the king’s 	n	<a href='ACT.xhtml#AC27_13'>Acts 27. 13</a>.
+2 Maccabees	3	8	1	So forthwith Heliodorus took his journey; 	m	<a href='ACT.xhtml#AC27_30'>Acts 27. 30</a> (Engl. So Gk.).
+2 Maccabees	3	8	2	So forthwith Heliodorus took his journey; under a colour of visiting the cities of 	h	<a href='2MA.xhtml#M23_8'>ver. 8</a>. See <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>.
+2 Maccabees	3	8	3	So forthwith Heliodorus took his journey; under a colour of visiting the cities of Celosyria and Phenice, but indeed to fulfil the king’s 	n	<a href='ACT.xhtml#AC27_13'>Acts 27. 13</a>.
 2 Maccabees	3	9	1	And when he was come to Jerusalem, and had been 	o	<a href='ACT.xhtml#AC28_7'>Acts 28. 7</a>.
 2 Maccabees	3	9	2	And when he was come to Jerusalem, and had been courteously received of the high priest of the city, he 	p	<a href='ACT.xhtml#AC25_14'>Acts 25. 14</a>. <a href='GAL.xhtml#GL2_2'>Gal. 2. 2</a> in the Gk.
 2 Maccabees	3	9	3	And when he was come to Jerusalem, and had been courteously received of the high priest of the city, he told him what intelligence was given of the money, and 	q	See <a href='2MA.xhtml#M21_18'>ch. 1. 18</a>.
 2 Maccabees	4	1	1	This Simon now, 	a	<a href='2MA.xhtml#M23_4'>ch. 3. 4</a>, <a href='2MA.xhtml#M23_11'>11</a>.
 2 Maccabees	4	1	2	This Simon now, of whom we spake afore, having been a 	b	See <a href='MAT.xhtml#MT26_73'>Matt. 26. 73</a>.
-2 Maccabees	4	1	3	This Simon now, of whom we spake afore, having been a bewrayer of the money, and of his country, slandered Onias, 	c	So <a href='2MA.xhtml#M23_32'>ch. 3. 32</a>.
-2 Maccabees	4	10	1	Which when the king had granted, and he had gotten into his hand the rule, he forthwith 	q	So <a href='1MA.xhtml#M11_41'>1 Macc. 1. 41</a>, <a href='1MA.xhtml#M11_42'>42</a>. &amp; <a href='1MA.xhtml#M12_18'>2. 18</a>.
-2 Maccabees	4	10	2	Which when the king had granted, and he had gotten into his hand the rule, he forthwith brought his own nation to the 	t	So <a href='2MA.xhtml#M24_10'>ver. 10</a>. <a href='2MA.xhtml#M26_8'>ch. 6. 8</a>. &amp; <a href='2MA.xhtml#M211_2'>11. 2</a> marg. Comp. <a href='MRK.xhtml#MK7_26'>Mark 7. 26</a>.
+2 Maccabees	4	1	3	This Simon now, of whom we spake afore, having been a betrayer of the money, and of his country, slandered Onias, 	c	So <a href='2MA.xhtml#M23_32'>ch. 3. 32</a>.
+2 Maccabees	4	10	1	Which when the king had granted, and he had gotten into his hand the rule he forthwith 	q	So <a href='1MA.xhtml#M11_41'>1 Macc. 1. 41</a>, <a href='1MA.xhtml#M11_42'>42</a>. &amp; <a href='1MA.xhtml#M12_18'>2. 18</a>.
+2 Maccabees	4	10	2	Which when the king had granted, and he had gotten into his hand the rule he forthwith brought his own nation to Greekish 	t	So <a href='2MA.xhtml#M24_10'>ver. 10</a>. <a href='2MA.xhtml#M26_8'>ch. 6. 8</a>. &amp; <a href='2MA.xhtml#M211_2'>11. 2</a> marg. Comp. <a href='MRK.xhtml#MK7_26'>Mark 7. 26</a>.
 2 Maccabees	4	11	1	And the royal privileges granted of special favour to the Jews by the means of John the father of 	qq	<a href='1MA.xhtml#M18_17'>1 Macc. 8. 17</a>.
 2 Maccabees	4	11	2	And the royal privileges granted of special favour to the Jews by the means of John the father of Eupolemus, who went ambassador to 	r	See <a href='1MA.xhtml#M18_1'>1 Macc. 8. 1</a>.
 2 Maccabees	4	12	1	for he built gladly 	o	<a href='1MA.xhtml#M11_14'>1 Macc. 1. 14</a>. <a href='2MA.xhtml#M24_12'>ver. 12</a>.
@@ -567,23 +567,23 @@
 2 Maccabees	4	19	5	this ungracious Jason sent special messengers from Jerusalem, who were Antiochians, to carry three hundred drachms of silver to the sacrifice of Hercules, which even the bearers thereof thought fit not to bestow upon the sacrifice, because it was not 	a	<a href='SIR.xhtml#SR10_23'>Ecclus. 10. 23</a>. <a href='2MA.xhtml#M26_4'>ch. 6. 4</a> (Gk.), <a href='2MA.xhtml#M26_21'>21</a> (Gk.). &amp; <a href='2MA.xhtml#M211_36'>11. 36</a>. <a href='ACT.xhtml#AC22_22'>Acts 22. 22</a> (Gk.). <a href='ROM.xhtml#RM1_28'>Rom. 1. 28</a>.
 2 Maccabees	4	2	1	Thus was he bold to call him a 	d	<a href='2MA.xhtml#M23_38'>ch. 3. 38</a>. So <a href='2MA.xhtml#M24_50'>ver. 50</a>. <a href='2MA.xhtml#M214_26'>ch. 14. 26</a>.
 2 Maccabees	4	2	2	Thus was he bold to call him a traitor, 	e	<a href='LUK.xhtml#LK22_25'>Luke 22. 25</a> (Gk.).
-2 Maccabees	4	2	3	Thus was he bold to call him a traitor, that had deserved well of the city, and tendred his own nation, and was so 	f	See <a href='ACT.xhtml#AC21_20'>Acts 21. 20</a>.
+2 Maccabees	4	2	3	Thus was he bold to call him a traitor, that had deserved well of the city, and tendered his own nation, and was so 	f	See <a href='ACT.xhtml#AC21_20'>Acts 21. 20</a>.
 2 Maccabees	4	21	1		*	About B. C. 173.
 2 Maccabees	4	21	2	Now when 	b	<a href='1MA.xhtml#M13_10'>1 Macc. 3. 10</a>, <a href='1MA.xhtml#M13_12'>12</a>? <a href='2MA.xhtml#M25_24'>ch. 5. 24</a>.
 2 Maccabees	4	21	3	Now when Apollonius the son of Menestheus was sent into Egypt for the 	*	Or, <span class='add'>enthronizing</span>.
 2 Maccabees	4	21	4	Now when Apollonius the son of Menestheus was sent into Egypt for the coronation of king 	c	<a href='1MA.xhtml#M11_18'>1 Macc. 1. 18</a>. <a href='2MA.xhtml#M29_29'>ch. 9. 29</a>. &amp; <a href='2MA.xhtml#M210_13'>10. 13</a>. See <a href='ESG.xhtml#EG11_1'>Esth. 11. 1</a>.
 2 Maccabees	4	21	5	Now when Apollonius the son of Menestheus was sent into Egypt for the coronation of king Ptolemeus Philometor, Antiochus, understanding him not to be well affected to his affairs, provided for his own safety: whereupon he came to 	d	See <a href='JOS.xhtml#JS19_46'>Josh. 19. 46</a>.
-2 Maccabees	4	22	1	where he was honourably received of Jason, and of the city, and was brought in with torchlight, and with great shoutings: and so afterward went with his host unto 	e	see <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>. &amp; <a href='ACT.xhtml#AC11_19'>Acts 11. 19</a>.
+2 Maccabees	4	22	1	Where he was honourably received of Jason, and of the city, and was brought in with torch alight, and with great shoutings: and so afterward went with his host 	e	see <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>. &amp; <a href='ACT.xhtml#AC11_19'>Acts 11. 19</a>.
 2 Maccabees	4	23	1		*	About B. C. 172.
-2 Maccabees	4	23	2	Three year afterward Jason sent 	f	<a href='2MA.xhtml#M24_27'>ver. 27</a>, &amp;c. <a href='2MA.xhtml#M25_5'>ch. 5. 5</a>, <a href='2MA.xhtml#M25_15'>15</a>, <a href='2MA.xhtml#M25_23'>23</a>. &amp; <a href='2MA.xhtml#M211_29'>11. 29</a>, <a href='2MA.xhtml#M211_32'>32</a>. &amp; <a href='2MA.xhtml#M213_3'>13. 3</a>.
-2 Maccabees	4	23	3	Three year afterward Jason sent Menelaus, 	g	See <a href='2MA.xhtml#M24_1'>ver. 1</a>.
-2 Maccabees	4	23	4	Three year afterward Jason sent Menelaus, the foresaid Simon’s brother, to bear 	h	<a href='2MA.xhtml#M24_8'>ver. 8</a>, <a href='2MA.xhtml#M24_9'>9</a>. Comp. <a href='2MA.xhtml#M211_3'>ch. 11. 3</a>.
+2 Maccabees	4	23	2	Three years afterward Jason sent 	f	<a href='2MA.xhtml#M24_27'>ver. 27</a>, &amp;c. <a href='2MA.xhtml#M25_5'>ch. 5. 5</a>, <a href='2MA.xhtml#M25_15'>15</a>, <a href='2MA.xhtml#M25_23'>23</a>. &amp; <a href='2MA.xhtml#M211_29'>11. 29</a>, <a href='2MA.xhtml#M211_32'>32</a>. &amp; <a href='2MA.xhtml#M213_3'>13. 3</a>.
+2 Maccabees	4	23	3	Three years afterward Jason sent Menelaus, 	g	See <a href='2MA.xhtml#M24_1'>ver. 1</a>.
+2 Maccabees	4	23	4	Three years afterward Jason sent Menelaus, the aforesaid Simon’s brother, to bear 	h	<a href='2MA.xhtml#M24_8'>ver. 8</a>, <a href='2MA.xhtml#M24_9'>9</a>. Comp. <a href='2MA.xhtml#M211_3'>ch. 11. 3</a>.
 2 Maccabees	4	24	1	But he being brought to the presence of the king, when he had magnified him for the glorious appearance of his power, got the priesthood to himself, offering 	h	<a href='2MA.xhtml#M24_8'>ver. 8</a>, <a href='2MA.xhtml#M24_9'>9</a>. Comp. <a href='2MA.xhtml#M211_3'>ch. 11. 3</a>.
 2 Maccabees	4	26	1	Then Jason, who had 	i	<a href='2MA.xhtml#M24_7'>ver. 7</a> (Gk.).
 2 Maccabees	4	26	2	Then Jason, who had undermined his own brother, being 	i	<a href='2MA.xhtml#M24_7'>ver. 7</a> (Gk.).
 2 Maccabees	4	26	3	Then Jason, who had undermined his own brother, being undermined by another, was compelled to flee into the country of the 	k	<a href='1MA.xhtml#M15_6'>1 Macc. 5. 6</a>. <a href='2MA.xhtml#M25_7'>ch. 5. 7</a>. See <a href='JDT.xhtml#JT1_12'>Judith 1. 12</a>.
 2 Maccabees	4	27	1		*	About B. C. 171.
-2 Maccabees	4	27	2	So Menelaus got the principality: but as for the money that he had promised unto the king, he took no good order for it, albeit Sostratus the ruler of 	l	See <a href='2MA.xhtml#M24_12'>ver. 12</a>.
+2 Maccabees	4	27	2	So Menelaus got the principality: but as for the money that he had promised unto the king, he took no good order for it, albeit Sostratis the ruler of 	l	See <a href='2MA.xhtml#M24_12'>ver. 12</a>.
 2 Maccabees	4	28	1	for unto him appertained the gathering of the 	m	See <a href='2MA.xhtml#M21_35'>ch. 1. 35</a>.
 2 Maccabees	4	29	1	Now Menelaus left his brother Lysimachus in his stead in the priesthood; and Sostratus left Crates, who was governor of the 	n	<a href='2MA.xhtml#M210_13'>ch. 10. 13</a>. &amp; <a href='2MA.xhtml#M212_2'>12. 2</a>. See <a href='ACT.xhtml#AC4_36'>Acts 4. 36</a>.
 2 Maccabees	4	30	1	While those things were in doing, they of 	o	See <a href='ACT.xhtml#AC9_11'>Acts 9. 11</a>.
@@ -608,8 +608,8 @@
 2 Maccabees	4	40	2	Whereupon the common people rising, and being filled with rage, Lysimachus armed about three thousand men, and began first to offer violence; one 	c	See <a href='EZK.xhtml#EK47_16'>Ezek. 47. 16</a>?
 2 Maccabees	4	41	1	They then seeing the 	cc	<a href='2MA.xhtml#M25_5'>ch. 5. 5</a> (Gk.).
 2 Maccabees	4	41	2	They then seeing the attempt of Lysimachus, some of them caught stones, some clubs, others taking handfuls of dust, that was next at hand, cast them all together upon 	d	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
-2 Maccabees	4	42	1	Thus many of them they wounded, and some they stroke to the ground, and all of them they forced to flee: but as for the 	e	<a href='ACT.xhtml#AC19_37'>Acts 19. 37</a> (Gk. &amp; Engl.).
-2 Maccabees	4	42	2	Thus many of them they wounded, and some they stroke to the ground, and all of them they forced to flee: but as for the church robber himself, him they killed besides the 	f	See <a href='2MA.xhtml#M23_6'>ch. 3. 6</a>.
+2 Maccabees	4	42	1	Thus many of them they wounded, and some they struck to the ground, and all of them they forced to flee: but as for the 	e	<a href='ACT.xhtml#AC19_37'>Acts 19. 37</a> (Gk. &amp; Engl.).
+2 Maccabees	4	42	2	Thus many of them they wounded, and some they struck to the ground, and all of them they forced to flee: but as for the churchrobber himself, him they killed beside the treasury.	f	See <a href='2MA.xhtml#M23_6'>ch. 3. 6</a>.
 2 Maccabees	4	44	1	Now when the king came to 	g	<a href='2MA.xhtml#M24_17'>ver. 17</a>.
 2 Maccabees	4	44	2	Now when the king came to Tyrus, three men that were sent from the 	h	See <a href='2MA.xhtml#M21_10'>ch. 1. 10</a>.
 2 Maccabees	4	45	1	but Menelaus, being now convicted, promised 	i	<a href='1MA.xhtml#M13_38'>1 Macc. 3. 38</a>. <a href='2MA.xhtml#M26_8'>ch. 6. 8</a> (not as <a href='2MA.xhtml#M28_8'>ch. 8. 8</a>?).
@@ -622,8 +622,8 @@
 2 Maccabees	4	49	3	Wherefore even they of Tyrus, moved with hatred of that wicked deed, caused them to be honourably 	o	<a href='2MA.xhtml#M25_10'>ch. 5. 10</a> (Gk.).
 2 Maccabees	4	5	1	he went to the king, 	i	So <a href='ACT.xhtml#AC28_19'>Acts 28. 19</a>.
 2 Maccabees	4	50	1	And so 	p	<a href='2MA.xhtml#M24_45'>ver. 45</a>.
-2 Maccabees	4	50	2	And so through the covetousness of them that were in power 	q	<a href='2MA.xhtml#M211_29'>ch. 11. 29</a>.
-2 Maccabees	4	50	3	And so through the covetousness of them that were in power Menelaus remained still in authority, increasing in malice, and being a great 	r	See <a href='2MA.xhtml#M24_2'>ver. 2</a>.
+2 Maccabees	4	50	2	And so through the covetousness of them that were of power 	q	<a href='2MA.xhtml#M211_29'>ch. 11. 29</a>.
+2 Maccabees	4	50	3	And so through the covetousness of them that were of power Menelaus remained still in authority, increasing in malice, and being a great 	r	See <a href='2MA.xhtml#M24_2'>ver. 2</a>.
 2 Maccabees	4	6	1	for he saw that it was impossible that the state should continue quiet, and Simon leave his folly, unless the king 	j	<a href='ACT.xhtml#AC24_2'>Acts 24. 2</a> (Gk.).
 2 Maccabees	4	7	1	But after the death of 	k	See <a href='2MA.xhtml#M23_3'>ch. 3. 3</a>.
 2 Maccabees	4	7	2	But after the death of Seleucus, when 	l	See <a href='1MA.xhtml#M11_10'>1 Macc. 1. 10</a>.
