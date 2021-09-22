@@ -2575,6 +2575,168 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
+else if ($2 == "5")
+	{
+
+
+		if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "And therefore the place itself, that was partaker with them of the adversity that happened to the nation, did afterward communicate in the benefits sent from the Lord: and as it was forsaken in the wrath of the Almighty, so again, the great Lord being reconciled, it was set up with all glory.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste unto Antiochia, weening in his pride to make the land navigable, and the sea passable by foot: such was the haughtiness of his mind.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
+else if ($2 == "6")
+	{
+
+
+		if ($3 == "7")
+		{
+			$5 = correctAllVerses($5, "And in the day of the king’s birth every month they were brought by bitter constraint to eat of the sacrifices; and when the fast of Bacchus was kept, the Jews were compelled to go in procession to Bacchus, carrying ivy.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered by Philip, were all burnt together, because they made a conscience to help themselves for the honour of the most sacred day.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "But he began to consider discreetly, and as became his age, and the excellency of his ancient years, and the honour of his gray head, whereon was come, and his most honest education from a child, or rather the holy law made and given by God: therefore he answered accordingly, and willed them straightways to send him to the grave.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "7")
+	{
+
+
+		if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "But doubtless the Creator of the world, who formed the generation of man, and found out the beginning of all things, will also of his own mercy give you breath and life again, as ye now regard not your own selves for his laws’ sake.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "24")
+		{
+			$5 = correctAllVerses($5, "Now Antiochus, thinking himself despised, and suspecting it to be a reproachful speech, whilst the youngest was yet alive, did not only exhort him by words, but also assured him with oaths, that he would make him both a rich and a happy man, if he would turn from the laws of his fathers; and that also he would take him for his friend, and trust him with affairs.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "8")
+	{
+
+
+		if ($3 == "14")
+		{
+			$5 = correctAllVerses($5, "Others sold all that they had left, and withal besought the Lord to deliver them, sold by the wicked Nicanor before they met together: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "30")
+		{
+			$5 = correctAllVerses($5, "Moreover of those that were with Timotheus and Bacchides, who fought against them, they slew above twenty thousand, and very easily got high and strong holds, and divided among themselves many spoils more, and made the maimed, orphans, widows, yea, and the aged also, equal in spoils with themselves.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "9")
+	{
+
+
+		if ($3 == "3")
+		{
+			$5 = correctAllVerses($5, "Now when he came to Ecbatane, news was brought him what had happened unto Nicanor and Timotheus.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "4")
+		{
+			$5 = correctAllVerses($5, "Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariotman to drive without ceasing, and to dispatch the journey, the judgment of God now following him. For he had spoken proudly in this sort, That he would come to Jerusalem and make it a common burying place of the Jews.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "5")
+		{
+			$5 = correctAllVerses($5, "But the Lord Almighty, the God of Isreal, smote him with an incurable and invisible plague: or as soon as he had spoken these words, a pain of the bowels that was remediless came upon him, and sore torments of the inner parts; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "10")
+	{
+
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5, "And they kept the eight days with gladness, as in the feast of the tabernacles, remembering that not long afore they had held the feast of the tabernacles, when as they wandered in the mountains and dens like beasts.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "11")
+		{
+			$5 = correctAllVerses($5, "So when he was come to the crown, he set one Lysias over the affairs of his realm, and appointed him his chief governor of Celosyria and Phenice.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "15")
+		{
+			$5 = correctAllVerses($5, "And therewithall the Idumeans, having gotten into their hands the most commodious holds, kept the Jews occupied, and receiving those that were banished from Jerusalem, they went about to nourish war.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "20")
+		{
+			$5 = correctAllVerses($5, "Now they that were with Simon, being led with covetousness, were persuaded for money through certain of those that were in the castle, and took seventy thousand drachms, and let some of them escape.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "30")
+		{
+			$5 = correctAllVerses($5, "And took Maccabeus betwixt them, and covered him on every side weapons, and kept him safe, but shot arrows and lightnings against the enemies: so that being confounded with blindness, and full of trouble, they were killed.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "32")
+		{
+			$5 = correctAllVerses($5, "As for Timotheus himself, he fled into a very strong hold, called Gawra, where Chereas was governor.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+else if ($2 == "11")
+	{
+
+
+		if ($3 == "1")
+		{
+			$5 = correctAllVerses($5, "Not long after the, Lysias the king’s protector and cousin, who also managed the affairs, took sore displeasure for the things that were done.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "And when he had gathered about fourscore thousand with all the horsemen, he came against the Jews, thinking to make the city an habitation of the Gentiles, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "21")
+		{
+			$5 = correctAllVerses($5, "Fare ye well. The hundred and eight and fortieth year, the four and twentieth day of the month Dioscorinthius.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
 }
 
 

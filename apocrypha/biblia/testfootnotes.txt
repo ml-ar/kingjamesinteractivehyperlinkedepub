@@ -56,7 +56,7 @@
 2 Maccabees	10	11	1	So when he was come to the crown, he 	s	See <a href='2MA.xhtml#M29_23'>ch. 9. 23</a>.
 2 Maccabees	10	11	2	So when he was come to the crown, he set one 	t	See <a href='1MA.xhtml#M16_17'>1 Macc. 6. 17</a>. Comp. <a href='1MA.xhtml#M13_32'>1 Macc. 3. 32</a>. <a href='2MA.xhtml#M211_1'>ch. 11. 1</a>.
 2 Maccabees	10	11	3	So when he was come to the crown, he set one Lysias over the affairs of his realm, and appointed him 	u	Comp. <a href='2MA.xhtml#M24_4'>ch. 4. 4</a>. &amp; <a href='2MA.xhtml#M28_8'>8. 8</a>.
-2 Maccabees	10	11	4	So when he was come to the crown, he set one Lysias over the affairs of his realm, and appointed him chief governor of 	v	See <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>.
+2 Maccabees	10	11	4	So when he was come to the crown, he set one Lysias over the affairs of his realm, and appointed him his chief governor 	v	See <a href='1ES.xhtml#E12_17'>1 Esdr. 2. 17</a>.
 2 Maccabees	10	12	1	For 	w	<a href='2MA.xhtml#M28_8'>ch. 8. 8</a>.
 2 Maccabees	10	13	1	Whereupon being accused of the king’s friends before 	q	<a href='1MA.xhtml#M16_17'>1 Macc. 6. 17</a>. <a href='2MA.xhtml#M22_20'>ch. 2. 20</a>. <a href='2MA.xhtml#M210_13'>ver. 13</a>. <a href='2MA.xhtml#M213_1'>ch. 13. 1</a>. &amp; <a href='2MA.xhtml#M214_2'>14. 2</a>. Comp. <a href='1MA.xhtml#M13_33'>1 Macc. 3. 33</a>.
 2 Maccabees	10	13	2	Whereupon being accused of the king’s friends before Eupator, and called traitor 	x	Gk. as <a href='2MA.xhtml#M210_14'>ver. 14</a>.
@@ -68,10 +68,10 @@
 2 Maccabees	10	14	2	But when Gorgias was governor of the 	*	Or, strong <span class='add'>places</span>. Gk. as <a href='2MA.xhtml#M210_17'>ver. 17</a>. <a href='2MA.xhtml#M212_18'>ch. 12. 18</a>. &amp; <a href='2MA.xhtml#M213_18'>13. 18</a>. &amp; <a href='2MA.xhtml#M215_1'>15. 1</a>. Not as <a href='2MA.xhtml#M210_15'>ver. 15</a>, <a href='2MA.xhtml#M210_16'>16</a>, <a href='2MA.xhtml#M210_23'>23</a>.
 2 Maccabees	10	14	3	But when Gorgias was governor of the holds, he hired soldiers, and 	c	<a href='2MA.xhtml#M214_6'>ch. 14. 6</a>.
 2 Maccabees	10	14	4	But when Gorgias was governor of the holds, he hired soldiers, and nourished war 	x	Gk. as <a href='2MA.xhtml#M210_14'>ver. 14</a>.
-2 Maccabees	10	15	1	and therewithal 	cc	Comp. <a href='1MA.xhtml#M15_3'>1 Macc. 5. 3–5</a>. <a href='2MA.xhtml#M210_16'>ver. 16</a>. See <a href='MRK.xhtml#MK3_8'>Mark 3. 8</a>.
-2 Maccabees	10	15	2	and therewithal the Idumeans, having gotten into their hands 	d	<a href='2MA.xhtml#M28_6'>ch. 8. 6</a>, <a href='2MA.xhtml#M28_31'>31</a> (Gk.).
-2 Maccabees	10	15	3	and therewithal the Idumeans, having gotten into their hands the most commodious holds, kept the Jews occupied, and receiving 	dd	Comp. <a href='2MA.xhtml#M210_1'>ver. 1</a>.
-2 Maccabees	10	15	4	and therewithal the Idumeans, having gotten into their hands the most commodious holds, kept the Jews occupied, and receiving those that were banished from Jerusalem, they went about to 	c	<a href='2MA.xhtml#M214_6'>ch. 14. 6</a>.
+2 Maccabees	10	15	1	And therewithall 	cc	Comp. <a href='1MA.xhtml#M15_3'>1 Macc. 5. 3–5</a>. <a href='2MA.xhtml#M210_16'>ver. 16</a>. See <a href='MRK.xhtml#MK3_8'>Mark 3. 8</a>.
+2 Maccabees	10	15	2	And therewithall the Idumeans, having gotten into their hands 	d	<a href='2MA.xhtml#M28_6'>ch. 8. 6</a>, <a href='2MA.xhtml#M28_31'>31</a> (Gk.).
+2 Maccabees	10	15	3	And therewithall the Idumeans, having gotten into their hands the most commodious holds, kept the Jews occupied, and receiving 	dd	Comp. <a href='2MA.xhtml#M210_1'>ver. 1</a>.
+2 Maccabees	10	15	4	And therewithall the Idumeans, having gotten into their hands the most commodious holds, kept the Jews occupied, and receiving those that were banished from Jerusalem, they went about to 	c	<a href='2MA.xhtml#M214_6'>ch. 14. 6</a>.
 2 Maccabees	10	16	1	Then 	e	<a href='2MA.xhtml#M210_25'>ver. 25</a> marg.
 2 Maccabees	10	16	2	Then they that were with Maccabeus made supplication, and besought God that he would be their helper; and so they ran with violence upon the strong holds of 	cc	Comp. <a href='1MA.xhtml#M15_3'>1 Macc. 5. 3–5</a>. <a href='2MA.xhtml#M210_16'>ver. 16</a>. See <a href='MRK.xhtml#MK3_8'>Mark 3. 8</a>.
 2 Maccabees	10	19	1	Maccabeus left 	f	See <a href='2MA.xhtml#M28_22'>ch. 8. 22</a>.
@@ -79,7 +79,7 @@
 2 Maccabees	10	2	1	but the altars which the heathen had built in the open street, and also 	b	<a href='1MA.xhtml#M11_47'>1 Macc. 1. 47</a> (Gk.). <a href='2MA.xhtml#M211_3'>ch. 11. 3</a>. See <a href='AMO.xhtml#AM7_13'>Amos 7. 13</a> (Engl.).
 2 Maccabees	10	20	1	Now 	*	Or, <span class='add'>Simon</span>. So <a href='2MA.xhtml#M210_25'>ver. 25</a>. See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	10	20	2	Now they that were with Simon, being led with covetousness, were 	g	See <a href='2MA.xhtml#M24_45'>ch. 4. 45</a>.
-2 Maccabees	10	20	3	Now they that were with Simon, being led with covetousness, were persuaded for money, (through certain of those that were in the castle,) and took seventy thousand 	h	See <a href='2MA.xhtml#M24_19'>ch. 4. 19</a>.
+2 Maccabees	10	20	3	Now they that were with Simon, being led with covetousness, were persuaded for money through certain of those that were in the castle, and took seventy thousand 	h	See <a href='2MA.xhtml#M24_19'>ch. 4. 19</a>.
 2 Maccabees	10	22	1	So he slew those that were found traitors, and immediately took 	i	<a href='2MA.xhtml#M210_18'>ver. 18</a>.
 2 Maccabees	10	23	1	And having good success with his weapons in all things he took in hand, 	k	Comp. <a href='1MA.xhtml#M15_5'>1 Macc. 5. 5</a>?
 2 Maccabees	10	24	1	Now 	l	See <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
@@ -100,10 +100,10 @@
 2 Maccabees	10	3	2	And having cleansed the temple they made another altar, and 	d	Comp. <a href='2MA.xhtml#M21_19'>ch. 1. 19</a>.
 2 Maccabees	10	3	3	And having cleansed the temple they made another altar, and striking stones they took fire out of them, and offered a sacrifice after 	e	But comp. <a href='1MA.xhtml#M11_54'>1 Macc. 1. 54</a> with <a href='1MA.xhtml#M14_52'>1 Macc. 4. 52</a>.
 2 Maccabees	10	3	4	And having cleansed the temple they made another altar, and striking stones they took fire out of them, and offered a sacrifice after two years, and 	f	<a href='1MA.xhtml#M14_50'>1 Macc. 4. 50</a>, <a href='1MA.xhtml#M14_51'>51</a>.
-2 Maccabees	10	30	1	and took Maccabeus betwixt them, and covered him on every side with their weapons, and kept him safe, but shot arrows and lightnings against the enemies: so that 	t	See <a href='ACT.xhtml#AC2_6'>Acts 2. 6</a>.
+2 Maccabees	10	30	1	And took Maccabeus betwixt them, and covered him on every side weapons, and kept him safe, but shot arrows and lightnings against the enemies: so that being confounded 	t	See <a href='ACT.xhtml#AC2_6'>Acts 2. 6</a>.
 2 Maccabees	10	32	1	As for 	l	See <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
 2 Maccabees	10	32	2	As for Timotheus himself, he fled into a very strong hold, called 	u	See <a href='1MA.xhtml#M14_15'>1 Macc. 4. 15</a>. Comp. <a href='1MA.xhtml#M15_8'>1 Macc. 5. 8</a>?
-2 Maccabees	10	32	3	As for Timotheus himself, he fled into a very strong hold, called Gazara, where 	v	<a href='2MA.xhtml#M210_37'>ver. 37</a>.
+2 Maccabees	10	32	3	As for Timotheus himself, he fled into a very strong hold, called Gawra, where 	v	<a href='2MA.xhtml#M210_37'>ver. 37</a>.
 2 Maccabees	10	33	1	But 	w	See <a href='2MA.xhtml#M210_25'>ver. 25</a> marg.
 2 Maccabees	10	34	1	And they that were within, trusting to the strength of the place, blasphemed exceedingly, and uttered 	x	See <a href='ACT.xhtml#AC10_28'>Acts 10. 28</a>.
 2 Maccabees	10	35	1	Nevertheless upon the fifth day early twenty young men 	w	See <a href='2MA.xhtml#M210_25'>ver. 25</a> marg.
@@ -119,7 +119,7 @@
 2 Maccabees	10	5	1	Now 	h	<a href='1MA.xhtml#M14_52'>1 Macc. 4. 52</a>, <a href='1MA.xhtml#M14_54'>54</a>.
 2 Maccabees	10	5	2	Now upon the same day that the strangers profaned the temple, on the very same day it was cleansed again, even the five and twentieth day of the same month, which is 	i	See <a href='1MA.xhtml#M11_54'>1 Macc. 1. 54</a>. Comp. <a href='JHN.xhtml#JN10_22'>John 10. 22</a>.
 2 Maccabees	10	6	1	And they kept 	j	<a href='1MA.xhtml#M14_56'>1 Macc. 4. 56</a>. Comp. <a href='2MA.xhtml#M21_9'>ch. 1. 9</a>.
-2 Maccabees	10	6	2	And they kept eight days with gladness, as in 	k	See <a href='LEV.xhtml#LV23_27'>Lev. 23. 27</a>.
+2 Maccabees	10	6	2	And they kept the eight days with gladness, as 	k	See <a href='LEV.xhtml#LV23_27'>Lev. 23. 27</a>.
 2 Maccabees	10	7	1	Therefore they bare 	l	<a href='JDT.xhtml#JT15_12'>Judith 15. 12</a>. Comp. <a href='2MA.xhtml#M214_4'>ch. 14. 4</a>.
 2 Maccabees	10	7	2	Therefore they bare branches, and 	m	<a href='LEV.xhtml#LV23_40'>Lev. 23. 40</a>.
 2 Maccabees	10	7	3	Therefore they bare branches, and fair boughs, and 	m	<a href='LEV.xhtml#LV23_40'>Lev. 23. 40</a>.
@@ -127,10 +127,10 @@
 2 Maccabees	10	8	1		*	About B.C. 164, beginning.
 2 Maccabees	10	8	2		o	<a href='1MA.xhtml#M14_59'>1 Macc. 4. 59</a>.
 2 Maccabees	10	9	1	And this was the end of Antiochus, called 	p	See <a href='1MA.xhtml#M11_10'>1 Macc. 1. 10</a>.
-2 Maccabees	11	1	1	Not long after this, 	a	See <a href='2MA.xhtml#M210_11'>ch. 10. 11</a>.
-2 Maccabees	11	1	2	Not long after this, Lysias the king’s 	*	Gk. <span class='add'>tutor</span>. <a href='2MA.xhtml#M213_2'>ch. 13. 2</a>. &amp; <a href='2MA.xhtml#M214_2'>14. 2</a>. <a href='GAL.xhtml#GL4_2'>Gal. 4. 2</a>.
-2 Maccabees	11	1	3	Not long after this, Lysias the king’s protector and 	b	<a href='2MA.xhtml#M211_35'>ver. 35</a>.
-2 Maccabees	11	1	4	Not long after this, Lysias the king’s protector and cousin, 	c	<a href='2MA.xhtml#M213_2'>ch. 13. 2</a> (Gk.). So <a href='1MA.xhtml#M13_32'>1 Macc. 3. 32</a>.
+2 Maccabees	11	1	1	Not long after the, 	a	See <a href='2MA.xhtml#M210_11'>ch. 10. 11</a>.
+2 Maccabees	11	1	2	Not long after the, Lysias the king’s 	*	Gk. <span class='add'>tutor</span>. <a href='2MA.xhtml#M213_2'>ch. 13. 2</a>. &amp; <a href='2MA.xhtml#M214_2'>14. 2</a>. <a href='GAL.xhtml#GL4_2'>Gal. 4. 2</a>.
+2 Maccabees	11	1	3	Not long after the, Lysias the king’s protector and 	b	<a href='2MA.xhtml#M211_35'>ver. 35</a>.
+2 Maccabees	11	1	4	Not long after the, Lysias the king’s protector and cousin, 	c	<a href='2MA.xhtml#M213_2'>ch. 13. 2</a> (Gk.). So <a href='1MA.xhtml#M13_32'>1 Macc. 3. 32</a>.
 2 Maccabees	11	12	1	Many of them also being 	o	So <a href='ACT.xhtml#AC19_16'>Acts 19. 16</a>.
 2 Maccabees	11	13	1	Who, as he was a man of understanding, 	p	<a href='LUK.xhtml#LK24_17'>Luke 24. 17</a> (Gk.).
 2 Maccabees	11	14	1	and persuaded them to agree to all reasonable conditions, and 	q	See <a href='2MA.xhtml#M26_24'>ch. 6. 24</a>.
@@ -142,10 +142,10 @@
 2 Maccabees	11	18	3	Therefore what things soever were meet to be reported to the king, I have declared them, and he hath granted 	w	<a href='LUK.xhtml#LK13_33'>Luke 13. 33</a> (Gk.). So <a href='2MA.xhtml#M213_26'>ch. 13. 26</a> (Gk.).
 2 Maccabees	11	2	1	And when he had gathered about 	d	Comp. <a href='1MA.xhtml#M14_28'>1 Macc. 4. 28</a>.
 2 Maccabees	11	2	2	And when he had gathered about fourscore thousand with all the horsemen, he came against the Jews, thinking 	e	So <a href='1MA.xhtml#M11_38'>1 Macc. 1. 38</a>.
-2 Maccabees	11	2	3	And when he had gathered about fourscore thousand with all the horsemen, he came against the Jews, thinking to make the city a habitation of the 	*	Or, <span class='add'>Grecians</span>. See <a href='2MA.xhtml#M24_13'>ch. 4. 13</a>.
+2 Maccabees	11	2	3	And when he had gathered about fourscore thousand with all the horsemen, he came against the Jews, thinking to make the city an habitation of the 	*	Or, <span class='add'>Grecians</span>. See <a href='2MA.xhtml#M24_13'>ch. 4. 13</a>.
 2 Maccabees	11	21	1		x	<a href='2MA.xhtml#M211_28'>ver. 28</a>, <a href='2MA.xhtml#M211_33'>33</a>. See <a href='ACT.xhtml#AC15_29'>Acts 15. 29</a>.
 2 Maccabees	11	21	2	Fare ye well. 	*	About B.C. 163. So <a href='2MA.xhtml#M211_33'>ver. 33</a>, <a href='2MA.xhtml#M211_38'>38</a>. But comp. <a href='1MA.xhtml#M16_16'>1 Macc. 6. 16</a>.
-2 Maccabees	11	21	3	Fare ye well. The hundred and eight and forty year, the four and twenty day of the month 	*	Or, <span class='add'>Dioscoros</span>.
+2 Maccabees	11	21	3	Fare ye well. The hundred and eight and fortieth year, the four and twentieth day of the month 	*	Or, <span class='add'>Dioscoros</span>.
 2 Maccabees	11	22	1	Now the king’s letter 	s	<a href='2MA.xhtml#M211_22'>ver. 22</a> (Gk.). See <a href='2MA.xhtml#M29_18'>ch. 9. 18</a>.
 2 Maccabees	11	22	2	Now the king’s letter contained these words: King Antiochus unto his 	y	See <a href='1MA.xhtml#M110_18'>1 Macc. 10. 18</a>.
 2 Maccabees	11	24	1	We understand also that the Jews would not consent to our father, for to be brought unto the custom of the Gentiles, but had rather keep their own 	z	See <a href='2MA.xhtml#M24_16'>ch. 4. 16</a>.
@@ -657,12 +657,12 @@
 2 Maccabees	5	2	1	and then it happened, that through all the city, for the space almost of forty days, 	e	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>.
 2 Maccabees	5	2	2	and then it happened, that through all the city, for the space almost of forty days, there were seen horsemen running 	c	Comp. <a href='LUK.xhtml#LK21_11'>Luke 21. 11</a>.
 2 Maccabees	5	20	1	And therefore 	f	<a href='2MA.xhtml#M23_12'>ch. 3. 12</a>. <a href='2MA.xhtml#M25_20'>ver. 20</a>. See <a href='JHN.xhtml#JN11_48'>John 11. 48</a>.
-2 Maccabees	5	20	2	And therefore the place itself, that was partaker with them of the adversities that happened to the nation, did afterward communicate in the benefits sent from the Lord: and as it was forsaken in the wrath of the 	h	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
-2 Maccabees	5	20	3	And therefore the place itself, that was partaker with them of the adversities that happened to the nation, did afterward communicate in the benefits sent from the Lord: and as it was forsaken in the wrath of the Almighty, so again, the great 	a	<a href='2MA.xhtml#M29_13'>ch. 9. 13</a>. See <a href='BAR.xhtml#BR6_6'>Baruch 6. 6</a>.
+2 Maccabees	5	20	2	And therefore the place itself, that was partaker with them of the adversity that happened to the nation, did afterward communicate in the benefits sent from the Lord: and as it was forsaken in the wrath of the 	h	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
+2 Maccabees	5	20	3	And therefore the place itself, that was partaker with them of the adversity that happened to the nation, did afterward communicate in the benefits sent from the Lord: and as it was forsaken in the wrath of the Almighty, so again, the great 	a	<a href='2MA.xhtml#M29_13'>ch. 9. 13</a>. See <a href='BAR.xhtml#BR6_6'>Baruch 6. 6</a>.
 2 Maccabees	5	21	1	So when Antiochus 	i	So <a href='1MA.xhtml#M11_23'>1 Macc. 1. 23</a>. Comp. <a href='2MA.xhtml#M23_11'>ch. 3. 11</a>.
-2 Maccabees	5	21	2	So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste into 	j	See <a href='1MA.xhtml#M13_37'>1 Macc. 3. 37</a>.
-2 Maccabees	5	21	3	So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste into Antiochia, weening 	k	<a href='1MA.xhtml#M11_24'>1 Macc. 1. 24</a>. So <a href='2MA.xhtml#M25_17'>ver. 17</a>. Comp. <a href='2MA.xhtml#M29_8'>ch. 9. 8</a>.
-2 Maccabees	5	21	4	So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste into Antiochia, weening in his pride to make the land navigable, and the sea passable by foot: such was 	z	<a href='2MA.xhtml#M25_21'>ver. 21</a>. <a href='2MA.xhtml#M27_34'>ch. 7. 34</a> (Gk.).
+2 Maccabees	5	21	2	So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste unto 	j	See <a href='1MA.xhtml#M13_37'>1 Macc. 3. 37</a>.
+2 Maccabees	5	21	3	So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste unto Antiochia, weening 	k	<a href='1MA.xhtml#M11_24'>1 Macc. 1. 24</a>. So <a href='2MA.xhtml#M25_17'>ver. 17</a>. Comp. <a href='2MA.xhtml#M29_8'>ch. 9. 8</a>.
+2 Maccabees	5	21	4	So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste unto Antiochia, weening in his pride to make the land navigable, and the sea passable by foot: such was 	z	<a href='2MA.xhtml#M25_21'>ver. 21</a>. <a href='2MA.xhtml#M27_34'>ch. 7. 34</a> (Gk.).
 2 Maccabees	5	22	1	And 	l	So <a href='1MA.xhtml#M11_51'>1 Macc. 1. 51</a>.
 2 Maccabees	5	22	2	And he left governors to vex the nation: at Jerusalem, 	ll	<a href='2MA.xhtml#M26_11'>ch. 6. 11</a>. &amp; <a href='2MA.xhtml#M28_8'>8. 8</a>.
 2 Maccabees	5	22	3	And he left governors to vex the nation: at Jerusalem, Philip, for his country a 	m	See <a href='ACT.xhtml#AC2_10'>Acts 2. 10</a>.
@@ -701,8 +701,8 @@
 2 Maccabees	6	10	3	For there were two women brought, who had circumcised their children; whom when they had openly led round about the city, the babes hanging at their breasts, they cast them 	q	<a href='ACT.xhtml#AC27_14'>Acts 27. 14</a> (Gk.).
 2 Maccabees	6	10	4	For there were two women brought, who had circumcised their children; whom when they had openly led round about the city, the babes hanging at their breasts, they cast them down headlong 	q	<a href='ACT.xhtml#AC27_14'>Acts 27. 14</a> (Gk.).
 2 Maccabees	6	11	1	And others, that had run together into 	r	<a href='HEB.xhtml#HB11_38'>Heb. 11. 38</a> (Gk.). Comp. <a href='1MA.xhtml#M11_53'>1 Macc. 1. 53</a>. <a href='2MA.xhtml#M25_27'>ch. 5. 27</a>.
-2 Maccabees	6	11	2	And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered to 	s	<a href='2MA.xhtml#M25_22'>ch. 5. 22</a>.
-2 Maccabees	6	11	3	And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered to Philip, were all burnt together, because 	t	<a href='1MA.xhtml#M12_32'>1 Macc. 2. 32–38</a>.
+2 Maccabees	6	11	2	And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered by 	s	<a href='2MA.xhtml#M25_22'>ch. 5. 22</a>.
+2 Maccabees	6	11	3	And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered by Philip, were all burnt together, because 	t	<a href='1MA.xhtml#M12_32'>1 Macc. 2. 32–38</a>.
 2 Maccabees	6	12	1	Now I beseech those that read this book, that they be not 	u	<a href='1MA.xhtml#M13_6'>1 Macc. 3. 6</a> (Gk.).
 2 Maccabees	6	12	2	Now I beseech those that read this book, that they be not discouraged for these calamities, 	v	Comp. <a href='WIS.xhtml#WS3_4'>Wisd. 3. 4</a>.
 2 Maccabees	6	14	1	For not as with other nations, whom 	w	See <a href='BAR.xhtml#BR6_6'>Baruch 6. 6</a>.
@@ -723,7 +723,7 @@
 2 Maccabees	6	21	2	But they that had the charge of that wicked feast, for the old acquaintance they had with the man, taking him aside, besought him to bring flesh of his own provision, such as was 	g	<a href='2MA.xhtml#M26_4'>ver. 4</a>. See <a href='2MA.xhtml#M24_19'>ch. 4. 19</a>.
 2 Maccabees	6	21	3	But they that had the charge of that wicked feast, for the old acquaintance they had with the man, taking him aside, besought him to bring flesh of his own provision, such as was lawful for him to use, and 	h	<a href='2MA.xhtml#M26_24'>ver. 24</a> (Gk.). See <a href='2MA.xhtml#M25_25'>ch. 5. 25</a>. So <a href='2MA.xhtml#M26_25'>ver. 25</a> (Gk.).
 2 Maccabees	6	23	1	But he began to consider 	i	So <a href='ACT.xhtml#AC7_20'>Acts 7. 20</a>. <a href='HEB.xhtml#HB11_23'>Heb. 11. 23</a> in the Gk.
-2 Maccabees	6	23	2	But he began to consider discreetly, and as became his age, and the excellency of his ancient years, and the honour of his gray head, whereunto he was come, and his most honest 	k	<a href='HEB.xhtml#HB13_7'>Heb. 13. 7</a> (Gk.). See <a href='GAL.xhtml#GL1_13'>Gal. 1. 13</a>.
+2 Maccabees	6	23	2	But he began to consider discreetly, and as became his age, and the excellency of his ancient years, and the honour of his gray head, whereon was come, and his most honest education 	k	<a href='HEB.xhtml#HB13_7'>Heb. 13. 7</a> (Gk.). See <a href='GAL.xhtml#GL1_13'>Gal. 1. 13</a>.
 2 Maccabees	6	24	1	For it becometh not our age, 	l	<a href='1MA.xhtml#M11_50'>1 Macc. 1. 50</a>. &amp; <a href='1MA.xhtml#M116_21'>16. 21</a>. <a href='2MA.xhtml#M211_14'>ch. 11. 14</a>. See <a href='EXO.xhtml#EX18_4'>Ex. 18. 4</a>. Comp. <a href='2MA.xhtml#M26_28'>ver. 28</a>.
 2 Maccabees	6	24	2	For it becometh not our age, said he, in any wise to 	h	<a href='2MA.xhtml#M26_24'>ver. 24</a> (Gk.). See <a href='2MA.xhtml#M25_25'>ch. 5. 25</a>. So <a href='2MA.xhtml#M26_25'>ver. 25</a> (Gk.).
 2 Maccabees	6	24	3	For it becometh not our age, said he, in any wise to dissemble, whereby many young persons might think that Eleazar, being 	m	<a href='2MA.xhtml#M26_18'>ver. 18</a>.
@@ -743,7 +743,7 @@
 2 Maccabees	6	5	2	The altar also was filled with profane things, which the law 	i	See <a href='ACT.xhtml#AC10_28'>Acts 10. 28</a>.
 2 Maccabees	6	6	1	Neither was it lawful for a man 	j	<a href='1MA.xhtml#M11_39'>1 Macc. 1. 39</a>.
 2 Maccabees	6	7	1	And in the day of the king’s birth every month they were brought by bitter constraint to 	k	<a href='2MA.xhtml#M26_21'>ver. 21</a>. <a href='2MA.xhtml#M27_42'>ch. 7. 42</a> in the Gk. So <a href='2MA.xhtml#M26_8'>ver. 8</a>.
-2 Maccabees	6	7	2	And in the day of the king’s birth every month they were brought by bitter constraint to eat of the sacrifices; and when the feast of Bacchus was kept, the Jews were compelled to go in procession to 	kk	<a href='2MA.xhtml#M214_33'>ch. 14. 33</a>.
+2 Maccabees	6	7	2	And in the day of the king’s birth every month they were brought by bitter constraint to eat of the sacrifices; and when the fast of Bacchus was kept, the Jews were compelled to go in procession to 	kk	<a href='2MA.xhtml#M214_33'>ch. 14. 33</a>.
 2 Maccabees	6	8	1	Moreover 	l	Comp. <a href='1MA.xhtml#M11_51'>1 Macc. 1. 51</a>.
 2 Maccabees	6	8	2	Moreover there went out a decree to the neighbour cities of the 	*	Gr. <span class='add'>Grecians</span>. See <a href='2MA.xhtml#M24_13'>ch. 4. 13</a>.
 2 Maccabees	6	8	3	Moreover there went out a decree to the neighbour cities of the heathen, by the suggestion of 	m	See <a href='2MA.xhtml#M24_45'>ch. 4. 45</a>.
@@ -767,11 +767,11 @@
 2 Maccabees	7	19	1	But think not thou, that takest in hand 	o	See <a href='ACT.xhtml#AC5_39'>Acts 5. 39</a>.
 2 Maccabees	7	21	1	Yea, she exhorted every one of them 	p	<a href='2MA.xhtml#M27_8'>ver. 8</a>, <a href='2MA.xhtml#M27_27'>27</a>. See <a href='2MA.xhtml#M212_37'>ch. 12. 37</a>. Comp. <a href='2MA.xhtml#M27_24'>ver. 24</a>.
 2 Maccabees	7	22	1		q	See <a href='ECC.xhtml#EC11_5'>Eccles. 11. 5</a>.
-2 Maccabees	7	23	1	but doubtless 	r	<a href='2MA.xhtml#M213_14'>ch. 13. 14</a>. So <a href='SIR.xhtml#SR24_8'>Ecclus. 24. 8</a>. <a href='2MA.xhtml#M21_24'>ch. 1. 24</a>.
-2 Maccabees	7	23	2	but doubtless the Creator of the world, who formed the generation of man, and found out the beginning of all things, will also of his own mercy 	j	<a href='HEB.xhtml#HB11_35'>Heb. 11. 35</a>. So <a href='2MA.xhtml#M212_43'>ch. 12. 43</a>, <a href='2MA.xhtml#M212_44'>44</a>. See <a href='DAN.xhtml#DN12_2'>Dan. 12. 2</a>.
-2 Maccabees	7	23	3	but doubtless the Creator of the world, who formed the generation of man, and found out the beginning of all things, will also of his own mercy give you breath and life again, as you now 	s	<a href='2MA.xhtml#M27_11'>ver. 11</a> (Gk.). So <a href='2MA.xhtml#M214_46'>ch. 14. 46</a>.
+2 Maccabees	7	23	1	But doubtless 	r	<a href='2MA.xhtml#M213_14'>ch. 13. 14</a>. So <a href='SIR.xhtml#SR24_8'>Ecclus. 24. 8</a>. <a href='2MA.xhtml#M21_24'>ch. 1. 24</a>.
+2 Maccabees	7	23	2	But doubtless the Creator of the world, who formed the generation of man, and found out the beginning of all things, will also of his own mercy 	j	<a href='HEB.xhtml#HB11_35'>Heb. 11. 35</a>. So <a href='2MA.xhtml#M212_43'>ch. 12. 43</a>, <a href='2MA.xhtml#M212_44'>44</a>. See <a href='DAN.xhtml#DN12_2'>Dan. 12. 2</a>.
+2 Maccabees	7	23	3	But doubtless the Creator of the world, who formed the generation of man, and found out the beginning of all things, will also of his own mercy give you breath and life again, as ye now 	s	<a href='2MA.xhtml#M27_11'>ver. 11</a> (Gk.). So <a href='2MA.xhtml#M214_46'>ch. 14. 46</a>.
 2 Maccabees	7	24	1	Now Antiochus, thinking himself despised, and 	p	<a href='2MA.xhtml#M27_8'>ver. 8</a>, <a href='2MA.xhtml#M27_27'>27</a>. See <a href='2MA.xhtml#M212_37'>ch. 12. 37</a>. Comp. <a href='2MA.xhtml#M27_24'>ver. 24</a>.
-2 Maccabees	7	24	2	Now Antiochus, thinking himself despised, and suspecting it to be a reproachful speech, whiles the youngest was yet alive, did not only exhort him by words, but also assured him with oaths, that he would make him both a rich and a happy man, if he would turn from the laws of his fathers; and that also he would take him for his friend, and trust him with 	t	See <a href='1MA.xhtml#M113_37'>1 Macc. 13. 37</a>.
+2 Maccabees	7	24	2	Now Antiochus, thinking himself despised, and suspecting it to be a reproachful speech, whilst the youngest was yet alive, did not only exhort him by words, but also assured him with oaths, that he would make him both a rich and a happy man, if he would turn from the laws of his fathers; and that also he would take him for his friend, and trust him with 	t	See <a href='1MA.xhtml#M113_37'>1 Macc. 13. 37</a>.
 2 Maccabees	7	27	1	But she bowing herself toward him, laughing the cruel tyrant to scorn, spake 	p	<a href='2MA.xhtml#M27_8'>ver. 8</a>, <a href='2MA.xhtml#M27_27'>27</a>. See <a href='2MA.xhtml#M212_37'>ch. 12. 37</a>. Comp. <a href='2MA.xhtml#M27_24'>ver. 24</a>.
 2 Maccabees	7	27	2	But she bowing herself toward him, laughing the cruel tyrant to scorn, spake in her country language on this manner; O my son, have pity upon me that bare thee nine months in my womb, and gave thee suck three years, and nourished thee, and brought thee up unto this age, and 	u	<a href='ACT.xhtml#AC13_18'>Acts 13. 18</a> marg.
 2 Maccabees	7	28	1	I beseech thee, my son, look upon the heaven and the earth, and all that is therein, and consider that 	x	So <a href='HEB.xhtml#HB11_3'>Heb. 11. 3</a>.
@@ -823,7 +823,7 @@
 2 Maccabees	8	11	5	Wherefore immediately he sent to the cities upon the sea coast, proclaiming a sale of the captive Jews, and promising that they should have fourscore and ten bodies for one talent, not expecting the vengeance that was to follow upon him from the 	s	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
 2 Maccabees	8	12	1		t	Comp. <a href='1MA.xhtml#M13_42'>1 Macc. 3. 42</a>.
 2 Maccabees	8	13	1		u	<a href='1MA.xhtml#M13_56'>1 Macc. 3. 56</a>.
-2 Maccabees	8	14	1	Others sold all that they had left, and withal besought the Lord to deliver them, being 	w	<a href='2MA.xhtml#M28_10'>ver. 10</a>, <a href='2MA.xhtml#M28_11'>11</a>.
+2 Maccabees	8	14	1	Others sold all that they had left, and withal besought the Lord to deliver them, sold 	w	<a href='2MA.xhtml#M28_10'>ver. 10</a>, <a href='2MA.xhtml#M28_11'>11</a>.
 2 Maccabees	8	15	1	and if not for their own sakes, yet for the covenants he had made with their fathers, and 	x	See <a href='EZK.xhtml#EK20_9'>Ezek. 20. 9</a>.
 2 Maccabees	8	15	2	and if not for their own sakes, yet for the covenants he had made with their fathers, and for his holy and glorious name’s sake, 	y	<a href='2CH.xhtml#R27_14'>2 Chr. 7. 14</a>.
 2 Maccabees	8	16	1	So Maccabeus called his men together unto the number of six thousand, and 	z	So <a href='1MA.xhtml#M14_8'>1 Macc. 4. 8</a>. <a href='2MA.xhtml#M215_8'>ch. 15. 8</a>, <a href='2MA.xhtml#M215_9'>9</a>.
@@ -864,8 +864,8 @@
 2 Maccabees	8	3	3	and that he would have compassion upon the city, sore defaced, and ready to be made even with the ground; and hear 	e	<a href='GEN.xhtml#GN4_10'>Gen. 4. 10</a>.
 2 Maccabees	8	30	1	Moreover of those that were with 	x	<a href='2MA.xhtml#M28_32'>ver. 32</a>. <a href='2MA.xhtml#M29_3'>ch. 9. 3</a>. &amp; <a href='2MA.xhtml#M210_24'>10. 24</a>, <a href='2MA.xhtml#M210_32'>32</a>, <a href='2MA.xhtml#M210_37'>37</a>. Not <a href='2MA.xhtml#M212_2'>ch. 12. 2</a>, <a href='2MA.xhtml#M212_10'>10</a>, <a href='2MA.xhtml#M28_18'>18–21</a>, <a href='2MA.xhtml#M28_24'>24</a>.
 2 Maccabees	8	30	2	Moreover of those that were with Timotheus and 	y	See <a href='1MA.xhtml#M17_8'>1 Macc. 7. 8</a>.
-2 Maccabees	8	30	3	Moreover of those that were with Timotheus and Bacchides, who fought against them, they slew above twenty thousand, and very easily got high and strong holds, and divided amongst themselves many spoils more, and made the 	*	Or, <span class='add'>lamed</span>. Gk. as <a href='2MA.xhtml#M28_28'>ver. 28</a>.
-2 Maccabees	8	30	4	Moreover of those that were with Timotheus and Bacchides, who fought against them, they slew above twenty thousand, and very easily got high and strong holds, and divided amongst themselves many spoils more, and made the maimed, 	u	See <a href='2MA.xhtml#M23_10'>ch. 3. 10</a>.
+2 Maccabees	8	30	3	Moreover of those that were with Timotheus and Bacchides, who fought against them, they slew above twenty thousand, and very easily got high and strong holds, and divided among themselves many spoils more, and made the 	*	Or, <span class='add'>lamed</span>. Gk. as <a href='2MA.xhtml#M28_28'>ver. 28</a>.
+2 Maccabees	8	30	4	Moreover of those that were with Timotheus and Bacchides, who fought against them, they slew above twenty thousand, and very easily got high and strong holds, and divided among themselves many spoils more, and made the maimed, 	u	See <a href='2MA.xhtml#M23_10'>ch. 3. 10</a>.
 2 Maccabees	8	31	1	And 	z	<a href='2MA.xhtml#M28_27'>ver. 27</a>.
 2 Maccabees	8	31	2	And when they had gathered their armour together, they laid them up all carefully in 	gg	<a href='2MA.xhtml#M28_31'>ver. 31</a>. <a href='2MA.xhtml#M214_22'>ch. 14. 22</a> in the Gk. So <a href='2MA.xhtml#M210_15'>ch. 10. 15</a>.
 2 Maccabees	8	32	1	They slew also Philarches, that wicked person, who was with 	x	<a href='2MA.xhtml#M28_32'>ver. 32</a>. <a href='2MA.xhtml#M29_3'>ch. 9. 3</a>. &amp; <a href='2MA.xhtml#M210_24'>10. 24</a>, <a href='2MA.xhtml#M210_32'>32</a>, <a href='2MA.xhtml#M210_37'>37</a>. Not <a href='2MA.xhtml#M212_2'>ch. 12. 2</a>, <a href='2MA.xhtml#M212_10'>10</a>, <a href='2MA.xhtml#M28_18'>18–21</a>, <a href='2MA.xhtml#M28_24'>24</a>.
@@ -926,14 +926,14 @@
 2 Maccabees	9	29	3	And Philip, that was brought up with him, carried away his body, who also fearing the son of Antiochus went into Egypt to 	r	See <a href='2MA.xhtml#M24_21'>ch. 4. 21</a>.
 2 Maccabees	9	3	1	Now 	d	Comp. <a href='1MA.xhtml#M16_5'>1 Macc. 6. 5</a>.
 2 Maccabees	9	3	2	Now when he came to 	e	See <a href='TOB.xhtml#TB3_7'>Tobit 3. 7</a>.
-2 Maccabees	9	3	3	Now when he came to Ecbatana, news was brought him what had happened unto 	f	See <a href='1MA.xhtml#M13_38'>1 Macc. 3. 38</a>.
-2 Maccabees	9	3	4	Now when he came to Ecbatana, news was brought him what had happened unto Nicanor and 	g	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>. &amp; <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
-2 Maccabees	9	4	1	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his 	h	<a href='2CH.xhtml#R218_33'>2 Chr. 18. 33</a> (Engl.).
-2 Maccabees	9	4	2	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariot man to drive 	i	See <a href='1TH.xhtml#H11_3'>1 Thess. 1. 3</a>.
-2 Maccabees	9	4	3	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariot man to drive without ceasing, and to dispatch the journey, the judgment of 	j	See <a href='1MA.xhtml#M13_60'>1 Macc. 3. 60</a>.
-2 Maccabees	9	4	4	Then swelling with anger, he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariot man to drive without ceasing, and to dispatch the journey, the judgment of God now following him. For he had spoken proudly in this sort, That he would come to Jerusalem, and make it 	k	<a href='2MA.xhtml#M29_14'>ver. 14</a>. Comp. <a href='JER.xhtml#JR26_23'>Jer. 26. 23</a>.
+2 Maccabees	9	3	3	Now when he came to Ecbatane, news was brought him what had happened unto 	f	See <a href='1MA.xhtml#M13_38'>1 Macc. 3. 38</a>.
+2 Maccabees	9	3	4	Now when he came to Ecbatane, news was brought him what had happened unto Nicanor and 	g	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>. &amp; <a href='2MA.xhtml#M28_30'>ch. 8. 30</a>.
+2 Maccabees	9	4	1	Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his 	h	<a href='2CH.xhtml#R218_33'>2 Chr. 18. 33</a> (Engl.).
+2 Maccabees	9	4	2	Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariotman to drive without 	i	See <a href='1TH.xhtml#H11_3'>1 Thess. 1. 3</a>.
+2 Maccabees	9	4	3	Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariotman to drive without ceasing, and to dispatch the journey, the judgment of God 	j	See <a href='1MA.xhtml#M13_60'>1 Macc. 3. 60</a>.
+2 Maccabees	9	4	4	Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariotman to drive without ceasing, and to dispatch the journey, the judgment of God now following him. For he had spoken proudly in this sort, That he would come to Jerusalem and make it a 	k	<a href='2MA.xhtml#M29_14'>ver. 14</a>. Comp. <a href='JER.xhtml#JR26_23'>Jer. 26. 23</a>.
 2 Maccabees	9	5	1	But the Lord 	l	See <a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
-2 Maccabees	9	5	2	But the Lord Almighty, the God of Israel, smote him with an incurable and invisible plague: for as soon as he had spoken these words, 	m	So <a href='1MA.xhtml#M16_8'>1 Macc. 6. 8</a>.
+2 Maccabees	9	5	2	But the Lord Almighty, the God of Isreal, smote him with an incurable and invisible plague: or as soon as he had spoken these words, 	m	So <a href='1MA.xhtml#M16_8'>1 Macc. 6. 8</a>.
 2 Maccabees	9	6	1		mm	<a href='2MA.xhtml#M213_7'>ch. 13. 7</a>.
 2 Maccabees	9	7	1	Howbeit he nothing at all ceased from his bragging, but still was filled with pride, 	n	Comp. <a href='ACT.xhtml#AC9_1'>Acts 9. 1</a>.
 2 Maccabees	9	8	1	And thus he that a little afore thought 	o	Comp. <a href='2MA.xhtml#M25_21'>ch. 5. 21</a>.
