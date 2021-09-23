@@ -17,4 +17,6 @@ gawk -f corrections.awk "$1" > tempfootnotes.txt;
 if [ $? -eq 0 ]; then
 cp tempfootnotes.txt "$1";
 rm tempfootnotes.txt;
+else
+echo "ERROR: discrepancy found, check tempfootnotes.txt"
 fi;

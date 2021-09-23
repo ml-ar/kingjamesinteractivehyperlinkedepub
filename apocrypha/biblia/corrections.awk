@@ -1,3 +1,51 @@
+
+
+#returns the percentage match between two words
+
+function percentageMatch(word1, word2,  biggerWord,  smallerWord,  smallerWordSplit,  biggerWordSplit,  i,  matchingLetters,  percentage)
+{
+
+	if (!word1 && !word2)
+	{
+		return 1;
+	}
+	else if (!word1 || !word2)
+	{
+		return 0;
+	}
+
+	if (length(word1) < length(word2))
+	{
+		smallerWord = word1;
+		biggerWord = word2
+	}
+	else
+	{
+		smallerWord = word2;
+		biggerWord = word1;
+	}
+	patsplit(smallerWord, smallerWordSplit, /[A-Za-z]/)
+		patsplit(biggerWord, biggerWordSplit, /[A-Za-z]/)
+		matchingLetters = 0;
+	for (i in biggerWordSplit)
+	{
+		if (i in smallerWordSplit)
+		{
+			if (tolower(smallerWordSplit[i]) == tolower(biggerWordSplit[i]))
+			{
+				++matchingLetters
+			}
+		}
+	}
+	percentage = matchingLetters / length(biggerWord)
+		return percentage
+
+
+
+}
+
+
+
 #feed a list of footnotes into this script to correct discrepancies
 #rememeber to be careful when correcting multiple discrepancies in the same line! Don't find and replace twice
 
@@ -6,16 +54,16 @@
 #all are self explanatory, except 
 #lineToCorrect: this is the preceding text for the footnote
 #fullCorrectLine: this is the full verse line, copied and pasted from a reference so you know it's right
-function correctAllVerses(lineToCorrect, fullCorrectLine,  splitLineToCorrect,  splitFullCorrectLine,  toReturn,  i)
+function correctAllVerses(lineToCorrect, fullCorrectLine,  splitLineToCorrect,  splitFullCorrectLine,  patsplitToReturn,  patsplitLineToCorrect,  toReturn,  i)
 {
 	toReturn = ""
 		patsplit(fullCorrectLine, splitFullCorrectLine,/\S+\s*/)
 		patsplit(lineToCorrect, splitLineToCorrect,/\S+\s*/)
 		for (i in splitLineToCorrect) #the idea here is you go chunk by chunk, except replace each chunk in the original with the reference
-		{
+		{ 
 			if (i == 1 && splitLineToCorrect[i] !~ /[A-Z]|[a-z]/) #what if the preceding text is simply "("? This fixes that
 			{
-                           toReturn == ""
+				toReturn == ""
 			}
 			else
 			{
@@ -23,11 +71,19 @@ function correctAllVerses(lineToCorrect, fullCorrectLine,  splitLineToCorrect,  
 			}
 		}
 
+	patsplit(toReturn, patsplitToReturn, /[A-Za-z]+/)
+		patsplit(lineToCorrect, patsplitLineToCorrect, /[A-Za-z]+/)
 
 
+		if (percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)], patsplitToReturn[length(patsplitToReturn)]) > 0.7 && percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)-1], patsplitToReturn[length(patsplitToReturn)-1]) > 0.7 && percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)-2], patsplitToReturn[length(patsplitToReturn)-2]) && percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)-3], patsplitToReturn[length(patsplitToReturn)-3]) > 0.7)
+		{
+			return toReturn
+		}
+		else
+		{
+			print "ERROR: corrected line (" lineToCorrect ") does not match match the word spacing of (" toReturn ")"; exit 10
+		}
 
-
-	return toReturn
 }
 
 
@@ -2575,7 +2631,7 @@ else if ($3 == "19")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 	}
-else if ($2 == "5")
+	else if ($2 == "5")
 	{
 
 
@@ -2585,15 +2641,15 @@ else if ($2 == "5")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "21")
+		else if ($3 == "21")
 		{
 			$5 = correctAllVerses($5, "So when Antiochus had carried out of the temple a thousand and eight hundred talents, he departed in all haste unto Antiochia, weening in his pride to make the land navigable, and the sea passable by foot: such was the haughtiness of his mind.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 
-}
-else if ($2 == "6")
+	}
+	else if ($2 == "6")
 	{
 
 
@@ -2603,20 +2659,20 @@ else if ($2 == "6")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "11")
+		else if ($3 == "11")
 		{
 			$5 = correctAllVerses($5, "And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered by Philip, were all burnt together, because they made a conscience to help themselves for the honour of the most sacred day.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "23")
+		else if ($3 == "23")
 		{
 			$5 = correctAllVerses($5, "But he began to consider discreetly, and as became his age, and the excellency of his ancient years, and the honour of his gray head, whereon was come, and his most honest education from a child, or rather the holy law made and given by God: therefore he answered accordingly, and willed them straightways to send him to the grave.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "7")
+	}
+	else if ($2 == "7")
 	{
 
 
@@ -2626,14 +2682,14 @@ else if ($2 == "7")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "24")
+		else if ($3 == "24")
 		{
 			$5 = correctAllVerses($5, "Now Antiochus, thinking himself despised, and suspecting it to be a reproachful speech, whilst the youngest was yet alive, did not only exhort him by words, but also assured him with oaths, that he would make him both a rich and a happy man, if he would turn from the laws of his fathers; and that also he would take him for his friend, and trust him with affairs.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "8")
+	}
+	else if ($2 == "8")
 	{
 
 
@@ -2643,14 +2699,14 @@ else if ($2 == "8")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "30")
+		else if ($3 == "30")
 		{
 			$5 = correctAllVerses($5, "Moreover of those that were with Timotheus and Bacchides, who fought against them, they slew above twenty thousand, and very easily got high and strong holds, and divided among themselves many spoils more, and made the maimed, orphans, widows, yea, and the aged also, equal in spoils with themselves.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "9")
+	}
+	else if ($2 == "9")
 	{
 
 
@@ -2660,20 +2716,20 @@ else if ($2 == "9")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "4")
+		else if ($3 == "4")
 		{
 			$5 = correctAllVerses($5, "Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariotman to drive without ceasing, and to dispatch the journey, the judgment of God now following him. For he had spoken proudly in this sort, That he would come to Jerusalem and make it a common burying place of the Jews.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "5")
+		else if ($3 == "5")
 		{
 			$5 = correctAllVerses($5, "But the Lord Almighty, the God of Isreal, smote him with an incurable and invisible plague: or as soon as he had spoken these words, a pain of the bowels that was remediless came upon him, and sore torments of the inner parts; ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "10")
+	}
+	else if ($2 == "10")
 	{
 
 
@@ -2683,38 +2739,38 @@ else if ($2 == "10")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "11")
+		else if ($3 == "11")
 		{
 			$5 = correctAllVerses($5, "So when he was come to the crown, he set one Lysias over the affairs of his realm, and appointed him his chief governor of Celosyria and Phenice.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "15")
+		else if ($3 == "15")
 		{
 			$5 = correctAllVerses($5, "And therewithall the Idumeans, having gotten into their hands the most commodious holds, kept the Jews occupied, and receiving those that were banished from Jerusalem, they went about to nourish war.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "20")
+		else if ($3 == "20")
 		{
 			$5 = correctAllVerses($5, "Now they that were with Simon, being led with covetousness, were persuaded for money through certain of those that were in the castle, and took seventy thousand drachms, and let some of them escape.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "30")
+		else if ($3 == "30")
 		{
 			$5 = correctAllVerses($5, "And took Maccabeus betwixt them, and covered him on every side weapons, and kept him safe, but shot arrows and lightnings against the enemies: so that being confounded with blindness, and full of trouble, they were killed.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "32")
+		else if ($3 == "32")
 		{
 			$5 = correctAllVerses($5, "As for Timotheus himself, he fled into a very strong hold, called Gawra, where Chereas was governor.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
-else if ($2 == "11")
+	}
+	else if ($2 == "11")
 	{
 
 
@@ -2724,21 +2780,86 @@ else if ($2 == "11")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "2")
+		else if ($3 == "2")
 		{
 			$5 = correctAllVerses($5, "And when he had gathered about fourscore thousand with all the horsemen, he came against the Jews, thinking to make the city an habitation of the Gentiles, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-else if ($3 == "21")
+		else if ($3 == "21")
 		{
 			$5 = correctAllVerses($5, "Fare ye well. The hundred and eight and fortieth year, the four and twentieth day of the month Dioscorinthius.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
-}
+		else if ($3 == "36")
+		{
+			$5 = correctAllVerses($5, "But touching such things as he judged to be referred to the king, after ye have advised thereof, send one forthwith, that we may declare as it is convenient for you: for we are now going to Antioch.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+	}
+	else if ($2 == "12")
+	{
+
+
+		if ($3 == "2")
+		{
+			$5 = correctAllVerses($5, "But of the governours of several places, Timotheus, and Apollonius the son of Genneus, also Hieronymus, and Demophon, and beside them Nicanor the governor of Cyprus, would not suffer them to be quiet and live in peace.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "15")
+		{
+			$5 = correctAllVerses($5, "Wherefore Judas with his company, calling upon the great Lord of the world, who without rams or engines of war did cast down Jericho in the time of Joshua, gave a fierce assault against the walls, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "But when Judas his first band came in sight, the enemies, being smitten with fear and terror through the appearing of him who seeth all things, fled amain, one running into this way, another that way, so as that they were often hurt of their own men, and wounded with the points of their own swords.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+		else if ($3 == "27")
+		{
+			$5 = correctAllVerses($5, "And after he had put to flight and destroyed them, Judas removed the host toward Ephron, a strong city, wherein Lysias abode, and a great multitude of divers nations, and the strong young men kept the walls, and defended them mightily: wherein also was great provision of engines and darts.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+	}
+else if ($2 == "13")
+	{
+
+
+		if ($3 == "9")
+		{
+			$5 = correctAllVerses($5, "Now the king came with a barbarous and haughty mind to do far worse to the Jews, than had been done in his father’s time.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "19")
+		{
+			$5 = correctAllVerses($5, "And marched toward Bethsura, which was a strong hold of the Jews: but he was put to flight, failed, and lost of his men: ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "22")
+		{
+			$5 = correctAllVerses($5, "The king treated with them in Bethsum the second time, gave his hand, took their’s, departed, fought with Judas, was overcome; ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+			$5 = correctAllVerses($5, "Heard that Philip, who was left over the affairs in Antioch, was desperately bent, confounded, intreated the Jews, submitted himself, and sware to all equal conditions, agreed with them, and offered sacrifice, honoured the temple, and dealt kindly with the place, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
 }
 
+}
 
 {
 print toReturn;
