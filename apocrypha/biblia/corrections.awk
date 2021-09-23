@@ -71,8 +71,8 @@ function correctAllVerses(lineToCorrect, fullCorrectLine,  splitLineToCorrect,  
 			}
 		}
 
-	patsplit(toReturn, patsplitToReturn, /[A-Za-z]+/)
-		patsplit(lineToCorrect, patsplitLineToCorrect, /[A-Za-z]+/)
+	patsplit(toReturn, patsplitToReturn, /[-A-Za-z]+/)
+		patsplit(lineToCorrect, patsplitLineToCorrect, /[-A-Za-z]+/)
 
 
 		if (percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)], patsplitToReturn[length(patsplitToReturn)]) > 0.7 && percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)-1], patsplitToReturn[length(patsplitToReturn)-1]) > 0.7 && percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)-2], patsplitToReturn[length(patsplitToReturn)-2]) && percentageMatch(patsplitLineToCorrect[length(patsplitLineToCorrect)-3], patsplitToReturn[length(patsplitToReturn)-3]) > 0.7)
@@ -81,7 +81,7 @@ function correctAllVerses(lineToCorrect, fullCorrectLine,  splitLineToCorrect,  
 		}
 		else
 		{
-			print "ERROR: corrected line (" lineToCorrect ") does not match match the word spacing of (" toReturn ")"; exit 10
+			print "ERROR: corrected line (" lineToCorrect ") does not match the word spacing of (" toReturn ")"; exit 10
 		}
 
 }
@@ -139,6 +139,11 @@ toReturn = gensub(/And they arose against the two elders, \(for/,"And they arose
 		toReturn=gensub(/King Artaxerxes unto Esdras the priest and/,"King Artexerxes unto Esdras the priest and","1",toReturn)
 		toReturn=gensub(/and that whosoever met not there within two or three days, according as the elders that bare rule appointed, their cattle should be seized to the use of the temple, and himself/,"And that whosoever met not there within two or three days according as the elders that bare rule appointed, their cattle should be seized to the use of the temple, and himself","1",toReturn)
 
+
+
+
+
+
 #mass changes
 		if ($2 == "2")
 		{
@@ -179,12 +184,6 @@ toReturn = gensub(/And they arose against the two elders, \(for/,"And they arose
 			if ($3 == "1")
 			{
 				$5 = correctAllVerses($5, "Now in the second year of the reign of Darius Aggeus and Zacharias the son of Addo, the prophets, prophesied unto the Jews in Jewry and Jerusalem in the name of the Lord God of Israel, which was upon them.")
-
-					toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
-			}
-			else if ($3 == "8")
-			{
-				$5 = correctAllVerses($5, "Let all things be known unto our lord the king, that being come into the country of Judea, and entered into the city of Jerusalem we found in the city of Jerusalem the ancients of the Jews that were of the captivity ")
 
 					toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 			}
@@ -312,6 +311,7 @@ else if ($3 == "19")
 			}
 			else if ($3 == "40")
 			{
+$5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude from man to woman, and to all the priests, to hear the law/,"So Esdras the chief priest brought the law unto the whole multitude from man to woman, and to all the priests, to hear law",1,$5)
 				$5 = correctAllVerses($5, "So Esdras the chief priest brought the law unto the whole multitude from man to woman, and to all the priests, to hear law in the first day of the seventh month.")
 
 					toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1938,6 +1938,7 @@ else if ($3 == "19")
 		}
 		else if ($3 == "57")
 		{
+			$5 = gensub(/And wheresoever was found with any the book of the testament, or if any consented to the law/,"And whosoever was found with any the book of the testament, or if any committed to the law",1,$5);
 			$5 = correctAllVerses($5, "And whosoever was found with any the book of the testament, or if any committed to the law, the king’s commandment was, that they should put him to death.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1990,7 +1991,8 @@ else if ($3 == "19")
 		}
 		else if ($3 == "38")
 		{
-			$5 = correctAllVerses($5, "Then Lysias chose Ptolemee the son of Dorymenes, Nicanor, and Gorgias, mighty men of the king’s friends: ")
+			$5 = gensub(/Then Lysias chose Ptolemee the son of Dorymenes, and/,"Then Lysias chose Ptolemee the son of Dorymenes, ",1,$5)
+				$5 = correctAllVerses($5, "Then Lysias chose Ptolemee the son of Dorymenes, Nicanor, and Gorgias, mighty men of the king’s friends: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2231,19 +2233,23 @@ else if ($3 == "19")
 		}
 		else if ($3 == "32")
 		{
-			$5 = correctAllVerses($5, "And as for the tower which is at Jerusalem, I yield up authority over it, and give the high priest, that he may set in it such men as he shall choose to keep it.")
+			$5 = gensub(/And as for the tower which is at Jerusalem, I yield up my authority over it, and give it to/,"And as for the tower which is at Jerusalem, I yield up authority over it, and give",1,$5)
+				$5 = correctAllVerses($5, "And as for the tower which is at Jerusalem, I yield up authority over it, and give the high priest, that he may set in it such men as he shall choose to keep it.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "34")
 		{
-			$5 = correctAllVerses($5, "Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast shall be all of immunity and freedom for all the Jews in my realm.")
+			$5 = gensub(/Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast, shall be all days of/,"Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast shall be all of",1,$5)
+				$5 = correctAllVerses($5, "Furthermore I will that all the feasts, and sabbaths, and new moons, and solemn days, and the three days before the feast, and the three days after the feast shall be all of immunity and freedom for all the Jews in my realm.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "35")
 		{
-			$5 = correctAllVerses($5, "Also no man shall have authority to meddle with or to molest any of them in any matter.")
+			$5 = gensub(/Also no man shall have authority to meddle with them, or to/,"Also no man shall have authority to meddle with or to",1,$5)
+
+				$5 = correctAllVerses($5, "Also no man shall have authority to meddle with or to molest any of them in any matter.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2289,7 +2295,9 @@ else if ($3 == "19")
 
 		if ($3 == "2")
 		{
-			$5 = correctAllVerses($5, "Whereupon he took his journey into Spain in peaceable manner, so as they of the cities opened unto him, and met him: for king Alexander had commanded them so to do, because he was his brother in law.")
+			$5 = gensub(/Whereupon he took his journey into Syria/,"Whereupon he took his journey into Spain",1,$5)
+
+				$5 = correctAllVerses($5, "Whereupon he took his journey into Spain in peaceable manner, so as they of the cities opened unto him, and met him: for king Alexander had commanded them so to do, because he was his brother in law.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2301,7 +2309,9 @@ else if ($3 == "19")
 		}
 		else if ($3 == "21")
 		{
-			$5 = correctAllVerses($5, "Then came ungodly persons, who hated their own people, went unto the king, and told him that Jonathan besieged the tower, ")
+			$5 = gensub(/Then certain/,"Then came",1,$5)
+
+				$5 = correctAllVerses($5, "Then came ungodly persons, who hated their own people, went unto the king, and told him that Jonathan besieged the tower, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2313,7 +2323,9 @@ else if ($3 == "19")
 		}
 		else if ($3 == "35")
 		{
-			$5 = correctAllVerses($5, "And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the saltpits, and the crown taxes, which are due unto us, we discharge them of them all for their relief.")
+			$5 = gensub(/And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the salt pits/,"And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the saltpits",1,$5)
+
+				$5 = correctAllVerses($5, "And as for other things that belong unto us, of the tithes and customs pertaining unto us, as also the saltpits, and the crown taxes, which are due unto us, we discharge them of them all for their relief.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2328,7 +2340,9 @@ else if ($3 == "19")
 
 		if ($3 == "1")
 		{
-			$5 = correctAllVerses($5, "Now when Jonathan saw that time served him, he chose certain men, and sent them to Rome, for to confirm and renew the friendship that they had with them.")
+			$5 = gensub(/Now when Jonathan saw that the time served him, he chose/,"Now when Jonathan saw the time served him, he chose",1,$5)
+
+				$5 = correctAllVerses($5, "Now when Jonathan saw that time served him, he chose certain men, and sent them to Rome, for to confirm and renew the friendship that they had with them.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2340,7 +2354,9 @@ else if ($3 == "19")
 		}
 		else if ($3 == "9")
 		{
-			$5 = correctAllVerses($5, "Therefore we also, albeit we need none of these things, that we have the holy books of scripture in our hands to comfort us, ")
+			$5 = gensub(/Therefore we also, albeit we need none of these things, for that we have the holy books of scripture in our hands/,"Therefore we also, albeit we need none of these things, that we have the holy books of scripture in our hands",1,$5)
+
+				$5 = correctAllVerses($5, "Therefore we also, albeit we need none of these things, that we have the holy books of scripture in our hands to comfort us, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2394,13 +2410,17 @@ else if ($3 == "19")
 		}
 		else if ($3 == "51")
 		{
-			$5 = correctAllVerses($5, "And entered into it the three and twentieth day of the second month in the hundred seventy and first year, with thanksgiving, and branches of palm trees, and with harps, and cymbals, and with viols, and hymns, and songs: because there was destroyed a great enemy out of Israel.")
+			$5 = gensub(/and entered into it the three and twentieth day of the second month, in the hundred seventy and one year/,"And entered into it the three and twentieth day of the second month in the hundred seventy and first year",1,$5)
+
+				$5 = correctAllVerses($5, "And entered into it the three and twentieth day of the second month in the hundred seventy and first year, with thanksgiving, and branches of palm trees, and with harps, and cymbals, and with viols, and hymns, and songs: because there was destroyed a great enemy out of Israel.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "53")
 		{
-			$5 = correctAllVerses($5, "And when Simon saw that John his son was a valiant man, he made him captain of all the hosts; and he dwelt in Gazera.")
+			$5 = gensub(/And when Simon saw that John his son was a valiant man, he made him captain of all the hosts; and dwelt/,"And when Simon saw that John his son was a valiant man, he made him captain of all the hosts; and he dwelt",1,$5)
+
+				$5 = correctAllVerses($5, "And when Simon saw that John his son was a valiant man, he made him captain of all the hosts; and he dwelt in Gazera.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -2452,19 +2472,25 @@ else if ($3 == "19")
 
 		if ($3 == "8")
 		{
-			$5 = correctAllVerses($5, "And if anything be, or shall be, owing to the king, let it be forgiven thee from this time forth for evermore.")
+			$5 = gensub(/And if any thing be/,"And if anything be",1,$5)
+
+				$5 = correctAllVerses($5, "And if anything be, or shall be, owing to the king, let it be forgiven thee from this time forth for evermore.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "23")
 		{
-			$5 = correctAllVerses($5, "And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and Cyprus, and Cyrene.")
+			$5 = gensub(/and to all the countries, and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Phaselis/,"And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus",1,$5)
+
+				$5 = correctAllVerses($5, "And to all the countries and to Sampsames, and the Lacedemonians, and to Delus, and Myndus, and Sicyon, and Caria, and Samos, and Pamphylia, and Lycia, and Halicarnassus, and Rhodus, and Aradus, and Cos, and Side, and Aradus, and Gortyna, and Cnidus, and Cyprus, and Cyrene.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "28")
 		{
-			$5 = correctAllVerses($5, "Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, Ye withhold Joppa and Gazera; with the tower that is in Jerusalem, which are cities of my realm.")
+			$5 = gensub(/and say, You withhold/,"and say, Ye withhold",1,$5)
+
+				$5 = correctAllVerses($5, "Furthermore he sent unto him Athenobius, one of his friends, to commune with him, and say, Ye withhold Joppa and Gazera; with the tower that is in Jerusalem, which are cities of my realm.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
