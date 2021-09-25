@@ -2035,12 +2035,18 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "25")
 		{
+	
+			$5 = gensub(/where they met with the Nabathites, who came unto them in peaceable manner, and told them every thing/,"where they met with the Nabathites, who came unto them in a peaceable manner, and told them every thing",1,$5)
 			$5 = correctAllVerses($5, "Where they met with the Nabathites, who came unto them in a peaceable manner, and told them every thing that had happened to their brethren in the land of Galaad: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "26")
 		{
+
+			$5 = gensub(/and how that many of them were shut up in Bossora/,"and how that many of them were shut up in Bosora",1,$5)
+
+			$5 = gensub(/and how that many of them were shut up in Bosora, and Bosor, in Alema/,"and how that many of them were shut up in Bosora, and Bosor, and Alema",1,$5)
 			$5 = correctAllVerses($5, "And how that many of them were shut up in Bosora, and Bosor, and Alema, Casphor, Maked, and Carnaim; all these cities are strong and great: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2053,6 +2059,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "35")
 		{
+
+			$5 = gensub(/This done, Judas turned aside to Maspha; and after he had assaulted it, he took it, and/,"This done, Judas turned aside to Maspha; and after he had assaulted it he took and slew",1,$5)
 			$5 = correctAllVerses($5, "This done, Judas turned aside to Maspha; and after he had assaulted it he took and slew all the males therein, and received the spoils thereof and and burnt it with fire.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
