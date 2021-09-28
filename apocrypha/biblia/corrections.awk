@@ -24,6 +24,13 @@ function percentageMatch(word1, word2,  biggerWord,  smallerWord,  smallerWordSp
 		smallerWord = word2;
 		biggerWord = word1;
 	}
+
+
+        if (index(biggerWord, smallerWord))
+	{
+		return length(smallerWord) / length(biggerWord);
+	}
+
 	patsplit(smallerWord, smallerWordSplit, /[A-Za-z]/)
 		patsplit(biggerWord, biggerWordSplit, /[A-Za-z]/)
 		matchingLetters = 0;
@@ -577,6 +584,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "59")
 		{
+			$5 = gensub(/upon earth/,"upon the earth",1,$5)
+
 			$5 = correctAllVerses($5, "And so shall the Highest shew thee visions of the high things, which the most High will do unto them that dwell upon the earth in the last days. So I slept that night and another, like as he commanded me.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -702,6 +711,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "13")
 		{
+			$5 = gensub(/some were sorry, some/,"some were sorry, and some",1,$5)
+
 			$5 = correctAllVerses($5, "And there came much people unto him, whereof some were glad, some were sorry, and some of them were bound, and other some brought of them that were offered: then was I sick through great fear, and I awaked, and said, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -725,6 +736,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "33")
 		{
+			$5 = gensub(/^And now are you/,"And now are ye",1,$5)
+
 			$5 = correctAllVerses($5, "And now are ye here, and your brethren among you.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2088,12 +2101,15 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "17")
 		{
+
+			$5 = gensub(/Now when Lysias knew that the king was dead, he set up Antiochus his son \(/,"Now when Lysias knew that the king was dead, he set up Antiochus his son, ",1,$5)
 			$5 = correctAllVerses($5, "Now when Lysias knew that the king was dead, he set up Antiochus his son, whom he had brought up being young, to reign in his stead, and his name he called Eupator.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "49")
 		{
+			$5 = gensub(/But with them that were in Bethsura he made peace: for they came out of the city ,/,"But with them that were in Bethsura he made peace: for they came out of the city,",1,$5)
 			$5 = correctAllVerses($5, "But with them that were in Bethsura he made peace: for they came out of the city, because they had no victuals there to endure the siege, it being a year of rest to the land.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2135,6 +2151,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "1")
 		{
+			$5 = gensub(/Now Judas had heard of the fame of/,"Now Judas had heard of",1,$5)
+
 			$5 = correctAllVerses($5, "Now Judas had heard of the Romans, that they were mighty and valiant men, and such as would lovingly accept all that joined themselves unto them, and make a league of amity with all that came unto them; ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2153,6 +2171,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "31")
 		{
+			$5 = gensub(/And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore hast thou made/,"And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore thou made",1,$5)
+
 			$5 = correctAllVerses($5, "And as touching the evils that Demetrius doeth to the Jews, we have written unto him, saying, Wherefore thou made thy yoke heavy upon our friends and confederates the Jews?")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2195,6 +2215,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "50")
 		{
+			$5 = gensub(/and Bethoron/,"and Bethhoron",1,$5)
+
 			$5 = correctAllVerses($5, "Afterward returned Bacchides to Jerusalem and repaired the strong cites in Judea; the fort in Jericho, and Emmaus, and Bethhoron, and Bethel, and Thamnatha, Pharathoni, and Taphon, these did he strengthen with high walls, with gates and with bars.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2213,6 +2235,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "67")
 		{
+			$5 = gensub(/burnt up/,"burned up",1,$5)
+
 			$5 = correctAllVerses($5, "And when he began to smite them, and came up with his forces, Simon and his company went out of the city, and burned up the engines of war, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
