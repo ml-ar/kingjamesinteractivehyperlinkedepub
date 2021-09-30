@@ -724,6 +724,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "4")
 		{
+			$5 = gensub(/mount of Sinai/,"mount of",1,$5)
 			$5 = correctAllVerses($5, "And I sent him and led my people out of Egypt, and brought him up to the mount of where I held him by me a long season, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -761,6 +762,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "40")
 		{
+			$5 = gensub(/lifted up/,"puffed up",1,$5)
+
 			$5 = correctAllVerses($5, "The great and mighty clouds shall be puffed up full of wrath, and the star, that they may make all the earth afraid, and them that dwell therein; and they shall pour out over every high and eminent place an horrible star, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2578,6 +2581,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "8")
 		{
+			$5 = gensub(/^and burnt/,"and burned",1,$5)
+
 			$5 = correctAllVerses($5, "And burned the porch, and shed innocent blood: then we prayed unto the Lord, and were heard; we offered also sacrifices and fine flour, and lighted the lamps, and set forth the loaves.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2793,12 +2798,15 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "6")
 		{
+
+			$5 = gensub(/kept eight days/,"kept the eight days",1,$5)
 			$5 = correctAllVerses($5, "And they kept the eight days with gladness, as in the feast of the tabernacles, remembering that not long afore they had held the feast of the tabernacles, when as they wandered in the mountains and dens like beasts.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "11")
 		{
+			$5 = gensub(/him chief/,"him his chief",1,$5)
 			$5 = correctAllVerses($5, "So when he was come to the crown, he set one Lysias over the affairs of his realm, and appointed him his chief governor of Celosyria and Phenice.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2817,12 +2825,16 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "30")
 		{
+			$5 = gensub(/with their weapons/,"weapons",1,$5)
+
 			$5 = correctAllVerses($5, "And took Maccabeus betwixt them, and covered him on every side weapons, and kept him safe, but shot arrows and lightnings against the enemies: so that being confounded with blindness, and full of trouble, they were killed.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "32")
 		{
+			$5 = gensub(/Gazara/,"Gawra",1,$5)
+
 			$5 = correctAllVerses($5, "As for Timotheus himself, he fled into a very strong hold, called Gawra, where Chereas was governor.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2834,12 +2846,15 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "1")
 		{
-			$5 = correctAllVerses($5, "Not long after the, Lysias the king’s protector and cousin, who also managed the affairs, took sore displeasure for the things that were done.")
+
+			$5 = correctAllVerses($5, "Not long after this, Lysias the king’s protector and cousin, who also managed the affairs, took sore displeasure for the things that were done.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "2")
 		{
+
+			$5 = gensub(/a habit/,"an habit",1,$5)
 			$5 = correctAllVerses($5, "And when he had gathered about fourscore thousand with all the horsemen, he came against the Jews, thinking to make the city an habitation of the Gentiles, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2863,12 +2878,15 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "2")
 		{
+			$5 = gensub(/governors/,"governours",1,$5)
 			$5 = correctAllVerses($5, "But of the governours of several places, Timotheus, and Apollonius the son of Genneus, also Hieronymus, and Demophon, and beside them Nicanor the governor of Cyprus, would not suffer them to be quiet and live in peace.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "15")
 		{
+			$5 = gensub(/any rams/,"rams",1,$5)
+
 			$5 = correctAllVerses($5, "Wherefore Judas with his company, calling upon the great Lord of the world, who without rams or engines of war did cast down Jericho in the time of Joshua, gave a fierce assault against the walls, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7

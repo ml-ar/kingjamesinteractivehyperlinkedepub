@@ -9,3 +9,5 @@ Tobit 3:10: When, not Whe
 Judith 13:2: Lying along, not lying alone
 
 1 Macabees 9:50: Bethel, not Beth-el
+
+2 Maccabees 11:1: Change "not long after the" to "not long after this"
