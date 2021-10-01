@@ -1835,6 +1835,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "1")
 		{
+			$5 = gensub(/\[PLACED IN THE GREEK AFTER CH\. III\. 13 OF THE HEBREW\]\. XIII\. /,"",1,$5)
+
 			$5 = correctAllVerses($5, "The copy of the letters was this: The great king Artexerxes writeth these things to the princes and governours that are under him from India unto Ethiopia in an hundred and seven and twenty provinces.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1892,6 +1894,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "1")
 		{
+			$5 = gensub(/\[Placed in the Greek After Ch\. VIII\. 12 of the Hebrew\]\. XVI\./,"",1,$5)
+
 			$5 = correctAllVerses($5, "The great king Artexerxes unto the princes and governors of an hundred and seven and twenty provinces from India unto Ethiopia, and unto all our faithful subjects, greeting.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2618,6 +2622,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "3")
 		{
+			$5 = gensub(/Seleucus king/,"Seleucus",1,$5)
 			$5 = correctAllVerses($5, "Insomuch that Seleucus of Asia of his own revenues bare all the costs belonging to the service of the sacrifices.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2659,12 +2664,14 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "10")
 		{
+			$5 = gensub(/nation to the/,"nation to",1,$5)
 			$5 = correctAllVerses($5, "Which when the king had granted, and he had gotten into his hand the rule he forthwith brought his own nation to Greekish fashion.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "22")
 		{
+			$5 = gensub(/torchlight/,"torch alight",1,$5)
 			$5 = correctAllVerses($5, "Where he was honourably received of Jason, and of the city, and was brought in with torch alight, and with great shoutings: and so afterward went with his host unto Phenice.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2683,12 +2690,16 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "42")
 		{
+
+			$5 = gensub(/church robber/,"churchrobber",1,$5)
 			$5 = correctAllVerses($5, "Thus many of them they wounded, and some they struck to the ground, and all of them they forced to flee: but as for the churchrobber himself, him they killed beside the treasury.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "50")
 		{
+			$5 = gensub(/in power/,"of power",1,$5)
+
 			$5 = correctAllVerses($5, "And so through the covetousness of them that were of power Menelaus remained still in authority, increasing in malice, and being a great traitor to the citizens.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2724,12 +2735,16 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "11")
 		{
+			$5 = gensub(/discovered to/,"discovered by",1,$5)
+
 			$5 = correctAllVerses($5, "And others, that had run together into caves near by, to keep the sabbath day secretly, being discovered by Philip, were all burnt together, because they made a conscience to help themselves for the honour of the most sacred day.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "23")
 		{
+			$5 = gensub(/whereunto he/,"whereon",1,$5)
+
 			$5 = correctAllVerses($5, "But he began to consider discreetly, and as became his age, and the excellency of his ancient years, and the honour of his gray head, whereon was come, and his most honest education from a child, or rather the holy law made and given by God: therefore he answered accordingly, and willed them straightways to send him to the grave.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2741,6 +2756,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "23")
 		{
+			$5 = gensub(/as you/,"as ye",1,$5)
+
 			$5 = correctAllVerses($5, "But doubtless the Creator of the world, who formed the generation of man, and found out the beginning of all things, will also of his own mercy give you breath and life again, as ye now regard not your own selves for his laws’ sake.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2758,6 +2775,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "14")
 		{
+
+			$5 = gensub(/them, being/,"them, sold",1,$5)
 			$5 = correctAllVerses($5, "Others sold all that they had left, and withal besought the Lord to deliver them, sold by the wicked Nicanor before they met together: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2781,6 +2800,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "4")
 		{
+			$5 = gensub(/chariot man/,"chariotman",1,$5)
+
 			$5 = correctAllVerses($5, "Then swelling with anger. he thought to avenge upon the Jews the disgrace done unto him by those that made him flee. Therefore commanded he his chariotman to drive without ceasing, and to dispatch the journey, the judgment of God now following him. For he had spoken proudly in this sort, That he would come to Jerusalem and make it a common burying place of the Jews.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2893,6 +2914,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "22")
 		{
+                  
+			$5 = gensub(/running this way/,"running into this way",1,$5)
 			$5 = correctAllVerses($5, "But when Judas his first band came in sight, the enemies, being smitten with fear and terror through the appearing of him who seeth all things, fled amain, one running into this way, another that way, so as that they were often hurt of their own men, and wounded with the points of their own swords.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -2923,12 +2946,16 @@ else if ($3 == "19")
 		}
 else if ($3 == "22")
 		{
+                          
+			$5 = gensub(/took theirs/,"took their's",1,$5)
 			$5 = correctAllVerses($5, "The king treated with them in Bethsum the second time, gave his hand, took their’s, departed, fought with Judas, was overcome; ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 else if ($3 == "23")
 		{
+
+			$5 = gensub(/\[was\] confounded/,"confounded",1,$5)
 			$5 = correctAllVerses($5, "Heard that Philip, who was left over the affairs in Antioch, was desperately bent, confounded, intreated the Jews, submitted himself, and sware to all equal conditions, agreed with them, and offered sacrifice, honoured the temple, and dealt kindly with the place, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
