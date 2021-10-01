@@ -1269,6 +1269,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "9")
 		{
+			$5 = gensub(/Chellus/,"Chelus",1,$5)
+
 			$5 = correctAllVerses($5, "And to all that were in Samaria and the cities thereof, and beyond Jordan unto Jerusalem, and Betane, and Chelus, and Kades, and the river of Egypt, and Taphnes, and Ramesse, and all the land of Gesem, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1902,6 +1904,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "11")
 		{
+			$5 = gensub(/men, as/,"",1,$5)
+
 			$5 = correctAllVerses($5, "Had so far forth obtained the favour that we shew toward every nation, as that he was called our father, and was continually honoured of all the next person unto the king.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
