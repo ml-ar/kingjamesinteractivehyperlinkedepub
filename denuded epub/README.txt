@@ -6,8 +6,15 @@ Also modified 1 Esdras 9:49, changing errant period to comma
 
 Tobit 3:10: When, not Whe 
 
-Judith 13:2: Lying along, not lying alone
+Judith 2:7: Change "declare unto them" into "declare unto them, that"
+
+Judith 6:9: Change "they shall be taken" into "they shall not be taken"
+
+Judith 13:2: Lying alone or lying along?
+
+Judith 11:10: Reject not his word, not respect not
 
 1 Macabees 9:50: Bethel, not Beth-el
 
 2 Maccabees 11:1: Change "not long after the" to "not long after this"
+

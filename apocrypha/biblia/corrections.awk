@@ -1251,6 +1251,9 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 
 /^Judith/ {
+
+			$5 = gensub(/Olofernes/,"Holofernes","g",$5) #correcting all holofernes
+			$5 = gensub(/Canaan/,"Chanaan","g",$5)
 	if ($2 == "1")
 	{
 
@@ -1307,7 +1310,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "7")
 		{
-			$5 = correctAllVerses($5, "And thou shalt declare unto that they prepare for me earth and water: for I will go forth in my wrath against them and will cover the whole face of the earth with the feet of mine army, and I will give them for a spoil unto them: ")
+
+			$5 = correctAllVerses($5, "And thou shalt declare unto them, that they prepare for me earth and water: for I will go forth in my wrath against them and will cover the whole face of the earth with the feet of mine army, and I will give them for a spoil unto them: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -1319,6 +1323,9 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "20")
 		{
+			$5 = gensub(/multitude/,"number",1,$5)
+
+			$5 = gensub(/of sundry/,"sundry",1,$5)
 			$5 = correctAllVerses($5, "A great number also sundry countries came with them like locusts, and like the sand of the earth: for the multitude was without number.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1348,6 +1355,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "7")
 		{
+
+			$5 = gensub(/strait/,"straight",1,$5)
 			$5 = correctAllVerses($5, "Charging them to keep the passages of the hill country: for by them there was an entrance into Judea, and it was easy to stop them that would come up, because the passage was straight, for two men at the most.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1383,6 +1392,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "10")
 		{
+
 			$5 = correctAllVerses($5, "But when a famine covered all the land of Chanaan, they went down into Egypt, and sojourned there, while they were nourished, and became there a great multitude, so that one could not number their nation.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1442,7 +1452,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "9")
 		{
-			$5 = correctAllVerses($5, "And if thou persuade thyself in thy mind that they shall be taken, let not thy countenance fall: I have spoken it, and none of my words shall be in vain.")
+			$5 = correctAllVerses($5, "And if thou persuade thyself in thy mind that they shall not be taken, let not thy countenance fall: I have spoken it, and none of my words shall be in vain.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -1518,12 +1528,16 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "10")
 		{
+
+			$5 = gensub(/waiting woman/,"waitingwoman",1,$5)
 			$5 = correctAllVerses($5, "Then she sent her waitingwoman, that had the government of all things that she had, to call Ozias and Chabris and Charmis, the ancients of the city.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "12")
 		{
+ 
+			$5 = gensub(/who are you/,"who are ye",1,$5)
 			$5 = correctAllVerses($5, "And now who are ye that have tempted God this day, and stand instead of God among the children of men?")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1542,6 +1556,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "33")
 		{
+
+			$5 = gensub(/waiting woman/,"waitingwoman",1,$5)
 			$5 = correctAllVerses($5, "Ye shall stand this night in the gate, and I will go forth with my waitingwoman: and within the days that ye have promised to deliver the city to our enemies the Lord will visit Israel by mine hand.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1553,6 +1569,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "1")
 		{
+
+			$5 = gensub(/^Then\s*/,"",1,$5)
 			$5 = correctAllVerses($5, "Judith fell upon her face, and put ashes upon her head, and uncovered the sackcloth wherewith she was clothed; and about the time that the incense of that evening was offered in Jerusalem in the house of the Lord Judith cried with a loud voice, and said, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1623,12 +1641,16 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "10")
 		{
-			$5 = correctAllVerses($5, "Therefore, O lord and governor, respect not his word; but lay it up in thine heart, for it is true: for our nation shall not be punished, neither can sword prevail against them, except they sin against their God.")
+
+                          
+			$5 = correctAllVerses($5, "Therefore, O lord and governor, reject not his word; but lay it up in thine heart, for it is true: for our nation shall not be punished, neither can sword prevail against them, except they sin against their God.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "13")
 		{
+
+			$5 = gensub(/firstfruits of the corn, and the tenths of wine and oil/,"firstfruits of the tenths of wine and oil",1,$5)
 			$5 = correctAllVerses($5, "And are resolved to spend the firstfruits of the tenths of wine and oil, which they had sanctified, and reserved for the priests that serve in Jerusalem before the face of our God; the which things it is not lawful for any of the people so much as to touch with their hands.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1670,6 +1692,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "10")
 		{
+
 			$5 = correctAllVerses($5, "And in the fourth day Holofernes made a feast to his own servants only, and called none of the officers to the banquet.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1693,7 +1716,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "2")
 		{
-			$5 = correctAllVerses($5, "And Judith was left alone in the tent, and Holofernes lying along upon his bed: for he was filled with wine.")
+			$5 = correctAllVerses($5, "And Judith was left alone in the tent, and Holofernes lying alone upon his bed: for he was filled with wine.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -1705,6 +1728,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "5")
 		{
+			$5 = gensub(/execute mine/,"execute thine",1,$5)
+
 			$5 = correctAllVerses($5, "For now is the time to help thine inheritance, and to execute thine enterprizes to the destruction of the enemies which are risen against us.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
