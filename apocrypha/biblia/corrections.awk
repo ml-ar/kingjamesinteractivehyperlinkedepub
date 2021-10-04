@@ -951,12 +951,16 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "11")
 		{
+
+			$5 = gensub(/father’s/,"fathers’",1,$5) 
 			$5 = correctAllVerses($5, "And took hold of his father: and he strake of the gall on his fathers’ eyes, saying, Be of good hope, my father.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 		else if ($3 == "14")
 		{
+
+			$5 = gensub(/all thy/,"all thine",1,$5)
 			$5 = correctAllVerses($5, "And he wept, and said, Blessed art thou, O God, and blessed is thy name for ever; and blessed are all thine holy angels: ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -975,6 +979,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "6")
 		{
+
+			$5 = gensub(/you/,"ye",1,$5) 
 			$5 = correctAllVerses($5, "If ye turn to him with your whole heart, and with your whole mind, and deal uprightly before him, then will he turn unto you, and will not hide his face from you. Therefore see what he will do with you, and confess him with your whole mouth, and praise the Lord of might, and extol the everlasting King. In the land of my captivity do I praise him, and declare his might and majesty to a sinful nation. O ye sinners, turn and do justice before him: who can tell if he will accept you, and have mercy on you?")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1039,6 +1045,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "23")
 		{
+
+			$5 = gensub(/stedfast/,"steadfast",1,$5)
 			$5 = correctAllVerses($5, "Kind to man, steadfast, sure, free from care, having all power, overseeing all things, and going through all understanding, pure, and most subtil, spirits.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1080,6 +1088,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "6")
 		{
+
+			$5 = gensub(/a fountain of/,"",1,$5)
 			$5 = correctAllVerses($5, "For instead of a perpetual running river troubled with foul blood, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1105,6 +1115,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "12")
 		{
+
+			$5 = gensub(/whom thou hast/,"whom thou","1",$5)
 			$5 = correctAllVerses($5, "For who shall say, What hast thou done? or who shall withstand thy judgment? or who shall accuse thee for the nations that perish, whom thou made? or who shall come to stand against thee, to be revenged for the unrighteous men?")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1141,7 +1153,9 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "8")
 		{
-			$5 = correctAllVerses($5, "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out when his life which was lent him shall be demanded.")
+
+			$5 = gensub(/the which/,"which",1,$5)
+			$5 = correctAllVerses($5, "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out of which he was taken, when his life which was lent him shall be demanded.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
@@ -1195,6 +1209,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 
 		if ($3 == "3")
 		{
+
+			$5 = gensub(/and a/,"and an",1,$5)
 			$5 = correctAllVerses($5, "Instead whereof thou gavest them a burning pillar of fire, both to be a guide of the unknown journey, and an harmless sun to entertain them honourably.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1208,6 +1224,8 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "15")
 		{
+
+			$5 = gensub(/leapt/,"leaped",1,$5)
 			$5 = correctAllVerses($5, "Thine Almighty word leaped down from heaven out of thy royal throne, as a fierce man of war into the midst of a land of destruction, ")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
@@ -1215,7 +1233,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		}
 		else if ($3 == "22")
 		{
-			$5 = correctAllVerses($5, "So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued him that punished, alleging the oaths and covenants made with the fathers.")
+			$5 = correctAllVerses($5, "So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued he him that punished, alleging the oaths and covenants made with the fathers.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 
