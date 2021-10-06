@@ -3010,7 +3010,18 @@ else if ($3 == "23")
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
 }
+else if ($2 == "14")
+	{
 
+
+		if ($3 == "6")
+		{
+			$5 = correctAllVerses($5,"Those of the Jews that he called Assideans, whose captain is Judas Maccabeus, nourish war and are seditious, and will not let the rest be in peace.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
 }
 
 {
