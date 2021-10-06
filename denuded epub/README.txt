@@ -14,6 +14,10 @@ Judith 13:2: Lying alone or lying along?
 
 Judith 11:10: Reject not his word, not respect not
 
+Wisdom 4:4: Change "standing not last" to "standing not fast"
+
+Wisdom 15:8: Change from "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out when his life which was lent him shall be demanded." to "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out of which he was taken, when his life which was lent him shall be demanded."
+
 1 Macabees 9:50: Bethel, not Beth-el
 
 2 Maccabees 11:1: Change "not long after the" to "not long after this"
