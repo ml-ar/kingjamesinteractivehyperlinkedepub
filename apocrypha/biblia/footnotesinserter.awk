@@ -596,6 +596,8 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes, footnoteNumber,  xhtmlWri
 #writing Bel and the Dragon special cases
 function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  lastMatchPosition,  i,  adhocFootnotes)
 {
+if ("Bel and the Dragon" in footnotes)
+{
 	xhtmlFile = folderPrefix bookFiles["Bel and the Dragon"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
 
@@ -608,43 +610,52 @@ function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe, 
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
 		delete footnotes["Bel and the Dragon"]
-
+}
 }
 
 
 function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case
 {
-	xhtmlFile = folderPrefix bookFiles["Susanna"]
-		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+	if ("Susanna" in footnotes)
+	{
+		xhtmlFile = folderPrefix bookFiles["Susanna"]
+			xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+			xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
 
 
-		xhtmlVariable = insert0and0(xhtmlVariable, "Susanna", "<div class='is'>")
+			xhtmlVariable = insert0and0(xhtmlVariable, "Susanna", "<div class='is'>")
 
-		copySingleBookFootnotesArray("Susanna", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
-		delete footnotes["Susanna"]
+			copySingleBookFootnotesArray("Susanna", adhocFootnotes)
+			writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+			delete footnotes["Susanna"]
+	}
 
 }
 
 function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 {
-	xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
-		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
-		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
+
+	if ("Prayer of Manasseh" in footnotes)
+	{
+		xhtmlFile = folderPrefix bookFiles["Prayer of Manasseh"]
+			xhtmlVariable = storeTextFileInVariable(xhtmlFile)
+			xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
 
 
-		xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
+			xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
 
 
-		copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
-		delete footnotes["Prayer of Manasseh"]
+			copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
+			writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+			delete footnotes["Prayer of Manasseh"]
+	}
 }
 
 function writeS3Y(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
+{
+if ("Song of Three Youths" in footnotes)
 {
 	xhtmlFile = folderPrefix bookFiles["Song of Three Youths"]
 		xhtmlVariable = storeTextFileInVariable(xhtmlFile)
@@ -654,7 +665,7 @@ function writeS3Y(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
 
 		delete footnotes["Song of Three Youths"]
-
+}
 }
 
 #writing Sirach special cases
@@ -673,7 +684,8 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  footnoteNu
 	xhtmlWriteMe = substr(xhtmlVariable, 1, endnotesPosition-1)
 		restOfCSSWriteMe = substr(xhtmlVariable, endnotesPosition)
 
-
+     if ("Sirach Prologue" in footnotes)
+	 {
 		for (j in footnotes["Sirach Prologue"]) #chapter
 		{
 			if (j == 1)
@@ -740,8 +752,11 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  footnoteNu
 			xhtmlWriteMe = literalgensub(originalPrologueHeadingLine, modifiedPrologueHeadingLine, 1, xhtmlWriteMe) only
 				xhtmlWriteMe = literalgensub(originalPrologueLine, modifiedPrologueLine, 1, xhtmlWriteMe)
 		}
+			delete footnotes["Sirach Prologue"]
+}
 
-
+if ("Sirach" in footnotes)
+{
 	xhtmlWriteMe = xhtmlWriteMe restOfCSSWriteMe;
 	copySingleBookFootnotesArray("Sirach", adhocFootnotes)
 
@@ -749,7 +764,7 @@ function writeSirach(  xhtmlFile,  xhtmlVariable,  endnotesPosition,  footnoteNu
 		writeCSS(xhtmlFile, xhtmlWriteMe, adhocFootnotes, footnoteNumber)
 
 		delete footnotes["Sirach"]
-		delete footnotes["Sirach Prologue"]
+}	
 
 }
 
@@ -786,11 +801,11 @@ END {
 
 	#Do special cases first
 
-#	writeSirach()
-#	writeS3Y()
-#	writeBel()
-#	writeSusanna()
-#	writeManasseh()
+	writeSirach()
+	writeS3Y()
+	writeBel()
+	writeSusanna()
+	writeManasseh()
                  
 
 
