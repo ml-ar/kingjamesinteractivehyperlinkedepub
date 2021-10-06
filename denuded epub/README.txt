@@ -18,6 +18,8 @@ Wisdom 4:4: Change "standing not last" to "standing not fast"
 
 Wisdom 15:8: Change from "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out when his life which was lent him shall be demanded." to "And employing his labours lewdly, he maketh a vain god of the same clay, even he which a little before was made of earth himself, and within a little while after returneth to the same, out of which he was taken, when his life which was lent him shall be demanded."
 
+Wisdom 18:22: Change "So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued him that punished, alleging the oaths and covenants made with the fathers." to "So he overcame the destroyer, not with strength of body, nor force of arms, but with a word subdued he him that punished, alleging the oaths and covenants made with the fathers."
+
 1 Macabees 9:50: Bethel, not Beth-el
 
 2 Maccabees 11:1: Change "not long after the" to "not long after this"
