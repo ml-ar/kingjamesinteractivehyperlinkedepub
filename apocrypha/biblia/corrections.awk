@@ -1212,7 +1212,7 @@ $5 = gensub(/So Esdras the chief priest brought the law unto the whole multitude
 		if ($3 == "3")
 		{
 
-			$5 = gensub(/and a/,"and an",1,$5)
+			$5 = gensub(/and a(\s+|$)/,"and an\\1",1,$5)
 			$5 = correctAllVerses($5, "Instead whereof thou gavest them a burning pillar of fire, both to be a guide of the unknown journey, and an harmless sun to entertain them honourably.")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
