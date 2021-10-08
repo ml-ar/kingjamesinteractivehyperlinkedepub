@@ -3080,6 +3080,24 @@ else if ($3 == "36")
 		}
 }
 }
+
+
+/^Baruch/ {
+if ($2 == "1")
+	{
+
+
+		if ($3 == "4")
+		{
+
+			$5 = correctAllVerses($5, "And in the hearing of the nobles, and of the king’s sons, and in the hearing of the elders, and of all the people, from the lowest unto the highest, even of all them that dwelt at Babylon by the river Sud.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
+}
+
 {
 print toReturn;
 }
