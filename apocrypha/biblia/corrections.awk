@@ -3022,10 +3022,64 @@ else if ($2 == "14")
 
 				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
 		}
+else if ($3 == "15")
+		{
+
+			$5 = correctAllVerses($5, "Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had established his people for ever, and who always helpeth his portion with manifestation of his presence.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "22")
+		{
+
+			$5 = correctAllVerses($5, "Ludas placed armed men ready in convenient places, lest some treachery should be suddenly practised by the enemies: so they made a peaceable conference.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "24")
+		{
+
+			$5 = correctAllVerses($5, "And he would not willingly have Judas out of his sight: for he love the man from his heart.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "33")
+		{
+
+			$5 = correctAllVerses($5, "He stretched out his right hand toward the temple, and made an oath in this manner: If ye will not deliver me Judas as a prisoner, I will lay this temple of God even with the ground, and I will break down the altar, and erect a notable temple unto Bacchus.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "46")
+		{
+
+			$5 = correctAllVerses($5, "When as his blood was now quite gone, he plucked out his bowels, and taking them in both his hands, he cast them upon the throng, and calling upon the Lord of life and spirit to restore him those again, he thus died.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
 
 }
-}
+else if ($2 == "15")
+	{
 
+
+		if ($3 == "31")
+		{
+
+$5 = gensub(/had called/,"called",1,$5)
+			$5 = correctAllVerses($5, "So when he was there, and called them of his nation together, and set the priests before the altar, he sent for them that were of the tower, ")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "36")
+		{
+
+			$5 = correctAllVerses($5, "And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirtieth day of the twelfth month, which in the Syrian tongue is called Adar, the day before Mardocheus’ day.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+}
+}
 {
 print toReturn;
 }

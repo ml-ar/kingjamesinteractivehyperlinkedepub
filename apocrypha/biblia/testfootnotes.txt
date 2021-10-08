@@ -327,8 +327,8 @@
 2 Maccabees	14	13	2	commanding him to slay Judas, and to scatter them that were with him, and to make Alcimus high priest 	uu	<a href='2MA.xhtml#M214_31'>ver. 31</a> (Gk.).
 2 Maccabees	14	15	1	Now when the Jews heard of Nicanor’s coming, and that the heathen 	*	Or, <span class='add'>were joined to</span> them.
 2 Maccabees	14	15	2	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, 	v	See <a href='2MA.xhtml#M210_25'>ch 10. 25</a>.
-2 Maccabees	14	15	3	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had stablished his people for ever, and who always helpeth 	w	<a href='2MA.xhtml#M21_26'>ch. 1. 26</a>.
-2 Maccabees	14	15	4	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had stablished his people for ever, and who always helpeth his portion with 	x	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>.
+2 Maccabees	14	15	3	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had established his people for ever, and who always helpeth 	w	<a href='2MA.xhtml#M21_26'>ch. 1. 26</a>.
+2 Maccabees	14	15	4	Now when the Jews heard of Nicanor’s coming, and that the heathen were up against them, they cast earth upon their heads, and made supplication to him that had established his people for ever, and who always helpeth his portion with 	x	See <a href='2MA.xhtml#M22_21'>ch. 2. 21</a>.
 2 Maccabees	14	17	1	Now 	y	See <a href='2MA.xhtml#M28_22'>ch. 8. 22</a>.
 2 Maccabees	14	18	1	Nevertheless Nicanor, hearing of the manliness of 	b	See <a href='S3Y.xhtml#PA1_26'>Song 26</a>.
 2 Maccabees	14	19	1	Wherefore he sent Posidonius, and Theodotus, and Mattathias, to 	z	So <a href='2MA.xhtml#M213_22'>ch. 13. 22</a>. See <a href='1MA.xhtml#M16_58'>1 Macc. 6. 58</a> marg.
@@ -337,9 +337,9 @@
 2 Maccabees	14	2	3	had taken the country, and killed Antiochus, and 	h	See <a href='1MA.xhtml#M16_17'>1 Macc. 6. 17</a>.
 2 Maccabees	14	2	4	had taken the country, and killed Antiochus, and Lysias his 	i	See <a href='2MA.xhtml#M211_1'>ch. 11. 1</a> marg.
 2 Maccabees	14	21	1		a	To <a href='2MA.xhtml#M214_36'>ver. 36</a>, comp. <a href='1MA.xhtml#M17_27'>1 Macc. 7. 27–38</a>.
-2 Maccabees	14	22	1	Judas placed armed men ready in 	aa	See <a href='2MA.xhtml#M28_6'>ch. 8. 6</a>.
+2 Maccabees	14	22	1	Ludas placed armed men ready in 	aa	See <a href='2MA.xhtml#M28_6'>ch. 8. 6</a>.
 2 Maccabees	14	23	1	Now Nicanor abode in Jerusalem, and 	b	See <a href='LUK.xhtml#LK23_41'>Luke 23. 41</a>.
-2 Maccabees	14	24	1	And he would not willingly have Judas out of his sight: for he loved the man 	c	<a href='2MA.xhtml#M24_37'>ch. 4. 37</a> (Gk.).
+2 Maccabees	14	24	1	And he would not willingly have Judas out of his sight: for he love the man 	c	<a href='2MA.xhtml#M24_37'>ch. 4. 37</a> (Gk.).
 2 Maccabees	14	25	1	He prayed him also to take a wife, and to beget children: so he married, 	cc	<a href='2MA.xhtml#M212_2'>ch. 12. 2</a>.
 2 Maccabees	14	25	2	He prayed him also to take a wife, and to beget children: so he married, was quiet, and 	*	Or, <span class="notemark">d</span> <span class='add'>lived together with</span> him.
 2 Maccabees	14	26	1	But 	e	See <a href='2MA.xhtml#M214_3'>ver. 3</a>.
@@ -361,8 +361,8 @@
 2 Maccabees	14	31	1	But the other, knowing that he was notably prevented by Judas’ policy, 	p	Comp. <a href='1MA.xhtml#M17_33'>1 Macc. 7. 33</a>, <a href='1MA.xhtml#M17_36'>36</a>.
 2 Maccabees	14	31	2	But the other, knowing that he was notably prevented by Judas’ policy, came into 	q	<a href='2MA.xhtml#M214_13'>ver. 13</a> (Gk.).
 2 Maccabees	14	33	1		r	Comp. <a href='1MA.xhtml#M17_47'>1 Macc. 7. 47</a>. <a href='2MA.xhtml#M215_32'>ch. 15. 32</a>.
-2 Maccabees	14	33	2	he stretched out his right hand toward the temple, and made an oath in this manner: If you will not deliver me Judas as 	*	Gr. <span class='add'>bound</span>. <a href='2MA.xhtml#M214_27'>ver. 27</a>. <a href='MAT.xhtml#MT27_15'>Matt. 27. 15</a>, <a href='MAT.xhtml#MT27_16'>16</a>, &amp;c.
-2 Maccabees	14	33	3	he stretched out his right hand toward the temple, and made an oath in this manner: If you will not deliver me Judas as a prisoner, I will lay this temple of God even with the ground, and I will break down the altar, and erect a notable temple unto 	s	<a href='2MA.xhtml#M26_7'>ch. 6. 7</a>.
+2 Maccabees	14	33	2	He stretched out his right hand toward the temple, and made an oath in this manner: If ye will not deliver me Judas as 	*	Gr. <span class='add'>bound</span>. <a href='2MA.xhtml#M214_27'>ver. 27</a>. <a href='MAT.xhtml#MT27_15'>Matt. 27. 15</a>, <a href='MAT.xhtml#MT27_16'>16</a>, &amp;c.
+2 Maccabees	14	33	3	He stretched out his right hand toward the temple, and made an oath in this manner: If ye will not deliver me Judas as a prisoner, I will lay this temple of God even with the ground, and I will break down the altar, and erect a notable temple unto 	s	<a href='2MA.xhtml#M26_7'>ch. 6. 7</a>.
 2 Maccabees	14	35	1	Thou, O Lord of all things, 	t	So <a href='ACT.xhtml#AC17_25'>Acts 17. 25</a>.
 2 Maccabees	14	36	1	therefore now, O holy Lord of all holiness, keep this house ever undefiled, 	u	<a href='2MA.xhtml#M210_3'>ch. 10. 3</a>.
 2 Maccabees	14	36	2	therefore now, O holy Lord of all holiness, keep this house ever undefiled, which lately was cleansed, and 	v	See <a href='PSA.xhtml#PS63_11'>Ps. 63. 11</a>.
@@ -378,10 +378,10 @@
 2 Maccabees	14	4	6	came to king Demetrius in the hundred and one and fiftieth year, presenting unto him a crown of gold, and a palm, and also of the boughs which were 	*	Or, <span class='add'>thought</span> to be <span class='add'>of the temple</span>.
 2 Maccabees	14	4	7	came to king Demetrius in the hundred and one and fiftieth year, presenting unto him a crown of gold, and a palm, and also of the boughs which were 	n	<a href='ACT.xhtml#AC16_13'>Acts 16. 13</a>.
 2 Maccabees	14	42	1	choosing rather to die manfully, than to come into the hands of 	a	See <a href='2MA.xhtml#M212_23'>ch. 12. 23</a>.
-2 Maccabees	14	46	1	when as his blood was now quite gone, he pluckt out his bowels, and taking them in both his hands, he cast them upon the throng, and calling upon 	b	So <a href='2MA.xhtml#M27_23'>ch. 7. 23</a>.
-2 Maccabees	14	46	2	when as his blood was now quite gone, he pluckt out his bowels, and taking them in both his hands, he cast them upon the throng, and calling upon the Lord of life and spirit 	c	So <a href='2MA.xhtml#M27_11'>ch. 7. 11</a>. See <a href='DAN.xhtml#DN12_2'>Dan. 12. 2</a>.
-2 Maccabees	14	6	1	Those of the Jews that be called 	o	See <a href='1MA.xhtml#M12_42'>1 Macc. 2. 42</a>.
-2 Maccabees	14	6	2	Those of the Jews that be called Asideans, whose captain is Judas Maccabeus, 	p	<a href='2MA.xhtml#M210_14'>ch. 10. 14</a>, <a href='2MA.xhtml#M210_15'>15</a>.
+2 Maccabees	14	46	1	When as his blood was now quite gone, he plucked out his bowels, and taking them in both his hands, he cast them upon the throng, and calling upon 	b	So <a href='2MA.xhtml#M27_23'>ch. 7. 23</a>.
+2 Maccabees	14	46	2	When as his blood was now quite gone, he plucked out his bowels, and taking them in both his hands, he cast them upon the throng, and calling upon the Lord of life and spirit 	c	So <a href='2MA.xhtml#M27_11'>ch. 7. 11</a>. See <a href='DAN.xhtml#DN12_2'>Dan. 12. 2</a>.
+2 Maccabees	14	6	1	Those of the Jews that he called 	o	See <a href='1MA.xhtml#M12_42'>1 Macc. 2. 42</a>.
+2 Maccabees	14	6	2	Those of the Jews that he called Assideans, whose captain is Judas Maccabeus, 	p	<a href='2MA.xhtml#M210_14'>ch. 10. 14</a>, <a href='2MA.xhtml#M210_15'>15</a>.
 2 Maccabees	14	7	1	Therefore I, being deprived of 	q	So <a href='1MA.xhtml#M17_14'>1 Macc. 7. 14</a>.
 2 Maccabees	15	1	1		a	Comp. <a href='1MA.xhtml#M17_39'>1 Macc. 7. 39</a>.
 2 Maccabees	15	1	2	But Nicanor, hearing that 	b	<a href='S3Y.xhtml#PA1_26'>Song 26</a>.
@@ -418,7 +418,7 @@
 2 Maccabees	15	3	2	Then the most ungracious wretch demanded, if there were a 	g	<a href='SIR.xhtml#SR46_6'>Ecclus. 46. 6</a>. <a href='2MA.xhtml#M215_29'>ver. 29</a> (Gk.). See <a href='1TI.xhtml#T16_15'>1 Tim. 6. 15</a>.
 2 Maccabees	15	30	1	And Judas, who was ever the chief defender of the citizens both in body and mind, and who continued his love toward his countrymen all his life, commanded to strike off 	n	Comp. <a href='1MA.xhtml#M17_47'>1 Macc. 7. 47</a>.
 2 Maccabees	15	30	2	And Judas, who was ever the chief defender of the citizens both in body and mind, and who continued his love toward his countrymen all his life, commanded to strike off Nicanor’s head, and his hand with his shoulder, and 	n	Comp. <a href='1MA.xhtml#M17_47'>1 Macc. 7. 47</a>.
-2 Maccabees	15	31	1	So when he was there, and had called them of his nation together, and set the priests before the altar, he sent for them that were of 	o	<a href='2MA.xhtml#M215_35'>ver. 35</a>. See <a href='1MA.xhtml#M11_33'>1 Macc. 1. 33</a>. So <a href='2MA.xhtml#M24_12'>ch. 4. 12</a>, <a href='2MA.xhtml#M24_27'>27</a>. &amp; <a href='2MA.xhtml#M25_5'>5. 5</a>.
+2 Maccabees	15	31	1	So when he was there, and called them of his nation together, and set the priests before the altar, he sent for them that were of 	o	<a href='2MA.xhtml#M215_35'>ver. 35</a>. See <a href='1MA.xhtml#M11_33'>1 Macc. 1. 33</a>. So <a href='2MA.xhtml#M24_12'>ch. 4. 12</a>, <a href='2MA.xhtml#M24_27'>27</a>. &amp; <a href='2MA.xhtml#M25_5'>5. 5</a>.
 2 Maccabees	15	32	1	and shewed them vile Nicanor’s head, and the hand of that blasphemer, 	p	<a href='2MA.xhtml#M214_33'>ch. 14. 33</a>. So <a href='1MA.xhtml#M17_47'>1 Macc. 7. 47</a>.
 2 Maccabees	15	32	2	and shewed them vile Nicanor’s head, and the hand of that blasphemer, which with proud brags he had stretched out against the holy temple of the 	q	<a href='2CO.xhtml#C26_18'>2 Cor. 6. 18</a>.
 2 Maccabees	15	33	1	And when he had cut out the tongue of that ungodly Nicanor, he commanded that they should give it by pieces 	r	So <a href='1SA.xhtml#S117_44'>1 Sam. 17. 44</a>, <a href='1SA.xhtml#S117_46'>46</a>.
@@ -427,9 +427,9 @@
 2 Maccabees	15	35	2	He hanged also Nicanor’s head upon 	o	<a href='2MA.xhtml#M215_35'>ver. 35</a>. See <a href='1MA.xhtml#M11_33'>1 Macc. 1. 33</a>. So <a href='2MA.xhtml#M24_12'>ch. 4. 12</a>, <a href='2MA.xhtml#M24_27'>27</a>. &amp; <a href='2MA.xhtml#M25_5'>5. 5</a>.
 2 Maccabees	15	35	3	He hanged also Nicanor’s head upon the tower, an evident and manifest sign unto all of 	u	See <a href='2MA.xhtml#M213_13'>ch. 13. 13</a>.
 2 Maccabees	15	36	1	And 	v	<a href='1MA.xhtml#M17_49'>1 Macc. 7. 49</a>.
-2 Maccabees	15	36	2	And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirteenth day of the twelfth month, which in the Syrian tongue is called 	w	See <a href='EZR.xhtml#ER6_15'>Ezra 6. 15</a>.
-2 Maccabees	15	36	3	And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirteenth day of the twelfth month, which in the Syrian tongue is called Adar, 	x	So <a href='JHN.xhtml#JN12_1'>John 12. 1</a> (Gk.).
-2 Maccabees	15	36	4	And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirteenth day of the twelfth month, which in the Syrian tongue is called Adar, the day before 	y	<a href='EST.xhtml#ET9_17'>Esth. 9. 17</a>, <a href='EST.xhtml#ET9_21'>21</a>.
+2 Maccabees	15	36	2	And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirtieth day of the twelfth month, which in the Syrian tongue is called 	w	See <a href='EZR.xhtml#ER6_15'>Ezra 6. 15</a>.
+2 Maccabees	15	36	3	And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirtieth day of the twelfth month, which in the Syrian tongue is called Adar, 	x	So <a href='JHN.xhtml#JN12_1'>John 12. 1</a> (Gk.).
+2 Maccabees	15	36	4	And they ordained all with a common decree in no case to let that day pass without solemnity, but to celebrate the thirtieth day of the twelfth month, which in the Syrian tongue is called Adar, the day before 	y	<a href='EST.xhtml#ET9_17'>Esth. 9. 17</a>, <a href='EST.xhtml#ET9_21'>21</a>.
 2 Maccabees	15	39	1		z	Comp. <a href='2MA.xhtml#M22_29'>ch. 2. 29</a>.
 2 Maccabees	15	4	1	And when they said, There is in heaven 	h	<a href='2MA.xhtml#M27_33'>ch. 7. 33</a>. So <a href='ESG.xhtml#EG16_16'>Esther 16. 16</a>.
 2 Maccabees	15	4	2	And when they said, There is in heaven a living Lord, and 	g	<a href='SIR.xhtml#SR46_6'>Ecclus. 46. 6</a>. <a href='2MA.xhtml#M215_29'>ver. 29</a> (Gk.). See <a href='1TI.xhtml#T16_15'>1 Tim. 6. 15</a>.
