@@ -63,7 +63,7 @@ Baruch	2	15	1		u	<a href='2KI.xhtml#K219_19'>2 Kin. 19. 19</a>. <a href='ISA.xht
 Baruch	2	15	2	that all the earth may know that thou art the Lord our God, because 	*	Gr, <span class='add'>thy name is called upon Israel</span>. So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='BAR.xhtml#BR2_26'>ver. 26</a>
 Baruch	2	15	3	that all the earth may know that thou art the Lord our God, because 	x	So <a href='DAN.xhtml#DN9_19'>Dan. 9. 19</a>. <a href='SIR.xhtml#SR36_12'>Ecclus. 36. 12</a>.
 Baruch	2	16	1	O Lord, 	y	<a href='DEU.xhtml#DT26_15'>Deut. 26. 15</a>. So <a href='ISA.xhtml#IS63_15'>Isai. 63. 15</a>.
-Baruch	2	16	2	O Lord, look down from thy holy house, and consider us: 	z	<a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>.
+Baruch	2	16	2	O Lord, look down from thine holy house, and consider us: 	z	<a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>.
 Baruch	2	17	1	Open thine eyes, and behold; 	a	See <a href='PSA.xhtml#PS6_5'>Ps. 6. 5</a>. So <a href='SIR.xhtml#SR17_27'>Ecclus. 17. 27</a>, <a href='SIR.xhtml#SR17_28'>28</a>.
 Baruch	2	17	2	Open thine eyes, and behold; for the dead that are in the graves, whose 	*	Gr. <span class='add'>spirit</span>, or, <span class='add'>life</span>.
 Baruch	2	18	1	but 	b	So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='S3Y.xhtml#PA1_16'>Song 16</a>.
@@ -71,9 +71,9 @@ Baruch	2	19	1		b	So <a href='DAN.xhtml#DN9_18'>Dan. 9. 18</a>. Comp. <a href='S3
 Baruch	2	2	1	to bring upon us great plagues, such as never happened under the whole heaven, as it came to pass in Jerusalem, 	a	<a href='DAN.xhtml#DN9_12'>Dan. 9. 12</a>, <a href='DAN.xhtml#DN9_13'>13</a>.
 Baruch	2	20	1	For thou hast sent out thy wrath and indignation upon us, 	c	Comp. <a href='DAN.xhtml#DN9_6'>Dan. 9. 6</a>.
 Baruch	2	23	1		e	See <a href='JER.xhtml#JR7_34'>Jer. 7. 34</a>.
-Baruch	2	23	2	I will cause to cease out of the cities of Juda, and from without Jerusalem, the voice of 	ee	<a href='BAR.xhtml#BR4_23'>ch. 4. 23</a> (Gk.).
-Baruch	2	23	3	I will cause to cease out of the cities of Juda, and from without Jerusalem, the voice of mirth, and the voice of 	ee	<a href='BAR.xhtml#BR4_23'>ch. 4. 23</a> (Gk.).
-Baruch	2	23	4	I will cause to cease out of the cities of Juda, and from without Jerusalem, the voice of mirth, and the voice of joy, the voice of the bridegroom, and the voice of the bride: and the whole land shall be 	f	See <a href='BAR.xhtml#BR2_4'>ver. 4</a>.
+Baruch	2	23	2	I will cause to cease out of the cites of Judah, and from without Jerusalem, the voice of 	ee	<a href='BAR.xhtml#BR4_23'>ch. 4. 23</a> (Gk.).
+Baruch	2	23	3	I will cause to cease out of the cites of Judah, and from without Jerusalem, the voice of mirth, and the voice of 	ee	<a href='BAR.xhtml#BR4_23'>ch. 4. 23</a> (Gk.).
+Baruch	2	23	4	I will cause to cease out of the cites of Judah, and from without Jerusalem, the voice of mirth, and the voice of joy, the voice of the bridegroom, and the voice of the bride: and the whole land shall be 	f	See <a href='BAR.xhtml#BR2_4'>ver. 4</a>.
 Baruch	2	24	1	But we would not hearken unto thy voice, to serve the king of Babylon: therefore hast thou 	g	<a href='BAR.xhtml#BR2_1'>ver. 1</a>.
 Baruch	2	24	2	But we would not hearken unto thy voice, to serve the king of Babylon: therefore hast thou made good the words that thou spakest by thy servants the prophets, namely, 	h	<a href='JER.xhtml#JR8_1'>Jer. 8. 1</a>, <a href='JER.xhtml#JR8_2'>2</a>.
 Baruch	2	25	1	And lo, 	h	<a href='JER.xhtml#JR8_1'>Jer. 8. 1</a>, <a href='JER.xhtml#JR8_2'>2</a>.
@@ -124,9 +124,9 @@ Baruch	3	20	1	Young men have seen light, and dwelt upon the earth: But 	t	<a hre
 Baruch	3	22	1	It hath not been heard of in Chanaan, 	u	<a href='JER.xhtml#JR49_7'>Jer. 49. 7</a>. So <a href='OBA.xhtml#OB1_8'>Obad. 8</a>, <a href='OBA.xhtml#OB1_9'>9</a>.
 Baruch	3	22	2	It hath not been heard of in Chanaan, Neither hath it been seen in 	v	See <a href='1CH.xhtml#R11_45'>1 Chr. 1. 45</a>.
 Baruch	3	23	1	The 	w	See <a href='1CH.xhtml#R15_10'>1 Chr. 5. 10</a>. Comp. <a href='1KI.xhtml#K14_30'>1 Kin. 4. 30</a>.
-Baruch	3	23	2	The Agarenes that seek wisdom upon earth, The merchants of 	x	<a href='GEN.xhtml#GN37_36'>Gen. 37. 36</a>?
-Baruch	3	23	3	The Agarenes that seek wisdom upon earth, The merchants of Merran and of 	v	See <a href='1CH.xhtml#R11_45'>1 Chr. 1. 45</a>.
-Baruch	3	23	4	The Agarenes that seek wisdom upon earth, The merchants of Merran and of Theman, The 	*	Or, <span class='add'>expounders</span>.
+Baruch	3	23	2	The Agarenes that seek wisdom upon earth, the merchants of 	x	<a href='GEN.xhtml#GN37_36'>Gen. 37. 36</a>?
+Baruch	3	23	3	The Agarenes that seek wisdom upon earth, the merchants of Meran and of 	v	See <a href='1CH.xhtml#R11_45'>1 Chr. 1. 45</a>.
+Baruch	3	23	4	The Agarenes that seek wisdom upon earth, the merchants of Meran and of Theman, the 	*	Or, <span class='add'>expounders</span>.
 Baruch	3	26	1	There were the 	y	<a href='SIR.xhtml#SR16_7'>Ecclus. 16. 7</a>.
 Baruch	3	26	2	There were the giants famous from the beginning, That were 	z	<a href='GEN.xhtml#GN6_4'>Gen. 6. 4</a>.
 Baruch	3	27	1	Those did not the Lord choose, Neither gave he 	t	<a href='BAR.xhtml#BR3_27'>ver. 27</a>, <a href='BAR.xhtml#BR3_36'>36</a>.
@@ -172,7 +172,7 @@ Baruch	4	24	1	Like as now 	d	<a href='BAR.xhtml#BR4_14'>ver. 14</a>, <a href='BA
 Baruch	4	24	2	Like as now the neighbours of Sion have seen your captivity: So shall they see shortly your salvation from our God, Which shall come upon you with great glory, And 	a	<a href='SIR.xhtml#SR25_11'>Ecclus. 25. 11</a>. So <a href='BAR.xhtml#BR4_24'>ver. 24</a>. <a href='BAR.xhtml#BR5_3'>ch. 5. 3</a>, <a href='BAR.xhtml#BR5_9'>9</a>.
 Baruch	4	24	3	Like as now the neighbours of Sion have seen your captivity: So shall they see shortly your salvation from our God, Which shall come upon you with great glory, And brightness of 	o	<a href='BAR.xhtml#BR4_10'>ver. 10</a>, <a href='BAR.xhtml#BR4_14'>14</a>, <a href='BAR.xhtml#BR4_20'>20</a>, <a href='BAR.xhtml#BR4_22'>22</a>, <a href='BAR.xhtml#BR4_24'>24</a>. <a href='BAR.xhtml#BR5_2'>ch. 5. 2</a>. So <a href='BAR.xhtml#BR4_8'>ver. 8</a>.
 Baruch	4	26	1		*	Or, <span class='add'>My darlings</span>. <a href='SUS.xhtml#SN1_31'>Susanna 31</a>.
-Baruch	4	27	1	Be of good comfort, O my children, and cry unto God: For you shall be remembered of him 	k	<a href='BAR.xhtml#BR4_29'>ver. 29</a>.
+Baruch	4	27	1	Be of good comfort, O my children, and cry unto God: for ye shall be remembered of him 	k	<a href='BAR.xhtml#BR4_29'>ver. 29</a>.
 Baruch	4	28	1	For as it was your mind 	kk	<a href='SIR.xhtml#SR51_13'>Ecclus. 51. 13</a> marg.
 Baruch	4	28	2	For as it was your mind to go astray from God: So, being returned, seek him 	l	See <a href='JOB.xhtml#JB19_3'>Job 19. 3</a>.
 Baruch	4	29	1	For he 	k	<a href='BAR.xhtml#BR4_29'>ver. 29</a>.
@@ -206,10 +206,10 @@ Baruch	6	11	1	Yea, they will give thereof to the 	*	Or, <span class='add'>which 
 Baruch	6	11	2	Yea, they will give thereof to the common harlots, and 	i	<a href='JER.xhtml#JR10_9'>Jer. 10. 9</a>.
 Baruch	6	11	3	Yea, they will give thereof to the common harlots, and deck them as men with garments, being 	c	<a href='BAR.xhtml#BR6_30'>ver. 30</a>, <a href='BAR.xhtml#BR6_39'>39</a>, <a href='BAR.xhtml#BR6_50'>50</a>, <a href='BAR.xhtml#BR6_55'>55</a>, <a href='BAR.xhtml#BR6_57'>57</a>, <a href='BAR.xhtml#BR6_70'>70</a>, <a href='BAR.xhtml#BR6_71'>71</a>. <a href='PSA.xhtml#PS115_4'>Ps. 115. 4</a>. &amp; <a href='PSA.xhtml#PS135_15'>135. 15</a>. <a href='WIS.xhtml#WS13_10'>Wisd. 13. 10</a>. <a href='2MA.xhtml#M22_2'>2 Macc. 2. 2</a>. So <a href='ISA.xhtml#IS44_8'>Isai. 44. 8–10</a>. &amp; <a href='ISA.xhtml#IS46_5'>46. 5</a>, <a href='ISA.xhtml#IS46_6'>6</a>. <a href='WIS.xhtml#WS14_8'>Wisd. 14. 8</a>.
 Baruch	6	12	1	Yet cannot these gods save themselves from 	j	<a href='BAR.xhtml#BR6_24'>ver. 24</a>. See <a href='JAS.xhtml#JM5_2'>James 5. 2</a>. Comp. <a href='BAR.xhtml#BR6_20'>ver. 20</a>.
-Baruch	6	12	2	Yet cannot these gods save themselves from rust and moths, though they be covered with 	i	<a href='JER.xhtml#JR10_9'>Jer. 10. 9</a>.
-Baruch	6	12	3	Yet cannot these gods save themselves from rust and moths, though they be covered with 	k	<a href='BAR.xhtml#BR6_72'>ver. 72</a>.
+Baruch	6	12	2	Yet cannot these gods save themselves from rust and moth, though they be covered with 	i	<a href='JER.xhtml#JR10_9'>Jer. 10. 9</a>.
+Baruch	6	12	3	Yet cannot these gods save themselves from rust and moth, though they be covered with 	k	<a href='BAR.xhtml#BR6_72'>ver. 72</a>.
 Baruch	6	13	1	They wipe their faces 	l	<a href='BAR.xhtml#BR6_17'>ver. 17</a>.
-Baruch	6	15	1	He hath also in his right hand a dagger and an axe: but cannot deliver himself from war and 	m	<a href='BAR.xhtml#BR6_18'>ver. 18</a>, <a href='BAR.xhtml#BR6_57'>57</a> (Gk.). <a href='SIR.xhtml#SR36_26'>Ecclus. 36. 26</a>. <a href='JHN.xhtml#JN18_40'>John 18. 40</a> (Gk.).
+Baruch	6	15	1	He hath also in his right hand a dagger and an ax: but cannot deliver himself from war and 	m	<a href='BAR.xhtml#BR6_18'>ver. 18</a>, <a href='BAR.xhtml#BR6_57'>57</a> (Gk.). <a href='SIR.xhtml#SR36_26'>Ecclus. 36. 26</a>. <a href='JHN.xhtml#JN18_40'>John 18. 40</a> (Gk.).
 Baruch	6	16	1		n	So <a href='BAR.xhtml#BR6_23'>ver. 23</a>, <a href='BAR.xhtml#BR6_29'>29</a>, <a href='BAR.xhtml#BR6_65'>65</a>, <a href='BAR.xhtml#BR6_69'>69</a>, <a href='BAR.xhtml#BR6_72'>72</a>. Comp. <a href='BAR.xhtml#BR6_40'>ver. 40</a>.
 Baruch	6	16	2	Whereby they are known not to be gods: 	n	So <a href='BAR.xhtml#BR6_23'>ver. 23</a>, <a href='BAR.xhtml#BR6_29'>29</a>, <a href='BAR.xhtml#BR6_65'>65</a>, <a href='BAR.xhtml#BR6_69'>69</a>, <a href='BAR.xhtml#BR6_72'>72</a>. Comp. <a href='BAR.xhtml#BR6_40'>ver. 40</a>.
 Baruch	6	16	3	Whereby they are known not to be gods: 	o	Comp. <a href='BAR.xhtml#BR6_4'>ver. 4</a>, <a href='BAR.xhtml#BR6_5'>5</a>.
@@ -222,8 +222,8 @@ Baruch	6	2	1	Because of the sins which ye have committed before God, 	a	<a href=
 Baruch	6	20	1	They are 	qq	<a href='BAR.xhtml#BR6_55'>ver. 55</a>.
 Baruch	6	20	2	They are as one of the beams of the temple, yet they say their hearts are 	*	Gr. <span class='add'>licked</span>.
 Baruch	6	23	1		n	So <a href='BAR.xhtml#BR6_23'>ver. 23</a>, <a href='BAR.xhtml#BR6_29'>29</a>, <a href='BAR.xhtml#BR6_65'>65</a>, <a href='BAR.xhtml#BR6_69'>69</a>, <a href='BAR.xhtml#BR6_72'>72</a>. Comp. <a href='BAR.xhtml#BR6_40'>ver. 40</a>.
-Baruch	6	23	2	By this you may know that they are no gods: 	n	So <a href='BAR.xhtml#BR6_23'>ver. 23</a>, <a href='BAR.xhtml#BR6_29'>29</a>, <a href='BAR.xhtml#BR6_65'>65</a>, <a href='BAR.xhtml#BR6_69'>69</a>, <a href='BAR.xhtml#BR6_72'>72</a>. Comp. <a href='BAR.xhtml#BR6_40'>ver. 40</a>.
-Baruch	6	23	3	By this you may know that they are no gods: 	o	Comp. <a href='BAR.xhtml#BR6_4'>ver. 4</a>, <a href='BAR.xhtml#BR6_5'>5</a>.
+Baruch	6	23	2	By this ye may know that they are no gods: 	n	So <a href='BAR.xhtml#BR6_23'>ver. 23</a>, <a href='BAR.xhtml#BR6_29'>29</a>, <a href='BAR.xhtml#BR6_65'>65</a>, <a href='BAR.xhtml#BR6_69'>69</a>, <a href='BAR.xhtml#BR6_72'>72</a>. Comp. <a href='BAR.xhtml#BR6_40'>ver. 40</a>.
+Baruch	6	23	3	By this ye may know that they are no gods: 	o	Comp. <a href='BAR.xhtml#BR6_4'>ver. 4</a>, <a href='BAR.xhtml#BR6_5'>5</a>.
 Baruch	6	24	1	Notwithstanding the gold that is about them to make them beautiful, except they 	r	<a href='SIR.xhtml#SR12_11'>Ecclus. 12. 11</a>.
 Baruch	6	24	2	Notwithstanding the gold that is about them to make them beautiful, except they wipe off the 	j	<a href='BAR.xhtml#BR6_24'>ver. 24</a>. See <a href='JAS.xhtml#JM5_2'>James 5. 2</a>. Comp. <a href='BAR.xhtml#BR6_20'>ver. 20</a>.
 Baruch	6	25	1	The things wherein there is no breath are bought for 	*	Or, <span class='add'>any price</span>.
@@ -280,13 +280,13 @@ Baruch	6	54	1	Neither 	x	So <a href='BAR.xhtml#BR6_64'>ver. 64</a>.
 Baruch	6	54	2	Neither can they judge their own cause, nor 	y	So <a href='BAR.xhtml#BR6_36'>ver. 36</a>, <a href='BAR.xhtml#BR6_38'>38</a>.
 Baruch	6	55	1	Whereupon when fire falleth upon the house of 	s	See <a href='BAR.xhtml#BR6_4'>ver. 4</a>.
 Baruch	6	55	2	Whereupon when fire falleth upon the house of gods of wood, or 	t	See <a href='BAR.xhtml#BR6_8'>ver. 8</a>.
-Baruch	6	55	3	Whereupon when fire falleth upon the house of gods of wood, or laid over with gold or silver, their priests will flee away, and escape; but they themselves shall be burnt asunder 	z	<a href='BAR.xhtml#BR6_20'>ver. 20</a>.
+Baruch	6	55	3	Whereupon when fire falleth upon the house of gods of wood, or laid over with gold or silver, their priests will flee away, and escape; but they themselves shall be burned asunder 	z	<a href='BAR.xhtml#BR6_20'>ver. 20</a>.
 Baruch	6	56	1	Moreover 	a	So <a href='BAR.xhtml#BR6_15'>ver. 15</a>, <a href='BAR.xhtml#BR6_58'>58</a>.
 Baruch	6	56	2	Moreover they cannot withstand any king or enemies: 	b	See <a href='BAR.xhtml#BR6_40'>ver. 40</a>.
 Baruch	6	57	1	Neither are those 	c	See <a href='BAR.xhtml#BR6_4'>ver. 4</a>.
 Baruch	6	57	2	Neither are those gods of wood, and 	d	See <a href='BAR.xhtml#BR6_8'>ver. 8</a>.
 Baruch	6	57	3	Neither are those gods of wood, and laid over with silver or gold, able to escape either from thieves or 	e	See <a href='BAR.xhtml#BR6_15'>ver. 15</a>.
-Baruch	6	58	1	Whose gold, and silver, and garments wherewith they are clothed, they that are strong do take, and go away withal: 	a	So <a href='BAR.xhtml#BR6_15'>ver. 15</a>, <a href='BAR.xhtml#BR6_58'>58</a>.
+Baruch	6	58	1	Whose gold, and silver, and garments wherewith they are clothed, they that are strong take, and go away withal: 	a	So <a href='BAR.xhtml#BR6_15'>ver. 15</a>, <a href='BAR.xhtml#BR6_58'>58</a>.
 Baruch	6	59	1	Therefore it is better to be a king that sheweth his power, or else 	f	So <a href='WIS.xhtml#WS13_11'>Wisd. 13. 11</a>. <a href='2TI.xhtml#T22_21'>2 Tim. 2. 21</a>.
 Baruch	6	6	1	But say ye in your hearts, O 	e	<a href='2MA.xhtml#M25_17'>2 Macc. 5. 17</a>, <a href='2MA.xhtml#M25_20'>20</a>. &amp; <a href='2MA.xhtml#M26_14'>6. 14</a>. &amp; <a href='2MA.xhtml#M215_22'>15. 22</a>. See <a href='SIR.xhtml#SR34_24'>Ecclus. 34. 24</a>.
 Baruch	6	60	1	For 	m	So <a href='BAR.xhtml#BR6_60'>ver. 60</a>.
@@ -310,7 +310,7 @@ Baruch	6	71	1	And likewise their 	c	See <a href='BAR.xhtml#BR6_4'>ver. 4</a>.
 Baruch	6	71	2	And likewise their gods of wood, and 	d	See <a href='BAR.xhtml#BR6_8'>ver. 8</a>.
 Baruch	6	71	3	And likewise their gods of wood, and laid over with silver and gold, are like to a white thorn in an orchard, that every bird sitteth upon; as also to 	o	Comp. <a href='BAR.xhtml#BR6_27'>ver. 27</a>.
 Baruch	6	72	1	And 	l	See <a href='BAR.xhtml#BR6_16'>ver. 16</a>.
-Baruch	6	72	2	And you shall know them to be no gods by the 	*	Or, <span class="notemark">pq</span> <span class='add'>purple and</span> <span class="notemark">p</span> <span class='add'>brightness</span>.
-Baruch	6	72	3	And you shall know them to be no gods by the bright purple that rotteth upon them: and 	q	<a href='BAR.xhtml#BR6_12'>ver. 12</a>.
+Baruch	6	72	2	And ye shall know them to be no gods by the 	*	Or, <span class="notemark">pq</span> <span class='add'>purple and</span> <span class="notemark">p</span> <span class='add'>brightness</span>.
+Baruch	6	72	3	And ye shall know them to be no gods by the bright purple that rotteth upon them: and 	q	<a href='BAR.xhtml#BR6_12'>ver. 12</a>.
 Baruch	6	8	1	As for their tongue, it is polished by the workman, and they themselves are 	g	<a href='BAR.xhtml#BR6_39'>ver. 39</a>, <a href='BAR.xhtml#BR6_50'>50</a>, <a href='BAR.xhtml#BR6_55'>55</a>, <a href='BAR.xhtml#BR6_57'>57</a>, <a href='BAR.xhtml#BR6_70'>70</a>, <a href='BAR.xhtml#BR6_71'>71</a>. <a href='ISA.xhtml#IS30_22'>Isai. 30. 22</a> (Gk.).
 Baruch	6	8	2	As for their tongue, it is polished by the workman, and they themselves are gilded and laid over with silver; yet are they but false, and 	h	<a href='PSA.xhtml#PS115_7'>Ps. 115. 7</a>. &amp; <a href='PSA.xhtml#PS135_16'>135. 16</a>.

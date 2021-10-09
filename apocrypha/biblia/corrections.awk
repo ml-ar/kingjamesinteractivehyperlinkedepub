@@ -3096,6 +3096,108 @@ if ($2 == "1")
 		}
 
 }
+else if ($2 == "2")
+	{
+
+
+		if ($3 == "16")
+		{
+
+$5 = gensub(/from thy/,"from thine",1,$5)
+			$5 = correctAllVerses($5, "O Lord, look down from thine holy house, and consider us: bow down thine ear, O Lord, to hear us.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+
+			$5 = correctAllVerses($5, "I will cause to cease out of the cites of Judah, and from without Jerusalem, the voice of mirth, and the voice of joy, the voice of the bridegroom, and the voice of the bride: and the whole land shall be desolate of inhabitants.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+}
+else if ($2 == "3")
+	{
+
+
+		if ($3 == "23")
+		{
+
+			$5 = correctAllVerses($5, "The Agarenes that seek wisdom upon earth, the merchants of Meran and of Theman, the authors of fables, and searchers out of understanding; none of these have known the way of wisdom, or remember her paths.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+}
+else if ($2 == "4")
+	{
+
+
+		if ($3 == "27")
+		{
+
+			$5 = correctAllVerses($5, "Be of good comfort, O my children, and cry unto God: for ye shall be remembered of him that brought these things upon you.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+}
+else if ($2 == "6")
+	{
+
+
+		if ($3 == "12")
+		{
+
+			$5 = correctAllVerses($5, "Yet cannot these gods save themselves from rust and moth, though they be covered with purple raiment.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "15")
+		{
+
+			$5 = correctAllVerses($5, "He hath also in his right hand a dagger and an ax: but cannot deliver himself from war and thieves.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "23")
+		{
+
+			$5 = correctAllVerses($5, "By this ye may know that they are no gods: therefore fear them not.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "55")
+		{
+
+$5 = gensub(/be burnt/,"be burned",1,$5)
+			$5 = correctAllVerses($5, "Whereupon when fire falleth upon the house of gods of wood, or laid over with gold or silver, their priests will flee away, and escape; but they themselves shall be burned asunder like beams.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+else if ($3 == "58")
+		{
+
+$5 = gensub(/strong do/,"strong",1,$5)
+			$5 = correctAllVerses($5, "Whose gold, and silver, and garments wherewith they are clothed, they that are strong take, and go away withal: neither are they able to help themselves.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+else if ($3 == "72")
+		{
+
+			$5 = correctAllVerses($5, "And ye shall know them to be no gods by the bright purple that rotteth upon them: and they themselves afterward shall be eaten, and shall be a reproach in the country.")
+
+				toReturn = $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7
+		}
+
+
+
+}
 }
 
 {
