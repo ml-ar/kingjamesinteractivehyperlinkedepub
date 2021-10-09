@@ -809,7 +809,7 @@ END {
                  
 
 
-#START WORK HERE 1: Feed footnotes.txt into this file and start troubleshooting
+#START WORK HERE 1: Bug! 1 footnote in Bel, 1 in Prayer of Manasseh, and 1 in Susanna not being inserted! 
 	for (x in footnotes) #for every book
 	{
 		xhtmlFile = folderPrefix bookFiles[x]
