@@ -131,6 +131,7 @@ xhtmlEndRegex = "(<hr />\\s*\n\\s*)?</div>\\s*\n</div></body></html>(\\s*|\n)*$"
 }
 
 
+
 #just like gensub, except it works on literals instead of regexes
 function literalgensub(literalPattern, literalSubstitution, number, string,  toReturn,  position,  mutilatedString,  matchArray,  i)
 {
@@ -594,7 +595,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes, footnoteNumber,  xhtmlWri
 }
 
 #writing Bel and the Dragon special cases
-function writeBel(  xhtmlFile, xhtmlVariable,  xhtmlWriteMe,  restOfCSSWriteMe,  lastMatchPosition,  i,  adhocFootnotes)
+function writeBel(  xhtmlFile, xhtmlVariable,  adhocFootnotes,  numberOf0and0)
 {
 if ("Bel and the Dragon" in footnotes)
 {
@@ -603,18 +604,19 @@ if ("Bel and the Dragon" in footnotes)
 
 		xhtmlVariable = fixEndingHorizontalRules(xhtmlVariable)
 
+                numberOf0and0 = length(footnotes["Bel and the Dragon"][0][0])+1
 		xhtmlVariable = insert0and0(xhtmlVariable, "Bel and the Dragon","<div class='is'>")
 
 
 
 		copySingleBookFootnotesArray("Bel and the Dragon", adhocFootnotes)
-		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+		writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes, numberOf0and0)
 		delete footnotes["Bel and the Dragon"]
 }
 }
 
 
-function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case
+function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes,  numberOf0and0) #I've modified the only title footnote found in the present resource in order to make this easier, if ever there are more you'll need a more general case
 {
 	if ("Susanna" in footnotes)
 	{
@@ -624,16 +626,17 @@ function writeSusanna(  xhtmlFile,  xhtmlVariable,  adhocFootnotes) #I've modifi
 
 
 
+			numberOf0and0 = length(footnotes["Susanna"][0][0])+1
 			xhtmlVariable = insert0and0(xhtmlVariable, "Susanna", "<div class='is'>")
 
 			copySingleBookFootnotesArray("Susanna", adhocFootnotes)
-			writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+			writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes, numberOf0and0)
 			delete footnotes["Susanna"]
 	}
 
 }
 
-function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
+function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes,  numberOf0and0)
 {
 
 	if ("Prayer of Manasseh" in footnotes)
@@ -644,11 +647,12 @@ function writeManasseh(  xhtmlFile,  xhtmlVariable,  adhocFootnotes)
 
 
 
+                        numberOf0and0 = length(footnotes["Prayer of Manasseh"][0][0])+1
 			xhtmlVariable = insert0and0(xhtmlVariable, "Prayer of Manasseh")
 
 
 			copySingleBookFootnotesArray("Prayer of Manasseh", adhocFootnotes)
-			writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes)
+			writeCSS(xhtmlFile, xhtmlVariable, adhocFootnotes, numberOf0and0)
 			delete footnotes["Prayer of Manasseh"]
 	}
 }
@@ -801,9 +805,9 @@ END {
 
 	#Do special cases first
 
+	writeBel();
 	writeSirach()
 	writeS3Y()
-	writeBel()
 	writeSusanna()
 	writeManasseh()
                  
