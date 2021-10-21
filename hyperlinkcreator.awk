@@ -713,11 +713,9 @@ next;
 
 						--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
 					}
-					else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /^\s*\S/)) #gotta find what book it is: 
+					else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /^\s*\S/) && theBook = getBookNameFromBookRegex(booksAndDigits[i])) #gotta find what book it is:; the second statement after the and is necessary because what if you have Heb. or 2000?
 					{
-
-						theBook = getBookNameFromBookRegex(booksAndDigits[i])
-
+						
 							if (!(theBook in verseLabels))
 							{
 								print "ERROR: could not find " theBook " in the verseLabels array."; exit 2
