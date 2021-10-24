@@ -151,9 +151,20 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 	else if (toReturn == "Samuel_I")
 	{
 	toReturn = "1 Samuel";
+	}			
+	else if (toReturn == "Kings_II")
+	{
+	toReturn = "2 Kings"
 	}
-			return toReturn;
+	else if (toReturn == "Kings_I")
+	{
+	toReturn = "1 Kings"
 	}
+
+	
+	
+return toReturn;
+}	
 
 #returns the ref id from the current record
 function getRefFromLine(  ref,  matchArray)
