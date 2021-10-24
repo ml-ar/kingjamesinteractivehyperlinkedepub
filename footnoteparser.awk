@@ -160,6 +160,14 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 	{
 	toReturn = "1 Kings"
 	}
+	else if (toReturn == "Chronicles_II")
+	{
+	toReturn = "2 Chronicles"
+	}
+	else if (toReturn == "Chronicles_I")
+	{
+	toReturn = "1 Chronicles"
+	}
 
 	
 	
