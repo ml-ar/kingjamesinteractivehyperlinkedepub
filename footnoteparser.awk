@@ -143,8 +143,14 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 		}
 	toReturn = patsplitArray[length(patsplitArray)];
 	toReturn = gensub(/<div id="[^"]+" class="type-part\s*([^"]+)">/,"\\1","1",toReturn)
+	
+	if (toReturn == "Samuel_I")
+	{
+	toReturn = "1 Samuel";
+	}
+	
 			return toReturn;
-			}
+	}
 
 #returns the ref id from the current record
 function getRefFromLine(  ref,  matchArray)
