@@ -2321,7 +2321,7 @@
 <div id="lf0610_footnote_nt2325" class="type-footnote note"><a id="lf0610_label_9204" href="#lf0610_footnote_nt2325_ref">‎∥ </a><p id="Bible_0610_OldAuth_25752">Or, goat.</p></div>
 <div id="lf0610_footnote_nt2326" class="type-footnote note"><a id="lf0610_label_9209" href="#lf0610_footnote_nt2326_ref">† </a><p id="Bible_0610_OldAuth_25753">Heb. a man a prophet.</p></div>
 <div id="lf0610_footnote_nt2327" class="type-footnote note"><a id="lf0610_label_9212" href="#lf0610_footnote_nt2327_ref">* </a><p id="Bible_0610_OldAuth_25754">2 Kings 17. 35. 38. Jer. 10. 2.</p></div>
-<div id="lf0610_footnote_nt2328" class="type-footnote note"><a id="lf0610_label_9214" href="#lf0610_footnote_nt2328_ref">* </a><p id="Bible_0610_OldAuth_25755">Heb. 11. 82, called Gedeon.</p></div>
+<div id="lf0610_footnote_nt2328" class="type-footnote note"><a id="lf0610_label_9214" href="#lf0610_footnote_nt2328_ref">* </a><p id="Bible_0610_OldAuth_25755">Heb. 11. 32, called Gedeon.</p></div>
 <div id="lf0610_footnote_nt2329" class="type-footnote note"><a id="lf0610_label_9215" href="#lf0610_footnote_nt2329_ref">† </a><p id="Bible_0610_OldAuth_25756">Heb. to cause it to flee.</p></div>
 <div id="lf0610_footnote_nt2330" class="type-footnote note"><a id="lf0610_label_9220" href="#lf0610_footnote_nt2330_ref">‎∥ </a><p id="Bible_0610_OldAuth_25757">Or, my thousand is the meanest.</p></div>
 <div id="lf0610_footnote_nt2331" class="type-footnote note"><a id="lf0610_label_9224" href="#lf0610_footnote_nt2331_ref">‎∥ </a><p id="Bible_0610_OldAuth_25758">Or, meat offering.</p></div>
