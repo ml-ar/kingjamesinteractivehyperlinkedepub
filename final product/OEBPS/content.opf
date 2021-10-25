@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" version="3.0" unique-identifier="uid">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="uid">urn:uuid:f365941f-598f-5332-8999-b52456c5f69a</dc:identifier>
+    <dc:identifier id="uid">urn:uuid:57276ea1-2e13-466c-9021-cee519f7d1ec</dc:identifier>
     <dc:title>King James Version + Apocrypha</dc:title>
     <dc:language>en</dc:language>
     <dc:rights>Public Domain</dc:rights>
