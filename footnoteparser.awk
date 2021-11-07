@@ -394,16 +394,28 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 
 	if (!precedingWords || match(precedingWords,/^¶?\s*$/)) #there are no preceding words; simply put the footnote after the spans that mark the beginning of the line
 	{
-		if (!match(fullVerseLine, /([\n^])((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+
+		if (fullVerseLine ~ /<div class='psalmlabel'/)
 		{
-			print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+                       if (!match(fullVerseLine, /(\n?<div class='psalmlabel'.*<div class='d'>)((<a href='#FN[^>]+>[^<]+<[^>]+>)*)([^\n$]*)([\n$])/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+			{
+				print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+			}
+                     	toReturn = matchArray[1] matchArray[2] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" matchArray[4] matchArray[5]
+		}
+		else
+		{
+
+			if (!match(fullVerseLine, /([\n^])((<[^<]+<\/[^>]+>)*)(¶\s*)?((<a href='#FN[^>]+>[^<]+<[^>]+>)*)/, matchArray)) #the last parenthesis in the regex is to avoid multiple footnotes at the beginning
+			{
+				print "ERROR: Could not find start of verse spans in " fullVerseLine; exit 18 
+			}
+
+			toReturn = matchArray[1] matchArray[2] matchArray[4] matchArray[5] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
+				toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
 		}
 
-		toReturn = matchArray[1] matchArray[2] matchArray[4] matchArray[5] "<a href='#FN"footnoteNumber"' epub:type='noteref' class='noteref'>"footnoteSymbol"</a>" #now add the footnote symbol
-			toReturn = toReturn substr(fullVerseLine, length(matchArray[0])+1) #add the rest of the verse
-			return toReturn
-
-
+                     return toReturn;
 	}
 
 
@@ -413,8 +425,7 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 		toReturn = ""
 #now we split the matched verse into its constituent parts
 
-		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|((<a href='#FN[^>]+>[^<]+<[^>]+>)+)|([[:digit:]]+&#[[:digit:]]+;)|(\s*[\n$]\s*)/, sepsArray)
-
+		split(fullVerseLine, splitArray, /(<[^>]+>)|(\s*(^|\n)\s*<span class="verse"[^>]+>[^<]+<\/span>(<a href='#FN[^>]+>[^<]+<[^>]+>)*\s*)|((<a href='#FN[^>]+>[^<]+<[^>]+>)+)|([[:digit:]]+&#[[:digit:]]+;)|(<div class='psalmlabel'[^<]+<\/div>\n\s*<div class='d'>)|(\s*[\n$]\s*)/, sepsArray)
 
 		verseTextOnly = ""
 		for (o in splitArray)
@@ -488,9 +499,9 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 
 						if (k == "0" && book ~ /Psalm/) #special case for Psalm; footnote can be in the header
 						{
-							if (!(versePosition = match(xhtmlVariable,"<div class='psalmlabel' id='PS"chapter"_0'>[[:space:]]*"chapter"[[:space:]]*</div>\n([^\n]*)</div>\n", matchArray))) #first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
+							if (!(versePosition = match(xhtmlVariable,"<div class='psalmlabel' id='PS"j"_0'>[[:space:]]*"j"[[:space:]]*</div>\n([^\n]*)</div>\n", matchArray))) #first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
 							{
-								print "ERROR: couldn't find the header for Psalm " chapter " in xhtmlFile: " xhtmlFile; exit 14 
+								print "ERROR: couldn't find the header for Psalm " j " in xhtmlFile: " xhtmlFile; exit 14 
 							}
 						}
 						else if (!(versePosition = match(xhtmlVariable,"[\n^]\\s*<span class=\"verse\" id=\"([A-Z])+"leadingNumber""j"_"k"\">[[:digit:]]+&#[[:digit:]]+;</span>[^\n$]+(</\\s*div>\\s*)?[\n$]",matchArray)))#first we need to match the whole thing, because there might be a span at the end we need to compensate for in the original verse
@@ -657,6 +668,11 @@ BEGIN {
 
 
 }
+
+/^\s*$/ { #skip empty lines
+next;
+}
+
 
 {
 match($0,/nt[[:digit:]]+_ref">\s*(\S)+\s*<\/a>/, matchArray)
