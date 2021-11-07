@@ -143,35 +143,39 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 		}
 	toReturn = patsplitArray[length(patsplitArray)];
 	toReturn = gensub(/<div id="[^"]+" class="type-part\s*([^"]+)">/,"\\1","1",toReturn)
-	
-	if (toReturn == "Samuel_II")
-	{
-	toReturn = "2 Samuel";
-	}
-	else if (toReturn == "Samuel_I")
-	{
-	toReturn = "1 Samuel";
-	}			
-	else if (toReturn == "Kings_II")
-	{
-	toReturn = "2 Kings"
-	}
-	else if (toReturn == "Kings_I")
-	{
-	toReturn = "1 Kings"
-	}
-	else if (toReturn == "Chronicles_II")
-	{
-	toReturn = "2 Chronicles"
-	}
-	else if (toReturn == "Chronicles_I")
-	{
-	toReturn = "1 Chronicles"
-	}
 
-	
-	
-return toReturn;
+			if (toReturn == "Samuel_II")
+			{
+			toReturn = "2 Samuel";
+			}
+			else if (toReturn == "Samuel_I")
+			{
+			toReturn = "1 Samuel";
+			}			
+			else if (toReturn == "Kings_II")
+			{
+			toReturn = "2 Kings"
+			}
+			else if (toReturn == "Kings_I")
+			{
+			toReturn = "1 Kings"
+			}
+			else if (toReturn == "Chronicles_II")
+			{
+			toReturn = "2 Chronicles"
+			}
+			else if (toReturn == "Chronicles_I")
+			{
+				toReturn = "1 Chronicles"
+			}
+			else if (toReturn == "Song_of_Solomon")
+			{
+				toReturn = "Song of Solomon"
+			}
+
+
+
+	return toReturn;
 }	
 
 #returns the ref id from the current record
@@ -606,6 +610,7 @@ BEGIN {
 	bookFiles["Proverbs"] = "PRO.xhtml"
 	bookFiles["Ecclesiastes"] = "ECC.xhtml"
 	bookFiles["Song of Solomon"] = "SNG.xhtml"
+	bookFiles["The Song of Solomon"] = bookFiles["Song of Solomon"]
 	bookFiles["Isaiah"] = "ISA.xhtml"
 	bookFiles["Jeremiah"] = "JER.xhtml"
 	bookFiles["Lamentations"] = "LAM.xhtml"
