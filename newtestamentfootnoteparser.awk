@@ -462,6 +462,18 @@ function getModifiedVerse(fullVerseLine, precedingWords, footnoteSymbol, footnot
 function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSSWriteMe,  newVerse,  verseID,  footnoteNumber,  endnotesPosition,  leadingNumber,  versePosition,  matchArray,  i,  j,  k,  l,  m,  n)
 {
 	footnoteNumber = 1
+
+
+#if the end of the document looks like this:
+#<span class="verse" id="M116_24">24&#160;</span>Behold, these are written in the chronicles of his priesthood, from the time he was made high priest after his father. </div><div class="footnote">
+#<hr />
+#</div>
+#</div></body></html>
+
+xhtmlVariable = gensub(/<div class="footnote">\n<hr \/>\n<\/div>\n<\/div><\/body><\/html>\s*$/,"<div class=\"footnote\">\n<hr />\n\n<hr />\n</div>\n</div></body></html>",1,xhtmlVariable)
+
+
+
 		if (!(endnotesPosition = match(xhtmlVariable,xhtmlEndRegex, matchArray)))
 		{
 			print "ERROR: could not find the beginning of footnotes for " xhtmlFile; exit 13
@@ -542,7 +554,7 @@ function writeCSS(xhtmlFile, xhtmlVariable, footnotes,  xhtmlWriteMe,  restOfCSS
 
 BEGIN {
 
-	xhtmlEndRegex = "\\s*\n<hr />\\s*\n\\s*</div>\\s*\n</div></body></html>(\\s*|\n)*$"
+	xhtmlEndRegex = "\\s*\n<hr />\\s*\n\\s*</div>\\s*\n</div></body></html>(\\s|\n)*$"
 
 	webpageReferenceFile = "New Testament HTML/completemarkupendnotesremovedmodified.txt"
 	webpageReferenceVariable = storeTextFileInVariable(webpageReferenceFile)
