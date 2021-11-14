@@ -713,7 +713,7 @@ next;
 
 						--i #we have to substract one, because if we're out of the while loop then we've overshot (see the two lines directly above)
 					}
-					else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /^\s*\S/) && theBook = getBookNameFromBookRegex(booksAndDigits[i])) #gotta find what book it is:; the second statement after the and is necessary because what if you have Heb. or 2000?
+					else if (!(booksAndDigits[i] ~ /Heb\./ && booksAndDigitsSeperators[i] ~ /^\s*\S/) && !(booksAndDigits[i] ~ /Heb$/ && booksAndDigitsSeperators[i] ~ /^rew,/) && theBook = getBookNameFromBookRegex(booksAndDigits[i])) #gotta find what book it is:the statement !~ /^rew,/ is necessary, otherwise something like "Hebrew," will be matched as a book (i.e., booksAndDigits[i] == "Heb" booksAndDigitsSeperators[i] == "rew,"); the second statement after the and is necessary because what if you have "Heb. or 2000?'
 					{
 						
 							if (!(theBook in verseLabels))

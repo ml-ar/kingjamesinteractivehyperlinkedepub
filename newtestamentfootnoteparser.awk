@@ -164,6 +164,10 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 			{
 			return "Acts"
 			}
+			if (toReturn == "To_The_Romans")
+			{
+			return "Romans"
+			}
 
 
 
