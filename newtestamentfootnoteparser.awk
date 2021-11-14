@@ -146,20 +146,24 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 
 			if (toReturn == "S_Matthew")
 			{
-                             return "Matthew"
+			return "Matthew"
 			}
-            if (toReturn == "S_Mark")
+			if (toReturn == "S_Mark")
 			{
-                             return "Mark"
+			return "Mark"
 			}
 			if (toReturn == "S_Luke")
 			{
-                             return "Luke"
+			return "Luke"
+			}
+			if (toReturn == "S_John")
+			{
+			return "John"
 			}
 
 
 
-	return toReturn;
+			return toReturn;
 }	
 
 #returns the ref id from the current record
