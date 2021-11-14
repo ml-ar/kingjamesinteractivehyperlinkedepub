@@ -148,6 +148,14 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 			{
                              return "Matthew"
 			}
+            if (toReturn == "S_Mark")
+			{
+                             return "Mark"
+			}
+			if (toReturn == "S_Luke")
+			{
+                             return "Luke"
+			}
 
 
 
@@ -268,6 +276,7 @@ function getPrecedingVerseTextFromRef(ref,  regex,  matchArray,  splitArray,  se
 	matchArray[0] = gensub(/^\s*|\s*$/,"","1",matchArray[0]) #getting rid of leading and trailing whitespace
         matchArray[0] =  literalgensub("&#xB6;","¶","g",matchArray[0]) #convert html hex to pilcrow
         matchArray[0] = literalgensub("&#x2019;","’","g",matchArray[0]) #convert html apostprohe to smart apostrophes
+        matchArray[0] = literalgensub("&#xE6;","æ","g",matchArray[0]) #convert html apostprohe to smart apostrophes
 		matchArray[0] = gensub(/&#x([A-F]|[[:digit:]])+;\s*/,"","g",matchArray[0]) #now get rid of all remaining hex digits
 
 		split(matchArray[0], splitArray, /(<[^>]+>)|(<[^>]+>\s*[[:digit:]]+\s*<[^>]+>)|(<[^>]+class="footnote-link type-footnote">[^<]+<[^>]+>)|(\s*<span class="pb">(([^<])|((<span class=[^<]+<\/span>)))+<\/span>)/, sepsArray) #the second to last term is to avoid the already placed footnote symbols in the web resource 
