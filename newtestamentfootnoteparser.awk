@@ -192,6 +192,14 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 			{
 				return "1 Timothy"
 			}
+			if (toReturn == "Peter_II")
+			{
+				return "2 Peter"
+			}
+			if (toReturn == "Peter_I")
+			{
+				return "1 Peter"
+			}
 
 			return toReturn;
 }	
