@@ -166,9 +166,24 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 			}
 			if (toReturn == "To_The_Romans")
 			{
-			return "Romans"
+				return "Romans"
 			}
-
+			if (toReturn == "Corinthians_I")
+			{
+				return "1 Corinthians"
+			}
+			if (toReturn == "Corinthians_II")
+			{
+				return "2 Corinthians"
+			}
+			if (toReturn == "Thessalonians_II")
+			{
+				return "2 Thessalonians"
+			}
+			if (toReturn == "Thessalonians_I")
+			{
+				return "1 Thessalonians"
+			}
 
 
 			return toReturn;
