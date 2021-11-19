@@ -184,7 +184,14 @@ function inferBookFromRefId(ref,  refLocationInWebPagereference,  curtailedWebpa
 			{
 				return "1 Thessalonians"
 			}
-
+			if (toReturn == "Timothy_II")
+			{
+				return "2 Timothy"
+			}
+			if (toReturn == "Timothy_I")
+			{
+				return "1 Timothy"
+			}
 
 			return toReturn;
 }	
