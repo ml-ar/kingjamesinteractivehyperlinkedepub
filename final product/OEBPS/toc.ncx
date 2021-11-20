@@ -7,12 +7,12 @@
     <meta content="0" name="dtb:maxPageNumber" />
   </head>
   <docTitle>
-    <text>King James Version + Apocrypha</text>
+    <text>HOLY BIBLE</text>
   </docTitle>
   <navMap>
     <navPoint id="navPoint1" playOrder="1">
       <navLabel>
-        <text>King James Version + Apocrypha</text>
+        <text>HOLY BIBLE</text>
       </navLabel>
       <content src="cover.xhtml" />
     </navPoint>
