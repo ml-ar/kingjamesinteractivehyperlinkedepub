@@ -91,6 +91,7 @@
     <item href="ZEC.xhtml" id="xzec" media-type="application/xhtml+xml" />
     <item href="ZEP.xhtml" id="xzep" media-type="application/xhtml+xml" />
     <item href="copyright.xhtml" id="xcopyright" media-type="application/xhtml+xml" />
+	<item href="changes.xhtml" id="xchanges" media-type="application/xhtml+xml" />
     <item href="cover.png" id="cover-image" media-type="image/png" properties="cover-image" />
     <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml" />
     <item href="epub.css" id="cepub" media-type="text/css" />
@@ -104,6 +105,7 @@
   <spine toc="ncx">
     <itemref idref="cover" linear="no" />
     <itemref idref="xcopyright" linear="no" />
+	<itemref idref="xchanges" linear="no" />
     <itemref idref="xindex" linear="no" />
     <itemref idref="xfrt" linear="no" />
     <itemref idref="xgen" linear="yes" />
