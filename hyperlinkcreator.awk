@@ -206,9 +206,9 @@ BEGIN {
 		verseLabels["James"] = "JM"
 		verseLabels["1 Peter"] = "P1"
 		verseLabels["2 Peter"] = "P2"
-		verseLabels["1 John"] = "1JN"
-		verseLabels["2 John"] = "2JN"
-		verseLabels["3 John"] = "3JN"
+		verseLabels["1 John"] = "J1"
+		verseLabels["2 John"] = "J2"
+		verseLabels["3 John"] = "J3"
 		verseLabels["Jude"] = "JD"
 		verseLabels["Revelation"] = "RV"
 
